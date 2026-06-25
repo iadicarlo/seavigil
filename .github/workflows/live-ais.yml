@@ -8,7 +8,7 @@ name: Near-real-time AIS refresh
 
 on:
   schedule:
-    - cron: "*/30 * * * *"   # every 30 min (best-effort)
+    - cron: "0 * * * *"   # hourly (GitHub cron is best-effort)
   workflow_dispatch:
 
 permissions:
@@ -44,15 +44,20 @@ jobs:
           uv run --with websockets python scripts/fetch_live_ais.py \
             --bbox=-24.5,142.5,-10.5,154.0 --seconds 90 --max 20000 \
             --out data/positions/live_ais_real.csv
-          uv run python -m seavigil.alert --positions data/positions/live_ais_real.csv
-          uv run python -m seavigil.site
+          # Keep the previous live view if the (throttled) stream was too quiet.
+          ROWS=$(($(wc -l < data/positions/live_ais_real.csv) - 1))
+          echo "live positions: $ROWS"
+          if [ "$ROWS" -lt 3 ]; then echo "Too few live positions; keeping previous view."; exit 0; fi
+          # Write to the LIVE view only (./data/live) so the curated homepage is untouched.
+          uv run python -m seavigil.alert --positions data/positions/live_ais_real.csv --out results/live
+          uv run python -c "from seavigil import site; print(site.build_site('results/live/incidents.json', out_dir='web/data/live'))"
       - name: Commit refreshed data if changed
         run: |
           NAME="seavigil-bot"
           HOST="users.noreply.github.com"
           git config user.name "$NAME"
           git config user.email "${NAME}@${HOST}"
-          git add results/incidents web/data
+          git add results/live web/data/live
           if git diff --staged --quiet; then
             echo "No data changes."
           else

@@ -80,6 +80,7 @@
        Protected Areas. Click a marker for the per-incident reason.</p>
     <p class="disclaimer">Illustrative demo: approximate MPA boxes, in-sample scores,
        <em>apparent</em> fishing - an inspection lead, not proof of illegality.</p>
+    <p class="disclaimer" id="modelink"></p>
   </div>
 
   <div id="legend" class="panel">
@@ -123,10 +124,15 @@
 
     map.on('load', async () => {
       map.resize();
-      const mpas = await (await fetch('./data/mpas.geojson')).json();
-      const incidents = await (await fetch('./data/incidents.geojson')).json();
-      const tracks = await (await fetch('./data/tracks.geojson')).json();
-      const summary = await (await fetch('./data/summary.json')).json();
+      // Homepage shows the curated showcase (./data); ?live shows the near-real-time
+      // monitor (./data/live) refreshed in the cloud by the live-ais workflow.
+      const LIVE = new URLSearchParams(location.search).has('live');
+      const DIR = LIVE ? './data/live' : './data';
+      setMode(LIVE);
+      const mpas = await (await fetch(`${DIR}/mpas.geojson`)).json();
+      const incidents = await (await fetch(`${DIR}/incidents.geojson`)).json();
+      const tracks = await (await fetch(`${DIR}/tracks.geojson`)).json();
+      const summary = await (await fetch(`${DIR}/summary.json`)).json();
       renderStats(summary);
 
       map.addSource('mpas', { type: 'geojson', data: mpas });
@@ -151,6 +157,13 @@
           'circle-color': ['match', ['get', 'kind'], 'dark_vessel_sar', '#e0455e', '#f4a236'],
           'circle-stroke-color': '#ffffff', 'circle-stroke-width': 1.2, 'circle-opacity': 0.9
         } });
+
+      function setMode(live) {
+        const el = document.getElementById('modelink');
+        el.innerHTML = live
+          ? '<strong style="color:var(--ais)">Near-real-time</strong> (live AIS, Great Barrier Reef, cloud-refreshed). <a href="./" style="color:var(--fg)">Back to showcase</a>'
+          : '<a href="?live" style="color:var(--ais)">View the near-real-time monitor &rarr;</a>';
+      }
 
       function renderStats(s) {
         const rows = o => Object.entries(o).map(([k, v]) =>

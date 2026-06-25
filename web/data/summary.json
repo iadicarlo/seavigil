@@ -1,1 +1,1 @@
-{"total": 5, "by_type": {"ais_fishing_incident": 5}, "by_severity": {"low": 5}, "by_mpa": {"Great Barrier Reef Marine Park": 5}, "by_gear": {"unknown": 5}, "by_flag": {}}
+{"total": 29, "by_type": {"ais_fishing_incident": 25, "dark_vessel_sar": 4}, "by_severity": {"high": 28, "low": 1}, "by_mpa": {"Phoenix Islands Protected Area": 24, "Papah\u0101naumoku\u0101kea Marine National Monument": 2, "Gal\u00e1pagos Marine Reserve": 2, "Great Barrier Reef Marine Park": 1}, "by_gear": {"drifting_longlines": 21, "purse_seines": 4, "SAR (dark)": 4}, "by_flag": {}}
