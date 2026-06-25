@@ -144,6 +144,18 @@ def _escalate_by_mpa(dossiers: list[dict], mpa_idx: MPAIndex) -> None:
         d["explanation"] = {"method": method, "drivers": drivers}
 
 
+def _load_behaviors() -> list[dict]:
+    """AIS spoofing dossiers from the real NOAA tracks, if extracted. Going-dark is
+    omitted: it needs satellite AIS to be credible (the terrestrial feed finds none)."""
+    tracks = ROOT / "data" / "positions" / "noaa_tracks.csv"
+    if not tracks.exists():
+        return []
+    import pandas as pd  # noqa: PLC0415
+
+    from seavigil import spoofing  # noqa: PLC0415
+    return spoofing.build_spoofing_dossiers(pd.read_csv(tracks))
+
+
 def main() -> None:
     existing = json.loads(INC_JSON.read_text())
     ais = [d for d in existing if d.get("type") != "dark_vessel_sar"]
@@ -173,13 +185,15 @@ def main() -> None:
     _escalate_by_mpa(dark, mpa_idx)
     sar = _select_diverse(dark)
 
+    behaviors = _load_behaviors()  # AIS spoofing from real NOAA tracks (if present)
+
     # Clean slate: drop every old per-incident Markdown so no orphans linger.
     for p in INC_DIR.glob("*.md"):
         if p.name != "INDEX.md":
             p.unlink()
 
-    merged = enrich_jurisdiction(ais + sar)  # tag each incident with its EEZ + foreign flag
-    enrich_evidence(merged)                  # stamp tamper-evident hash + schema
+    merged = enrich_jurisdiction(ais + sar + behaviors)  # tag each with its EEZ + foreign flag
+    enrich_evidence(merged)                               # stamp tamper-evident hash + schema
     write_dossiers(merged, INC_DIR)
 
     by_mpa: dict = {}

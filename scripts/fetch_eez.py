@@ -37,6 +37,7 @@ TARGETS = {
     8450: "Phoenix Islands EEZ (Kiribati)",
     8453: "Hawaii EEZ (United States)",
     21787: "Easter Island EEZ (Chile)",
+    8456: "United States EEZ",  # contiguous US (covers the West Coast spoofing demo)
 }
 
 

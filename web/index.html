@@ -144,6 +144,8 @@
       <span class="dot" style="background:var(--ais);color:var(--ais)"></span>AIS apparent fishing (SHAP-explained)</div>
     <div class="legrow" data-layers="incident-sar"><input type="checkbox" checked />
       <span class="dot" style="background:var(--sar);color:var(--sar)"></span>Dark vessel (SAR, not broadcasting AIS)</div>
+    <div class="legrow" data-layers="incident-spoof"><input type="checkbox" checked />
+      <span class="dot" style="background:#c084fc;color:#c084fc"></span>AIS spoofing (impossible movement)</div>
     <div class="legrow" data-layers="tracks"><input type="checkbox" checked />
       <span class="swatch-line" style="border-color:var(--ais);box-shadow:0 0 6px var(--ais)"></span>Vessel tracks</div>
     <div class="legrow" data-layers="mpas"><input type="checkbox" checked />
@@ -236,6 +238,7 @@
       'Phoenix Islands EEZ (Kiribati)': { center: [-172, -3.5], zoom: 4.8 },
       'Hawaii EEZ (United States)': { center: [-168, 24], zoom: 3.4 },
       'Easter Island EEZ (Chile)': { center: [-109.4, -27.1], zoom: 4.6 },
+      'United States EEZ': { center: [-122, 36], zoom: 4.4 },
     };
     const flyToZone = (name) => {
       const v = MPA_VIEWS[name] || EEZ_VIEWS[name] || EEZ_VIEWS[(name || '').replace(/ \(outside MPA\)$/, '')];
@@ -296,12 +299,12 @@
       map.addLayer({ id: 'incident-glow', type: 'circle', source: 'incidents',
         paint: {
           'circle-radius': ['interpolate', ['linear'], ['coalesce', ['get', 'score'], 0.8], 0.5, 9, 1, 16],
-          'circle-color': ['match', ['get', 'kind'], 'dark_vessel_sar', '#e0455e', '#f4a236'],
+          'circle-color': ['match', ['get', 'kind'], 'dark_vessel_sar', '#e0455e', 'ais_spoofing', '#c084fc', '#f4a236'],
           'circle-opacity': 0.28, 'circle-blur': 1 } });
       map.addLayer({ id: 'incident-pts', type: 'circle', source: 'incidents',
         paint: {
           'circle-radius': ['interpolate', ['linear'], ['coalesce', ['get', 'score'], 0.8], 0.5, 3.5, 1, 7],
-          'circle-color': ['match', ['get', 'kind'], 'dark_vessel_sar', '#e0455e', '#f4a236'],
+          'circle-color': ['match', ['get', 'kind'], 'dark_vessel_sar', '#e0455e', 'ais_spoofing', '#c084fc', '#f4a236'],
           'circle-stroke-color': ['case',
             ['boolean', ['feature-state', 'selected'], false], '#3ff0c0',
             ['boolean', ['feature-state', 'hover'], false], '#ffffff', '#081620'],
@@ -338,7 +341,7 @@
       const v = document.getElementById('vintage');
       v.innerHTML = live
         ? `Live AIS stream (Great Barrier Reef).${asof} <em>Apparent</em> fishing, an inspection lead, not proof.`
-        : 'Illustrative sample: AIS apparent-fishing (2013-2014 GFW labels) + real GFW dark-vessel SAR (2024), real WDPA boundaries (simplified). Not live. <em>Apparent</em> fishing, not proof.';
+        : 'Illustrative sample: AIS apparent-fishing (2013-2014 GFW labels) + real GFW dark-vessel SAR (2024) + AIS spoofing (NOAA 2024), real WDPA / EEZ boundaries. Not live. An inspection lead, not proof.';
       document.getElementById('modelink').innerHTML = live
         ? '<a href="./" style="color:var(--fg)">&larr; Back to showcase</a>'
         : '<a href="?live">View the near-real-time monitor &rarr;</a>';
@@ -347,7 +350,8 @@
     function renderStats(s) {
       const rows = o => Object.entries(o).map(([k, v]) =>
         `<div class="stat-row"><span>${k}</span><span>${v}</span></div>`).join('');
-      const tl = { ais_fishing_incident: 'AIS fishing', dark_vessel_sar: 'Dark (SAR)' };
+      const tl = { ais_fishing_incident: 'AIS fishing', dark_vessel_sar: 'Dark (SAR)',
+        ais_spoofing: 'AIS spoofing', ais_disabling: 'Going dark' };
       const byType = Object.fromEntries(Object.entries(s.by_type).map(([k, v]) => [tl[k] || k, v]));
       const sev = s.by_severity || {};
       const bySev = ['high', 'medium', 'low'].filter(k => sev[k]);
@@ -378,11 +382,12 @@
     };
     function wireLayerToggles() {
       // AIS and SAR share the incident layers; drive them with a filter instead of visibility.
-      const shown = { ais: true, sar: true };
+      const shown = { ais: true, sar: true, spoof: true };
       const applyIncidentFilter = () => {
         const kinds = [];
         if (shown.ais) kinds.push('ais_fishing_incident');
         if (shown.sar) kinds.push('dark_vessel_sar');
+        if (shown.spoof) kinds.push('ais_spoofing', 'ais_disabling');
         const f = kinds.length ? ['in', ['get', 'kind'], ['literal', kinds]] : ['==', ['get', 'kind'], '__none__'];
         ['incident-glow', 'incident-pts'].forEach(id => map.setFilter(id, f));
       };
@@ -394,6 +399,7 @@
           row.classList.toggle('off', !cb.checked);
           if (key === 'incident-ais') { shown.ais = cb.checked; applyIncidentFilter(); }
           else if (key === 'incident-sar') { shown.sar = cb.checked; applyIncidentFilter(); }
+          else if (key === 'incident-spoof') { shown.spoof = cb.checked; applyIncidentFilter(); }
           else (LAYER_GROUPS[key] || []).forEach(id => {
             if (map.getLayer(id)) map.setLayoutProperty(id, 'visibility', cb.checked ? 'visible' : 'none');
           });
@@ -433,15 +439,20 @@
         detail.querySelector('.close').focus();
       });
 
+      const KIND_LABEL = { dark_vessel_sar: 'Dark vessel (SAR)', ais_spoofing: 'AIS spoofing',
+        ais_disabling: 'Going dark (AIS)', ais_fishing_incident: 'AIS apparent fishing' };
+      const KIND_COLOR = { dark_vessel_sar: 'var(--sar)', ais_spoofing: '#c084fc',
+        ais_disabling: '#ffd24a', ais_fishing_incident: 'var(--ais)' };
+
       function renderDossier(p) {
-        const isSar = p.kind === 'dark_vessel_sar';
+        const isAttr = ['dark_vessel_sar', 'ais_spoofing', 'ais_disabling'].includes(p.kind);
         const sevBit = p.severity
           ? `<span class="sev sev-${p.severity}">${p.severity.toUpperCase()}</span> <span style="color:var(--muted)">${p.severity_reason || ''}</span>` : '';
         const scoreBit = (p.score !== '' && p.score != null) ? `<span style="color:var(--muted)"> &middot; score ${p.score}</span>` : '';
         const who = (p.flag_emoji ? p.flag_emoji + ' ' : '') + (p.ship_name || p.vessel || 'unknown');
         const idBits = [p.flag, p.ship_type, p.destination ? 'to ' + p.destination : ''].filter(Boolean).join(' &middot; ');
-        const kindLabel = isSar ? 'Dark vessel (SAR)' : 'AIS apparent fishing';
-        const kindColor = isSar ? 'var(--sar)' : 'var(--ais)';
+        const kindLabel = KIND_LABEL[p.kind] || 'AIS apparent fishing';
+        const kindColor = KIND_COLOR[p.kind] || 'var(--ais)';
         detail.innerHTML = `
           <button type="button" class="close" aria-label="Close incident details">&times;</button>
           <h3>${esc(p.mpa)}</h3>
@@ -451,7 +462,7 @@
           ${eezRow(p)}
           <div class="row"><strong>Gear / source:</strong> ${esc(p.gear || 'n/a')}</div>
           <div class="row"><strong>When (UTC):</strong> ${esc(p.when || 'n/a')}</div>
-          ${whyBlock(p, isSar)}
+          ${whyBlock(p, isAttr)}
           ${p.baseline ? `<div class="row" style="color:var(--muted)"><strong style="color:var(--teal-bright)">Vs. baseline:</strong> ${esc(p.baseline)}</div>` : ''}
           <div class="cav2">${esc(p.caveats || p.caveat || '')}</div>
           ${p.evidence_hash ? `<div class="row" style="font-size:10px;color:var(--faint)">Evidence ID (SHA-256): <code>${esc(p.evidence_hash.slice(0, 16))}</code></div>` : ''}
@@ -460,10 +471,13 @@
         detail.querySelector('#dl-dossier').onclick = () => downloadDossier(p);
       }
 
-      function whyBlock(p, isSar) {
-        if (isSar) {
+      function whyBlock(p, isAttr) {
+        if (isAttr) {
+          const note = p.kind === 'dark_vessel_sar' ? 'SAR attributes; no AIS track to SHAP'
+            : p.kind === 'ais_spoofing' ? 'AIS position-anomaly rule'
+            : 'AIS gap rule (Welch et al. 2022 criteria)';
           const items = (p.why || '').split(' · ').filter(Boolean).map(x => `<li>${esc(x)}</li>`).join('');
-          return `<div class="why2"><strong>Why flagged</strong> <span style="color:var(--muted)">(SAR attributes; no AIS track to SHAP)</span>
+          return `<div class="why2"><strong>Why flagged</strong> <span style="color:var(--muted)">(${note})</span>
             <ul class="sar-why" style="margin:6px 0 0;padding-left:16px">${items}</ul></div>`;
         }
         const drivers = parseShap(p.why_full || p.why || '');
