@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>SeaVigil: methodology and data sources</title>
+  <link rel="icon" href="favicon.svg" type="image/svg+xml" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500;600;700&display=swap" rel="stylesheet" />
+  <style>
+    :root{
+      --bg:#081620; --panel:#0d1f2c; --border:rgba(43,212,168,.22);
+      --fg:#eaf4f2; --muted:#8fa6b2; --faint:#6f879a;
+      --teal:#2bd4a8; --teal-bright:#3ff0c0; --ais:#f4a236; --sar:#e0455e;
+    }
+    *{box-sizing:border-box;}
+    body{margin:0;background:var(--bg);color:var(--fg);line-height:1.6;
+      font-family:system-ui,-apple-system,'Segoe UI',Roboto,sans-serif;
+      background-image:radial-gradient(1200px 600px at 70% -10%, rgba(43,212,168,.06), transparent);}
+    .wrap{max-width:860px;margin:0 auto;padding:32px 22px 80px;}
+    a{color:var(--teal-bright);}
+    .brand{display:flex;align-items:center;gap:11px;margin-bottom:6px;}
+    .brand svg{width:38px;height:38px;}
+    .brand .name{font-family:'Poppins',sans-serif;font-weight:600;font-size:26px;letter-spacing:.3px;}
+    .brand .name .v{color:var(--ais);}
+    .sub{color:var(--muted);font-size:14px;margin:0 0 4px;}
+    .back{font-size:13px;}
+    h2{font-family:'Poppins',sans-serif;font-weight:600;font-size:19px;margin:34px 0 8px;
+      padding-top:18px;border-top:1px solid var(--border);color:var(--teal-bright);}
+    h3{font-family:'Poppins',sans-serif;font-weight:600;font-size:15px;margin:18px 0 4px;}
+    p,li{font-size:14.5px;color:#dbe7e6;}
+    .lead{font-size:16px;color:var(--fg);}
+    code{background:rgba(43,212,168,.10);padding:1px 5px;border-radius:4px;font-size:13px;}
+    table{width:100%;border-collapse:collapse;margin:10px 0;font-size:13px;}
+    th,td{text-align:left;padding:8px 9px;border-bottom:1px solid rgba(255,255,255,.08);vertical-align:top;}
+    th{color:var(--muted);font-weight:600;font-size:11.5px;text-transform:uppercase;letter-spacing:.4px;}
+    .lic{white-space:nowrap;color:var(--muted);font-size:12px;}
+    .pill{display:inline-block;padding:1px 8px;border-radius:9px;font-size:11px;font-weight:600;color:#06241c;}
+    .p-ais{background:var(--ais);color:#3a2400;} .p-sar{background:var(--sar);color:#fff;}
+    .p-eez{background:#7ea8e0;color:#04223f;} .p-mpa{background:var(--teal);color:#06241c;}
+    .note{background:rgba(43,212,168,.07);border-left:2px solid var(--teal);border-radius:5px;
+      padding:10px 13px;margin:12px 0;color:#dbe7e6;font-size:13.5px;}
+    .caveat{color:var(--muted);}
+    footer{margin-top:40px;color:var(--faint);font-size:12px;border-top:1px solid var(--border);padding-top:16px;}
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <div class="brand">
+      <svg viewBox="0 0 64 64" role="img" aria-label="SeaVigil">
+        <rect width="64" height="64" rx="15" fill="#0b2233"/>
+        <rect x="31.2" y="11" width="1.7" height="28" fill="#ffffff"/>
+        <path d="M33.4 13 L45 37 L33.4 37 Z" fill="#2bd4a8"/>
+        <path d="M30.4 18.5 L20 37 L30.4 37 Z" fill="#ffffff"/>
+        <path d="M16.5 39 H47.5 L43 47.5 Q32 51.5 21 47.5 Z" fill="#ffffff"/>
+        <path d="M11 51.5 Q19 46.5 27 51.5 T43 51.5 T59 51.5" fill="none"
+              stroke="#2bd4a8" stroke-width="2.6" stroke-linecap="round" opacity="0.92"/>
+      </svg>
+      <span class="name">Sea<span class="v">Vigil</span></span>
+    </div>
+    <p class="sub">Methodology and data sources</p>
+    <p class="back"><a href="./">&larr; Back to the map</a></p>
+
+    <p class="lead">SeaVigil is the explanation-and-evidence layer for illegal-fishing behaviors in
+    protected and national waters. It does not try to re-detect fishing at global scale (that is
+    Global Fishing Watch's industrial-scale job). It sits on top of vessel-monitoring signals and
+    turns each flag into a per-incident, explainable, auditable dossier that an enforcement officer
+    can read, defend, and act on, running on a single laptop with no cloud account.</p>
+
+    <div class="note">Illegal, unreported and unregulated (IUU) fishing is estimated at 11 to 26
+    million tonnes of catch per year, worth roughly USD 10 to 23.5 billion
+    (<a href="https://doi.org/10.1371/journal.pone.0004570" target="_blank" rel="noopener">Agnew et al., 2009</a>),
+    and 72 to 76 percent of the world's industrial fishing vessels are not publicly tracked
+    (<a href="https://doi.org/10.1038/s41586-023-06825-8" target="_blank" rel="noopener">Paolo et al., 2024</a>).
+    SeaVigil targets the last mile: explaining and evidencing the suspicious behaviors that monitoring surfaces.</p>
+
+    <h2>What SeaVigil detects, and how</h2>
+
+    <h3><span class="pill p-ais">AIS apparent fishing</span> inside a protected area</h3>
+    <p>A RandomForest classifier scores each AIS position as fishing or
+    not from vessel kinematics (speed, turning, distance from shore and port, time of day, rolling
+    statistics), trained on Global Fishing Watch's openly published, hand-labelled AIS data
+    (<a href="https://doi.org/10.1126/science.aao5646" target="_blank" rel="noopener">Kroodsma et al., 2018</a>).
+    Positions are joined by point-in-polygon to Marine Protected Area boundaries; runs of in-MPA
+    fishing positions are segmented into incidents. Each incident's reason is the
+    <a href="https://arxiv.org/abs/1705.07874" target="_blank" rel="noopener">SHAP</a> attribution
+    (Lundberg and Lee, 2017) averaged over its positions, shown as a per-feature contribution chart.</p>
+
+    <h3><span class="pill p-sar">Dark vessel (SAR)</span> inside an EEZ or reserve</h3>
+    <p>Vessels that broadcast no AIS ("dark") are the majority of industrial fishing activity. SeaVigil
+    consumes Global Fishing Watch's published Sentinel-1 synthetic-aperture-radar vessel detections
+    (<a href="https://doi.org/10.1038/s41586-023-06825-8" target="_blank" rel="noopener">Paolo et al., 2024</a>);
+    it does not run its own imagery model. A detection not matched to any AIS broadcast, inside a
+    national EEZ, is flagged; severity escalates to high inside a Marine Protected Area. The dossier
+    rationale is attribute-based (unmatched, inside-zone, length, recurrence), not SHAP, because a
+    radar blip carries no movement track to attribute.</p>
+
+    <h3><span class="pill p-eez">EEZ incursion</span> and foreign-flag check</h3>
+    <p>Every incident is tagged with the Exclusive Economic Zone it sits in and the coastal state.
+    When a vessel's flag (derived from its MMSI maritime identification digits) differs from the EEZ
+    sovereign, it is marked foreign. A foreign vessel apparent-fishing inside another state's EEZ is
+    the canonical IUU lead; it is not proof, because the vessel may be licensed, so the dossier says so.</p>
+
+    <h3>In progress: going dark and transshipment</h3>
+    <p>Two AIS behaviors are designed but not yet demonstrated, pending a continuous, identity-bearing
+    AIS track dataset: intentional AIS disabling
+    (<a href="https://doi.org/10.1126/sciadv.abq2109" target="_blank" rel="noopener">Welch et al., 2022</a>;
+    a gap of at least 12 hours, more than 50 nautical miles offshore, after excluding poor-reception
+    areas) and at-sea transshipment
+    (<a href="https://doi.org/10.3389/fmars.2018.00240" target="_blank" rel="noopener">Miller et al., 2018</a>;
+    a fishing vessel and a carrier within 500 metres, for at least 2 hours, below 2 knots, away from port).</p>
+
+    <h2>Model and confidence</h2>
+    <p>The fishing classifier is evaluated on held-out vessels (grouped split, so no vessel appears in
+    both training and test). On about 408,000 held-out positions it is well calibrated: a
+    <strong>Brier score of 0.092</strong>, and isotonic recalibration only moves it to 0.088. In
+    plain terms, a dossier score near 0.9 can be read honestly as "about 90 percent of positions
+    scored this high really are fishing." Rule-based flags (dark SAR, EEZ incursion) carry no
+    probability; their confidence is the explicit criteria they meet. The full reliability table is in
+    <code>results/calibration.json</code> and the calibration statement appears in every AIS dossier.</p>
+
+    <h2>Evidence and integrity</h2>
+    <p>Each incident's downloadable dossier is a structured evidence package: the detection and its
+    reason, the exact UTC times and coordinates, the vessel identity where known, the full data
+    provenance below, and a <strong>SHA-256 integrity hash</strong> over the incident's canonical
+    facts so a reviewer can recompute it and confirm the record was not altered. It carries the
+    standing disclaimer that AIS and SAR evidence have coverage gaps and spoofing risks and that an
+    alert is an inspection lead, not proof of illegality.</p>
+
+    <h2>Data sources</h2>
+    <table>
+      <thead><tr><th>Dataset</th><th>Reference / DOI</th><th>License</th></tr></thead>
+      <tbody>
+        <tr><td>GFW labelled AIS training data</td>
+          <td>Kroodsma et al., <em>Science</em> 2018. <a href="https://doi.org/10.1126/science.aao5646" target="_blank" rel="noopener">10.1126/science.aao5646</a></td>
+          <td class="lic">CC BY 4.0</td></tr>
+        <tr><td>GFW Sentinel-1 SAR vessel detections</td>
+          <td>Paolo et al., <em>Nature</em> 2024. <a href="https://doi.org/10.1038/s41586-023-06825-8" target="_blank" rel="noopener">10.1038/s41586-023-06825-8</a></td>
+          <td class="lic">CC BY-NC 4.0</td></tr>
+        <tr><td>Marine Protected Areas (WDPA / WD-OECM)</td>
+          <td>UNEP-WCMC and IUCN (2026), Protected Planet, June 2026. <a href="https://www.protectedplanet.net" target="_blank" rel="noopener">protectedplanet.net</a></td>
+          <td class="lic">Non-commercial, display-only</td></tr>
+        <tr><td>Exclusive Economic Zones (v12)</td>
+          <td>Flanders Marine Institute (2024), Maritime Boundaries Geodatabase. <a href="https://doi.org/10.14284/632" target="_blank" rel="noopener">10.14284/632</a></td>
+          <td class="lic">CC BY 4.0</td></tr>
+        <tr><td>Live AIS stream</td>
+          <td><a href="https://aisstream.io" target="_blank" rel="noopener">aisstream.io</a> (near-real-time, Great Barrier Reef)</td>
+          <td class="lic">Free tier</td></tr>
+        <tr><td>Coastline and ports (distance features)</td>
+          <td><a href="https://www.naturalearthdata.com" target="_blank" rel="noopener">Natural Earth</a></td>
+          <td class="lic">Public domain</td></tr>
+        <tr><td>Basemap tiles</td>
+          <td>&copy; <a href="https://www.openstreetmap.org/copyright" target="_blank" rel="noopener">OpenStreetMap</a> contributors, &copy; <a href="https://carto.com/attributions" target="_blank" rel="noopener">CARTO</a></td>
+          <td class="lic">ODbL / CC BY</td></tr>
+      </tbody>
+    </table>
+    <p class="caveat">Methods reference: AIS disabling, Welch et al., <em>Science Advances</em> 2022,
+    <a href="https://doi.org/10.1126/sciadv.abq2109" target="_blank" rel="noopener">10.1126/sciadv.abq2109</a>;
+    transshipment, Miller et al., <em>Frontiers in Marine Science</em> 2018,
+    <a href="https://doi.org/10.3389/fmars.2018.00240" target="_blank" rel="noopener">10.3389/fmars.2018.00240</a>;
+    explanations, Lundberg and Lee, NeurIPS 2017,
+    <a href="https://arxiv.org/abs/1705.07874" target="_blank" rel="noopener">arXiv:1705.07874</a>.</p>
+
+    <h2>Honest limitations</h2>
+    <ul>
+      <li>The public showcase is an <strong>illustrative curated sample</strong>, not global or live
+      coverage: AIS apparent-fishing incidents from 2013 to 2014 labels, real GFW dark-vessel SAR
+      from 2024, across five reserves and their EEZs. The <code>?live</code> view is genuine
+      near-real-time but sparse (free AIS tier).</li>
+      <li>"Apparent fishing" is inferred from movement, not observed; an alert is an inspection lead,
+      not proof of illegal activity.</li>
+      <li>AIS is blind to vessels that do not broadcast (about three quarters of industrial fishing
+      vessels) and is spoofable; SAR sees them but carries no identity.</li>
+      <li>Boundaries are simplified for display; verify incursions against authoritative WDPA and
+      Marine Regions limits before acting.</li>
+      <li>MPA boundaries (WDPA) are shown under the Protected Planet Terms of Use for non-commercial
+      display only and are not redistributed as downloadable data.</li>
+    </ul>
+
+    <footer>
+      SeaVigil is a non-commercial, public-interest project. The WDPA-derived layer is not covered by
+      the project's own license and is subject to the Protected Planet Terms of Use. Citations and
+      DOIs above were verified against the publishers. <a href="./">Back to the map</a>.
+    </footer>
+  </div>
+</body>
+</html>
