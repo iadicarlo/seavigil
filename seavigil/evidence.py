@@ -31,6 +31,18 @@ TYPE_SOURCES = {
         "license": "CC BY-NC 4.0 (non-commercial)",
         "url": "https://globalfishingwatch.org",
     },
+    "ais_spoofing": {
+        "dataset": "NOAA Marine Cadastre AIS",
+        "reference": "marinecadastre.gov/ais (vessel positions)",
+        "license": "US public domain",
+        "url": "https://marinecadastre.gov/ais",
+    },
+    "ais_disabling": {
+        "dataset": "NOAA Marine Cadastre AIS",
+        "reference": "marinecadastre.gov/ais (vessel positions)",
+        "license": "US public domain",
+        "url": "https://marinecadastre.gov/ais",
+    },
 }
 BOUNDARY_SOURCES = {
     "wdpa": {

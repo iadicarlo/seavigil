@@ -37,3 +37,7 @@ data/positions/*_real.csv
 .vscode/
 node_modules/
 .claude/
+
+# NOAA Marine Cadastre raw AIS (large) + derived tracks
+data/ais_raw/
+data/positions/noaa_*.csv

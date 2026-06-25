@@ -1,0 +1,322 @@
+[
+  {
+    "type": "ais_spoofing",
+    "incident_id": "spoof__257406000_0000",
+    "mpa_name": "AIS spoofing",
+    "severity": "high",
+    "severity_reason": "same-MMSI conflict (two vessels broadcasting one identity)",
+    "vessel_id": "257406000",
+    "ship_name": "ISLAND PRIDE",
+    "flag": "NO",
+    "ship_type": "Fishing",
+    "gear": "AIS anomaly",
+    "time_start_utc": "2024-07-01T00:00:03Z",
+    "time_end_utc": "2024-07-01T23:58:54Z",
+    "duration_hours": 24.0,
+    "n_positions": 995,
+    "n_fishing_positions": 0,
+    "mean_fishing_proba": null,
+    "max_fishing_proba": null,
+    "centroid_lat": 35.67648,
+    "centroid_lon": -122.04534,
+    "anomaly_count": 34,
+    "max_implied_speed_kn": 54534.0,
+    "spread_nm": 49.0,
+    "explanation": {
+      "method": "AIS position-anomaly analysis (impossible-speed jumps and same-instant conflicts)",
+      "drivers": [
+        "34 physically impossible movements for one MMSI",
+        "fastest implied speed 54,534 kn (a vessel cannot move this fast)",
+        "positions span 49 nm, including 1 same-instant conflicts (two vessels, one MMSI)"
+      ]
+    },
+    "caveats": [
+      "Suspected AIS spoofing or MMSI conflict, not proven and not necessarily illegal.",
+      "Could also be a faulty GPS/transceiver or a transcription error in the feed.",
+      "Flagged only on a sustained pattern (several anomalies), not a single bad fix.",
+      "An inspection lead: confirm the vessel identity against authoritative records."
+    ],
+    "evidence_schema": "seavigil-evidence-1.0",
+    "evidence_hash": "6233175bb449495446a8426bb9647aca26a0bf89ec49dccb2f1b3a734f50054f"
+  },
+  {
+    "type": "ais_spoofing",
+    "incident_id": "spoof__338186925_0001",
+    "mpa_name": "AIS spoofing",
+    "severity": "medium",
+    "severity_reason": "impossible-speed position jumps",
+    "vessel_id": "338186925",
+    "ship_name": "TYEE",
+    "flag": "US",
+    "ship_type": "Fishing",
+    "gear": "AIS anomaly",
+    "time_start_utc": "2024-07-01T00:16:38Z",
+    "time_end_utc": "2024-07-01T23:08:46Z",
+    "duration_hours": 22.9,
+    "n_positions": 79,
+    "n_fishing_positions": 0,
+    "mean_fishing_proba": null,
+    "max_fishing_proba": null,
+    "centroid_lat": 37.50236,
+    "centroid_lon": -122.4803,
+    "anomaly_count": 5,
+    "max_implied_speed_kn": 1793.0,
+    "spread_nm": 97.0,
+    "explanation": {
+      "method": "AIS position-anomaly analysis (impossible-speed jumps and same-instant conflicts)",
+      "drivers": [
+        "5 physically impossible movements for one MMSI",
+        "fastest implied speed 1,793 kn (a vessel cannot move this fast)",
+        "positions span 97 nm"
+      ]
+    },
+    "caveats": [
+      "Suspected AIS spoofing or MMSI conflict, not proven and not necessarily illegal.",
+      "Could also be a faulty GPS/transceiver or a transcription error in the feed.",
+      "Flagged only on a sustained pattern (several anomalies), not a single bad fix.",
+      "An inspection lead: confirm the vessel identity against authoritative records."
+    ],
+    "evidence_schema": "seavigil-evidence-1.0",
+    "evidence_hash": "d5d4b22fb8c70b20fc172233ccc00aea91258de47f555598905288c9c838a501"
+  },
+  {
+    "type": "ais_spoofing",
+    "incident_id": "spoof__366245070_0002",
+    "mpa_name": "AIS spoofing",
+    "severity": "medium",
+    "severity_reason": "impossible-speed position jumps",
+    "vessel_id": "366245070",
+    "ship_name": "LAST STRAW",
+    "flag": "US",
+    "ship_type": "Fishing",
+    "gear": "AIS anomaly",
+    "time_start_utc": "2024-07-01T00:00:00Z",
+    "time_end_utc": "2024-07-01T23:59:59Z",
+    "duration_hours": 24.0,
+    "n_positions": 999,
+    "n_fishing_positions": 0,
+    "mean_fishing_proba": null,
+    "max_fishing_proba": null,
+    "centroid_lat": 34.00056,
+    "centroid_lon": -120.21792,
+    "anomaly_count": 8,
+    "max_implied_speed_kn": 3515.0,
+    "spread_nm": 51.0,
+    "explanation": {
+      "method": "AIS position-anomaly analysis (impossible-speed jumps and same-instant conflicts)",
+      "drivers": [
+        "8 physically impossible movements for one MMSI",
+        "fastest implied speed 3,515 kn (a vessel cannot move this fast)",
+        "positions span 51 nm"
+      ]
+    },
+    "caveats": [
+      "Suspected AIS spoofing or MMSI conflict, not proven and not necessarily illegal.",
+      "Could also be a faulty GPS/transceiver or a transcription error in the feed.",
+      "Flagged only on a sustained pattern (several anomalies), not a single bad fix.",
+      "An inspection lead: confirm the vessel identity against authoritative records."
+    ],
+    "evidence_schema": "seavigil-evidence-1.0",
+    "evidence_hash": "6cd8c07f247c953aed927f78f319546ec2ca33294b9645220b1ede49f8b7d126"
+  },
+  {
+    "type": "ais_spoofing",
+    "incident_id": "spoof__366934770_0003",
+    "mpa_name": "AIS spoofing",
+    "severity": "medium",
+    "severity_reason": "impossible-speed position jumps",
+    "vessel_id": "366934770",
+    "ship_name": "NOAH'S ARK",
+    "flag": "US",
+    "ship_type": "Fishing",
+    "gear": "AIS anomaly",
+    "time_start_utc": "2024-07-01T00:00:00Z",
+    "time_end_utc": "2024-07-01T23:58:48Z",
+    "duration_hours": 24.0,
+    "n_positions": 658,
+    "n_fishing_positions": 0,
+    "mean_fishing_proba": null,
+    "max_fishing_proba": null,
+    "centroid_lat": 36.80451,
+    "centroid_lon": -121.78588,
+    "anomaly_count": 14,
+    "max_implied_speed_kn": 44733.0,
+    "spread_nm": 25.0,
+    "explanation": {
+      "method": "AIS position-anomaly analysis (impossible-speed jumps and same-instant conflicts)",
+      "drivers": [
+        "14 physically impossible movements for one MMSI",
+        "fastest implied speed 44,733 kn (a vessel cannot move this fast)",
+        "positions span 25 nm"
+      ]
+    },
+    "caveats": [
+      "Suspected AIS spoofing or MMSI conflict, not proven and not necessarily illegal.",
+      "Could also be a faulty GPS/transceiver or a transcription error in the feed.",
+      "Flagged only on a sustained pattern (several anomalies), not a single bad fix.",
+      "An inspection lead: confirm the vessel identity against authoritative records."
+    ],
+    "evidence_schema": "seavigil-evidence-1.0",
+    "evidence_hash": "ce838114d0fac952479d3b0117a8f31e1b2986e456a499e396a3897dc3406dfc"
+  },
+  {
+    "type": "ais_spoofing",
+    "incident_id": "spoof__367384840_0004",
+    "mpa_name": "AIS spoofing",
+    "severity": "medium",
+    "severity_reason": "impossible-speed position jumps",
+    "vessel_id": "367384840",
+    "ship_name": "TRUTH",
+    "flag": "US",
+    "ship_type": "Fishing",
+    "gear": "AIS anomaly",
+    "time_start_utc": "2024-07-01T00:01:27Z",
+    "time_end_utc": "2024-07-01T23:58:58Z",
+    "duration_hours": 24.0,
+    "n_positions": 421,
+    "n_fishing_positions": 0,
+    "mean_fishing_proba": null,
+    "max_fishing_proba": null,
+    "centroid_lat": 34.32633,
+    "centroid_lon": -119.71319,
+    "anomaly_count": 4,
+    "max_implied_speed_kn": 17378.0,
+    "spread_nm": 23.0,
+    "explanation": {
+      "method": "AIS position-anomaly analysis (impossible-speed jumps and same-instant conflicts)",
+      "drivers": [
+        "4 physically impossible movements for one MMSI",
+        "fastest implied speed 17,378 kn (a vessel cannot move this fast)",
+        "positions span 23 nm"
+      ]
+    },
+    "caveats": [
+      "Suspected AIS spoofing or MMSI conflict, not proven and not necessarily illegal.",
+      "Could also be a faulty GPS/transceiver or a transcription error in the feed.",
+      "Flagged only on a sustained pattern (several anomalies), not a single bad fix.",
+      "An inspection lead: confirm the vessel identity against authoritative records."
+    ],
+    "evidence_schema": "seavigil-evidence-1.0",
+    "evidence_hash": "532f0e7492150891c399067003ebfb48a238a59ea1b24ccb0bb3e874c9e129c7"
+  },
+  {
+    "type": "ais_spoofing",
+    "incident_id": "spoof__367664560_0005",
+    "mpa_name": "AIS spoofing",
+    "severity": "medium",
+    "severity_reason": "impossible-speed position jumps",
+    "vessel_id": "367664560",
+    "ship_name": "EXCALIBUR",
+    "flag": "US",
+    "ship_type": "Fishing",
+    "gear": "AIS anomaly",
+    "time_start_utc": "2024-07-01T00:00:01Z",
+    "time_end_utc": "2024-07-01T23:59:02Z",
+    "duration_hours": 24.0,
+    "n_positions": 745,
+    "n_fishing_positions": 0,
+    "mean_fishing_proba": null,
+    "max_fishing_proba": null,
+    "centroid_lat": 33.13674,
+    "centroid_lon": -119.64896,
+    "anomaly_count": 41,
+    "max_implied_speed_kn": 6149.0,
+    "spread_nm": 72.0,
+    "explanation": {
+      "method": "AIS position-anomaly analysis (impossible-speed jumps and same-instant conflicts)",
+      "drivers": [
+        "41 physically impossible movements for one MMSI",
+        "fastest implied speed 6,149 kn (a vessel cannot move this fast)",
+        "positions span 72 nm"
+      ]
+    },
+    "caveats": [
+      "Suspected AIS spoofing or MMSI conflict, not proven and not necessarily illegal.",
+      "Could also be a faulty GPS/transceiver or a transcription error in the feed.",
+      "Flagged only on a sustained pattern (several anomalies), not a single bad fix.",
+      "An inspection lead: confirm the vessel identity against authoritative records."
+    ],
+    "evidence_schema": "seavigil-evidence-1.0",
+    "evidence_hash": "c732609ef7f8f2668f901fc6707227000de64269678e4248ca05cbbbc95f192b"
+  },
+  {
+    "type": "ais_spoofing",
+    "incident_id": "spoof__512207100_0006",
+    "mpa_name": "AIS spoofing",
+    "severity": "medium",
+    "severity_reason": "impossible-speed position jumps",
+    "vessel_id": "512207100",
+    "ship_name": "KAHAROA II",
+    "flag": "NZ",
+    "ship_type": "Fishing",
+    "gear": "AIS anomaly",
+    "time_start_utc": "2024-07-01T00:01:52Z",
+    "time_end_utc": "2024-07-01T10:11:18Z",
+    "duration_hours": 10.2,
+    "n_positions": 244,
+    "n_fishing_positions": 0,
+    "mean_fishing_proba": null,
+    "max_fishing_proba": null,
+    "centroid_lat": 32.408595,
+    "centroid_lon": -117.23676,
+    "anomaly_count": 13,
+    "max_implied_speed_kn": 19745.0,
+    "spread_nm": 45.0,
+    "explanation": {
+      "method": "AIS position-anomaly analysis (impossible-speed jumps and same-instant conflicts)",
+      "drivers": [
+        "13 physically impossible movements for one MMSI",
+        "fastest implied speed 19,745 kn (a vessel cannot move this fast)",
+        "positions span 45 nm"
+      ]
+    },
+    "caveats": [
+      "Suspected AIS spoofing or MMSI conflict, not proven and not necessarily illegal.",
+      "Could also be a faulty GPS/transceiver or a transcription error in the feed.",
+      "Flagged only on a sustained pattern (several anomalies), not a single bad fix.",
+      "An inspection lead: confirm the vessel identity against authoritative records."
+    ],
+    "evidence_schema": "seavigil-evidence-1.0",
+    "evidence_hash": "c28faf56cedfc82b40778d8ede5a3540536755e03eff8f623a240f7e1a963205"
+  },
+  {
+    "type": "ais_spoofing",
+    "incident_id": "spoof__538008812_0007",
+    "mpa_name": "AIS spoofing",
+    "severity": "high",
+    "severity_reason": "same-MMSI conflict (two vessels broadcasting one identity)",
+    "vessel_id": "538008812",
+    "ship_name": "ATLANTIC PRINCE",
+    "flag": "MH",
+    "ship_type": "Fishing",
+    "gear": "AIS anomaly",
+    "time_start_utc": "2024-07-01T00:02:16Z",
+    "time_end_utc": "2024-07-01T23:59:32Z",
+    "duration_hours": 24.0,
+    "n_positions": 872,
+    "n_fishing_positions": 0,
+    "mean_fishing_proba": null,
+    "max_fishing_proba": null,
+    "centroid_lat": 37.544525,
+    "centroid_lon": -124.082035,
+    "anomaly_count": 78,
+    "max_implied_speed_kn": 514919.0,
+    "spread_nm": 190.0,
+    "explanation": {
+      "method": "AIS position-anomaly analysis (impossible-speed jumps and same-instant conflicts)",
+      "drivers": [
+        "78 physically impossible movements for one MMSI",
+        "fastest implied speed 514,919 kn (a vessel cannot move this fast)",
+        "positions span 190 nm, including 1 same-instant conflicts (two vessels, one MMSI)"
+      ]
+    },
+    "caveats": [
+      "Suspected AIS spoofing or MMSI conflict, not proven and not necessarily illegal.",
+      "Could also be a faulty GPS/transceiver or a transcription error in the feed.",
+      "Flagged only on a sustained pattern (several anomalies), not a single bad fix.",
+      "An inspection lead: confirm the vessel identity against authoritative records."
+    ],
+    "evidence_schema": "seavigil-evidence-1.0",
+    "evidence_hash": "3e5c98e433f17d314de71113dd48e7619b0ce89c4c0c94f3f04375a47ee05719"
+  }
+]
