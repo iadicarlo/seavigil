@@ -1,7 +1,7 @@
 # Dark-vessel detection `sar__great_barrier_reef_marine_park_0004`
 
-- **MPA:** Great Barrier Reef Marine Park
-- **Severity:** LOW (multi-use protected area)  ·  boundary sample-approx-2024
+- **MPA:** Great Barrier Reef Marine Park (WDPA 2628_5)
+- **Severity:** LOW (multi-use protected area)  ·  boundary WDPA/WD-OECM Jun2026
 - **Vessel:** F.V LARISSA E  ·  **source:** SAR · FISHING  ·  **flag:** 🇦🇺 AUS
 - **When (UTC):** 2024-01-08T19:13:05Z
 - **Length:** n/a  ·  **broadcasting AIS:** yes  ·  **GFW fishing-score:** n/a (Portal-only)

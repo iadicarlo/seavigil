@@ -53,14 +53,15 @@ def test_summarize_counts_by_type_mpa_gear():
 def test_build_site_writes_all_files(tmp_path):
     inc = tmp_path / "incidents.json"
     inc.write_text(json.dumps([_ais(explanation=None)]))
-    mpa = tmp_path / "mpas.geojson"
-    mpa.write_text(json.dumps({"type": "FeatureCollection", "features": []}))
     out = tmp_path / "data"
 
-    res = site.build_site(inc, mpa, out)
+    # MPA boundaries are NOT written here (they ship as non-extractable vector tiles
+    # under web/tiles/); build_site emits the incident data + summary only.
+    res = site.build_site(inc, mpa_geojson=None, out_dir=out)
     assert res["n_records"] == 1
-    for f in ("incidents.geojson", "mpas.geojson", "summary.json"):
+    for f in ("incidents.geojson", "tracks.geojson", "summary.json"):
         assert (out / f).exists()
+    assert not (out / "mpas.geojson").exists()
     gj = json.loads((out / "incidents.geojson").read_text())
     assert gj["features"][0]["geometry"]["coordinates"] == [2.0, 1.0]
     assert json.loads((out / "summary.json").read_text())["total"] == 1

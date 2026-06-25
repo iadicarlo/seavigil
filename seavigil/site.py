@@ -108,10 +108,16 @@ def incidents_to_geojson(dossiers: list[dict]) -> dict:
 
 def build_site(
     incidents_json: str | Path = INCIDENTS_JSON,
-    mpa_geojson: str | Path = MPA_GEOJSON,
+    mpa_geojson: str | Path = MPA_GEOJSON,  # kept for signature compatibility; unused
     out_dir: str | Path = WEB_DATA,
 ) -> dict:
-    """Write web/data/incidents.geojson and web/data/mpas.geojson."""
+    """Write web/data/incidents.geojson, tracks.geojson and summary.json.
+
+    MPA boundaries are NOT written here: the real WDPA polygons are non-commercial
+    and may not be shipped as a downloadable GeoJSON, so the map renders them from
+    non-extractable vector tiles (web/tiles/mpas.pmtiles) built by
+    scripts/extract_showcase_mpas.py + tippecanoe instead.
+    """
     out_dir = Path(out_dir)
     out_dir.mkdir(parents=True, exist_ok=True)
 
@@ -129,12 +135,6 @@ def build_site(
     tracks = (json.loads(tracks_src.read_text()) if tracks_src.exists()
               else {"type": "FeatureCollection", "features": []})
     (out_dir / "tracks.geojson").write_text(json.dumps(tracks))
-
-    # Sample MPA boxes pass through as-is. NOTE: real WDPA polygons are
-    # non-commercial and must NOT be shipped as a downloadable GeoJSON -- convert
-    # them to non-extractable vector tiles before deploying with real boundaries.
-    mpas = json.loads(Path(mpa_geojson).read_text())
-    (out_dir / "mpas.geojson").write_text(json.dumps(mpas))
 
     return {"n_records": len(dossiers), "out_dir": str(out_dir)}
 

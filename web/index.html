@@ -1,70 +1,118 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>SeaVigil - fishing inside Marine Protected Areas</title>
-  <link rel="icon" type="image/svg+xml" href="favicon.svg" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" />
+  <title>SeaVigil: explainable fishing-in-MPA detection</title>
+  <link rel="icon" href="favicon.svg" type="image/svg+xml" />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500;600;700&display=swap" rel="stylesheet" />
-  <link href="https://unpkg.com/maplibre-gl@4.7.1/dist/maplibre-gl.css" rel="stylesheet" />
-  <script src="https://unpkg.com/maplibre-gl@4.7.1/dist/maplibre-gl.js"></script>
+  <link href="https://unpkg.com/maplibre-gl@5.24.0/dist/maplibre-gl.css" rel="stylesheet" />
+  <script src="https://unpkg.com/maplibre-gl@5.24.0/dist/maplibre-gl.js"></script>
+  <script src="https://unpkg.com/pmtiles@4.4.1/dist/pmtiles.js"></script>
   <style>
-    :root { --bg:#0b1d2a; --panel:rgba(12,29,42,.92); --fg:#eaf2f7; --muted:#9fb3c0;
-            --ais:#f4a236; --sar:#e0455e; }
-    html,body { margin:0; height:100%; font-family:system-ui,-apple-system,Segoe UI,Roboto,sans-serif; }
-    #map { position:absolute; inset:0; }
-    .panel { position:absolute; z-index:2; background:var(--panel); color:var(--fg);
-             border-radius:8px; padding:12px 14px; box-shadow:0 2px 10px rgba(0,0,0,.35); }
-    #header { top:12px; left:12px; max-width:340px; }
-    #header h1 { margin:0 0 4px; font-size:17px; font-weight:600; }
-    #header p { margin:0; font-size:12.5px; line-height:1.5; color:var(--muted); }
-    #legend { bottom:18px; left:12px; font-size:12.5px; max-width:340px; }
-    .dot { display:inline-block; width:11px; height:11px; border-radius:50%;
-           border:1.5px solid #fff; margin-right:6px; vertical-align:-1px; }
-    .credits { margin-top:8px; padding-top:7px; border-top:1px solid rgba(255,255,255,.12);
-               font-size:10.5px; line-height:1.5; color:var(--muted); }
-    .credits a { color:var(--ais); }
-    .disclaimer { margin-top:8px; font-size:11.5px; color:var(--muted); }
-    .maplibregl-popup-content { font-size:12.5px; line-height:1.45; max-width:280px; }
-    .maplibregl-popup-content h3 { margin:0 0 4px; font-size:13px; }
-    .pill { display:inline-block; font-size:10.5px; padding:1px 6px; border-radius:9px;
-            color:#fff; margin-bottom:5px; }
-    .why { color:#234; background:#eef3f6; border-radius:5px; padding:5px 7px; margin:5px 0; }
-    .cav { color:#666; font-style:italic; }
-    #detail h3 { margin:0 6px 6px 0; font-size:15px; padding-right:18px; }
-    #detail .row { margin:3px 0; }
-    #detail .close { position:absolute; top:6px; right:8px; cursor:pointer; color:var(--muted);
-                     font-size:18px; line-height:1; background:none; border:0; padding:4px 7px; border-radius:6px; }
-    #detail .close:hover, #detail .close:focus-visible { color:var(--fg); background:rgba(255,255,255,.1); outline:none; }
-    .sev { display:inline-block; font-size:11px; padding:1px 7px; border-radius:9px; color:#fff; }
-    .sev-high { background:#c0392b; } .sev-medium { background:#d98324; } .sev-low { background:#3b7d54; }
-    .why2 { color:#22333b; background:#eef3f6; border-radius:5px; padding:6px 8px; margin:7px 0; }
-    .cav2 { color:var(--muted); font-size:11.5px; margin-top:7px; line-height:1.4; }
-    #stats, #detail { top:12px; right:52px; max-width:230px; font-size:12.5px; }
-    #detail { display:none; max-width:310px; max-height:82vh; overflow:auto; }
-    .mpa-name { font:500 11px 'Poppins',system-ui,sans-serif; color:#06342a; white-space:nowrap;
-                background:rgba(32,225,160,.92); padding:1px 6px; border-radius:4px;
-                pointer-events:none; box-shadow:0 1px 3px rgba(0,0,0,.35); }
-    .brand { display:flex; align-items:center; gap:9px; margin:0 0 6px; }
-    .brand svg { width:30px; height:30px; flex:0 0 auto; }
-    .brand .name { font-family:'Poppins',system-ui,sans-serif; font-weight:600;
-                   font-size:20px; letter-spacing:.3px; line-height:1; margin:0; }
-    .brand .name .v { color:var(--ais); }
-    /* Responsive: phones and small tablets */
-    @media (max-width: 760px) {
-      .panel { padding:9px 11px; box-shadow:0 1px 6px rgba(0,0,0,.4); }
-      #header { top:8px; left:8px; right:8px; max-width:none; }
-      #header p { font-size:12px; }
-      #header .full { display:none; }            /* hide the long blurb on phones */
-      #stats, #detail { top:auto; bottom:8px; right:8px; left:8px; max-width:none;
-                        max-height:42vh; overflow:auto; }
-      #legend { left:8px; bottom:auto; top:128px; font-size:11.5px; }
-      .brand .name { font-size:18px; }
+    :root{
+      --bg:#081620; --ocean-tint:#0a2233;
+      --panel:rgba(10,24,35,.82); --panel-solid:#0d1f2c;
+      --panel-border:rgba(43,212,168,.22); --panel-shadow:0 8px 28px rgba(0,0,0,.55);
+      --fg:#eaf4f2; --muted:#8fa6b2; --faint:#5d7383;
+      --teal:#2bd4a8; --teal-bright:#3ff0c0;
+      --ais:#f4a236; --sar:#e0455e;
+      --sev-high:#e0455e; --sev-medium:#f4a236; --sev-low:#2bd4a8;
     }
-    @media (max-width: 760px) and (max-height: 620px) {
-      #legend { display:none; }
+    *{box-sizing:border-box;}
+    html,body{margin:0;height:100%;font-family:system-ui,-apple-system,'Segoe UI',Roboto,sans-serif;
+      background:var(--bg);color:var(--fg);overflow:hidden;}
+    #map{position:absolute;inset:0;background:var(--bg);}
+
+    .panel{position:absolute;z-index:2;background:var(--panel);color:var(--fg);
+      border:1px solid var(--panel-border);border-radius:11px;padding:12px 14px;
+      box-shadow:var(--panel-shadow);backdrop-filter:blur(14px) saturate(1.1);
+      -webkit-backdrop-filter:blur(14px) saturate(1.1);}
+    @supports not (backdrop-filter:blur(2px)){.panel{background:var(--panel-solid);}}
+
+    #header{top:12px;left:12px;max-width:330px;}
+    #legend{bottom:16px;left:12px;font-size:12.5px;max-width:330px;}
+    #stats{top:12px;right:12px;width:236px;max-height:calc(100vh - 24px);overflow-y:auto;font-size:13px;}
+    #detail{top:12px;right:12px;width:300px;max-height:calc(100vh - 24px);overflow-y:auto;display:none;font-size:12.5px;}
+
+    .brand{display:flex;align-items:center;gap:9px;margin:0 0 6px;}
+    .brand svg{width:30px;height:30px;flex:0 0 auto;}
+    .brand .name{font-family:'Poppins',system-ui,sans-serif;font-weight:600;font-size:20px;
+      letter-spacing:.3px;line-height:1;margin:0;}
+    .brand .name .v{color:var(--ais);}
+    .full{margin:6px 0;font-size:12.5px;color:var(--muted);line-height:1.45;}
+    .disclaimer{margin-top:8px;font-size:11.5px;color:var(--muted);line-height:1.5;}
+    .disclaimer em{color:var(--fg);font-style:italic;}
+    a{color:var(--teal-bright);}
+
+    /* interactive legend = layer manager */
+    .legrow{display:flex;align-items:center;gap:8px;padding:3px 0;cursor:pointer;user-select:none;}
+    .legrow input{appearance:none;width:15px;height:15px;border:1.5px solid var(--faint);border-radius:4px;
+      flex:0 0 auto;cursor:pointer;position:relative;background:transparent;}
+    .legrow input:checked{background:var(--teal);border-color:var(--teal);}
+    .legrow input:checked::after{content:"";position:absolute;left:4px;top:1px;width:4px;height:8px;
+      border:solid #06241c;border-width:0 2px 2px 0;transform:rotate(45deg);}
+    .legrow.off{opacity:.5;}
+    .dot{display:inline-block;width:11px;height:11px;border-radius:50%;border:1.5px solid rgba(255,255,255,.25);
+      flex:0 0 auto;box-shadow:0 0 6px currentColor;}
+    .swatch-line{display:inline-block;width:13px;height:0;border-top:2px solid var(--teal);flex:0 0 auto;
+      box-shadow:0 0 6px var(--teal);}
+    .leghint{font-size:10.5px;color:var(--faint);margin-top:6px;}
+    .credits{margin-top:9px;padding-top:8px;border-top:1px solid rgba(43,212,168,.14);
+      font-size:10.5px;line-height:1.5;color:var(--faint);}
+    .credits a{color:var(--muted);}
+
+    /* stats */
+    .stat-h{font-family:'Poppins',sans-serif;font-weight:600;font-size:14px;}
+    .stat-sub{margin-top:8px;color:var(--muted);font-size:11px;text-transform:uppercase;letter-spacing:.5px;}
+    .stat-row{display:flex;justify-content:space-between;gap:10px;padding:1.5px 0;}
+    .mpa-link{cursor:pointer;color:var(--fg);border-bottom:1px dotted transparent;}
+    .mpa-link:hover{color:var(--teal-bright);border-bottom-color:var(--teal-bright);}
+
+    /* detail dossier */
+    #detail h3{font-family:'Poppins',sans-serif;font-weight:600;font-size:15px;margin:2px 28px 8px 0;line-height:1.25;}
+    #detail .row{margin:5px 0;line-height:1.4;}
+    #detail .close{position:absolute;top:6px;right:8px;cursor:pointer;color:var(--muted);font-size:18px;
+      line-height:1;background:none;border:0;padding:4px 8px;border-radius:6px;}
+    #detail .close:hover,#detail .close:focus-visible{color:var(--fg);background:rgba(255,255,255,.1);outline:none;}
+    .pill{display:inline-block;padding:1px 7px;border-radius:9px;font-size:11px;font-weight:600;color:#06241c;}
+    .sev{display:inline-block;padding:1px 7px;border-radius:9px;font-size:10.5px;font-weight:700;color:#fff;}
+    .sev-high{background:var(--sev-high);} .sev-medium{background:var(--sev-medium);color:#3a2400;} .sev-low{background:var(--sev-low);color:#06241c;}
+    .why2{background:rgba(43,212,168,.08);border-left:2px solid var(--teal);border-radius:5px;
+      padding:8px 9px;margin:8px 0;}
+    .why2 strong{color:var(--teal-bright);}
+    .cav2{color:var(--muted);font-size:11px;margin-top:8px;line-height:1.45;}
+    /* SHAP bars */
+    .shap{margin-top:6px;}
+    .shap-row{display:grid;grid-template-columns:96px 1fr;gap:7px;align-items:center;margin:3px 0;font-size:11px;}
+    .shap-feat{color:var(--muted);white-space:nowrap;overflow:hidden;text-overflow:ellipsis;text-align:right;}
+    .shap-track{position:relative;height:13px;background:rgba(255,255,255,.05);border-radius:3px;}
+    .shap-mid{position:absolute;left:50%;top:0;bottom:0;width:1px;background:rgba(255,255,255,.18);}
+    .shap-bar{position:absolute;top:1px;bottom:1px;border-radius:2px;}
+    .shap-bar.pos{background:var(--sar);} .shap-bar.neg{background:var(--teal);}
+    .shap-val{position:absolute;top:-1px;font-size:9.5px;color:var(--muted);}
+    .sar-why li{margin:2px 0;}
+    .dlbtn{margin-top:10px;display:inline-block;background:rgba(43,212,168,.14);color:var(--teal-bright);
+      border:1px solid var(--panel-border);border-radius:7px;padding:6px 11px;font-size:12px;cursor:pointer;
+      font-family:inherit;}
+    .dlbtn:hover{background:rgba(43,212,168,.24);}
+
+    /* MapLibre control + attribution dark skin */
+    .maplibregl-ctrl-group{background:var(--panel)!important;border:1px solid var(--panel-border)!important;
+      box-shadow:var(--panel-shadow)!important;backdrop-filter:blur(14px);}
+    .maplibregl-ctrl-group button+button{border-top:1px solid rgba(43,212,168,.14)!important;}
+    .maplibregl-ctrl button .maplibregl-ctrl-icon{filter:invert(1) hue-rotate(180deg) brightness(1.1);}
+    .maplibregl-ctrl-attrib{background:rgba(8,22,32,.7)!important;}
+    .maplibregl-ctrl-attrib,.maplibregl-ctrl-attrib a{color:var(--muted)!important;}
+    .maplibregl-ctrl-scale{background:rgba(8,22,32,.6);border-color:var(--panel-border);color:var(--muted);}
+
+    @media (max-width:760px){
+      .panel{padding:10px 12px;border-radius:10px;}
+      #header{top:8px;left:8px;right:8px;max-width:none;}
+      #header .full{display:none;}
+      #stats,#detail{top:auto;bottom:8px;left:8px;right:8px;width:auto;max-height:42vh;}
+      #legend{display:none;}
     }
   </style>
 </head>
@@ -86,198 +134,345 @@
     </div>
     <p class="full">Apparent fishing and dark (non-broadcasting) vessels detected inside Marine
        Protected Areas. Click a marker for the per-incident reason.</p>
-    <p class="disclaimer" id="vintage">Illustrative sample: AIS apparent-fishing (2013-2014 GFW labels) +
-       real GFW dark-vessel SAR (2024), approximate MPA boxes. Not live. <em>Apparent</em> fishing, not proof.</p>
+    <p class="disclaimer" id="vintage"></p>
     <p class="disclaimer" id="modelink"></p>
   </div>
 
   <div id="legend" class="panel">
-    <div><span class="dot" style="background:var(--ais)"></span>AIS apparent fishing (SHAP-explained)</div>
-    <div><span class="dot" style="background:var(--sar)"></span>Dark vessel (SAR, not broadcasting AIS)</div>
+    <div class="legrow" data-layers="incident-ais"><input type="checkbox" checked />
+      <span class="dot" style="background:var(--ais);color:var(--ais)"></span>AIS apparent fishing (SHAP-explained)</div>
+    <div class="legrow" data-layers="incident-sar"><input type="checkbox" checked />
+      <span class="dot" style="background:var(--sar);color:var(--sar)"></span>Dark vessel (SAR, not broadcasting AIS)</div>
+    <div class="legrow" data-layers="tracks"><input type="checkbox" checked />
+      <span class="swatch-line" style="border-color:var(--ais);box-shadow:0 0 6px var(--ais)"></span>Vessel tracks</div>
+    <div class="legrow" data-layers="mpas"><input type="checkbox" checked />
+      <span class="swatch-line"></span>Marine Protected Area (WDPA)</div>
+    <div class="leghint">Circle size = model fishing-score. Click a detection for its dossier.</div>
     <div class="credits">Data: AIS labels &amp; Sentinel-1 SAR detections
       <a href="https://globalfishingwatch.org" target="_blank" rel="noopener">Global Fishing Watch</a>
       (CC BY / CC BY-NC; Paolo et al., <em>Nature</em> 2024) &middot; MPA boundaries
-      <a href="https://www.protectedplanet.net" target="_blank" rel="noopener">UNEP-WCMC &amp; IUCN (2026)</a>,
-      WDPA (non-commercial) &middot; basemap &copy; OpenStreetMap, CARTO</div>
+      <a href="https://www.protectedplanet.net" target="_blank" rel="noopener">Protected Planet</a>
+      (UNEP-WCMC &amp; IUCN 2026, display only) &middot; basemap &copy; OpenStreetMap, CARTO</div>
   </div>
 
   <div id="stats" class="panel"></div>
   <div id="detail" class="panel"></div>
 
   <script>
+    // PMTiles protocol so the MPA boundaries are served as non-extractable vector
+    // tiles (WDPA Terms of Use: display only, not a downloadable dataset).
+    const protocol = new pmtiles.Protocol();
+    maplibregl.addProtocol('pmtiles', protocol.tile);
+
+    const CARTO = sub => [
+      `https://a.basemaps.cartocdn.com/${sub}/{z}/{x}/{y}{r}.png`,
+      `https://b.basemaps.cartocdn.com/${sub}/{z}/{x}/{y}{r}.png`,
+      `https://c.basemaps.cartocdn.com/${sub}/{z}/{x}/{y}{r}.png`,
+      `https://d.basemaps.cartocdn.com/${sub}/{z}/{x}/{y}{r}.png`,
+    ];
+
     const map = new maplibregl.Map({
       container: 'map',
-      // OpenStreetMap raster basemap - no API key. (For production, use a proper
-      // tile provider per OSM's usage policy.)
+      center: [-168, -2],
+      zoom: 1.9,
+      attributionControl: { compact: true },
       style: {
         version: 8,
+        glyphs: 'https://fonts.openmaptiles.org/{fontstack}/{range}.pbf',
         sources: {
-          basemap: {
-            type: 'raster',
-            // Carto light basemap: free, no key, CORS-friendly (OSM's own tiles block
-            // non-browser clients and discourage app hotlinking).
-            tiles: [
-              'https://a.basemaps.cartocdn.com/light_all/{z}/{x}/{y}.png',
-              'https://b.basemaps.cartocdn.com/light_all/{z}/{x}/{y}.png',
-              'https://c.basemaps.cartocdn.com/light_all/{z}/{x}/{y}.png'
-            ],
-            tileSize: 256,
-            attribution: '© OpenStreetMap contributors © CARTO'
-          }
+          basemap: { type: 'raster', tiles: CARTO('dark_nolabels'), tileSize: 256,
+            attribution: '© OpenStreetMap contributors © CARTO · MPA boundaries © Protected Planet (UNEP-WCMC & IUCN 2026)' },
+          mpas: { type: 'vector', url: 'pmtiles://./tiles/mpas.pmtiles',
+            attribution: 'WDPA © UNEP-WCMC & IUCN (2026), protectedplanet.net' },
         },
-        layers: [{ id: 'basemap', type: 'raster', source: 'basemap' }]
+        sky: { 'atmosphere-blend': ['interpolate', ['linear'], ['zoom'], 0, 1, 5, 1, 7, 0] },
+        light: { anchor: 'map', position: [1.5, 90, 80] },
+        layers: [
+          { id: 'bg', type: 'background', paint: { 'background-color': '#0a2233' } },
+          { id: 'basemap', type: 'raster', source: 'basemap',
+            paint: { 'raster-opacity': 0.9, 'raster-saturation': -0.15, 'raster-contrast': 0.08 } },
+          // MPA boundaries (from vector tiles, source-layer 'mpas')
+          { id: 'mpa-fill', type: 'fill', source: 'mpas', 'source-layer': 'mpas',
+            paint: { 'fill-color': '#2bd4a8',
+              'fill-opacity': ['interpolate', ['linear'], ['zoom'], 2, 0.12, 8, 0.06] } },
+          { id: 'mpa-glow', type: 'line', source: 'mpas', 'source-layer': 'mpas',
+            paint: { 'line-color': '#2bd4a8', 'line-width': 6, 'line-opacity': 0.18, 'line-blur': 4 } },
+          { id: 'mpa-line', type: 'line', source: 'mpas', 'source-layer': 'mpas',
+            paint: { 'line-color': '#3ff0c0',
+              'line-width': ['interpolate', ['linear'], ['zoom'], 2, 1, 8, 2.6],
+              'line-opacity': 0.9 } },
+          { id: 'mpa-labels', type: 'symbol', source: 'mpas', 'source-layer': 'mpas',
+            layout: { 'text-field': ['coalesce', ['get', 'name'], 'MPA'], 'text-size': 12,
+              'text-font': ['Noto Sans Regular'], 'symbol-placement': 'point', 'text-max-width': 9,
+              'text-allow-overlap': false },
+            paint: { 'text-color': '#dffff4', 'text-halo-color': '#05241c', 'text-halo-width': 1.6,
+              'text-halo-blur': 0.5 } },
+        ],
       },
-      center: [-175, 0],
-      zoom: 1.6
     });
-    map.addControl(new maplibregl.NavigationControl(), 'top-right');
-    // Keep the GL canvas matched to the container (covers programmatic viewport changes
-    // / orientation changes where the default resize tracking can miss).
+    map.addControl(new maplibregl.NavigationControl({ showCompass: true, visualizePitch: true }), 'top-right');
+    map.addControl(new maplibregl.ScaleControl({ unit: 'nautical' }), 'bottom-left');
+    map.on('style.load', () => map.setProjection({ type: 'globe' }));
     new ResizeObserver(() => map.resize()).observe(document.getElementById('map'));
+
+    // Precomputed views so "jump to MPA" never wraps the antimeridian.
+    const MPA_VIEWS = {
+      'Galapagos Marine Reserve': { center: [-91.0, -0.4], zoom: 6 },
+      'Great Barrier Reef Marine Park': { center: [147.7, -18.3], zoom: 4.8 },
+      'Phoenix Islands Protected Area': { center: [-172.0, -3.6], zoom: 5.2 },
+      'Papahanaumokuakea Marine National Monument': { center: [-176.0, 25.5], zoom: 4.2 },
+      'Rapa Nui Marine Protected Area': { center: [-109.4, -27.1], zoom: 5.3 },
+    };
 
     map.on('load', async () => {
       map.resize();
-      // Homepage shows the curated showcase (./data); ?live shows the near-real-time
-      // monitor (./data/live) refreshed in the cloud by the live-ais workflow.
       const LIVE = new URLSearchParams(location.search).has('live');
       const DIR = LIVE ? './data/live' : './data';
-      let mpas, incidents, tracks, summary;
+      let incidents, tracks, summary;
       try {
         const getJSON = async (p) => {
           const r = await fetch(p);
           if (!r.ok) throw new Error(`${p} (${r.status})`);
           return r.json();
         };
-        [mpas, incidents, tracks, summary] = await Promise.all([
-          getJSON(`${DIR}/mpas.geojson`), getJSON(`${DIR}/incidents.geojson`),
-          getJSON(`${DIR}/tracks.geojson`), getJSON(`${DIR}/summary.json`),
+        [incidents, tracks, summary] = await Promise.all([
+          getJSON(`${DIR}/incidents.geojson`), getJSON(`${DIR}/tracks.geojson`), getJSON(`${DIR}/summary.json`),
         ]);
       } catch (err) {
         document.getElementById('stats').innerHTML =
           `<strong>Data unavailable.</strong><br>Could not load ${err.message}`;
         return;
       }
-      setMode(LIVE, summary);
-      renderStats(summary);
 
-      map.addSource('mpas', { type: 'geojson', data: mpas });
-      map.addLayer({ id: 'mpa-fill', type: 'fill', source: 'mpas',
-        paint: { 'fill-color': '#1fb98f', 'fill-opacity': 0.22 } });
-      map.addLayer({ id: 'mpa-line', type: 'line', source: 'mpas',
-        paint: { 'line-color': '#14e0a0', 'line-width': 2.4, 'line-opacity': 0.95 } });
-      // MPA name labels as HTML markers (no external glyph-font dependency, always
-      // visible even when a polygon is tiny at world zoom).
-      const centroid = (geom) => {
-        let xs = 0, ys = 0, n = 0;
-        const walk = (c) => { if (typeof c[0] === 'number') { xs += c[0]; ys += c[1]; n++; } else c.forEach(walk); };
-        walk(geom.coordinates);
-        return [xs / n, ys / n];
-      };
-      for (const f of mpas.features) {
-        const el = document.createElement('div');
-        el.className = 'mpa-name';
-        el.textContent = f.properties.name || f.properties.NAME || 'MPA';
-        new maplibregl.Marker({ element: el, anchor: 'bottom' })
-          .setLngLat(centroid(f.geometry)).addTo(map);
-      }
-
+      // tracks
       map.addSource('tracks', { type: 'geojson', data: tracks });
+      map.addLayer({ id: 'track-hi-glow', type: 'line', source: 'tracks',
+        filter: ['==', ['get', 'id'], '__none__'],
+        paint: { 'line-color': '#f4a236', 'line-width': 6, 'line-opacity': 0.25, 'line-blur': 3 } });
       map.addLayer({ id: 'track-lines', type: 'line', source: 'tracks',
-        paint: { 'line-color': '#f4a236', 'line-width': 1, 'line-opacity': 0.3 } });
+        paint: { 'line-color': '#f4a236', 'line-width': 1, 'line-opacity': 0.45, 'line-blur': 0.4 } });
       map.addLayer({ id: 'track-hi', type: 'line', source: 'tracks',
         filter: ['==', ['get', 'id'], '__none__'],
-        paint: { 'line-color': '#ffd27f', 'line-width': 2.5, 'line-opacity': 0.95 } });
+        paint: { 'line-color': '#ffd27f', 'line-width': 2, 'line-opacity': 0.95 } });
 
-      map.addSource('incidents', { type: 'geojson', data: incidents });
+      // incidents (generateId for feature-state hover/selected)
+      map.addSource('incidents', { type: 'geojson', data: incidents, generateId: true });
+      map.addLayer({ id: 'incident-glow', type: 'circle', source: 'incidents',
+        paint: {
+          'circle-radius': ['interpolate', ['linear'], ['coalesce', ['get', 'score'], 0.8], 0.5, 9, 1, 16],
+          'circle-color': ['match', ['get', 'kind'], 'dark_vessel_sar', '#e0455e', '#f4a236'],
+          'circle-opacity': 0.28, 'circle-blur': 1 } });
       map.addLayer({ id: 'incident-pts', type: 'circle', source: 'incidents',
         paint: {
-          'circle-radius': ['interpolate', ['linear'], ['coalesce', ['get', 'score'], 0.8], 0.5, 4, 1, 8],
+          'circle-radius': ['interpolate', ['linear'], ['coalesce', ['get', 'score'], 0.8], 0.5, 3.5, 1, 7],
           'circle-color': ['match', ['get', 'kind'], 'dark_vessel_sar', '#e0455e', '#f4a236'],
-          'circle-stroke-color': '#ffffff', 'circle-stroke-width': 1.2, 'circle-opacity': 0.9
-        } });
+          'circle-stroke-color': ['case',
+            ['boolean', ['feature-state', 'selected'], false], '#3ff0c0',
+            ['boolean', ['feature-state', 'hover'], false], '#ffffff', '#081620'],
+          'circle-stroke-width': ['case',
+            ['boolean', ['feature-state', 'selected'], false], 2.4,
+            ['boolean', ['feature-state', 'hover'], false], 1.8, 1.2],
+          'circle-opacity': 1 } });
 
-      // Frame the live monitor on its single region (the Great Barrier Reef) rather
-      // than a blank world view. The global showcase keeps its Pacific-centred default:
-      // its incidents straddle the antimeridian (GBR ~147 E, Hawaii ~170 W, Galapagos
-      // ~91 W), so a naive fitBounds would wrap the long way and centre on the Atlantic.
-      if (LIVE) {
-        const b = new maplibregl.LngLatBounds();
-        let any = false;
-        const add = (c) => { if (typeof c[0] === 'number') { b.extend(c); any = true; } else c.forEach(add); };
-        const src = incidents.features.length ? incidents : mpas;
-        for (const f of src.features) { if (f.geometry) add(f.geometry.coordinates); }
-        if (any) map.fitBounds(b, { padding: 70, maxZoom: 8.5, duration: 0 });
-      }
+      setMode(LIVE, summary);
+      renderStats(summary);
+      if (LIVE) fitLive(incidents);
+      else map.flyTo({ center: [-168, -2], zoom: 1.9, duration: 0 });
 
-      function setMode(live, summary) {
-        const asof = (summary && summary.generated_at) ? ` Data as of ${summary.generated_at} UTC.` : '';
-        const v = document.getElementById('vintage');
-        if (v) v.innerHTML = live
-          ? `Live AIS stream (Great Barrier Reef).${asof} <em>Apparent</em> fishing, an inspection lead, not proof.`
-          : 'Illustrative sample: AIS apparent-fishing (2013-2014 GFW labels) + real GFW dark-vessel SAR (2024), approximate MPA boxes. Not live. <em>Apparent</em> fishing, not proof.';
-        document.getElementById('modelink').innerHTML = live
-          ? '<a href="./" style="color:var(--fg)">&larr; Back to showcase</a>'
-          : '<a href="?live" style="color:var(--ais)">View the near-real-time monitor &rarr;</a>';
-      }
+      wireLayerToggles();
+      wireInteractions();
+    });
 
-      function renderStats(s) {
-        const rows = o => Object.entries(o).map(([k, v]) =>
-          `<div style="display:flex;justify-content:space-between;gap:12px"><span>${k}</span><span>${v}</span></div>`).join('');
-        const tl = { ais_fishing_incident: 'AIS fishing', dark_vessel_sar: 'Dark (SAR)' };
-        const byType = Object.fromEntries(Object.entries(s.by_type).map(([k, v]) => [tl[k] || k, v]));
-        const sev = s.by_severity || {};
-        const bySev = Object.fromEntries(['high', 'medium', 'low'].filter(k => sev[k]).map(k => [k, sev[k]]));
-        const sevRows = Object.keys(bySev).length
-          ? `<div style="margin-top:7px;color:var(--muted)">by severity</div>${rows(bySev)}` : '';
-        document.getElementById('stats').innerHTML =
-          `<strong>${s.total} records inside MPAs</strong>
-           <div style="margin-top:7px;color:var(--muted)">by type</div>${rows(byType)}
-           ${sevRows}
-           <div style="margin-top:7px;color:var(--muted)">by MPA</div>${rows(s.by_mpa)}`;
-      }
+    // Frame the live monitor on its region (normalize Pacific lng so fitBounds takes the short way).
+    function fitLive(fc) {
+      const b = new maplibregl.LngLatBounds();
+      let any = false;
+      const add = (c) => {
+        if (typeof c[0] === 'number') { b.extend([c[0] < 0 ? c[0] + 360 : c[0], c[1]]); any = true; }
+        else c.forEach(add);
+      };
+      for (const f of fc.features) { if (f.geometry) add(f.geometry.coordinates); }
+      if (any) map.fitBounds(b, { padding: 70, maxZoom: 8.5, duration: 0 });
+    }
 
-      const kindLabel = k => k === 'dark_vessel_sar' ? 'Dark vessel (SAR)' : 'AIS apparent fishing';
-      const kindColor = k => k === 'dark_vessel_sar' ? '#e0455e' : '#f4a236';
+    function setMode(live, summary) {
+      const asof = (summary && summary.generated_at) ? ` Data as of ${summary.generated_at} UTC.` : '';
+      const v = document.getElementById('vintage');
+      v.innerHTML = live
+        ? `Live AIS stream (Great Barrier Reef).${asof} <em>Apparent</em> fishing, an inspection lead, not proof.`
+        : 'Illustrative sample: AIS apparent-fishing (2013-2014 GFW labels) + real GFW dark-vessel SAR (2024), real WDPA boundaries (simplified). Not live. <em>Apparent</em> fishing, not proof.';
+      document.getElementById('modelink').innerHTML = live
+        ? '<a href="./" style="color:var(--fg)">&larr; Back to showcase</a>'
+        : '<a href="?live">View the near-real-time monitor &rarr;</a>';
+    }
+
+    function renderStats(s) {
+      const rows = o => Object.entries(o).map(([k, v]) =>
+        `<div class="stat-row"><span>${k}</span><span>${v}</span></div>`).join('');
+      const tl = { ais_fishing_incident: 'AIS fishing', dark_vessel_sar: 'Dark (SAR)' };
+      const byType = Object.fromEntries(Object.entries(s.by_type).map(([k, v]) => [tl[k] || k, v]));
+      const sev = s.by_severity || {};
+      const bySev = ['high', 'medium', 'low'].filter(k => sev[k]);
+      const sevHtml = bySev.length
+        ? `<div class="stat-sub">by severity</div>` + bySev.map(k =>
+            `<div class="stat-row"><span><span class="sev sev-${k}">${k}</span></span><span>${sev[k]}</span></div>`).join('')
+        : '';
+      const mpaHtml = Object.entries(s.by_mpa).map(([k, v]) =>
+        `<div class="stat-row"><span class="mpa-link" data-mpa="${k.replace(/"/g, '&quot;')}">${k}</span><span>${v}</span></div>`).join('');
+      document.getElementById('stats').innerHTML =
+        `<div class="stat-h">${s.total} records inside MPAs</div>
+         <div class="stat-sub">by type</div>${rows(byType)}
+         ${sevHtml}
+         <div class="stat-sub">by protected area</div>${mpaHtml}`;
+      document.querySelectorAll('#stats .mpa-link').forEach(el => {
+        el.onclick = () => { const v = MPA_VIEWS[el.dataset.mpa]; if (v) map.flyTo({ ...v, duration: 1500, essential: true }); };
+      });
+    }
+
+    // Interactive legend doubles as the layer manager.
+    const LAYER_GROUPS = {
+      'incident-ais': ['incident-glow', 'incident-pts'], // AIS filtered visually below; toggles all points
+      'incident-sar': ['incident-glow', 'incident-pts'],
+      'tracks': ['track-lines', 'track-hi', 'track-hi-glow'],
+      'mpas': ['mpa-fill', 'mpa-glow', 'mpa-line', 'mpa-labels'],
+    };
+    function wireLayerToggles() {
+      // AIS and SAR share the incident layers; drive them with a filter instead of visibility.
+      const shown = { ais: true, sar: true };
+      const applyIncidentFilter = () => {
+        const kinds = [];
+        if (shown.ais) kinds.push('ais_fishing_incident');
+        if (shown.sar) kinds.push('dark_vessel_sar');
+        const f = kinds.length ? ['in', ['get', 'kind'], ['literal', kinds]] : ['==', ['get', 'kind'], '__none__'];
+        ['incident-glow', 'incident-pts'].forEach(id => map.setFilter(id, f));
+      };
+      document.querySelectorAll('.legrow').forEach(row => {
+        const key = row.dataset.layers;
+        const cb = row.querySelector('input');
+        row.onclick = (e) => {
+          if (e.target !== cb) cb.checked = !cb.checked;
+          row.classList.toggle('off', !cb.checked);
+          if (key === 'incident-ais') { shown.ais = cb.checked; applyIncidentFilter(); }
+          else if (key === 'incident-sar') { shown.sar = cb.checked; applyIncidentFilter(); }
+          else (LAYER_GROUPS[key] || []).forEach(id =>
+            map.setLayoutProperty(id, 'visibility', cb.checked ? 'visible' : 'none'));
+        };
+      });
+    }
+
+    function wireInteractions() {
       const detail = document.getElementById('detail');
       const stats = document.getElementById('stats');
+      let hoveredId = null, selectedId = null;
+      let lastFeature = null;
+
+      const setHover = (id, on) => { if (id != null) map.setFeatureState({ source: 'incidents', id }, { hover: on }); };
+      const setSel = (id, on) => { if (id != null) map.setFeatureState({ source: 'incidents', id }, { selected: on }); };
+
+      map.on('mousemove', 'incident-pts', (e) => {
+        map.getCanvas().style.cursor = 'pointer';
+        const id = e.features[0].id;
+        if (hoveredId !== id) { setHover(hoveredId, false); hoveredId = id; setHover(hoveredId, true); }
+      });
+      map.on('mouseleave', 'incident-pts', () => {
+        map.getCanvas().style.cursor = '';
+        setHover(hoveredId, false); hoveredId = null;
+      });
 
       map.on('click', 'incident-pts', (e) => {
-        const p = e.features[0].properties;
+        const f = e.features[0];
+        const p = f.properties;
+        lastFeature = p;
+        setSel(selectedId, false); selectedId = f.id; setSel(selectedId, true);
         map.setFilter('track-hi', ['==', ['get', 'id'], p.id]);
-        const sevBit = p.severity
-          ? `<span class="sev sev-${p.severity}">${p.severity.toUpperCase()}</span> ${p.severity_reason || ''}` : '';
-        const scoreBit = (p.score !== '' && p.score != null) ? ` &nbsp; score ${p.score}` : '';
-        const who = (p.flag_emoji ? p.flag_emoji + ' ' : '') + (p.ship_name || p.vessel);
-        const idBits = [p.flag, p.ship_type, p.destination ? 'to ' + p.destination : '']
-          .filter(Boolean).join(' &middot; ');
-        detail.innerHTML = `
-          <button type="button" class="close" aria-label="Close incident details">&times;</button>
-          <h3>${p.mpa}</h3>
-          <div class="row"><span class="pill" style="background:${kindColor(p.kind)}">${kindLabel(p.kind)}</span> ${sevBit}</div>
-          <div class="row"><strong>Vessel:</strong> ${who}${scoreBit}</div>
-          ${idBits ? `<div class="row" style="color:var(--muted)">${idBits}</div>` : ''}
-          <div class="row"><strong>Gear / source:</strong> ${p.gear}</div>
-          <div class="row"><strong>When (UTC):</strong> ${p.when}</div>
-          ${p.why_full ? `<div class="why2"><strong>Why flagged:</strong> ${p.why_full}</div>` : ''}
-          ${p.baseline ? `<div class="row"><strong>Vs. baseline:</strong> ${p.baseline}</div>` : ''}
-          <div class="cav2">${p.caveats || p.caveat}</div>`;
+        map.setFilter('track-hi-glow', ['==', ['get', 'id'], p.id]);
+        renderDossier(p);
         detail.style.display = 'block';
         stats.style.display = 'none';
-        const closeBtn = detail.querySelector('.close');
-        closeBtn.onclick = closeDetail;
-        closeBtn.focus();
+        detail.querySelector('.close').focus();
       });
+
+      function renderDossier(p) {
+        const isSar = p.kind === 'dark_vessel_sar';
+        const sevBit = p.severity
+          ? `<span class="sev sev-${p.severity}">${p.severity.toUpperCase()}</span> <span style="color:var(--muted)">${p.severity_reason || ''}</span>` : '';
+        const scoreBit = (p.score !== '' && p.score != null) ? `<span style="color:var(--muted)"> &middot; score ${p.score}</span>` : '';
+        const who = (p.flag_emoji ? p.flag_emoji + ' ' : '') + (p.ship_name || p.vessel || 'unknown');
+        const idBits = [p.flag, p.ship_type, p.destination ? 'to ' + p.destination : ''].filter(Boolean).join(' &middot; ');
+        const kindLabel = isSar ? 'Dark vessel (SAR)' : 'AIS apparent fishing';
+        const kindColor = isSar ? 'var(--sar)' : 'var(--ais)';
+        detail.innerHTML = `
+          <button type="button" class="close" aria-label="Close incident details">&times;</button>
+          <h3>${esc(p.mpa)}</h3>
+          <div class="row"><span class="pill" style="background:${kindColor}">${kindLabel}</span> ${sevBit}</div>
+          <div class="row"><strong>Vessel:</strong> ${esc(who)}${scoreBit}</div>
+          ${idBits ? `<div class="row" style="color:var(--muted)">${esc(idBits)}</div>` : ''}
+          <div class="row"><strong>Gear / source:</strong> ${esc(p.gear || 'n/a')}</div>
+          <div class="row"><strong>When (UTC):</strong> ${esc(p.when || 'n/a')}</div>
+          ${whyBlock(p, isSar)}
+          ${p.baseline ? `<div class="row" style="color:var(--muted)"><strong style="color:var(--teal-bright)">Vs. baseline:</strong> ${esc(p.baseline)}</div>` : ''}
+          <div class="cav2">${esc(p.caveats || p.caveat || '')}</div>
+          <button type="button" class="dlbtn" id="dl-dossier">Download dossier (JSON)</button>`;
+        detail.querySelector('.close').onclick = closeDetail;
+        detail.querySelector('#dl-dossier').onclick = () => downloadDossier(p);
+      }
+
+      function whyBlock(p, isSar) {
+        if (isSar) {
+          const items = (p.why || '').split(' · ').filter(Boolean).map(x => `<li>${esc(x)}</li>`).join('');
+          return `<div class="why2"><strong>Why flagged</strong> <span style="color:var(--muted)">(SAR attributes; no AIS track to SHAP)</span>
+            <ul class="sar-why" style="margin:6px 0 0;padding-left:16px">${items}</ul></div>`;
+        }
+        const drivers = parseShap(p.why_full || p.why || '');
+        if (!drivers.length) return p.why_full ? `<div class="why2"><strong>Why flagged:</strong> ${esc(p.why_full)}</div>` : '';
+        const max = Math.max(...drivers.map(d => Math.abs(d.val)), 0.01);
+        const bars = drivers.map(d => {
+          const w = Math.min(50, (Math.abs(d.val) / max) * 50);
+          const cls = d.val >= 0 ? 'pos' : 'neg';
+          const style = d.val >= 0 ? `left:50%;width:${w}%` : `right:50%;width:${w}%`;
+          const lab = d.val >= 0 ? `left:${50 + w + 1}%` : `right:${50 + w + 1}%`;
+          return `<div class="shap-row"><span class="shap-feat" title="${esc(d.feat)}">${esc(d.feat)}</span>
+            <span class="shap-track"><span class="shap-mid"></span><span class="shap-bar ${cls}" style="${style}"></span>
+            <span class="shap-val" style="${lab}">${d.val >= 0 ? '+' : ''}${d.val.toFixed(2)}</span></span></div>`;
+        }).join('');
+        return `<div class="why2"><strong>Why flagged</strong> <span style="color:var(--muted)">(SHAP, fishing class)</span>
+          <div class="shap">${bars}</div>
+          <div style="font-size:10px;color:var(--faint);margin-top:5px">Red pushes toward fishing, teal away.</div></div>`;
+      }
+
       function closeDetail() {
         detail.style.display = 'none';
         stats.style.display = 'block';
+        setSel(selectedId, false); selectedId = null;
         map.setFilter('track-hi', ['==', ['get', 'id'], '__none__']);
+        map.setFilter('track-hi-glow', ['==', ['get', 'id'], '__none__']);
       }
       document.addEventListener('keydown', (e) => {
         if (e.key === 'Escape' && detail.style.display === 'block') closeDetail();
       });
-      map.on('mouseenter', 'incident-pts', () => map.getCanvas().style.cursor = 'pointer');
-      map.on('mouseleave', 'incident-pts', () => map.getCanvas().style.cursor = '');
-    });
+    }
+
+    function parseShap(s) {
+      const out = [];
+      const re = /([A-Za-z0-9_]+)\s*\(([+-]?[\d.]+)\)/g;
+      let m;
+      while ((m = re.exec(s)) !== null) out.push({ feat: m[1], val: parseFloat(m[2]) });
+      return out;
+    }
+
+    function downloadDossier(p) {
+      const blob = new Blob([JSON.stringify(p, null, 2)], { type: 'application/json' });
+      const a = document.createElement('a');
+      a.href = URL.createObjectURL(blob);
+      a.download = `seavigil_dossier_${(p.id || 'incident')}.json`;
+      document.body.appendChild(a); a.click(); a.remove();
+      URL.revokeObjectURL(a.href);
+    }
+
+    function esc(s) {
+      return String(s == null ? '' : s).replace(/[&<>"]/g, c =>
+        ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c]));
+    }
   </script>
 </body>
 </html>

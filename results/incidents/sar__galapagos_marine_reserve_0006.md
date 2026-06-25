@@ -1,19 +1,18 @@
 # Dark-vessel detection `sar__galapagos_marine_reserve_0006`
 
-- **MPA:** Galápagos Marine Reserve
-- **Severity:** HIGH (no-take / national-park protection)  ·  boundary sample-approx-2024
-- **Vessel:** NORTH QUEEN  ·  **source:** SAR · TUNA_PURSE_SEINES  ·  **flag:** 🇪🇨 ECU
-- **When (UTC):** 2024-03-06T00:26:54Z
-- **Length:** n/a  ·  **broadcasting AIS:** yes  ·  **GFW fishing-score:** n/a (Portal-only)
-- **Where:** -0.930, -92.440
+- **MPA:** Galapagos Marine Reserve (WDPA 11753)
+- **Severity:** LOW (multi-use protected area)  ·  boundary WDPA/WD-OECM Jun2026
+- **Vessel:** (dark -- no AIS identity)  ·  **source:** SAR (dark)
+- **When (UTC):** 2024-03-31T11:51:02Z
+- **Length:** n/a  ·  **broadcasting AIS:** no (dark)  ·  **GFW fishing-score:** n/a (Portal-only)
+- **Where:** -0.390, -90.660
 
 ## Why this was flagged
 
 _SAR detection attributes (no AIS track or identity; not SHAP-explainable)._
 
-- inside MPA: Galápagos Marine Reserve
-- broadcasting AIS: NORTH QUEEN, flag ECU
-- gear type: TUNA_PURSE_SEINES
+- inside MPA: Galapagos Marine Reserve
+- not broadcasting AIS (dark vessel)
 - satellite detections in window: 1
 
 ## Caveats

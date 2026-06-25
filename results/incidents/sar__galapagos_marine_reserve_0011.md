@@ -1,19 +1,19 @@
 # Dark-vessel detection `sar__galapagos_marine_reserve_0011`
 
-- **MPA:** Galápagos Marine Reserve
-- **Severity:** HIGH (no-take / national-park protection)  ·  boundary sample-approx-2024
-- **Vessel:** TUNA PESCA  ·  **source:** SAR · TUNA_PURSE_SEINES  ·  **flag:** 🇵🇦 PAN
-- **When (UTC):** 2024-04-23T00:26:55Z
+- **MPA:** Galapagos Marine Reserve (WDPA 11753)
+- **Severity:** LOW (multi-use protected area)  ·  boundary WDPA/WD-OECM Jun2026
+- **Vessel:** GALAXY DIVER II  ·  **source:** SAR · FISHING  ·  **flag:** 🇪🇨 ECU
+- **When (UTC):** 2024-07-28T00:26:53Z
 - **Length:** n/a  ·  **broadcasting AIS:** yes  ·  **GFW fishing-score:** n/a (Portal-only)
-- **Where:** -1.100, -92.310
+- **Where:** 0.240, -90.830
 
 ## Why this was flagged
 
 _SAR detection attributes (no AIS track or identity; not SHAP-explainable)._
 
-- inside MPA: Galápagos Marine Reserve
-- broadcasting AIS: TUNA PESCA, flag PAN
-- gear type: TUNA_PURSE_SEINES
+- inside MPA: Galapagos Marine Reserve
+- broadcasting AIS: GALAXY DIVER II, flag ECU
+- gear type: FISHING
 - satellite detections in window: 1
 
 ## Caveats

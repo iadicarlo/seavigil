@@ -1,11 +1,11 @@
 # Dark-vessel detection `sar__great_barrier_reef_marine_park_0002`
 
-- **MPA:** Great Barrier Reef Marine Park
-- **Severity:** LOW (multi-use protected area)  ·  boundary sample-approx-2024
+- **MPA:** Great Barrier Reef Marine Park (WDPA 2628_5)
+- **Severity:** LOW (multi-use protected area)  ·  boundary WDPA/WD-OECM Jun2026
 - **Vessel:** (dark -- no AIS identity)  ·  **source:** SAR (dark)
 - **When (UTC):** 2024-01-01T08:29:59Z
 - **Length:** n/a  ·  **broadcasting AIS:** no (dark)  ·  **GFW fishing-score:** n/a (Portal-only)
-- **Where:** -23.800, 151.210
+- **Where:** -22.200, 150.320
 
 ## Why this was flagged
 
@@ -13,7 +13,7 @@ _SAR detection attributes (no AIS track or identity; not SHAP-explainable)._
 
 - inside MPA: Great Barrier Reef Marine Park
 - not broadcasting AIS (dark vessel)
-- satellite detections in window: 5
+- satellite detections in window: 4
 
 ## Caveats
 

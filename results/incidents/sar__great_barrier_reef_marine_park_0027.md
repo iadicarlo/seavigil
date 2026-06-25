@@ -1,19 +1,19 @@
 # Dark-vessel detection `sar__great_barrier_reef_marine_park_0027`
 
-- **MPA:** Great Barrier Reef Marine Park
-- **Severity:** LOW (multi-use protected area)  ·  boundary sample-approx-2024
-- **Vessel:** SHOHAKU  ·  **source:** SAR · DRIFTING_LONGLINES  ·  **flag:** 🇯🇵 JPN
-- **When (UTC):** 2024-02-11T19:29:20Z
+- **MPA:** Great Barrier Reef Marine Park (WDPA 2628_5)
+- **Severity:** LOW (multi-use protected area)  ·  boundary WDPA/WD-OECM Jun2026
+- **Vessel:** FV AVENGER 1  ·  **source:** SAR · TRAWLERS  ·  **flag:** 🇦🇺 AUS
+- **When (UTC):** 2024-03-04T19:45:06Z
 - **Length:** n/a  ·  **broadcasting AIS:** yes  ·  **GFW fishing-score:** n/a (Portal-only)
-- **Where:** -21.200, 149.430
+- **Where:** -19.060, 147.500
 
 ## Why this was flagged
 
 _SAR detection attributes (no AIS track or identity; not SHAP-explainable)._
 
 - inside MPA: Great Barrier Reef Marine Park
-- broadcasting AIS: SHOHAKU, flag JPN
-- gear type: DRIFTING_LONGLINES
+- broadcasting AIS: FV AVENGER 1, flag AUS
+- gear type: TRAWLERS
 - satellite detections in window: 1
 
 ## Caveats

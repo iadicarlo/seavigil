@@ -203,10 +203,23 @@ overlay, but produce a **distinct dossier type**:
 GitHub Pages is static and cannot call the GFW API from the browser (token in header, no CORS,
 non-commercial, rate limits). Pattern = **precompute-and-ship-static**: a local/CI job runs the
 pipeline and emits static GeoJSON; the browser loads only files. `site.py` converts
-`results/incidents/` + MPA polygons into `web/data/*.geojson`; `web/index.html` renders them
-with **MapLibre GL** (handles many points; Leaflet chokes) and a click-through to each dossier.
-Production refresh is a GitHub Actions cron with the GFW token in Actions secrets; the WDPA
-layer must be shipped as **non-extractable tiles** (UNEP-WCMC license, §5.1).
+`results/incidents/` into `web/data/*.geojson` (incidents, tracks, summary); `web/index.html`
+renders them with **MapLibre GL 5** (3D globe, dark Carto basemap, glowing AIS/SAR points,
+layer toggles, jump-to-MPA, per-incident SHAP dossier) and a click-through to each dossier.
+Production refresh is a GitHub Actions cron with the GFW token in Actions secrets.
+
+**MPA boundaries (real, display-only).** The five showcase reserves use their genuine WDPA
+polygons (`scripts/extract_showcase_mpas.py` reads the marine `.gdb`, simplifies, keeps the
+Great Barrier Reef IUCN zones so a no-take area grades as high severity). They are shipped as
+**non-extractable vector tiles** (`web/tiles/mpas.pmtiles`, built with tippecanoe), never as a
+downloadable GeoJSON: the Protected Planet Terms of Use permit online display "in whole or in
+part" only if the data are not downloadable and attribution links back. The full-resolution
+source stays gitignored; the map carries a clickable Protected Planet credit. Citation:
+*UNEP-WCMC and IUCN (2026), Protected Planet: The World Database on Protected Areas (WDPA)
+[On-line], June 2026, Cambridge, UK: UNEP-WCMC and IUCN. www.protectedplanet.net.* This
+WDPA-derived layer is non-commercial and not covered by the project license. Detection runs
+offline against a coarser copy of the same polygons (`wdpa_marine_detect.geojson`, also
+gitignored) for speed; AIS incidents are kept only when genuinely inside a real boundary.
 
 ## 7. Tools & dependencies (and why)
 

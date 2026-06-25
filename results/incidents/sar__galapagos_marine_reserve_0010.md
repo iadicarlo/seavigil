@@ -1,18 +1,19 @@
 # Dark-vessel detection `sar__galapagos_marine_reserve_0010`
 
-- **MPA:** Galápagos Marine Reserve
-- **Severity:** HIGH (no-take / national-park protection)  ·  boundary sample-approx-2024
-- **Vessel:** (dark -- no AIS identity)  ·  **source:** SAR (dark)
-- **When (UTC):** 2024-03-31T11:51:02Z
-- **Length:** n/a  ·  **broadcasting AIS:** no (dark)  ·  **GFW fishing-score:** n/a (Portal-only)
-- **Where:** -0.750, -91.410
+- **MPA:** Galapagos Marine Reserve (WDPA 11753)
+- **Severity:** LOW (multi-use protected area)  ·  boundary WDPA/WD-OECM Jun2026
+- **Vessel:** GALAXY DIVER II  ·  **source:** SAR · FISHING  ·  **flag:** 🇪🇨 ECU
+- **When (UTC):** 2024-07-28T00:26:53Z
+- **Length:** n/a  ·  **broadcasting AIS:** yes  ·  **GFW fishing-score:** n/a (Portal-only)
+- **Where:** 0.590, -91.140
 
 ## Why this was flagged
 
 _SAR detection attributes (no AIS track or identity; not SHAP-explainable)._
 
-- inside MPA: Galápagos Marine Reserve
-- not broadcasting AIS (dark vessel)
+- inside MPA: Galapagos Marine Reserve
+- broadcasting AIS: GALAXY DIVER II, flag ECU
+- gear type: FISHING
 - satellite detections in window: 1
 
 ## Caveats

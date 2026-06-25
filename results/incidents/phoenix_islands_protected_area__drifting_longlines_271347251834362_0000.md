@@ -1,7 +1,7 @@
 # Incident `phoenix_islands_protected_area__drifting_longlines_271347251834362_0000`
 
-- **MPA:** Phoenix Islands Protected Area
-- **Severity:** HIGH (strict no-take reserve)  ·  boundary sample-approx-2024
+- **MPA:** Phoenix Islands Protected Area (WDPA 309888)
+- **Severity:** MEDIUM (protected area (category not reported))  ·  boundary WDPA/WD-OECM Jun2026
 - **Vessel:** `drifting_longlines_271347251834362`  ·  **gear:** drifting_longlines
 - **When (UTC):** 2014-06-06T01:39:29Z → 2014-06-10T17:13:17Z (111.563 h)
 - **Apparent fishing:** 639 of 672 in-MPA positions; mean p=0.91, max p=1.00

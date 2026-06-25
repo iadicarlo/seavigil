@@ -1,7 +1,7 @@
 # Dark-vessel detection `sar__great_barrier_reef_marine_park_0006`
 
-- **MPA:** Great Barrier Reef Marine Park
-- **Severity:** LOW (multi-use protected area)  ·  boundary sample-approx-2024
+- **MPA:** Great Barrier Reef Marine Park (WDPA 2628_2)
+- **Severity:** HIGH (no-take / national-park protection)  ·  boundary WDPA/WD-OECM Jun2026
 - **Vessel:** ESBJORN  ·  **source:** SAR · DRIFTING_LONGLINES  ·  **flag:** 🇦🇺 AUS
 - **When (UTC):** 2024-01-08T19:13:30Z
 - **Length:** n/a  ·  **broadcasting AIS:** yes  ·  **GFW fishing-score:** n/a (Portal-only)

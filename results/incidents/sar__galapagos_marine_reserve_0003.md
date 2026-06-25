@@ -1,7 +1,7 @@
 # Dark-vessel detection `sar__galapagos_marine_reserve_0003`
 
-- **MPA:** Galápagos Marine Reserve
-- **Severity:** HIGH (no-take / national-park protection)  ·  boundary sample-approx-2024
+- **MPA:** Galapagos Marine Reserve (WDPA 11753)
+- **Severity:** LOW (multi-use protected area)  ·  boundary WDPA/WD-OECM Jun2026
 - **Vessel:** NEMO II  ·  **source:** SAR · FISHING  ·  **flag:** 🇪🇨 ECU
 - **When (UTC):** 2024-01-06T00:27:22Z
 - **Length:** n/a  ·  **broadcasting AIS:** yes  ·  **GFW fishing-score:** n/a (Portal-only)
@@ -11,7 +11,7 @@
 
 _SAR detection attributes (no AIS track or identity; not SHAP-explainable)._
 
-- inside MPA: Galápagos Marine Reserve
+- inside MPA: Galapagos Marine Reserve
 - broadcasting AIS: NEMO II, flag ECU
 - gear type: FISHING
 - satellite detections in window: 1

@@ -1,18 +1,19 @@
-# Dark-vessel detection `sar__galapagos_marine_reserve_0008`
+# Dark-vessel detection `sar__great_barrier_reef_marine_park_0029`
 
-- **MPA:** Galapagos Marine Reserve (WDPA 11753)
+- **MPA:** Great Barrier Reef Marine Park (WDPA 2628_5)
 - **Severity:** LOW (multi-use protected area)  ·  boundary WDPA/WD-OECM Jun2026
-- **Vessel:** (dark -- no AIS identity)  ·  **source:** SAR (dark)
-- **When (UTC):** 2024-03-31T11:51:02Z
-- **Length:** n/a  ·  **broadcasting AIS:** no (dark)  ·  **GFW fishing-score:** n/a (Portal-only)
-- **Where:** -0.750, -91.410
+- **Vessel:** LADY MORETON  ·  **source:** SAR · TRAWLERS  ·  **flag:** 🇦🇺 AUS
+- **When (UTC):** 2024-03-09T19:52:09Z
+- **Length:** n/a  ·  **broadcasting AIS:** yes  ·  **GFW fishing-score:** n/a (Portal-only)
+- **Where:** -15.380, 145.330
 
 ## Why this was flagged
 
 _SAR detection attributes (no AIS track or identity; not SHAP-explainable)._
 
-- inside MPA: Galapagos Marine Reserve
-- not broadcasting AIS (dark vessel)
+- inside MPA: Great Barrier Reef Marine Park
+- broadcasting AIS: LADY MORETON, flag AUS
+- gear type: TRAWLERS
 - satellite detections in window: 1
 
 ## Caveats

@@ -111,10 +111,11 @@ and the implementation plan.
 | Distance enrichment - raw AIS feed → scorable (`seavigil.enrich`) | ✅ implemented |
 | Open-AIS fetch + verified out-of-sample run (`scripts/fetch_open_ais.py`) | ✅ implemented |
 | Near-real-time AIS stream (`scripts/fetch_live_ais.py`, aisstream.io) | ✅ implemented |
-| Real WDPA from Protected Planet `.gdb` (`scripts/wdpa_gdb_to_geojson.py`) | ✅ implemented |
+| Real WDPA boundaries on the map as non-extractable tiles (`web/tiles/mpas.pmtiles`) | ✅ implemented |
+| Dark 3D-globe map (MapLibre GL 5): glowing AIS/SAR, layer toggles, jump-to-MPA, SHAP dossier | ✅ implemented |
 | Logo + favicon + responsive UI (mobile/tablet/desktop) | ✅ implemented |
 | **Live site**: https://iadicarlo.github.io/SeaVigil | ✅ deployed |
-| UNEP-WCMC tile sign-off for a public WDPA layer | ⬜ next (your action) |
+| UNEP-WCMC goodwill notice for the non-commercial WDPA layer | ⬜ optional (your action) |
 
 ## Data
 
@@ -123,11 +124,15 @@ and the implementation plan.
   vessels 2012-2015; trawlers, drifting longlines, purse seines). Licensed **CC BY 4.0**
   (attribution; commercial use permitted). Raw data is **not committed**; the pipeline
   regenerates it.
-- **MPA boundaries:** a small bundled sample of large MPAs for reproducibility; the loader
-  accepts any [WDPA / WD-OECM](https://www.protectedplanet.net/) polygon set (GeoJSON).
-  Convert a Protected Planet `.gdb` with `scripts/wdpa_gdb_to_geojson.py` (output gitignored).
+- **MPA boundaries:** the public map shows the **real WDPA polygons** for the five showcase
+  reserves (Galapagos, Great Barrier Reef with its IUCN zones, Phoenix Islands, Papahanaumokuakea,
+  Rapa Nui), extracted from the Protected Planet marine `.gdb` by `scripts/extract_showcase_mpas.py`,
+  simplified, and shipped as **non-extractable vector tiles** (`web/tiles/mpas.pmtiles`, via
+  tippecanoe). The loader still accepts any [WDPA / WD-OECM](https://www.protectedplanet.net/)
+  GeoJSON for offline detection (full-resolution source kept gitignored).
   **Note:** WDPA/WD-OECM is **non-commercial** and may not be redistributed as a downloadable
-  web map - ship it as non-extractable tiles, not raw GeoJSON. **Citation:** UNEP-WCMC and
+  web map - it is shown for display only under the Protected Planet Terms of Use, with a clickable
+  credit, never as raw GeoJSON. **Citation:** UNEP-WCMC and
   IUCN (2026), Protected Planet: The World Database on Protected Areas (WDPA) and World
   Database on Other Effective Area-based Conservation Measures (WD-OECM), June 2026,
   Cambridge, UK: UNEP-WCMC and IUCN, www.protectedplanet.net.
@@ -154,11 +159,12 @@ adds **dark-fleet** dossiers from SAR detections. Outputs land in `results/` (v1
 dossier per record - AIS incidents carry a SHAP "why"; dark-vessel SAR detections carry an
 attribute rationale instead, because a radar blip has no movement track to explain).
 
-A committed sample (`results/incidents/`, generated with `--scope all` on the approximate
-sample MPAs) shows the mechanism end-to-end: apparent fishing by drifting longliners inside
-the Phoenix Islands Protected Area and Papahānaumokuākea in 2014. It is **illustrative** -
-in-sample scores, approximate boundaries, and "apparent" (era- and rule-dependent) fishing,
-not a finding of illegality.
+A committed sample (`results/incidents/`) shows the mechanism end-to-end: 24 apparent-fishing
+AIS incidents (2013-2014 labels) re-validated against the **real WDPA boundaries** plus 45 real
+GFW Sentinel-1 **dark-vessel** SAR detections (2024) inside the Great Barrier Reef and Galapagos,
+graded by the actual IUCN zone (a dark vessel in a no-take zone reads as high severity). It is
+**illustrative** - a curated sample, in-sample AIS scores, and "apparent" (era- and rule-dependent)
+fishing, not a finding of illegality.
 
 ### Your own data + live dark fleet
 

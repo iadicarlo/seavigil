@@ -1,19 +1,19 @@
 # Dark-vessel detection `sar__great_barrier_reef_marine_park_0028`
 
-- **MPA:** Great Barrier Reef Marine Park
-- **Severity:** LOW (multi-use protected area)  ·  boundary sample-approx-2024
-- **Vessel:** AGAROBE  ·  **source:** SAR · FISHING  ·  **flag:** 🇵🇬 PNG
-- **When (UTC):** 2024-02-13T08:21:48Z
+- **MPA:** Great Barrier Reef Marine Park (WDPA 2628_5)
+- **Severity:** LOW (multi-use protected area)  ·  boundary WDPA/WD-OECM Jun2026
+- **Vessel:** LADY MORETON  ·  **source:** SAR · TRAWLERS  ·  **flag:** 🇦🇺 AUS
+- **When (UTC):** 2024-03-09T19:52:09Z
 - **Length:** n/a  ·  **broadcasting AIS:** yes  ·  **GFW fishing-score:** n/a (Portal-only)
-- **Where:** -10.720, 149.890
+- **Where:** -15.190, 145.380
 
 ## Why this was flagged
 
 _SAR detection attributes (no AIS track or identity; not SHAP-explainable)._
 
 - inside MPA: Great Barrier Reef Marine Park
-- broadcasting AIS: AGAROBE, flag PNG
-- gear type: FISHING
+- broadcasting AIS: LADY MORETON, flag AUS
+- gear type: TRAWLERS
 - satellite detections in window: 1
 
 ## Caveats

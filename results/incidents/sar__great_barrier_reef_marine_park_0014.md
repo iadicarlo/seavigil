@@ -1,18 +1,18 @@
 # Dark-vessel detection `sar__great_barrier_reef_marine_park_0014`
 
-- **MPA:** Great Barrier Reef Marine Park
-- **Severity:** LOW (multi-use protected area)  ·  boundary sample-approx-2024
-- **Vessel:** NELECIA JAY  ·  **source:** SAR · TRAWLERS  ·  **flag:** 🇦🇺 AUS
-- **When (UTC):** 2024-01-20T19:13:29Z
+- **MPA:** Great Barrier Reef Marine Park (WDPA 2628_5)
+- **Severity:** LOW (multi-use protected area)  ·  boundary WDPA/WD-OECM Jun2026
+- **Vessel:** SHOMAC  ·  **source:** SAR · TRAWLERS  ·  **flag:** 🇦🇺 AUS
+- **When (UTC):** 2024-02-23T19:29:20Z
 - **Length:** n/a  ·  **broadcasting AIS:** yes  ·  **GFW fishing-score:** n/a (Portal-only)
-- **Where:** -23.120, 151.510
+- **Where:** -22.080, 150.640
 
 ## Why this was flagged
 
 _SAR detection attributes (no AIS track or identity; not SHAP-explainable)._
 
 - inside MPA: Great Barrier Reef Marine Park
-- broadcasting AIS: NELECIA JAY, flag AUS
+- broadcasting AIS: SHOMAC, flag AUS
 - gear type: TRAWLERS
 - satellite detections in window: 1
 

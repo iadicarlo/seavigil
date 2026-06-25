@@ -1,7 +1,7 @@
 # Incident `phoenix_islands_protected_area__purse_seines_178183327397239_0000`
 
-- **MPA:** Phoenix Islands Protected Area
-- **Severity:** HIGH (strict no-take reserve)  ·  boundary sample-approx-2024
+- **MPA:** Phoenix Islands Protected Area (WDPA 309888)
+- **Severity:** MEDIUM (protected area (category not reported))  ·  boundary WDPA/WD-OECM Jun2026
 - **Vessel:** `purse_seines_178183327397239`  ·  **gear:** purse_seines
 - **When (UTC):** 2013-11-07T03:03:07Z → 2013-11-08T15:27:28Z (36.406 h)
 - **Apparent fishing:** 92 of 172 in-MPA positions; mean p=0.67, max p=0.89

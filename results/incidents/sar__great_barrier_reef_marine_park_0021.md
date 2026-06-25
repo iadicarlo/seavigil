@@ -1,19 +1,19 @@
 # Dark-vessel detection `sar__great_barrier_reef_marine_park_0021`
 
-- **MPA:** Great Barrier Reef Marine Park
-- **Severity:** LOW (multi-use protected area)  ·  boundary sample-approx-2024
-- **Vessel:** LURONGYUANYU769  ·  **source:** SAR · DRIFTING_LONGLINES  ·  **flag:** 🇨🇳 CHN
-- **When (UTC):** 2024-01-23T19:34:35Z
+- **MPA:** Great Barrier Reef Marine Park (WDPA 2628_5)
+- **Severity:** LOW (multi-use protected area)  ·  boundary WDPA/WD-OECM Jun2026
+- **Vessel:** GULF ROSE  ·  **source:** SAR · TRAWLERS  ·  **flag:** 🇦🇺 AUS
+- **When (UTC):** 2024-03-02T19:59:49Z
 - **Length:** n/a  ·  **broadcasting AIS:** yes  ·  **GFW fishing-score:** n/a (Portal-only)
-- **Where:** -11.000, 152.110
+- **Where:** -16.350, 145.490
 
 ## Why this was flagged
 
 _SAR detection attributes (no AIS track or identity; not SHAP-explainable)._
 
 - inside MPA: Great Barrier Reef Marine Park
-- broadcasting AIS: LURONGYUANYU769, flag CHN
-- gear type: DRIFTING_LONGLINES
+- broadcasting AIS: GULF ROSE, flag AUS
+- gear type: TRAWLERS
 - satellite detections in window: 1
 
 ## Caveats
