@@ -265,23 +265,22 @@
         return;
       }
 
-      // EEZ reference layer (global context, mode-independent). Non-fatal if missing.
-      // Drawn below the MPA layers so reserves stay on top. CC BY (Marine Regions).
-      try {
-        const eez = await (await fetch('./data/eez.geojson')).json();
-        map.addSource('eez', { type: 'geojson', data: eez,
-          attribution: 'EEZ © Marine Regions (Flanders VLIZ), CC BY 4.0' });
-        map.addLayer({ id: 'eez-fill', type: 'fill', source: 'eez',
-          paint: { 'fill-color': '#5b8bd0', 'fill-opacity': 0.035 } }, 'mpa-fill');
-        map.addLayer({ id: 'eez-line', type: 'line', source: 'eez',
-          paint: { 'line-color': '#7ea8e0', 'line-width': 1, 'line-opacity': 0.5,
-            'line-dasharray': [3, 2] } }, 'mpa-fill');
-        map.addLayer({ id: 'eez-labels', type: 'symbol', source: 'eez',
-          layout: { 'text-field': ['get', 'name'], 'text-size': 10.5,
-            'text-font': ['Noto Sans Regular'], 'symbol-placement': 'point', 'text-max-width': 8 },
-          paint: { 'text-color': '#9fc0ec', 'text-halo-color': '#05182a', 'text-halo-width': 1.2,
-            'text-opacity': 0.65 } }, 'mpa-fill');
-      } catch (e) { /* EEZ layer optional */ }
+      // Global EEZ reference layer from non-extractable vector tiles (CC BY, Marine
+      // Regions). Lines + decluttered labels, no fill so the ocean stays readable;
+      // drawn below the MPA layers so the reserves stay on top.
+      map.addSource('eez', { type: 'vector', url: 'pmtiles://./tiles/eez.pmtiles',
+        attribution: 'EEZ © Marine Regions (Flanders VLIZ), CC BY 4.0' });
+      map.addLayer({ id: 'eez-line', type: 'line', source: 'eez', 'source-layer': 'eez',
+        paint: { 'line-color': '#7ea8e0',
+          'line-width': ['interpolate', ['linear'], ['zoom'], 1, 0.5, 6, 1.4],
+          'line-opacity': 0.45, 'line-dasharray': [3, 2] } }, 'mpa-fill');
+      map.addLayer({ id: 'eez-labels', type: 'symbol', source: 'eez', 'source-layer': 'eez',
+        minzoom: 3,
+        layout: { 'text-field': ['coalesce', ['get', 'geoname'], ['get', 'name'], 'EEZ'],
+          'text-size': 10.5, 'text-font': ['Noto Sans Regular'], 'symbol-placement': 'point',
+          'text-max-width': 8 },
+        paint: { 'text-color': '#9fc0ec', 'text-halo-color': '#05182a', 'text-halo-width': 1.2,
+          'text-opacity': 0.7 } }, 'mpa-fill');
 
       // tracks
       map.addSource('tracks', { type: 'geojson', data: tracks });
@@ -378,7 +377,7 @@
       'incident-sar': ['incident-glow', 'incident-pts'],
       'tracks': ['track-lines', 'track-hi', 'track-hi-glow'],
       'mpas': ['mpa-fill', 'mpa-glow', 'mpa-line', 'mpa-labels'],
-      'eez': ['eez-fill', 'eez-line', 'eez-labels'],
+      'eez': ['eez-line', 'eez-labels'],
     };
     function wireLayerToggles() {
       // AIS and SAR share the incident layers; drive them with a filter instead of visibility.

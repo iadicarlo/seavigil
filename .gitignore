@@ -41,3 +41,6 @@ node_modules/
 # NOAA Marine Cadastre raw AIS (large) + derived tracks
 data/ais_raw/
 data/positions/noaa_*.csv
+
+# Marine Regions global EEZ/zone source (large; shipped as web/tiles/*.pmtiles)
+data/eez/
