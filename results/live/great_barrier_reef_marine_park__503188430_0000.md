@@ -1,12 +1,12 @@
-# Incident `great_barrier_reef_marine_park__503756000_0000`
+# Incident `great_barrier_reef_marine_park__503188430_0000`
 
 - **MPA:** Great Barrier Reef Marine Park
 - **Severity:** LOW (multi-use protected area)  ·  boundary sample-approx-2024
-- **Vessel:** 🇦🇺 REEF ADVENTURE  ·  **gear:** unknown
-- **When (UTC):** 2026-06-25T21:21:29Z → 2026-06-25T21:22:29Z (0.017 h)
-- **Apparent fishing:** 2 of 2 in-MPA positions; mean p=0.56, max p=0.57
-- **Where:** -16.922, 145.781 (centroid)
-- **Track:** 2 positions, (-16.922, 145.781) → (-16.922, 145.781)
+- **EEZ:** Australia EEZ (Australia)  (flag matches coastal state)
+- **Vessel:** 🇦🇺 TSS SHOALBUSTER  ·  **gear:** unknown
+- **When (UTC):** 2026-06-25T21:22:10Z → 2026-06-25T21:22:10Z (0.0 h)
+- **Apparent fishing:** 1 of 1 in-MPA positions; mean p=0.57, max p=0.57
+- **Where:** -16.931, 145.780 (centroid)
 - **Vs. speed baseline:** the trivial rule (speed < 10.7 kn) also flags 100% of these positions; here the speed rule alone suffices.
 
 ## Why this was flagged
@@ -15,11 +15,11 @@ _mean per-position SHAP (fishing class) over the incident's fishing positions._
 
 | feature | mean value | mean SHAP |
 |---|---:|---:|
-| `distance_from_shore` | 6626.746 | +0.169 |
-| `distance_from_port` | 1095.227 | -0.111 |
+| `distance_from_shore` | 7591.002 | +0.170 |
+| `distance_from_port` | 499.462 | -0.109 |
 | `speed_roll_std` | 0.000 | -0.038 |
-| `speed` | 0.000 | +0.038 |
-| `hour_cos` | 0.770 | +0.021 |
+| `speed` | 0.000 | +0.037 |
+| `hour_cos` | 0.772 | +0.025 |
 
 ## Caveats
 
@@ -34,7 +34,7 @@ _mean per-position SHAP (fishing class) over the incident's fishing positions._
 - WDPA / WD-OECM (World Database on Protected Areas) (UNEP-WCMC and IUCN (2026), June 2026). Protected Planet Terms of Use (non-commercial, display-only).
 - Marine Regions Exclusive Economic Zones v12 (Flanders Marine Institute (2024), DOI 10.14284/632). CC BY 4.0.
 - **Model confidence:** Fishing probabilities are well-calibrated (Brier 0.0915 on 408,194 held-out positions from vessels not seen in training); read the score as a probability.
-- **Integrity (SHA-256 of canonical facts):** `2a7afe28e0f806129858795b4df157642fb51fef037a022db7fb2c4b8cb17b05`
+- **Integrity (SHA-256 of canonical facts):** `d4c21773abacd2450bc6d024e01cde84785ecdb33704c17ea669760c89e802ca`
 - **Evidence schema:** seavigil-evidence-1.0
 
 _Apparent activity and an inspection lead, not proof of illegality. AIS and SAR evidence have known coverage gaps and spoofing risks; verify against authoritative sources before any enforcement action._
