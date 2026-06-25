@@ -99,20 +99,6 @@ def incidents_to_geojson(dossiers: list[dict]) -> dict:
     return {"type": "FeatureCollection", "features": features}
 
 
-def tracks_to_geojson(dossiers: list[dict]) -> dict:
-    """LineString per incident that has a track (>=2 points) — for the map's path layer."""
-    feats = []
-    for d in dossiers:
-        trk = d.get("track") or []
-        if len(trk) >= 2:
-            feats.append({
-                "type": "Feature",
-                "geometry": {"type": "LineString", "coordinates": trk},
-                "properties": {"id": d["incident_id"], "kind": d.get("type", "ais_fishing_incident")},
-            })
-    return {"type": "FeatureCollection", "features": feats}
-
-
 def build_site(
     incidents_json: str | Path = INCIDENTS_JSON,
     mpa_geojson: str | Path = MPA_GEOJSON,
@@ -126,8 +112,14 @@ def build_site(
     (out_dir / "incidents.geojson").write_text(
         json.dumps(incidents_to_geojson(dossiers))
     )
-    (out_dir / "tracks.geojson").write_text(json.dumps(tracks_to_geojson(dossiers)))
     (out_dir / "summary.json").write_text(json.dumps(summarize(dossiers)))
+
+    # Tracks are written alongside incidents.json by dossier.write_dossiers; copy
+    # the LineStrings through to the web data (incidents.json itself is track-free).
+    tracks_src = Path(incidents_json).parent / "tracks.geojson"
+    tracks = (json.loads(tracks_src.read_text()) if tracks_src.exists()
+              else {"type": "FeatureCollection", "features": []})
+    (out_dir / "tracks.geojson").write_text(json.dumps(tracks))
 
     # Sample MPA boxes pass through as-is. NOTE: real WDPA polygons are
     # non-commercial and must NOT be shipped as a downloadable GeoJSON -- convert

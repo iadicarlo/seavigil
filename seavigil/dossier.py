@@ -161,7 +161,7 @@ def render_markdown(dossier: dict) -> str:
         if len(trk) >= 2:
             (lo0, la0), (lo1, la1) = trk[0], trk[-1]
             ais_lines.append(
-                f"- **Track:** {len(trk)} positions, "
+                f"- **Track:** {d['n_positions']} positions, "
                 f"({la0:.3f}, {lo0:.3f}) → ({la1:.3f}, {lo1:.3f})"
             )
         if d.get("baseline_agreement") is not None:
@@ -203,13 +203,27 @@ def write_dossiers(dossiers: list[dict], out_dir: str | Path) -> dict:
     out_dir = Path(out_dir)
     out_dir.mkdir(parents=True, exist_ok=True)
 
-    (out_dir / "incidents.json").write_text(json.dumps(dossiers, indent=2))
-
+    # Render Markdown first (it uses the per-incident track), then write tracks to
+    # their own GeoJSON and a SLIM incidents.json (track stripped — it would bloat
+    # the machine artifact ~20x).
     md_paths = []
     for d in dossiers:
         p = out_dir / f"{d['incident_id']}.md"
         p.write_text(render_markdown(d))
         md_paths.append(p.name)
+
+    track_feats = [
+        {"type": "Feature",
+         "geometry": {"type": "LineString", "coordinates": d["track"]},
+         "properties": {"id": d["incident_id"], "kind": d.get("type", "ais_fishing_incident")}}
+        for d in dossiers if len(d.get("track") or []) >= 2
+    ]
+    (out_dir / "tracks.geojson").write_text(
+        json.dumps({"type": "FeatureCollection", "features": track_feats})
+    )
+
+    slim = [{k: v for k, v in d.items() if k != "track"} for d in dossiers]
+    (out_dir / "incidents.json").write_text(json.dumps(slim, indent=2))
 
     index = ["# In-MPA records", ""]
     if not dossiers:

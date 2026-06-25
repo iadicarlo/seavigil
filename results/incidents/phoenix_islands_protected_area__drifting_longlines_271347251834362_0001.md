@@ -6,7 +6,7 @@
 - **When (UTC):** 2014-06-21T02:01:39Z → 2014-06-26T01:02:46Z (119.019 h)
 - **Apparent fishing:** 727 of 1004 in-MPA positions; mean p=0.89, max p=1.00
 - **Where:** -3.031, -171.341 (centroid)
-- **Track:** 500 positions, (-4.507, -173.447) → (-2.503, -170.501)
+- **Track:** 1004 positions, (-4.507, -173.447) → (-2.523, -171.385)
 - **Vs. speed baseline:** the trivial rule (speed < 10.7 kn) also flags 100% of these positions; here the speed rule alone suffices.
 
 ## Why this was flagged

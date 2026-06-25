@@ -78,8 +78,14 @@ def _make_incident(run: pd.DataFrame, fish: pd.DataFrame, seq: int) -> Incident:
     t0, t1 = fish["datetime"].min(), fish["datetime"].max()
     duration_h = float((t1 - t0).total_seconds() / 3600.0)
     trk = run.sort_values("timestamp")
-    track = [[round(float(lo), 5), round(float(la), 5)]
-             for lo, la in zip(trk["lon"], trk["lat"])][:500]
+    pts = [[round(float(lo), 5), round(float(la), 5)]
+           for lo, la in zip(trk["lon"], trk["lat"])]
+    # Downsample to a <=60-point snippet, preserving the first and last fix (shape +
+    # correct endpoints) without bloating the artifacts.
+    if len(pts) > 60:
+        keep = sorted({round(i * (len(pts) - 1) / 59) for i in range(60)})
+        pts = [pts[i] for i in keep]
+    track = pts
     return Incident(
         incident_id=f"{_slug(mpa_name)}__{vessel_id}_{seq:04d}",
         mpa_name=mpa_name,
