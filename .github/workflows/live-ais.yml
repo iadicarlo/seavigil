@@ -1,0 +1,60 @@
+name: Near-real-time AIS refresh
+
+# Streams live AIS (aisstream.io) for a monitored MPA region, scores it, and republishes the
+# static site. This runs on GitHub's servers on a schedule, so it works whether or not your
+# computer is on. Enable it by setting the AISSTREAM_KEY repo secret (else the job no-ops).
+# Note: GitHub cron is best-effort (often delayed), and scheduled workflows are auto-disabled
+# after 60 days with no repo commits - this job commits when data changes, which keeps it alive.
+
+on:
+  schedule:
+    - cron: "*/30 * * * *"   # every 30 min (best-effort)
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: live-ais
+  cancel-in-progress: false
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+      - uses: astral-sh/setup-uv@v5
+        with:
+          python-version: "3.12"
+      - name: Cache GFW training data
+        uses: actions/cache@v4
+        with:
+          path: data/raw
+          key: gfw-training-data-v1
+      - name: Stream live AIS, score, rebuild site
+        env:
+          AISSTREAM_KEY: ${{ secrets.AISSTREAM_KEY }}
+        run: |
+          if [ -z "$AISSTREAM_KEY" ]; then
+            echo "No AISSTREAM_KEY secret - skipping live refresh."; exit 0
+          fi
+          # Great Barrier Reef Marine Park bbox (busy waters, a real MPA in the sample set)
+          uv run --with websockets python scripts/fetch_live_ais.py \
+            --bbox -24.5,142.5,-10.5,154.0 --seconds 90 --max 20000 \
+            --out data/positions/live_ais_real.csv
+          uv run python -m seavigil.alert --positions data/positions/live_ais_real.csv
+          uv run python -m seavigil.site
+      - name: Commit refreshed data if changed
+        run: |
+          NAME="seavigil-bot"
+          HOST="users.noreply.github.com"
+          git config user.name "$NAME"
+          git config user.email "${NAME}@${HOST}"
+          git add results/incidents web/data
+          if git diff --staged --quiet; then
+            echo "No data changes."
+          else
+            git commit -m "chore: near-real-time AIS refresh"
+            git push
+          fi
