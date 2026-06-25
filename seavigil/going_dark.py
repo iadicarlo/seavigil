@@ -16,6 +16,9 @@ distance_from_shore (metres, from seavigil.enrich).
 
 from __future__ import annotations
 
+import csv
+from pathlib import Path
+
 import numpy as np
 import pandas as pd
 
@@ -37,6 +40,111 @@ def _haversine_nm(lon1, lat1, lon2, lat2) -> float:
     dlmb = np.radians(lon2 - lon1)
     a = np.sin(dphi / 2) ** 2 + np.cos(p1) * np.cos(p2) * np.sin(dlmb / 2) ** 2
     return float(2 * r * np.arcsin(np.sqrt(a)) / NM_M)
+
+
+_GFW_CAVEATS = [
+    "Suspected intentional AIS disabling (Global Fishing Watch, Welch et al. 2022).",
+    "A gap can also be a receiver outage or coverage hole; GFW's filter targets disabling.",
+    "Apparent, not proven illegal; an inspection lead.",
+    "GFW data is CC BY-NC; only derived in-EEZ dossiers are shown here, with attribution.",
+]
+_GFW_METHOD = "GFW satellite AIS-disabling events (Welch et al. 2022, DOI 10.1126/sciadv.abq2109)"
+
+
+def build_from_gfw_disabling(
+    csv_path: str | Path,
+    eez_index,
+    *,
+    max_events: int = 40,
+    cap_per_eez: int = 10,
+    min_gap_hours: float = 18.0,
+    max_gap_hours: float = 168.0,
+) -> list[dict]:
+    """Build going-dark dossiers from GFW's published satellite disabling events.
+
+    Terrestrial AIS cannot see offshore disabling, so the showcase consumes GFW's
+    satellite-detected events (the same consume-not-recompute pattern as the SAR dark
+    fleet) and adds the explanation + evidence layer. Only events inside a showcase
+    EEZ are kept, selected round-robin across EEZs and by longest gap for diversity.
+    """
+    rows = []
+    with open(csv_path) as f:
+        for r in csv.DictReader(f):
+            try:
+                lat = float(r["gap_start_lat"])
+                lon = float(r["gap_start_lon"])
+                gap_h = float(r["gap_hours"])
+            except (ValueError, KeyError):
+                continue
+            if not (min_gap_hours <= gap_h <= max_gap_hours):
+                continue  # plausible disabling window (skip implausible months-long gaps)
+            props = eez_index.assign(lon, lat)
+            if not props:
+                continue
+            r["_eez"] = props.get("name")
+            r["_gap"] = gap_h
+            rows.append(r)
+
+    by_eez: dict = {}
+    # Sort by time for a spread of gap durations (not just the longest outliers).
+    for r in sorted(rows, key=lambda r: r.get("gap_start_timestamp") or ""):
+        by_eez.setdefault(r["_eez"], []).append(r)
+
+    picked: list[dict] = []
+    buckets = list(by_eez.values())
+    while len(picked) < max_events and any(buckets):
+        for b in buckets:
+            if b and sum(1 for p in picked if p["_eez"] == b[0]["_eez"]) < cap_per_eez:
+                picked.append(b.pop(0))
+            if len(picked) >= max_events:
+                break
+        if not any(buckets):
+            break
+
+    dossiers = []
+    for seq, r in enumerate(picked):
+        s_lat, s_lon = float(r["gap_start_lat"]), float(r["gap_start_lon"])
+        e_lat, e_lon = float(r["gap_end_lat"]), float(r["gap_end_lon"])
+        off_nm = float(r.get("gap_start_distance_from_shore_m") or 0) / NM_M
+        disp_nm = _haversine_nm(s_lon, s_lat, e_lon, e_lat)
+        gap_h = r["_gap"]
+        flag = (r.get("flag") or "").strip()
+        length = r.get("vessel_length_m")
+        drivers = [
+            f"went dark {off_nm:.0f} nm offshore for {gap_h:.0f} h",
+            f"reappeared {disp_nm:.0f} nm away",
+            "satellite-confirmed disabling event (GFW)",
+        ]
+        if length:
+            try:
+                drivers.append(f"vessel length {float(length):.0f} m")
+            except ValueError:
+                pass
+        dossiers.append({
+            "type": "ais_disabling",
+            "incident_id": f"darkgap__{r.get('mmsi', seq)}_{seq:04d}",
+            "mpa_name": "AIS disabling",
+            "severity": "high" if gap_h >= 24 else "medium",
+            "severity_reason": "suspected intentional AIS disabling offshore",
+            "vessel_id": str(r.get("mmsi") or "(unknown)"),
+            "ship_name": "",
+            "flag": flag,
+            "ship_type": (r.get("vessel_class") or "vessel").title(),
+            "gear": "AIS gap",
+            "time_start_utc": (r.get("gap_start_timestamp") or "")[:19].replace(" ", "T") + "Z",
+            "time_end_utc": (r.get("gap_end_timestamp") or "")[:19].replace(" ", "T") + "Z",
+            "duration_hours": round(gap_h, 1),
+            "n_positions": 0, "n_fishing_positions": 0,
+            "mean_fishing_proba": None, "max_fishing_proba": None,
+            "centroid_lat": s_lat, "centroid_lon": s_lon,
+            "gap_hours": round(gap_h, 1),
+            "off_distance_nm": round(off_nm, 1),
+            "displacement_nm": round(disp_nm, 1),
+            "track": [[s_lon, s_lat], [e_lon, e_lat]],
+            "explanation": {"method": _GFW_METHOD, "drivers": drivers},
+            "caveats": _GFW_CAVEATS,
+        })
+    return dossiers
 
 
 def build_disabling_dossiers(

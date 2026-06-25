@@ -145,15 +145,22 @@ def _escalate_by_mpa(dossiers: list[dict], mpa_idx: MPAIndex) -> None:
 
 
 def _load_behaviors() -> list[dict]:
-    """AIS spoofing dossiers from the real NOAA tracks, if extracted. Going-dark is
-    omitted: it needs satellite AIS to be credible (the terrestrial feed finds none)."""
+    """Behavioral dossiers from real AIS: spoofing from NOAA terrestrial tracks, and
+    going-dark from GFW's satellite AIS-disabling events (consumed, like the SAR dark
+    fleet, because terrestrial AIS cannot see offshore disabling). Both are optional."""
+    out: list[dict] = []
     tracks = ROOT / "data" / "positions" / "noaa_tracks.csv"
-    if not tracks.exists():
-        return []
-    import pandas as pd  # noqa: PLC0415
+    if tracks.exists():
+        import pandas as pd  # noqa: PLC0415
 
-    from seavigil import spoofing  # noqa: PLC0415
-    return spoofing.build_spoofing_dossiers(pd.read_csv(tracks))
+        from seavigil import spoofing  # noqa: PLC0415
+        out += spoofing.build_spoofing_dossiers(pd.read_csv(tracks))
+    disabling = ROOT / "data" / "disabling" / "disabling_events.csv"
+    if disabling.exists():
+        from seavigil import going_dark  # noqa: PLC0415
+        from seavigil.jurisdiction import EEZIndex  # noqa: PLC0415
+        out += going_dark.build_from_gfw_disabling(str(disabling), EEZIndex())
+    return out
 
 
 def main() -> None:

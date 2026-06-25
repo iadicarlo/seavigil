@@ -44,3 +44,6 @@ data/positions/noaa_*.csv
 
 # Marine Regions global EEZ/zone source (large; shipped as web/tiles/*.pmtiles)
 data/eez/
+
+# GFW AIS disabling events (CC BY-NC; derived dossiers shipped, not raw)
+data/disabling/

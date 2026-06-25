@@ -146,6 +146,8 @@
       <span class="dot" style="background:var(--sar);color:var(--sar)"></span>Dark vessel (SAR, not broadcasting AIS)</div>
     <div class="legrow" data-layers="incident-spoof"><input type="checkbox" checked />
       <span class="dot" style="background:#c084fc;color:#c084fc"></span>AIS spoofing (impossible movement)</div>
+    <div class="legrow" data-layers="incident-dark"><input type="checkbox" checked />
+      <span class="dot" style="background:#ffd24a;color:#ffd24a"></span>Going dark (AIS disabling, GFW/satellite)</div>
     <div class="legrow" data-layers="tracks"><input type="checkbox" checked />
       <span class="swatch-line" style="border-color:var(--ais);box-shadow:0 0 6px var(--ais)"></span>Vessel tracks</div>
     <div class="legrow" data-layers="mpas"><input type="checkbox" checked />
@@ -298,12 +300,12 @@
       map.addLayer({ id: 'incident-glow', type: 'circle', source: 'incidents',
         paint: {
           'circle-radius': ['interpolate', ['linear'], ['coalesce', ['get', 'score'], 0.8], 0.5, 9, 1, 16],
-          'circle-color': ['match', ['get', 'kind'], 'dark_vessel_sar', '#e0455e', 'ais_spoofing', '#c084fc', '#f4a236'],
+          'circle-color': ['match', ['get', 'kind'], 'dark_vessel_sar', '#e0455e', 'ais_spoofing', '#c084fc', 'ais_disabling', '#ffd24a', '#f4a236'],
           'circle-opacity': 0.28, 'circle-blur': 1 } });
       map.addLayer({ id: 'incident-pts', type: 'circle', source: 'incidents',
         paint: {
           'circle-radius': ['interpolate', ['linear'], ['coalesce', ['get', 'score'], 0.8], 0.5, 3.5, 1, 7],
-          'circle-color': ['match', ['get', 'kind'], 'dark_vessel_sar', '#e0455e', 'ais_spoofing', '#c084fc', '#f4a236'],
+          'circle-color': ['match', ['get', 'kind'], 'dark_vessel_sar', '#e0455e', 'ais_spoofing', '#c084fc', 'ais_disabling', '#ffd24a', '#f4a236'],
           'circle-stroke-color': ['case',
             ['boolean', ['feature-state', 'selected'], false], '#3ff0c0',
             ['boolean', ['feature-state', 'hover'], false], '#ffffff', '#081620'],
@@ -340,7 +342,7 @@
       const v = document.getElementById('vintage');
       v.innerHTML = live
         ? `Live AIS stream (Great Barrier Reef).${asof} <em>Apparent</em> fishing, an inspection lead, not proof.`
-        : 'Illustrative sample: AIS apparent-fishing (2013-2014 GFW labels) + real GFW dark-vessel SAR (2024) + AIS spoofing (NOAA 2024), real WDPA / EEZ boundaries. Not live. An inspection lead, not proof.';
+        : 'Illustrative sample: AIS apparent-fishing (GFW 2013-2014) + dark-vessel SAR (GFW 2024) + AIS spoofing (NOAA 2024) + going-dark (GFW satellite), real WDPA / EEZ boundaries. Not live. An inspection lead, not proof.';
       document.getElementById('modelink').innerHTML = live
         ? '<a href="./" style="color:var(--fg)">&larr; Back to showcase</a>'
         : '<a href="?live">View the near-real-time monitor &rarr;</a>';
@@ -381,12 +383,13 @@
     };
     function wireLayerToggles() {
       // AIS and SAR share the incident layers; drive them with a filter instead of visibility.
-      const shown = { ais: true, sar: true, spoof: true };
+      const shown = { ais: true, sar: true, spoof: true, dark: true };
       const applyIncidentFilter = () => {
         const kinds = [];
         if (shown.ais) kinds.push('ais_fishing_incident');
         if (shown.sar) kinds.push('dark_vessel_sar');
-        if (shown.spoof) kinds.push('ais_spoofing', 'ais_disabling');
+        if (shown.spoof) kinds.push('ais_spoofing');
+        if (shown.dark) kinds.push('ais_disabling');
         const f = kinds.length ? ['in', ['get', 'kind'], ['literal', kinds]] : ['==', ['get', 'kind'], '__none__'];
         ['incident-glow', 'incident-pts'].forEach(id => map.setFilter(id, f));
       };
@@ -399,6 +402,7 @@
           if (key === 'incident-ais') { shown.ais = cb.checked; applyIncidentFilter(); }
           else if (key === 'incident-sar') { shown.sar = cb.checked; applyIncidentFilter(); }
           else if (key === 'incident-spoof') { shown.spoof = cb.checked; applyIncidentFilter(); }
+          else if (key === 'incident-dark') { shown.dark = cb.checked; applyIncidentFilter(); }
           else (LAYER_GROUPS[key] || []).forEach(id => {
             if (map.getLayer(id)) map.setLayoutProperty(id, 'visibility', cb.checked ? 'visible' : 'none');
           });

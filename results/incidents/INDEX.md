@@ -1,6 +1,6 @@
 # In-MPA records
 
-80 record(s): 32 AIS fishing incident(s), 48 dark-vessel SAR detection(s).
+120 record(s): 72 AIS fishing incident(s), 48 dark-vessel SAR detection(s).
 
 | id | type | MPA | start (UTC) | score / mean p |
 |---|---|---|---|---:|
@@ -84,3 +84,43 @@
 | [spoof__367664560_0005](spoof__367664560_0005.md) | AIS fishing | AIS spoofing | 2024-07-01T00:00:01Z | - |
 | [spoof__512207100_0006](spoof__512207100_0006.md) | AIS fishing | AIS spoofing | 2024-07-01T00:01:52Z | - |
 | [spoof__538008812_0007](spoof__538008812_0007.md) | AIS fishing | AIS spoofing | 2024-07-01T00:02:16Z | - |
+| [darkgap__503659100_0000](darkgap__503659100_0000.md) | AIS fishing | AIS disabling | 2017-01-04T07:05:50Z | - |
+| [darkgap__367152680_0001](darkgap__367152680_0001.md) | AIS fishing | AIS disabling | 2017-01-07T05:48:49Z | - |
+| [darkgap__367178220_0002](darkgap__367178220_0002.md) | AIS fishing | AIS disabling | 2017-01-12T00:24:14Z | - |
+| [darkgap__735057573_0003](darkgap__735057573_0003.md) | AIS fishing | AIS disabling | 2017-03-07T10:18:59Z | - |
+| [darkgap__529729000_0004](darkgap__529729000_0004.md) | AIS fishing | AIS disabling | 2017-03-18T13:55:06Z | - |
+| [darkgap__503667400_0005](darkgap__503667400_0005.md) | AIS fishing | AIS disabling | 2017-01-13T23:58:31Z | - |
+| [darkgap__367150430_0006](darkgap__367150430_0006.md) | AIS fishing | AIS disabling | 2017-01-18T16:16:26Z | - |
+| [darkgap__367178220_0007](darkgap__367178220_0007.md) | AIS fishing | AIS disabling | 2017-02-21T21:22:21Z | - |
+| [darkgap__735057573_0008](darkgap__735057573_0008.md) | AIS fishing | AIS disabling | 2017-05-26T16:54:28Z | - |
+| [darkgap__529783000_0009](darkgap__529783000_0009.md) | AIS fishing | AIS disabling | 2017-05-01T23:06:01Z | - |
+| [darkgap__503045210_0010](darkgap__503045210_0010.md) | AIS fishing | AIS disabling | 2017-01-20T10:20:20Z | - |
+| [darkgap__367128410_0011](darkgap__367128410_0011.md) | AIS fishing | AIS disabling | 2017-01-18T21:07:06Z | - |
+| [darkgap__366218620_0012](darkgap__366218620_0012.md) | AIS fishing | AIS disabling | 2017-02-23T10:48:10Z | - |
+| [darkgap__735057523_0013](darkgap__735057523_0013.md) | AIS fishing | AIS disabling | 2017-06-22T15:59:53Z | - |
+| [darkgap__529440000_0014](darkgap__529440000_0014.md) | AIS fishing | AIS disabling | 2017-05-10T15:42:09Z | - |
+| [darkgap__503177200_0015](darkgap__503177200_0015.md) | AIS fishing | AIS disabling | 2017-01-22T18:53:55Z | - |
+| [darkgap__367638270_0016](darkgap__367638270_0016.md) | AIS fishing | AIS disabling | 2017-02-01T19:19:51Z | - |
+| [darkgap__367178220_0017](darkgap__367178220_0017.md) | AIS fishing | AIS disabling | 2017-02-24T12:18:12Z | - |
+| [darkgap__735057523_0018](darkgap__735057523_0018.md) | AIS fishing | AIS disabling | 2017-07-10T22:24:27Z | - |
+| [darkgap__529783000_0019](darkgap__529783000_0019.md) | AIS fishing | AIS disabling | 2017-06-02T16:57:21Z | - |
+| [darkgap__503597400_0020](darkgap__503597400_0020.md) | AIS fishing | AIS disabling | 2017-01-23T06:03:13Z | - |
+| [darkgap__367341510_0021](darkgap__367341510_0021.md) | AIS fishing | AIS disabling | 2017-02-15T23:07:20Z | - |
+| [darkgap__367458380_0022](darkgap__367458380_0022.md) | AIS fishing | AIS disabling | 2017-02-27T17:29:45Z | - |
+| [darkgap__735057523_0023](darkgap__735057523_0023.md) | AIS fishing | AIS disabling | 2017-07-12T18:21:17Z | - |
+| [darkgap__440357000_0024](darkgap__440357000_0024.md) | AIS fishing | AIS disabling | 2017-06-02T19:03:30Z | - |
+| [darkgap__503045210_0025](darkgap__503045210_0025.md) | AIS fishing | AIS disabling | 2017-01-23T18:08:45Z | - |
+| [darkgap__367370380_0026](darkgap__367370380_0026.md) | AIS fishing | AIS disabling | 2017-02-16T14:14:19Z | - |
+| [darkgap__367178220_0027](darkgap__367178220_0027.md) | AIS fishing | AIS disabling | 2017-02-28T01:02:00Z | - |
+| [darkgap__412331002_0028](darkgap__412331002_0028.md) | AIS fishing | AIS disabling | 2017-07-26T06:00:44Z | - |
+| [darkgap__338540000_0029](darkgap__338540000_0029.md) | AIS fishing | AIS disabling | 2017-07-05T00:14:58Z | - |
+| [darkgap__530519000_0030](darkgap__530519000_0030.md) | AIS fishing | AIS disabling | 2017-02-20T23:02:28Z | - |
+| [darkgap__367479170_0031](darkgap__367479170_0031.md) | AIS fishing | AIS disabling | 2017-02-24T06:37:41Z | - |
+| [darkgap__367458380_0032](darkgap__367458380_0032.md) | AIS fishing | AIS disabling | 2017-03-07T12:13:22Z | - |
+| [darkgap__367340920_0033](darkgap__367340920_0033.md) | AIS fishing | AIS disabling | 2017-08-04T06:06:47Z | - |
+| [darkgap__440195000_0034](darkgap__440195000_0034.md) | AIS fishing | AIS disabling | 2017-07-14T12:01:33Z | - |
+| [darkgap__503335600_0035](darkgap__503335600_0035.md) | AIS fishing | AIS disabling | 2017-03-07T19:01:00Z | - |
+| [darkgap__369004000_0036](darkgap__369004000_0036.md) | AIS fishing | AIS disabling | 2017-03-05T22:21:17Z | - |
+| [darkgap__367178220_0037](darkgap__367178220_0037.md) | AIS fishing | AIS disabling | 2017-03-17T03:40:27Z | - |
+| [darkgap__412331054_0038](darkgap__412331054_0038.md) | AIS fishing | AIS disabling | 2017-08-20T17:10:16Z | - |
+| [darkgap__440226000_0039](darkgap__440226000_0039.md) | AIS fishing | AIS disabling | 2017-07-17T22:49:04Z | - |
