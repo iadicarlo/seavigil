@@ -145,6 +145,11 @@ def render_markdown(dossier: dict) -> str:
         lines.append(
             f"- **Severity:** {d['severity'].upper()} ({d.get('severity_reason', '')}){ver}"
         )
+    if d.get("eez_name"):
+        foreign = d.get("eez_foreign")
+        tag = (" -- FOREIGN-flagged vessel (licensing not verified)" if foreign is True
+               else "  (flag matches coastal state)" if foreign is False else "")
+        lines.append(f"- **EEZ:** {d['eez_name']} ({d.get('eez_sovereign')}){tag}")
     if is_sar:
         broadcasting = "yes" if d.get("matched_to_ais") else "no (dark)"
         length_str = f"{d['length_m']:.0f} m" if d.get("length_m") is not None else "n/a"

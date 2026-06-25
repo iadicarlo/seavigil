@@ -61,6 +61,8 @@ def summarize(dossiers: list[dict]) -> dict:
         "by_type": _count(dossiers, "type", default="ais_fishing_incident"),
         "by_severity": _count([d for d in dossiers if d.get("severity")], "severity"),
         "by_mpa": _count(dossiers, "mpa_name"),
+        # Jurisdiction (EEZ) breakdown: every incident inside a showcase EEZ carries one.
+        "by_eez": _count([d for d in dossiers if d.get("eez_name")], "eez_name"),
         "by_gear": _count(dossiers, "gear"),
         # Flag-state breakdown is only populated when records carry a flag (real GFW
         # SAR matched detections); empty for the anonymized AIS training labels.
@@ -94,6 +96,9 @@ def incidents_to_geojson(dossiers: list[dict]) -> dict:
                     "gear": d.get("gear", ""),
                     "flag": d.get("flag") or "",
                     "flag_emoji": emoji_for(d.get("flag")),
+                    "eez": d.get("eez_name") or "",
+                    "eez_sovereign": d.get("eez_sovereign") or "",
+                    "eez_foreign": d.get("eez_foreign"),
                     "why": _why(d),
                     "why_full": _why(d, full=True),
                     "baseline": _baseline_line(d),

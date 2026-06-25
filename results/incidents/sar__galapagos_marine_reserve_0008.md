@@ -1,19 +1,19 @@
 # Dark-vessel detection `sar__galapagos_marine_reserve_0008`
 
 - **MPA:** Galapagos Marine Reserve (WDPA 11753)
-- **Severity:** LOW (multi-use protected area)  ·  boundary WDPA/WD-OECM Jun2026
+- **Severity:** HIGH (dark vessel inside MPA)  ·  boundary WDPA/WD-OECM Jun2026
+- **EEZ:** Galapagos EEZ (Ecuador) (Ecuador)
 - **Vessel:** (dark -- no AIS identity)  ·  **source:** SAR (dark)
-- **When (UTC):** 2024-03-31T11:51:02Z
+- **When (UTC):** 2024-01-02T11:42:31Z
 - **Length:** n/a  ·  **broadcasting AIS:** no (dark)  ·  **GFW fishing-score:** n/a (Portal-only)
-- **Where:** -0.750, -91.410
+- **Where:** -0.440, -90.800
 
 ## Why this was flagged
 
 _SAR detection attributes (no AIS track or identity; not SHAP-explainable)._
 
-- inside MPA: Galapagos Marine Reserve
+- inside MPA: Galapagos Marine Reserve (within Galapagos EEZ (Ecuador))
 - not broadcasting AIS (dark vessel)
-- satellite detections in window: 1
 
 ## Caveats
 

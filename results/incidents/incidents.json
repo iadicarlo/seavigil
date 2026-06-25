@@ -57,7 +57,11 @@
       "AIS-only: blind to vessels not broadcasting AIS (~75% of industrial fishing vessels).",
       "MPA boundary may be approximate; verify against official WDPA limits.",
       "An inspection lead, not courtroom evidence."
-    ]
+    ],
+    "eez_name": "Phoenix Islands EEZ (Kiribati)",
+    "eez_sovereign": "Kiribati",
+    "eez_iso_sov": "KIR",
+    "eez_foreign": null
   },
   {
     "incident_id": "phoenix_islands_protected_area__drifting_longlines_119914759372174_0001",
@@ -117,7 +121,11 @@
       "AIS-only: blind to vessels not broadcasting AIS (~75% of industrial fishing vessels).",
       "MPA boundary may be approximate; verify against official WDPA limits.",
       "An inspection lead, not courtroom evidence."
-    ]
+    ],
+    "eez_name": "Phoenix Islands EEZ (Kiribati)",
+    "eez_sovereign": "Kiribati",
+    "eez_iso_sov": "KIR",
+    "eez_foreign": null
   },
   {
     "incident_id": "phoenix_islands_protected_area__drifting_longlines_119914759372174_0002",
@@ -177,7 +185,11 @@
       "AIS-only: blind to vessels not broadcasting AIS (~75% of industrial fishing vessels).",
       "MPA boundary may be approximate; verify against official WDPA limits.",
       "An inspection lead, not courtroom evidence."
-    ]
+    ],
+    "eez_name": "Phoenix Islands EEZ (Kiribati)",
+    "eez_sovereign": "Kiribati",
+    "eez_iso_sov": "KIR",
+    "eez_foreign": null
   },
   {
     "incident_id": "phoenix_islands_protected_area__drifting_longlines_251022003811177_0000",
@@ -237,7 +249,11 @@
       "AIS-only: blind to vessels not broadcasting AIS (~75% of industrial fishing vessels).",
       "MPA boundary may be approximate; verify against official WDPA limits.",
       "An inspection lead, not courtroom evidence."
-    ]
+    ],
+    "eez_name": "Phoenix Islands EEZ (Kiribati)",
+    "eez_sovereign": "Kiribati",
+    "eez_iso_sov": "KIR",
+    "eez_foreign": null
   },
   {
     "incident_id": "phoenix_islands_protected_area__drifting_longlines_251022003811177_0001",
@@ -297,7 +313,11 @@
       "AIS-only: blind to vessels not broadcasting AIS (~75% of industrial fishing vessels).",
       "MPA boundary may be approximate; verify against official WDPA limits.",
       "An inspection lead, not courtroom evidence."
-    ]
+    ],
+    "eez_name": "Phoenix Islands EEZ (Kiribati)",
+    "eez_sovereign": "Kiribati",
+    "eez_iso_sov": "KIR",
+    "eez_foreign": null
   },
   {
     "incident_id": "phoenix_islands_protected_area__drifting_longlines_251022003811177_0002",
@@ -357,7 +377,11 @@
       "AIS-only: blind to vessels not broadcasting AIS (~75% of industrial fishing vessels).",
       "MPA boundary may be approximate; verify against official WDPA limits.",
       "An inspection lead, not courtroom evidence."
-    ]
+    ],
+    "eez_name": "Phoenix Islands EEZ (Kiribati)",
+    "eez_sovereign": "Kiribati",
+    "eez_iso_sov": "KIR",
+    "eez_foreign": null
   },
   {
     "incident_id": "phoenix_islands_protected_area__drifting_longlines_251022003811177_0003",
@@ -417,7 +441,11 @@
       "AIS-only: blind to vessels not broadcasting AIS (~75% of industrial fishing vessels).",
       "MPA boundary may be approximate; verify against official WDPA limits.",
       "An inspection lead, not courtroom evidence."
-    ]
+    ],
+    "eez_name": "Phoenix Islands EEZ (Kiribati)",
+    "eez_sovereign": "Kiribati",
+    "eez_iso_sov": "KIR",
+    "eez_foreign": null
   },
   {
     "incident_id": "phoenix_islands_protected_area__drifting_longlines_251022003811177_0004",
@@ -477,7 +505,11 @@
       "AIS-only: blind to vessels not broadcasting AIS (~75% of industrial fishing vessels).",
       "MPA boundary may be approximate; verify against official WDPA limits.",
       "An inspection lead, not courtroom evidence."
-    ]
+    ],
+    "eez_name": "Phoenix Islands EEZ (Kiribati)",
+    "eez_sovereign": "Kiribati",
+    "eez_iso_sov": "KIR",
+    "eez_foreign": null
   },
   {
     "incident_id": "phoenix_islands_protected_area__drifting_longlines_251022003811177_0005",
@@ -537,7 +569,11 @@
       "AIS-only: blind to vessels not broadcasting AIS (~75% of industrial fishing vessels).",
       "MPA boundary may be approximate; verify against official WDPA limits.",
       "An inspection lead, not courtroom evidence."
-    ]
+    ],
+    "eez_name": "Phoenix Islands EEZ (Kiribati)",
+    "eez_sovereign": "Kiribati",
+    "eez_iso_sov": "KIR",
+    "eez_foreign": null
   },
   {
     "incident_id": "phoenix_islands_protected_area__drifting_longlines_251022003811177_0006",
@@ -597,7 +633,11 @@
       "AIS-only: blind to vessels not broadcasting AIS (~75% of industrial fishing vessels).",
       "MPA boundary may be approximate; verify against official WDPA limits.",
       "An inspection lead, not courtroom evidence."
-    ]
+    ],
+    "eez_name": "Phoenix Islands EEZ (Kiribati)",
+    "eez_sovereign": "Kiribati",
+    "eez_iso_sov": "KIR",
+    "eez_foreign": null
   },
   {
     "incident_id": "phoenix_islands_protected_area__drifting_longlines_251022003811177_0007",
@@ -657,7 +697,11 @@
       "AIS-only: blind to vessels not broadcasting AIS (~75% of industrial fishing vessels).",
       "MPA boundary may be approximate; verify against official WDPA limits.",
       "An inspection lead, not courtroom evidence."
-    ]
+    ],
+    "eez_name": "Phoenix Islands EEZ (Kiribati)",
+    "eez_sovereign": "Kiribati",
+    "eez_iso_sov": "KIR",
+    "eez_foreign": null
   },
   {
     "incident_id": "phoenix_islands_protected_area__drifting_longlines_251022003811177_0008",
@@ -717,7 +761,11 @@
       "AIS-only: blind to vessels not broadcasting AIS (~75% of industrial fishing vessels).",
       "MPA boundary may be approximate; verify against official WDPA limits.",
       "An inspection lead, not courtroom evidence."
-    ]
+    ],
+    "eez_name": "Phoenix Islands EEZ (Kiribati)",
+    "eez_sovereign": "Kiribati",
+    "eez_iso_sov": "KIR",
+    "eez_foreign": null
   },
   {
     "incident_id": "phoenix_islands_protected_area__drifting_longlines_251022003811177_0009",
@@ -777,7 +825,11 @@
       "AIS-only: blind to vessels not broadcasting AIS (~75% of industrial fishing vessels).",
       "MPA boundary may be approximate; verify against official WDPA limits.",
       "An inspection lead, not courtroom evidence."
-    ]
+    ],
+    "eez_name": "Phoenix Islands EEZ (Kiribati)",
+    "eez_sovereign": "Kiribati",
+    "eez_iso_sov": "KIR",
+    "eez_foreign": null
   },
   {
     "incident_id": "phoenix_islands_protected_area__drifting_longlines_251022003811177_0010",
@@ -837,7 +889,11 @@
       "AIS-only: blind to vessels not broadcasting AIS (~75% of industrial fishing vessels).",
       "MPA boundary may be approximate; verify against official WDPA limits.",
       "An inspection lead, not courtroom evidence."
-    ]
+    ],
+    "eez_name": "Phoenix Islands EEZ (Kiribati)",
+    "eez_sovereign": "Kiribati",
+    "eez_iso_sov": "KIR",
+    "eez_foreign": null
   },
   {
     "incident_id": "phoenix_islands_protected_area__drifting_longlines_251022003811177_0011",
@@ -897,7 +953,11 @@
       "AIS-only: blind to vessels not broadcasting AIS (~75% of industrial fishing vessels).",
       "MPA boundary may be approximate; verify against official WDPA limits.",
       "An inspection lead, not courtroom evidence."
-    ]
+    ],
+    "eez_name": "Phoenix Islands EEZ (Kiribati)",
+    "eez_sovereign": "Kiribati",
+    "eez_iso_sov": "KIR",
+    "eez_foreign": null
   },
   {
     "incident_id": "phoenix_islands_protected_area__drifting_longlines_251022003811177_0012",
@@ -957,7 +1017,11 @@
       "AIS-only: blind to vessels not broadcasting AIS (~75% of industrial fishing vessels).",
       "MPA boundary may be approximate; verify against official WDPA limits.",
       "An inspection lead, not courtroom evidence."
-    ]
+    ],
+    "eez_name": "Phoenix Islands EEZ (Kiribati)",
+    "eez_sovereign": "Kiribati",
+    "eez_iso_sov": "KIR",
+    "eez_foreign": null
   },
   {
     "incident_id": "phoenix_islands_protected_area__drifting_longlines_251022003811177_0013",
@@ -1017,7 +1081,11 @@
       "AIS-only: blind to vessels not broadcasting AIS (~75% of industrial fishing vessels).",
       "MPA boundary may be approximate; verify against official WDPA limits.",
       "An inspection lead, not courtroom evidence."
-    ]
+    ],
+    "eez_name": "Phoenix Islands EEZ (Kiribati)",
+    "eez_sovereign": "Kiribati",
+    "eez_iso_sov": "KIR",
+    "eez_foreign": null
   },
   {
     "incident_id": "phoenix_islands_protected_area__drifting_longlines_251022003811177_0014",
@@ -1077,7 +1145,11 @@
       "AIS-only: blind to vessels not broadcasting AIS (~75% of industrial fishing vessels).",
       "MPA boundary may be approximate; verify against official WDPA limits.",
       "An inspection lead, not courtroom evidence."
-    ]
+    ],
+    "eez_name": "Phoenix Islands EEZ (Kiribati)",
+    "eez_sovereign": "Kiribati",
+    "eez_iso_sov": "KIR",
+    "eez_foreign": null
   },
   {
     "incident_id": "phoenix_islands_protected_area__drifting_longlines_271347251834362_0000",
@@ -1137,7 +1209,11 @@
       "AIS-only: blind to vessels not broadcasting AIS (~75% of industrial fishing vessels).",
       "MPA boundary may be approximate; verify against official WDPA limits.",
       "An inspection lead, not courtroom evidence."
-    ]
+    ],
+    "eez_name": "Phoenix Islands EEZ (Kiribati)",
+    "eez_sovereign": "Kiribati",
+    "eez_iso_sov": "KIR",
+    "eez_foreign": null
   },
   {
     "incident_id": "phoenix_islands_protected_area__drifting_longlines_271347251834362_0001",
@@ -1197,7 +1273,11 @@
       "AIS-only: blind to vessels not broadcasting AIS (~75% of industrial fishing vessels).",
       "MPA boundary may be approximate; verify against official WDPA limits.",
       "An inspection lead, not courtroom evidence."
-    ]
+    ],
+    "eez_name": "Phoenix Islands EEZ (Kiribati)",
+    "eez_sovereign": "Kiribati",
+    "eez_iso_sov": "KIR",
+    "eez_foreign": null
   },
   {
     "incident_id": "phoenix_islands_protected_area__purse_seines_178183327397239_0000",
@@ -1257,7 +1337,11 @@
       "AIS-only: blind to vessels not broadcasting AIS (~75% of industrial fishing vessels).",
       "MPA boundary may be approximate; verify against official WDPA limits.",
       "An inspection lead, not courtroom evidence."
-    ]
+    ],
+    "eez_name": "Phoenix Islands EEZ (Kiribati)",
+    "eez_sovereign": "Kiribati",
+    "eez_iso_sov": "KIR",
+    "eez_foreign": null
   },
   {
     "incident_id": "phoenix_islands_protected_area__purse_seines_178183327397239_0001",
@@ -1317,7 +1401,11 @@
       "AIS-only: blind to vessels not broadcasting AIS (~75% of industrial fishing vessels).",
       "MPA boundary may be approximate; verify against official WDPA limits.",
       "An inspection lead, not courtroom evidence."
-    ]
+    ],
+    "eez_name": "Phoenix Islands EEZ (Kiribati)",
+    "eez_sovereign": "Kiribati",
+    "eez_iso_sov": "KIR",
+    "eez_foreign": null
   },
   {
     "incident_id": "phoenix_islands_protected_area__purse_seines_178183327397239_0002",
@@ -1377,7 +1465,11 @@
       "AIS-only: blind to vessels not broadcasting AIS (~75% of industrial fishing vessels).",
       "MPA boundary may be approximate; verify against official WDPA limits.",
       "An inspection lead, not courtroom evidence."
-    ]
+    ],
+    "eez_name": "Phoenix Islands EEZ (Kiribati)",
+    "eez_sovereign": "Kiribati",
+    "eez_iso_sov": "KIR",
+    "eez_foreign": null
   },
   {
     "incident_id": "phoenix_islands_protected_area__purse_seines_178183327397239_0003",
@@ -1437,7 +1529,54 @@
       "AIS-only: blind to vessels not broadcasting AIS (~75% of industrial fishing vessels).",
       "MPA boundary may be approximate; verify against official WDPA limits.",
       "An inspection lead, not courtroom evidence."
-    ]
+    ],
+    "eez_name": "Phoenix Islands EEZ (Kiribati)",
+    "eez_sovereign": "Kiribati",
+    "eez_iso_sov": "KIR",
+    "eez_foreign": null
+  },
+  {
+    "type": "dark_vessel_sar",
+    "incident_id": "sar__australia_eez_outside_mpa_0000",
+    "mpa_name": "Australia EEZ (outside MPA)",
+    "wdpa_id": null,
+    "mpa_iucn_cat": null,
+    "mpa_no_take": null,
+    "mpa_version": null,
+    "severity": "medium",
+    "severity_reason": "dark vessel inside national EEZ, outside any protected area",
+    "vessel_id": "(dark -- no AIS identity)",
+    "gear": "SAR (dark)",
+    "flag": null,
+    "time_start_utc": "2024-01-01T08:29:59Z",
+    "time_end_utc": "2024-01-01T08:29:59Z",
+    "duration_hours": 0.0,
+    "n_positions": 1,
+    "n_fishing_positions": 1,
+    "mean_fishing_proba": null,
+    "max_fishing_proba": null,
+    "centroid_lat": -23.9,
+    "centroid_lon": 151.50999450683594,
+    "length_m": null,
+    "matched_to_ais": false,
+    "explanation": {
+      "method": "SAR detection attributes (no AIS track or identity; not SHAP-explainable)",
+      "drivers": [
+        "inside national EEZ: Australia EEZ, outside any MPA",
+        "not broadcasting AIS (dark vessel)"
+      ]
+    },
+    "caveats": [
+      "Dark vessel: detected by satellite SAR but not broadcasting AIS.",
+      "Not SHAP-explainable -- a SAR detection has no movement track to attribute.",
+      "length_m and fishing_score are GFW model estimates from imagery, not ground truth.",
+      "MPA boundary may be approximate; verify against official WDPA limits.",
+      "An inspection lead, not courtroom evidence."
+    ],
+    "eez_name": "Australia EEZ",
+    "eez_sovereign": "Australia",
+    "eez_iso_sov": "AUS",
+    "eez_foreign": null
   },
   {
     "type": "dark_vessel_sar",
@@ -1448,7 +1587,7 @@
     "mpa_no_take": "True",
     "mpa_version": "WDPA/WD-OECM Jun2026",
     "severity": "high",
-    "severity_reason": "no-take / national-park protection",
+    "severity_reason": "dark vessel inside no-take MPA",
     "vessel_id": "(dark -- no AIS identity)",
     "gear": "SAR (dark)",
     "flag": null,
@@ -1466,9 +1605,8 @@
     "explanation": {
       "method": "SAR detection attributes (no AIS track or identity; not SHAP-explainable)",
       "drivers": [
-        "inside MPA: Great Barrier Reef Marine Park",
-        "not broadcasting AIS (dark vessel)",
-        "satellite detections in window: 5"
+        "inside MPA: Great Barrier Reef Marine Park (within Australia EEZ)",
+        "not broadcasting AIS (dark vessel)"
       ]
     },
     "caveats": [
@@ -1477,7 +1615,11 @@
       "length_m and fishing_score are GFW model estimates from imagery, not ground truth.",
       "MPA boundary may be approximate; verify against official WDPA limits.",
       "An inspection lead, not courtroom evidence."
-    ]
+    ],
+    "eez_name": "Australia EEZ",
+    "eez_sovereign": "Australia",
+    "eez_iso_sov": "AUS",
+    "eez_foreign": null
   },
   {
     "type": "dark_vessel_sar",
@@ -1487,8 +1629,8 @@
     "mpa_iucn_cat": "V",
     "mpa_no_take": "False",
     "mpa_version": "WDPA/WD-OECM Jun2026",
-    "severity": "low",
-    "severity_reason": "multi-use protected area",
+    "severity": "high",
+    "severity_reason": "dark vessel inside MPA",
     "vessel_id": "(dark -- no AIS identity)",
     "gear": "SAR (dark)",
     "flag": null,
@@ -1506,9 +1648,8 @@
     "explanation": {
       "method": "SAR detection attributes (no AIS track or identity; not SHAP-explainable)",
       "drivers": [
-        "inside MPA: Galapagos Marine Reserve",
-        "not broadcasting AIS (dark vessel)",
-        "satellite detections in window: 2"
+        "inside MPA: Galapagos Marine Reserve (within Galapagos EEZ (Ecuador))",
+        "not broadcasting AIS (dark vessel)"
       ]
     },
     "caveats": [
@@ -1517,7 +1658,97 @@
       "length_m and fishing_score are GFW model estimates from imagery, not ground truth.",
       "MPA boundary may be approximate; verify against official WDPA limits.",
       "An inspection lead, not courtroom evidence."
-    ]
+    ],
+    "eez_name": "Galapagos EEZ (Ecuador)",
+    "eez_sovereign": "Ecuador",
+    "eez_iso_sov": "ECU",
+    "eez_foreign": null
+  },
+  {
+    "type": "dark_vessel_sar",
+    "incident_id": "sar__galapagos_eez_ecuador_outside_mpa_0000",
+    "mpa_name": "Galapagos EEZ (Ecuador) (outside MPA)",
+    "wdpa_id": null,
+    "mpa_iucn_cat": null,
+    "mpa_no_take": null,
+    "mpa_version": null,
+    "severity": "medium",
+    "severity_reason": "dark vessel inside national EEZ, outside any protected area",
+    "vessel_id": "(dark -- no AIS identity)",
+    "gear": "SAR (dark)",
+    "flag": null,
+    "time_start_utc": "2024-01-02T11:42:31Z",
+    "time_end_utc": "2024-01-02T11:42:31Z",
+    "duration_hours": 0.0,
+    "n_positions": 1,
+    "n_fishing_positions": 1,
+    "mean_fishing_proba": null,
+    "max_fishing_proba": null,
+    "centroid_lat": -0.34,
+    "centroid_lon": -92.44999694824219,
+    "length_m": null,
+    "matched_to_ais": false,
+    "explanation": {
+      "method": "SAR detection attributes (no AIS track or identity; not SHAP-explainable)",
+      "drivers": [
+        "inside national EEZ: Galapagos EEZ (Ecuador), outside any MPA",
+        "not broadcasting AIS (dark vessel)"
+      ]
+    },
+    "caveats": [
+      "Dark vessel: detected by satellite SAR but not broadcasting AIS.",
+      "Not SHAP-explainable -- a SAR detection has no movement track to attribute.",
+      "length_m and fishing_score are GFW model estimates from imagery, not ground truth.",
+      "MPA boundary may be approximate; verify against official WDPA limits.",
+      "An inspection lead, not courtroom evidence."
+    ],
+    "eez_name": "Galapagos EEZ (Ecuador)",
+    "eez_sovereign": "Ecuador",
+    "eez_iso_sov": "ECU",
+    "eez_foreign": null
+  },
+  {
+    "type": "dark_vessel_sar",
+    "incident_id": "sar__australia_eez_outside_mpa_0001",
+    "mpa_name": "Australia EEZ (outside MPA)",
+    "wdpa_id": null,
+    "mpa_iucn_cat": null,
+    "mpa_no_take": null,
+    "mpa_version": null,
+    "severity": "medium",
+    "severity_reason": "dark vessel inside national EEZ, outside any protected area",
+    "vessel_id": "(dark -- no AIS identity)",
+    "gear": "SAR (dark)",
+    "flag": null,
+    "time_start_utc": "2024-01-01T08:29:59Z",
+    "time_end_utc": "2024-01-01T08:29:59Z",
+    "duration_hours": 0.0,
+    "n_positions": 1,
+    "n_fishing_positions": 1,
+    "mean_fishing_proba": null,
+    "max_fishing_proba": null,
+    "centroid_lat": -23.8,
+    "centroid_lon": 151.2100067138672,
+    "length_m": null,
+    "matched_to_ais": false,
+    "explanation": {
+      "method": "SAR detection attributes (no AIS track or identity; not SHAP-explainable)",
+      "drivers": [
+        "inside national EEZ: Australia EEZ, outside any MPA",
+        "not broadcasting AIS (dark vessel)"
+      ]
+    },
+    "caveats": [
+      "Dark vessel: detected by satellite SAR but not broadcasting AIS.",
+      "Not SHAP-explainable -- a SAR detection has no movement track to attribute.",
+      "length_m and fishing_score are GFW model estimates from imagery, not ground truth.",
+      "MPA boundary may be approximate; verify against official WDPA limits.",
+      "An inspection lead, not courtroom evidence."
+    ],
+    "eez_name": "Australia EEZ",
+    "eez_sovereign": "Australia",
+    "eez_iso_sov": "AUS",
+    "eez_foreign": null
   },
   {
     "type": "dark_vessel_sar",
@@ -1527,8 +1758,8 @@
     "mpa_iucn_cat": "VI",
     "mpa_no_take": "False",
     "mpa_version": "WDPA/WD-OECM Jun2026",
-    "severity": "low",
-    "severity_reason": "multi-use protected area",
+    "severity": "high",
+    "severity_reason": "dark vessel inside MPA",
     "vessel_id": "(dark -- no AIS identity)",
     "gear": "SAR (dark)",
     "flag": null,
@@ -1546,9 +1777,8 @@
     "explanation": {
       "method": "SAR detection attributes (no AIS track or identity; not SHAP-explainable)",
       "drivers": [
-        "inside MPA: Great Barrier Reef Marine Park",
-        "not broadcasting AIS (dark vessel)",
-        "satellite detections in window: 4"
+        "inside MPA: Great Barrier Reef Marine Park (within Australia EEZ)",
+        "not broadcasting AIS (dark vessel)"
       ]
     },
     "caveats": [
@@ -1557,7 +1787,11 @@
       "length_m and fishing_score are GFW model estimates from imagery, not ground truth.",
       "MPA boundary may be approximate; verify against official WDPA limits.",
       "An inspection lead, not courtroom evidence."
-    ]
+    ],
+    "eez_name": "Australia EEZ",
+    "eez_sovereign": "Australia",
+    "eez_iso_sov": "AUS",
+    "eez_foreign": null
   },
   {
     "type": "dark_vessel_sar",
@@ -1567,8 +1801,8 @@
     "mpa_iucn_cat": "V",
     "mpa_no_take": "False",
     "mpa_version": "WDPA/WD-OECM Jun2026",
-    "severity": "low",
-    "severity_reason": "multi-use protected area",
+    "severity": "high",
+    "severity_reason": "dark vessel inside MPA",
     "vessel_id": "(dark -- no AIS identity)",
     "gear": "SAR (dark)",
     "flag": null,
@@ -1586,9 +1820,8 @@
     "explanation": {
       "method": "SAR detection attributes (no AIS track or identity; not SHAP-explainable)",
       "drivers": [
-        "inside MPA: Galapagos Marine Reserve",
-        "not broadcasting AIS (dark vessel)",
-        "satellite detections in window: 2"
+        "inside MPA: Galapagos Marine Reserve (within Galapagos EEZ (Ecuador))",
+        "not broadcasting AIS (dark vessel)"
       ]
     },
     "caveats": [
@@ -1597,7 +1830,97 @@
       "length_m and fishing_score are GFW model estimates from imagery, not ground truth.",
       "MPA boundary may be approximate; verify against official WDPA limits.",
       "An inspection lead, not courtroom evidence."
-    ]
+    ],
+    "eez_name": "Galapagos EEZ (Ecuador)",
+    "eez_sovereign": "Ecuador",
+    "eez_iso_sov": "ECU",
+    "eez_foreign": null
+  },
+  {
+    "type": "dark_vessel_sar",
+    "incident_id": "sar__galapagos_eez_ecuador_outside_mpa_0001",
+    "mpa_name": "Galapagos EEZ (Ecuador) (outside MPA)",
+    "wdpa_id": null,
+    "mpa_iucn_cat": null,
+    "mpa_no_take": null,
+    "mpa_version": null,
+    "severity": "medium",
+    "severity_reason": "dark vessel inside national EEZ, outside any protected area",
+    "vessel_id": "(dark -- no AIS identity)",
+    "gear": "SAR (dark)",
+    "flag": null,
+    "time_start_utc": "2024-01-02T11:42:31Z",
+    "time_end_utc": "2024-01-02T11:42:31Z",
+    "duration_hours": 0.0,
+    "n_positions": 1,
+    "n_fishing_positions": 1,
+    "mean_fishing_proba": null,
+    "max_fishing_proba": null,
+    "centroid_lat": -0.46,
+    "centroid_lon": -92.38999938964844,
+    "length_m": null,
+    "matched_to_ais": false,
+    "explanation": {
+      "method": "SAR detection attributes (no AIS track or identity; not SHAP-explainable)",
+      "drivers": [
+        "inside national EEZ: Galapagos EEZ (Ecuador), outside any MPA",
+        "not broadcasting AIS (dark vessel)"
+      ]
+    },
+    "caveats": [
+      "Dark vessel: detected by satellite SAR but not broadcasting AIS.",
+      "Not SHAP-explainable -- a SAR detection has no movement track to attribute.",
+      "length_m and fishing_score are GFW model estimates from imagery, not ground truth.",
+      "MPA boundary may be approximate; verify against official WDPA limits.",
+      "An inspection lead, not courtroom evidence."
+    ],
+    "eez_name": "Galapagos EEZ (Ecuador)",
+    "eez_sovereign": "Ecuador",
+    "eez_iso_sov": "ECU",
+    "eez_foreign": null
+  },
+  {
+    "type": "dark_vessel_sar",
+    "incident_id": "sar__australia_eez_outside_mpa_0002",
+    "mpa_name": "Australia EEZ (outside MPA)",
+    "wdpa_id": null,
+    "mpa_iucn_cat": null,
+    "mpa_no_take": null,
+    "mpa_version": null,
+    "severity": "medium",
+    "severity_reason": "dark vessel inside national EEZ, outside any protected area",
+    "vessel_id": "(dark -- no AIS identity)",
+    "gear": "SAR (dark)",
+    "flag": null,
+    "time_start_utc": "2024-01-01T08:29:59Z",
+    "time_end_utc": "2024-01-01T08:29:59Z",
+    "duration_hours": 0.0,
+    "n_positions": 1,
+    "n_fishing_positions": 1,
+    "mean_fishing_proba": null,
+    "max_fishing_proba": null,
+    "centroid_lat": -19.2,
+    "centroid_lon": 146.86000061035156,
+    "length_m": null,
+    "matched_to_ais": false,
+    "explanation": {
+      "method": "SAR detection attributes (no AIS track or identity; not SHAP-explainable)",
+      "drivers": [
+        "inside national EEZ: Australia EEZ, outside any MPA",
+        "not broadcasting AIS (dark vessel)"
+      ]
+    },
+    "caveats": [
+      "Dark vessel: detected by satellite SAR but not broadcasting AIS.",
+      "Not SHAP-explainable -- a SAR detection has no movement track to attribute.",
+      "length_m and fishing_score are GFW model estimates from imagery, not ground truth.",
+      "MPA boundary may be approximate; verify against official WDPA limits.",
+      "An inspection lead, not courtroom evidence."
+    ],
+    "eez_name": "Australia EEZ",
+    "eez_sovereign": "Australia",
+    "eez_iso_sov": "AUS",
+    "eez_foreign": null
   },
   {
     "type": "dark_vessel_sar",
@@ -1607,8 +1930,8 @@
     "mpa_iucn_cat": "VI",
     "mpa_no_take": "False",
     "mpa_version": "WDPA/WD-OECM Jun2026",
-    "severity": "low",
-    "severity_reason": "multi-use protected area",
+    "severity": "high",
+    "severity_reason": "dark vessel inside MPA",
     "vessel_id": "(dark -- no AIS identity)",
     "gear": "SAR (dark)",
     "flag": null,
@@ -1626,9 +1949,8 @@
     "explanation": {
       "method": "SAR detection attributes (no AIS track or identity; not SHAP-explainable)",
       "drivers": [
-        "inside MPA: Great Barrier Reef Marine Park",
-        "not broadcasting AIS (dark vessel)",
-        "satellite detections in window: 4"
+        "inside MPA: Great Barrier Reef Marine Park (within Australia EEZ)",
+        "not broadcasting AIS (dark vessel)"
       ]
     },
     "caveats": [
@@ -1637,7 +1959,11 @@
       "length_m and fishing_score are GFW model estimates from imagery, not ground truth.",
       "MPA boundary may be approximate; verify against official WDPA limits.",
       "An inspection lead, not courtroom evidence."
-    ]
+    ],
+    "eez_name": "Australia EEZ",
+    "eez_sovereign": "Australia",
+    "eez_iso_sov": "AUS",
+    "eez_foreign": null
   },
   {
     "type": "dark_vessel_sar",
@@ -1647,8 +1973,8 @@
     "mpa_iucn_cat": "V",
     "mpa_no_take": "False",
     "mpa_version": "WDPA/WD-OECM Jun2026",
-    "severity": "low",
-    "severity_reason": "multi-use protected area",
+    "severity": "high",
+    "severity_reason": "dark vessel inside MPA",
     "vessel_id": "(dark -- no AIS identity)",
     "gear": "SAR (dark)",
     "flag": null,
@@ -1666,9 +1992,8 @@
     "explanation": {
       "method": "SAR detection attributes (no AIS track or identity; not SHAP-explainable)",
       "drivers": [
-        "inside MPA: Galapagos Marine Reserve",
-        "not broadcasting AIS (dark vessel)",
-        "satellite detections in window: 2"
+        "inside MPA: Galapagos Marine Reserve (within Galapagos EEZ (Ecuador))",
+        "not broadcasting AIS (dark vessel)"
       ]
     },
     "caveats": [
@@ -1677,7 +2002,97 @@
       "length_m and fishing_score are GFW model estimates from imagery, not ground truth.",
       "MPA boundary may be approximate; verify against official WDPA limits.",
       "An inspection lead, not courtroom evidence."
-    ]
+    ],
+    "eez_name": "Galapagos EEZ (Ecuador)",
+    "eez_sovereign": "Ecuador",
+    "eez_iso_sov": "ECU",
+    "eez_foreign": null
+  },
+  {
+    "type": "dark_vessel_sar",
+    "incident_id": "sar__galapagos_eez_ecuador_outside_mpa_0002",
+    "mpa_name": "Galapagos EEZ (Ecuador) (outside MPA)",
+    "wdpa_id": null,
+    "mpa_iucn_cat": null,
+    "mpa_no_take": null,
+    "mpa_version": null,
+    "severity": "medium",
+    "severity_reason": "dark vessel inside national EEZ, outside any protected area",
+    "vessel_id": "(dark -- no AIS identity)",
+    "gear": "SAR (dark)",
+    "flag": null,
+    "time_start_utc": "2024-01-02T11:42:31Z",
+    "time_end_utc": "2024-01-02T11:42:31Z",
+    "duration_hours": 0.0,
+    "n_positions": 1,
+    "n_fishing_positions": 1,
+    "mean_fishing_proba": null,
+    "max_fishing_proba": null,
+    "centroid_lat": -0.65,
+    "centroid_lon": -92.37000274658203,
+    "length_m": null,
+    "matched_to_ais": false,
+    "explanation": {
+      "method": "SAR detection attributes (no AIS track or identity; not SHAP-explainable)",
+      "drivers": [
+        "inside national EEZ: Galapagos EEZ (Ecuador), outside any MPA",
+        "not broadcasting AIS (dark vessel)"
+      ]
+    },
+    "caveats": [
+      "Dark vessel: detected by satellite SAR but not broadcasting AIS.",
+      "Not SHAP-explainable -- a SAR detection has no movement track to attribute.",
+      "length_m and fishing_score are GFW model estimates from imagery, not ground truth.",
+      "MPA boundary may be approximate; verify against official WDPA limits.",
+      "An inspection lead, not courtroom evidence."
+    ],
+    "eez_name": "Galapagos EEZ (Ecuador)",
+    "eez_sovereign": "Ecuador",
+    "eez_iso_sov": "ECU",
+    "eez_foreign": null
+  },
+  {
+    "type": "dark_vessel_sar",
+    "incident_id": "sar__australia_eez_outside_mpa_0003",
+    "mpa_name": "Australia EEZ (outside MPA)",
+    "wdpa_id": null,
+    "mpa_iucn_cat": null,
+    "mpa_no_take": null,
+    "mpa_version": null,
+    "severity": "medium",
+    "severity_reason": "dark vessel inside national EEZ, outside any protected area",
+    "vessel_id": "(dark -- no AIS identity)",
+    "gear": "SAR (dark)",
+    "flag": null,
+    "time_start_utc": "2024-01-01T08:29:59Z",
+    "time_end_utc": "2024-01-01T08:29:59Z",
+    "duration_hours": 0.0,
+    "n_positions": 1,
+    "n_fishing_positions": 1,
+    "mean_fishing_proba": null,
+    "max_fishing_proba": null,
+    "centroid_lat": -23.93,
+    "centroid_lon": 151.47000122070312,
+    "length_m": null,
+    "matched_to_ais": false,
+    "explanation": {
+      "method": "SAR detection attributes (no AIS track or identity; not SHAP-explainable)",
+      "drivers": [
+        "inside national EEZ: Australia EEZ, outside any MPA",
+        "not broadcasting AIS (dark vessel)"
+      ]
+    },
+    "caveats": [
+      "Dark vessel: detected by satellite SAR but not broadcasting AIS.",
+      "Not SHAP-explainable -- a SAR detection has no movement track to attribute.",
+      "length_m and fishing_score are GFW model estimates from imagery, not ground truth.",
+      "MPA boundary may be approximate; verify against official WDPA limits.",
+      "An inspection lead, not courtroom evidence."
+    ],
+    "eez_name": "Australia EEZ",
+    "eez_sovereign": "Australia",
+    "eez_iso_sov": "AUS",
+    "eez_foreign": null
   },
   {
     "type": "dark_vessel_sar",
@@ -1687,29 +2102,27 @@
     "mpa_iucn_cat": "VI",
     "mpa_no_take": "False",
     "mpa_version": "WDPA/WD-OECM Jun2026",
-    "severity": "low",
-    "severity_reason": "multi-use protected area",
-    "vessel_id": "F.V LARISSA E",
-    "gear": "SAR \u00b7 FISHING",
-    "flag": "AUS",
-    "time_start_utc": "2024-01-08T19:13:05Z",
-    "time_end_utc": "2024-01-08T19:13:05Z",
+    "severity": "high",
+    "severity_reason": "dark vessel inside MPA",
+    "vessel_id": "(dark -- no AIS identity)",
+    "gear": "SAR (dark)",
+    "flag": null,
+    "time_start_utc": "2024-01-01T08:29:59Z",
+    "time_end_utc": "2024-01-01T08:29:59Z",
     "duration_hours": 0.0,
     "n_positions": 1,
     "n_fishing_positions": 1,
     "mean_fishing_proba": null,
     "max_fishing_proba": null,
-    "centroid_lat": -22.37,
-    "centroid_lon": 153.02999877929688,
+    "centroid_lat": -17.36,
+    "centroid_lon": 146.77999877929688,
     "length_m": null,
-    "matched_to_ais": true,
+    "matched_to_ais": false,
     "explanation": {
       "method": "SAR detection attributes (no AIS track or identity; not SHAP-explainable)",
       "drivers": [
-        "inside MPA: Great Barrier Reef Marine Park",
-        "broadcasting AIS: F.V LARISSA E, flag AUS",
-        "gear type: FISHING",
-        "satellite detections in window: 1"
+        "inside MPA: Great Barrier Reef Marine Park (within Australia EEZ)",
+        "not broadcasting AIS (dark vessel)"
       ]
     },
     "caveats": [
@@ -1718,7 +2131,11 @@
       "length_m and fishing_score are GFW model estimates from imagery, not ground truth.",
       "MPA boundary may be approximate; verify against official WDPA limits.",
       "An inspection lead, not courtroom evidence."
-    ]
+    ],
+    "eez_name": "Australia EEZ",
+    "eez_sovereign": "Australia",
+    "eez_iso_sov": "AUS",
+    "eez_foreign": null
   },
   {
     "type": "dark_vessel_sar",
@@ -1728,29 +2145,27 @@
     "mpa_iucn_cat": "V",
     "mpa_no_take": "False",
     "mpa_version": "WDPA/WD-OECM Jun2026",
-    "severity": "low",
-    "severity_reason": "multi-use protected area",
-    "vessel_id": "NEMO II",
-    "gear": "SAR \u00b7 FISHING",
-    "flag": "ECU",
-    "time_start_utc": "2024-01-06T00:27:22Z",
-    "time_end_utc": "2024-01-06T00:27:22Z",
+    "severity": "high",
+    "severity_reason": "dark vessel inside MPA",
+    "vessel_id": "(dark -- no AIS identity)",
+    "gear": "SAR (dark)",
+    "flag": null,
+    "time_start_utc": "2024-01-02T11:42:31Z",
+    "time_end_utc": "2024-01-02T11:42:31Z",
     "duration_hours": 0.0,
     "n_positions": 1,
     "n_fishing_positions": 1,
     "mean_fishing_proba": null,
     "max_fishing_proba": null,
-    "centroid_lat": -0.52,
-    "centroid_lon": -90.63999938964844,
+    "centroid_lat": -0.97,
+    "centroid_lon": -90.86000061035156,
     "length_m": null,
-    "matched_to_ais": true,
+    "matched_to_ais": false,
     "explanation": {
       "method": "SAR detection attributes (no AIS track or identity; not SHAP-explainable)",
       "drivers": [
-        "inside MPA: Galapagos Marine Reserve",
-        "broadcasting AIS: NEMO II, flag ECU",
-        "gear type: FISHING",
-        "satellite detections in window: 1"
+        "inside MPA: Galapagos Marine Reserve (within Galapagos EEZ (Ecuador))",
+        "not broadcasting AIS (dark vessel)"
       ]
     },
     "caveats": [
@@ -1759,7 +2174,97 @@
       "length_m and fishing_score are GFW model estimates from imagery, not ground truth.",
       "MPA boundary may be approximate; verify against official WDPA limits.",
       "An inspection lead, not courtroom evidence."
-    ]
+    ],
+    "eez_name": "Galapagos EEZ (Ecuador)",
+    "eez_sovereign": "Ecuador",
+    "eez_iso_sov": "ECU",
+    "eez_foreign": null
+  },
+  {
+    "type": "dark_vessel_sar",
+    "incident_id": "sar__galapagos_eez_ecuador_outside_mpa_0003",
+    "mpa_name": "Galapagos EEZ (Ecuador) (outside MPA)",
+    "wdpa_id": null,
+    "mpa_iucn_cat": null,
+    "mpa_no_take": null,
+    "mpa_version": null,
+    "severity": "medium",
+    "severity_reason": "dark vessel inside national EEZ, outside any protected area",
+    "vessel_id": "(dark -- no AIS identity)",
+    "gear": "SAR (dark)",
+    "flag": null,
+    "time_start_utc": "2024-01-02T11:42:31Z",
+    "time_end_utc": "2024-01-02T11:42:31Z",
+    "duration_hours": 0.0,
+    "n_positions": 1,
+    "n_fishing_positions": 1,
+    "mean_fishing_proba": null,
+    "max_fishing_proba": null,
+    "centroid_lat": -1.46,
+    "centroid_lon": -92.47000122070312,
+    "length_m": null,
+    "matched_to_ais": false,
+    "explanation": {
+      "method": "SAR detection attributes (no AIS track or identity; not SHAP-explainable)",
+      "drivers": [
+        "inside national EEZ: Galapagos EEZ (Ecuador), outside any MPA",
+        "not broadcasting AIS (dark vessel)"
+      ]
+    },
+    "caveats": [
+      "Dark vessel: detected by satellite SAR but not broadcasting AIS.",
+      "Not SHAP-explainable -- a SAR detection has no movement track to attribute.",
+      "length_m and fishing_score are GFW model estimates from imagery, not ground truth.",
+      "MPA boundary may be approximate; verify against official WDPA limits.",
+      "An inspection lead, not courtroom evidence."
+    ],
+    "eez_name": "Galapagos EEZ (Ecuador)",
+    "eez_sovereign": "Ecuador",
+    "eez_iso_sov": "ECU",
+    "eez_foreign": null
+  },
+  {
+    "type": "dark_vessel_sar",
+    "incident_id": "sar__australia_eez_outside_mpa_0004",
+    "mpa_name": "Australia EEZ (outside MPA)",
+    "wdpa_id": null,
+    "mpa_iucn_cat": null,
+    "mpa_no_take": null,
+    "mpa_version": null,
+    "severity": "medium",
+    "severity_reason": "dark vessel inside national EEZ, outside any protected area",
+    "vessel_id": "(dark -- no AIS identity)",
+    "gear": "SAR (dark)",
+    "flag": null,
+    "time_start_utc": "2024-01-01T08:29:59Z",
+    "time_end_utc": "2024-01-01T08:29:59Z",
+    "duration_hours": 0.0,
+    "n_positions": 1,
+    "n_fishing_positions": 1,
+    "mean_fishing_proba": null,
+    "max_fishing_proba": null,
+    "centroid_lat": -17.07,
+    "centroid_lon": 147.0500030517578,
+    "length_m": null,
+    "matched_to_ais": false,
+    "explanation": {
+      "method": "SAR detection attributes (no AIS track or identity; not SHAP-explainable)",
+      "drivers": [
+        "inside national EEZ: Australia EEZ, outside any MPA",
+        "not broadcasting AIS (dark vessel)"
+      ]
+    },
+    "caveats": [
+      "Dark vessel: detected by satellite SAR but not broadcasting AIS.",
+      "Not SHAP-explainable -- a SAR detection has no movement track to attribute.",
+      "length_m and fishing_score are GFW model estimates from imagery, not ground truth.",
+      "MPA boundary may be approximate; verify against official WDPA limits.",
+      "An inspection lead, not courtroom evidence."
+    ],
+    "eez_name": "Australia EEZ",
+    "eez_sovereign": "Australia",
+    "eez_iso_sov": "AUS",
+    "eez_foreign": null
   },
   {
     "type": "dark_vessel_sar",
@@ -1769,29 +2274,27 @@
     "mpa_iucn_cat": "VI",
     "mpa_no_take": "False",
     "mpa_version": "WDPA/WD-OECM Jun2026",
-    "severity": "low",
-    "severity_reason": "multi-use protected area",
-    "vessel_id": "F.V LARISSA E",
-    "gear": "SAR \u00b7 FISHING",
-    "flag": "AUS",
-    "time_start_utc": "2024-01-08T19:13:05Z",
-    "time_end_utc": "2024-01-08T19:13:05Z",
+    "severity": "high",
+    "severity_reason": "dark vessel inside MPA",
+    "vessel_id": "(dark -- no AIS identity)",
+    "gear": "SAR (dark)",
+    "flag": null,
+    "time_start_utc": "2024-01-01T08:29:59Z",
+    "time_end_utc": "2024-01-01T08:29:59Z",
     "duration_hours": 0.0,
     "n_positions": 1,
     "n_fishing_positions": 1,
     "mean_fishing_proba": null,
     "max_fishing_proba": null,
-    "centroid_lat": -22.22,
-    "centroid_lon": 153.10000610351562,
+    "centroid_lat": -21.05,
+    "centroid_lon": 149.99000549316406,
     "length_m": null,
-    "matched_to_ais": true,
+    "matched_to_ais": false,
     "explanation": {
       "method": "SAR detection attributes (no AIS track or identity; not SHAP-explainable)",
       "drivers": [
-        "inside MPA: Great Barrier Reef Marine Park",
-        "broadcasting AIS: F.V LARISSA E, flag AUS",
-        "gear type: FISHING",
-        "satellite detections in window: 1"
+        "inside MPA: Great Barrier Reef Marine Park (within Australia EEZ)",
+        "not broadcasting AIS (dark vessel)"
       ]
     },
     "caveats": [
@@ -1800,7 +2303,11 @@
       "length_m and fishing_score are GFW model estimates from imagery, not ground truth.",
       "MPA boundary may be approximate; verify against official WDPA limits.",
       "An inspection lead, not courtroom evidence."
-    ]
+    ],
+    "eez_name": "Australia EEZ",
+    "eez_sovereign": "Australia",
+    "eez_iso_sov": "AUS",
+    "eez_foreign": null
   },
   {
     "type": "dark_vessel_sar",
@@ -1810,29 +2317,27 @@
     "mpa_iucn_cat": "V",
     "mpa_no_take": "False",
     "mpa_version": "WDPA/WD-OECM Jun2026",
-    "severity": "low",
-    "severity_reason": "multi-use protected area",
-    "vessel_id": "NEMO II",
-    "gear": "SAR \u00b7 FISHING",
-    "flag": "ECU",
-    "time_start_utc": "2024-01-06T00:27:22Z",
-    "time_end_utc": "2024-01-06T00:27:22Z",
+    "severity": "high",
+    "severity_reason": "dark vessel inside MPA",
+    "vessel_id": "(dark -- no AIS identity)",
+    "gear": "SAR (dark)",
+    "flag": null,
+    "time_start_utc": "2024-01-02T11:42:31Z",
+    "time_end_utc": "2024-01-02T11:42:31Z",
     "duration_hours": 0.0,
     "n_positions": 1,
     "n_fishing_positions": 1,
     "mean_fishing_proba": null,
     "max_fishing_proba": null,
-    "centroid_lat": -0.15,
-    "centroid_lon": -91.51000213623047,
+    "centroid_lat": -0.39,
+    "centroid_lon": -90.52999877929688,
     "length_m": null,
-    "matched_to_ais": true,
+    "matched_to_ais": false,
     "explanation": {
       "method": "SAR detection attributes (no AIS track or identity; not SHAP-explainable)",
       "drivers": [
-        "inside MPA: Galapagos Marine Reserve",
-        "broadcasting AIS: NEMO II, flag ECU",
-        "gear type: FISHING",
-        "satellite detections in window: 1"
+        "inside MPA: Galapagos Marine Reserve (within Galapagos EEZ (Ecuador))",
+        "not broadcasting AIS (dark vessel)"
       ]
     },
     "caveats": [
@@ -1841,7 +2346,97 @@
       "length_m and fishing_score are GFW model estimates from imagery, not ground truth.",
       "MPA boundary may be approximate; verify against official WDPA limits.",
       "An inspection lead, not courtroom evidence."
-    ]
+    ],
+    "eez_name": "Galapagos EEZ (Ecuador)",
+    "eez_sovereign": "Ecuador",
+    "eez_iso_sov": "ECU",
+    "eez_foreign": null
+  },
+  {
+    "type": "dark_vessel_sar",
+    "incident_id": "sar__galapagos_eez_ecuador_outside_mpa_0004",
+    "mpa_name": "Galapagos EEZ (Ecuador) (outside MPA)",
+    "wdpa_id": null,
+    "mpa_iucn_cat": null,
+    "mpa_no_take": null,
+    "mpa_version": null,
+    "severity": "medium",
+    "severity_reason": "dark vessel inside national EEZ, outside any protected area",
+    "vessel_id": "(dark -- no AIS identity)",
+    "gear": "SAR (dark)",
+    "flag": null,
+    "time_start_utc": "2024-01-02T11:42:31Z",
+    "time_end_utc": "2024-01-02T11:42:31Z",
+    "duration_hours": 0.0,
+    "n_positions": 1,
+    "n_fishing_positions": 1,
+    "mean_fishing_proba": null,
+    "max_fishing_proba": null,
+    "centroid_lat": -0.81,
+    "centroid_lon": -92.37999725341797,
+    "length_m": null,
+    "matched_to_ais": false,
+    "explanation": {
+      "method": "SAR detection attributes (no AIS track or identity; not SHAP-explainable)",
+      "drivers": [
+        "inside national EEZ: Galapagos EEZ (Ecuador), outside any MPA",
+        "not broadcasting AIS (dark vessel)"
+      ]
+    },
+    "caveats": [
+      "Dark vessel: detected by satellite SAR but not broadcasting AIS.",
+      "Not SHAP-explainable -- a SAR detection has no movement track to attribute.",
+      "length_m and fishing_score are GFW model estimates from imagery, not ground truth.",
+      "MPA boundary may be approximate; verify against official WDPA limits.",
+      "An inspection lead, not courtroom evidence."
+    ],
+    "eez_name": "Galapagos EEZ (Ecuador)",
+    "eez_sovereign": "Ecuador",
+    "eez_iso_sov": "ECU",
+    "eez_foreign": null
+  },
+  {
+    "type": "dark_vessel_sar",
+    "incident_id": "sar__australia_eez_outside_mpa_0005",
+    "mpa_name": "Australia EEZ (outside MPA)",
+    "wdpa_id": null,
+    "mpa_iucn_cat": null,
+    "mpa_no_take": null,
+    "mpa_version": null,
+    "severity": "medium",
+    "severity_reason": "dark vessel inside national EEZ, outside any protected area",
+    "vessel_id": "(dark -- no AIS identity)",
+    "gear": "SAR (dark)",
+    "flag": null,
+    "time_start_utc": "2024-01-01T08:29:59Z",
+    "time_end_utc": "2024-01-01T08:29:59Z",
+    "duration_hours": 0.0,
+    "n_positions": 1,
+    "n_fishing_positions": 1,
+    "mean_fishing_proba": null,
+    "max_fishing_proba": null,
+    "centroid_lat": -16.67,
+    "centroid_lon": 146.74000549316406,
+    "length_m": null,
+    "matched_to_ais": false,
+    "explanation": {
+      "method": "SAR detection attributes (no AIS track or identity; not SHAP-explainable)",
+      "drivers": [
+        "inside national EEZ: Australia EEZ, outside any MPA",
+        "not broadcasting AIS (dark vessel)"
+      ]
+    },
+    "caveats": [
+      "Dark vessel: detected by satellite SAR but not broadcasting AIS.",
+      "Not SHAP-explainable -- a SAR detection has no movement track to attribute.",
+      "length_m and fishing_score are GFW model estimates from imagery, not ground truth.",
+      "MPA boundary may be approximate; verify against official WDPA limits.",
+      "An inspection lead, not courtroom evidence."
+    ],
+    "eez_name": "Australia EEZ",
+    "eez_sovereign": "Australia",
+    "eez_iso_sov": "AUS",
+    "eez_foreign": null
   },
   {
     "type": "dark_vessel_sar",
@@ -1851,29 +2446,27 @@
     "mpa_iucn_cat": "VI",
     "mpa_no_take": "False",
     "mpa_version": "WDPA/WD-OECM Jun2026",
-    "severity": "low",
-    "severity_reason": "multi-use protected area",
-    "vessel_id": "F.V LARISSA E",
-    "gear": "SAR \u00b7 FISHING",
-    "flag": "AUS",
-    "time_start_utc": "2024-01-08T19:13:05Z",
-    "time_end_utc": "2024-01-08T19:13:05Z",
+    "severity": "high",
+    "severity_reason": "dark vessel inside MPA",
+    "vessel_id": "(dark -- no AIS identity)",
+    "gear": "SAR (dark)",
+    "flag": null,
+    "time_start_utc": "2024-01-01T08:29:59Z",
+    "time_end_utc": "2024-01-01T08:29:59Z",
     "duration_hours": 0.0,
     "n_positions": 1,
     "n_fishing_positions": 1,
     "mean_fishing_proba": null,
     "max_fishing_proba": null,
-    "centroid_lat": -21.91,
-    "centroid_lon": 153.02000427246094,
+    "centroid_lat": -22.04,
+    "centroid_lon": 150.0,
     "length_m": null,
-    "matched_to_ais": true,
+    "matched_to_ais": false,
     "explanation": {
       "method": "SAR detection attributes (no AIS track or identity; not SHAP-explainable)",
       "drivers": [
-        "inside MPA: Great Barrier Reef Marine Park",
-        "broadcasting AIS: F.V LARISSA E, flag AUS",
-        "gear type: FISHING",
-        "satellite detections in window: 1"
+        "inside MPA: Great Barrier Reef Marine Park (within Australia EEZ)",
+        "not broadcasting AIS (dark vessel)"
       ]
     },
     "caveats": [
@@ -1882,7 +2475,11 @@
       "length_m and fishing_score are GFW model estimates from imagery, not ground truth.",
       "MPA boundary may be approximate; verify against official WDPA limits.",
       "An inspection lead, not courtroom evidence."
-    ]
+    ],
+    "eez_name": "Australia EEZ",
+    "eez_sovereign": "Australia",
+    "eez_iso_sov": "AUS",
+    "eez_foreign": null
   },
   {
     "type": "dark_vessel_sar",
@@ -1892,29 +2489,27 @@
     "mpa_iucn_cat": "V",
     "mpa_no_take": "False",
     "mpa_version": "WDPA/WD-OECM Jun2026",
-    "severity": "low",
-    "severity_reason": "multi-use protected area",
-    "vessel_id": "NEMO II",
-    "gear": "SAR \u00b7 FISHING",
-    "flag": "ECU",
-    "time_start_utc": "2024-01-06T00:27:22Z",
-    "time_end_utc": "2024-01-06T00:27:22Z",
+    "severity": "high",
+    "severity_reason": "dark vessel inside MPA",
+    "vessel_id": "(dark -- no AIS identity)",
+    "gear": "SAR (dark)",
+    "flag": null,
+    "time_start_utc": "2024-01-02T11:42:31Z",
+    "time_end_utc": "2024-01-02T11:42:31Z",
     "duration_hours": 0.0,
     "n_positions": 1,
     "n_fishing_positions": 1,
     "mean_fishing_proba": null,
     "max_fishing_proba": null,
-    "centroid_lat": -0.78,
-    "centroid_lon": -89.52999877929688,
+    "centroid_lat": -0.47,
+    "centroid_lon": -90.80000305175781,
     "length_m": null,
-    "matched_to_ais": true,
+    "matched_to_ais": false,
     "explanation": {
       "method": "SAR detection attributes (no AIS track or identity; not SHAP-explainable)",
       "drivers": [
-        "inside MPA: Galapagos Marine Reserve",
-        "broadcasting AIS: NEMO II, flag ECU",
-        "gear type: FISHING",
-        "satellite detections in window: 1"
+        "inside MPA: Galapagos Marine Reserve (within Galapagos EEZ (Ecuador))",
+        "not broadcasting AIS (dark vessel)"
       ]
     },
     "caveats": [
@@ -1923,39 +2518,127 @@
       "length_m and fishing_score are GFW model estimates from imagery, not ground truth.",
       "MPA boundary may be approximate; verify against official WDPA limits.",
       "An inspection lead, not courtroom evidence."
-    ]
+    ],
+    "eez_name": "Galapagos EEZ (Ecuador)",
+    "eez_sovereign": "Ecuador",
+    "eez_iso_sov": "ECU",
+    "eez_foreign": null
+  },
+  {
+    "type": "dark_vessel_sar",
+    "incident_id": "sar__galapagos_eez_ecuador_outside_mpa_0005",
+    "mpa_name": "Galapagos EEZ (Ecuador) (outside MPA)",
+    "wdpa_id": null,
+    "mpa_iucn_cat": null,
+    "mpa_no_take": null,
+    "mpa_version": null,
+    "severity": "medium",
+    "severity_reason": "dark vessel inside national EEZ, outside any protected area",
+    "vessel_id": "(dark -- no AIS identity)",
+    "gear": "SAR (dark)",
+    "flag": null,
+    "time_start_utc": "2024-01-02T11:42:31Z",
+    "time_end_utc": "2024-01-02T11:42:31Z",
+    "duration_hours": 0.0,
+    "n_positions": 1,
+    "n_fishing_positions": 1,
+    "mean_fishing_proba": null,
+    "max_fishing_proba": null,
+    "centroid_lat": -1.08,
+    "centroid_lon": -92.36000061035156,
+    "length_m": null,
+    "matched_to_ais": false,
+    "explanation": {
+      "method": "SAR detection attributes (no AIS track or identity; not SHAP-explainable)",
+      "drivers": [
+        "inside national EEZ: Galapagos EEZ (Ecuador), outside any MPA",
+        "not broadcasting AIS (dark vessel)"
+      ]
+    },
+    "caveats": [
+      "Dark vessel: detected by satellite SAR but not broadcasting AIS.",
+      "Not SHAP-explainable -- a SAR detection has no movement track to attribute.",
+      "length_m and fishing_score are GFW model estimates from imagery, not ground truth.",
+      "MPA boundary may be approximate; verify against official WDPA limits.",
+      "An inspection lead, not courtroom evidence."
+    ],
+    "eez_name": "Galapagos EEZ (Ecuador)",
+    "eez_sovereign": "Ecuador",
+    "eez_iso_sov": "ECU",
+    "eez_foreign": null
+  },
+  {
+    "type": "dark_vessel_sar",
+    "incident_id": "sar__australia_eez_outside_mpa_0006",
+    "mpa_name": "Australia EEZ (outside MPA)",
+    "wdpa_id": null,
+    "mpa_iucn_cat": null,
+    "mpa_no_take": null,
+    "mpa_version": null,
+    "severity": "medium",
+    "severity_reason": "dark vessel inside national EEZ, outside any protected area",
+    "vessel_id": "(dark -- no AIS identity)",
+    "gear": "SAR (dark)",
+    "flag": null,
+    "time_start_utc": "2024-01-01T08:29:59Z",
+    "time_end_utc": "2024-01-01T08:29:59Z",
+    "duration_hours": 0.0,
+    "n_positions": 1,
+    "n_fishing_positions": 1,
+    "mean_fishing_proba": null,
+    "max_fishing_proba": null,
+    "centroid_lat": -18.29,
+    "centroid_lon": 146.07000732421875,
+    "length_m": null,
+    "matched_to_ais": false,
+    "explanation": {
+      "method": "SAR detection attributes (no AIS track or identity; not SHAP-explainable)",
+      "drivers": [
+        "inside national EEZ: Australia EEZ, outside any MPA",
+        "not broadcasting AIS (dark vessel)"
+      ]
+    },
+    "caveats": [
+      "Dark vessel: detected by satellite SAR but not broadcasting AIS.",
+      "Not SHAP-explainable -- a SAR detection has no movement track to attribute.",
+      "length_m and fishing_score are GFW model estimates from imagery, not ground truth.",
+      "MPA boundary may be approximate; verify against official WDPA limits.",
+      "An inspection lead, not courtroom evidence."
+    ],
+    "eez_name": "Australia EEZ",
+    "eez_sovereign": "Australia",
+    "eez_iso_sov": "AUS",
+    "eez_foreign": null
   },
   {
     "type": "dark_vessel_sar",
     "incident_id": "sar__great_barrier_reef_marine_park_0006",
     "mpa_name": "Great Barrier Reef Marine Park",
-    "wdpa_id": "2628_2",
-    "mpa_iucn_cat": "II",
-    "mpa_no_take": "True",
+    "wdpa_id": "2628_5",
+    "mpa_iucn_cat": "VI",
+    "mpa_no_take": "False",
     "mpa_version": "WDPA/WD-OECM Jun2026",
     "severity": "high",
-    "severity_reason": "no-take / national-park protection",
-    "vessel_id": "ESBJORN",
-    "gear": "SAR \u00b7 DRIFTING_LONGLINES",
-    "flag": "AUS",
-    "time_start_utc": "2024-01-08T19:13:30Z",
-    "time_end_utc": "2024-01-08T19:13:30Z",
+    "severity_reason": "dark vessel inside MPA",
+    "vessel_id": "(dark -- no AIS identity)",
+    "gear": "SAR (dark)",
+    "flag": null,
+    "time_start_utc": "2024-01-01T08:29:59Z",
+    "time_end_utc": "2024-01-01T08:29:59Z",
     "duration_hours": 0.0,
     "n_positions": 1,
     "n_fishing_positions": 1,
     "mean_fishing_proba": null,
     "max_fishing_proba": null,
-    "centroid_lat": -23.88,
-    "centroid_lon": 153.52999877929688,
+    "centroid_lat": -17.55,
+    "centroid_lon": 146.86000061035156,
     "length_m": null,
-    "matched_to_ais": true,
+    "matched_to_ais": false,
     "explanation": {
       "method": "SAR detection attributes (no AIS track or identity; not SHAP-explainable)",
       "drivers": [
-        "inside MPA: Great Barrier Reef Marine Park",
-        "broadcasting AIS: ESBJORN, flag AUS",
-        "gear type: DRIFTING_LONGLINES",
-        "satellite detections in window: 1"
+        "inside MPA: Great Barrier Reef Marine Park (within Australia EEZ)",
+        "not broadcasting AIS (dark vessel)"
       ]
     },
     "caveats": [
@@ -1964,7 +2647,11 @@
       "length_m and fishing_score are GFW model estimates from imagery, not ground truth.",
       "MPA boundary may be approximate; verify against official WDPA limits.",
       "An inspection lead, not courtroom evidence."
-    ]
+    ],
+    "eez_name": "Australia EEZ",
+    "eez_sovereign": "Australia",
+    "eez_iso_sov": "AUS",
+    "eez_foreign": null
   },
   {
     "type": "dark_vessel_sar",
@@ -1974,8 +2661,653 @@
     "mpa_iucn_cat": "V",
     "mpa_no_take": "False",
     "mpa_version": "WDPA/WD-OECM Jun2026",
-    "severity": "low",
-    "severity_reason": "multi-use protected area",
+    "severity": "high",
+    "severity_reason": "dark vessel inside MPA",
+    "vessel_id": "(dark -- no AIS identity)",
+    "gear": "SAR (dark)",
+    "flag": null,
+    "time_start_utc": "2024-01-02T11:42:31Z",
+    "time_end_utc": "2024-01-02T11:42:31Z",
+    "duration_hours": 0.0,
+    "n_positions": 1,
+    "n_fishing_positions": 1,
+    "mean_fishing_proba": null,
+    "max_fishing_proba": null,
+    "centroid_lat": -0.2,
+    "centroid_lon": -91.47000122070312,
+    "length_m": null,
+    "matched_to_ais": false,
+    "explanation": {
+      "method": "SAR detection attributes (no AIS track or identity; not SHAP-explainable)",
+      "drivers": [
+        "inside MPA: Galapagos Marine Reserve (within Galapagos EEZ (Ecuador))",
+        "not broadcasting AIS (dark vessel)"
+      ]
+    },
+    "caveats": [
+      "Dark vessel: detected by satellite SAR but not broadcasting AIS.",
+      "Not SHAP-explainable -- a SAR detection has no movement track to attribute.",
+      "length_m and fishing_score are GFW model estimates from imagery, not ground truth.",
+      "MPA boundary may be approximate; verify against official WDPA limits.",
+      "An inspection lead, not courtroom evidence."
+    ],
+    "eez_name": "Galapagos EEZ (Ecuador)",
+    "eez_sovereign": "Ecuador",
+    "eez_iso_sov": "ECU",
+    "eez_foreign": null
+  },
+  {
+    "type": "dark_vessel_sar",
+    "incident_id": "sar__galapagos_eez_ecuador_outside_mpa_0006",
+    "mpa_name": "Galapagos EEZ (Ecuador) (outside MPA)",
+    "wdpa_id": null,
+    "mpa_iucn_cat": null,
+    "mpa_no_take": null,
+    "mpa_version": null,
+    "severity": "medium",
+    "severity_reason": "dark vessel inside national EEZ, outside any protected area",
+    "vessel_id": "(dark -- no AIS identity)",
+    "gear": "SAR (dark)",
+    "flag": null,
+    "time_start_utc": "2024-01-02T11:42:31Z",
+    "time_end_utc": "2024-01-02T11:42:31Z",
+    "duration_hours": 0.0,
+    "n_positions": 1,
+    "n_fishing_positions": 1,
+    "mean_fishing_proba": null,
+    "max_fishing_proba": null,
+    "centroid_lat": -1.5,
+    "centroid_lon": -92.31999969482422,
+    "length_m": null,
+    "matched_to_ais": false,
+    "explanation": {
+      "method": "SAR detection attributes (no AIS track or identity; not SHAP-explainable)",
+      "drivers": [
+        "inside national EEZ: Galapagos EEZ (Ecuador), outside any MPA",
+        "not broadcasting AIS (dark vessel)"
+      ]
+    },
+    "caveats": [
+      "Dark vessel: detected by satellite SAR but not broadcasting AIS.",
+      "Not SHAP-explainable -- a SAR detection has no movement track to attribute.",
+      "length_m and fishing_score are GFW model estimates from imagery, not ground truth.",
+      "MPA boundary may be approximate; verify against official WDPA limits.",
+      "An inspection lead, not courtroom evidence."
+    ],
+    "eez_name": "Galapagos EEZ (Ecuador)",
+    "eez_sovereign": "Ecuador",
+    "eez_iso_sov": "ECU",
+    "eez_foreign": null
+  },
+  {
+    "type": "dark_vessel_sar",
+    "incident_id": "sar__australia_eez_outside_mpa_0007",
+    "mpa_name": "Australia EEZ (outside MPA)",
+    "wdpa_id": null,
+    "mpa_iucn_cat": null,
+    "mpa_no_take": null,
+    "mpa_version": null,
+    "severity": "medium",
+    "severity_reason": "dark vessel inside national EEZ, outside any protected area",
+    "vessel_id": "(dark -- no AIS identity)",
+    "gear": "SAR (dark)",
+    "flag": null,
+    "time_start_utc": "2024-01-01T08:29:59Z",
+    "time_end_utc": "2024-01-01T08:29:59Z",
+    "duration_hours": 0.0,
+    "n_positions": 1,
+    "n_fishing_positions": 1,
+    "mean_fishing_proba": null,
+    "max_fishing_proba": null,
+    "centroid_lat": -19.21,
+    "centroid_lon": 146.86000061035156,
+    "length_m": null,
+    "matched_to_ais": false,
+    "explanation": {
+      "method": "SAR detection attributes (no AIS track or identity; not SHAP-explainable)",
+      "drivers": [
+        "inside national EEZ: Australia EEZ, outside any MPA",
+        "not broadcasting AIS (dark vessel)"
+      ]
+    },
+    "caveats": [
+      "Dark vessel: detected by satellite SAR but not broadcasting AIS.",
+      "Not SHAP-explainable -- a SAR detection has no movement track to attribute.",
+      "length_m and fishing_score are GFW model estimates from imagery, not ground truth.",
+      "MPA boundary may be approximate; verify against official WDPA limits.",
+      "An inspection lead, not courtroom evidence."
+    ],
+    "eez_name": "Australia EEZ",
+    "eez_sovereign": "Australia",
+    "eez_iso_sov": "AUS",
+    "eez_foreign": null
+  },
+  {
+    "type": "dark_vessel_sar",
+    "incident_id": "sar__great_barrier_reef_marine_park_0007",
+    "mpa_name": "Great Barrier Reef Marine Park",
+    "wdpa_id": "2628_2",
+    "mpa_iucn_cat": "II",
+    "mpa_no_take": "True",
+    "mpa_version": "WDPA/WD-OECM Jun2026",
+    "severity": "high",
+    "severity_reason": "dark vessel inside no-take MPA",
+    "vessel_id": "(dark -- no AIS identity)",
+    "gear": "SAR (dark)",
+    "flag": null,
+    "time_start_utc": "2024-01-01T08:29:59Z",
+    "time_end_utc": "2024-01-01T08:29:59Z",
+    "duration_hours": 0.0,
+    "n_positions": 1,
+    "n_fishing_positions": 1,
+    "mean_fishing_proba": null,
+    "max_fishing_proba": null,
+    "centroid_lat": -21.49,
+    "centroid_lon": 150.69000244140625,
+    "length_m": null,
+    "matched_to_ais": false,
+    "explanation": {
+      "method": "SAR detection attributes (no AIS track or identity; not SHAP-explainable)",
+      "drivers": [
+        "inside MPA: Great Barrier Reef Marine Park (within Australia EEZ)",
+        "not broadcasting AIS (dark vessel)"
+      ]
+    },
+    "caveats": [
+      "Dark vessel: detected by satellite SAR but not broadcasting AIS.",
+      "Not SHAP-explainable -- a SAR detection has no movement track to attribute.",
+      "length_m and fishing_score are GFW model estimates from imagery, not ground truth.",
+      "MPA boundary may be approximate; verify against official WDPA limits.",
+      "An inspection lead, not courtroom evidence."
+    ],
+    "eez_name": "Australia EEZ",
+    "eez_sovereign": "Australia",
+    "eez_iso_sov": "AUS",
+    "eez_foreign": null
+  },
+  {
+    "type": "dark_vessel_sar",
+    "incident_id": "sar__galapagos_marine_reserve_0007",
+    "mpa_name": "Galapagos Marine Reserve",
+    "wdpa_id": "11753",
+    "mpa_iucn_cat": "V",
+    "mpa_no_take": "False",
+    "mpa_version": "WDPA/WD-OECM Jun2026",
+    "severity": "high",
+    "severity_reason": "dark vessel inside MPA",
+    "vessel_id": "(dark -- no AIS identity)",
+    "gear": "SAR (dark)",
+    "flag": null,
+    "time_start_utc": "2024-01-02T11:42:31Z",
+    "time_end_utc": "2024-01-02T11:42:31Z",
+    "duration_hours": 0.0,
+    "n_positions": 1,
+    "n_fishing_positions": 1,
+    "mean_fishing_proba": null,
+    "max_fishing_proba": null,
+    "centroid_lat": -0.09,
+    "centroid_lon": -90.69999694824219,
+    "length_m": null,
+    "matched_to_ais": false,
+    "explanation": {
+      "method": "SAR detection attributes (no AIS track or identity; not SHAP-explainable)",
+      "drivers": [
+        "inside MPA: Galapagos Marine Reserve (within Galapagos EEZ (Ecuador))",
+        "not broadcasting AIS (dark vessel)"
+      ]
+    },
+    "caveats": [
+      "Dark vessel: detected by satellite SAR but not broadcasting AIS.",
+      "Not SHAP-explainable -- a SAR detection has no movement track to attribute.",
+      "length_m and fishing_score are GFW model estimates from imagery, not ground truth.",
+      "MPA boundary may be approximate; verify against official WDPA limits.",
+      "An inspection lead, not courtroom evidence."
+    ],
+    "eez_name": "Galapagos EEZ (Ecuador)",
+    "eez_sovereign": "Ecuador",
+    "eez_iso_sov": "ECU",
+    "eez_foreign": null
+  },
+  {
+    "type": "dark_vessel_sar",
+    "incident_id": "sar__galapagos_eez_ecuador_outside_mpa_0007",
+    "mpa_name": "Galapagos EEZ (Ecuador) (outside MPA)",
+    "wdpa_id": null,
+    "mpa_iucn_cat": null,
+    "mpa_no_take": null,
+    "mpa_version": null,
+    "severity": "medium",
+    "severity_reason": "dark vessel inside national EEZ, outside any protected area",
+    "vessel_id": "(dark -- no AIS identity)",
+    "gear": "SAR (dark)",
+    "flag": null,
+    "time_start_utc": "2024-01-02T11:42:31Z",
+    "time_end_utc": "2024-01-02T11:42:31Z",
+    "duration_hours": 0.0,
+    "n_positions": 1,
+    "n_fishing_positions": 1,
+    "mean_fishing_proba": null,
+    "max_fishing_proba": null,
+    "centroid_lat": -0.96,
+    "centroid_lon": -92.33000183105469,
+    "length_m": null,
+    "matched_to_ais": false,
+    "explanation": {
+      "method": "SAR detection attributes (no AIS track or identity; not SHAP-explainable)",
+      "drivers": [
+        "inside national EEZ: Galapagos EEZ (Ecuador), outside any MPA",
+        "not broadcasting AIS (dark vessel)"
+      ]
+    },
+    "caveats": [
+      "Dark vessel: detected by satellite SAR but not broadcasting AIS.",
+      "Not SHAP-explainable -- a SAR detection has no movement track to attribute.",
+      "length_m and fishing_score are GFW model estimates from imagery, not ground truth.",
+      "MPA boundary may be approximate; verify against official WDPA limits.",
+      "An inspection lead, not courtroom evidence."
+    ],
+    "eez_name": "Galapagos EEZ (Ecuador)",
+    "eez_sovereign": "Ecuador",
+    "eez_iso_sov": "ECU",
+    "eez_foreign": null
+  },
+  {
+    "type": "dark_vessel_sar",
+    "incident_id": "sar__australia_eez_outside_mpa_0008",
+    "mpa_name": "Australia EEZ (outside MPA)",
+    "wdpa_id": null,
+    "mpa_iucn_cat": null,
+    "mpa_no_take": null,
+    "mpa_version": null,
+    "severity": "medium",
+    "severity_reason": "dark vessel inside national EEZ, outside any protected area",
+    "vessel_id": "(dark -- no AIS identity)",
+    "gear": "SAR (dark)",
+    "flag": null,
+    "time_start_utc": "2024-01-01T08:29:59Z",
+    "time_end_utc": "2024-01-01T08:29:59Z",
+    "duration_hours": 0.0,
+    "n_positions": 1,
+    "n_fishing_positions": 1,
+    "mean_fishing_proba": null,
+    "max_fishing_proba": null,
+    "centroid_lat": -23.91,
+    "centroid_lon": 151.41000366210938,
+    "length_m": null,
+    "matched_to_ais": false,
+    "explanation": {
+      "method": "SAR detection attributes (no AIS track or identity; not SHAP-explainable)",
+      "drivers": [
+        "inside national EEZ: Australia EEZ, outside any MPA",
+        "not broadcasting AIS (dark vessel)"
+      ]
+    },
+    "caveats": [
+      "Dark vessel: detected by satellite SAR but not broadcasting AIS.",
+      "Not SHAP-explainable -- a SAR detection has no movement track to attribute.",
+      "length_m and fishing_score are GFW model estimates from imagery, not ground truth.",
+      "MPA boundary may be approximate; verify against official WDPA limits.",
+      "An inspection lead, not courtroom evidence."
+    ],
+    "eez_name": "Australia EEZ",
+    "eez_sovereign": "Australia",
+    "eez_iso_sov": "AUS",
+    "eez_foreign": null
+  },
+  {
+    "type": "dark_vessel_sar",
+    "incident_id": "sar__great_barrier_reef_marine_park_0008",
+    "mpa_name": "Great Barrier Reef Marine Park",
+    "wdpa_id": "2628_5",
+    "mpa_iucn_cat": "VI",
+    "mpa_no_take": "False",
+    "mpa_version": "WDPA/WD-OECM Jun2026",
+    "severity": "high",
+    "severity_reason": "dark vessel inside MPA",
+    "vessel_id": "(dark -- no AIS identity)",
+    "gear": "SAR (dark)",
+    "flag": null,
+    "time_start_utc": "2024-01-01T08:29:59Z",
+    "time_end_utc": "2024-01-01T08:29:59Z",
+    "duration_hours": 0.0,
+    "n_positions": 1,
+    "n_fishing_positions": 1,
+    "mean_fishing_proba": null,
+    "max_fishing_proba": null,
+    "centroid_lat": -19.58,
+    "centroid_lon": 148.05999755859375,
+    "length_m": null,
+    "matched_to_ais": false,
+    "explanation": {
+      "method": "SAR detection attributes (no AIS track or identity; not SHAP-explainable)",
+      "drivers": [
+        "inside MPA: Great Barrier Reef Marine Park (within Australia EEZ)",
+        "not broadcasting AIS (dark vessel)"
+      ]
+    },
+    "caveats": [
+      "Dark vessel: detected by satellite SAR but not broadcasting AIS.",
+      "Not SHAP-explainable -- a SAR detection has no movement track to attribute.",
+      "length_m and fishing_score are GFW model estimates from imagery, not ground truth.",
+      "MPA boundary may be approximate; verify against official WDPA limits.",
+      "An inspection lead, not courtroom evidence."
+    ],
+    "eez_name": "Australia EEZ",
+    "eez_sovereign": "Australia",
+    "eez_iso_sov": "AUS",
+    "eez_foreign": null
+  },
+  {
+    "type": "dark_vessel_sar",
+    "incident_id": "sar__galapagos_marine_reserve_0008",
+    "mpa_name": "Galapagos Marine Reserve",
+    "wdpa_id": "11753",
+    "mpa_iucn_cat": "V",
+    "mpa_no_take": "False",
+    "mpa_version": "WDPA/WD-OECM Jun2026",
+    "severity": "high",
+    "severity_reason": "dark vessel inside MPA",
+    "vessel_id": "(dark -- no AIS identity)",
+    "gear": "SAR (dark)",
+    "flag": null,
+    "time_start_utc": "2024-01-02T11:42:31Z",
+    "time_end_utc": "2024-01-02T11:42:31Z",
+    "duration_hours": 0.0,
+    "n_positions": 1,
+    "n_fishing_positions": 1,
+    "mean_fishing_proba": null,
+    "max_fishing_proba": null,
+    "centroid_lat": -0.44,
+    "centroid_lon": -90.80000305175781,
+    "length_m": null,
+    "matched_to_ais": false,
+    "explanation": {
+      "method": "SAR detection attributes (no AIS track or identity; not SHAP-explainable)",
+      "drivers": [
+        "inside MPA: Galapagos Marine Reserve (within Galapagos EEZ (Ecuador))",
+        "not broadcasting AIS (dark vessel)"
+      ]
+    },
+    "caveats": [
+      "Dark vessel: detected by satellite SAR but not broadcasting AIS.",
+      "Not SHAP-explainable -- a SAR detection has no movement track to attribute.",
+      "length_m and fishing_score are GFW model estimates from imagery, not ground truth.",
+      "MPA boundary may be approximate; verify against official WDPA limits.",
+      "An inspection lead, not courtroom evidence."
+    ],
+    "eez_name": "Galapagos EEZ (Ecuador)",
+    "eez_sovereign": "Ecuador",
+    "eez_iso_sov": "ECU",
+    "eez_foreign": null
+  },
+  {
+    "type": "dark_vessel_sar",
+    "incident_id": "sar__galapagos_eez_ecuador_outside_mpa_0008",
+    "mpa_name": "Galapagos EEZ (Ecuador) (outside MPA)",
+    "wdpa_id": null,
+    "mpa_iucn_cat": null,
+    "mpa_no_take": null,
+    "mpa_version": null,
+    "severity": "medium",
+    "severity_reason": "dark vessel inside national EEZ, outside any protected area",
+    "vessel_id": "(dark -- no AIS identity)",
+    "gear": "SAR (dark)",
+    "flag": null,
+    "time_start_utc": "2024-01-02T11:42:31Z",
+    "time_end_utc": "2024-01-02T11:42:31Z",
+    "duration_hours": 0.0,
+    "n_positions": 1,
+    "n_fishing_positions": 1,
+    "mean_fishing_proba": null,
+    "max_fishing_proba": null,
+    "centroid_lat": -1.39,
+    "centroid_lon": -92.25,
+    "length_m": null,
+    "matched_to_ais": false,
+    "explanation": {
+      "method": "SAR detection attributes (no AIS track or identity; not SHAP-explainable)",
+      "drivers": [
+        "inside national EEZ: Galapagos EEZ (Ecuador), outside any MPA",
+        "not broadcasting AIS (dark vessel)"
+      ]
+    },
+    "caveats": [
+      "Dark vessel: detected by satellite SAR but not broadcasting AIS.",
+      "Not SHAP-explainable -- a SAR detection has no movement track to attribute.",
+      "length_m and fishing_score are GFW model estimates from imagery, not ground truth.",
+      "MPA boundary may be approximate; verify against official WDPA limits.",
+      "An inspection lead, not courtroom evidence."
+    ],
+    "eez_name": "Galapagos EEZ (Ecuador)",
+    "eez_sovereign": "Ecuador",
+    "eez_iso_sov": "ECU",
+    "eez_foreign": null
+  },
+  {
+    "type": "dark_vessel_sar",
+    "incident_id": "sar__australia_eez_outside_mpa_0009",
+    "mpa_name": "Australia EEZ (outside MPA)",
+    "wdpa_id": null,
+    "mpa_iucn_cat": null,
+    "mpa_no_take": null,
+    "mpa_version": null,
+    "severity": "medium",
+    "severity_reason": "dark vessel inside national EEZ, outside any protected area",
+    "vessel_id": "(dark -- no AIS identity)",
+    "gear": "SAR (dark)",
+    "flag": null,
+    "time_start_utc": "2024-01-01T08:29:59Z",
+    "time_end_utc": "2024-01-01T08:29:59Z",
+    "duration_hours": 0.0,
+    "n_positions": 1,
+    "n_fishing_positions": 1,
+    "mean_fishing_proba": null,
+    "max_fishing_proba": null,
+    "centroid_lat": -23.92,
+    "centroid_lon": 151.49000549316406,
+    "length_m": null,
+    "matched_to_ais": false,
+    "explanation": {
+      "method": "SAR detection attributes (no AIS track or identity; not SHAP-explainable)",
+      "drivers": [
+        "inside national EEZ: Australia EEZ, outside any MPA",
+        "not broadcasting AIS (dark vessel)"
+      ]
+    },
+    "caveats": [
+      "Dark vessel: detected by satellite SAR but not broadcasting AIS.",
+      "Not SHAP-explainable -- a SAR detection has no movement track to attribute.",
+      "length_m and fishing_score are GFW model estimates from imagery, not ground truth.",
+      "MPA boundary may be approximate; verify against official WDPA limits.",
+      "An inspection lead, not courtroom evidence."
+    ],
+    "eez_name": "Australia EEZ",
+    "eez_sovereign": "Australia",
+    "eez_iso_sov": "AUS",
+    "eez_foreign": null
+  },
+  {
+    "type": "dark_vessel_sar",
+    "incident_id": "sar__great_barrier_reef_marine_park_0009",
+    "mpa_name": "Great Barrier Reef Marine Park",
+    "wdpa_id": "2628_5",
+    "mpa_iucn_cat": "VI",
+    "mpa_no_take": "False",
+    "mpa_version": "WDPA/WD-OECM Jun2026",
+    "severity": "high",
+    "severity_reason": "dark vessel inside MPA",
+    "vessel_id": "(dark -- no AIS identity)",
+    "gear": "SAR (dark)",
+    "flag": null,
+    "time_start_utc": "2024-01-01T08:29:59Z",
+    "time_end_utc": "2024-01-01T08:29:59Z",
+    "duration_hours": 0.0,
+    "n_positions": 1,
+    "n_fishing_positions": 1,
+    "mean_fishing_proba": null,
+    "max_fishing_proba": null,
+    "centroid_lat": -21.13,
+    "centroid_lon": 149.41000366210938,
+    "length_m": null,
+    "matched_to_ais": false,
+    "explanation": {
+      "method": "SAR detection attributes (no AIS track or identity; not SHAP-explainable)",
+      "drivers": [
+        "inside MPA: Great Barrier Reef Marine Park (within Australia EEZ)",
+        "not broadcasting AIS (dark vessel)"
+      ]
+    },
+    "caveats": [
+      "Dark vessel: detected by satellite SAR but not broadcasting AIS.",
+      "Not SHAP-explainable -- a SAR detection has no movement track to attribute.",
+      "length_m and fishing_score are GFW model estimates from imagery, not ground truth.",
+      "MPA boundary may be approximate; verify against official WDPA limits.",
+      "An inspection lead, not courtroom evidence."
+    ],
+    "eez_name": "Australia EEZ",
+    "eez_sovereign": "Australia",
+    "eez_iso_sov": "AUS",
+    "eez_foreign": null
+  },
+  {
+    "type": "dark_vessel_sar",
+    "incident_id": "sar__galapagos_marine_reserve_0009",
+    "mpa_name": "Galapagos Marine Reserve",
+    "wdpa_id": "11753",
+    "mpa_iucn_cat": "V",
+    "mpa_no_take": "False",
+    "mpa_version": "WDPA/WD-OECM Jun2026",
+    "severity": "high",
+    "severity_reason": "dark vessel inside MPA",
+    "vessel_id": "(dark -- no AIS identity)",
+    "gear": "SAR (dark)",
+    "flag": null,
+    "time_start_utc": "2024-01-02T11:42:31Z",
+    "time_end_utc": "2024-01-02T11:42:31Z",
+    "duration_hours": 0.0,
+    "n_positions": 1,
+    "n_fishing_positions": 1,
+    "mean_fishing_proba": null,
+    "max_fishing_proba": null,
+    "centroid_lat": 0.06,
+    "centroid_lon": -91.69000244140625,
+    "length_m": null,
+    "matched_to_ais": false,
+    "explanation": {
+      "method": "SAR detection attributes (no AIS track or identity; not SHAP-explainable)",
+      "drivers": [
+        "inside MPA: Galapagos Marine Reserve (within Galapagos EEZ (Ecuador))",
+        "not broadcasting AIS (dark vessel)"
+      ]
+    },
+    "caveats": [
+      "Dark vessel: detected by satellite SAR but not broadcasting AIS.",
+      "Not SHAP-explainable -- a SAR detection has no movement track to attribute.",
+      "length_m and fishing_score are GFW model estimates from imagery, not ground truth.",
+      "MPA boundary may be approximate; verify against official WDPA limits.",
+      "An inspection lead, not courtroom evidence."
+    ],
+    "eez_name": "Galapagos EEZ (Ecuador)",
+    "eez_sovereign": "Ecuador",
+    "eez_iso_sov": "ECU",
+    "eez_foreign": null
+  },
+  {
+    "type": "dark_vessel_sar",
+    "incident_id": "sar__australia_eez_outside_mpa_0010",
+    "mpa_name": "Australia EEZ (outside MPA)",
+    "wdpa_id": null,
+    "mpa_iucn_cat": null,
+    "mpa_no_take": null,
+    "mpa_version": null,
+    "severity": "medium",
+    "severity_reason": "dark vessel inside national EEZ, outside any protected area",
+    "vessel_id": "(dark -- no AIS identity)",
+    "gear": "SAR (dark)",
+    "flag": null,
+    "time_start_utc": "2024-06-20T19:44:14Z",
+    "time_end_utc": "2024-06-20T19:44:14Z",
+    "duration_hours": 0.0,
+    "n_positions": 1,
+    "n_fishing_positions": 1,
+    "mean_fishing_proba": null,
+    "max_fishing_proba": null,
+    "centroid_lat": -16.56,
+    "centroid_lon": 147.0399932861328,
+    "length_m": null,
+    "matched_to_ais": false,
+    "explanation": {
+      "method": "SAR detection attributes (no AIS track or identity; not SHAP-explainable)",
+      "drivers": [
+        "inside national EEZ: Australia EEZ, outside any MPA",
+        "not broadcasting AIS (dark vessel)"
+      ]
+    },
+    "caveats": [
+      "Dark vessel: detected by satellite SAR but not broadcasting AIS.",
+      "Not SHAP-explainable -- a SAR detection has no movement track to attribute.",
+      "length_m and fishing_score are GFW model estimates from imagery, not ground truth.",
+      "MPA boundary may be approximate; verify against official WDPA limits.",
+      "An inspection lead, not courtroom evidence."
+    ],
+    "eez_name": "Australia EEZ",
+    "eez_sovereign": "Australia",
+    "eez_iso_sov": "AUS",
+    "eez_foreign": null
+  },
+  {
+    "type": "dark_vessel_sar",
+    "incident_id": "sar__galapagos_marine_reserve_0010",
+    "mpa_name": "Galapagos Marine Reserve",
+    "wdpa_id": "11753",
+    "mpa_iucn_cat": "V",
+    "mpa_no_take": "False",
+    "mpa_version": "WDPA/WD-OECM Jun2026",
+    "severity": "high",
+    "severity_reason": "dark vessel inside MPA",
+    "vessel_id": "(dark -- no AIS identity)",
+    "gear": "SAR (dark)",
+    "flag": null,
+    "time_start_utc": "2024-01-02T11:42:31Z",
+    "time_end_utc": "2024-01-02T11:42:31Z",
+    "duration_hours": 0.0,
+    "n_positions": 1,
+    "n_fishing_positions": 1,
+    "mean_fishing_proba": null,
+    "max_fishing_proba": null,
+    "centroid_lat": -0.49,
+    "centroid_lon": -90.7699966430664,
+    "length_m": null,
+    "matched_to_ais": false,
+    "explanation": {
+      "method": "SAR detection attributes (no AIS track or identity; not SHAP-explainable)",
+      "drivers": [
+        "inside MPA: Galapagos Marine Reserve (within Galapagos EEZ (Ecuador))",
+        "not broadcasting AIS (dark vessel)"
+      ]
+    },
+    "caveats": [
+      "Dark vessel: detected by satellite SAR but not broadcasting AIS.",
+      "Not SHAP-explainable -- a SAR detection has no movement track to attribute.",
+      "length_m and fishing_score are GFW model estimates from imagery, not ground truth.",
+      "MPA boundary may be approximate; verify against official WDPA limits.",
+      "An inspection lead, not courtroom evidence."
+    ],
+    "eez_name": "Galapagos EEZ (Ecuador)",
+    "eez_sovereign": "Ecuador",
+    "eez_iso_sov": "ECU",
+    "eez_foreign": null
+  },
+  {
+    "type": "dark_vessel_sar",
+    "incident_id": "sar__galapagos_marine_reserve_0011",
+    "mpa_name": "Galapagos Marine Reserve",
+    "wdpa_id": "11753",
+    "mpa_iucn_cat": "V",
+    "mpa_no_take": "False",
+    "mpa_version": "WDPA/WD-OECM Jun2026",
+    "severity": "high",
+    "severity_reason": "dark vessel inside MPA",
     "vessel_id": "(dark -- no AIS identity)",
     "gear": "SAR (dark)",
     "flag": null,
@@ -1993,9 +3325,8 @@
     "explanation": {
       "method": "SAR detection attributes (no AIS track or identity; not SHAP-explainable)",
       "drivers": [
-        "inside MPA: Galapagos Marine Reserve",
-        "not broadcasting AIS (dark vessel)",
-        "satellite detections in window: 1"
+        "inside MPA: Galapagos Marine Reserve (within Galapagos EEZ (Ecuador))",
+        "not broadcasting AIS (dark vessel)"
       ]
     },
     "caveats": [
@@ -2004,59 +3335,22 @@
       "length_m and fishing_score are GFW model estimates from imagery, not ground truth.",
       "MPA boundary may be approximate; verify against official WDPA limits.",
       "An inspection lead, not courtroom evidence."
-    ]
+    ],
+    "eez_name": "Galapagos EEZ (Ecuador)",
+    "eez_sovereign": "Ecuador",
+    "eez_iso_sov": "ECU",
+    "eez_foreign": null
   },
   {
     "type": "dark_vessel_sar",
-    "incident_id": "sar__great_barrier_reef_marine_park_0007",
-    "mpa_name": "Great Barrier Reef Marine Park",
-    "wdpa_id": "2628_5",
-    "mpa_iucn_cat": "VI",
-    "mpa_no_take": "False",
-    "mpa_version": "WDPA/WD-OECM Jun2026",
-    "severity": "low",
-    "severity_reason": "multi-use protected area",
-    "vessel_id": "F.V.CODY STAR",
-    "gear": "SAR \u00b7 TRAWLERS",
-    "flag": "AUS",
-    "time_start_utc": "2024-01-08T19:13:30Z",
-    "time_end_utc": "2024-01-08T19:13:30Z",
-    "duration_hours": 0.0,
-    "n_positions": 1,
-    "n_fishing_positions": 1,
-    "mean_fishing_proba": null,
-    "max_fishing_proba": null,
-    "centroid_lat": -24.4,
-    "centroid_lon": 153.1999969482422,
-    "length_m": null,
-    "matched_to_ais": true,
-    "explanation": {
-      "method": "SAR detection attributes (no AIS track or identity; not SHAP-explainable)",
-      "drivers": [
-        "inside MPA: Great Barrier Reef Marine Park",
-        "broadcasting AIS: F.V.CODY STAR, flag AUS",
-        "gear type: TRAWLERS",
-        "satellite detections in window: 1"
-      ]
-    },
-    "caveats": [
-      "Dark vessel: detected by satellite SAR but not broadcasting AIS.",
-      "Not SHAP-explainable -- a SAR detection has no movement track to attribute.",
-      "length_m and fishing_score are GFW model estimates from imagery, not ground truth.",
-      "MPA boundary may be approximate; verify against official WDPA limits.",
-      "An inspection lead, not courtroom evidence."
-    ]
-  },
-  {
-    "type": "dark_vessel_sar",
-    "incident_id": "sar__galapagos_marine_reserve_0007",
+    "incident_id": "sar__galapagos_marine_reserve_0012",
     "mpa_name": "Galapagos Marine Reserve",
     "wdpa_id": "11753",
     "mpa_iucn_cat": "V",
     "mpa_no_take": "False",
     "mpa_version": "WDPA/WD-OECM Jun2026",
-    "severity": "low",
-    "severity_reason": "multi-use protected area",
+    "severity": "high",
+    "severity_reason": "dark vessel inside MPA",
     "vessel_id": "(dark -- no AIS identity)",
     "gear": "SAR (dark)",
     "flag": null,
@@ -2074,9 +3368,8 @@
     "explanation": {
       "method": "SAR detection attributes (no AIS track or identity; not SHAP-explainable)",
       "drivers": [
-        "inside MPA: Galapagos Marine Reserve",
-        "not broadcasting AIS (dark vessel)",
-        "satellite detections in window: 1"
+        "inside MPA: Galapagos Marine Reserve (within Galapagos EEZ (Ecuador))",
+        "not broadcasting AIS (dark vessel)"
       ]
     },
     "caveats": [
@@ -2085,59 +3378,22 @@
       "length_m and fishing_score are GFW model estimates from imagery, not ground truth.",
       "MPA boundary may be approximate; verify against official WDPA limits.",
       "An inspection lead, not courtroom evidence."
-    ]
+    ],
+    "eez_name": "Galapagos EEZ (Ecuador)",
+    "eez_sovereign": "Ecuador",
+    "eez_iso_sov": "ECU",
+    "eez_foreign": null
   },
   {
     "type": "dark_vessel_sar",
-    "incident_id": "sar__great_barrier_reef_marine_park_0008",
-    "mpa_name": "Great Barrier Reef Marine Park",
-    "wdpa_id": "2628_2",
-    "mpa_iucn_cat": "II",
-    "mpa_no_take": "True",
-    "mpa_version": "WDPA/WD-OECM Jun2026",
-    "severity": "high",
-    "severity_reason": "no-take / national-park protection",
-    "vessel_id": "F.V.CODY STAR",
-    "gear": "SAR \u00b7 TRAWLERS",
-    "flag": "AUS",
-    "time_start_utc": "2024-01-08T19:13:30Z",
-    "time_end_utc": "2024-01-08T19:13:30Z",
-    "duration_hours": 0.0,
-    "n_positions": 1,
-    "n_fishing_positions": 1,
-    "mean_fishing_proba": null,
-    "max_fishing_proba": null,
-    "centroid_lat": -19.06,
-    "centroid_lon": 149.25,
-    "length_m": null,
-    "matched_to_ais": true,
-    "explanation": {
-      "method": "SAR detection attributes (no AIS track or identity; not SHAP-explainable)",
-      "drivers": [
-        "inside MPA: Great Barrier Reef Marine Park",
-        "broadcasting AIS: F.V.CODY STAR, flag AUS",
-        "gear type: TRAWLERS",
-        "satellite detections in window: 1"
-      ]
-    },
-    "caveats": [
-      "Dark vessel: detected by satellite SAR but not broadcasting AIS.",
-      "Not SHAP-explainable -- a SAR detection has no movement track to attribute.",
-      "length_m and fishing_score are GFW model estimates from imagery, not ground truth.",
-      "MPA boundary may be approximate; verify against official WDPA limits.",
-      "An inspection lead, not courtroom evidence."
-    ]
-  },
-  {
-    "type": "dark_vessel_sar",
-    "incident_id": "sar__galapagos_marine_reserve_0008",
+    "incident_id": "sar__galapagos_marine_reserve_0013",
     "mpa_name": "Galapagos Marine Reserve",
     "wdpa_id": "11753",
     "mpa_iucn_cat": "V",
     "mpa_no_take": "False",
     "mpa_version": "WDPA/WD-OECM Jun2026",
-    "severity": "low",
-    "severity_reason": "multi-use protected area",
+    "severity": "high",
+    "severity_reason": "dark vessel inside MPA",
     "vessel_id": "(dark -- no AIS identity)",
     "gear": "SAR (dark)",
     "flag": null,
@@ -2155,9 +3411,8 @@
     "explanation": {
       "method": "SAR detection attributes (no AIS track or identity; not SHAP-explainable)",
       "drivers": [
-        "inside MPA: Galapagos Marine Reserve",
-        "not broadcasting AIS (dark vessel)",
-        "satellite detections in window: 1"
+        "inside MPA: Galapagos Marine Reserve (within Galapagos EEZ (Ecuador))",
+        "not broadcasting AIS (dark vessel)"
       ]
     },
     "caveats": [
@@ -2166,80 +3421,41 @@
       "length_m and fishing_score are GFW model estimates from imagery, not ground truth.",
       "MPA boundary may be approximate; verify against official WDPA limits.",
       "An inspection lead, not courtroom evidence."
-    ]
+    ],
+    "eez_name": "Galapagos EEZ (Ecuador)",
+    "eez_sovereign": "Ecuador",
+    "eez_iso_sov": "ECU",
+    "eez_foreign": null
   },
   {
     "type": "dark_vessel_sar",
-    "incident_id": "sar__great_barrier_reef_marine_park_0009",
-    "mpa_name": "Great Barrier Reef Marine Park",
-    "wdpa_id": "2628_5",
-    "mpa_iucn_cat": "VI",
-    "mpa_no_take": "False",
-    "mpa_version": "WDPA/WD-OECM Jun2026",
-    "severity": "low",
-    "severity_reason": "multi-use protected area",
-    "vessel_id": "NELECIA JAY",
-    "gear": "SAR \u00b7 TRAWLERS",
-    "flag": "AUS",
-    "time_start_utc": "2024-01-20T19:13:29Z",
-    "time_end_utc": "2024-01-20T19:13:29Z",
-    "duration_hours": 0.0,
-    "n_positions": 1,
-    "n_fishing_positions": 1,
-    "mean_fishing_proba": null,
-    "max_fishing_proba": null,
-    "centroid_lat": -23.12,
-    "centroid_lon": 151.50999450683594,
-    "length_m": null,
-    "matched_to_ais": true,
-    "explanation": {
-      "method": "SAR detection attributes (no AIS track or identity; not SHAP-explainable)",
-      "drivers": [
-        "inside MPA: Great Barrier Reef Marine Park",
-        "broadcasting AIS: NELECIA JAY, flag AUS",
-        "gear type: TRAWLERS",
-        "satellite detections in window: 1"
-      ]
-    },
-    "caveats": [
-      "Dark vessel: detected by satellite SAR but not broadcasting AIS.",
-      "Not SHAP-explainable -- a SAR detection has no movement track to attribute.",
-      "length_m and fishing_score are GFW model estimates from imagery, not ground truth.",
-      "MPA boundary may be approximate; verify against official WDPA limits.",
-      "An inspection lead, not courtroom evidence."
-    ]
-  },
-  {
-    "type": "dark_vessel_sar",
-    "incident_id": "sar__galapagos_marine_reserve_0009",
+    "incident_id": "sar__galapagos_marine_reserve_0014",
     "mpa_name": "Galapagos Marine Reserve",
     "wdpa_id": "11753",
     "mpa_iucn_cat": "V",
     "mpa_no_take": "False",
     "mpa_version": "WDPA/WD-OECM Jun2026",
-    "severity": "low",
-    "severity_reason": "multi-use protected area",
-    "vessel_id": "GALAXY DIVER II",
-    "gear": "SAR \u00b7 FISHING",
-    "flag": "ECU",
-    "time_start_utc": "2024-07-28T00:26:53Z",
-    "time_end_utc": "2024-07-28T00:26:53Z",
+    "severity": "high",
+    "severity_reason": "dark vessel inside MPA",
+    "vessel_id": "(dark -- no AIS identity)",
+    "gear": "SAR (dark)",
+    "flag": null,
+    "time_start_utc": "2024-03-31T11:51:02Z",
+    "time_end_utc": "2024-03-31T11:51:02Z",
     "duration_hours": 0.0,
     "n_positions": 1,
     "n_fishing_positions": 1,
     "mean_fishing_proba": null,
     "max_fishing_proba": null,
-    "centroid_lat": 0.15,
-    "centroid_lon": -91.41999816894531,
+    "centroid_lat": -0.43,
+    "centroid_lon": -90.41000366210938,
     "length_m": null,
-    "matched_to_ais": true,
+    "matched_to_ais": false,
     "explanation": {
       "method": "SAR detection attributes (no AIS track or identity; not SHAP-explainable)",
       "drivers": [
-        "inside MPA: Galapagos Marine Reserve",
-        "broadcasting AIS: GALAXY DIVER II, flag ECU",
-        "gear type: FISHING",
-        "satellite detections in window: 1"
+        "inside MPA: Galapagos Marine Reserve (within Galapagos EEZ (Ecuador))",
+        "not broadcasting AIS (dark vessel)"
       ]
     },
     "caveats": [
@@ -2248,80 +3464,41 @@
       "length_m and fishing_score are GFW model estimates from imagery, not ground truth.",
       "MPA boundary may be approximate; verify against official WDPA limits.",
       "An inspection lead, not courtroom evidence."
-    ]
+    ],
+    "eez_name": "Galapagos EEZ (Ecuador)",
+    "eez_sovereign": "Ecuador",
+    "eez_iso_sov": "ECU",
+    "eez_foreign": null
   },
   {
     "type": "dark_vessel_sar",
-    "incident_id": "sar__great_barrier_reef_marine_park_0010",
-    "mpa_name": "Great Barrier Reef Marine Park",
-    "wdpa_id": "2628_5",
-    "mpa_iucn_cat": "VI",
-    "mpa_no_take": "False",
-    "mpa_version": "WDPA/WD-OECM Jun2026",
-    "severity": "low",
-    "severity_reason": "multi-use protected area",
-    "vessel_id": "NELECIA JAY",
-    "gear": "SAR \u00b7 TRAWLERS",
-    "flag": "AUS",
-    "time_start_utc": "2024-01-20T19:13:29Z",
-    "time_end_utc": "2024-01-20T19:13:29Z",
-    "duration_hours": 0.0,
-    "n_positions": 1,
-    "n_fishing_positions": 1,
-    "mean_fishing_proba": null,
-    "max_fishing_proba": null,
-    "centroid_lat": -24.48,
-    "centroid_lon": 152.6999969482422,
-    "length_m": null,
-    "matched_to_ais": true,
-    "explanation": {
-      "method": "SAR detection attributes (no AIS track or identity; not SHAP-explainable)",
-      "drivers": [
-        "inside MPA: Great Barrier Reef Marine Park",
-        "broadcasting AIS: NELECIA JAY, flag AUS",
-        "gear type: TRAWLERS",
-        "satellite detections in window: 1"
-      ]
-    },
-    "caveats": [
-      "Dark vessel: detected by satellite SAR but not broadcasting AIS.",
-      "Not SHAP-explainable -- a SAR detection has no movement track to attribute.",
-      "length_m and fishing_score are GFW model estimates from imagery, not ground truth.",
-      "MPA boundary may be approximate; verify against official WDPA limits.",
-      "An inspection lead, not courtroom evidence."
-    ]
-  },
-  {
-    "type": "dark_vessel_sar",
-    "incident_id": "sar__galapagos_marine_reserve_0010",
+    "incident_id": "sar__galapagos_marine_reserve_0015",
     "mpa_name": "Galapagos Marine Reserve",
     "wdpa_id": "11753",
     "mpa_iucn_cat": "V",
     "mpa_no_take": "False",
     "mpa_version": "WDPA/WD-OECM Jun2026",
-    "severity": "low",
-    "severity_reason": "multi-use protected area",
-    "vessel_id": "GALAXY DIVER II",
-    "gear": "SAR \u00b7 FISHING",
-    "flag": "ECU",
-    "time_start_utc": "2024-07-28T00:26:53Z",
-    "time_end_utc": "2024-07-28T00:26:53Z",
+    "severity": "high",
+    "severity_reason": "dark vessel inside MPA",
+    "vessel_id": "(dark -- no AIS identity)",
+    "gear": "SAR (dark)",
+    "flag": null,
+    "time_start_utc": "2024-03-31T11:51:02Z",
+    "time_end_utc": "2024-03-31T11:51:02Z",
     "duration_hours": 0.0,
     "n_positions": 1,
     "n_fishing_positions": 1,
     "mean_fishing_proba": null,
     "max_fishing_proba": null,
-    "centroid_lat": 0.59,
-    "centroid_lon": -91.13999938964844,
+    "centroid_lat": 0.18,
+    "centroid_lon": -91.3499984741211,
     "length_m": null,
-    "matched_to_ais": true,
+    "matched_to_ais": false,
     "explanation": {
       "method": "SAR detection attributes (no AIS track or identity; not SHAP-explainable)",
       "drivers": [
-        "inside MPA: Galapagos Marine Reserve",
-        "broadcasting AIS: GALAXY DIVER II, flag ECU",
-        "gear type: FISHING",
-        "satellite detections in window: 1"
+        "inside MPA: Galapagos Marine Reserve (within Galapagos EEZ (Ecuador))",
+        "not broadcasting AIS (dark vessel)"
       ]
     },
     "caveats": [
@@ -2330,80 +3507,41 @@
       "length_m and fishing_score are GFW model estimates from imagery, not ground truth.",
       "MPA boundary may be approximate; verify against official WDPA limits.",
       "An inspection lead, not courtroom evidence."
-    ]
+    ],
+    "eez_name": "Galapagos EEZ (Ecuador)",
+    "eez_sovereign": "Ecuador",
+    "eez_iso_sov": "ECU",
+    "eez_foreign": null
   },
   {
     "type": "dark_vessel_sar",
-    "incident_id": "sar__great_barrier_reef_marine_park_0011",
-    "mpa_name": "Great Barrier Reef Marine Park",
-    "wdpa_id": "2628_5",
-    "mpa_iucn_cat": "VI",
-    "mpa_no_take": "False",
-    "mpa_version": "WDPA/WD-OECM Jun2026",
-    "severity": "low",
-    "severity_reason": "multi-use protected area",
-    "vessel_id": "NELECIA JAY",
-    "gear": "SAR \u00b7 TRAWLERS",
-    "flag": "AUS",
-    "time_start_utc": "2024-01-20T19:13:29Z",
-    "time_end_utc": "2024-01-20T19:13:29Z",
-    "duration_hours": 0.0,
-    "n_positions": 1,
-    "n_fishing_positions": 1,
-    "mean_fishing_proba": null,
-    "max_fishing_proba": null,
-    "centroid_lat": -24.04,
-    "centroid_lon": 152.36000061035156,
-    "length_m": null,
-    "matched_to_ais": true,
-    "explanation": {
-      "method": "SAR detection attributes (no AIS track or identity; not SHAP-explainable)",
-      "drivers": [
-        "inside MPA: Great Barrier Reef Marine Park",
-        "broadcasting AIS: NELECIA JAY, flag AUS",
-        "gear type: TRAWLERS",
-        "satellite detections in window: 1"
-      ]
-    },
-    "caveats": [
-      "Dark vessel: detected by satellite SAR but not broadcasting AIS.",
-      "Not SHAP-explainable -- a SAR detection has no movement track to attribute.",
-      "length_m and fishing_score are GFW model estimates from imagery, not ground truth.",
-      "MPA boundary may be approximate; verify against official WDPA limits.",
-      "An inspection lead, not courtroom evidence."
-    ]
-  },
-  {
-    "type": "dark_vessel_sar",
-    "incident_id": "sar__galapagos_marine_reserve_0011",
+    "incident_id": "sar__galapagos_marine_reserve_0016",
     "mpa_name": "Galapagos Marine Reserve",
     "wdpa_id": "11753",
     "mpa_iucn_cat": "V",
     "mpa_no_take": "False",
     "mpa_version": "WDPA/WD-OECM Jun2026",
-    "severity": "low",
-    "severity_reason": "multi-use protected area",
-    "vessel_id": "GALAXY DIVER II",
-    "gear": "SAR \u00b7 FISHING",
-    "flag": "ECU",
-    "time_start_utc": "2024-07-28T00:26:53Z",
-    "time_end_utc": "2024-07-28T00:26:53Z",
+    "severity": "high",
+    "severity_reason": "dark vessel inside MPA",
+    "vessel_id": "(dark -- no AIS identity)",
+    "gear": "SAR (dark)",
+    "flag": null,
+    "time_start_utc": "2024-03-31T11:51:02Z",
+    "time_end_utc": "2024-03-31T11:51:02Z",
     "duration_hours": 0.0,
     "n_positions": 1,
     "n_fishing_positions": 1,
     "mean_fishing_proba": null,
     "max_fishing_proba": null,
-    "centroid_lat": 0.24,
-    "centroid_lon": -90.83000183105469,
+    "centroid_lat": -0.29,
+    "centroid_lon": -90.51000213623047,
     "length_m": null,
-    "matched_to_ais": true,
+    "matched_to_ais": false,
     "explanation": {
       "method": "SAR detection attributes (no AIS track or identity; not SHAP-explainable)",
       "drivers": [
-        "inside MPA: Galapagos Marine Reserve",
-        "broadcasting AIS: GALAXY DIVER II, flag ECU",
-        "gear type: FISHING",
-        "satellite detections in window: 1"
+        "inside MPA: Galapagos Marine Reserve (within Galapagos EEZ (Ecuador))",
+        "not broadcasting AIS (dark vessel)"
       ]
     },
     "caveats": [
@@ -2412,59 +3550,22 @@
       "length_m and fishing_score are GFW model estimates from imagery, not ground truth.",
       "MPA boundary may be approximate; verify against official WDPA limits.",
       "An inspection lead, not courtroom evidence."
-    ]
+    ],
+    "eez_name": "Galapagos EEZ (Ecuador)",
+    "eez_sovereign": "Ecuador",
+    "eez_iso_sov": "ECU",
+    "eez_foreign": null
   },
   {
     "type": "dark_vessel_sar",
-    "incident_id": "sar__great_barrier_reef_marine_park_0012",
-    "mpa_name": "Great Barrier Reef Marine Park",
-    "wdpa_id": "2628_5",
-    "mpa_iucn_cat": "VI",
-    "mpa_no_take": "False",
-    "mpa_version": "WDPA/WD-OECM Jun2026",
-    "severity": "low",
-    "severity_reason": "multi-use protected area",
-    "vessel_id": "SHOHAKU",
-    "gear": "SAR \u00b7 DRIFTING_LONGLINES",
-    "flag": "JPN",
-    "time_start_utc": "2024-02-11T19:29:20Z",
-    "time_end_utc": "2024-02-11T19:29:20Z",
-    "duration_hours": 0.0,
-    "n_positions": 1,
-    "n_fishing_positions": 1,
-    "mean_fishing_proba": null,
-    "max_fishing_proba": null,
-    "centroid_lat": -21.2,
-    "centroid_lon": 149.42999267578125,
-    "length_m": null,
-    "matched_to_ais": true,
-    "explanation": {
-      "method": "SAR detection attributes (no AIS track or identity; not SHAP-explainable)",
-      "drivers": [
-        "inside MPA: Great Barrier Reef Marine Park",
-        "broadcasting AIS: SHOHAKU, flag JPN",
-        "gear type: DRIFTING_LONGLINES",
-        "satellite detections in window: 1"
-      ]
-    },
-    "caveats": [
-      "Dark vessel: detected by satellite SAR but not broadcasting AIS.",
-      "Not SHAP-explainable -- a SAR detection has no movement track to attribute.",
-      "length_m and fishing_score are GFW model estimates from imagery, not ground truth.",
-      "MPA boundary may be approximate; verify against official WDPA limits.",
-      "An inspection lead, not courtroom evidence."
-    ]
-  },
-  {
-    "type": "dark_vessel_sar",
-    "incident_id": "sar__galapagos_marine_reserve_0012",
+    "incident_id": "sar__galapagos_marine_reserve_0017",
     "mpa_name": "Galapagos Marine Reserve",
     "wdpa_id": "11753",
     "mpa_iucn_cat": "V",
     "mpa_no_take": "False",
     "mpa_version": "WDPA/WD-OECM Jun2026",
-    "severity": "low",
-    "severity_reason": "multi-use protected area",
+    "severity": "high",
+    "severity_reason": "dark vessel inside MPA",
     "vessel_id": "(dark -- no AIS identity)",
     "gear": "SAR (dark)",
     "flag": null,
@@ -2482,9 +3583,8 @@
     "explanation": {
       "method": "SAR detection attributes (no AIS track or identity; not SHAP-explainable)",
       "drivers": [
-        "inside MPA: Galapagos Marine Reserve",
-        "not broadcasting AIS (dark vessel)",
-        "satellite detections in window: 1"
+        "inside MPA: Galapagos Marine Reserve (within Galapagos EEZ (Ecuador))",
+        "not broadcasting AIS (dark vessel)"
       ]
     },
     "caveats": [
@@ -2493,785 +3593,10 @@
       "length_m and fishing_score are GFW model estimates from imagery, not ground truth.",
       "MPA boundary may be approximate; verify against official WDPA limits.",
       "An inspection lead, not courtroom evidence."
-    ]
-  },
-  {
-    "type": "dark_vessel_sar",
-    "incident_id": "sar__great_barrier_reef_marine_park_0013",
-    "mpa_name": "Great Barrier Reef Marine Park",
-    "wdpa_id": "2628_5",
-    "mpa_iucn_cat": "VI",
-    "mpa_no_take": "False",
-    "mpa_version": "WDPA/WD-OECM Jun2026",
-    "severity": "low",
-    "severity_reason": "multi-use protected area",
-    "vessel_id": "XANADU I",
-    "gear": "SAR \u00b7 TRAWLERS",
-    "flag": "AUS",
-    "time_start_utc": "2024-02-14T19:52:34Z",
-    "time_end_utc": "2024-02-14T19:52:34Z",
-    "duration_hours": 0.0,
-    "n_positions": 1,
-    "n_fishing_positions": 1,
-    "mean_fishing_proba": null,
-    "max_fishing_proba": null,
-    "centroid_lat": -16.88,
-    "centroid_lon": 145.9600067138672,
-    "length_m": null,
-    "matched_to_ais": true,
-    "explanation": {
-      "method": "SAR detection attributes (no AIS track or identity; not SHAP-explainable)",
-      "drivers": [
-        "inside MPA: Great Barrier Reef Marine Park",
-        "broadcasting AIS: XANADU I, flag AUS",
-        "gear type: TRAWLERS",
-        "satellite detections in window: 1"
-      ]
-    },
-    "caveats": [
-      "Dark vessel: detected by satellite SAR but not broadcasting AIS.",
-      "Not SHAP-explainable -- a SAR detection has no movement track to attribute.",
-      "length_m and fishing_score are GFW model estimates from imagery, not ground truth.",
-      "MPA boundary may be approximate; verify against official WDPA limits.",
-      "An inspection lead, not courtroom evidence."
-    ]
-  },
-  {
-    "type": "dark_vessel_sar",
-    "incident_id": "sar__great_barrier_reef_marine_park_0014",
-    "mpa_name": "Great Barrier Reef Marine Park",
-    "wdpa_id": "2628_5",
-    "mpa_iucn_cat": "VI",
-    "mpa_no_take": "False",
-    "mpa_version": "WDPA/WD-OECM Jun2026",
-    "severity": "low",
-    "severity_reason": "multi-use protected area",
-    "vessel_id": "SHOMAC",
-    "gear": "SAR \u00b7 TRAWLERS",
-    "flag": "AUS",
-    "time_start_utc": "2024-02-23T19:29:20Z",
-    "time_end_utc": "2024-02-23T19:29:20Z",
-    "duration_hours": 0.0,
-    "n_positions": 1,
-    "n_fishing_positions": 1,
-    "mean_fishing_proba": null,
-    "max_fishing_proba": null,
-    "centroid_lat": -22.08,
-    "centroid_lon": 150.63999938964844,
-    "length_m": null,
-    "matched_to_ais": true,
-    "explanation": {
-      "method": "SAR detection attributes (no AIS track or identity; not SHAP-explainable)",
-      "drivers": [
-        "inside MPA: Great Barrier Reef Marine Park",
-        "broadcasting AIS: SHOMAC, flag AUS",
-        "gear type: TRAWLERS",
-        "satellite detections in window: 1"
-      ]
-    },
-    "caveats": [
-      "Dark vessel: detected by satellite SAR but not broadcasting AIS.",
-      "Not SHAP-explainable -- a SAR detection has no movement track to attribute.",
-      "length_m and fishing_score are GFW model estimates from imagery, not ground truth.",
-      "MPA boundary may be approximate; verify against official WDPA limits.",
-      "An inspection lead, not courtroom evidence."
-    ]
-  },
-  {
-    "type": "dark_vessel_sar",
-    "incident_id": "sar__great_barrier_reef_marine_park_0015",
-    "mpa_name": "Great Barrier Reef Marine Park",
-    "wdpa_id": "2628_2",
-    "mpa_iucn_cat": "II",
-    "mpa_no_take": "True",
-    "mpa_version": "WDPA/WD-OECM Jun2026",
-    "severity": "high",
-    "severity_reason": "no-take / national-park protection",
-    "vessel_id": "SHOMAC",
-    "gear": "SAR \u00b7 TRAWLERS",
-    "flag": "AUS",
-    "time_start_utc": "2024-02-23T19:29:20Z",
-    "time_end_utc": "2024-02-23T19:29:20Z",
-    "duration_hours": 0.0,
-    "n_positions": 1,
-    "n_fishing_positions": 1,
-    "mean_fishing_proba": null,
-    "max_fishing_proba": null,
-    "centroid_lat": -15.2,
-    "centroid_lon": 145.41000366210938,
-    "length_m": null,
-    "matched_to_ais": true,
-    "explanation": {
-      "method": "SAR detection attributes (no AIS track or identity; not SHAP-explainable)",
-      "drivers": [
-        "inside MPA: Great Barrier Reef Marine Park",
-        "broadcasting AIS: SHOMAC, flag AUS",
-        "gear type: TRAWLERS",
-        "satellite detections in window: 1"
-      ]
-    },
-    "caveats": [
-      "Dark vessel: detected by satellite SAR but not broadcasting AIS.",
-      "Not SHAP-explainable -- a SAR detection has no movement track to attribute.",
-      "length_m and fishing_score are GFW model estimates from imagery, not ground truth.",
-      "MPA boundary may be approximate; verify against official WDPA limits.",
-      "An inspection lead, not courtroom evidence."
-    ]
-  },
-  {
-    "type": "dark_vessel_sar",
-    "incident_id": "sar__great_barrier_reef_marine_park_0016",
-    "mpa_name": "Great Barrier Reef Marine Park",
-    "wdpa_id": "2628_5",
-    "mpa_iucn_cat": "VI",
-    "mpa_no_take": "False",
-    "mpa_version": "WDPA/WD-OECM Jun2026",
-    "severity": "low",
-    "severity_reason": "multi-use protected area",
-    "vessel_id": "LADY THERESA",
-    "gear": "SAR \u00b7 FISHING",
-    "flag": "AUS",
-    "time_start_utc": "2024-03-01T19:21:22Z",
-    "time_end_utc": "2024-03-01T19:21:22Z",
-    "duration_hours": 0.0,
-    "n_positions": 1,
-    "n_fishing_positions": 1,
-    "mean_fishing_proba": null,
-    "max_fishing_proba": null,
-    "centroid_lat": -22.62,
-    "centroid_lon": 153.35000610351562,
-    "length_m": null,
-    "matched_to_ais": true,
-    "explanation": {
-      "method": "SAR detection attributes (no AIS track or identity; not SHAP-explainable)",
-      "drivers": [
-        "inside MPA: Great Barrier Reef Marine Park",
-        "broadcasting AIS: LADY THERESA, flag AUS",
-        "gear type: FISHING",
-        "satellite detections in window: 1"
-      ]
-    },
-    "caveats": [
-      "Dark vessel: detected by satellite SAR but not broadcasting AIS.",
-      "Not SHAP-explainable -- a SAR detection has no movement track to attribute.",
-      "length_m and fishing_score are GFW model estimates from imagery, not ground truth.",
-      "MPA boundary may be approximate; verify against official WDPA limits.",
-      "An inspection lead, not courtroom evidence."
-    ]
-  },
-  {
-    "type": "dark_vessel_sar",
-    "incident_id": "sar__great_barrier_reef_marine_park_0017",
-    "mpa_name": "Great Barrier Reef Marine Park",
-    "wdpa_id": "2628_5",
-    "mpa_iucn_cat": "VI",
-    "mpa_no_take": "False",
-    "mpa_version": "WDPA/WD-OECM Jun2026",
-    "severity": "low",
-    "severity_reason": "multi-use protected area",
-    "vessel_id": "LADY THERESA",
-    "gear": "SAR \u00b7 FISHING",
-    "flag": "AUS",
-    "time_start_utc": "2024-03-01T19:21:22Z",
-    "time_end_utc": "2024-03-01T19:21:22Z",
-    "duration_hours": 0.0,
-    "n_positions": 1,
-    "n_fishing_positions": 1,
-    "mean_fishing_proba": null,
-    "max_fishing_proba": null,
-    "centroid_lat": -22.6,
-    "centroid_lon": 152.9199981689453,
-    "length_m": null,
-    "matched_to_ais": true,
-    "explanation": {
-      "method": "SAR detection attributes (no AIS track or identity; not SHAP-explainable)",
-      "drivers": [
-        "inside MPA: Great Barrier Reef Marine Park",
-        "broadcasting AIS: LADY THERESA, flag AUS",
-        "gear type: FISHING",
-        "satellite detections in window: 1"
-      ]
-    },
-    "caveats": [
-      "Dark vessel: detected by satellite SAR but not broadcasting AIS.",
-      "Not SHAP-explainable -- a SAR detection has no movement track to attribute.",
-      "length_m and fishing_score are GFW model estimates from imagery, not ground truth.",
-      "MPA boundary may be approximate; verify against official WDPA limits.",
-      "An inspection lead, not courtroom evidence."
-    ]
-  },
-  {
-    "type": "dark_vessel_sar",
-    "incident_id": "sar__great_barrier_reef_marine_park_0018",
-    "mpa_name": "Great Barrier Reef Marine Park",
-    "wdpa_id": "2628_5",
-    "mpa_iucn_cat": "VI",
-    "mpa_no_take": "False",
-    "mpa_version": "WDPA/WD-OECM Jun2026",
-    "severity": "low",
-    "severity_reason": "multi-use protected area",
-    "vessel_id": "LADY THERESA",
-    "gear": "SAR \u00b7 FISHING",
-    "flag": "AUS",
-    "time_start_utc": "2024-03-01T19:21:22Z",
-    "time_end_utc": "2024-03-01T19:21:22Z",
-    "duration_hours": 0.0,
-    "n_positions": 1,
-    "n_fishing_positions": 1,
-    "mean_fishing_proba": null,
-    "max_fishing_proba": null,
-    "centroid_lat": -22.55,
-    "centroid_lon": 153.00999450683594,
-    "length_m": null,
-    "matched_to_ais": true,
-    "explanation": {
-      "method": "SAR detection attributes (no AIS track or identity; not SHAP-explainable)",
-      "drivers": [
-        "inside MPA: Great Barrier Reef Marine Park",
-        "broadcasting AIS: LADY THERESA, flag AUS",
-        "gear type: FISHING",
-        "satellite detections in window: 1"
-      ]
-    },
-    "caveats": [
-      "Dark vessel: detected by satellite SAR but not broadcasting AIS.",
-      "Not SHAP-explainable -- a SAR detection has no movement track to attribute.",
-      "length_m and fishing_score are GFW model estimates from imagery, not ground truth.",
-      "MPA boundary may be approximate; verify against official WDPA limits.",
-      "An inspection lead, not courtroom evidence."
-    ]
-  },
-  {
-    "type": "dark_vessel_sar",
-    "incident_id": "sar__great_barrier_reef_marine_park_0019",
-    "mpa_name": "Great Barrier Reef Marine Park",
-    "wdpa_id": "2628_5",
-    "mpa_iucn_cat": "VI",
-    "mpa_no_take": "False",
-    "mpa_version": "WDPA/WD-OECM Jun2026",
-    "severity": "low",
-    "severity_reason": "multi-use protected area",
-    "vessel_id": "JALAURA",
-    "gear": "SAR \u00b7 TRAWLERS",
-    "flag": "AUS",
-    "time_start_utc": "2024-03-02T19:59:49Z",
-    "time_end_utc": "2024-03-02T19:59:49Z",
-    "duration_hours": 0.0,
-    "n_positions": 1,
-    "n_fishing_positions": 1,
-    "mean_fishing_proba": null,
-    "max_fishing_proba": null,
-    "centroid_lat": -12.92,
-    "centroid_lon": 143.60000610351562,
-    "length_m": null,
-    "matched_to_ais": true,
-    "explanation": {
-      "method": "SAR detection attributes (no AIS track or identity; not SHAP-explainable)",
-      "drivers": [
-        "inside MPA: Great Barrier Reef Marine Park",
-        "broadcasting AIS: JALAURA, flag AUS",
-        "gear type: TRAWLERS",
-        "satellite detections in window: 1"
-      ]
-    },
-    "caveats": [
-      "Dark vessel: detected by satellite SAR but not broadcasting AIS.",
-      "Not SHAP-explainable -- a SAR detection has no movement track to attribute.",
-      "length_m and fishing_score are GFW model estimates from imagery, not ground truth.",
-      "MPA boundary may be approximate; verify against official WDPA limits.",
-      "An inspection lead, not courtroom evidence."
-    ]
-  },
-  {
-    "type": "dark_vessel_sar",
-    "incident_id": "sar__great_barrier_reef_marine_park_0020",
-    "mpa_name": "Great Barrier Reef Marine Park",
-    "wdpa_id": "2628_5",
-    "mpa_iucn_cat": "VI",
-    "mpa_no_take": "False",
-    "mpa_version": "WDPA/WD-OECM Jun2026",
-    "severity": "low",
-    "severity_reason": "multi-use protected area",
-    "vessel_id": "OCEAN BLUE",
-    "gear": "SAR \u00b7 TRAWLERS",
-    "flag": "AUS",
-    "time_start_utc": "2024-03-02T19:59:49Z",
-    "time_end_utc": "2024-03-02T19:59:49Z",
-    "duration_hours": 0.0,
-    "n_positions": 1,
-    "n_fishing_positions": 1,
-    "mean_fishing_proba": null,
-    "max_fishing_proba": null,
-    "centroid_lat": -16.37,
-    "centroid_lon": 145.52999877929688,
-    "length_m": null,
-    "matched_to_ais": true,
-    "explanation": {
-      "method": "SAR detection attributes (no AIS track or identity; not SHAP-explainable)",
-      "drivers": [
-        "inside MPA: Great Barrier Reef Marine Park",
-        "broadcasting AIS: OCEAN BLUE, flag AUS",
-        "gear type: TRAWLERS",
-        "satellite detections in window: 1"
-      ]
-    },
-    "caveats": [
-      "Dark vessel: detected by satellite SAR but not broadcasting AIS.",
-      "Not SHAP-explainable -- a SAR detection has no movement track to attribute.",
-      "length_m and fishing_score are GFW model estimates from imagery, not ground truth.",
-      "MPA boundary may be approximate; verify against official WDPA limits.",
-      "An inspection lead, not courtroom evidence."
-    ]
-  },
-  {
-    "type": "dark_vessel_sar",
-    "incident_id": "sar__great_barrier_reef_marine_park_0021",
-    "mpa_name": "Great Barrier Reef Marine Park",
-    "wdpa_id": "2628_5",
-    "mpa_iucn_cat": "VI",
-    "mpa_no_take": "False",
-    "mpa_version": "WDPA/WD-OECM Jun2026",
-    "severity": "low",
-    "severity_reason": "multi-use protected area",
-    "vessel_id": "GULF ROSE",
-    "gear": "SAR \u00b7 TRAWLERS",
-    "flag": "AUS",
-    "time_start_utc": "2024-03-02T19:59:49Z",
-    "time_end_utc": "2024-03-02T19:59:49Z",
-    "duration_hours": 0.0,
-    "n_positions": 1,
-    "n_fishing_positions": 1,
-    "mean_fishing_proba": null,
-    "max_fishing_proba": null,
-    "centroid_lat": -16.35,
-    "centroid_lon": 145.49000549316406,
-    "length_m": null,
-    "matched_to_ais": true,
-    "explanation": {
-      "method": "SAR detection attributes (no AIS track or identity; not SHAP-explainable)",
-      "drivers": [
-        "inside MPA: Great Barrier Reef Marine Park",
-        "broadcasting AIS: GULF ROSE, flag AUS",
-        "gear type: TRAWLERS",
-        "satellite detections in window: 1"
-      ]
-    },
-    "caveats": [
-      "Dark vessel: detected by satellite SAR but not broadcasting AIS.",
-      "Not SHAP-explainable -- a SAR detection has no movement track to attribute.",
-      "length_m and fishing_score are GFW model estimates from imagery, not ground truth.",
-      "MPA boundary may be approximate; verify against official WDPA limits.",
-      "An inspection lead, not courtroom evidence."
-    ]
-  },
-  {
-    "type": "dark_vessel_sar",
-    "incident_id": "sar__great_barrier_reef_marine_park_0022",
-    "mpa_name": "Great Barrier Reef Marine Park",
-    "wdpa_id": "2628_5",
-    "mpa_iucn_cat": "VI",
-    "mpa_no_take": "False",
-    "mpa_version": "WDPA/WD-OECM Jun2026",
-    "severity": "low",
-    "severity_reason": "multi-use protected area",
-    "vessel_id": "MUNDORA",
-    "gear": "SAR \u00b7 TRAWLERS",
-    "flag": "AUS",
-    "time_start_utc": "2024-03-02T20:00:14Z",
-    "time_end_utc": "2024-03-02T20:00:14Z",
-    "duration_hours": 0.0,
-    "n_positions": 1,
-    "n_fishing_positions": 1,
-    "mean_fishing_proba": null,
-    "max_fishing_proba": null,
-    "centroid_lat": -14.23,
-    "centroid_lon": 143.97999572753906,
-    "length_m": null,
-    "matched_to_ais": true,
-    "explanation": {
-      "method": "SAR detection attributes (no AIS track or identity; not SHAP-explainable)",
-      "drivers": [
-        "inside MPA: Great Barrier Reef Marine Park",
-        "broadcasting AIS: MUNDORA, flag AUS",
-        "gear type: TRAWLERS",
-        "satellite detections in window: 1"
-      ]
-    },
-    "caveats": [
-      "Dark vessel: detected by satellite SAR but not broadcasting AIS.",
-      "Not SHAP-explainable -- a SAR detection has no movement track to attribute.",
-      "length_m and fishing_score are GFW model estimates from imagery, not ground truth.",
-      "MPA boundary may be approximate; verify against official WDPA limits.",
-      "An inspection lead, not courtroom evidence."
-    ]
-  },
-  {
-    "type": "dark_vessel_sar",
-    "incident_id": "sar__great_barrier_reef_marine_park_0023",
-    "mpa_name": "Great Barrier Reef Marine Park",
-    "wdpa_id": "2628_5",
-    "mpa_iucn_cat": "VI",
-    "mpa_no_take": "False",
-    "mpa_version": "WDPA/WD-OECM Jun2026",
-    "severity": "low",
-    "severity_reason": "multi-use protected area",
-    "vessel_id": "MUNDORA",
-    "gear": "SAR \u00b7 TRAWLERS",
-    "flag": "AUS",
-    "time_start_utc": "2024-03-02T20:00:14Z",
-    "time_end_utc": "2024-03-02T20:00:14Z",
-    "duration_hours": 0.0,
-    "n_positions": 1,
-    "n_fishing_positions": 1,
-    "mean_fishing_proba": null,
-    "max_fishing_proba": null,
-    "centroid_lat": -14.87,
-    "centroid_lon": 145.32000732421875,
-    "length_m": null,
-    "matched_to_ais": true,
-    "explanation": {
-      "method": "SAR detection attributes (no AIS track or identity; not SHAP-explainable)",
-      "drivers": [
-        "inside MPA: Great Barrier Reef Marine Park",
-        "broadcasting AIS: MUNDORA, flag AUS",
-        "gear type: TRAWLERS",
-        "satellite detections in window: 1"
-      ]
-    },
-    "caveats": [
-      "Dark vessel: detected by satellite SAR but not broadcasting AIS.",
-      "Not SHAP-explainable -- a SAR detection has no movement track to attribute.",
-      "length_m and fishing_score are GFW model estimates from imagery, not ground truth.",
-      "MPA boundary may be approximate; verify against official WDPA limits.",
-      "An inspection lead, not courtroom evidence."
-    ]
-  },
-  {
-    "type": "dark_vessel_sar",
-    "incident_id": "sar__great_barrier_reef_marine_park_0024",
-    "mpa_name": "Great Barrier Reef Marine Park",
-    "wdpa_id": "2628_5",
-    "mpa_iucn_cat": "VI",
-    "mpa_no_take": "False",
-    "mpa_version": "WDPA/WD-OECM Jun2026",
-    "severity": "low",
-    "severity_reason": "multi-use protected area",
-    "vessel_id": "MUNDORA",
-    "gear": "SAR \u00b7 TRAWLERS",
-    "flag": "AUS",
-    "time_start_utc": "2024-03-02T20:00:14Z",
-    "time_end_utc": "2024-03-02T20:00:14Z",
-    "duration_hours": 0.0,
-    "n_positions": 1,
-    "n_fishing_positions": 1,
-    "mean_fishing_proba": null,
-    "max_fishing_proba": null,
-    "centroid_lat": -13.75,
-    "centroid_lon": 143.77999877929688,
-    "length_m": null,
-    "matched_to_ais": true,
-    "explanation": {
-      "method": "SAR detection attributes (no AIS track or identity; not SHAP-explainable)",
-      "drivers": [
-        "inside MPA: Great Barrier Reef Marine Park",
-        "broadcasting AIS: MUNDORA, flag AUS",
-        "gear type: TRAWLERS",
-        "satellite detections in window: 1"
-      ]
-    },
-    "caveats": [
-      "Dark vessel: detected by satellite SAR but not broadcasting AIS.",
-      "Not SHAP-explainable -- a SAR detection has no movement track to attribute.",
-      "length_m and fishing_score are GFW model estimates from imagery, not ground truth.",
-      "MPA boundary may be approximate; verify against official WDPA limits.",
-      "An inspection lead, not courtroom evidence."
-    ]
-  },
-  {
-    "type": "dark_vessel_sar",
-    "incident_id": "sar__great_barrier_reef_marine_park_0025",
-    "mpa_name": "Great Barrier Reef Marine Park",
-    "wdpa_id": "2628_5",
-    "mpa_iucn_cat": "VI",
-    "mpa_no_take": "False",
-    "mpa_version": "WDPA/WD-OECM Jun2026",
-    "severity": "low",
-    "severity_reason": "multi-use protected area",
-    "vessel_id": "IRON HECTOR",
-    "gear": "SAR \u00b7 TRAWLERS",
-    "flag": "AUS",
-    "time_start_utc": "2024-03-04T19:45:06Z",
-    "time_end_utc": "2024-03-04T19:45:06Z",
-    "duration_hours": 0.0,
-    "n_positions": 1,
-    "n_fishing_positions": 1,
-    "mean_fishing_proba": null,
-    "max_fishing_proba": null,
-    "centroid_lat": -18.8,
-    "centroid_lon": 147.25,
-    "length_m": null,
-    "matched_to_ais": true,
-    "explanation": {
-      "method": "SAR detection attributes (no AIS track or identity; not SHAP-explainable)",
-      "drivers": [
-        "inside MPA: Great Barrier Reef Marine Park",
-        "broadcasting AIS: IRON HECTOR, flag AUS",
-        "gear type: TRAWLERS",
-        "satellite detections in window: 1"
-      ]
-    },
-    "caveats": [
-      "Dark vessel: detected by satellite SAR but not broadcasting AIS.",
-      "Not SHAP-explainable -- a SAR detection has no movement track to attribute.",
-      "length_m and fishing_score are GFW model estimates from imagery, not ground truth.",
-      "MPA boundary may be approximate; verify against official WDPA limits.",
-      "An inspection lead, not courtroom evidence."
-    ]
-  },
-  {
-    "type": "dark_vessel_sar",
-    "incident_id": "sar__great_barrier_reef_marine_park_0026",
-    "mpa_name": "Great Barrier Reef Marine Park",
-    "wdpa_id": "2628_5",
-    "mpa_iucn_cat": "VI",
-    "mpa_no_take": "False",
-    "mpa_version": "WDPA/WD-OECM Jun2026",
-    "severity": "low",
-    "severity_reason": "multi-use protected area",
-    "vessel_id": "FV AVENGER 1",
-    "gear": "SAR \u00b7 TRAWLERS",
-    "flag": "AUS",
-    "time_start_utc": "2024-03-04T19:45:06Z",
-    "time_end_utc": "2024-03-04T19:45:06Z",
-    "duration_hours": 0.0,
-    "n_positions": 1,
-    "n_fishing_positions": 1,
-    "mean_fishing_proba": null,
-    "max_fishing_proba": null,
-    "centroid_lat": -18.57,
-    "centroid_lon": 146.4199981689453,
-    "length_m": null,
-    "matched_to_ais": true,
-    "explanation": {
-      "method": "SAR detection attributes (no AIS track or identity; not SHAP-explainable)",
-      "drivers": [
-        "inside MPA: Great Barrier Reef Marine Park",
-        "broadcasting AIS: FV AVENGER 1, flag AUS",
-        "gear type: TRAWLERS",
-        "satellite detections in window: 1"
-      ]
-    },
-    "caveats": [
-      "Dark vessel: detected by satellite SAR but not broadcasting AIS.",
-      "Not SHAP-explainable -- a SAR detection has no movement track to attribute.",
-      "length_m and fishing_score are GFW model estimates from imagery, not ground truth.",
-      "MPA boundary may be approximate; verify against official WDPA limits.",
-      "An inspection lead, not courtroom evidence."
-    ]
-  },
-  {
-    "type": "dark_vessel_sar",
-    "incident_id": "sar__great_barrier_reef_marine_park_0027",
-    "mpa_name": "Great Barrier Reef Marine Park",
-    "wdpa_id": "2628_5",
-    "mpa_iucn_cat": "VI",
-    "mpa_no_take": "False",
-    "mpa_version": "WDPA/WD-OECM Jun2026",
-    "severity": "low",
-    "severity_reason": "multi-use protected area",
-    "vessel_id": "FV AVENGER 1",
-    "gear": "SAR \u00b7 TRAWLERS",
-    "flag": "AUS",
-    "time_start_utc": "2024-03-04T19:45:06Z",
-    "time_end_utc": "2024-03-04T19:45:06Z",
-    "duration_hours": 0.0,
-    "n_positions": 1,
-    "n_fishing_positions": 1,
-    "mean_fishing_proba": null,
-    "max_fishing_proba": null,
-    "centroid_lat": -19.06,
-    "centroid_lon": 147.5,
-    "length_m": null,
-    "matched_to_ais": true,
-    "explanation": {
-      "method": "SAR detection attributes (no AIS track or identity; not SHAP-explainable)",
-      "drivers": [
-        "inside MPA: Great Barrier Reef Marine Park",
-        "broadcasting AIS: FV AVENGER 1, flag AUS",
-        "gear type: TRAWLERS",
-        "satellite detections in window: 1"
-      ]
-    },
-    "caveats": [
-      "Dark vessel: detected by satellite SAR but not broadcasting AIS.",
-      "Not SHAP-explainable -- a SAR detection has no movement track to attribute.",
-      "length_m and fishing_score are GFW model estimates from imagery, not ground truth.",
-      "MPA boundary may be approximate; verify against official WDPA limits.",
-      "An inspection lead, not courtroom evidence."
-    ]
-  },
-  {
-    "type": "dark_vessel_sar",
-    "incident_id": "sar__great_barrier_reef_marine_park_0028",
-    "mpa_name": "Great Barrier Reef Marine Park",
-    "wdpa_id": "2628_5",
-    "mpa_iucn_cat": "VI",
-    "mpa_no_take": "False",
-    "mpa_version": "WDPA/WD-OECM Jun2026",
-    "severity": "low",
-    "severity_reason": "multi-use protected area",
-    "vessel_id": "LADY MORETON",
-    "gear": "SAR \u00b7 TRAWLERS",
-    "flag": "AUS",
-    "time_start_utc": "2024-03-09T19:52:09Z",
-    "time_end_utc": "2024-03-09T19:52:09Z",
-    "duration_hours": 0.0,
-    "n_positions": 1,
-    "n_fishing_positions": 1,
-    "mean_fishing_proba": null,
-    "max_fishing_proba": null,
-    "centroid_lat": -15.19,
-    "centroid_lon": 145.3800048828125,
-    "length_m": null,
-    "matched_to_ais": true,
-    "explanation": {
-      "method": "SAR detection attributes (no AIS track or identity; not SHAP-explainable)",
-      "drivers": [
-        "inside MPA: Great Barrier Reef Marine Park",
-        "broadcasting AIS: LADY MORETON, flag AUS",
-        "gear type: TRAWLERS",
-        "satellite detections in window: 1"
-      ]
-    },
-    "caveats": [
-      "Dark vessel: detected by satellite SAR but not broadcasting AIS.",
-      "Not SHAP-explainable -- a SAR detection has no movement track to attribute.",
-      "length_m and fishing_score are GFW model estimates from imagery, not ground truth.",
-      "MPA boundary may be approximate; verify against official WDPA limits.",
-      "An inspection lead, not courtroom evidence."
-    ]
-  },
-  {
-    "type": "dark_vessel_sar",
-    "incident_id": "sar__great_barrier_reef_marine_park_0029",
-    "mpa_name": "Great Barrier Reef Marine Park",
-    "wdpa_id": "2628_5",
-    "mpa_iucn_cat": "VI",
-    "mpa_no_take": "False",
-    "mpa_version": "WDPA/WD-OECM Jun2026",
-    "severity": "low",
-    "severity_reason": "multi-use protected area",
-    "vessel_id": "LADY MORETON",
-    "gear": "SAR \u00b7 TRAWLERS",
-    "flag": "AUS",
-    "time_start_utc": "2024-03-09T19:52:09Z",
-    "time_end_utc": "2024-03-09T19:52:09Z",
-    "duration_hours": 0.0,
-    "n_positions": 1,
-    "n_fishing_positions": 1,
-    "mean_fishing_proba": null,
-    "max_fishing_proba": null,
-    "centroid_lat": -15.38,
-    "centroid_lon": 145.3300018310547,
-    "length_m": null,
-    "matched_to_ais": true,
-    "explanation": {
-      "method": "SAR detection attributes (no AIS track or identity; not SHAP-explainable)",
-      "drivers": [
-        "inside MPA: Great Barrier Reef Marine Park",
-        "broadcasting AIS: LADY MORETON, flag AUS",
-        "gear type: TRAWLERS",
-        "satellite detections in window: 1"
-      ]
-    },
-    "caveats": [
-      "Dark vessel: detected by satellite SAR but not broadcasting AIS.",
-      "Not SHAP-explainable -- a SAR detection has no movement track to attribute.",
-      "length_m and fishing_score are GFW model estimates from imagery, not ground truth.",
-      "MPA boundary may be approximate; verify against official WDPA limits.",
-      "An inspection lead, not courtroom evidence."
-    ]
-  },
-  {
-    "type": "dark_vessel_sar",
-    "incident_id": "sar__great_barrier_reef_marine_park_0030",
-    "mpa_name": "Great Barrier Reef Marine Park",
-    "wdpa_id": "2628_2",
-    "mpa_iucn_cat": "II",
-    "mpa_no_take": "True",
-    "mpa_version": "WDPA/WD-OECM Jun2026",
-    "severity": "high",
-    "severity_reason": "no-take / national-park protection",
-    "vessel_id": "LADY MORETON",
-    "gear": "SAR \u00b7 TRAWLERS",
-    "flag": "AUS",
-    "time_start_utc": "2024-03-09T19:52:09Z",
-    "time_end_utc": "2024-03-09T19:52:09Z",
-    "duration_hours": 0.0,
-    "n_positions": 1,
-    "n_fishing_positions": 1,
-    "mean_fishing_proba": null,
-    "max_fishing_proba": null,
-    "centroid_lat": -12.99,
-    "centroid_lon": 143.55999755859375,
-    "length_m": null,
-    "matched_to_ais": true,
-    "explanation": {
-      "method": "SAR detection attributes (no AIS track or identity; not SHAP-explainable)",
-      "drivers": [
-        "inside MPA: Great Barrier Reef Marine Park",
-        "broadcasting AIS: LADY MORETON, flag AUS",
-        "gear type: TRAWLERS",
-        "satellite detections in window: 1"
-      ]
-    },
-    "caveats": [
-      "Dark vessel: detected by satellite SAR but not broadcasting AIS.",
-      "Not SHAP-explainable -- a SAR detection has no movement track to attribute.",
-      "length_m and fishing_score are GFW model estimates from imagery, not ground truth.",
-      "MPA boundary may be approximate; verify against official WDPA limits.",
-      "An inspection lead, not courtroom evidence."
-    ]
-  },
-  {
-    "type": "dark_vessel_sar",
-    "incident_id": "sar__great_barrier_reef_marine_park_0031",
-    "mpa_name": "Great Barrier Reef Marine Park",
-    "wdpa_id": "2628_5",
-    "mpa_iucn_cat": "VI",
-    "mpa_no_take": "False",
-    "mpa_version": "WDPA/WD-OECM Jun2026",
-    "severity": "low",
-    "severity_reason": "multi-use protected area",
-    "vessel_id": "NOLA R",
-    "gear": "SAR \u00b7 TRAWLERS",
-    "flag": "AUS",
-    "time_start_utc": "2024-03-21T19:52:09Z",
-    "time_end_utc": "2024-03-21T19:52:09Z",
-    "duration_hours": 0.0,
-    "n_positions": 1,
-    "n_fishing_positions": 1,
-    "mean_fishing_proba": null,
-    "max_fishing_proba": null,
-    "centroid_lat": -16.66,
-    "centroid_lon": 145.72000122070312,
-    "length_m": null,
-    "matched_to_ais": true,
-    "explanation": {
-      "method": "SAR detection attributes (no AIS track or identity; not SHAP-explainable)",
-      "drivers": [
-        "inside MPA: Great Barrier Reef Marine Park",
-        "broadcasting AIS: NOLA R, flag AUS",
-        "gear type: TRAWLERS",
-        "satellite detections in window: 1"
-      ]
-    },
-    "caveats": [
-      "Dark vessel: detected by satellite SAR but not broadcasting AIS.",
-      "Not SHAP-explainable -- a SAR detection has no movement track to attribute.",
-      "length_m and fishing_score are GFW model estimates from imagery, not ground truth.",
-      "MPA boundary may be approximate; verify against official WDPA limits.",
-      "An inspection lead, not courtroom evidence."
-    ]
+    ],
+    "eez_name": "Galapagos EEZ (Ecuador)",
+    "eez_sovereign": "Ecuador",
+    "eez_iso_sov": "ECU",
+    "eez_foreign": null
   }
 ]

@@ -227,6 +227,19 @@
       'Papahanaumokuakea Marine National Monument': { center: [-176.0, 25.5], zoom: 4.2 },
       'Rapa Nui Marine Protected Area': { center: [-109.4, -27.1], zoom: 5.3 },
     };
+    // Jump-to-EEZ (national jurisdiction). Keys match the eez.geojson names; the
+    // "(outside MPA)" dark-fleet zone labels map back to their parent EEZ here too.
+    const EEZ_VIEWS = {
+      'Galapagos EEZ (Ecuador)': { center: [-90.5, -0.5], zoom: 5 },
+      'Australia EEZ': { center: [134, -26], zoom: 3.1 },
+      'Phoenix Islands EEZ (Kiribati)': { center: [-172, -3.5], zoom: 4.8 },
+      'Hawaii EEZ (United States)': { center: [-168, 24], zoom: 3.4 },
+      'Easter Island EEZ (Chile)': { center: [-109.4, -27.1], zoom: 4.6 },
+    };
+    const flyToZone = (name) => {
+      const v = MPA_VIEWS[name] || EEZ_VIEWS[name] || EEZ_VIEWS[(name || '').replace(/ \(outside MPA\)$/, '')];
+      if (v) map.flyTo({ ...v, duration: 1500, essential: true });
+    };
 
     map.on('load', async () => {
       map.resize();
@@ -339,15 +352,16 @@
         ? `<div class="stat-sub">by severity</div>` + bySev.map(k =>
             `<div class="stat-row"><span><span class="sev sev-${k}">${k}</span></span><span>${sev[k]}</span></div>`).join('')
         : '';
-      const mpaHtml = Object.entries(s.by_mpa).map(([k, v]) =>
-        `<div class="stat-row"><span class="mpa-link" data-mpa="${k.replace(/"/g, '&quot;')}">${k}</span><span>${v}</span></div>`).join('');
+      const zones = s.by_eez && Object.keys(s.by_eez).length ? s.by_eez : s.by_mpa;
+      const zoneHtml = Object.entries(zones).map(([k, v]) =>
+        `<div class="stat-row"><span class="mpa-link" data-zone="${k.replace(/"/g, '&quot;')}">${k}</span><span>${v}</span></div>`).join('');
       document.getElementById('stats').innerHTML =
-        `<div class="stat-h">${s.total} records inside MPAs</div>
+        `<div class="stat-h">${s.total} records in monitored waters</div>
          <div class="stat-sub">by type</div>${rows(byType)}
          ${sevHtml}
-         <div class="stat-sub">by protected area</div>${mpaHtml}`;
+         <div class="stat-sub">by jurisdiction (EEZ)</div>${zoneHtml}`;
       document.querySelectorAll('#stats .mpa-link').forEach(el => {
-        el.onclick = () => { const v = MPA_VIEWS[el.dataset.mpa]; if (v) map.flyTo({ ...v, duration: 1500, essential: true }); };
+        el.onclick = () => flyToZone(el.dataset.zone);
       });
     }
 
@@ -431,6 +445,7 @@
           <div class="row"><span class="pill" style="background:${kindColor}">${kindLabel}</span> ${sevBit}</div>
           <div class="row"><strong>Vessel:</strong> ${esc(who)}${scoreBit}</div>
           ${idBits ? `<div class="row" style="color:var(--muted)">${esc(idBits)}</div>` : ''}
+          ${eezRow(p)}
           <div class="row"><strong>Gear / source:</strong> ${esc(p.gear || 'n/a')}</div>
           <div class="row"><strong>When (UTC):</strong> ${esc(p.when || 'n/a')}</div>
           ${whyBlock(p, isSar)}
@@ -474,6 +489,14 @@
       document.addEventListener('keydown', (e) => {
         if (e.key === 'Escape' && detail.style.display === 'block') closeDetail();
       });
+    }
+
+    function eezRow(p) {
+      if (!p.eez) return '';
+      const sov = p.eez_sovereign ? ` (${esc(p.eez_sovereign)})` : '';
+      const foreign = (p.eez_foreign === true || p.eez_foreign === 'true');
+      const badge = foreign ? ' <span class="sev sev-high" style="font-size:9.5px">FOREIGN</span>' : '';
+      return `<div class="row"><strong>EEZ:</strong> ${esc(p.eez)}${sov}${badge}</div>`;
     }
 
     function parseShap(s) {

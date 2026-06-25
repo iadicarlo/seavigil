@@ -1,20 +1,19 @@
 # Dark-vessel detection `sar__galapagos_marine_reserve_0005`
 
 - **MPA:** Galapagos Marine Reserve (WDPA 11753)
-- **Severity:** LOW (multi-use protected area)  ·  boundary WDPA/WD-OECM Jun2026
-- **Vessel:** NEMO II  ·  **source:** SAR · FISHING  ·  **flag:** 🇪🇨 ECU
-- **When (UTC):** 2024-01-06T00:27:22Z
-- **Length:** n/a  ·  **broadcasting AIS:** yes  ·  **GFW fishing-score:** n/a (Portal-only)
-- **Where:** -0.780, -89.530
+- **Severity:** HIGH (dark vessel inside MPA)  ·  boundary WDPA/WD-OECM Jun2026
+- **EEZ:** Galapagos EEZ (Ecuador) (Ecuador)
+- **Vessel:** (dark -- no AIS identity)  ·  **source:** SAR (dark)
+- **When (UTC):** 2024-01-02T11:42:31Z
+- **Length:** n/a  ·  **broadcasting AIS:** no (dark)  ·  **GFW fishing-score:** n/a (Portal-only)
+- **Where:** -0.470, -90.800
 
 ## Why this was flagged
 
 _SAR detection attributes (no AIS track or identity; not SHAP-explainable)._
 
-- inside MPA: Galapagos Marine Reserve
-- broadcasting AIS: NEMO II, flag ECU
-- gear type: FISHING
-- satellite detections in window: 1
+- inside MPA: Galapagos Marine Reserve (within Galapagos EEZ (Ecuador))
+- not broadcasting AIS (dark vessel)
 
 ## Caveats
 

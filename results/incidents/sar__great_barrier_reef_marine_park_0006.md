@@ -1,20 +1,19 @@
 # Dark-vessel detection `sar__great_barrier_reef_marine_park_0006`
 
-- **MPA:** Great Barrier Reef Marine Park (WDPA 2628_2)
-- **Severity:** HIGH (no-take / national-park protection)  ·  boundary WDPA/WD-OECM Jun2026
-- **Vessel:** ESBJORN  ·  **source:** SAR · DRIFTING_LONGLINES  ·  **flag:** 🇦🇺 AUS
-- **When (UTC):** 2024-01-08T19:13:30Z
-- **Length:** n/a  ·  **broadcasting AIS:** yes  ·  **GFW fishing-score:** n/a (Portal-only)
-- **Where:** -23.880, 153.530
+- **MPA:** Great Barrier Reef Marine Park (WDPA 2628_5)
+- **Severity:** HIGH (dark vessel inside MPA)  ·  boundary WDPA/WD-OECM Jun2026
+- **EEZ:** Australia EEZ (Australia)
+- **Vessel:** (dark -- no AIS identity)  ·  **source:** SAR (dark)
+- **When (UTC):** 2024-01-01T08:29:59Z
+- **Length:** n/a  ·  **broadcasting AIS:** no (dark)  ·  **GFW fishing-score:** n/a (Portal-only)
+- **Where:** -17.550, 146.860
 
 ## Why this was flagged
 
 _SAR detection attributes (no AIS track or identity; not SHAP-explainable)._
 
-- inside MPA: Great Barrier Reef Marine Park
-- broadcasting AIS: ESBJORN, flag AUS
-- gear type: DRIFTING_LONGLINES
-- satellite detections in window: 1
+- inside MPA: Great Barrier Reef Marine Park (within Australia EEZ)
+- not broadcasting AIS (dark vessel)
 
 ## Caveats
 

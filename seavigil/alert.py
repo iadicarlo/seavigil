@@ -27,7 +27,7 @@ import numpy as np
 import pandas as pd
 from sklearn.model_selection import GroupShuffleSplit
 
-from seavigil import data, dossier, features, incidents, model, sar
+from seavigil import data, dossier, features, incidents, jurisdiction, model, sar
 from seavigil.features import FEATURE_COLUMNS
 from seavigil.mpa import MPAIndex
 
@@ -152,6 +152,7 @@ def main() -> dict:
         print(f"[alert]   {len(dets)} SAR detections -> {n_sar} dark-vessel-in-MPA dossiers")
 
     print("[alert] 5/5 writing dossiers ...")
+    jurisdiction.enrich_jurisdiction(dossiers)  # tag each incident with its EEZ + foreign flag
     manifest = dossier.write_dossiers(dossiers, args.out)
 
     summary = {

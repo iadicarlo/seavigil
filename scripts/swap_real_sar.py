@@ -28,6 +28,7 @@ from pathlib import Path
 sys.path.insert(0, str(Path(__file__).resolve().parent.parent))
 
 from seavigil.dossier import write_dossiers  # noqa: E402
+from seavigil.jurisdiction import enrich_jurisdiction  # noqa: E402
 from seavigil.mpa import MPAIndex, grade_severity  # noqa: E402
 from seavigil.sar import _slug, build_sar_dossiers, load_sar_detections  # noqa: E402
 
@@ -37,8 +38,9 @@ INC_JSON = INC_DIR / "incidents.json"
 TRACKS = INC_DIR / "tracks.geojson"
 REAL_SAR = ROOT / "data" / "sar" / "gfw_sar_detections.geojson"
 MPA = ROOT / "data" / "mpa" / "wdpa_marine_showcase.geojson"
-MAX_SAR = 45
-CAP_PER_PASS = 3
+EEZ = ROOT / "web" / "data" / "eez.geojson"
+MAX_SAR = 55
+CAP_PER_PASS = 20  # dark detections cluster on few Sentinel-1 passes; allow density
 
 
 def _select_diverse(alld: list[dict]) -> list[dict]:
@@ -105,6 +107,42 @@ def _revalidate_ais(ais: list[dict], idx: MPAIndex) -> list[dict]:
     return kept
 
 
+def _escalate_by_mpa(dossiers: list[dict], mpa_idx: MPAIndex) -> None:
+    """Dark detections were segmented against the EEZ (so mpa_name holds the EEZ name).
+    Escalate severity and relabel when a detection also sits inside a real MPA: a dark
+    vessel in a no-take reserve is the worst case; one merely inside the EEZ is a lead.
+    """
+    for d in dossiers:
+        eez_name = d.get("mpa_name")  # build_sar_dossiers set this to the EEZ name
+        length = d.get("length_m")
+        a = mpa_idx.assign([d["centroid_lon"]], [d["centroid_lat"]])
+        mi = int(a[0])
+        if mi >= 0:
+            m = mpa_idx.mpas[mi]
+            d["mpa_name"] = m.name
+            d["wdpa_id"] = m.wdpa_id
+            d["mpa_iucn_cat"] = m.iucn_cat
+            d["mpa_no_take"] = m.no_take
+            d["mpa_version"] = m.version
+            # A non-broadcasting vessel inside a reserve is a serious incursion: high.
+            no_take = (m.no_take or "").strip().lower() in ("all", "part") or m.iucn_cat in ("Ia", "Ib", "II")
+            d["severity"] = "high"
+            d["severity_reason"] = (f"dark vessel inside {'no-take ' if no_take else ''}MPA")
+            drivers = [f"inside MPA: {m.name} (within {eez_name})",
+                       "not broadcasting AIS (dark vessel)"]
+        else:
+            d["mpa_name"] = f"{eez_name} (outside MPA)"
+            d["wdpa_id"] = d["mpa_iucn_cat"] = d["mpa_no_take"] = None
+            d["severity"] = "medium"
+            d["severity_reason"] = "dark vessel inside national EEZ, outside any protected area"
+            drivers = [f"inside national EEZ: {eez_name}, outside any MPA",
+                       "not broadcasting AIS (dark vessel)"]
+        if length is not None:
+            drivers.append(f"length: {length:.0f} m ({'industrial' if length >= 24 else 'small'})")
+        method = (d.get("explanation") or {}).get("method", "SAR detection attributes")
+        d["explanation"] = {"method": method, "drivers": drivers}
+
+
 def main() -> None:
     existing = json.loads(INC_JSON.read_text())
     ais = [d for d in existing if d.get("type") != "dark_vessel_sar"]
@@ -117,20 +155,30 @@ def main() -> None:
         if d["incident_id"] in track_of:
             d["track"] = track_of[d["incident_id"]]
 
-    idx = MPAIndex.from_geojson(str(MPA))
+    mpa_idx = MPAIndex.from_geojson(str(MPA))
     n_before = len(ais)
-    ais = _revalidate_ais(ais, idx)
+    ais = _revalidate_ais(ais, mpa_idx)
     print(f"AIS re-validated against real polygons: kept {len(ais)} of {n_before}")
+
+    # Dark fleet = dark SAR detections inside a national EEZ (the real IUU hotspot;
+    # dark vessels lurk at EEZ scale far more than inside the small reserves). Build
+    # against the EEZ polygons, keep only genuinely dark (unmatched) blips, then
+    # escalate severity for any that also fall inside an MPA (no-take = worst).
+    eez_idx = MPAIndex.from_geojson(str(EEZ))
     dets = load_sar_detections(str(REAL_SAR))
-    alld = build_sar_dossiers(dets, idx, min_fishing_score=0.5, max_dossiers=10_000)
-    sar = _select_diverse(alld)
+    alld = build_sar_dossiers(dets, eez_idx, min_fishing_score=0.5,
+                              include_dark=True, max_dossiers=100_000)
+    dark = [d for d in alld if not d.get("matched_to_ais")]
+    _escalate_by_mpa(dark, mpa_idx)
+    sar = _select_diverse(dark)
 
     # Clean slate: drop every old per-incident Markdown so no orphans linger.
     for p in INC_DIR.glob("*.md"):
         if p.name != "INDEX.md":
             p.unlink()
 
-    write_dossiers(ais + sar, INC_DIR)
+    merged = enrich_jurisdiction(ais + sar)  # tag each incident with its EEZ + foreign flag
+    write_dossiers(merged, INC_DIR)
 
     by_mpa: dict = {}
     for d in sar:

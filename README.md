@@ -1,10 +1,17 @@
 # SeaVigil
 
-**An auditable, laptop-deployable triage layer for fishing inside Marine Protected Areas.**
+**The explanation-and-evidence layer for illegal-fishing behaviors in protected and national waters.**
 
 SeaVigil turns vessel-movement signals into a *per-incident, explainable dossier* an
 enforcement officer can read, defend, and act on - built to run on a single CPU, with no
 cloud account, so an under-resourced coastal authority can actually use it.
+
+It does not try to re-detect fishing (that is Global Fishing Watch's solved, industrial-scale
+job). It sits on top of monitoring and explains and evidences the *illegal behaviors* that
+matter: apparent fishing inside a Marine Protected Area, fishing or a dark (non-broadcasting)
+vessel inside a coastal state's Exclusive Economic Zone, and (in progress) vessels that go
+dark or meet at sea to tranship. SeaVigil computes the AIS behaviors itself and consumes
+GFW's published Sentinel-1 SAR detections for the dark fleet; every flag carries its reason.
 
 It does **not** try to out-detect [Global Fishing Watch](https://globalfishingwatch.org/map)
 (GFW), and it does **not** claim to have invented MPA-incursion alerting - **Skylight**
