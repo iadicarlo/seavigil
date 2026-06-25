@@ -147,12 +147,16 @@
       <span class="swatch-line" style="border-color:var(--ais);box-shadow:0 0 6px var(--ais)"></span>Vessel tracks</div>
     <div class="legrow" data-layers="mpas"><input type="checkbox" checked />
       <span class="swatch-line"></span>Marine Protected Area (WDPA)</div>
+    <div class="legrow" data-layers="eez"><input type="checkbox" checked />
+      <span class="swatch-line" style="border-color:#7ea8e0;border-top-style:dashed;box-shadow:none"></span>Exclusive Economic Zone</div>
     <div class="leghint">Circle size = model fishing-score. Click a detection for its dossier.</div>
     <div class="credits">Data: AIS labels &amp; Sentinel-1 SAR detections
       <a href="https://globalfishingwatch.org" target="_blank" rel="noopener">Global Fishing Watch</a>
       (CC BY / CC BY-NC; Paolo et al., <em>Nature</em> 2024) &middot; MPA boundaries
       <a href="https://www.protectedplanet.net" target="_blank" rel="noopener">Protected Planet</a>
-      (UNEP-WCMC &amp; IUCN 2026, display only) &middot; basemap &copy; OpenStreetMap, CARTO</div>
+      (UNEP-WCMC &amp; IUCN 2026, display only) &middot; EEZs
+      <a href="https://www.marineregions.org" target="_blank" rel="noopener">Marine Regions</a>
+      (Flanders VLIZ, CC BY 4.0) &middot; basemap &copy; OpenStreetMap, CARTO</div>
   </div>
 
   <div id="stats" class="panel"></div>
@@ -243,6 +247,24 @@
           `<strong>Data unavailable.</strong><br>Could not load ${err.message}`;
         return;
       }
+
+      // EEZ reference layer (global context, mode-independent). Non-fatal if missing.
+      // Drawn below the MPA layers so reserves stay on top. CC BY (Marine Regions).
+      try {
+        const eez = await (await fetch('./data/eez.geojson')).json();
+        map.addSource('eez', { type: 'geojson', data: eez,
+          attribution: 'EEZ © Marine Regions (Flanders VLIZ), CC BY 4.0' });
+        map.addLayer({ id: 'eez-fill', type: 'fill', source: 'eez',
+          paint: { 'fill-color': '#5b8bd0', 'fill-opacity': 0.035 } }, 'mpa-fill');
+        map.addLayer({ id: 'eez-line', type: 'line', source: 'eez',
+          paint: { 'line-color': '#7ea8e0', 'line-width': 1, 'line-opacity': 0.5,
+            'line-dasharray': [3, 2] } }, 'mpa-fill');
+        map.addLayer({ id: 'eez-labels', type: 'symbol', source: 'eez',
+          layout: { 'text-field': ['get', 'name'], 'text-size': 10.5,
+            'text-font': ['Noto Sans Regular'], 'symbol-placement': 'point', 'text-max-width': 8 },
+          paint: { 'text-color': '#9fc0ec', 'text-halo-color': '#05182a', 'text-halo-width': 1.2,
+            'text-opacity': 0.65 } }, 'mpa-fill');
+      } catch (e) { /* EEZ layer optional */ }
 
       // tracks
       map.addSource('tracks', { type: 'geojson', data: tracks });
@@ -335,6 +357,7 @@
       'incident-sar': ['incident-glow', 'incident-pts'],
       'tracks': ['track-lines', 'track-hi', 'track-hi-glow'],
       'mpas': ['mpa-fill', 'mpa-glow', 'mpa-line', 'mpa-labels'],
+      'eez': ['eez-fill', 'eez-line', 'eez-labels'],
     };
     function wireLayerToggles() {
       // AIS and SAR share the incident layers; drive them with a filter instead of visibility.
@@ -354,8 +377,9 @@
           row.classList.toggle('off', !cb.checked);
           if (key === 'incident-ais') { shown.ais = cb.checked; applyIncidentFilter(); }
           else if (key === 'incident-sar') { shown.sar = cb.checked; applyIncidentFilter(); }
-          else (LAYER_GROUPS[key] || []).forEach(id =>
-            map.setLayoutProperty(id, 'visibility', cb.checked ? 'visible' : 'none'));
+          else (LAYER_GROUPS[key] || []).forEach(id => {
+            if (map.getLayer(id)) map.setLayoutProperty(id, 'visibility', cb.checked ? 'visible' : 'none');
+          });
         };
       });
     }
