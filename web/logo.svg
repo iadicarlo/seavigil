@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 268 64" role="img" aria-label="SeaVigil logo">
+  <rect width="64" height="64" rx="15" fill="#0b2233"/>
+  <rect x="31.2" y="11" width="1.7" height="28" fill="#ffffff"/>
+  <path d="M33.4 13 L45 37 L33.4 37 Z" fill="#2bd4a8"/>
+  <path d="M30.4 18.5 L20 37 L30.4 37 Z" fill="#ffffff"/>
+  <path d="M16.5 39 H47.5 L43 47.5 Q32 51.5 21 47.5 Z" fill="#ffffff"/>
+  <path d="M11 51.5 Q19 46.5 27 51.5 T43 51.5 T59 51.5" fill="none"
+        stroke="#2bd4a8" stroke-width="2.6" stroke-linecap="round" opacity="0.92"/>
+  <text x="80" y="41" font-family="Poppins, 'Segoe UI', Arial, sans-serif"
+        font-size="30" font-weight="600" letter-spacing="0.5">
+    <tspan fill="#0b2233">Sea</tspan><tspan fill="#149c79">Vigil</tspan>
+  </text>
+</svg>

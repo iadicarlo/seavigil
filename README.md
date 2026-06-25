@@ -121,9 +121,13 @@ and the implementation plan.
   (attribution; commercial use permitted). Raw data is **not committed**; the pipeline
   regenerates it.
 - **MPA boundaries:** a small bundled sample of large MPAs for reproducibility; the loader
-  accepts any [WDPA](https://www.protectedplanet.net/) MPA polygon set (GeoJSON). **Note:**
-  WDPA boundaries are **non-commercial** and may not be redistributed as a downloadable web
-  map - ship them as non-extractable tiles, not raw GeoJSON.
+  accepts any [WDPA / WD-OECM](https://www.protectedplanet.net/) polygon set (GeoJSON).
+  Convert a Protected Planet `.gdb` with `scripts/wdpa_gdb_to_geojson.py` (output gitignored).
+  **Note:** WDPA/WD-OECM is **non-commercial** and may not be redistributed as a downloadable
+  web map - ship it as non-extractable tiles, not raw GeoJSON. **Citation:** UNEP-WCMC and
+  IUCN (2026), Protected Planet: The World Database on Protected Areas (WDPA) and World
+  Database on Other Effective Area-based Conservation Measures (WD-OECM), June 2026,
+  Cambridge, UK: UNEP-WCMC and IUCN, www.protectedplanet.net.
 - **Known blind spot:** AIS-only models cannot see the **~75% of industrial fishing vessels
   that don't broadcast AIS** (the "dark fleet", Paolo et al., *Nature* 2024). The fix is to
   *consume* GFW's already-published Sentinel-1 SAR detections (no imagery processing needed) -

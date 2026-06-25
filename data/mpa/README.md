@@ -15,3 +15,18 @@ The loader reads standard GeoJSON `FeatureCollection`s and recognises common WDP
 keys (`NAME`, `WDPAID`, `WDPA_PID`).
 
 This file is committed (small reference data); raw AIS data under `data/raw/` is not.
+
+## Real boundaries from Protected Planet
+
+Download a WDPA / WD-OECM File Geodatabase from protectedplanet.net and convert it:
+
+```bash
+uv run --with pyogrio --with geopandas python scripts/wdpa_gdb_to_geojson.py \
+  --gdb path/to/WDPA_WDOECM_..._marine.gdb --name "Phoenix Islands,Papahanaumokuakea" \
+  --out data/mpa/wdpa_marine_sample.geojson
+uv run python -m seavigil.alert --mpa data/mpa/wdpa_marine_sample.geojson
+```
+
+The converted output (`data/mpa/wdpa_*.geojson`) is gitignored: WDPA/WD-OECM is non-commercial
+and may not be redistributed as a downloadable map. Citation: UNEP-WCMC and IUCN (2026),
+Protected Planet: WDPA and WD-OECM, June 2026, Cambridge, UK, www.protectedplanet.net.
