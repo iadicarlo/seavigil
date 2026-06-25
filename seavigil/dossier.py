@@ -1,0 +1,160 @@
+"""Turn in-MPA fishing incidents into auditable dossiers.
+
+A dossier is the artifact a human acts on: the incident facts (who/where/when/how
+strong) plus the model's *reason* -- the SHAP attribution averaged over the
+incident's fishing positions -- plus the standing honesty caveats. Rendered both
+as JSON (machine) and Markdown (human).
+
+SHAP is computed once across all incidents' fishing positions, then sliced per
+incident, reusing the positive-class machinery from ``explain.py``.
+"""
+
+from __future__ import annotations
+
+import json
+from pathlib import Path
+
+import numpy as np
+
+from seavigil.explain import _positive_class_shap
+from seavigil.features import FEATURE_COLUMNS
+
+# Carried into every dossier so a flag is never read without its limits.
+CAVEATS = [
+    "Apparent fishing inferred from AIS movement, not proven illegal fishing.",
+    "AIS-only: blind to vessels not broadcasting AIS (~75% of industrial fishing vessels).",
+    "MPA boundary may be approximate; verify against official WDPA limits.",
+    "An inspection lead, not courtroom evidence.",
+]
+
+_SHAP_METHOD = "mean per-position SHAP (fishing class) over the incident's fishing positions"
+
+
+def _aggregate_shap(values: np.ndarray, X: np.ndarray, feature_columns, top_k: int) -> list[dict]:
+    mean_shap = values.mean(axis=0)
+    mean_val = X.mean(axis=0)
+    order = np.argsort(np.abs(mean_shap))[::-1][:top_k]
+    return [
+        {
+            "feature": feature_columns[i],
+            "mean_value": round(float(mean_val[i]), 4),
+            "mean_shap": round(float(mean_shap[i]), 4),
+        }
+        for i in order
+    ]
+
+
+def build_dossiers(
+    incidents,
+    scored,
+    model,
+    *,
+    feature_columns: list[str] = FEATURE_COLUMNS,
+    top_k: int = 5,
+) -> list[dict]:
+    """Build dossier dicts for a list of incidents.
+
+    If ``model`` is None, dossiers are built without a SHAP explanation (the facts
+    still stand). Otherwise SHAP is computed once over all fishing positions.
+    """
+    if not incidents:
+        return []
+
+    explanations: dict = {}
+    if model is not None:
+        all_ids = sorted({i for inc in incidents for i in inc.fishing_ids}, key=str)
+        X_all = scored.loc[all_ids, feature_columns].to_numpy(dtype="float64")
+        import shap  # local import: heavy, only needed when explaining
+
+        shap_all = _positive_class_shap(shap.TreeExplainer(model), X_all)
+        row_of = {rid: r for r, rid in enumerate(all_ids)}
+        for inc in incidents:
+            rows = [row_of[i] for i in inc.fishing_ids]
+            explanations[inc.incident_id] = {
+                "method": _SHAP_METHOD,
+                "top_drivers": _aggregate_shap(
+                    shap_all[rows], X_all[rows], feature_columns, top_k
+                ),
+            }
+
+    dossiers = []
+    for inc in incidents:
+        d = inc.to_dict()
+        d.pop("fishing_ids", None)  # internal pointer, not part of the dossier
+        d["explanation"] = explanations.get(inc.incident_id)
+        d["caveats"] = CAVEATS
+        dossiers.append(d)
+    return dossiers
+
+
+def render_markdown(dossier: dict) -> str:
+    d = dossier
+    lines = [
+        f"# Incident `{d['incident_id']}`",
+        "",
+        f"- **MPA:** {d['mpa_name']}"
+        + (f" (WDPA {d['wdpa_id']})" if d.get("wdpa_id") else ""),
+        f"- **Vessel:** `{d['vessel_id']}`  ·  **gear:** {d['gear']}",
+        f"- **When (UTC):** {d['time_start_utc']} → {d['time_end_utc']} "
+        f"({d['duration_hours']} h)",
+        f"- **Apparent fishing:** {d['n_fishing_positions']} of {d['n_positions']} "
+        f"in-MPA positions; mean p={d['mean_fishing_proba']:.2f}, "
+        f"max p={d['max_fishing_proba']:.2f}",
+        f"- **Where:** {d['centroid_lat']:.3f}, {d['centroid_lon']:.3f} (centroid)",
+        "",
+    ]
+
+    expl = d.get("explanation")
+    if expl:
+        lines += ["## Why this was flagged", "", f"_{expl['method']}._", ""]
+        lines += ["| feature | mean value | mean SHAP |", "|---|---:|---:|"]
+        for row in expl["top_drivers"]:
+            lines.append(
+                f"| `{row['feature']}` | {row['mean_value']:.3f} | {row['mean_shap']:+.3f} |"
+            )
+        lines.append("")
+
+    lines += ["## Caveats", ""]
+    lines += [f"- {c}" for c in d["caveats"]]
+    lines.append("")
+    return "\n".join(lines)
+
+
+def write_dossiers(dossiers: list[dict], out_dir: str | Path) -> dict:
+    """Write incidents.json, per-incident Markdown, and an INDEX.md summary.
+
+    Returns a small manifest of what was written.
+    """
+    out_dir = Path(out_dir)
+    out_dir.mkdir(parents=True, exist_ok=True)
+
+    (out_dir / "incidents.json").write_text(json.dumps(dossiers, indent=2))
+
+    md_paths = []
+    for d in dossiers:
+        p = out_dir / f"{d['incident_id']}.md"
+        p.write_text(render_markdown(d))
+        md_paths.append(p.name)
+
+    index = ["# In-MPA fishing incidents", ""]
+    if not dossiers:
+        index += ["No incidents found.", ""]
+    else:
+        index += [f"{len(dossiers)} incident(s).", ""]
+        index += ["| incident | MPA | gear | start (UTC) | fishing pos | mean p |", "|---|---|---|---|---:|---:|"]
+        for d in dossiers:
+            index.append(
+                f"| [{d['incident_id']}]({d['incident_id']}.md) | {d['mpa_name']} | "
+                f"{d['gear']} | {d['time_start_utc']} | {d['n_fishing_positions']} | "
+                f"{d['mean_fishing_proba']:.2f} |"
+            )
+        index.append("")
+    (out_dir / "INDEX.md").write_text("\n".join(index))
+
+    return {
+        "out_dir": str(out_dir),
+        "n_incidents": len(dossiers),
+        "json": "incidents.json",
+        "index": "INDEX.md",
+        "markdown": md_paths,
+    }
