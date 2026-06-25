@@ -40,6 +40,7 @@ class EEZIndex:
         self.features = [f for f in data.get("features", []) if f.get("geometry")]
         geoms = np.array([shape(f["geometry"]) for f in self.features], dtype=object)
         if len(geoms):
+            shapely.prepare(geoms)  # fast repeated point-in-polygon on large EEZ polygons
             self._tree = STRtree(geoms)
 
     def assign(self, lon: float, lat: float) -> dict | None:
@@ -50,6 +51,24 @@ class EEZIndex:
         if len(hits) == 0:
             return None
         return self.features[int(hits[0])]["properties"]
+
+    def assign_many(self, lons, lats) -> np.ndarray:
+        """Vectorized: feature index per point (-1 if outside every EEZ).
+
+        One GEOS query for all points, vital when tagging tens of thousands of events
+        (a per-point loop is far too slow against large EEZ polygons like the US).
+        """
+        lons = np.atleast_1d(np.asarray(lons, dtype="float64")).ravel()
+        lats = np.atleast_1d(np.asarray(lats, dtype="float64")).ravel()
+        out = np.full(lons.shape, -1, dtype="int64")
+        if self._tree is None or lons.size == 0:
+            return out
+        point_idx, feat_idx = self._tree.query(shapely.points(lons, lats), predicate="intersects")
+        order = np.argsort(feat_idx, kind="stable")  # lowest feature index wins, deterministically
+        for p, fi in zip(point_idx[order], feat_idx[order]):
+            if out[p] == -1:
+                out[p] = fi
+        return out
 
 
 def _to_iso2(code: str | None) -> str:

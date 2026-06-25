@@ -148,6 +148,8 @@
       <span class="dot" style="background:#c084fc;color:#c084fc"></span>AIS spoofing (impossible movement)</div>
     <div class="legrow" data-layers="incident-dark"><input type="checkbox" checked />
       <span class="dot" style="background:#ffd24a;color:#ffd24a"></span>Going dark (AIS disabling, GFW/satellite)</div>
+    <div class="legrow" data-layers="incident-enc"><input type="checkbox" checked />
+      <span class="dot" style="background:#22d3ee;color:#22d3ee"></span>At-sea encounter (transshipment)</div>
     <div class="legrow" data-layers="tracks"><input type="checkbox" checked />
       <span class="swatch-line" style="border-color:var(--ais);box-shadow:0 0 6px var(--ais)"></span>Vessel tracks</div>
     <div class="legrow" data-layers="mpas"><input type="checkbox" checked />
@@ -300,12 +302,12 @@
       map.addLayer({ id: 'incident-glow', type: 'circle', source: 'incidents',
         paint: {
           'circle-radius': ['interpolate', ['linear'], ['coalesce', ['get', 'score'], 0.8], 0.5, 9, 1, 16],
-          'circle-color': ['match', ['get', 'kind'], 'dark_vessel_sar', '#e0455e', 'ais_spoofing', '#c084fc', 'ais_disabling', '#ffd24a', '#f4a236'],
+          'circle-color': ['match', ['get', 'kind'], 'dark_vessel_sar', '#e0455e', 'ais_spoofing', '#c084fc', 'ais_disabling', '#ffd24a', 'encounter', '#22d3ee', '#f4a236'],
           'circle-opacity': 0.28, 'circle-blur': 1 } });
       map.addLayer({ id: 'incident-pts', type: 'circle', source: 'incidents',
         paint: {
           'circle-radius': ['interpolate', ['linear'], ['coalesce', ['get', 'score'], 0.8], 0.5, 3.5, 1, 7],
-          'circle-color': ['match', ['get', 'kind'], 'dark_vessel_sar', '#e0455e', 'ais_spoofing', '#c084fc', 'ais_disabling', '#ffd24a', '#f4a236'],
+          'circle-color': ['match', ['get', 'kind'], 'dark_vessel_sar', '#e0455e', 'ais_spoofing', '#c084fc', 'ais_disabling', '#ffd24a', 'encounter', '#22d3ee', '#f4a236'],
           'circle-stroke-color': ['case',
             ['boolean', ['feature-state', 'selected'], false], '#3ff0c0',
             ['boolean', ['feature-state', 'hover'], false], '#ffffff', '#081620'],
@@ -342,7 +344,7 @@
       const v = document.getElementById('vintage');
       v.innerHTML = live
         ? `Live AIS stream (Great Barrier Reef).${asof} <em>Apparent</em> fishing, an inspection lead, not proof.`
-        : 'Illustrative sample: AIS apparent-fishing (GFW 2013-2014) + dark-vessel SAR (GFW 2024) + AIS spoofing (NOAA 2024) + going-dark (GFW satellite), real WDPA / EEZ boundaries. Not live. An inspection lead, not proof.';
+        : 'Illustrative sample of five IUU behaviors: apparent fishing in MPAs, dark-fleet SAR, AIS spoofing, going dark, and at-sea encounters, on real WDPA / EEZ boundaries. Not live. An inspection lead, not proof.';
       document.getElementById('modelink').innerHTML = live
         ? '<a href="./" style="color:var(--fg)">&larr; Back to showcase</a>'
         : '<a href="?live">View the near-real-time monitor &rarr;</a>';
@@ -352,7 +354,7 @@
       const rows = o => Object.entries(o).map(([k, v]) =>
         `<div class="stat-row"><span>${k}</span><span>${v}</span></div>`).join('');
       const tl = { ais_fishing_incident: 'AIS fishing', dark_vessel_sar: 'Dark (SAR)',
-        ais_spoofing: 'AIS spoofing', ais_disabling: 'Going dark' };
+        ais_spoofing: 'AIS spoofing', ais_disabling: 'Going dark', encounter: 'Encounter' };
       const byType = Object.fromEntries(Object.entries(s.by_type).map(([k, v]) => [tl[k] || k, v]));
       const sev = s.by_severity || {};
       const bySev = ['high', 'medium', 'low'].filter(k => sev[k]);
@@ -383,13 +385,14 @@
     };
     function wireLayerToggles() {
       // AIS and SAR share the incident layers; drive them with a filter instead of visibility.
-      const shown = { ais: true, sar: true, spoof: true, dark: true };
+      const shown = { ais: true, sar: true, spoof: true, dark: true, enc: true };
       const applyIncidentFilter = () => {
         const kinds = [];
         if (shown.ais) kinds.push('ais_fishing_incident');
         if (shown.sar) kinds.push('dark_vessel_sar');
         if (shown.spoof) kinds.push('ais_spoofing');
         if (shown.dark) kinds.push('ais_disabling');
+        if (shown.enc) kinds.push('encounter');
         const f = kinds.length ? ['in', ['get', 'kind'], ['literal', kinds]] : ['==', ['get', 'kind'], '__none__'];
         ['incident-glow', 'incident-pts'].forEach(id => map.setFilter(id, f));
       };
@@ -403,6 +406,7 @@
           else if (key === 'incident-sar') { shown.sar = cb.checked; applyIncidentFilter(); }
           else if (key === 'incident-spoof') { shown.spoof = cb.checked; applyIncidentFilter(); }
           else if (key === 'incident-dark') { shown.dark = cb.checked; applyIncidentFilter(); }
+          else if (key === 'incident-enc') { shown.enc = cb.checked; applyIncidentFilter(); }
           else (LAYER_GROUPS[key] || []).forEach(id => {
             if (map.getLayer(id)) map.setLayoutProperty(id, 'visibility', cb.checked ? 'visible' : 'none');
           });
@@ -443,12 +447,12 @@
       });
 
       const KIND_LABEL = { dark_vessel_sar: 'Dark vessel (SAR)', ais_spoofing: 'AIS spoofing',
-        ais_disabling: 'Going dark (AIS)', ais_fishing_incident: 'AIS apparent fishing' };
+        ais_disabling: 'Going dark (AIS)', encounter: 'At-sea encounter', ais_fishing_incident: 'AIS apparent fishing' };
       const KIND_COLOR = { dark_vessel_sar: 'var(--sar)', ais_spoofing: '#c084fc',
-        ais_disabling: '#ffd24a', ais_fishing_incident: 'var(--ais)' };
+        ais_disabling: '#ffd24a', encounter: '#22d3ee', ais_fishing_incident: 'var(--ais)' };
 
       function renderDossier(p) {
-        const isAttr = ['dark_vessel_sar', 'ais_spoofing', 'ais_disabling'].includes(p.kind);
+        const isAttr = ['dark_vessel_sar', 'ais_spoofing', 'ais_disabling', 'encounter'].includes(p.kind);
         const sevBit = p.severity
           ? `<span class="sev sev-${p.severity}">${p.severity.toUpperCase()}</span> <span style="color:var(--muted)">${p.severity_reason || ''}</span>` : '';
         const scoreBit = (p.score !== '' && p.score != null) ? `<span style="color:var(--muted)"> &middot; score ${p.score}</span>` : '';
@@ -478,6 +482,7 @@
         if (isAttr) {
           const note = p.kind === 'dark_vessel_sar' ? 'SAR attributes; no AIS track to SHAP'
             : p.kind === 'ais_spoofing' ? 'AIS position-anomaly rule'
+            : p.kind === 'encounter' ? 'two-vessel encounter (Miller et al. 2018)'
             : 'AIS gap rule (Welch et al. 2022 criteria)';
           const items = (p.why || '').split(' · ').filter(Boolean).map(x => `<li>${esc(x)}</li>`).join('');
           return `<div class="why2"><strong>Why flagged</strong> <span style="color:var(--muted)">(${note})</span>

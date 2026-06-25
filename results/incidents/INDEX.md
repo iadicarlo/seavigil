@@ -1,6 +1,6 @@
 # In-MPA records
 
-120 record(s): 72 AIS fishing incident(s), 48 dark-vessel SAR detection(s).
+137 record(s): 89 AIS fishing incident(s), 48 dark-vessel SAR detection(s).
 
 | id | type | MPA | start (UTC) | score / mean p |
 |---|---|---|---|---:|
@@ -124,3 +124,20 @@
 | [darkgap__367178220_0037](darkgap__367178220_0037.md) | AIS fishing | AIS disabling | 2017-03-17T03:40:27Z | - |
 | [darkgap__412331054_0038](darkgap__412331054_0038.md) | AIS fishing | AIS disabling | 2017-08-20T17:10:16Z | - |
 | [darkgap__440226000_0039](darkgap__440226000_0039.md) | AIS fishing | AIS disabling | 2017-07-17T22:49:04Z | - |
+| [enc__503584700_0000](enc__503584700_0000.md) | AIS fishing | At-sea encounter | 2014-07-13T23:50:00Z | - |
+| [enc__440617000_0001](enc__440617000_0001.md) | AIS fishing | At-sea encounter | 2016-03-17T20:10:00Z | - |
+| [enc__503584700_0002](enc__503584700_0002.md) | AIS fishing | At-sea encounter | 2014-07-19T04:40:00Z | - |
+| [enc__440992000_0003](enc__440992000_0003.md) | AIS fishing | At-sea encounter | 2014-05-13T01:30:00Z | - |
+| [enc__441098000_0004](enc__441098000_0004.md) | AIS fishing | At-sea encounter | 2012-06-27T20:30:00Z | - |
+| [enc__441062000_0005](enc__441062000_0005.md) | AIS fishing | At-sea encounter | 2012-06-29T20:00:00Z | - |
+| [enc__440821000_0006](enc__440821000_0006.md) | AIS fishing | At-sea encounter | 2013-03-31T20:10:00Z | - |
+| [enc__440751000_0007](enc__440751000_0007.md) | AIS fishing | At-sea encounter | 2013-09-08T21:40:00Z | - |
+| [enc__440773000_0008](enc__440773000_0008.md) | AIS fishing | At-sea encounter | 2014-01-22T23:20:00Z | - |
+| [enc__440986000_0009](enc__440986000_0009.md) | AIS fishing | At-sea encounter | 2014-03-22T03:30:00Z | - |
+| [enc__529417000_0010](enc__529417000_0010.md) | AIS fishing | At-sea encounter | 2015-03-05T04:20:00Z | - |
+| [enc__440950000_0011](enc__440950000_0011.md) | AIS fishing | At-sea encounter | 2014-05-14T22:30:00Z | - |
+| [enc__440810000_0012](enc__440810000_0012.md) | AIS fishing | At-sea encounter | 2012-07-04T06:00:00Z | - |
+| [enc__440751000_0013](enc__440751000_0013.md) | AIS fishing | At-sea encounter | 2014-03-22T21:50:00Z | - |
+| [enc__441675000_0014](enc__441675000_0014.md) | AIS fishing | At-sea encounter | 2014-06-09T21:30:00Z | - |
+| [enc__416097500_0015](enc__416097500_0015.md) | AIS fishing | At-sea encounter | 2016-12-21T18:10:00Z | - |
+| [enc__441837000_0016](enc__441837000_0016.md) | AIS fishing | At-sea encounter | 2015-03-16T07:20:00Z | - |

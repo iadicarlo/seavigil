@@ -165,13 +165,16 @@ def render_markdown(dossier: dict) -> str:
             f"- **Where:** {d['centroid_lat']:.3f}, {d['centroid_lon']:.3f}",
             "",
         ]
-    elif d.get("type") in ("ais_disabling", "ais_spoofing"):
+    elif d.get("type") in ("ais_disabling", "ais_spoofing", "encounter"):
         flag_e = emoji_for(d.get("flag"))
         who = (f"{flag_e} " if flag_e else "") + (
             d["ship_name"] if d.get("ship_name") else f"`{d['vessel_id']}`")
         if d.get("type") == "ais_disabling":
             metric = (f"- **Gap:** {d.get('gap_hours')} h dark, {d.get('off_distance_nm')} nm "
                       f"offshore, reappeared {d.get('displacement_nm')} nm away")
+        elif d.get("type") == "encounter":
+            metric = (f"- **Encounter:** {d.get('duration_hours')} h with carrier "
+                      f"`{d.get('carrier_mmsi', '?')}` (apparent transshipment)")
         else:
             metric = (f"- **Anomalies:** {d.get('anomaly_count')} impossible movements; "
                       f"max implied speed {d.get('max_implied_speed_kn', 0):,.0f} kn; "

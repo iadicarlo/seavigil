@@ -160,12 +160,19 @@ def _load_behaviors() -> list[dict]:
         from seavigil import going_dark  # noqa: PLC0415
         from seavigil.jurisdiction import EEZIndex  # noqa: PLC0415
         out += going_dark.build_from_gfw_disabling(str(disabling), EEZIndex())
+    enc = next((ROOT / "data" / "transshipment").glob("**/potential_transshipment*.csv"), None)
+    if enc is not None:
+        from seavigil import transshipment  # noqa: PLC0415
+        from seavigil.jurisdiction import EEZIndex  # noqa: PLC0415
+        out += transshipment.build_from_gfw_encounters(str(enc), EEZIndex())
     return out
 
 
 def main() -> None:
     existing = json.loads(INC_JSON.read_text())
-    ais = [d for d in existing if d.get("type") != "dark_vessel_sar"]
+    # Only genuine AIS fishing incidents are re-validated + kept; SAR and the behavioral
+    # types (spoofing, disabling, encounter) are regenerated fresh below, not re-read.
+    ais = [d for d in existing if d.get("type") == "ais_fishing_incident"]
 
     # Re-attach AIS tracks (stripped from incidents.json) so write_dossiers can
     # regenerate tracks.geojson without losing them.

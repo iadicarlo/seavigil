@@ -47,3 +47,6 @@ data/eez/
 
 # GFW AIS disabling events (CC BY-NC; derived dossiers shipped, not raw)
 data/disabling/
+
+# GFW transshipment events (CC BY-NC; derived dossiers shipped, not raw)
+data/transshipment/

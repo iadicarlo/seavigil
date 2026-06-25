@@ -67,7 +67,7 @@ def build_from_gfw_disabling(
     fleet) and adds the explanation + evidence layer. Only events inside a showcase
     EEZ are kept, selected round-robin across EEZs and by longest gap for diversity.
     """
-    rows = []
+    cand = []
     with open(csv_path) as f:
         for r in csv.DictReader(f):
             try:
@@ -78,12 +78,16 @@ def build_from_gfw_disabling(
                 continue
             if not (min_gap_hours <= gap_h <= max_gap_hours):
                 continue  # plausible disabling window (skip implausible months-long gaps)
-            props = eez_index.assign(lon, lat)
-            if not props:
-                continue
-            r["_eez"] = props.get("name")
             r["_gap"] = gap_h
-            rows.append(r)
+            cand.append((r, lon, lat))
+
+    idx = eez_index.assign_many([c[1] for c in cand], [c[2] for c in cand])
+    rows = []
+    for (r, _lon, _lat), fi in zip(cand, idx):
+        if fi < 0:
+            continue
+        r["_eez"] = eez_index.features[int(fi)]["properties"].get("name")
+        rows.append(r)
 
     by_eez: dict = {}
     # Sort by time for a spread of gap durations (not just the longest outliers).
@@ -92,13 +96,18 @@ def build_from_gfw_disabling(
 
     picked: list[dict] = []
     buckets = list(by_eez.values())
-    while len(picked) < max_events and any(buckets):
+    per_eez: dict = {}
+    while len(picked) < max_events:
+        progressed = False
         for b in buckets:
-            if b and sum(1 for p in picked if p["_eez"] == b[0]["_eez"]) < cap_per_eez:
-                picked.append(b.pop(0))
+            if b and per_eez.get(b[0]["_eez"], 0) < cap_per_eez:
+                r = b.pop(0)
+                per_eez[r["_eez"]] = per_eez.get(r["_eez"], 0) + 1
+                picked.append(r)
+                progressed = True
             if len(picked) >= max_events:
                 break
-        if not any(buckets):
+        if not progressed:  # every remaining bucket is empty or capped
             break
 
     dossiers = []
