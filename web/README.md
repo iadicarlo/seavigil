@@ -1,8 +1,8 @@
 # SeaVigil web map
 
 A static [MapLibre GL](https://maplibre.org/) map of fishing-in-MPA incidents and dark-vessel
-SAR detections. It loads only static files (`data/*.geojson`) — **no server, no API token, no
-GFW call from the browser** — so it deploys to GitHub Pages as-is.
+SAR detections. It loads only static files (`data/*.geojson`) - **no server, no API token, no
+GFW call from the browser** - so it deploys to GitHub Pages as-is.
 
 ## Build the data
 
@@ -30,8 +30,8 @@ and re-runs `seavigil.alert` + `seavigil.site`.
 ## Caveats baked into the demo
 
 - **MPA boundaries** here are the approximate sample boxes. Real **WDPA** boundaries are
-  non-commercial and **must not** be shipped as downloadable GeoJSON — convert them to
+  non-commercial and **must not** be shipped as downloadable GeoJSON - convert them to
   non-extractable vector tiles (PMTiles) before deploying with real limits.
 - The basemap uses OpenStreetMap raster tiles (no key); for production use a proper tile
   provider per OSM's usage policy.
-- Markers are *apparent* fishing / *dark* detections inside MPAs — inspection leads, not proof.
+- Markers are *apparent* fishing / *dark* detections inside MPAs - inspection leads, not proof.

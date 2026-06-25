@@ -37,7 +37,7 @@ DEFAULT_OUT = ROOT / "data" / "sar" / "gfw_sar_detections.geojson"
 def _token(token: str | None) -> str:
     t = token or os.environ.get("GFW_TOKEN")
     if not t:
-        raise RuntimeError("GFW_TOKEN not set — export it or pass token=… (see docs/DEPLOY.md)")
+        raise RuntimeError("GFW_TOKEN not set - export it or pass token=… (see docs/DEPLOY.md)")
     return t
 
 

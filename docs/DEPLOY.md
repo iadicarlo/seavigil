@@ -1,4 +1,4 @@
-# SeaVigil — pre-deploy checklist
+# SeaVigil - pre-deploy checklist
 
 Gates to clear before publishing the site / pitching publicly. Status as of 2026-06-25.
 
@@ -10,11 +10,11 @@ Re-verification (2026-06-25) says the per-flag-explanation wedge is **still open
 when scoped**:
 
 - ✅ **Claim to make:** *"per-flag SHAP / per-feature attribution **of the fishing detection
-  itself** is something no IUU-fishing tool ships."* Lead with **SHAP / feature attribution** —
+  itself** is something no IUU-fishing tool ships."* Lead with **SHAP / feature attribution** -
   a scalar confidence score (which several tools show) is **not** an attribution.
 - ❌ **Do NOT claim:** the unscoped *"no tool explains why a vessel was flagged."* That is now
   attackable: **Windward MAI Expert** explains vessel-behaviour **anomalies / IUU risk** in
-  plain language (cited sources) — it just doesn't explain the **fishing-detection
+  plain language (cited sources) - it just doesn't explain the **fishing-detection
   classification** itself. GFW also now ships a risk-indicator dataset (see §2).
 
 README and `docs/DESIGN.md` §5 use the scoped wording.
@@ -25,9 +25,9 @@ Verified 2026-06-25 against live vendor docs:
 
 | Tool | Per-fishing-detection explanation? |
 |---|---|
-| **Skylight** (Ai2) | No — event card + GraphQL `EventV2` expose metadata + a scalar `fishingScore`; no reason/attribution field. "Shippy" agent does traceability (cites sources), not explanation. **Gap intact.** |
+| **Skylight** (Ai2) | No - event card + GraphQL `EventV2` expose metadata + a scalar `fishingScore`; no reason/attribution field. "Shippy" agent does traceability (cites sources), not explanation. **Gap intact.** |
 | **GFW** | Per-event AI agents still "highly experimental"/internal. New (2026-06-03) IUU Fishing Risk Insights = downloadable 11-indicator risk **scoring**, not per-detection narrative. |
-| **Windward MAI Expert** | Explains **anomalies / risk** (incl. IUU) in plain language — borderline, but **not** the fishing-detection classification. Closest to the line; monitor. |
+| **Windward MAI Expert** | Explains **anomalies / risk** (incl. IUU) in plain language - borderline, but **not** the fishing-detection classification. Closest to the line; monitor. |
 | Starboard / OceanMind / Spire / Pole Star | No per-fishing-detection explanation. |
 
 ⏳ **Time-bomb:** GFW IUU Risk Insights integrates into the **public map in October 2026**, and
@@ -63,14 +63,14 @@ interactive web map that lets users **download** the source polygons.
 ## 5. Secrets & data refresh ✅
 
 - GFW token lives **only** in a gitignored `.env` locally and in **GitHub Actions secrets**
-  (`GFW_TOKEN`) for CI — never in any shipped/committed file. `seavigil.fetch_gfw` reads it
+  (`GFW_TOKEN`) for CI - never in any shipped/committed file. `seavigil.fetch_gfw` reads it
   from the env.
-- Raw GFW pulls (`data/sar/gfw_*.geojson`) are **gitignored** — regenerate with the token;
+- Raw GFW pulls (`data/sar/gfw_*.geojson`) are **gitignored** - regenerate with the token;
   don't redistribute GFW's raw dataset in bulk (CC BY-NC).
 - `.github/workflows/refresh-data.yml`: with the `GFW_TOKEN` secret set it pulls **live** SAR
   detections via `fetch_gfw` and commits the derived dossiers (opt-in to CC BY-NC redistribution);
   without it, it regenerates the synthetic demo. Per-position AIS scoring needs your own feed
-  (`--positions`) — GFW publishes no raw AIS.
+  (`--positions`) - GFW publishes no raw AIS.
 
 ## 6. Basemap ⚠️
 

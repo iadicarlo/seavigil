@@ -204,7 +204,7 @@ def write_dossiers(dossiers: list[dict], out_dir: str | Path) -> dict:
     out_dir.mkdir(parents=True, exist_ok=True)
 
     # Render Markdown first (it uses the per-incident track), then write tracks to
-    # their own GeoJSON and a SLIM incidents.json (track stripped — it would bloat
+    # their own GeoJSON and a SLIM incidents.json (track stripped - it would bloat
     # the machine artifact ~20x).
     md_paths = []
     for d in dossiers:
@@ -240,7 +240,7 @@ def write_dossiers(dossiers: list[dict], out_dir: str | Path) -> dict:
         for d in dossiers:
             typ = "dark SAR" if d.get("type") == "dark_vessel_sar" else "AIS fishing"
             score = d.get("mean_fishing_proba")
-            score_s = f"{score:.2f}" if score is not None else "—"
+            score_s = f"{score:.2f}" if score is not None else "-"
             index.append(
                 f"| [{d['incident_id']}]({d['incident_id']}.md) | {typ} | {d['mpa_name']} | "
                 f"{d['time_start_utc']} | {score_s} |"

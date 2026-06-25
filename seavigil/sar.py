@@ -154,7 +154,7 @@ def build_sar_dossiers(
     seq: dict[str, int] = {}
     dossiers = []
     for _, r in df.iterrows():
-        # pandas turns missing values into float NaN (which is truthy) — normalize to None.
+        # pandas turns missing values into float NaN (which is truthy) - normalize to None.
         rd = {k: (None if (isinstance(v, float) and v != v) else v) for k, v in r.to_dict().items()}
         mpa_name = str(rd["mpa_name"])
         n = seq.get(mpa_name, 0)

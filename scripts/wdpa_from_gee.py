@@ -2,8 +2,8 @@
 """Export WDPA marine protected-area polygons from Google Earth Engine to a GeoJSON
 that seavigil.mpa.load_mpas / `--mpa` ingests directly.
 
-The WDPA on GEE (WCMC/WDPA/current/polygons) is a server-side FeatureCollection — not a
-plain file — so you filter + export it. This pulls polygons intersecting a bounding box,
+The WDPA on GEE (WCMC/WDPA/current/polygons) is a server-side FeatureCollection - not a
+plain file - so you filter + export it. This pulls polygons intersecting a bounding box,
 filtered to marine areas, keeping the WDPAID/NAME/IUCN_CAT/NO_TAKE attributes SeaVigil
 grades severity from, and stamps the snapshot version for reproducibility.
 
@@ -20,7 +20,7 @@ needs non-downloadable tiles + UNEP-WCMC permission (see docs/DEPLOY.md). Keep t
 IUCN/UNEP-WCMC citation + a protectedplanet.net link visible. Use a dated snapshot
 (WCMC/WDPA/YYYYMM/polygons) to pin the boundary version at incident time.
 
-Not a package dependency (earthengine-api is heavy and auth is user-specific) — run standalone.
+Not a package dependency (earthengine-api is heavy and auth is user-specific) - run standalone.
 For large regions use ee Export.table.toDrive instead of getInfo().
 """
 
@@ -56,7 +56,7 @@ def main() -> None:
 
     n = fc.size().getInfo()
     if n > 5000:
-        sys.exit(f"{n} features in bbox — too many for getInfo(); shrink the bbox "
+        sys.exit(f"{n} features in bbox - too many for getInfo(); shrink the bbox "
                  "or use Export.table.toDrive.")
 
     gj = fc.getInfo()  # a GeoJSON FeatureCollection

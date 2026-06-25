@@ -2,7 +2,7 @@
 """Pull a sample of OPEN, real AIS positions into the seavigil `--positions` schema.
 
 Source: HuggingFace `eyesofworld/AIS_Dataset` (US Gulf of Mexico, from NOAA Marine
-Cadastre; Apache-2.0), via the public datasets-server `/rows` API — no account, no
+Cadastre; Apache-2.0), via the public datasets-server `/rows` API - no account, no
 download of the full 7 GB. Lets you run the model OUT-OF-SAMPLE on a real recent feed;
 distance_from_shore / distance_from_port are computed on load (seavigil.enrich).
 

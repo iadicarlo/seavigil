@@ -6,8 +6,8 @@ account or download. Each detection has `length_m`, `fishing_score`, and `matche
 
 **Do not treat the sample as real detections.**
 
-For real use, export **point-level Sentinel-1 SAR vessel detections** — with `length_m` and
-the fishing/presence/matching scores — from the
+For real use, export **point-level Sentinel-1 SAR vessel detections** - with `length_m` and
+the fishing/presence/matching scores - from the
 [GFW Data Download Portal](https://globalfishingwatch.org/our-apis/) (the data behind
 Paolo et al., *Nature* 2024). The 4Wings *API* only returns gridded counts, not these fields,
 so the **Portal** is the right source for per-detection dossiers.
