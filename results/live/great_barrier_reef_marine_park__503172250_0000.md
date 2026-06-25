@@ -2,8 +2,8 @@
 
 - **MPA:** Great Barrier Reef Marine Park
 - **Severity:** LOW (multi-use protected area)  ·  boundary sample-approx-2024
-- **Vessel:** `503172250`  ·  **gear:** unknown
-- **When (UTC):** 2026-06-25T16:26:05Z → 2026-06-25T16:26:05Z (0.0 h)
+- **Vessel:** 🇦🇺 MANDANG  ·  **gear:** unknown
+- **When (UTC):** 2026-06-25T19:02:08Z → 2026-06-25T19:02:08Z (0.0 h)
 - **Apparent fishing:** 1 of 1 in-MPA positions; mean p=0.55, max p=0.55
 - **Where:** -16.948, 145.773 (centroid)
 - **Vs. speed baseline:** the trivial rule (speed < 10.7 kn) also flags 100% of these positions; here the speed rule alone suffices.
@@ -14,11 +14,11 @@ _mean per-position SHAP (fishing class) over the incident's fishing positions._
 
 | feature | mean value | mean SHAP |
 |---|---:|---:|
-| `distance_from_shore` | 9662.172 | +0.183 |
-| `distance_from_port` | 2052.146 | -0.135 |
-| `speed` | 0.000 | +0.042 |
-| `speed_roll_std` | 0.000 | -0.022 |
-| `hour_sin` | -0.917 | -0.011 |
+| `distance_from_shore` | 9658.744 | +0.185 |
+| `distance_from_port` | 2049.477 | -0.131 |
+| `speed` | 0.000 | +0.038 |
+| `speed_roll_std` | 0.000 | -0.024 |
+| `hour_sin` | -0.964 | -0.014 |
 
 ## Caveats
 

@@ -1,11 +1,11 @@
-# Incident `great_barrier_reef_marine_park__503338000_0000`
+# Incident `great_barrier_reef_marine_park__334853000_0000`
 
 - **MPA:** Great Barrier Reef Marine Park
 - **Severity:** LOW (multi-use protected area)  ·  boundary sample-approx-2024
-- **Vessel:** 🇦🇺 FOURCROY  ·  **gear:** unknown
-- **When (UTC):** 2026-06-25T19:01:02Z → 2026-06-25T19:01:02Z (0.0 h)
+- **Vessel:** 🇭🇳 FAKO NJORKU 1  ·  **gear:** unknown  ·  Tug  ·  to KL
+- **When (UTC):** 2026-06-25T19:01:45Z → 2026-06-25T19:01:45Z (0.0 h)
 - **Apparent fishing:** 1 of 1 in-MPA positions; mean p=0.54, max p=0.54
-- **Where:** -16.940, 145.778 (centroid)
+- **Where:** -16.941, 145.779 (centroid)
 - **Vs. speed baseline:** the trivial rule (speed < 10.7 kn) also flags 100% of these positions; here the speed rule alone suffices.
 
 ## Why this was flagged
@@ -14,8 +14,8 @@ _mean per-position SHAP (fishing class) over the incident's fishing positions._
 
 | feature | mean value | mean SHAP |
 |---|---:|---:|
-| `distance_from_shore` | 8599.180 | +0.182 |
-| `distance_from_port` | 1187.704 | -0.131 |
+| `distance_from_shore` | 8621.990 | +0.182 |
+| `distance_from_port` | 1285.887 | -0.131 |
 | `speed` | 0.000 | +0.037 |
 | `speed_roll_std` | 0.000 | -0.025 |
 | `hour_sin` | -0.965 | -0.015 |

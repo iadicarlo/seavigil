@@ -1,1 +1,1 @@
-{"total": 4, "by_type": {"ais_fishing_incident": 4}, "by_severity": {"low": 4}, "by_mpa": {"Great Barrier Reef Marine Park": 4}, "by_gear": {"unknown": 4}, "by_flag": {}, "generated_at": "2026-06-25T18:25:19Z"}
+{"total": 8, "by_type": {"ais_fishing_incident": 8}, "by_severity": {"low": 8}, "by_mpa": {"Great Barrier Reef Marine Park": 8}, "by_gear": {"unknown": 8}, "by_flag": {"AU": 6, "HN": 1, "PG": 1}, "generated_at": "2026-06-25T19:09:18Z"}
