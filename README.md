@@ -105,7 +105,10 @@ and the implementation plan.
 | Interactive static map (MapLibre, GitHub Pages) | ✅ implemented |
 | Score your own AIS/VMS feed (`--positions`, offline) | ✅ implemented |
 | Live GFW SAR ingestion (`fetch_gfw`, real dark-fleet) | ✅ implemented |
-| Wire `fetch_gfw` into the refresh cron / out-of-sample validation | ⬜ next |
+| WDPA severity grading (no-take / IUCN) + boundary versioning | ✅ implemented |
+| Baseline comparison + track snippet + full dossier view in map | ✅ implemented |
+| Real WDPA via GEE export (`scripts/wdpa_from_gee.py`) | ✅ implemented |
+| Out-of-sample validation on a real recent feed; UNEP-WCMC tile sign-off | ⬜ next |
 
 ## Data
 

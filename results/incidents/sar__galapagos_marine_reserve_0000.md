@@ -1,6 +1,7 @@
 # Dark-vessel detection `sar__galapagos_marine_reserve_0000`
 
 - **MPA:** Galápagos Marine Reserve
+- **Severity:** HIGH (no-take / national-park protection)  ·  boundary sample-approx-2024
 - **Vessel:** (dark -- no AIS identity)  ·  **source:** SAR (dark)
 - **When (UTC):** 2024-03-01T04:00:00Z
 - **Length:** 48 m  ·  **broadcasting AIS:** no (dark)  ·  **GFW fishing-score:** 0.92

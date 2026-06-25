@@ -1,10 +1,13 @@
 # Incident `papahanaumokuakea_marine_national_monument__drifting_longlines_263392518194890_0000`
 
 - **MPA:** Papahānaumokuākea Marine National Monument
+- **Severity:** HIGH (strict no-take reserve)  ·  boundary sample-approx-2024
 - **Vessel:** `drifting_longlines_263392518194890`  ·  **gear:** drifting_longlines
 - **When (UTC):** 2014-09-30T21:54:30Z → 2014-09-30T21:54:30Z (0.0 h)
 - **Apparent fishing:** 1 of 42 in-MPA positions; mean p=0.51, max p=0.51
 - **Where:** 28.225, -163.434 (centroid)
+- **Track:** 42 positions, (26.179, -163.897) → (28.225, -163.434)
+- **Vs. speed baseline:** the trivial rule (speed < 10.7 kn) also flags 100% of these positions; here the speed rule alone suffices.
 
 ## Why this was flagged
 

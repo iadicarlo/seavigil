@@ -1,10 +1,13 @@
 # Incident `phoenix_islands_protected_area__purse_seines_178183327397239_0001`
 
 - **MPA:** Phoenix Islands Protected Area
+- **Severity:** HIGH (strict no-take reserve)  ·  boundary sample-approx-2024
 - **Vessel:** `purse_seines_178183327397239`  ·  **gear:** purse_seines
 - **When (UTC):** 2013-11-11T04:38:02Z → 2013-11-11T04:39:42Z (0.028 h)
 - **Apparent fishing:** 3 of 52 in-MPA positions; mean p=0.55, max p=0.58
 - **Where:** -3.391, -172.742 (centroid)
+- **Track:** 52 positions, (-3.312, -172.974) → (-3.389, -172.742)
+- **Vs. speed baseline:** the trivial rule (speed < 10.7 kn) also flags 100% of these positions; here the speed rule alone suffices.
 
 ## Why this was flagged
 

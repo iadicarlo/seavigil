@@ -34,12 +34,19 @@ _WDPA_KEYS = ("wdpa_id", "WDPAID", "WDPA_PID")
 
 @dataclass(frozen=True)
 class MPA:
-    """One protected area: a name plus a shapely geometry."""
+    """One protected area: a name + geometry + WDPA attributes used to grade severity."""
 
     name: str
     geometry: BaseGeometry
     wdpa_id: str | None = None
     approximate: bool = False
+    iucn_cat: str | None = None   # WDPA IUCN_CAT: Ia/Ib/II/.../VI
+    no_take: str | None = None    # WDPA NO_TAKE: All / Part / None / Not Reported
+    version: str | None = None    # which WDPA snapshot (reproducibility)
+
+
+_IUCN_KEYS = ("iucn_cat", "IUCN_CAT")
+_NOTAKE_KEYS = ("no_take", "NO_TAKE", "NO_TK_AREA")
 
 
 def _first_prop(props: dict, keys: tuple[str, ...]) -> str | None:
@@ -50,15 +57,36 @@ def _first_prop(props: dict, keys: tuple[str, ...]) -> str | None:
     return None
 
 
+def grade_severity(iucn_cat: str | None, no_take: str | None) -> tuple[str, str]:
+    """Grade an in-MPA incursion's severity from WDPA protection attributes.
+
+    A vessel inside a strict no-take reserve is a far stronger lead than one in a
+    multi-use area, so the dossier should say which. Returns (level, reason).
+    """
+    cat = (iucn_cat or "").strip()
+    nt = (no_take or "").strip().lower()
+    if nt == "all" or cat in ("Ia", "Ib"):
+        return "high", "strict no-take reserve"
+    if cat == "II" or nt == "part":
+        return "high", "no-take / national-park protection"
+    if cat in ("III", "IV"):
+        return "medium", "habitat/species management area"
+    if cat in ("V", "VI"):
+        return "low", "multi-use protected area"
+    return "medium", "protected area (category not reported)"
+
+
 def load_mpas(path: str | Path | None = None) -> list[MPA]:
     """Read a GeoJSON FeatureCollection into a list of ``MPA``.
 
-    Recognises common WDPA property keys for the name and id. Features without a
-    geometry are skipped. Raises if the file yields no usable MPA.
+    Recognises common WDPA property keys (NAME, WDPAID, IUCN_CAT, NO_TAKE). A
+    top-level ``wdpa_version`` string, if present, is stamped on every MPA for
+    reproducibility. Features without a geometry are skipped.
     """
     path = Path(path) if path is not None else DEFAULT_MPA_GEOJSON
     data = json.loads(path.read_text())
     features = data.get("features", []) if isinstance(data, dict) else []
+    version = data.get("wdpa_version") if isinstance(data, dict) else None
 
     mpas: list[MPA] = []
     for feat in features:
@@ -73,6 +101,9 @@ def load_mpas(path: str | Path | None = None) -> list[MPA]:
                 geometry=shape(geom),
                 wdpa_id=_first_prop(props, _WDPA_KEYS),
                 approximate=bool(props.get("approximate", False)),
+                iucn_cat=_first_prop(props, _IUCN_KEYS),
+                no_take=_first_prop(props, _NOTAKE_KEYS),
+                version=version,
             )
         )
 

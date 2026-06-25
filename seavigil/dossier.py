@@ -18,6 +18,7 @@ import numpy as np
 
 from seavigil.explain import _positive_class_shap
 from seavigil.features import FEATURE_COLUMNS
+from seavigil.mpa import grade_severity
 
 # Carried into every dossier so a flag is never read without its limits.
 CAVEATS = [
@@ -53,6 +54,7 @@ def build_dossiers(
     top_k: int = 5,
     max_shap_per_incident: int = 50,
     random_state: int = 42,
+    baseline_threshold: float | None = None,
 ) -> list[dict]:
     """Build dossier dicts for a list of incidents.
 
@@ -98,8 +100,16 @@ def build_dossiers(
     dossiers = []
     for inc in incidents:
         d = inc.to_dict()
-        d.pop("fishing_ids", None)  # internal pointer, not part of the dossier
+        ids = d.pop("fishing_ids", None)  # internal pointer, not part of the dossier
         d["type"] = "ais_fishing_incident"
+        sev, reason = grade_severity(d.get("mpa_iucn_cat"), d.get("mpa_no_take"))
+        d["severity"], d["severity_reason"] = sev, reason
+        # Does the trivial tuned speed-rule also flag these positions, or is the
+        # model earning its complexity here?
+        if baseline_threshold is not None and ids:
+            speeds = scored.loc[ids, "speed"].to_numpy(dtype="float64")
+            d["baseline_speed_threshold_knots"] = round(float(baseline_threshold), 2)
+            d["baseline_agreement"] = round(float((speeds < baseline_threshold).mean()), 3)
         d["explanation"] = explanations.get(inc.incident_id)
         d["caveats"] = CAVEATS
         dossiers.append(d)
@@ -118,6 +128,11 @@ def render_markdown(dossier: dict) -> str:
         f"- **MPA:** {d['mpa_name']}"
         + (f" (WDPA {d['wdpa_id']})" if d.get("wdpa_id") else ""),
     ]
+    if d.get("severity"):
+        ver = f"  ·  boundary {d['mpa_version']}" if d.get("mpa_version") else ""
+        lines.append(
+            f"- **Severity:** {d['severity'].upper()} ({d.get('severity_reason', '')}){ver}"
+        )
     if is_sar:
         broadcasting = "yes" if d.get("matched_to_ais") else "no (dark)"
         length_str = f"{d['length_m']:.0f} m" if d.get("length_m") is not None else "n/a"
@@ -133,7 +148,7 @@ def render_markdown(dossier: dict) -> str:
             "",
         ]
     else:
-        lines += [
+        ais_lines = [
             f"- **Vessel:** `{d['vessel_id']}`  ·  **gear:** {d['gear']}",
             f"- **When (UTC):** {d['time_start_utc']} → {d['time_end_utc']} "
             f"({d['duration_hours']} h)",
@@ -141,8 +156,24 @@ def render_markdown(dossier: dict) -> str:
             f"in-MPA positions; mean p={d['mean_fishing_proba']:.2f}, "
             f"max p={d['max_fishing_proba']:.2f}",
             f"- **Where:** {d['centroid_lat']:.3f}, {d['centroid_lon']:.3f} (centroid)",
-            "",
         ]
+        trk = d.get("track") or []
+        if len(trk) >= 2:
+            (lo0, la0), (lo1, la1) = trk[0], trk[-1]
+            ais_lines.append(
+                f"- **Track:** {len(trk)} positions, "
+                f"({la0:.3f}, {lo0:.3f}) → ({la1:.3f}, {lo1:.3f})"
+            )
+        if d.get("baseline_agreement") is not None:
+            agree = d["baseline_agreement"] * 100
+            tail = (f"; the model additionally flags the other {100 - agree:.0f}%."
+                    if (100 - agree) >= 1 else "; here the speed rule alone suffices.")
+            ais_lines.append(
+                f"- **Vs. speed baseline:** the trivial rule (speed < "
+                f"{d['baseline_speed_threshold_knots']} kn) also flags {agree:.0f}% of "
+                f"these positions{tail}"
+            )
+        lines += ais_lines + [""]
 
     expl = d.get("explanation")
     if expl:

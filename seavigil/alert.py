@@ -56,11 +56,14 @@ def score_positions(feats: pd.DataFrame, rf, mpa_index: MPAIndex, *, scope_rows=
     scored["mpa_idx"] = mpa_idx
     scored["mpa_name"] = mpa_index.names(mpa_idx)
 
-    wdpa_lut = np.array([m.wdpa_id for m in mpa_index.mpas], dtype=object)
-    wdpa = np.full(len(scored), None, dtype=object)
+    # Attach each in-MPA position's WDPA attributes (None outside any MPA).
     inside = mpa_idx >= 0
-    wdpa[inside] = wdpa_lut[mpa_idx[inside]]
-    scored["wdpa_id"] = wdpa
+    for col, attr in (("wdpa_id", "wdpa_id"), ("mpa_iucn_cat", "iucn_cat"),
+                      ("mpa_no_take", "no_take"), ("mpa_version", "version")):
+        lut = np.array([getattr(m, attr) for m in mpa_index.mpas], dtype=object)
+        vals = np.full(len(scored), None, dtype=object)
+        vals[inside] = lut[mpa_idx[inside]]
+        scored[col] = vals
     return scored
 
 
@@ -103,9 +106,13 @@ def main() -> dict:
     feats = features.build_features(clean)
     mpa_index = MPAIndex.from_geojson(args.mpa)
 
+    speed_idx = FEATURE_COLUMNS.index("speed")
     if args.positions:
         # Train on ALL labeled data; score the external (BYO / live-GFW) positions.
-        rf = model.train_model(feats[FEATURE_COLUMNS].to_numpy(), feats["label"].to_numpy())
+        Xtr = feats[FEATURE_COLUMNS].to_numpy()
+        ytr = feats["label"].to_numpy()
+        rf = model.train_model(Xtr, ytr)
+        baseline = model.SpeedBaseline(feature_index=speed_idx).fit(Xtr, ytr)
         ext = features.build_features(data.load_positions_file(args.positions))
         print(f"[alert] 3/5 scoring {len(ext):,} external positions "
               f"({args.positions}) against {len(mpa_index)} MPAs ...")
@@ -113,10 +120,10 @@ def main() -> dict:
         scope_desc = f"positions:{args.positions}"
     else:
         train_idx, test_idx = _grouped_split_indices(feats)
-        rf = model.train_model(
-            feats.iloc[train_idx][FEATURE_COLUMNS].to_numpy(),
-            feats.iloc[train_idx]["label"].to_numpy(),
-        )
+        Xtr = feats.iloc[train_idx][FEATURE_COLUMNS].to_numpy()
+        ytr = feats.iloc[train_idx]["label"].to_numpy()
+        rf = model.train_model(Xtr, ytr)
+        baseline = model.SpeedBaseline(feature_index=speed_idx).fit(Xtr, ytr)
         print(f"[alert] 3/5 scoring scope='{args.scope}' against {len(mpa_index)} MPAs ...")
         if args.scope == "all":
             print("[alert]   note: --scope all includes in-sample train vessels (fitted scores).")
@@ -131,7 +138,7 @@ def main() -> dict:
     incs = incidents.build_incidents(
         scored, proba_threshold=args.threshold, gap_minutes=args.gap_minutes
     )
-    dossiers = dossier.build_dossiers(incs, scored, rf)
+    dossiers = dossier.build_dossiers(incs, scored, rf, baseline_threshold=baseline.threshold)
     n_ais = len(dossiers)
 
     n_sar = 0

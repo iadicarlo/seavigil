@@ -1,5 +1,6 @@
 {
   "type": "FeatureCollection",
+  "wdpa_version": "sample-approx-2024",
   "features": [
     {
       "type": "Feature",
@@ -7,6 +8,8 @@
         "name": "Galápagos Marine Reserve",
         "country": "Ecuador",
         "designation": "Marine Reserve",
+        "IUCN_CAT": "II",
+        "NO_TAKE": "Part",
         "approximate": true,
         "note": "APPROXIMATE bounding polygon for demo only; replace with official WDPA geometry for real use."
       },
@@ -21,6 +24,8 @@
         "name": "Phoenix Islands Protected Area",
         "country": "Kiribati",
         "designation": "Protected Area",
+        "IUCN_CAT": "II",
+        "NO_TAKE": "All",
         "approximate": true,
         "note": "APPROXIMATE bounding polygon for demo only; replace with official WDPA geometry for real use."
       },
@@ -35,6 +40,8 @@
         "name": "Papahānaumokuākea Marine National Monument",
         "country": "United States",
         "designation": "Marine National Monument",
+        "IUCN_CAT": "Ia",
+        "NO_TAKE": "All",
         "approximate": true,
         "note": "APPROXIMATE bounding polygon for demo only; replace with official WDPA geometry for real use."
       },
@@ -49,6 +56,8 @@
         "name": "Great Barrier Reef Marine Park",
         "country": "Australia",
         "designation": "Marine Park",
+        "IUCN_CAT": "VI",
+        "NO_TAKE": "None",
         "approximate": true,
         "note": "APPROXIMATE bounding polygon for demo only; replace with official WDPA geometry for real use."
       },

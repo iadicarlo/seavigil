@@ -21,7 +21,7 @@ import numpy as np
 import pandas as pd
 
 from seavigil.incidents import _slug
-from seavigil.mpa import MPAIndex
+from seavigil.mpa import MPAIndex, grade_severity
 
 ROOT = Path(__file__).resolve().parent.parent
 DEFAULT_SAR_GEOJSON = ROOT / "data" / "sar" / "sample_sar_detections.geojson"
@@ -125,6 +125,9 @@ def build_sar_dossiers(
 
     mpa_idx = mpa_index.assign(detections["lon"].to_numpy(), detections["lat"].to_numpy())
     wdpa_lut = np.array([m.wdpa_id for m in mpa_index.mpas], dtype=object)
+    iucn_lut = np.array([m.iucn_cat for m in mpa_index.mpas], dtype=object)
+    notake_lut = np.array([m.no_take for m in mpa_index.mpas], dtype=object)
+    version_lut = np.array([m.version for m in mpa_index.mpas], dtype=object)
     df = detections.copy()
     df["mpa_idx"] = mpa_idx
     df["mpa_name"] = mpa_index.names(mpa_idx)
@@ -157,7 +160,10 @@ def build_sar_dossiers(
         n = seq.get(mpa_name, 0)
         seq[mpa_name] = n + 1
         dark = not rd["matched_to_ais"]
-        wdpa_id = wdpa_lut[int(rd["mpa_idx"])]
+        midx = int(rd["mpa_idx"])
+        wdpa_id = wdpa_lut[midx]
+        iucn, notake, ver = iucn_lut[midx], notake_lut[midx], version_lut[midx]
+        sev, reason = grade_severity(iucn, notake)
         score_val = rd.get("fishing_score")
         if dark:
             vessel_id = "(dark -- no AIS identity)"
@@ -169,6 +175,11 @@ def build_sar_dossiers(
                 "incident_id": f"sar__{_slug(mpa_name)}_{n:04d}",
                 "mpa_name": mpa_name,
                 "wdpa_id": str(wdpa_id) if wdpa_id is not None else None,
+                "mpa_iucn_cat": iucn,
+                "mpa_no_take": notake,
+                "mpa_version": ver,
+                "severity": sev,
+                "severity_reason": reason,
                 "vessel_id": vessel_id,
                 "gear": ("SAR (dark)" if dark else f"SAR · {rd.get('geartype') or 'matched'}"),
                 "flag": rd.get("flag"),

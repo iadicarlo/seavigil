@@ -26,6 +26,13 @@
             color:#fff; margin-bottom:5px; }
     .why { color:#234; background:#eef3f6; border-radius:5px; padding:5px 7px; margin:5px 0; }
     .cav { color:#666; font-style:italic; }
+    #detail h3 { margin:0 6px 6px 0; font-size:15px; padding-right:18px; }
+    #detail .row { margin:3px 0; }
+    #detail .close { position:absolute; top:8px; right:11px; cursor:pointer; color:var(--muted); font-size:16px; }
+    .sev { display:inline-block; font-size:11px; padding:1px 7px; border-radius:9px; color:#fff; }
+    .sev-high { background:#c0392b; } .sev-medium { background:#d98324; } .sev-low { background:#3b7d54; }
+    .why2 { color:#22333b; background:#eef3f6; border-radius:5px; padding:6px 8px; margin:7px 0; }
+    .cav2 { color:var(--muted); font-size:11.5px; margin-top:7px; line-height:1.4; }
   </style>
 </head>
 <body>
@@ -45,6 +52,7 @@
   </div>
 
   <div id="stats" class="panel" style="top:12px; right:52px; max-width:230px; font-size:12.5px;"></div>
+  <div id="detail" class="panel" style="display:none; top:12px; right:52px; max-width:310px; max-height:82vh; overflow:auto; font-size:12.5px;"></div>
 
   <script>
     const map = new maplibregl.Map({
@@ -71,6 +79,7 @@
     map.on('load', async () => {
       const mpas = await (await fetch('./data/mpas.geojson')).json();
       const incidents = await (await fetch('./data/incidents.geojson')).json();
+      const tracks = await (await fetch('./data/tracks.geojson')).json();
       const summary = await (await fetch('./data/summary.json')).json();
       renderStats(summary);
 
@@ -81,6 +90,13 @@
         paint: { 'line-color': '#2bd4a8', 'line-width': 1.4 } });
       // MPA names are shown in the stats panel and click popups; a symbol/label
       // layer is intentionally omitted to avoid an external glyph-font dependency.
+
+      map.addSource('tracks', { type: 'geojson', data: tracks });
+      map.addLayer({ id: 'track-lines', type: 'line', source: 'tracks',
+        paint: { 'line-color': '#f4a236', 'line-width': 1, 'line-opacity': 0.3 } });
+      map.addLayer({ id: 'track-hi', type: 'line', source: 'tracks',
+        filter: ['==', ['get', 'id'], '__none__'],
+        paint: { 'line-color': '#ffd27f', 'line-width': 2.5, 'line-opacity': 0.95 } });
 
       map.addSource('incidents', { type: 'geojson', data: incidents });
       map.addLayer({ id: 'incident-pts', type: 'circle', source: 'incidents',
@@ -95,25 +111,46 @@
           `<div style="display:flex;justify-content:space-between;gap:12px"><span>${k}</span><span>${v}</span></div>`).join('');
         const tl = { ais_fishing_incident: 'AIS fishing', dark_vessel_sar: 'Dark (SAR)' };
         const byType = Object.fromEntries(Object.entries(s.by_type).map(([k, v]) => [tl[k] || k, v]));
+        const sev = s.by_severity || {};
+        const bySev = Object.fromEntries(['high', 'medium', 'low'].filter(k => sev[k]).map(k => [k, sev[k]]));
+        const sevRows = Object.keys(bySev).length
+          ? `<div style="margin-top:7px;color:var(--muted)">by severity</div>${rows(bySev)}` : '';
         document.getElementById('stats').innerHTML =
           `<strong>${s.total} records inside MPAs</strong>
            <div style="margin-top:7px;color:var(--muted)">by type</div>${rows(byType)}
+           ${sevRows}
            <div style="margin-top:7px;color:var(--muted)">by MPA</div>${rows(s.by_mpa)}`;
       }
 
       const kindLabel = k => k === 'dark_vessel_sar' ? 'Dark vessel (SAR)' : 'AIS apparent fishing';
       const kindColor = k => k === 'dark_vessel_sar' ? '#e0455e' : '#f4a236';
+      const detail = document.getElementById('detail');
+      const stats = document.getElementById('stats');
 
       map.on('click', 'incident-pts', (e) => {
         const p = e.features[0].properties;
-        const scoreBit = (p.score != null) ? `<strong>Score:</strong> ${p.score} &nbsp; ` : '';
-        const html = `<h3>${p.mpa}</h3>
-          <span class="pill" style="background:${kindColor(p.kind)}">${kindLabel(p.kind)}</span>
-          <div>${scoreBit}<strong>Vessel:</strong> ${p.vessel}</div>
-          <div><strong>When:</strong> ${p.when}</div>
-          ${p.why ? `<div class="why"><strong>Why:</strong> ${p.why}</div>` : ''}
-          <div class="cav">${p.caveat}</div>`;
-        new maplibregl.Popup({ maxWidth: '280px' }).setLngLat(e.lngLat).setHTML(html).addTo(map);
+        map.setFilter('track-hi', ['==', ['get', 'id'], p.id]);
+        const sevBit = p.severity
+          ? `<span class="sev sev-${p.severity}">${p.severity.toUpperCase()}</span> ${p.severity_reason || ''}` : '';
+        const scoreBit = (p.score !== '' && p.score != null) ? ` · score ${p.score}` : '';
+        const flagBit = p.flag ? ` · flag ${p.flag}` : '';
+        detail.innerHTML = `
+          <span class="close" title="close">&times;</span>
+          <h3>${p.mpa}</h3>
+          <div class="row"><span class="pill" style="background:${kindColor(p.kind)}">${kindLabel(p.kind)}</span> ${sevBit}</div>
+          <div class="row"><strong>Vessel:</strong> ${p.vessel}${flagBit}${scoreBit}</div>
+          <div class="row"><strong>Gear / source:</strong> ${p.gear}</div>
+          <div class="row"><strong>When (UTC):</strong> ${p.when}</div>
+          ${p.why_full ? `<div class="why2"><strong>Why flagged:</strong> ${p.why_full}</div>` : ''}
+          ${p.baseline ? `<div class="row"><strong>Vs. baseline:</strong> ${p.baseline}</div>` : ''}
+          <div class="cav2">${p.caveats || p.caveat}</div>`;
+        detail.style.display = 'block';
+        stats.style.display = 'none';
+        detail.querySelector('.close').onclick = () => {
+          detail.style.display = 'none';
+          stats.style.display = 'block';
+          map.setFilter('track-hi', ['==', ['get', 'id'], '__none__']);
+        };
       });
       map.on('mouseenter', 'incident-pts', () => map.getCanvas().style.cursor = 'pointer');
       map.on('mouseleave', 'incident-pts', () => map.getCanvas().style.cursor = '');

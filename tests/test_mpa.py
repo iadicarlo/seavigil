@@ -29,6 +29,21 @@ def test_sample_geojson_loads():
     assert all(m.approximate for m in mpas)  # the bundled sample is flagged approximate
 
 
+def test_grade_severity_levels():
+    assert mpa.grade_severity("Ia", "All")[0] == "high"
+    assert mpa.grade_severity("II", None)[0] == "high"
+    assert mpa.grade_severity("VI", "None")[0] == "low"
+    assert mpa.grade_severity(None, None)[0] == "medium"
+
+
+def test_sample_carries_protection_attrs():
+    mpas = {m.name: m for m in mpa.load_mpas()}
+    g = mpas["Galápagos Marine Reserve"]
+    assert g.iucn_cat == "II" and g.no_take == "Part"
+    assert g.version == "sample-approx-2024"
+    assert mpas["Great Barrier Reef Marine Park"].iucn_cat == "VI"
+
+
 def test_point_inside_and_outside_unit_square():
     idx = _square_index("Box")
     assigned = idx.assign([0.5, 5.0], [0.5, 5.0])

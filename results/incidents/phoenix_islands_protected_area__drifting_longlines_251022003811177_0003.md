@@ -1,10 +1,13 @@
 # Incident `phoenix_islands_protected_area__drifting_longlines_251022003811177_0003`
 
 - **MPA:** Phoenix Islands Protected Area
+- **Severity:** HIGH (strict no-take reserve)  ·  boundary sample-approx-2024
 - **Vessel:** `drifting_longlines_251022003811177`  ·  **gear:** drifting_longlines
 - **When (UTC):** 2014-12-03T11:06:38Z → 2014-12-03T22:57:41Z (11.851 h)
 - **Apparent fishing:** 160 of 366 in-MPA positions; mean p=0.92, max p=0.98
 - **Where:** -3.949, -174.244 (centroid)
+- **Track:** 366 positions, (-3.923, -174.220) → (-4.035, -172.825)
+- **Vs. speed baseline:** the trivial rule (speed < 10.7 kn) also flags 100% of these positions; here the speed rule alone suffices.
 
 ## Why this was flagged
 

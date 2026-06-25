@@ -47,6 +47,10 @@ class Incident:
     centroid_lat: float
     centroid_lon: float
     fishing_ids: list = field(default_factory=list)  # index labels of the fishing rows
+    mpa_iucn_cat: str | None = None
+    mpa_no_take: str | None = None
+    mpa_version: str | None = None
+    track: list = field(default_factory=list)  # [[lon, lat], ...] over the visit, time-ordered
 
     def to_dict(self) -> dict:
         d = asdict(self)
@@ -60,14 +64,22 @@ def _slug(text: str) -> str:
     return re.sub(r"[^a-z0-9]+", "_", ascii_text.lower()).strip("_") or "mpa"
 
 
+def _opt(run: pd.DataFrame, col: str) -> str | None:
+    if col in run.columns:
+        v = run[col].iloc[0]
+        return str(v) if pd.notna(v) else None
+    return None
+
+
 def _make_incident(run: pd.DataFrame, fish: pd.DataFrame, seq: int) -> Incident:
     mpa_name = str(run["mpa_name"].iloc[0])
-    wdpa_id = str(run["wdpa_id"].iloc[0]) if "wdpa_id" in run.columns and pd.notna(
-        run["wdpa_id"].iloc[0]
-    ) else None
+    wdpa_id = _opt(run, "wdpa_id")
     vessel_id = str(run["vessel_id"].iloc[0])
     t0, t1 = fish["datetime"].min(), fish["datetime"].max()
     duration_h = float((t1 - t0).total_seconds() / 3600.0)
+    trk = run.sort_values("timestamp")
+    track = [[round(float(lo), 5), round(float(la), 5)]
+             for lo, la in zip(trk["lon"], trk["lat"])][:500]
     return Incident(
         incident_id=f"{_slug(mpa_name)}__{vessel_id}_{seq:04d}",
         mpa_name=mpa_name,
@@ -84,6 +96,10 @@ def _make_incident(run: pd.DataFrame, fish: pd.DataFrame, seq: int) -> Incident:
         centroid_lat=float(fish["lat"].mean()),
         centroid_lon=float(fish["lon"].mean()),
         fishing_ids=list(fish.index),
+        mpa_iucn_cat=_opt(run, "mpa_iucn_cat"),
+        mpa_no_take=_opt(run, "mpa_no_take"),
+        mpa_version=_opt(run, "mpa_version"),
+        track=track,
     )
 
 

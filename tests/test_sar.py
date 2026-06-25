@@ -31,6 +31,13 @@ def test_dark_in_mpa_filtering():
     assert all("not broadcasting AIS (dark vessel)" in d["explanation"]["drivers"] for d in out)
 
 
+def test_sar_severity_graded_from_wdpa_attrs():
+    out = sar.build_sar_dossiers(sar.load_sar_detections(), _index())
+    by_mpa_sev = {d["mpa_name"]: d["severity"] for d in out}
+    assert by_mpa_sev["Great Barrier Reef Marine Park"] == "low"   # IUCN VI, multi-use
+    assert by_mpa_sev["Galápagos Marine Reserve"] == "high"        # IUCN II
+
+
 def test_matched_fishing_geartype_is_kept_without_score():
     import pandas as pd
     # A matched (broadcasting) detection inside Galápagos with a FISHING geartype and

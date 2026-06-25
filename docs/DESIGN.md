@@ -240,6 +240,9 @@ deep-learning frameworks (no GPU), any cloud SDK.
 10. ✅ `site.py` + `web/` static MapLibre site + Pages workflow (§6.6).
 11. ✅ Bring-your-own AIS scoring (`data.load_positions_file`, `alert --positions`) + tests.
 12. ✅ Live GFW SAR ingestion (`fetch_gfw.py`, token) + richer SAR dossiers + tests (§6.4).
+13. ✅ Dossier deepening: WDPA severity (no-take/IUCN) + boundary version, speed-baseline
+    comparison, per-incident track, by-severity/by-flag stats, full dossier view in the map.
+14. ✅ Real WDPA via GEE export (`scripts/wdpa_from_gee.py`) — loader already accepts WDPA keys.
 
 ## 9. How we'll know it works (evaluation)
 

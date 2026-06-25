@@ -18,17 +18,24 @@ MPA_GEOJSON = ROOT / "data" / "mpa" / "sample_mpas.geojson"
 WEB_DATA = ROOT / "web" / "data"
 
 
-def _why(d: dict) -> str:
+def _why(d: dict, *, full: bool = False) -> str:
     expl = d.get("explanation")
     if not expl:
         return ""
-    if "top_drivers" in expl:  # AIS: top SHAP drivers
-        return "; ".join(
-            f"{r['feature']} ({r['mean_shap']:+.2f})" for r in expl["top_drivers"][:3]
-        )
+    if "top_drivers" in expl:  # AIS: SHAP drivers
+        rows = expl["top_drivers"] if full else expl["top_drivers"][:3]
+        return " · ".join(f"{r['feature']} ({r['mean_shap']:+.2f})" for r in rows)
     if "drivers" in expl:  # SAR: attribute bullets
-        return "; ".join(expl["drivers"])
+        return " · ".join(expl["drivers"])
     return ""
+
+
+def _baseline_line(d: dict) -> str:
+    if d.get("baseline_agreement") is None:
+        return ""
+    agree = d["baseline_agreement"] * 100
+    tail = f"; model adds {100 - agree:.0f}%" if (100 - agree) >= 1 else "; rule alone suffices"
+    return f"speed rule (<{d['baseline_speed_threshold_knots']} kn) flags {agree:.0f}%{tail}"
 
 
 def _count(dossiers: list[dict], key, default="unknown") -> dict:
@@ -49,6 +56,7 @@ def summarize(dossiers: list[dict]) -> dict:
     return {
         "total": len(dossiers),
         "by_type": _count(dossiers, "type", default="ais_fishing_incident"),
+        "by_severity": _count([d for d in dossiers if d.get("severity")], "severity"),
         "by_mpa": _count(dossiers, "mpa_name"),
         "by_gear": _count(dossiers, "gear"),
         # Flag-state breakdown is only populated when records carry a flag (real GFW
@@ -71,17 +79,38 @@ def incidents_to_geojson(dossiers: list[dict]) -> dict:
                     "id": d["incident_id"],
                     "kind": d.get("type", "ais_fishing_incident"),
                     "mpa": d["mpa_name"],
+                    "severity": d.get("severity") or "",
+                    "severity_reason": d.get("severity_reason") or "",
                     "when": d["time_start_utc"],
                     "score": (round(float(d["mean_fishing_proba"]), 2)
                               if d.get("mean_fishing_proba") is not None else None),
                     "vessel": d.get("vessel_id", ""),
                     "gear": d.get("gear", ""),
+                    "flag": d.get("flag") or "",
                     "why": _why(d),
+                    "why_full": _why(d, full=True),
+                    "baseline": _baseline_line(d),
+                    # whole caveat list joined for the full dossier view
+                    "caveats": " | ".join(d.get("caveats") or []),
                     "caveat": (d.get("caveats") or [""])[0],
                 },
             }
         )
     return {"type": "FeatureCollection", "features": features}
+
+
+def tracks_to_geojson(dossiers: list[dict]) -> dict:
+    """LineString per incident that has a track (>=2 points) — for the map's path layer."""
+    feats = []
+    for d in dossiers:
+        trk = d.get("track") or []
+        if len(trk) >= 2:
+            feats.append({
+                "type": "Feature",
+                "geometry": {"type": "LineString", "coordinates": trk},
+                "properties": {"id": d["incident_id"], "kind": d.get("type", "ais_fishing_incident")},
+            })
+    return {"type": "FeatureCollection", "features": feats}
 
 
 def build_site(
@@ -97,6 +126,7 @@ def build_site(
     (out_dir / "incidents.geojson").write_text(
         json.dumps(incidents_to_geojson(dossiers))
     )
+    (out_dir / "tracks.geojson").write_text(json.dumps(tracks_to_geojson(dossiers)))
     (out_dir / "summary.json").write_text(json.dumps(summarize(dossiers)))
 
     # Sample MPA boxes pass through as-is. NOTE: real WDPA polygons are

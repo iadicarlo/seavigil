@@ -101,6 +101,16 @@ def test_write_dossiers_creates_files(tmp_path):
     assert (tmp_path / f"{loaded[0]['incident_id']}.md").exists()
 
 
+def test_baseline_agreement_in_dossier():
+    rf, X = _tiny_model_and_scored()
+    scored = _scored_with_incident(rf, X)
+    inc = incidents.build_incidents(scored)
+    d = dossier.build_dossiers(inc, scored, rf, baseline_threshold=3.0)[0]
+    assert 0.0 <= d["baseline_agreement"] <= 1.0
+    assert d["baseline_speed_threshold_knots"] == 3.0
+    assert "Vs. speed baseline" in dossier.render_markdown(d)
+
+
 def test_shap_is_sampled_for_large_incidents():
     rf, X = _tiny_model_and_scored()
     scored = _scored_with_incident(rf, X)
