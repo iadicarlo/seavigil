@@ -1,7 +1,9 @@
 # SeaVigil — outreach pack
 
 Drafts to reach Global Fishing Watch, conservation NGOs, and National Geographic. Sender:
-independent / solo (fill in `[Your name]`). Ask: **collaboration / feedback** (low-friction).
+Isma Abdelkader Di Carlo (independent / solo). Ask: **collaboration / feedback** (low-friction).
+Links: code https://github.com/iadicarlo/SeaVigil · live map https://iadicarlo.github.io/SeaVigil
+(the live map goes up once GitHub Pages is enabled).
 Honest framing throughout — lead with what's genuinely ours, name the limits ourselves.
 
 > Before sending, clear the gates in [`DEPLOY.md`](DEPLOY.md): re-verify Skylight still ships
@@ -39,7 +41,7 @@ WDPA data).
 
 **Proof points.** Runs in ~90 s on CPU. Verified live on GFW SAR: ~6,200 detections / ~1,100
 dark inside four large MPAs over 2024. Per-flag SHAP dossiers + a static MapLibre map.
-Repo: `[link]` · live map: `[link after Pages deploy]`.
+Repo: https://github.com/iadicarlo/SeaVigil · live map: https://iadicarlo.github.io/SeaVigil.
 
 ---
 
@@ -49,7 +51,7 @@ Repo: `[link]` · live map: `[link after Pages deploy]`.
 
 Hi `[name]`,
 
-I'm `[Your name]`, an independent developer. I built a small open, non-commercial tool —
+I'm Isma Abdelkader Di Carlo, an independent developer. I built a small open, non-commercial tool —
 SeaVigil — **on top of your data**: it trains on your open labels and (where useful) consumes
 your published SAR detections. I want to be upfront that it reproduces your fishing-detection
 *target*; I'm not claiming to have invented detection, and I know Skylight already ships MPA
@@ -62,11 +64,11 @@ treats your output as a signal to *explain and make actionable*, not to re-deriv
 
 I'd genuinely value your feedback — whether this is useful, whether I've framed your work
 fairly, and whether there's a complementary direction worth pursuing. Repo and a short demo:
-`[links]`. Happy to talk at whatever depth is useful.
+https://github.com/iadicarlo/SeaVigil · https://iadicarlo.github.io/SeaVigil. Happy to talk at whatever depth is useful.
 
 Thank you for making the data open — none of this exists without it.
 
-`[Your name]`
+Isma Abdelkader Di Carlo
 
 ---
 
@@ -76,7 +78,7 @@ Thank you for making the data open — none of this exists without it.
 
 Hi `[name]`,
 
-I'm `[Your name]`, an independent developer. I've built SeaVigil, a free, non-commercial tool
+I'm Isma Abdelkader Di Carlo, an independent developer. I've built SeaVigil, a free, non-commercial tool
 that flags apparent fishing and dark (non-broadcasting) vessels **inside Marine Protected
 Areas** and produces a per-incident dossier — with a plain, auditable reason for each flag.
 
@@ -88,11 +90,11 @@ proof*, and I keep that explicit.
 
 Given your work in this space, I'd really value your read: is the offline + explainable angle
 useful to the partners you serve? What would make it credible enough to pilot? Repo + demo:
-`[links]`.
+https://github.com/iadicarlo/SeaVigil · https://iadicarlo.github.io/SeaVigil.
 
 Thanks for considering it,
 
-`[Your name]`
+Isma Abdelkader Di Carlo
 
 ---
 
@@ -102,7 +104,7 @@ Thanks for considering it,
 
 Hi `[name]`,
 
-I'm `[Your name]`, an independent developer. I built SeaVigil, a free, non-commercial tool that
+I'm Isma Abdelkader Di Carlo, an independent developer. I built SeaVigil, a free, non-commercial tool that
 turns vessel-movement and satellite signals into an **auditable, per-incident dossier** of
 apparent fishing and dark vessels inside Marine Protected Areas — designed to run **offline on
 a laptop** so an under-resourced coastal authority can actually use it.
@@ -113,18 +115,18 @@ people without a cloud budget. I've verified it on real satellite detections ins
 like the Galápagos.
 
 I'd value your perspective — whether this resonates with your conservation/enforcement work, and
-whether there's a way it could support it. Repo + a short visual demo: `[links]`. Honest about
+whether there's a way it could support it. Repo + a short visual demo: https://github.com/iadicarlo/SeaVigil · https://iadicarlo.github.io/SeaVigil. Honest about
 the limits: it's an inspection lead, not proof, and strictly non-commercial.
 
 Warm regards,
 
-`[Your name]`
+Isma Abdelkader Di Carlo
 
 ---
 
 ## What to show them
 
-- **Live map** (`[URL after Pages deploy]`) — AIS apparent-fishing (orange, with a SHAP "why")
+- **Live map** (https://iadicarlo.github.io/SeaVigil) — AIS apparent-fishing (orange, with a SHAP "why")
   vs dark-vessel SAR (red), click-through to the reason.
 - **One AIS SHAP dossier** + **one dark-vessel dossier** from `results/incidents/` (e.g. a
   Phoenix Islands longline incident and a `sar__…` dark detection).
