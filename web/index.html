@@ -44,6 +44,8 @@
     <div><span class="dot" style="background:var(--sar)"></span>Dark vessel (SAR, not broadcasting AIS)</div>
   </div>
 
+  <div id="stats" class="panel" style="top:12px; right:52px; max-width:230px; font-size:12.5px;"></div>
+
   <script>
     const map = new maplibregl.Map({
       container: 'map',
@@ -69,15 +71,16 @@
     map.on('load', async () => {
       const mpas = await (await fetch('./data/mpas.geojson')).json();
       const incidents = await (await fetch('./data/incidents.geojson')).json();
+      const summary = await (await fetch('./data/summary.json')).json();
+      renderStats(summary);
 
       map.addSource('mpas', { type: 'geojson', data: mpas });
       map.addLayer({ id: 'mpa-fill', type: 'fill', source: 'mpas',
         paint: { 'fill-color': '#2bd4a8', 'fill-opacity': 0.12 } });
       map.addLayer({ id: 'mpa-line', type: 'line', source: 'mpas',
         paint: { 'line-color': '#2bd4a8', 'line-width': 1.4 } });
-      map.addLayer({ id: 'mpa-label', type: 'symbol', source: 'mpas',
-        layout: { 'text-field': ['get', 'name'], 'text-size': 11 },
-        paint: { 'text-color': '#cdeee3', 'text-halo-color': '#06121a', 'text-halo-width': 1.2 } });
+      // MPA names are shown in the stats panel and click popups; a symbol/label
+      // layer is intentionally omitted to avoid an external glyph-font dependency.
 
       map.addSource('incidents', { type: 'geojson', data: incidents });
       map.addLayer({ id: 'incident-pts', type: 'circle', source: 'incidents',
@@ -86,6 +89,17 @@
           'circle-color': ['match', ['get', 'kind'], 'dark_vessel_sar', '#e0455e', '#f4a236'],
           'circle-stroke-color': '#ffffff', 'circle-stroke-width': 1.2, 'circle-opacity': 0.9
         } });
+
+      function renderStats(s) {
+        const rows = o => Object.entries(o).map(([k, v]) =>
+          `<div style="display:flex;justify-content:space-between;gap:12px"><span>${k}</span><span>${v}</span></div>`).join('');
+        const tl = { ais_fishing_incident: 'AIS fishing', dark_vessel_sar: 'Dark (SAR)' };
+        const byType = Object.fromEntries(Object.entries(s.by_type).map(([k, v]) => [tl[k] || k, v]));
+        document.getElementById('stats').innerHTML =
+          `<strong>${s.total} records inside MPAs</strong>
+           <div style="margin-top:7px;color:var(--muted)">by type</div>${rows(byType)}
+           <div style="margin-top:7px;color:var(--muted)">by MPA</div>${rows(s.by_mpa)}`;
+      }
 
       const kindLabel = k => k === 'dark_vessel_sar' ? 'Dark vessel (SAR)' : 'AIS apparent fishing';
       const kindColor = k => k === 'dark_vessel_sar' ? '#e0455e' : '#f4a236';

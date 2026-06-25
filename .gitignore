@@ -16,8 +16,9 @@ models/
 # Keep placeholders
 !**/.gitkeep
 
-# OS / editor
+# OS / editor / tooling
 .DS_Store
 .idea/
 .vscode/
 node_modules/
+.claude/launch.json

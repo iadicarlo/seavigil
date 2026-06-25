@@ -31,6 +31,29 @@ def _why(d: dict) -> str:
     return ""
 
 
+def _count(dossiers: list[dict], key, default="unknown") -> dict:
+    out: dict = {}
+    for d in dossiers:
+        k = d.get(key, default) if isinstance(key, str) else key(d)
+        out[str(k)] = out.get(str(k), 0) + 1
+    return dict(sorted(out.items(), key=lambda kv: -kv[1]))
+
+
+def summarize(dossiers: list[dict]) -> dict:
+    """Breakdown counts for the map's stats panel.
+
+    Note: a *flag-state* breakdown (as in some monitors) is not possible here -- the
+    GFW training labels are anonymized (no flag). That needs GFW vessel-identity data
+    (a later, live-API step). We break down by what the data actually carries.
+    """
+    return {
+        "total": len(dossiers),
+        "by_type": _count(dossiers, "type", default="ais_fishing_incident"),
+        "by_mpa": _count(dossiers, "mpa_name"),
+        "by_gear": _count(dossiers, "gear"),
+    }
+
+
 def incidents_to_geojson(dossiers: list[dict]) -> dict:
     features = []
     for d in dossiers:
@@ -70,6 +93,7 @@ def build_site(
     (out_dir / "incidents.geojson").write_text(
         json.dumps(incidents_to_geojson(dossiers))
     )
+    (out_dir / "summary.json").write_text(json.dumps(summarize(dossiers)))
 
     # Sample MPA boxes pass through as-is. NOTE: real WDPA polygons are
     # non-commercial and must NOT be shipped as a downloadable GeoJSON -- convert

@@ -40,7 +40,17 @@ def test_incidents_to_geojson_lonlat_and_why():
     assert "inside MPA" in f1["properties"]["why"]
 
 
-def test_build_site_writes_both_files(tmp_path):
+def test_summarize_counts_by_type_mpa_gear():
+    sar = {"type": "dark_vessel_sar", "mpa_name": "Y", "gear": "SAR detection"}
+    s = site.summarize([_ais(), _ais(mpa_name="Z"), sar])
+    assert s["total"] == 3
+    assert s["by_type"]["ais_fishing_incident"] == 2
+    assert s["by_type"]["dark_vessel_sar"] == 1
+    assert set(s["by_mpa"]) == {"X", "Z", "Y"}
+    assert s["by_gear"]["trawlers"] == 2
+
+
+def test_build_site_writes_all_files(tmp_path):
     inc = tmp_path / "incidents.json"
     inc.write_text(json.dumps([_ais(explanation=None)]))
     mpa = tmp_path / "mpas.geojson"
@@ -49,6 +59,8 @@ def test_build_site_writes_both_files(tmp_path):
 
     res = site.build_site(inc, mpa, out)
     assert res["n_records"] == 1
-    assert (out / "incidents.geojson").exists() and (out / "mpas.geojson").exists()
+    for f in ("incidents.geojson", "mpas.geojson", "summary.json"):
+        assert (out / f).exists()
     gj = json.loads((out / "incidents.geojson").read_text())
     assert gj["features"][0]["geometry"]["coordinates"] == [2.0, 1.0]
+    assert json.loads((out / "summary.json").read_text())["total"] == 1
