@@ -99,6 +99,8 @@ def incidents_to_geojson(dossiers: list[dict]) -> dict:
                     "eez": d.get("eez_name") or "",
                     "eez_sovereign": d.get("eez_sovereign") or "",
                     "eez_foreign": d.get("eez_foreign"),
+                    "evidence_hash": d.get("evidence_hash") or "",
+                    "evidence_schema": d.get("evidence_schema") or "",
                     "why": _why(d),
                     "why_full": _why(d, full=True),
                     "baseline": _baseline_line(d),

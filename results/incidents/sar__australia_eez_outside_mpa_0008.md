@@ -22,3 +22,13 @@ _SAR detection attributes (no AIS track or identity; not SHAP-explainable)._
 - length_m and fishing_score are GFW model estimates from imagery, not ground truth.
 - MPA boundary may be approximate; verify against official WDPA limits.
 - An inspection lead, not courtroom evidence.
+
+## Provenance & integrity
+
+- Global Fishing Watch Sentinel-1 SAR vessel detections (Paolo et al., Nature 2024). CC BY-NC 4.0 (non-commercial).
+- WDPA / WD-OECM (World Database on Protected Areas) (UNEP-WCMC and IUCN (2026), June 2026). Protected Planet Terms of Use (non-commercial, display-only).
+- Marine Regions Exclusive Economic Zones v12 (Flanders Marine Institute (2024), DOI 10.14284/632). CC BY 4.0.
+- **Integrity (SHA-256 of canonical facts):** `7f5874eb1100e63d0c128c2e7b4045c3be12404331bc8cf2cd354775b39fc7a5`
+- **Evidence schema:** seavigil-evidence-1.0
+
+_Apparent activity and an inspection lead, not proof of illegality. AIS and SAR evidence have known coverage gaps and spoofing risks; verify against authoritative sources before any enforcement action._

@@ -28,6 +28,7 @@ from pathlib import Path
 sys.path.insert(0, str(Path(__file__).resolve().parent.parent))
 
 from seavigil.dossier import write_dossiers  # noqa: E402
+from seavigil.evidence import enrich_evidence  # noqa: E402
 from seavigil.jurisdiction import enrich_jurisdiction  # noqa: E402
 from seavigil.mpa import MPAIndex, grade_severity  # noqa: E402
 from seavigil.sar import _slug, build_sar_dossiers, load_sar_detections  # noqa: E402
@@ -178,6 +179,7 @@ def main() -> None:
             p.unlink()
 
     merged = enrich_jurisdiction(ais + sar)  # tag each incident with its EEZ + foreign flag
+    enrich_evidence(merged)                  # stamp tamper-evident hash + schema
     write_dossiers(merged, INC_DIR)
 
     by_mpa: dict = {}

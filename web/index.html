@@ -331,6 +331,7 @@
     }
 
     function setMode(live, summary) {
+      GENERATED_AT = (summary && summary.generated_at) || null;
       const asof = (summary && summary.generated_at) ? ` Data as of ${summary.generated_at} UTC.` : '';
       const v = document.getElementById('vintage');
       v.innerHTML = live
@@ -451,7 +452,8 @@
           ${whyBlock(p, isSar)}
           ${p.baseline ? `<div class="row" style="color:var(--muted)"><strong style="color:var(--teal-bright)">Vs. baseline:</strong> ${esc(p.baseline)}</div>` : ''}
           <div class="cav2">${esc(p.caveats || p.caveat || '')}</div>
-          <button type="button" class="dlbtn" id="dl-dossier">Download dossier (JSON)</button>`;
+          ${p.evidence_hash ? `<div class="row" style="font-size:10px;color:var(--faint)">Evidence ID (SHA-256): <code>${esc(p.evidence_hash.slice(0, 16))}</code></div>` : ''}
+          <button type="button" class="dlbtn" id="dl-dossier">Download evidence (JSON)</button>`;
         detail.querySelector('.close').onclick = closeDetail;
         detail.querySelector('#dl-dossier').onclick = () => downloadDossier(p);
       }
@@ -507,11 +509,41 @@
       return out;
     }
 
+    // Data lineage mirrored from seavigil/evidence.py (kept in sync by review).
+    const TYPE_SOURCES = {
+      ais_fishing_incident: { dataset: 'GFW labelled AIS training data', reference: 'Kroodsma et al., Science 2018', license: 'CC BY 4.0', url: 'https://globalfishingwatch.org' },
+      dark_vessel_sar: { dataset: 'GFW Sentinel-1 SAR vessel detections', reference: 'Paolo et al., Nature 2024', license: 'CC BY-NC 4.0', url: 'https://globalfishingwatch.org' },
+    };
+    const BOUNDARY_SOURCES = [
+      { dataset: 'WDPA / WD-OECM', reference: 'UNEP-WCMC and IUCN (2026)', version: 'June 2026', license: 'Protected Planet Terms (non-commercial, display-only)', url: 'https://www.protectedplanet.net' },
+      { dataset: 'Marine Regions EEZ v12', reference: 'Flanders VLIZ (2024)', license: 'CC BY 4.0', url: 'https://www.marineregions.org' },
+    ];
+    const EVIDENCE_DISCLAIMER = 'Apparent activity and an inspection lead, not proof of illegality. AIS and SAR evidence have known coverage gaps and spoofing risks; verify against authoritative sources before any enforcement action.';
+    let GENERATED_AT = null;
+
     function downloadDossier(p) {
-      const blob = new Blob([JSON.stringify(p, null, 2)], { type: 'application/json' });
+      const sources = [];
+      if (TYPE_SOURCES[p.kind]) sources.push(TYPE_SOURCES[p.kind]);
+      sources.push(...BOUNDARY_SOURCES);
+      const pkg = {
+        schema: p.evidence_schema || 'seavigil-evidence-1.0',
+        incident_id: p.id,
+        generated_at: GENERATED_AT,
+        detection: { type: p.kind, severity: p.severity || null, severity_reason: p.severity_reason || null,
+          model_fishing_score: (p.score ?? null), explanation: p.why_full || p.why || null },
+        location: { mpa: p.mpa || null, eez: p.eez || null, eez_sovereign: p.eez_sovereign || null,
+          eez_foreign: (p.eez_foreign ?? null), when_utc: p.when || null },
+        vessel: { id: p.vessel || null, name: p.ship_name || null, flag: p.flag || null, ship_type: p.ship_type || null },
+        provenance: sources,
+        integrity: { algorithm: 'sha256', hash: p.evidence_hash || null,
+          note: 'SHA-256 over the incident canonical facts; recompute server-side to verify the record is unaltered.' },
+        caveats: (p.caveats || p.caveat || '').split(' | ').filter(Boolean),
+        disclaimer: EVIDENCE_DISCLAIMER,
+      };
+      const blob = new Blob([JSON.stringify(pkg, null, 2)], { type: 'application/json' });
       const a = document.createElement('a');
       a.href = URL.createObjectURL(blob);
-      a.download = `seavigil_dossier_${(p.id || 'incident')}.json`;
+      a.download = `seavigil_evidence_${(p.id || 'incident')}.json`;
       document.body.appendChild(a); a.click(); a.remove();
       URL.revokeObjectURL(a.href);
     }

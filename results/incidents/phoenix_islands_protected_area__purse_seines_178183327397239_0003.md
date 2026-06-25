@@ -28,3 +28,13 @@ _mean per-position SHAP (fishing class) over the incident's fishing positions._
 - AIS-only: blind to vessels not broadcasting AIS (~75% of industrial fishing vessels).
 - MPA boundary may be approximate; verify against official WDPA limits.
 - An inspection lead, not courtroom evidence.
+
+## Provenance & integrity
+
+- Global Fishing Watch labelled AIS training data (Kroodsma et al., Science 2018). CC BY 4.0.
+- WDPA / WD-OECM (World Database on Protected Areas) (UNEP-WCMC and IUCN (2026), June 2026). Protected Planet Terms of Use (non-commercial, display-only).
+- Marine Regions Exclusive Economic Zones v12 (Flanders Marine Institute (2024), DOI 10.14284/632). CC BY 4.0.
+- **Integrity (SHA-256 of canonical facts):** `00841e5a5533e9942d9936fe6caffa98f6296473f2db38588447b74832216802`
+- **Evidence schema:** seavigil-evidence-1.0
+
+_Apparent activity and an inspection lead, not proof of illegality. AIS and SAR evidence have known coverage gaps and spoofing risks; verify against authoritative sources before any enforcement action._

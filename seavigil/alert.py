@@ -27,7 +27,7 @@ import numpy as np
 import pandas as pd
 from sklearn.model_selection import GroupShuffleSplit
 
-from seavigil import data, dossier, features, incidents, jurisdiction, model, sar
+from seavigil import data, dossier, evidence, features, incidents, jurisdiction, model, sar
 from seavigil.features import FEATURE_COLUMNS
 from seavigil.mpa import MPAIndex
 
@@ -153,6 +153,7 @@ def main() -> dict:
 
     print("[alert] 5/5 writing dossiers ...")
     jurisdiction.enrich_jurisdiction(dossiers)  # tag each incident with its EEZ + foreign flag
+    evidence.enrich_evidence(dossiers)          # stamp tamper-evident hash + schema
     manifest = dossier.write_dossiers(dossiers, args.out)
 
     summary = {
