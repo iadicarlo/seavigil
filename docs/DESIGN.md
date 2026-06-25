@@ -94,8 +94,9 @@ posture is **a thin, auditable layer _on top of_ GFW-style signals**, consuming 
 **Honest limits we state ourselves** (so we read as sober collaborators, not a hype clone):
 output is an *inspection-triggering intelligence prompt*, not courtroom proof (VMS outranks
 public AIS/SAR in court); AIS-only is blind to the ~75% dark fleet — consume GFW's published
-SAR detections to close part of it (see §6.5); GFW data and WDPA boundaries are both
-**non-commercial**.
+SAR detections to close part of it (see §6.5). **Licensing nuance:** the training labels are
+**CC BY 4.0** (commercial OK), but GFW's SAR/live-API data and WDPA boundaries are **CC BY-NC**
+(non-commercial) — so *adding the dark fleet* is what binds SeaVigil to non-commercial use.
 
 ### 5.1 Re-verify before any public deploy
 
@@ -160,10 +161,41 @@ inside real MPA boundaries.
 - **Honesty guard:** every dossier carries the model's caveats inline; the word "apparent" is
   load-bearing and stays.
 
-### 6.4 Out of scope for v2 (named, not silently dropped)
+### 6.4 Out of scope (named, not silently dropped)
 
-Live GFW-API ingestion; SAR/AIS fusion; interactive map; prospective forecasting; small-boat
-labels. Each is a deliberate later step (see README status table), not a claim we make now.
+Live GFW-API *fetching* (we ingest exported files, not a live token in this repo); prospective
+forecasting; small-boat optical detection; training our own SAR classifier. Each is a
+deliberate later step, not a claim we make now.
+
+### 6.5 Dark-fleet / SAR dossiers (`sar.py`)
+
+Consume GFW's already-published Sentinel-1 SAR detections (Paolo et al., *Nature* 2024) — no
+imagery, CNN, or GPU. Each detection is a point with `length_m`, `fishing_score`, and an
+AIS **matched/unmatched** flag; **unmatched = dark**. They flow through the *same* `mpa.py`
+overlay, but produce a **distinct dossier type**:
+
+- **Why SHAP cannot apply here.** A SAR detection is a single radar blip with **no movement
+  track and no AIS identity** — none of the per-position features (speed, turning, …) the
+  RF/SHAP explain *exist* for it. This is a missing-input fact about the data source, **not**
+  a retreat from explainability: AIS incidents keep their per-flag SHAP; the XAI core is
+  unchanged. (If per-flag SHAP on the dark fleet were ever wanted, it requires training our
+  own classifier on SAR-derived features — §6.4, later.)
+- **The SAR rationale instead is attribute-based** and often *stronger* as a lead: "industrial
+  length, inside a no-take MPA, **not broadcasting AIS**, fishing-score 0.9." `sar.py` emits a
+  `dark_vessel_sar` dossier carrying exactly that.
+- Data: `data/sar/sample_sar_detections.geojson` (synthetic, flagged) for the demo; real use
+  pulls a **GFW Data Download Portal** export (point-level, with `length_m`/`fishing_score`).
+  License: **CC BY-NC** (non-commercial) — see §5.
+
+### 6.6 Static site (`site.py` + `web/`)
+
+GitHub Pages is static and cannot call the GFW API from the browser (token in header, no CORS,
+non-commercial, rate limits). Pattern = **precompute-and-ship-static**: a local/CI job runs the
+pipeline and emits static GeoJSON; the browser loads only files. `site.py` converts
+`results/incidents/` + MPA polygons into `web/data/*.geojson`; `web/index.html` renders them
+with **MapLibre GL** (handles many points; Leaflet chokes) and a click-through to each dossier.
+Production refresh is a GitHub Actions cron with the GFW token in Actions secrets; the WDPA
+layer must be shipped as **non-extractable tiles** (UNEP-WCMC license, §5.1).
 
 ## 7. Tools & dependencies (and why)
 
@@ -186,13 +218,15 @@ deep-learning frameworks (no GPU), any cloud SDK.
 ## 8. Build order (commit-per-step)
 
 1. ✅ Commit v1 baseline + pytest config.
-2. ✅ README rewrite (positioning).
+2. ✅ README rewrite (positioning), re-verified + corrected after Skylight finding.
 3. ✅ This design sketch.
-4. `mpa.py` + `data/mpa/sample_mpas.geojson` + tests → commit.
-5. `incidents.py` + tests → commit.
-6. `dossier.py` + tests → commit.
-7. `alert.py` entrypoint wiring end-to-end + tests → commit.
-8. Run on real labeled data, write `results/incidents/`, update README status → commit.
+4. ✅ `mpa.py` + `data/mpa/sample_mpas.geojson` + tests.
+5. ✅ `incidents.py` + tests.
+6. ✅ `dossier.py` + tests (SHAP bounded per incident).
+7. ✅ `alert.py` entrypoint wiring end-to-end + tests.
+8. ✅ Run on real labeled data, commit illustrative `results/incidents/`.
+9. 🔨 `sar.py` dark-fleet dossiers + sample + tests (this is §6.5).
+10. 🔨 `site.py` + `web/` static MapLibre site + Pages workflow (§6.6).
 
 ## 9. How we'll know it works (evaluation)
 
@@ -210,7 +244,8 @@ deep-learning frameworks (no GPU), any cloud SDK.
   aspirational. We say "near-line triage", not "live".
 - **Legal:** remote-sensing-only evidence rarely sustains prosecution; output is a lead.
 - **Coverage:** AIS-only ⇒ blind to ~75% dark fleet; industrial gears only (2012–2015).
-- **License:** GFW data is non-commercial ⇒ SeaVigil stays a public-good / NGO tool.
+- **License:** training labels are CC BY 4.0 (commercial OK); GFW SAR/API data + WDPA are
+  CC BY-NC ⇒ once the dark fleet is added, SeaVigil stays a public-good / non-commercial tool.
 - **Freshness:** the "GFW has no MPA alerting" and "no competitor ships per-flag explanation"
   claims are ~22 months old — **re-verify before outreach.**
 

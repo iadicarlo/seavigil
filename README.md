@@ -106,14 +106,18 @@ and the implementation plan.
 
 - **Training labels:** [GFW labeled AIS training data](https://github.com/GlobalFishingWatch/training-data)
   — positions hand-labeled fishing vs. not, by gear type (Kroodsma et al., *Science* 2018;
-  vessels 2012–2015; trawlers, drifting longlines, purse seines). Licensed **CC BY-NC** —
-  **non-commercial**; SeaVigil is a non-commercial / public-good tool accordingly. Raw data
-  is **not committed**; the pipeline regenerates it.
+  vessels 2012–2015; trawlers, drifting longlines, purse seines). Licensed **CC BY 4.0**
+  (attribution; commercial use permitted). Raw data is **not committed**; the pipeline
+  regenerates it.
 - **MPA boundaries:** a small bundled sample of large MPAs for reproducibility; the loader
-  accepts any [WDPA](https://www.protectedplanet.net/) MPA polygon set (GeoJSON).
+  accepts any [WDPA](https://www.protectedplanet.net/) MPA polygon set (GeoJSON). **Note:**
+  WDPA boundaries are **non-commercial** and may not be redistributed as a downloadable web
+  map — ship them as non-extractable tiles, not raw GeoJSON.
 - **Known blind spot:** AIS-only models cannot see the **~75% of industrial fishing vessels
-  that don't broadcast AIS** (the "dark fleet", Paolo et al., *Nature* 2024). SeaVigil is
-  honest about this; SAR fusion is a later, additive step, not a claim made today.
+  that don't broadcast AIS** (the "dark fleet", Paolo et al., *Nature* 2024). The fix is to
+  *consume* GFW's already-published Sentinel-1 SAR detections (no imagery processing needed) —
+  but those are **CC BY-NC** (non-commercial), so adding the dark fleet binds SeaVigil to
+  non-commercial use. See [`docs/DESIGN.md`](docs/DESIGN.md) §6.5.
 
 ## Reproduce
 
