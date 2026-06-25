@@ -110,6 +110,9 @@ and the implementation plan.
 | Real WDPA via GEE export (`scripts/wdpa_from_gee.py`) | ✅ implemented |
 | Distance enrichment - raw AIS feed → scorable (`seavigil.enrich`) | ✅ implemented |
 | Open-AIS fetch + verified out-of-sample run (`scripts/fetch_open_ais.py`) | ✅ implemented |
+| Near-real-time AIS stream (`scripts/fetch_live_ais.py`, aisstream.io) | ✅ implemented |
+| Real WDPA from Protected Planet `.gdb` (`scripts/wdpa_gdb_to_geojson.py`) | ✅ implemented |
+| Logo + favicon + responsive UI (mobile/tablet/desktop) | ✅ implemented |
 | **Live site**: https://iadicarlo.github.io/SeaVigil | ✅ deployed |
 | UNEP-WCMC tile sign-off for a public WDPA layer | ⬜ next (your action) |
 

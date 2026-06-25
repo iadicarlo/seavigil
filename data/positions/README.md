@@ -29,6 +29,21 @@ open API caps at ~100 rows; for a fuller feed download NOAA daily AIS in bulk (s
 Verified: a transiting cargo vessel scores out-of-sample as expected (median fishing prob
 0.01; only its slow points score high) - the model isn't fooled by fast transit.
 
+## Near-real-time AIS (live)
+
+```bash
+export AISSTREAM_KEY=...   # free key from aisstream.io, kept in .env (gitignored)
+uv run --with websockets python scripts/fetch_live_ais.py \
+  --bbox -24.5,142.5,-10.5,154.0 --seconds 60 --out data/positions/live_ais_real.csv
+uv run python -m seavigil.alert --positions data/positions/live_ais_real.csv \
+  --mpa data/mpa/wdpa_marine_sample.geojson
+```
+
+Streams live PositionReports from aisstream.io for a bounding box. Because a static site
+cannot hold a socket, "near-real-time" means a scheduled job runs this every N minutes for the
+monitored MPAs, then re-scores and republishes. The free tier is throttled, so use longer
+windows or a paid feed for volume.
+
 ## Why not pull AIS from GFW?
 
 GFW does **not** redistribute raw AIS positions (speed/course per point), so the per-position
