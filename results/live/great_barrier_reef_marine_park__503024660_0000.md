@@ -4,7 +4,7 @@
 - **Severity:** LOW (multi-use protected area)  ·  boundary sample-approx-2024
 - **EEZ:** Australia EEZ (Australia)  (flag matches coastal state)
 - **Vessel:** 🇦🇺 YOUNG BLOOD II  ·  **gear:** unknown
-- **When (UTC):** 2026-06-27T06:20:48Z → 2026-06-27T06:20:48Z (0.0 h)
+- **When (UTC):** 2026-06-27T09:22:38Z → 2026-06-27T09:22:38Z (0.0 h)
 - **Apparent fishing:** 1 of 1 in-MPA positions; mean p=0.56, max p=0.56
 - **Where:** -16.964, 145.795 (centroid)
 - **Vs. speed baseline:** the trivial rule (speed < 10.7 kn) also flags 100% of these positions; here the speed rule alone suffices.
@@ -15,11 +15,11 @@ _mean per-position SHAP (fishing class) over the incident's fishing positions._
 
 | feature | mean value | mean SHAP |
 |---|---:|---:|
-| `distance_from_shore` | 10199.648 | +0.182 |
-| `distance_from_port` | 4339.263 | -0.119 |
-| `speed` | 0.100 | +0.027 |
-| `hour_sin` | 0.996 | +0.024 |
-| `speed_roll_mean` | 0.100 | -0.024 |
+| `distance_from_shore` | 10214.034 | +0.177 |
+| `distance_from_port` | 4373.996 | -0.107 |
+| `speed` | 0.000 | +0.033 |
+| `speed_roll_std` | 0.000 | -0.020 |
+| `hour_cos` | -0.772 | -0.018 |
 
 ## Caveats
 
@@ -34,7 +34,7 @@ _mean per-position SHAP (fishing class) over the incident's fishing positions._
 - WDPA / WD-OECM (World Database on Protected Areas) (UNEP-WCMC and IUCN (2026), June 2026). Protected Planet Terms of Use (non-commercial, display-only).
 - Marine Regions Exclusive Economic Zones v12 (Flanders Marine Institute (2024), DOI 10.14284/632). CC BY 4.0.
 - **Model confidence:** Fishing probabilities are well-calibrated (Brier 0.0915 on 408,194 held-out positions from vessels not seen in training); read the score as a probability.
-- **Integrity (SHA-256 of canonical facts):** `6d318642ef1dfa2b848f9c1df8b63b951744536d3256e0889279b7b69d158cde`
+- **Integrity (SHA-256 of canonical facts):** `3fcea0689f912750168941bcd01b9e8cd89f5472c2a3b087ae3f286553ec6533`
 - **Evidence schema:** seavigil-evidence-1.0
 
 _Apparent activity and an inspection lead, not proof of illegality. AIS and SAR evidence have known coverage gaps and spoofing risks; verify against authoritative sources before any enforcement action._
