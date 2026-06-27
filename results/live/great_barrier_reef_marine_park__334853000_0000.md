@@ -3,10 +3,11 @@
 - **MPA:** Great Barrier Reef Marine Park
 - **Severity:** LOW (multi-use protected area)  ·  boundary sample-approx-2024
 - **EEZ:** Australia EEZ (Australia) -- FOREIGN-flagged vessel (licensing not verified)
-- **Vessel:** 🇭🇳 FAKO NJORKU 1  ·  **gear:** unknown
-- **When (UTC):** 2026-06-27T02:07:15Z → 2026-06-27T02:07:15Z (0.0 h)
-- **Apparent fishing:** 1 of 1 in-MPA positions; mean p=0.68, max p=0.68
+- **Vessel:** 🇭🇳 FAKO NJORKU 1  ·  **gear:** unknown  ·  Tug  ·  to KL
+- **When (UTC):** 2026-06-27T13:06:57Z → 2026-06-27T13:07:57Z (0.017 h)
+- **Apparent fishing:** 2 of 2 in-MPA positions; mean p=0.52, max p=0.52
 - **Where:** -16.941, 145.779 (centroid)
+- **Track:** 2 positions, (-16.941, 145.779) → (-16.941, 145.779)
 - **Vs. speed baseline:** the trivial rule (speed < 10.7 kn) also flags 100% of these positions; here the speed rule alone suffices.
 
 ## Why this was flagged
@@ -15,11 +16,11 @@ _mean per-position SHAP (fishing class) over the incident's fishing positions._
 
 | feature | mean value | mean SHAP |
 |---|---:|---:|
-| `distance_from_shore` | 8619.219 | +0.213 |
-| `distance_from_port` | 1285.193 | -0.102 |
-| `speed` | 0.000 | +0.047 |
-| `hour_cos` | 0.850 | +0.031 |
-| `speed_roll_std` | 0.000 | -0.025 |
+| `distance_from_shore` | 8622.259 | +0.162 |
+| `distance_from_port` | 1287.299 | -0.112 |
+| `hour_cos` | -0.958 | -0.028 |
+| `speed` | 0.000 | +0.025 |
+| `speed_roll_std` | 0.000 | -0.018 |
 
 ## Caveats
 
@@ -34,7 +35,7 @@ _mean per-position SHAP (fishing class) over the incident's fishing positions._
 - WDPA / WD-OECM (World Database on Protected Areas) (UNEP-WCMC and IUCN (2026), June 2026). Protected Planet Terms of Use (non-commercial, display-only).
 - Marine Regions Exclusive Economic Zones v12 (Flanders Marine Institute (2024), DOI 10.14284/632). CC BY 4.0.
 - **Model confidence:** Fishing probabilities are well-calibrated (Brier 0.0915 on 408,194 held-out positions from vessels not seen in training); read the score as a probability.
-- **Integrity (SHA-256 of canonical facts):** `5c545585dcc38b9dd57fa7d1380a1334452947d11548d67394a8c474005fa9b2`
+- **Integrity (SHA-256 of canonical facts):** `f766cfa7556f4c1266c37380aa17d53b16eda4cd594196d8823fdc7d1e2d7758`
 - **Evidence schema:** seavigil-evidence-1.0
 
 _Apparent activity and an inspection lead, not proof of illegality. AIS and SAR evidence have known coverage gaps and spoofing risks; verify against authoritative sources before any enforcement action._
