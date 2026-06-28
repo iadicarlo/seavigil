@@ -1,1 +1,68 @@
-[]
+[
+  {
+    "incident_id": "great_barrier_reef_marine_park__503177400_0000",
+    "mpa_name": "Great Barrier Reef Marine Park",
+    "wdpa_id": null,
+    "vessel_id": "503177400",
+    "gear": "unknown",
+    "time_start_utc": "2026-06-28T20:05:36Z",
+    "time_end_utc": "2026-06-28T20:05:36Z",
+    "duration_hours": 0.0,
+    "n_positions": 1,
+    "n_fishing_positions": 1,
+    "mean_fishing_proba": 0.5468567235678976,
+    "max_fishing_proba": 0.5468567235678976,
+    "centroid_lat": -19.259315,
+    "centroid_lon": 146.84045333333333,
+    "mpa_iucn_cat": "VI",
+    "mpa_no_take": "None",
+    "mpa_version": "sample-approx-2024",
+    "type": "ais_fishing_incident",
+    "severity": "low",
+    "severity_reason": "multi-use protected area",
+    "ship_name": "PMG PRIDE",
+    "flag": "AU",
+    "destination": null,
+    "ship_type": null,
+    "baseline_speed_threshold_knots": 10.7,
+    "baseline_agreement": 1.0,
+    "explanation": {
+      "method": "mean per-position SHAP (fishing class) over the incident's fishing positions",
+      "top_drivers": [
+        {
+          "feature": "distance_from_shore",
+          "mean_value": 8192.5624,
+          "mean_shap": 0.1852
+        },
+        {
+          "feature": "distance_from_port",
+          "mean_value": 1895.1859,
+          "mean_shap": -0.1352
+        },
+        {
+          "feature": "speed",
+          "mean_value": 0.0,
+          "mean_shap": 0.0384
+        },
+        {
+          "feature": "speed_roll_std",
+          "mean_value": 0.0,
+          "mean_shap": -0.0275
+        },
+        {
+          "feature": "hour_sin",
+          "mean_value": -0.8549,
+          "mean_shap": -0.0065
+        }
+      ]
+    },
+    "caveats": [
+      "Apparent fishing inferred from AIS movement, not proven illegal fishing.",
+      "AIS-only: blind to vessels not broadcasting AIS (~75% of industrial fishing vessels).",
+      "MPA boundary may be approximate; verify against official WDPA limits.",
+      "An inspection lead, not courtroom evidence."
+    ],
+    "evidence_schema": "seavigil-evidence-1.0",
+    "evidence_hash": "96d8eea903325d735bc24d79ed308f62239bbf1ea675077f7f92b488c933c435"
+  }
+]
