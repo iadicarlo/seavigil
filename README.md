@@ -121,7 +121,7 @@ and the implementation plan.
 | Real WDPA boundaries on the map as non-extractable tiles (`web/tiles/mpas.pmtiles`) | ✅ implemented |
 | Dark 3D-globe map (MapLibre GL 5): glowing AIS/SAR, layer toggles, jump-to-MPA, SHAP dossier | ✅ implemented |
 | Logo + favicon + responsive UI (mobile/tablet/desktop) | ✅ implemented |
-| **Live site**: https://iadicarlo.github.io/SeaVigil | ✅ deployed |
+| **Live site**: https://iadicarlo.github.io/seavigil | ✅ deployed |
 | UNEP-WCMC goodwill notice for the non-commercial WDPA layer | ⬜ optional (your action) |
 
 ## Data

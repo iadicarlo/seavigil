@@ -2,7 +2,7 @@
 
 Drafts to reach Global Fishing Watch, conservation NGOs, and National Geographic. Sender:
 Isma Abdelkader Di Carlo (independent / solo). Ask: **collaboration / feedback** (low-friction).
-Links: code https://github.com/iadicarlo/SeaVigil · live map https://iadicarlo.github.io/SeaVigil
+Links: code https://github.com/iadicarlo/SeaVigil · live map https://iadicarlo.github.io/seavigil
 (the live map goes up once GitHub Pages is enabled).
 Honest framing throughout - lead with what's genuinely ours, name the limits ourselves.
 
@@ -41,7 +41,7 @@ WDPA data).
 
 **Proof points.** Runs in ~90 s on CPU. Verified live on GFW SAR: ~6,200 detections / ~1,100
 dark inside four large MPAs over 2024. Per-flag SHAP dossiers + a static MapLibre map.
-Repo: https://github.com/iadicarlo/SeaVigil · live map: https://iadicarlo.github.io/SeaVigil.
+Repo: https://github.com/iadicarlo/SeaVigil · live map: https://iadicarlo.github.io/seavigil.
 
 ---
 
@@ -64,7 +64,7 @@ treats your output as a signal to *explain and make actionable*, not to re-deriv
 
 I'd genuinely value your feedback - whether this is useful, whether I've framed your work
 fairly, and whether there's a complementary direction worth pursuing. Repo and a short demo:
-https://github.com/iadicarlo/SeaVigil · https://iadicarlo.github.io/SeaVigil. Happy to talk at whatever depth is useful.
+https://github.com/iadicarlo/SeaVigil · https://iadicarlo.github.io/seavigil. Happy to talk at whatever depth is useful.
 
 Thank you for making the data open - none of this exists without it.
 
@@ -90,7 +90,7 @@ proof*, and I keep that explicit.
 
 Given your work in this space, I'd really value your read: is the offline + explainable angle
 useful to the partners you serve? What would make it credible enough to pilot? Repo + demo:
-https://github.com/iadicarlo/SeaVigil · https://iadicarlo.github.io/SeaVigil.
+https://github.com/iadicarlo/SeaVigil · https://iadicarlo.github.io/seavigil.
 
 Thanks for considering it,
 
@@ -115,7 +115,7 @@ people without a cloud budget. I've verified it on real satellite detections ins
 like the Galápagos.
 
 I'd value your perspective - whether this resonates with your conservation/enforcement work, and
-whether there's a way it could support it. Repo + a short visual demo: https://github.com/iadicarlo/SeaVigil · https://iadicarlo.github.io/SeaVigil. Honest about
+whether there's a way it could support it. Repo + a short visual demo: https://github.com/iadicarlo/SeaVigil · https://iadicarlo.github.io/seavigil. Honest about
 the limits: it's an inspection lead, not proof, and strictly non-commercial.
 
 Warm regards,
@@ -126,7 +126,7 @@ Isma Abdelkader Di Carlo
 
 ## What to show them
 
-- **Live map** (https://iadicarlo.github.io/SeaVigil) - AIS apparent-fishing (orange, with a SHAP "why")
+- **Live map** (https://iadicarlo.github.io/seavigil) - AIS apparent-fishing (orange, with a SHAP "why")
   vs dark-vessel SAR (red), click-through to the reason.
 - **One AIS SHAP dossier** + **one dark-vessel dossier** from `results/incidents/` (e.g. a
   Phoenix Islands longline incident and a `sar__…` dark detection).
