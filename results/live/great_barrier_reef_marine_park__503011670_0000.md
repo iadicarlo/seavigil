@@ -3,9 +3,10 @@
 - **MPA:** Great Barrier Reef Marine Park
 - **Severity:** LOW (multi-use protected area)  ·  boundary sample-approx-2024
 - **Vessel:** 🇦🇺 QPV PERRY IRWIN  ·  **gear:** unknown
-- **When (UTC):** 2026-06-28T02:28:40Z → 2026-06-28T02:28:40Z (0.0 h)
-- **Apparent fishing:** 1 of 1 in-MPA positions; mean p=0.68, max p=0.68
+- **When (UTC):** 2026-06-28T11:40:50Z → 2026-06-28T11:40:50Z (0.0 h)
+- **Apparent fishing:** 1 of 2 in-MPA positions; mean p=0.51, max p=0.51
 - **Where:** -16.952, 145.773 (centroid)
+- **Track:** 2 positions, (-16.952, 145.773) → (-16.952, 145.773)
 - **Vs. speed baseline:** the trivial rule (speed < 10.7 kn) also flags 100% of these positions; here the speed rule alone suffices.
 
 ## Why this was flagged
@@ -14,11 +15,11 @@ _mean per-position SHAP (fishing class) over the incident's fishing positions._
 
 | feature | mean value | mean SHAP |
 |---|---:|---:|
-| `distance_from_shore` | 10043.775 | +0.213 |
-| `distance_from_port` | 2506.174 | -0.107 |
-| `speed` | 0.000 | +0.044 |
-| `hour_cos` | 0.799 | +0.032 |
-| `speed_roll_std` | 0.000 | -0.022 |
+| `distance_from_shore` | 10042.847 | +0.158 |
+| `distance_from_port` | 2504.626 | -0.100 |
+| `hour_cos` | -0.996 | -0.033 |
+| `speed` | 0.000 | +0.028 |
+| `speed_roll_std` | 0.000 | -0.020 |
 
 ## Caveats
 
@@ -33,7 +34,7 @@ _mean per-position SHAP (fishing class) over the incident's fishing positions._
 - WDPA / WD-OECM (World Database on Protected Areas) (UNEP-WCMC and IUCN (2026), June 2026). Protected Planet Terms of Use (non-commercial, display-only).
 - Marine Regions Exclusive Economic Zones v12 (Flanders Marine Institute (2024), DOI 10.14284/632). CC BY 4.0.
 - **Model confidence:** Fishing probabilities are well-calibrated (Brier 0.0915 on 408,194 held-out positions from vessels not seen in training); read the score as a probability.
-- **Integrity (SHA-256 of canonical facts):** `bb7d3d2dc48fd36f4744db67da2762d28b8e7e41e9c27aaec81fb418c39f76f9`
+- **Integrity (SHA-256 of canonical facts):** `9859f1849bc3af5be09171b53120e4229220547f7bb88b32e4dffaa73d9266bc`
 - **Evidence schema:** seavigil-evidence-1.0
 
 _Apparent activity and an inspection lead, not proof of illegality. AIS and SAR evidence have known coverage gaps and spoofing risks; verify against authoritative sources before any enforcement action._
