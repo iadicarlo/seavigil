@@ -3,8 +3,8 @@
 - **MPA:** Great Barrier Reef Marine Park
 - **Severity:** LOW (multi-use protected area)  ·  boundary sample-approx-2024
 - **Vessel:** 🇵🇬 GFS MARINE 02  ·  **gear:** unknown
-- **When (UTC):** 2026-06-27T22:55:04Z → 2026-06-27T22:55:04Z (0.0 h)
-- **Apparent fishing:** 1 of 1 in-MPA positions; mean p=0.67, max p=0.67
+- **When (UTC):** 2026-06-29T00:01:05Z → 2026-06-29T00:01:05Z (0.0 h)
+- **Apparent fishing:** 1 of 1 in-MPA positions; mean p=0.68, max p=0.68
 - **Where:** -16.956, 145.797 (centroid)
 - **Vs. speed baseline:** the trivial rule (speed < 10.7 kn) also flags 100% of these positions; here the speed rule alone suffices.
 
@@ -14,11 +14,11 @@ _mean per-position SHAP (fishing class) over the incident's fishing positions._
 
 | feature | mean value | mean SHAP |
 |---|---:|---:|
-| `distance_from_shore` | 9311.067 | +0.207 |
-| `distance_from_port` | 3759.501 | -0.094 |
-| `speed` | 0.000 | +0.046 |
-| `hour_cos` | 0.960 | +0.030 |
-| `speed_roll_std` | 0.000 | -0.024 |
+| `distance_from_shore` | 9311.223 | +0.210 |
+| `distance_from_port` | 3758.918 | -0.086 |
+| `speed` | 0.000 | +0.047 |
+| `hour_cos` | 1.000 | +0.027 |
+| `speed_roll_std` | 0.000 | -0.023 |
 
 ## Caveats
 
@@ -33,7 +33,7 @@ _mean per-position SHAP (fishing class) over the incident's fishing positions._
 - WDPA / WD-OECM (World Database on Protected Areas) (UNEP-WCMC and IUCN (2026), June 2026). Protected Planet Terms of Use (non-commercial, display-only).
 - Marine Regions Exclusive Economic Zones v12 (Flanders Marine Institute (2024), DOI 10.14284/632). CC BY 4.0.
 - **Model confidence:** Fishing probabilities are well-calibrated (Brier 0.0915 on 408,194 held-out positions from vessels not seen in training); read the score as a probability.
-- **Integrity (SHA-256 of canonical facts):** `18cd537f6bf0d5273400391238e7732e9426d715f555255c95763e58200f780d`
+- **Integrity (SHA-256 of canonical facts):** `56c6fc2a989e1ff5d0594e6a43c9eecfe926ecdaf09469e52d448a92b4fc6cdc`
 - **Evidence schema:** seavigil-evidence-1.0
 
 _Apparent activity and an inspection lead, not proof of illegality. AIS and SAR evidence have known coverage gaps and spoofing risks; verify against authoritative sources before any enforcement action._
