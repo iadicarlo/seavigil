@@ -23,6 +23,7 @@ sys.path.insert(0, str(Path(__file__).resolve().parent))   # sibling helpers
 from seavigil import evidence, site  # noqa: E402
 from seavigil.dossier import write_dossiers  # noqa: E402
 from seavigil.jurisdiction import enrich_jurisdiction  # noqa: E402
+from seavigil.landmask import drop_land  # noqa: E402
 from seavigil.mpa import MPAIndex  # noqa: E402
 from sar_detections_to_incidents import _match_ais  # noqa: E402  (reuse the 3-way matcher)
 
@@ -115,6 +116,9 @@ def build(detections_csv: str, ais_csv: str | None = None) -> list[dict]:
             dossiers.append(_dossier(seq, scene, t, lon, lat, r.get("radiance", ""),
                                      in_mpa, (m.name if m else None),
                                      (m.no_take if m else None), (m.iucn_cat if m else None)))
+    dossiers, n_land = drop_land(dossiers)
+    if n_land:
+        print(f"land mask: dropped {n_land} detection(s) on land (false positives)")
     if ais_csv:
         matched, dark, nocov = _match_ais(dossiers, ais_csv)
         print(f"AIS matching: {matched} matched, {dark} dark (reception nearby), {nocov} no coverage")

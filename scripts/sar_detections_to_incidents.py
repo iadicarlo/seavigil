@@ -29,6 +29,7 @@ sys.path.insert(0, str(Path(__file__).resolve().parent.parent))
 from seavigil import evidence, site  # noqa: E402
 from seavigil.dossier import write_dossiers  # noqa: E402
 from seavigil.jurisdiction import enrich_jurisdiction  # noqa: E402
+from seavigil.landmask import drop_land  # noqa: E402
 from seavigil.mpa import MPAIndex, grade_severity  # noqa: E402
 
 ROOT = Path(__file__).resolve().parent.parent
@@ -227,6 +228,9 @@ def build(detections_csv: str, ais_csv: str | None = None) -> list[dict]:
                 _f(r, "vessel_length_m"), float(r.get("is_fishing_vessel") or 0),
                 float(r.get("score") or 0), _f(r, "vessel_speed_k") or 0.0, _heading_deg(r),
                 in_mpa, (m.name if m else None), (m.no_take if m else None), (m.iucn_cat if m else None)))
+    dossiers, n_land = drop_land(dossiers)
+    if n_land:
+        print(f"land mask: dropped {n_land} detection(s) on land (false positives)")
     if ais_csv:
         matched, dark, nocov = _match_ais(dossiers, ais_csv)
         print(f"AIS matching: {matched} matched a broadcast, {dark} dark (reception nearby, no "
