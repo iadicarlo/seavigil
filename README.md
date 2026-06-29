@@ -28,7 +28,7 @@ Every flag is tagged with the EEZ it falls in (global Marine Regions boundaries)
 - **Near-real-time monitor** (`?live`): the GFW Events API (gaps + encounters, about a 3-4 day lag) plus live AIS spoofing, filtered to the high-signal subset (a foreign or unauthorized vessel inside another state's EEZ, or a no-take incursion), refreshed hourly by a GitHub Action.
 - **Alerts** ([alerts.html](https://iadicarlo.github.io/seavigil/alerts.html) + an [RSS feed](https://iadicarlo.github.io/seavigil/alerts.xml)): new high-severity leads, each carrying its flag, EEZ, authorization status, and reason.
 
-The SAR (dark-vessel) layer can be either **consumed** from GFW or **run by us on demand**: [`notebooks/sentinel1_vessel_detection.ipynb`](notebooks/sentinel1_vessel_detection.ipynb) runs the open, pre-trained **Allen Institute** Sentinel-1 detector (Apache-2.0, the model behind Skylight) on a free Colab GPU over a Copernicus scene we choose, and `scripts/sar_detections_to_incidents.py` folds the detections (length, heading, fishing-vessel class) into a `?sar` view with jurisdiction, dark-vessel AIS matching, and evidence. So we control where and when we look, instead of waiting for GFW to publish.
+The SAR (dark-vessel) layer can be either **consumed** from GFW or **run by us on demand**. The `?sar` view shows a real run: our own pass of the open, pre-trained **Allen Institute** Sentinel-1 detector (Apache-2.0, the model behind Skylight) over a June 2026 Copernicus scene of the **Galapagos Marine Reserve**, reading just the chosen area of interest straight from the Cloud-Optimized GeoTIFFs on S3 (no bulk download). [`scripts/run_sentinel1_detection.py`](scripts/run_sentinel1_detection.py) runs it locally on CPU, and [`notebooks/sentinel1_vessel_detection.ipynb`](notebooks/sentinel1_vessel_detection.ipynb) runs the same path on a free Colab GPU; [`scripts/sar_detections_to_incidents.py`](scripts/sar_detections_to_incidents.py) then folds the detections (length, heading, fishing-vessel class) into the `?sar` view with jurisdiction, dark-vessel AIS matching, and evidence. So we control where and when we look, instead of waiting for GFW to publish.
 
 The interface is available in **English, Spanish, French, and Portuguese**, and the site loads **zero external resources** (every library, font, glyph, and the basemap are vendored locally), so it runs fully offline.
 
@@ -95,6 +95,16 @@ uv run python scripts/fetch_authorizations.py                            # GFW r
 uv run python scripts/swap_real_sar.py && uv run python -m seavigil.site # regenerate web/data
 ```
 
+Run our own Sentinel-1 SAR detection over a scene we choose (needs the open Allen model cloned, a small conda env, and Copernicus S3 keys; the one-time setup is in the script header):
+
+```bash
+AWS_ACCESS_KEY_ID=... AWS_SECRET_ACCESS_KEY=... ./vds-env/bin/python scripts/run_sentinel1_detection.py \
+  --vds /path/to/vessel-detection-sentinels \
+  --scene S1D_IW_GRDH_1SDV_20260627T114116_20260627T114145_003421_006075_6BE9_COG.SAFE \
+  --bbox -90.5 -0.85 -90.0 -0.35 --out results/sar/predictions.csv
+uv run python scripts/sar_detections_to_incidents.py --detections results/sar/predictions.csv
+```
+
 Run the near-real-time monitor (needs `GFW_TOKEN`; `AISSTREAM_KEY` adds live spoofing):
 
 ```bash
@@ -113,6 +123,8 @@ python3 scripts/serve.py 8000   # then open http://localhost:8000  (and ?live)
 |---|---|---|
 | GFW labeled AIS training data | Kroodsma et al., *Science* 2018 | CC BY 4.0 |
 | GFW Sentinel-1 SAR detections | Paolo et al., *Nature* 2024 | CC BY-NC 4.0 |
+| Sentinel-1 SAR vessel detector (our on-demand runs) | Allen Institute, vessel-detection-sentinels | Apache-2.0 |
+| Sentinel-1 GRD imagery (our on-demand runs) | Copernicus Data Space Ecosystem (ESA) | free and open |
 | GFW events + vessel identity / authorizations | globalfishingwatch.org API | CC BY-NC 4.0 |
 | AIS disabling (going dark) | Welch et al., *Science Advances* 2022 | CC BY-NC |
 | At-sea transshipment | Miller et al., *Frontiers in Marine Science* 2018 | CC BY-NC |
