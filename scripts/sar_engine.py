@@ -135,6 +135,8 @@ def main() -> None:
     ap.add_argument("--max-scenes", type=int, default=2, help="cap scenes per run (CPU bound)")
     ap.add_argument("--aoi-deg", type=float, default=0.5)
     ap.add_argument("--conf", type=float, default=0.7)
+    ap.add_argument("--accumulate-days", type=int, default=14,
+                    help="keep the last N days of detections in ?sar (a rolling map); 0 = overwrite")
     ap.add_argument("--device", default="cpu", choices=["cpu", "cuda"])
     a = ap.parse_args()
 
@@ -219,6 +221,7 @@ def main() -> None:
                 w.writerow(["vessel_id", "timestamp", "lat", "lon"])
                 w.writerows(ais_rows)
             cmd += ["--ais", str(ais_csv)]
+        cmd += ["--accumulate-days", str(a.accumulate_days)]
         print(f"publish: {len(det_rows)} detections, {len(ais_rows)} GFW AIS positions")
         subprocess.run(cmd, check=True)
     else:

@@ -18,10 +18,12 @@ from __future__ import annotations
 
 import argparse
 import csv
+import json
 import math
 import re
+import subprocess
 import sys
-from datetime import datetime
+from datetime import datetime, timedelta, timezone
 from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parent.parent))
@@ -240,15 +242,51 @@ def build(detections_csv: str, ais_csv: str | None = None) -> list[dict]:
     return dossiers
 
 
+def _accumulate(dossiers, keep_days):
+    """Merge this run's dossiers with the committed accumulated set, dedup by (scene, position),
+    and keep only the last keep_days. This turns ?sar from a snapshot of the latest run into a
+    rolling multi-hotspot map. The prior set is read from the last commit, so it works in CI."""
+    try:
+        prev_txt = subprocess.run(["git", "show", "HEAD:results/sar/incidents.json"],
+                                  cwd=ROOT, capture_output=True, text=True, timeout=30).stdout
+        prev = json.loads(prev_txt) if prev_txt.strip() else []
+    except Exception:
+        prev = []
+    cutoff = datetime.now(timezone.utc) - timedelta(days=keep_days)
+
+    def key(d):
+        return (d.get("scene_id"), round(d.get("centroid_lat") or 0, 4), round(d.get("centroid_lon") or 0, 4))
+
+    def fresh(d):
+        try:
+            return datetime.fromisoformat((d.get("time_start_utc") or "").replace("Z", "+00:00")) >= cutoff
+        except (ValueError, AttributeError):
+            return True
+
+    seen, out = set(), []
+    for d in list(dossiers) + list(prev):   # this run first, so it wins on dedup
+        k = key(d)
+        if k in seen or not fresh(d):
+            continue
+        seen.add(k)
+        out.append(d)
+    print(f"accumulate: {len(dossiers)} new + {len(prev)} prior -> {len(out)} kept (last {keep_days}d)")
+    return out
+
+
 def main() -> None:
     ap = argparse.ArgumentParser(description="Fold Sentinel-1 SAR detections into SeaVigil")
     ap.add_argument("--detections", required=True, help="detections CSV from the Colab notebook")
     ap.add_argument("--ais", default=None, help="optional AIS positions CSV (vessel_id,timestamp,lat,lon) to flag dark")
+    ap.add_argument("--accumulate-days", type=int, default=0,
+                    help="merge with the committed ?sar set and keep the last N days (a rolling map); 0 = overwrite")
     a = ap.parse_args()
 
     dossiers = build(a.detections, a.ais)
     enrich_jurisdiction(dossiers)
     evidence.enrich_evidence(dossiers)
+    if a.accumulate_days > 0:
+        dossiers = _accumulate(dossiers, a.accumulate_days)
     OUT_INC.mkdir(parents=True, exist_ok=True)
     for p in OUT_INC.glob("*.md"):
         if p.name != "INDEX.md":
