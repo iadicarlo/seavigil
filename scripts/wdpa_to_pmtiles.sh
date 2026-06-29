@@ -30,14 +30,14 @@ done
 TMP="$(mktemp -d)"
 trap 'rm -rf "$TMP"' EXIT
 
-echo "[1/3] simplify polygons (keep shapes, drop vertices)…"
+echo "[1/3] simplify polygons (keep shapes, drop vertices)..."
 mapshaper "$IN" -simplify 8% keep-shapes -o "$TMP/simplified.geojson"
 
-echo "[2/3] tile (zoom 0–8)…"
+echo "[2/3] tile (zoom 0-8)..."
 tippecanoe -o "$TMP/mpas.mbtiles" -l mpas -z8 -Z0 \
   --drop-densest-as-needed --force "$TMP/simplified.geojson"
 
-echo "[3/3] pack to PMTiles → $OUT…"
+echo "[3/3] pack to PMTiles -> $OUT..."
 pmtiles convert "$TMP/mpas.mbtiles" "$OUT"
 
 echo "Done: $OUT"
