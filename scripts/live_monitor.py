@@ -18,7 +18,7 @@ from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parent.parent))
 
-from seavigil import authorization, evidence, iuu_list, live_monitor, site  # noqa: E402
+from seavigil import authorization, evidence, iuu_list, live_monitor, notify, site  # noqa: E402
 from seavigil.dossier import write_dossiers  # noqa: E402
 from seavigil.jurisdiction import enrich_jurisdiction  # noqa: E402
 
@@ -144,6 +144,7 @@ def main() -> None:
     n_iuu = iuu_list.enrich_iuu(feed)  # known-offender flag (RFMO IUU lists); forces severity high
     if n_iuu:
         print(f"IUU cross-reference: {n_iuu} incident(s) match an RFMO IUU-listed vessel")
+    notify.notify_incidents(feed)  # push NEW high-severity leads to a webhook if SEAVIGIL_WEBHOOK_URL set
 
     evidence.enrich_evidence(feed)
     LIVE_INC.mkdir(parents=True, exist_ok=True)
