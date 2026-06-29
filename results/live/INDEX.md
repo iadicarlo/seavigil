@@ -1,6 +1,6 @@
 # In-MPA records
 
-45 record(s): 45 AIS fishing incident(s), 0 dark-vessel SAR detection(s).
+44 record(s): 44 AIS fishing incident(s), 0 dark-vessel SAR detection(s).
 
 | id | type | MPA | start (UTC) | score / mean p |
 |---|---|---|---|---:|
@@ -16,7 +16,6 @@
 | [live_enco_4d468496cf3e41](live_enco_4d468496cf3e41.md) | AIS fishing | At-sea encounter (transshipment) | 2026-06-25T13:20:00.000Z | - |
 | [live_enco_e8f3f9ed810178](live_enco_e8f3f9ed810178.md) | AIS fishing | At-sea encounter (transshipment) | 2026-06-25T15:50:00.000Z | - |
 | [live_enco_20120711599c30](live_enco_20120711599c30.md) | AIS fishing | At-sea encounter (transshipment) | 2026-06-25T14:30:00.000Z | - |
-| [live_enco_4ba1934d4219db](live_enco_4ba1934d4219db.md) | AIS fishing | At-sea encounter (transshipment) | 2026-06-25T11:40:00.000Z | - |
 | [live_enco_0b6d40cac60b93](live_enco_0b6d40cac60b93.md) | AIS fishing | At-sea encounter (transshipment) | 2026-06-25T12:00:00.000Z | - |
 | [live_enco_bff33cca04be94](live_enco_bff33cca04be94.md) | AIS fishing | At-sea encounter (transshipment) | 2026-06-25T12:00:00.000Z | - |
 | [live_ais__0a451f3a9ace9f](live_ais__0a451f3a9ace9f.md) | AIS fishing | AIS disabling (going dark) | 2026-06-24T05:56:06.000Z | - |
