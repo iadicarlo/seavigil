@@ -175,8 +175,10 @@ def render_markdown(dossier: dict) -> str:
         who = (f"{flag_e} " if flag_e else "") + (
             d["ship_name"] if d.get("ship_name") else f"`{d['vessel_id']}`")
         if d.get("type") == "ais_disabling":
+            disp = d.get("displacement_nm")
+            tail = f", reappeared {disp} nm away" if disp is not None else ""
             metric = (f"- **Gap:** {d.get('gap_hours')} h dark, {d.get('off_distance_nm')} nm "
-                      f"offshore, reappeared {d.get('displacement_nm')} nm away")
+                      f"offshore{tail}")
         elif d.get("type") == "encounter":
             metric = (f"- **Encounter:** {d.get('duration_hours')} h with carrier "
                       f"`{d.get('carrier_mmsi', '?')}` (apparent transshipment)")

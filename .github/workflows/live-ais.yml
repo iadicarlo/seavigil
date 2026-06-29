@@ -1,21 +1,23 @@
-name: Near-real-time AIS refresh
+name: Near-real-time monitor (GFW events)
 
-# Streams live AIS (aisstream.io) for a monitored MPA region, scores it, and republishes the
-# static site. This runs on GitHub's servers on a schedule, so it works whether or not your
-# computer is on. Enable it by setting the AISSTREAM_KEY repo secret (else the job no-ops).
-# Note: GitHub cron is best-effort (often delayed), and scheduled workflows are auto-disabled
-# after 60 days with no repo commits - this job commits when data changes, which keeps it alive.
+# Pulls recent Global Fishing Watch events (gaps = going dark, encounters = transshipment),
+# keeps the high-signal ones (a foreign or unauthorized vessel inside another state's EEZ, or
+# a no-take reserve incursion), grades + evidences them, and republishes the ?live view and
+# the alerts feed (alerts.json + alerts.xml). Runs on GitHub's servers so it works whether or
+# not your computer is on. Needs the GFW_TOKEN repo secret (events + authorization both use it).
+# GitHub cron is best-effort; the job commits when data changes, which keeps the scheduled
+# workflow from being auto-disabled after 60 days of no commits.
 
 on:
   schedule:
-    - cron: "0 * * * *"   # hourly (GitHub cron is best-effort)
+    - cron: "0 */6 * * *"   # every 6 hours (GFW events lag ~3-4 days, so daily-ish is plenty)
   workflow_dispatch:
 
 permissions:
   contents: write
 
 concurrency:
-  group: live-ais
+  group: live-monitor
   cancel-in-progress: false
 
 jobs:
@@ -27,42 +29,26 @@ jobs:
       - uses: astral-sh/setup-uv@v5
         with:
           python-version: "3.12"
-      - name: Cache GFW training data
-        uses: actions/cache@v4
-        with:
-          path: data/raw
-          key: gfw-training-data-v1
-      - name: Stream live AIS, score, rebuild site
+      - name: Pull recent GFW events, grade, rebuild live view + alerts
         env:
-          AISSTREAM_KEY: ${{ secrets.AISSTREAM_KEY }}
+          GFW_TOKEN: ${{ secrets.GFW_TOKEN }}
         run: |
-          if [ -z "$AISSTREAM_KEY" ]; then
-            echo "No AISSTREAM_KEY secret - skipping live refresh."; exit 0
+          if [ -z "$GFW_TOKEN" ]; then
+            echo "No GFW_TOKEN secret; the near-real-time monitor needs it for events + authorization."; exit 1
           fi
-          # Great Barrier Reef Marine Park bbox (busy waters, a real MPA in the sample set)
-          # Note: --bbox=... (with '=') because the value starts with a negative number.
-          uv run --with websockets python scripts/fetch_live_ais.py \
-            --bbox=-24.5,142.5,-10.5,154.0 --seconds 90 --max 20000 \
-            --out data/positions/live_ais_real.csv
-          # Keep the previous live view if the (throttled) stream was too quiet.
-          ROWS=$(($(wc -l < data/positions/live_ais_real.csv) - 1))
-          echo "live positions: $ROWS"
-          if [ "$ROWS" -lt 3 ]; then echo "Too few live positions; keeping previous view."; exit 0; fi
-          # Write to the LIVE view only (./data/live) so the curated homepage is untouched.
-          uv run python -m seavigil.alert --positions data/positions/live_ais_real.csv --out results/live
-          uv run python -c "from seavigil import site; print(site.build_site('results/live/incidents.json', out_dir='web/data/live'))"
+          uv run python scripts/live_monitor.py
       - name: Commit refreshed data if changed
         run: |
           git config user.name "Isma Abdelkader Di Carlo"
           EU="iadicarlo"; ED="icloud.com"   # composed so cron commits attribute to the owner
           git config user.email "${EU}@${ED}"
-          git add results/live web/data/live
+          git add results/live web/data/live web/data/alerts.json web/alerts.xml
           if git diff --staged --quiet; then
             echo "No data changes."; exit 0
           fi
-          git commit -m "chore: near-real-time AIS refresh"
+          git commit -m "chore: near-real-time monitor refresh"
           # Push is race-prone (a queued run may have advanced main); rebase + retry,
-          # preferring the latest stream on conflict.
+          # preferring the latest run on conflict.
           for attempt in 1 2 3; do
             if git push; then echo "pushed"; exit 0; fi
             echo "push rejected; syncing and retrying ($attempt)"

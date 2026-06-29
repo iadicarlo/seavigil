@@ -53,3 +53,6 @@ data/transshipment/
 
 # Natural Earth basemap source (rebuilt by scripts/build_basemap.sh)
 data/natural_earth/
+
+# Transient live-monitor auth cache (re-queried each run)
+data/authorizations_live.json
