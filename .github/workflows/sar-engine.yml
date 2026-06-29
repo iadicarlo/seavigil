@@ -9,8 +9,11 @@ name: SAR engine (sub-day dark vessels)
 # full Sentinel-1 scene at radar resolution would need a GPU or tiling, a known scaling step.
 
 on:
-  schedule:
-    - cron: "37 */3 * * *"   # every 3 hours; catches new scenes within ~3h of Copernicus publishing
+  # Schedule paused: the curated Guinea dark-fleet case is the featured ?sar showcase. Re-enable
+  # once the engine targets GFW fishing hotspots and matches GFW AIS, so its automated runs reach
+  # the same quality (today it picks arbitrary watchlist water and matches sparse aisstream).
+  # schedule:
+  #   - cron: "37 */3 * * *"
   workflow_dispatch:
 
 permissions:
