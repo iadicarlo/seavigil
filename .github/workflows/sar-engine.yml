@@ -34,7 +34,7 @@ jobs:
         with:
           environment-name: vds
           create-args: >-
-            python=3.11 pytorch torchvision gdal rasterio pyproj shapely
+            python=3.11 pytorch torchvision gdal libgdal-jp2openjpeg rasterio pyproj shapely
             scikit-image scikit-learn numpy pandas boto3
           cache-environment: true
       - name: Cache the open Allen model repo + Sentinel-1 weights (fixed commit)
