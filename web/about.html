@@ -49,10 +49,19 @@
       padding:10px 13px;margin:12px 0;color:#dbe7e6;font-size:13.5px;}
     .caveat{color:var(--muted);}
     footer{margin-top:40px;color:var(--faint);font-size:12px;border-top:1px solid var(--border);padding-top:16px;}
+    .langsel{position:fixed;top:14px;right:14px;z-index:10;background:#0a1e2d;color:var(--fg);
+      border:1px solid #1c3a4f;border-radius:6px;font-size:12px;padding:3px 7px;cursor:pointer;}
+    .langsel:hover{border-color:var(--teal-bright);}
   </style>
 </head>
 <body>
   <div class="wrap">
+    <select id="langsel" class="langsel" aria-label="Language / Idioma / Langue / Idioma">
+      <option value="en">English</option>
+      <option value="es">Español</option>
+      <option value="fr">Français</option>
+      <option value="pt">Português</option>
+    </select>
     <div class="brand">
       <svg viewBox="0 0 64 64" role="img" aria-label="SeaVigil">
         <rect width="64" height="64" rx="15" fill="#0b2233"/>
@@ -65,26 +74,26 @@
       </svg>
       <span class="name">Sea<span class="v">Vigil</span></span>
     </div>
-    <p class="sub">Methodology and data sources</p>
-    <p class="back"><a href="./">&larr; Back to the map</a></p>
+    <p class="sub" data-i18n="sub">Methodology and data sources</p>
+    <p class="back"><a href="./">&larr; <span data-i18n="back">Back to the map</span></a></p>
 
-    <p class="lead">SeaVigil is the explanation-and-evidence layer for illegal-fishing behaviors in
+    <p class="lead" data-i18n="lead">SeaVigil is the explanation-and-evidence layer for illegal-fishing behaviors in
     protected and national waters. It does not try to re-detect fishing at global scale (that is
     Global Fishing Watch's industrial-scale job). It sits on top of vessel-monitoring signals and
     turns each flag into a per-incident, explainable, auditable dossier that an enforcement officer
     can read, defend, and act on, running on a single laptop with no cloud account.</p>
 
-    <div class="note">Illegal, unreported and unregulated (IUU) fishing is estimated at 11 to 26
-    million tonnes of catch per year, worth roughly USD 10 to 23.5 billion
+    <div class="note"><span data-i18n="note_1">Illegal, unreported and unregulated (IUU) fishing is estimated at 11 to 26
+    million tonnes of catch per year, worth roughly USD 10 to 23.5 billion</span>
     (<a href="https://doi.org/10.1371/journal.pone.0004570" target="_blank" rel="noopener">Agnew et al., 2009</a>),
-    and 72 to 76 percent of the world's industrial fishing vessels are not publicly tracked
+    <span data-i18n="note_2">and 72 to 76 percent of the world's industrial fishing vessels are not publicly tracked</span>
     (<a href="https://doi.org/10.1038/s41586-023-06825-8" target="_blank" rel="noopener">Paolo et al., 2024</a>).
-    SeaVigil targets the last mile: explaining and evidencing the suspicious behaviors that monitoring surfaces.</p>
+    <span data-i18n="note_3">SeaVigil targets the last mile: explaining and evidencing the suspicious behaviors that monitoring surfaces.</span></div>
 
-    <h2>What SeaVigil detects, and how</h2>
+    <h2 data-i18n="h2_detects">What SeaVigil detects, and how</h2>
 
-    <h3><span class="pill p-ais">AIS apparent fishing</span> inside a protected area</h3>
-    <p>A RandomForest classifier scores each AIS position as fishing or
+    <h3><span class="pill p-ais">AIS apparent fishing</span> <span data-i18n="h3_ais">inside a protected area</span></h3>
+    <p data-i18n-html="p_ais">A RandomForest classifier scores each AIS position as fishing or
     not from vessel kinematics (speed, turning, distance from shore and port, time of day, rolling
     statistics), trained on Global Fishing Watch's openly published, hand-labelled AIS data
     (<a href="https://doi.org/10.1126/science.aao5646" target="_blank" rel="noopener">Kroodsma et al., 2018</a>).
@@ -93,8 +102,8 @@
     <a href="https://arxiv.org/abs/1705.07874" target="_blank" rel="noopener">SHAP</a> attribution
     (Lundberg and Lee, 2017) averaged over its positions, shown as a per-feature contribution chart.</p>
 
-    <h3><span class="pill p-sar">Dark vessel (SAR)</span> inside an EEZ or reserve</h3>
-    <p>Vessels that broadcast no AIS ("dark") are the majority of industrial fishing activity. SeaVigil
+    <h3><span class="pill p-sar">Dark vessel (SAR)</span> <span data-i18n="h3_sar">inside an EEZ or reserve</span></h3>
+    <p data-i18n-html="p_sar">Vessels that broadcast no AIS ("dark") are the majority of industrial fishing activity. SeaVigil
     consumes Global Fishing Watch's published Sentinel-1 synthetic-aperture-radar vessel detections
     (<a href="https://doi.org/10.1038/s41586-023-06825-8" target="_blank" rel="noopener">Paolo et al., 2024</a>);
     it does not run its own imagery model. A detection not matched to any AIS broadcast, inside a
@@ -102,12 +111,12 @@
     rationale is attribute-based (unmatched, inside-zone, length, recurrence), not SHAP, because a
     radar blip carries no movement track to attribute.</p>
 
-    <h3><span class="pill p-eez">EEZ incursion</span>, flag, and authorization</h3>
-    <p>Every incident is tagged with the Exclusive Economic Zone it sits in (point-in-polygon against the
+    <h3><span class="pill p-eez">EEZ incursion</span><span data-i18n="h3_eez">, flag, and authorization</span></h3>
+    <p data-i18n="p_eez_1">Every incident is tagged with the Exclusive Economic Zone it sits in (point-in-polygon against the
     global Marine Regions EEZ set) and the coastal state. When a vessel's flag differs from the EEZ
     sovereign it is marked foreign. A foreign vessel inside another state's EEZ is the canonical IUU lead,
     but on its own it is not proof: the vessel may be licensed.</p>
-    <p>So for every incident that carries a vessel identity (MMSI), SeaVigil looks the vessel up in the
+    <p data-i18n-html="p_eez_2">So for every incident that carries a vessel identity (MMSI), SeaVigil looks the vessel up in the
     Global Fishing Watch vessel-identity registry to get its authoritative flag and the authorizations on
     record (RFMO and regional bodies such as FFA, WCPFC, IOTC, ICCAT, IATTC, CCSBT, CCAMLR), then grades
     the incident against the incident date: <em>authorized</em> (an authorization covering the date is on
@@ -118,16 +127,16 @@
     authorization record means "no public record", not proof of illegality; the cleanest signal here is a
     lapsed or absent RFMO authorization for a foreign vessel.</p>
 
-    <h3>Going dark and at-sea transshipment, worldwide</h3>
-    <p>Both behaviors are demonstrated globally, consumed from Global Fishing Watch's published satellite
+    <h3 data-i18n="h3_dark">Going dark and at-sea transshipment, worldwide</h3>
+    <p data-i18n-html="p_dark">Both behaviors are demonstrated globally, consumed from Global Fishing Watch's published satellite
     datasets (terrestrial AIS cannot see them) and tagged to the EEZ they fall in: intentional AIS disabling
     (<a href="https://doi.org/10.1126/sciadv.abq2109" target="_blank" rel="noopener">Welch et al., 2022</a>;
     a multi-hour gap well offshore, after excluding poor-reception areas) and at-sea transshipment
     (<a href="https://doi.org/10.3389/fmars.2018.00240" target="_blank" rel="noopener">Miller et al., 2018</a>;
     a fishing vessel and a carrier close together for hours, below a few knots, away from port).</p>
 
-    <h2>Model and confidence</h2>
-    <p>The fishing classifier is evaluated on held-out vessels (grouped split, so no vessel appears in
+    <h2 data-i18n="h2_model">Model and confidence</h2>
+    <p data-i18n-html="p_model">The fishing classifier is evaluated on held-out vessels (grouped split, so no vessel appears in
     both training and test). On about 408,000 held-out positions it is well calibrated: a
     <strong>Brier score of 0.092</strong>, and isotonic recalibration only moves it to 0.088. In
     plain terms, a dossier score near 0.9 can be read honestly as "about 90 percent of positions
@@ -135,72 +144,283 @@
     probability; their confidence is the explicit criteria they meet. The full reliability table is in
     <code>results/calibration.json</code> and the calibration statement appears in every AIS dossier.</p>
 
-    <h2>Evidence and integrity</h2>
-    <p>Each incident's downloadable dossier is a structured evidence package: the detection and its
+    <h2 data-i18n="h2_evidence">Evidence and integrity</h2>
+    <p data-i18n-html="p_evidence">Each incident's downloadable dossier is a structured evidence package: the detection and its
     reason, the exact UTC times and coordinates, the vessel identity where known, the full data
     provenance below, and a <strong>SHA-256 integrity hash</strong> over the incident's canonical
     facts so a reviewer can recompute it and confirm the record was not altered. It carries the
     standing disclaimer that AIS and SAR evidence have coverage gaps and spoofing risks and that an
     alert is an inspection lead, not proof of illegality.</p>
 
-    <h2>Data sources</h2>
+    <h2 data-i18n="h2_data">Data sources</h2>
     <table>
-      <thead><tr><th>Dataset</th><th>Reference / DOI</th><th>License</th></tr></thead>
+      <thead><tr><th data-i18n="th_dataset">Dataset</th><th data-i18n="th_ref">Reference / DOI</th><th data-i18n="th_license">License</th></tr></thead>
       <tbody>
-        <tr><td>GFW labelled AIS training data</td>
+        <tr><td data-i18n="ds_ais">GFW labelled AIS training data</td>
           <td>Kroodsma et al., <em>Science</em> 2018. <a href="https://doi.org/10.1126/science.aao5646" target="_blank" rel="noopener">10.1126/science.aao5646</a></td>
           <td class="lic">CC BY 4.0</td></tr>
-        <tr><td>GFW Sentinel-1 SAR vessel detections</td>
+        <tr><td data-i18n="ds_sar">GFW Sentinel-1 SAR vessel detections</td>
           <td>Paolo et al., <em>Nature</em> 2024. <a href="https://doi.org/10.1038/s41586-023-06825-8" target="_blank" rel="noopener">10.1038/s41586-023-06825-8</a></td>
           <td class="lic">CC BY-NC 4.0</td></tr>
-        <tr><td>GFW vessel identity and authorizations</td>
-          <td>Global Fishing Watch vessel-identity dataset (registry flag + RFMO/regional authorizations: FFA, WCPFC, IOTC, ICCAT, IATTC, CCSBT, CCAMLR). <a href="https://globalfishingwatch.org" target="_blank" rel="noopener">globalfishingwatch.org</a></td>
+        <tr><td data-i18n="ds_identity">GFW vessel identity and authorizations</td>
+          <td data-i18n-html="ref_identity">Global Fishing Watch vessel-identity dataset (registry flag + RFMO/regional authorizations: FFA, WCPFC, IOTC, ICCAT, IATTC, CCSBT, CCAMLR). <a href="https://globalfishingwatch.org" target="_blank" rel="noopener">globalfishingwatch.org</a></td>
           <td class="lic">CC BY-NC 4.0</td></tr>
-        <tr><td>Marine Protected Areas (WDPA / WD-OECM)</td>
+        <tr><td data-i18n="ds_mpa">Marine Protected Areas (WDPA / WD-OECM)</td>
           <td>UNEP-WCMC and IUCN (2026), Protected Planet, June 2026. <a href="https://www.protectedplanet.net" target="_blank" rel="noopener">protectedplanet.net</a></td>
-          <td class="lic">Non-commercial, display-only</td></tr>
-        <tr><td>Exclusive Economic Zones (v12)</td>
+          <td class="lic" data-i18n="lic_noncomm">Non-commercial, display-only</td></tr>
+        <tr><td data-i18n="ds_eez">Exclusive Economic Zones (v12)</td>
           <td>Flanders Marine Institute (2024), Maritime Boundaries Geodatabase. <a href="https://doi.org/10.14284/632" target="_blank" rel="noopener">10.14284/632</a></td>
           <td class="lic">CC BY 4.0</td></tr>
-        <tr><td>Live AIS stream</td>
-          <td><a href="https://aisstream.io" target="_blank" rel="noopener">aisstream.io</a> (near-real-time, Great Barrier Reef)</td>
-          <td class="lic">Free tier</td></tr>
-        <tr><td>Coastline and ports (distance features)</td>
+        <tr><td data-i18n="ds_live">Live AIS stream</td>
+          <td data-i18n-html="ref_live"><a href="https://aisstream.io" target="_blank" rel="noopener">aisstream.io</a> (near-real-time, Great Barrier Reef)</td>
+          <td class="lic" data-i18n="lic_free">Free tier</td></tr>
+        <tr><td data-i18n="ds_coast">Coastline and ports (distance features)</td>
           <td><a href="https://www.naturalearthdata.com" target="_blank" rel="noopener">Natural Earth</a></td>
           <td class="lic">Public domain</td></tr>
-        <tr><td>Basemap (land and borders)</td>
-          <td><a href="https://www.naturalearthdata.com" target="_blank" rel="noopener">Natural Earth</a>, built into a local vector tileset so the map runs fully offline (no CDN)</td>
+        <tr><td data-i18n="ds_basemap">Basemap (land and borders)</td>
+          <td data-i18n-html="ref_basemap"><a href="https://www.naturalearthdata.com" target="_blank" rel="noopener">Natural Earth</a>, built into a local vector tileset so the map runs fully offline (no CDN)</td>
           <td class="lic">Public domain</td></tr>
       </tbody>
     </table>
-    <p class="caveat">Methods reference: AIS disabling, Welch et al., <em>Science Advances</em> 2022,
+    <p class="caveat" data-i18n-html="caveat">Methods reference: AIS disabling, Welch et al., <em>Science Advances</em> 2022,
     <a href="https://doi.org/10.1126/sciadv.abq2109" target="_blank" rel="noopener">10.1126/sciadv.abq2109</a>;
     transshipment, Miller et al., <em>Frontiers in Marine Science</em> 2018,
     <a href="https://doi.org/10.3389/fmars.2018.00240" target="_blank" rel="noopener">10.3389/fmars.2018.00240</a>;
     explanations, Lundberg and Lee, NeurIPS 2017,
     <a href="https://arxiv.org/abs/1705.07874" target="_blank" rel="noopener">arXiv:1705.07874</a>.</p>
 
-    <h2>Honest limitations</h2>
+    <h2 data-i18n="h2_limits">Honest limitations</h2>
     <ul>
-      <li>The public showcase is an <strong>illustrative curated sample</strong>, not global or live
+      <li data-i18n-html="li_1">The public showcase is an <strong>illustrative curated sample</strong>, not global or live
       coverage: AIS apparent-fishing incidents from 2013 to 2014 labels, real GFW dark-vessel SAR
       from 2024, across five reserves and their EEZs. The <code>?live</code> view is genuine
       near-real-time but sparse (free AIS tier).</li>
-      <li>"Apparent fishing" is inferred from movement, not observed; an alert is an inspection lead,
+      <li data-i18n="li_2">"Apparent fishing" is inferred from movement, not observed; an alert is an inspection lead,
       not proof of illegal activity.</li>
-      <li>AIS is blind to vessels that do not broadcast (about three quarters of industrial fishing
+      <li data-i18n="li_3">AIS is blind to vessels that do not broadcast (about three quarters of industrial fishing
       vessels) and is spoofable; SAR sees them but carries no identity.</li>
-      <li>Boundaries are simplified for display; verify incursions against authoritative WDPA and
+      <li data-i18n="li_4">Boundaries are simplified for display; verify incursions against authoritative WDPA and
       Marine Regions limits before acting.</li>
-      <li>MPA boundaries (WDPA) are shown under the Protected Planet Terms of Use for non-commercial
+      <li data-i18n="li_5">MPA boundaries (WDPA) are shown under the Protected Planet Terms of Use for non-commercial
       display only and are not redistributed as downloadable data.</li>
     </ul>
 
-    <footer>
+    <footer data-i18n-html="footer">
       SeaVigil is a non-commercial, public-interest project. The WDPA-derived layer is not covered by
       the project's own license and is subject to the Protected Planet Terms of Use. Citations and
       DOIs above were verified against the publishers. <a href="./">Back to the map</a>.
     </footer>
   </div>
+
+  <script>
+    // ---- i18n (bundled, offline; no external translation service) ----
+    // Keys ending in plain text apply via textContent; keys consumed by
+    // data-i18n-html carry inline links / citations / DOIs verbatim in every language.
+    const I18N = {
+      en: {
+        sub: "Methodology and data sources",
+        back: "Back to the map",
+        lead: "SeaVigil is the explanation-and-evidence layer for illegal-fishing behaviors in protected and national waters. It does not try to re-detect fishing at global scale (that is Global Fishing Watch's industrial-scale job). It sits on top of vessel-monitoring signals and turns each flag into a per-incident, explainable, auditable dossier that an enforcement officer can read, defend, and act on, running on a single laptop with no cloud account.",
+        note_1: "Illegal, unreported and unregulated (IUU) fishing is estimated at 11 to 26 million tonnes of catch per year, worth roughly USD 10 to 23.5 billion",
+        note_2: "and 72 to 76 percent of the world's industrial fishing vessels are not publicly tracked",
+        note_3: "SeaVigil targets the last mile: explaining and evidencing the suspicious behaviors that monitoring surfaces.",
+        h2_detects: "What SeaVigil detects, and how",
+        h3_ais: "inside a protected area",
+        p_ais: "A RandomForest classifier scores each AIS position as fishing or not from vessel kinematics (speed, turning, distance from shore and port, time of day, rolling statistics), trained on Global Fishing Watch's openly published, hand-labelled AIS data (<a href=\"https://doi.org/10.1126/science.aao5646\" target=\"_blank\" rel=\"noopener\">Kroodsma et al., 2018</a>). Positions are joined by point-in-polygon to Marine Protected Area boundaries; runs of in-MPA fishing positions are segmented into incidents. Each incident's reason is the <a href=\"https://arxiv.org/abs/1705.07874\" target=\"_blank\" rel=\"noopener\">SHAP</a> attribution (Lundberg and Lee, 2017) averaged over its positions, shown as a per-feature contribution chart.",
+        h3_sar: "inside an EEZ or reserve",
+        p_sar: "Vessels that broadcast no AIS (\"dark\") are the majority of industrial fishing activity. SeaVigil consumes Global Fishing Watch's published Sentinel-1 synthetic-aperture-radar vessel detections (<a href=\"https://doi.org/10.1038/s41586-023-06825-8\" target=\"_blank\" rel=\"noopener\">Paolo et al., 2024</a>); it does not run its own imagery model. A detection not matched to any AIS broadcast, inside a national EEZ, is flagged; severity escalates to high inside a Marine Protected Area. The dossier rationale is attribute-based (unmatched, inside-zone, length, recurrence), not SHAP, because a radar blip carries no movement track to attribute.",
+        h3_eez: ", flag, and authorization",
+        p_eez_1: "Every incident is tagged with the Exclusive Economic Zone it sits in (point-in-polygon against the global Marine Regions EEZ set) and the coastal state. When a vessel's flag differs from the EEZ sovereign it is marked foreign. A foreign vessel inside another state's EEZ is the canonical IUU lead, but on its own it is not proof: the vessel may be licensed.",
+        p_eez_2: "So for every incident that carries a vessel identity (MMSI), SeaVigil looks the vessel up in the Global Fishing Watch vessel-identity registry to get its authoritative flag and the authorizations on record (RFMO and regional bodies such as FFA, WCPFC, IOTC, ICCAT, IATTC, CCSBT, CCAMLR), then grades the incident against the incident date: <em>authorized</em> (an authorization covering the date is on record), <em>authorization lapsed</em> (one existed but expired before the date), <em>no authorization on record</em> (foreign, nothing found), <em>domestic flag</em>, or <em>no vessel identity</em> (anonymized AIS labels and dark SAR cannot be checked). This turns a bare \"foreign\" flag into a graded, sourced status. The honest limit: national EEZ fishing licences are not public, so an empty authorization record means \"no public record\", not proof of illegality; the cleanest signal here is a lapsed or absent RFMO authorization for a foreign vessel.",
+        h3_dark: "Going dark and at-sea transshipment, worldwide",
+        p_dark: "Both behaviors are demonstrated globally, consumed from Global Fishing Watch's published satellite datasets (terrestrial AIS cannot see them) and tagged to the EEZ they fall in: intentional AIS disabling (<a href=\"https://doi.org/10.1126/sciadv.abq2109\" target=\"_blank\" rel=\"noopener\">Welch et al., 2022</a>; a multi-hour gap well offshore, after excluding poor-reception areas) and at-sea transshipment (<a href=\"https://doi.org/10.3389/fmars.2018.00240\" target=\"_blank\" rel=\"noopener\">Miller et al., 2018</a>; a fishing vessel and a carrier close together for hours, below a few knots, away from port).",
+        h2_model: "Model and confidence",
+        p_model: "The fishing classifier is evaluated on held-out vessels (grouped split, so no vessel appears in both training and test). On about 408,000 held-out positions it is well calibrated: a <strong>Brier score of 0.092</strong>, and isotonic recalibration only moves it to 0.088. In plain terms, a dossier score near 0.9 can be read honestly as \"about 90 percent of positions scored this high really are fishing.\" Rule-based flags (dark SAR, EEZ incursion) carry no probability; their confidence is the explicit criteria they meet. The full reliability table is in <code>results/calibration.json</code> and the calibration statement appears in every AIS dossier.",
+        h2_evidence: "Evidence and integrity",
+        p_evidence: "Each incident's downloadable dossier is a structured evidence package: the detection and its reason, the exact UTC times and coordinates, the vessel identity where known, the full data provenance below, and a <strong>SHA-256 integrity hash</strong> over the incident's canonical facts so a reviewer can recompute it and confirm the record was not altered. It carries the standing disclaimer that AIS and SAR evidence have coverage gaps and spoofing risks and that an alert is an inspection lead, not proof of illegality.",
+        h2_data: "Data sources",
+        th_dataset: "Dataset", th_ref: "Reference / DOI", th_license: "License",
+        ds_ais: "GFW labelled AIS training data",
+        ds_sar: "GFW Sentinel-1 SAR vessel detections",
+        ds_identity: "GFW vessel identity and authorizations",
+        ref_identity: "Global Fishing Watch vessel-identity dataset (registry flag + RFMO/regional authorizations: FFA, WCPFC, IOTC, ICCAT, IATTC, CCSBT, CCAMLR). <a href=\"https://globalfishingwatch.org\" target=\"_blank\" rel=\"noopener\">globalfishingwatch.org</a>",
+        ds_mpa: "Marine Protected Areas (WDPA / WD-OECM)",
+        lic_noncomm: "Non-commercial, display-only",
+        ds_eez: "Exclusive Economic Zones (v12)",
+        ds_live: "Live AIS stream",
+        ref_live: "<a href=\"https://aisstream.io\" target=\"_blank\" rel=\"noopener\">aisstream.io</a> (near-real-time, Great Barrier Reef)",
+        lic_free: "Free tier",
+        ds_coast: "Coastline and ports (distance features)",
+        ds_basemap: "Basemap (land and borders)",
+        ref_basemap: "<a href=\"https://www.naturalearthdata.com\" target=\"_blank\" rel=\"noopener\">Natural Earth</a>, built into a local vector tileset so the map runs fully offline (no CDN)",
+        caveat: "Methods reference: AIS disabling, Welch et al., <em>Science Advances</em> 2022, <a href=\"https://doi.org/10.1126/sciadv.abq2109\" target=\"_blank\" rel=\"noopener\">10.1126/sciadv.abq2109</a>; transshipment, Miller et al., <em>Frontiers in Marine Science</em> 2018, <a href=\"https://doi.org/10.3389/fmars.2018.00240\" target=\"_blank\" rel=\"noopener\">10.3389/fmars.2018.00240</a>; explanations, Lundberg and Lee, NeurIPS 2017, <a href=\"https://arxiv.org/abs/1705.07874\" target=\"_blank\" rel=\"noopener\">arXiv:1705.07874</a>.",
+        h2_limits: "Honest limitations",
+        li_1: "The public showcase is an <strong>illustrative curated sample</strong>, not global or live coverage: AIS apparent-fishing incidents from 2013 to 2014 labels, real GFW dark-vessel SAR from 2024, across five reserves and their EEZs. The <code>?live</code> view is genuine near-real-time but sparse (free AIS tier).",
+        li_2: "\"Apparent fishing\" is inferred from movement, not observed; an alert is an inspection lead, not proof of illegal activity.",
+        li_3: "AIS is blind to vessels that do not broadcast (about three quarters of industrial fishing vessels) and is spoofable; SAR sees them but carries no identity.",
+        li_4: "Boundaries are simplified for display; verify incursions against authoritative WDPA and Marine Regions limits before acting.",
+        li_5: "MPA boundaries (WDPA) are shown under the Protected Planet Terms of Use for non-commercial display only and are not redistributed as downloadable data.",
+        footer: "SeaVigil is a non-commercial, public-interest project. The WDPA-derived layer is not covered by the project's own license and is subject to the Protected Planet Terms of Use. Citations and DOIs above were verified against the publishers. <a href=\"./\">Back to the map</a>.",
+      },
+      es: {
+        sub: "Metodología y fuentes de datos",
+        back: "Volver al mapa",
+        lead: "SeaVigil es la capa de explicación y evidencia para los comportamientos de pesca ilegal en aguas protegidas y nacionales. No pretende volver a detectar la pesca a escala global (esa es la labor a escala industrial de Global Fishing Watch). Se asienta sobre las señales de seguimiento de buques y convierte cada alerta en un expediente por incidente, explicable y auditable, que un agente de control puede leer, defender y actuar en consecuencia, ejecutándose en un solo portátil sin ninguna cuenta en la nube.",
+        note_1: "Se estima que la pesca ilegal, no declarada y no reglamentada (INDNR) alcanza de 11 a 26 millones de toneladas de captura por año, con un valor aproximado de 10 a 23.5 mil millones de USD",
+        note_2: "y entre el 72 y el 76 por ciento de los buques pesqueros industriales del mundo no se rastrean públicamente",
+        note_3: "SeaVigil se centra en la última milla: explicar y evidenciar los comportamientos sospechosos que el seguimiento saca a la luz.",
+        h2_detects: "Qué detecta SeaVigil, y cómo",
+        h3_ais: "dentro de un área protegida",
+        p_ais: "Un clasificador RandomForest puntúa cada posición AIS como pesca o no a partir de la cinemática del buque (velocidad, giros, distancia a la costa y al puerto, hora del día, estadísticas móviles), entrenado con los datos AIS etiquetados a mano y publicados abiertamente por Global Fishing Watch (<a href=\"https://doi.org/10.1126/science.aao5646\" target=\"_blank\" rel=\"noopener\">Kroodsma et al., 2018</a>). Las posiciones se asocian mediante punto en polígono a los límites de las Áreas Marinas Protegidas; las secuencias de posiciones de pesca dentro del AMP se segmentan en incidentes. El motivo de cada incidente es la atribución <a href=\"https://arxiv.org/abs/1705.07874\" target=\"_blank\" rel=\"noopener\">SHAP</a> (Lundberg y Lee, 2017) promediada sobre sus posiciones, mostrada como un gráfico de contribución por característica.",
+        h3_sar: "dentro de una ZEE o reserva",
+        p_sar: "Los buques que no emiten AIS (\"oscuros\") son la mayoría de la actividad pesquera industrial. SeaVigil consume las detecciones de buques por radar de apertura sintética Sentinel-1 publicadas por Global Fishing Watch (<a href=\"https://doi.org/10.1038/s41586-023-06825-8\" target=\"_blank\" rel=\"noopener\">Paolo et al., 2024</a>); no ejecuta su propio modelo de imágenes. Una detección que no coincide con ninguna emisión AIS, dentro de una ZEE nacional, se señala; la gravedad asciende a alta dentro de un Área Marina Protegida. La justificación del expediente se basa en atributos (sin coincidencia, dentro de zona, eslora, recurrencia), no en SHAP, porque un eco de radar no lleva una trayectoria de movimiento que atribuir.",
+        h3_eez: ", pabellón y autorización",
+        p_eez_1: "Cada incidente se etiqueta con la Zona Económica Exclusiva en la que se encuentra (punto en polígono contra el conjunto global de ZEE de Marine Regions) y con el estado costero. Cuando el pabellón de un buque difiere del soberano de la ZEE, se marca como extranjero. Un buque extranjero dentro de la ZEE de otro estado es la pista IUU por excelencia, pero por sí sola no es prueba: el buque podría estar autorizado.",
+        p_eez_2: "Así, para cada incidente que lleva una identidad de buque (MMSI), SeaVigil consulta el buque en el registro de identidad de buques de Global Fishing Watch para obtener su pabellón autorizado y las autorizaciones registradas (organizaciones regionales de ordenación pesquera y organismos regionales como FFA, WCPFC, IOTC, ICCAT, IATTC, CCSBT, CCAMLR), y luego califica el incidente según la fecha del mismo: <em>autorizado</em> (consta una autorización que cubre la fecha), <em>autorización vencida</em> (existía una pero expiró antes de la fecha), <em>sin autorización registrada</em> (extranjero, no se encontró nada), <em>pabellón nacional</em>, o <em>sin identidad del buque</em> (las etiquetas AIS anonimizadas y el SAR oscuro no se pueden verificar). Esto convierte un mero pabellón \"extranjero\" en un estado calificado y con fuente. El límite honesto: las licencias de pesca de las ZEE nacionales no son públicas, por lo que un registro de autorización vacío significa \"sin registro público\", no prueba de ilegalidad; la señal más clara aquí es una autorización de OROP vencida o ausente para un buque extranjero.",
+        h3_dark: "Apagado de AIS y transbordo en el mar, a nivel mundial",
+        p_dark: "Ambos comportamientos se demuestran a nivel mundial, consumidos de los conjuntos de datos satelitales publicados por Global Fishing Watch (el AIS terrestre no puede verlos) y etiquetados con la ZEE en la que caen: desactivación intencional del AIS (<a href=\"https://doi.org/10.1126/sciadv.abq2109\" target=\"_blank\" rel=\"noopener\">Welch et al., 2022</a>; un intervalo de varias horas bien mar adentro, tras excluir las zonas de mala recepción) y transbordo en el mar (<a href=\"https://doi.org/10.3389/fmars.2018.00240\" target=\"_blank\" rel=\"noopener\">Miller et al., 2018</a>; un buque pesquero y un buque nodriza juntos durante horas, por debajo de unos pocos nudos, lejos del puerto).",
+        h2_model: "Modelo y confianza",
+        p_model: "El clasificador de pesca se evalúa sobre buques reservados (división por grupos, de modo que ningún buque aparece tanto en entrenamiento como en prueba). Sobre unas 408,000 posiciones reservadas está bien calibrado: un <strong>índice de Brier de 0.092</strong>, y la recalibración isotónica solo lo mueve a 0.088. En términos sencillos, una puntuación de expediente cercana a 0.9 puede leerse honestamente como \"alrededor del 90 por ciento de las posiciones que puntuaron tan alto realmente son pesca.\" Las alertas basadas en reglas (SAR oscuro, incursión en ZEE) no llevan probabilidad; su confianza son los criterios explícitos que cumplen. La tabla de fiabilidad completa está en <code>results/calibration.json</code> y la declaración de calibración aparece en cada expediente AIS.",
+        h2_evidence: "Evidencia e integridad",
+        p_evidence: "El expediente descargable de cada incidente es un paquete de evidencia estructurado: la detección y su motivo, las horas y coordenadas UTC exactas, la identidad del buque cuando se conoce, la procedencia completa de los datos a continuación, y un <strong>hash de integridad SHA-256</strong> sobre los hechos canónicos del incidente para que un revisor pueda recalcularlo y confirmar que el registro no fue alterado. Lleva la advertencia permanente de que la evidencia AIS y SAR tiene lagunas de cobertura y riesgos de suplantación, y que una alerta es una pista de inspección, no una prueba de ilegalidad.",
+        h2_data: "Fuentes de datos",
+        th_dataset: "Conjunto de datos", th_ref: "Referencia / DOI", th_license: "Licencia",
+        ds_ais: "Datos de entrenamiento AIS etiquetados de GFW",
+        ds_sar: "Detecciones de buques SAR Sentinel-1 de GFW",
+        ds_identity: "Identidad y autorizaciones de buques de GFW",
+        ref_identity: "Conjunto de datos de identidad de buques de Global Fishing Watch (pabellón del registro + autorizaciones de OROP/regionales: FFA, WCPFC, IOTC, ICCAT, IATTC, CCSBT, CCAMLR). <a href=\"https://globalfishingwatch.org\" target=\"_blank\" rel=\"noopener\">globalfishingwatch.org</a>",
+        ds_mpa: "Áreas Marinas Protegidas (WDPA / WD-OECM)",
+        lic_noncomm: "No comercial, solo visualización",
+        ds_eez: "Zonas Económicas Exclusivas (v12)",
+        ds_live: "Flujo de AIS en vivo",
+        ref_live: "<a href=\"https://aisstream.io\" target=\"_blank\" rel=\"noopener\">aisstream.io</a> (casi en tiempo real, Gran Barrera de Coral)",
+        lic_free: "Nivel gratuito",
+        ds_coast: "Costa y puertos (variables de distancia)",
+        ds_basemap: "Mapa base (tierra y fronteras)",
+        ref_basemap: "<a href=\"https://www.naturalearthdata.com\" target=\"_blank\" rel=\"noopener\">Natural Earth</a>, integrado en un conjunto de teselas vectoriales local para que el mapa funcione totalmente sin conexión (sin CDN)",
+        caveat: "Referencia de métodos: desactivación de AIS, Welch et al., <em>Science Advances</em> 2022, <a href=\"https://doi.org/10.1126/sciadv.abq2109\" target=\"_blank\" rel=\"noopener\">10.1126/sciadv.abq2109</a>; transbordo, Miller et al., <em>Frontiers in Marine Science</em> 2018, <a href=\"https://doi.org/10.3389/fmars.2018.00240\" target=\"_blank\" rel=\"noopener\">10.3389/fmars.2018.00240</a>; explicaciones, Lundberg y Lee, NeurIPS 2017, <a href=\"https://arxiv.org/abs/1705.07874\" target=\"_blank\" rel=\"noopener\">arXiv:1705.07874</a>.",
+        h2_limits: "Limitaciones honestas",
+        li_1: "La muestra pública es una <strong>muestra curada ilustrativa</strong>, no una cobertura global ni en vivo: incidentes de pesca aparente AIS a partir de etiquetas de 2013 a 2014, SAR de buques oscuros real de GFW de 2024, en cinco reservas y sus ZEE. La vista <code>?live</code> es genuinamente casi en tiempo real pero escasa (nivel gratuito de AIS).",
+        li_2: "La \"pesca aparente\" se infiere del movimiento, no se observa; una alerta es una pista de inspección, no una prueba de actividad ilegal.",
+        li_3: "El AIS es ciego a los buques que no emiten (cerca de tres cuartas partes de los buques pesqueros industriales) y es susceptible de suplantación; el SAR los ve pero no lleva identidad.",
+        li_4: "Los límites se simplifican para su visualización; verifique las incursiones contra los límites oficiales de WDPA y Marine Regions antes de actuar.",
+        li_5: "Los límites de las AMP (WDPA) se muestran bajo los Términos de Uso de Protected Planet solo para visualización no comercial y no se redistribuyen como datos descargables.",
+        footer: "SeaVigil es un proyecto no comercial de interés público. La capa derivada de WDPA no está cubierta por la propia licencia del proyecto y está sujeta a los Términos de Uso de Protected Planet. Las citas y los DOI anteriores se verificaron contra los editores. <a href=\"./\">Volver al mapa</a>.",
+      },
+      fr: {
+        sub: "Méthodologie et sources de données",
+        back: "Retour à la carte",
+        lead: "SeaVigil est la couche d'explication et de preuve pour les comportements de pêche illégale dans les eaux protégées et nationales. Elle ne cherche pas à redétecter la pêche à l'échelle mondiale (c'est le rôle à l'échelle industrielle de Global Fishing Watch). Elle s'appuie sur les signaux de suivi des navires et transforme chaque signalement en un dossier par incident, explicable et auditable, qu'un agent de contrôle peut lire, défendre et exploiter, en fonctionnant sur un seul ordinateur portable sans aucun compte cloud.",
+        note_1: "La pêche illicite, non déclarée et non réglementée (INN) est estimée entre 11 et 26 millions de tonnes de captures par an, pour une valeur d'environ 10 à 23.5 milliards d'USD",
+        note_2: "et 72 à 76 pour cent des navires de pêche industrielle du monde ne sont pas suivis publiquement",
+        note_3: "SeaVigil cible le dernier kilomètre : expliquer et étayer les comportements suspects que le suivi met en évidence.",
+        h2_detects: "Ce que SeaVigil détecte, et comment",
+        h3_ais: "à l'intérieur d'une aire protégée",
+        p_ais: "Un classifieur RandomForest note chaque position AIS comme pêche ou non à partir de la cinématique du navire (vitesse, virages, distance à la côte et au port, heure de la journée, statistiques glissantes), entraîné sur les données AIS étiquetées à la main et publiées ouvertement par Global Fishing Watch (<a href=\"https://doi.org/10.1126/science.aao5646\" target=\"_blank\" rel=\"noopener\">Kroodsma et al., 2018</a>). Les positions sont rattachées par point-dans-polygone aux limites des aires marines protégées ; les séquences de positions de pêche dans l'AMP sont segmentées en incidents. Le motif de chaque incident est l'attribution <a href=\"https://arxiv.org/abs/1705.07874\" target=\"_blank\" rel=\"noopener\">SHAP</a> (Lundberg et Lee, 2017) moyennée sur ses positions, présentée sous forme de graphique de contribution par variable.",
+        h3_sar: "à l'intérieur d'une ZEE ou d'une réserve",
+        p_sar: "Les navires qui n'émettent pas d'AIS (\"obscurs\") représentent la majorité de l'activité de pêche industrielle. SeaVigil consomme les détections de navires par radar à synthèse d'ouverture Sentinel-1 publiées par Global Fishing Watch (<a href=\"https://doi.org/10.1038/s41586-023-06825-8\" target=\"_blank\" rel=\"noopener\">Paolo et al., 2024</a>) ; il n'exécute pas son propre modèle d'imagerie. Une détection non appariée à une quelconque émission AIS, à l'intérieur d'une ZEE nationale, est signalée ; la gravité passe à élevée à l'intérieur d'une aire marine protégée. La justification du dossier repose sur des attributs (non apparié, dans la zone, longueur, récurrence), pas sur SHAP, car un écho radar ne porte aucune trajectoire de mouvement à attribuer.",
+        h3_eez: ", pavillon et autorisation",
+        p_eez_1: "Chaque incident est rattaché à la zone économique exclusive dans laquelle il se situe (point-dans-polygone contre l'ensemble mondial des ZEE de Marine Regions) et à l'État côtier. Lorsque le pavillon d'un navire diffère de l'État souverain de la ZEE, il est marqué comme étranger. Un navire étranger dans la ZEE d'un autre État est la piste INN par excellence, mais à elle seule elle n'est pas une preuve : le navire peut être autorisé.",
+        p_eez_2: "Ainsi, pour chaque incident porteur d'une identité de navire (MMSI), SeaVigil recherche le navire dans le registre d'identité des navires de Global Fishing Watch afin d'obtenir son pavillon faisant autorité et les autorisations enregistrées (ORGP et organismes régionaux tels que FFA, WCPFC, IOTC, ICCAT, IATTC, CCSBT, CCAMLR), puis classe l'incident selon sa date : <em>autorisé</em> (une autorisation couvrant la date figure au dossier), <em>autorisation expirée</em> (il en existait une mais elle a expiré avant la date), <em>aucune autorisation enregistrée</em> (étranger, rien trouvé), <em>pavillon national</em>, ou <em>identité du navire inconnue</em> (les étiquettes AIS anonymisées et le SAR obscur ne peuvent être vérifiés). Cela transforme un simple pavillon \"étranger\" en un statut gradué et sourcé. La limite honnête : les licences de pêche des ZEE nationales ne sont pas publiques, de sorte qu'un dossier d'autorisation vide signifie \"aucun registre public\", pas une preuve d'illégalité ; le signal le plus net ici est une autorisation ORGP expirée ou absente pour un navire étranger.",
+        h3_dark: "Extinction de l'AIS et transbordement en mer, à l'échelle mondiale",
+        p_dark: "Les deux comportements sont démontrés à l'échelle mondiale, consommés depuis les jeux de données satellitaires publiés par Global Fishing Watch (l'AIS terrestre ne peut pas les voir) et rattachés à la ZEE où ils surviennent : désactivation intentionnelle de l'AIS (<a href=\"https://doi.org/10.1126/sciadv.abq2109\" target=\"_blank\" rel=\"noopener\">Welch et al., 2022</a> ; un intervalle de plusieurs heures bien au large, après exclusion des zones à mauvaise réception) et transbordement en mer (<a href=\"https://doi.org/10.3389/fmars.2018.00240\" target=\"_blank\" rel=\"noopener\">Miller et al., 2018</a> ; un navire de pêche et un navire-mère proches pendant des heures, sous quelques nœuds, loin du port).",
+        h2_model: "Modèle et confiance",
+        p_model: "Le classifieur de pêche est évalué sur des navires réservés (séparation par groupes, de sorte qu'aucun navire n'apparaît à la fois en entraînement et en test). Sur environ 408,000 positions réservées, il est bien calibré : un <strong>score de Brier de 0.092</strong>, et la recalibration isotonique ne le déplace qu'à 0.088. En termes simples, un score de dossier proche de 0.9 peut se lire honnêtement comme \"environ 90 pour cent des positions ayant obtenu un score aussi élevé sont réellement de la pêche.\" Les signalements fondés sur des règles (SAR obscur, incursion en ZEE) ne portent pas de probabilité ; leur confiance correspond aux critères explicites qu'ils remplissent. La table de fiabilité complète se trouve dans <code>results/calibration.json</code> et l'énoncé de calibration apparaît dans chaque dossier AIS.",
+        h2_evidence: "Preuve et intégrité",
+        p_evidence: "Le dossier téléchargeable de chaque incident est un paquet de preuves structuré : la détection et son motif, les heures et coordonnées UTC exactes, l'identité du navire lorsqu'elle est connue, la provenance complète des données ci-dessous, et une <strong>empreinte d'intégrité SHA-256</strong> sur les faits canoniques de l'incident afin qu'un examinateur puisse la recalculer et confirmer que l'enregistrement n'a pas été altéré. Il porte l'avertissement permanent selon lequel les preuves AIS et SAR comportent des lacunes de couverture et des risques d'usurpation, et qu'une alerte est une piste d'inspection, pas une preuve d'illégalité.",
+        h2_data: "Sources de données",
+        th_dataset: "Jeu de données", th_ref: "Référence / DOI", th_license: "Licence",
+        ds_ais: "Données d'entraînement AIS étiquetées de GFW",
+        ds_sar: "Détections de navires SAR Sentinel-1 de GFW",
+        ds_identity: "Identité et autorisations des navires de GFW",
+        ref_identity: "Jeu de données d'identité des navires de Global Fishing Watch (pavillon du registre + autorisations ORGP/régionales : FFA, WCPFC, IOTC, ICCAT, IATTC, CCSBT, CCAMLR). <a href=\"https://globalfishingwatch.org\" target=\"_blank\" rel=\"noopener\">globalfishingwatch.org</a>",
+        ds_mpa: "Aires marines protégées (WDPA / WD-OECM)",
+        lic_noncomm: "Non commercial, affichage seul",
+        ds_eez: "Zones économiques exclusives (v12)",
+        ds_live: "Flux AIS en direct",
+        ref_live: "<a href=\"https://aisstream.io\" target=\"_blank\" rel=\"noopener\">aisstream.io</a> (quasi temps réel, Grande Barrière de corail)",
+        lic_free: "Offre gratuite",
+        ds_coast: "Côte et ports (variables de distance)",
+        ds_basemap: "Fond de carte (terres et frontières)",
+        ref_basemap: "<a href=\"https://www.naturalearthdata.com\" target=\"_blank\" rel=\"noopener\">Natural Earth</a>, intégré dans un jeu de tuiles vectorielles local pour que la carte fonctionne entièrement hors ligne (sans CDN)",
+        caveat: "Référence des méthodes : extinction de l'AIS, Welch et al., <em>Science Advances</em> 2022, <a href=\"https://doi.org/10.1126/sciadv.abq2109\" target=\"_blank\" rel=\"noopener\">10.1126/sciadv.abq2109</a> ; transbordement, Miller et al., <em>Frontiers in Marine Science</em> 2018, <a href=\"https://doi.org/10.3389/fmars.2018.00240\" target=\"_blank\" rel=\"noopener\">10.3389/fmars.2018.00240</a> ; explications, Lundberg et Lee, NeurIPS 2017, <a href=\"https://arxiv.org/abs/1705.07874\" target=\"_blank\" rel=\"noopener\">arXiv:1705.07874</a>.",
+        h2_limits: "Limites honnêtes",
+        li_1: "La démonstration publique est un <strong>échantillon illustratif sélectionné</strong>, pas une couverture mondiale ni en direct : incidents de pêche apparente AIS à partir d'étiquettes de 2013 à 2014, SAR de navires obscurs réel de GFW de 2024, sur cinq réserves et leurs ZEE. La vue <code>?live</code> est authentiquement en quasi temps réel mais éparse (offre gratuite AIS).",
+        li_2: "La \"pêche apparente\" est déduite du mouvement, non observée ; une alerte est une piste d'inspection, pas une preuve d'activité illégale.",
+        li_3: "L'AIS est aveugle aux navires qui n'émettent pas (environ trois quarts des navires de pêche industrielle) et est falsifiable ; le SAR les voit mais ne porte aucune identité.",
+        li_4: "Les limites sont simplifiées pour l'affichage ; vérifiez les incursions par rapport aux limites officielles WDPA et Marine Regions avant d'agir.",
+        li_5: "Les limites des AMP (WDPA) sont affichées au titre des conditions d'utilisation de Protected Planet pour un affichage non commercial uniquement et ne sont pas redistribuées sous forme de données téléchargeables.",
+        footer: "SeaVigil est un projet non commercial d'intérêt public. La couche dérivée de WDPA n'est pas couverte par la propre licence du projet et est soumise aux conditions d'utilisation de Protected Planet. Les citations et DOI ci-dessus ont été vérifiés auprès des éditeurs. <a href=\"./\">Retour à la carte</a>.",
+      },
+      pt: {
+        sub: "Metodologia e fontes de dados",
+        back: "Voltar ao mapa",
+        lead: "O SeaVigil é a camada de explicação e evidência para os comportamentos de pesca ilegal em águas protegidas e nacionais. Não tenta voltar a detetar a pesca à escala global (essa é a tarefa à escala industrial da Global Fishing Watch). Assenta sobre os sinais de monitorização de embarcações e transforma cada alerta num dossiê por incidente, explicável e auditável, que um agente de fiscalização pode ler, defender e sobre o qual pode agir, funcionando num único portátil sem qualquer conta na nuvem.",
+        note_1: "Estima-se que a pesca ilegal, não declarada e não regulamentada (INN) atinja de 11 a 26 milhões de toneladas de captura por ano, no valor aproximado de 10 a 23.5 mil milhões de USD",
+        note_2: "e 72 a 76 por cento das embarcações de pesca industrial do mundo não são rastreadas publicamente",
+        note_3: "O SeaVigil foca-se na última milha: explicar e evidenciar os comportamentos suspeitos que a monitorização revela.",
+        h2_detects: "O que o SeaVigil deteta, e como",
+        h3_ais: "dentro de uma área protegida",
+        p_ais: "Um classificador RandomForest pontua cada posição AIS como pesca ou não a partir da cinemática da embarcação (velocidade, viragens, distância à costa e ao porto, hora do dia, estatísticas móveis), treinado com os dados AIS rotulados manualmente e publicados abertamente pela Global Fishing Watch (<a href=\"https://doi.org/10.1126/science.aao5646\" target=\"_blank\" rel=\"noopener\">Kroodsma et al., 2018</a>). As posições são associadas por ponto em polígono aos limites das Áreas Marinhas Protegidas; as sequências de posições de pesca dentro da AMP são segmentadas em incidentes. O motivo de cada incidente é a atribuição <a href=\"https://arxiv.org/abs/1705.07874\" target=\"_blank\" rel=\"noopener\">SHAP</a> (Lundberg e Lee, 2017) calculada como média sobre as suas posições, apresentada como um gráfico de contribuição por característica.",
+        h3_sar: "dentro de uma ZEE ou reserva",
+        p_sar: "As embarcações que não transmitem AIS (\"ocultas\") são a maioria da atividade de pesca industrial. O SeaVigil consome as deteções de embarcações por radar de abertura sintética Sentinel-1 publicadas pela Global Fishing Watch (<a href=\"https://doi.org/10.1038/s41586-023-06825-8\" target=\"_blank\" rel=\"noopener\">Paolo et al., 2024</a>); não executa o seu próprio modelo de imagem. Uma deteção que não corresponde a nenhuma transmissão AIS, dentro de uma ZEE nacional, é sinalizada; a gravidade sobe para alta dentro de uma Área Marinha Protegida. A justificação do dossiê baseia-se em atributos (sem correspondência, dentro da zona, comprimento, recorrência), não em SHAP, porque um eco de radar não traz nenhuma rota de movimento a atribuir.",
+        h3_eez: ", bandeira e autorização",
+        p_eez_1: "Cada incidente é marcado com a Zona Económica Exclusiva em que se situa (ponto em polígono contra o conjunto global de ZEE da Marine Regions) e com o estado costeiro. Quando a bandeira de uma embarcação difere do soberano da ZEE, é marcada como estrangeira. Uma embarcação estrangeira dentro da ZEE de outro estado é a pista IUU por excelência, mas por si só não é prova: a embarcação pode estar licenciada.",
+        p_eez_2: "Assim, para cada incidente que traz uma identidade de embarcação (MMSI), o SeaVigil procura a embarcação no registo de identidade de embarcações da Global Fishing Watch para obter a sua bandeira autoritativa e as autorizações registadas (ORGP e organismos regionais como FFA, WCPFC, IOTC, ICCAT, IATTC, CCSBT, CCAMLR), e depois classifica o incidente em função da sua data: <em>autorizado</em> (consta uma autorização que cobre a data), <em>autorização expirada</em> (existia uma mas expirou antes da data), <em>sem autorização registada</em> (estrangeira, nada encontrado), <em>bandeira nacional</em>, ou <em>sem identidade da embarcação</em> (os rótulos AIS anonimizados e o SAR oculto não podem ser verificados). Isto transforma uma mera bandeira \"estrangeira\" num estado classificado e com fonte. O limite honesto: as licenças de pesca das ZEE nacionais não são públicas, pelo que um registo de autorização vazio significa \"sem registo público\", não prova de ilegalidade; o sinal mais claro aqui é uma autorização de ORGP expirada ou ausente para uma embarcação estrangeira.",
+        h3_dark: "Desligamento de AIS e transbordo no mar, a nível mundial",
+        p_dark: "Ambos os comportamentos são demonstrados a nível mundial, consumidos dos conjuntos de dados de satélite publicados pela Global Fishing Watch (o AIS terrestre não os consegue ver) e marcados com a ZEE em que ocorrem: desativação intencional do AIS (<a href=\"https://doi.org/10.1126/sciadv.abq2109\" target=\"_blank\" rel=\"noopener\">Welch et al., 2022</a>; um intervalo de várias horas bem ao largo, após excluir as zonas de fraca receção) e transbordo no mar (<a href=\"https://doi.org/10.3389/fmars.2018.00240\" target=\"_blank\" rel=\"noopener\">Miller et al., 2018</a>; uma embarcação de pesca e um navio transportador juntos durante horas, abaixo de poucos nós, longe do porto).",
+        h2_model: "Modelo e confiança",
+        p_model: "O classificador de pesca é avaliado em embarcações reservadas (divisão por grupos, de modo que nenhuma embarcação aparece tanto no treino como no teste). Em cerca de 408,000 posições reservadas, está bem calibrado: um <strong>índice de Brier de 0.092</strong>, e a recalibração isotónica apenas o move para 0.088. Em termos simples, uma pontuação de dossiê próxima de 0.9 pode ler-se honestamente como \"cerca de 90 por cento das posições que pontuaram tão alto são realmente pesca.\" Os alertas baseados em regras (SAR oculto, incursão na ZEE) não trazem probabilidade; a sua confiança são os critérios explícitos que cumprem. A tabela de fiabilidade completa está em <code>results/calibration.json</code> e a declaração de calibração aparece em cada dossiê AIS.",
+        h2_evidence: "Evidência e integridade",
+        p_evidence: "O dossiê descarregável de cada incidente é um pacote de evidência estruturado: a deteção e o seu motivo, as horas e coordenadas UTC exatas, a identidade da embarcação quando conhecida, a proveniência completa dos dados abaixo, e um <strong>hash de integridade SHA-256</strong> sobre os factos canónicos do incidente para que um revisor o possa recalcular e confirmar que o registo não foi alterado. Traz a advertência permanente de que a evidência AIS e SAR tem lacunas de cobertura e riscos de falsificação, e que um alerta é uma pista de inspeção, não uma prova de ilegalidade.",
+        h2_data: "Fontes de dados",
+        th_dataset: "Conjunto de dados", th_ref: "Referência / DOI", th_license: "Licença",
+        ds_ais: "Dados de treino AIS rotulados da GFW",
+        ds_sar: "Deteções de embarcações SAR Sentinel-1 da GFW",
+        ds_identity: "Identidade e autorizações de embarcações da GFW",
+        ref_identity: "Conjunto de dados de identidade de embarcações da Global Fishing Watch (bandeira do registo + autorizações de ORGP/regionais: FFA, WCPFC, IOTC, ICCAT, IATTC, CCSBT, CCAMLR). <a href=\"https://globalfishingwatch.org\" target=\"_blank\" rel=\"noopener\">globalfishingwatch.org</a>",
+        ds_mpa: "Áreas Marinhas Protegidas (WDPA / WD-OECM)",
+        lic_noncomm: "Não comercial, apenas exibição",
+        ds_eez: "Zonas Económicas Exclusivas (v12)",
+        ds_live: "Fluxo de AIS ao vivo",
+        ref_live: "<a href=\"https://aisstream.io\" target=\"_blank\" rel=\"noopener\">aisstream.io</a> (quase em tempo real, Grande Barreira de Coral)",
+        lic_free: "Nível gratuito",
+        ds_coast: "Costa e portos (variáveis de distância)",
+        ds_basemap: "Mapa base (terra e fronteiras)",
+        ref_basemap: "<a href=\"https://www.naturalearthdata.com\" target=\"_blank\" rel=\"noopener\">Natural Earth</a>, integrado num conjunto de mosaicos vetoriais local para que o mapa funcione totalmente offline (sem CDN)",
+        caveat: "Referência de métodos: desativação de AIS, Welch et al., <em>Science Advances</em> 2022, <a href=\"https://doi.org/10.1126/sciadv.abq2109\" target=\"_blank\" rel=\"noopener\">10.1126/sciadv.abq2109</a>; transbordo, Miller et al., <em>Frontiers in Marine Science</em> 2018, <a href=\"https://doi.org/10.3389/fmars.2018.00240\" target=\"_blank\" rel=\"noopener\">10.3389/fmars.2018.00240</a>; explicações, Lundberg e Lee, NeurIPS 2017, <a href=\"https://arxiv.org/abs/1705.07874\" target=\"_blank\" rel=\"noopener\">arXiv:1705.07874</a>.",
+        h2_limits: "Limitações honestas",
+        li_1: "A demonstração pública é uma <strong>amostra curada ilustrativa</strong>, não uma cobertura global ou ao vivo: incidentes de pesca aparente AIS a partir de rótulos de 2013 a 2014, SAR de embarcações ocultas real da GFW de 2024, em cinco reservas e nas suas ZEE. A vista <code>?live</code> é genuinamente quase em tempo real mas escassa (nível gratuito de AIS).",
+        li_2: "A \"pesca aparente\" é inferida do movimento, não observada; um alerta é uma pista de inspeção, não uma prova de atividade ilegal.",
+        li_3: "O AIS é cego às embarcações que não transmitem (cerca de três quartos das embarcações de pesca industrial) e é falsificável; o SAR vê-as mas não traz identidade.",
+        li_4: "Os limites são simplificados para exibição; verifique as incursões contra os limites oficiais de WDPA e Marine Regions antes de agir.",
+        li_5: "Os limites das AMP (WDPA) são exibidos ao abrigo dos Termos de Utilização da Protected Planet apenas para exibição não comercial e não são redistribuídos como dados descarregáveis.",
+        footer: "O SeaVigil é um projeto não comercial de interesse público. A camada derivada de WDPA não está coberta pela própria licença do projeto e está sujeita aos Termos de Utilização da Protected Planet. As citações e os DOI acima foram verificados junto dos editores. <a href=\"./\">Voltar ao mapa</a>.",
+      },
+    };
+    let LANG = "en";
+    function t(key) {
+      return (I18N[LANG] && I18N[LANG][key]) || I18N.en[key] || key;
+    }
+    function applyStaticI18n() {
+      document.querySelectorAll("[data-i18n]").forEach(el => { el.textContent = t(el.getAttribute("data-i18n")); });
+      document.querySelectorAll("[data-i18n-html]").forEach(el => { el.innerHTML = t(el.getAttribute("data-i18n-html")); });
+      document.documentElement.lang = LANG;
+    }
+    function setLang(lang) {
+      LANG = I18N[lang] ? lang : "en";
+      try { localStorage.setItem("seavigil_lang", LANG); } catch (e) {}
+      const sel = document.getElementById("langsel"); if (sel) sel.value = LANG;
+      applyStaticI18n();
+    }
+    (function initLang() {
+      let l = null;
+      try { l = localStorage.getItem("seavigil_lang"); } catch (e) {}
+      if (!l) { const nav = (navigator.language || "en").slice(0, 2).toLowerCase(); l = I18N[nav] ? nav : "en"; }
+      LANG = I18N[l] ? l : "en";
+    })();
+    applyStaticI18n();
+    { const s = document.getElementById("langsel"); if (s) { s.value = LANG; s.onchange = () => setLang(s.value); } }
+  </script>
 </body>
 </html>
