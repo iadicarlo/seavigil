@@ -9,11 +9,8 @@ name: SAR engine (sub-day dark vessels)
 # full Sentinel-1 scene at radar resolution would need a GPU or tiling, a known scaling step.
 
 on:
-  # Schedule paused: the curated Guinea dark-fleet case is the featured ?sar showcase. Re-enable
-  # once the engine targets GFW fishing hotspots and matches GFW AIS, so its automated runs reach
-  # the same quality (today it picks arbitrary watchlist water and matches sparse aisstream).
-  # schedule:
-  #   - cron: "37 */3 * * *"
+  schedule:
+    - cron: "13 */6 * * *"   # every 6h: re-check GFW hotspots and process new few-day-old scenes
   workflow_dispatch:
 
 permissions:
@@ -54,27 +51,21 @@ jobs:
             vendor/vessel-detection-sentinels
           cd vendor/vessel-detection-sentinels
           git lfs pull --include='data/model_artifacts/sentinel-1/**' --include='torch_weights/**'
-      - name: Restore the rolling AIS buffer (read-only, for cross-match)
-        uses: actions/cache/restore@v4
-        with:
-          path: data/positions/ais_buffer.csv
-          key: ais-buffer-none
-          restore-keys: ais-buffer-
-      - name: Run the SAR engine
+      - name: Run the SAR engine (GFW hotspots + GFW AIS match)
         env:
           AWS_ACCESS_KEY_ID: ${{ secrets.CDSE_S3_KEY }}
           AWS_SECRET_ACCESS_KEY: ${{ secrets.CDSE_S3_SECRET }}
+          GFW_TOKEN: ${{ secrets.GFW_TOKEN }}
         run: |
-          if [ -z "$AWS_ACCESS_KEY_ID" ]; then
-            echo "No CDSE_S3_KEY / CDSE_S3_SECRET secret; the SAR engine needs Copernicus S3 access."
+          if [ -z "$AWS_ACCESS_KEY_ID" ] || [ -z "$GFW_TOKEN" ]; then
+            echo "Need CDSE_S3_KEY/CDSE_S3_SECRET (Copernicus) and GFW_TOKEN (hotspots + AIS) secrets."
             exit 1
           fi
           DETPY=$(micromamba run -n vds python -c 'import sys; print(sys.executable)')
           uv run python scripts/sar_engine.py \
             --vds vendor/vessel-detection-sentinels \
             --detect-python "$DETPY" \
-            --ais-buffer data/positions/ais_buffer.csv \
-            --since-hours 12 --max-scenes 2 --aoi-deg 0.6 --device cpu
+            --max-scenes 2 --aoi-deg 0.5 --device cpu
       - name: Commit refreshed ?sar data + state if changed
         run: |
           git config user.name "Isma Abdelkader Di Carlo"
