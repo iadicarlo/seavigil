@@ -1,0 +1,13 @@
+{
+  "description": "Priority areas for near-real-time monitoring: where we concentrate live AIS capture and where the on-demand Sentinel-1 SAR engine looks for dark vessels. bbox is [lon_min, lat_min, lon_max, lat_max] in WGS84 (same order as the SAR script's --bbox and the GeoJSON convention).",
+  "areas": [
+    {"name": "Galapagos Marine Reserve and EEZ edge", "iso3": "ECU", "kind": "mpa", "bbox": [-92.5, -2.0, -88.5, 2.0]},
+    {"name": "Great Barrier Reef Marine Park", "iso3": "AUS", "kind": "mpa", "bbox": [142.5, -24.5, 154.0, -10.5]},
+    {"name": "Phoenix Islands Protected Area", "iso3": "KIR", "kind": "mpa", "bbox": [-176.5, -6.5, -169.0, -1.5]},
+    {"name": "Papahanaumokuakea Marine National Monument", "iso3": "USA", "kind": "mpa", "bbox": [-171.0, 23.0, -160.0, 28.5]},
+    {"name": "Rapa Nui Marine Protected Area", "iso3": "CHL", "kind": "mpa", "bbox": [-110.5, -28.5, -104.0, -23.5]},
+    {"name": "Argentine shelf edge (Blue Hole, squid jigger fleet)", "iso3": "ARG", "kind": "iuu_hotspot", "bbox": [-62.0, -48.0, -53.0, -38.0]},
+    {"name": "West Africa EEZs (Guinea, Sierra Leone, Liberia)", "iso3": "GIN", "kind": "iuu_hotspot", "bbox": [-18.0, 3.0, -7.0, 12.0]},
+    {"name": "Peru EEZ edge (distant-water fleet)", "iso3": "PER", "kind": "iuu_hotspot", "bbox": [-84.0, -18.0, -75.0, -5.0]}
+  ]
+}

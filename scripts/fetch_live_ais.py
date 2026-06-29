@@ -67,14 +67,14 @@ def _ship_type_label(code) -> str:
     return "Other"
 
 
-async def _stream(key: str, bbox, seconds: int, maxn: int) -> list[dict]:
+async def _stream(key: str, boxes: list, seconds: int, maxn: int) -> list[dict]:
     import websockets
 
     from seavigil import flags
 
     sub = {
         "APIKey": key,
-        "BoundingBoxes": [[[bbox[0], bbox[1]], [bbox[2], bbox[3]]]],
+        "BoundingBoxes": boxes,   # each box is [[lat_min, lon_min], [lat_max, lon_max]]
         "FilterMessageTypes": ["PositionReport", "ShipStaticData"],
     }
     statics: dict = {}   # MMSI -> {ship_name, destination, ship_type}
@@ -130,9 +130,20 @@ async def _stream(key: str, bbox, seconds: int, maxn: int) -> list[dict]:
     return rows
 
 
+def _boxes_from_watchlist(path: str) -> list:
+    """Build aisstream bounding boxes from a watchlist (bbox = [lon_min, lat_min, lon_max, lat_max])."""
+    wl = json.loads(Path(path).read_text())
+    boxes = []
+    for a in wl["areas"]:
+        lon0, lat0, lon1, lat1 = a["bbox"]
+        boxes.append([[lat0, lon0], [lat1, lon1]])   # aisstream wants [[lat_min, lon_min], [lat_max, lon_max]]
+    return boxes
+
+
 def main() -> None:
     ap = argparse.ArgumentParser(description="Stream live AIS (aisstream.io) into --positions CSV")
-    ap.add_argument("--bbox", required=True, help="lat_min,lon_min,lat_max,lon_max")
+    ap.add_argument("--bbox", help="single box lat_min,lon_min,lat_max,lon_max")
+    ap.add_argument("--watchlist", help="JSON of priority areas (bbox=[lon_min,lat_min,lon_max,lat_max])")
     ap.add_argument("--seconds", type=int, default=60)
     ap.add_argument("--max", type=int, default=20000)
     ap.add_argument("--out", default="data/positions/live_ais_real.csv")
@@ -141,9 +152,16 @@ def main() -> None:
     key = os.environ.get("AISSTREAM_KEY")
     if not key:
         raise SystemExit("AISSTREAM_KEY not set (free key at aisstream.io; keep it in .env)")
-    bbox = [float(x) for x in args.bbox.split(",")]
+    if args.watchlist:
+        boxes = _boxes_from_watchlist(args.watchlist)
+        print(f"subscribing to {len(boxes)} watchlist areas")
+    elif args.bbox:
+        b = [float(x) for x in args.bbox.split(",")]   # lat_min,lon_min,lat_max,lon_max
+        boxes = [[[b[0], b[1]], [b[2], b[3]]]]
+    else:
+        raise SystemExit("need --bbox or --watchlist")
 
-    rows = asyncio.run(_stream(key, bbox, args.seconds, args.max))
+    rows = asyncio.run(_stream(key, boxes, args.seconds, args.max))
     with open(args.out, "w", newline="") as f:
         w = csv.DictWriter(f, fieldnames=FIELDS)
         w.writeheader()

@@ -3,7 +3,8 @@ name: Near-real-time monitor (GFW events + AIS spoofing)
 # Two near-real-time sources, republished to the ?live view and the alerts feed each hour:
 #  1. GFW Events API: recent gaps (going dark) + encounters (transshipment), kept when a
 #     foreign or unauthorized vessel is inside another state's EEZ, or a no-take incursion.
-#  2. AIS spoofing: live AIS (aisstream) is streamed into a rolling 12h buffer (persisted by
+#  2. AIS spoofing + SAR matching: live AIS (aisstream), concentrated on a watchlist of priority
+#     MPAs and EEZs, is streamed into a rolling 24h buffer (persisted by
 #     the Actions cache, not committed) so the detector accumulates enough per-vessel track
 #     to flag impossible-speed jumps or two vessels sharing one MMSI.
 # GFW_TOKEN (events + authorization) is required. AISSTREAM_KEY enables the spoofing stream;
@@ -25,13 +26,13 @@ concurrency:
 jobs:
   refresh:
     runs-on: ubuntu-latest
-    timeout-minutes: 20
+    timeout-minutes: 25
     steps:
       - uses: actions/checkout@v4
       - uses: astral-sh/setup-uv@v5
         with:
           python-version: "3.12"
-      - name: Restore rolling AIS buffer (12h, for spoofing)
+      - name: Restore rolling AIS buffer (24h, for spoofing + SAR matching)
         uses: actions/cache@v4
         with:
           path: data/positions/ais_buffer.csv
@@ -45,10 +46,10 @@ jobs:
             echo "No AISSTREAM_KEY; spoofing disabled this run (GFW events still run)."; exit 0
           fi
           uv run --with websockets python scripts/fetch_live_ais.py \
-            --bbox=-85,-180,85,180 --seconds 200 --max 30000 \
+            --watchlist data/watchlist.json --seconds 900 --max 80000 \
             --out data/positions/ais_new.csv || echo "stream incomplete; continuing with what was captured"
           uv run python scripts/update_ais_buffer.py \
-            --new data/positions/ais_new.csv --buffer data/positions/ais_buffer.csv --hours 12
+            --new data/positions/ais_new.csv --buffer data/positions/ais_buffer.csv --hours 24
       - name: Pull GFW events, detect spoofing, rebuild live view + alerts
         env:
           GFW_TOKEN: ${{ secrets.GFW_TOKEN }}
