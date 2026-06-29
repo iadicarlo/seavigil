@@ -21,7 +21,7 @@ Prerequisites (all free, open):
   2. A conda env with the geo + torch stack (prebuilt, no GDAL build):
        micromamba create -p ./vds-env -c conda-forge python=3.11 \
          pytorch torchvision gdal rasterio pyproj shapely scikit-image scikit-learn \
-         numpy pandas boto3 mapcalc
+         numpy pandas boto3
   3. Copernicus Data Space S3 credentials in the environment (never commit them):
        export AWS_ACCESS_KEY_ID=...  AWS_SECRET_ACCESS_KEY=...
 
