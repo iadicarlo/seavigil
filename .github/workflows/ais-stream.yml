@@ -1,0 +1,61 @@
+name: AIS stream (near-continuous watchlist capture)
+
+# Near-continuous live AIS over data/watchlist.json into the rolling 24h buffer, so a Sentinel-1
+# scene almost always has AIS from its acquisition moment to match against (the dark vs matched
+# determination in the SAR engine). Each run streams ~50 minutes as back-to-back 15-minute
+# captures (one websocket per capture, so a drop costs only that capture and the next reconnects),
+# then saves the buffer to the Actions cache. Scheduled hourly, so capture is near-continuous and
+# the cached buffer is at most ~1h old for the monitor and SAR engine that read it. Free on a
+# public repo. This workflow is the SOLE writer of the buffer cache (the others restore it).
+#
+# Honest limit: aisstream is mostly terrestrial receivers, so the open ocean stays sparse no
+# matter how continuously we listen. Confident offshore dark calls need satellite AIS.
+
+on:
+  schedule:
+    - cron: "3 * * * *"   # hourly; each run streams ~50 min, so capture is near-continuous
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: ais-stream
+  cancel-in-progress: false
+
+jobs:
+  stream:
+    runs-on: ubuntu-latest
+    timeout-minutes: 58
+    steps:
+      - uses: actions/checkout@v4
+      - uses: astral-sh/setup-uv@v5
+        with:
+          python-version: "3.12"
+      - name: Restore the rolling AIS buffer
+        uses: actions/cache/restore@v4
+        with:
+          path: data/positions/ais_buffer.csv
+          key: ais-buffer-seed
+          restore-keys: ais-buffer-
+      - name: Stream the watchlist near-continuously (~50 min of 15-min captures)
+        env:
+          AISSTREAM_KEY: ${{ secrets.AISSTREAM_KEY }}
+        run: |
+          if [ -z "$AISSTREAM_KEY" ]; then echo "No AISSTREAM_KEY secret; cannot stream."; exit 1; fi
+          END=$(( $(date +%s) + 3000 ))   # ~50 min from now
+          i=0
+          while [ "$(date +%s)" -lt "$END" ]; do
+            i=$((i + 1)); echo "=== capture $i ($(date -u +%H:%M:%S)Z) ==="
+            uv run --with websockets python scripts/fetch_live_ais.py \
+              --watchlist data/watchlist.json --seconds 900 --max 80000 \
+              --out data/positions/ais_new.csv || echo "capture incomplete; continuing"
+            uv run python scripts/update_ais_buffer.py \
+              --new data/positions/ais_new.csv --buffer data/positions/ais_buffer.csv --hours 24
+          done
+      - name: Save the updated buffer to the cache
+        if: always()
+        uses: actions/cache/save@v4
+        with:
+          path: data/positions/ais_buffer.csv
+          key: ais-buffer-${{ github.run_id }}

@@ -3,10 +3,9 @@ name: Near-real-time monitor (GFW events + AIS spoofing)
 # Two near-real-time sources, republished to the ?live view and the alerts feed each hour:
 #  1. GFW Events API: recent gaps (going dark) + encounters (transshipment), kept when a
 #     foreign or unauthorized vessel is inside another state's EEZ, or a no-take incursion.
-#  2. AIS spoofing + SAR matching: live AIS (aisstream), concentrated on a watchlist of priority
-#     MPAs and EEZs, is streamed into a rolling 24h buffer (persisted by
-#     the Actions cache, not committed) so the detector accumulates enough per-vessel track
-#     to flag impossible-speed jumps or two vessels sharing one MMSI.
+#  2. AIS spoofing: the rolling 24h AIS buffer (filled near-continuously by ais-stream.yml and
+#     persisted via the Actions cache, not committed) is read here so the detector can flag
+#     impossible-speed jumps or two vessels sharing one MMSI.
 # GFW_TOKEN (events + authorization) is required. AISSTREAM_KEY enables the spoofing stream;
 # without it, the run does GFW events only (logged, not silent). The job commits when the
 # data changes, which keeps the scheduled workflow from being auto-disabled.
@@ -32,24 +31,12 @@ jobs:
       - uses: astral-sh/setup-uv@v5
         with:
           python-version: "3.12"
-      - name: Restore rolling AIS buffer (24h, for spoofing + SAR matching)
-        uses: actions/cache@v4
+      - name: Restore rolling AIS buffer (read-only; ais-stream.yml is the writer)
+        uses: actions/cache/restore@v4
         with:
           path: data/positions/ais_buffer.csv
-          key: ais-buffer-${{ github.run_id }}
+          key: ais-buffer-none
           restore-keys: ais-buffer-
-      - name: Stream live AIS into the rolling buffer
-        env:
-          AISSTREAM_KEY: ${{ secrets.AISSTREAM_KEY }}
-        run: |
-          if [ -z "$AISSTREAM_KEY" ]; then
-            echo "No AISSTREAM_KEY; spoofing disabled this run (GFW events still run)."; exit 0
-          fi
-          uv run --with websockets python scripts/fetch_live_ais.py \
-            --watchlist data/watchlist.json --seconds 900 --max 80000 \
-            --out data/positions/ais_new.csv || echo "stream incomplete; continuing with what was captured"
-          uv run python scripts/update_ais_buffer.py \
-            --new data/positions/ais_new.csv --buffer data/positions/ais_buffer.csv --hours 24
       - name: Pull GFW events, detect spoofing, rebuild live view + alerts
         env:
           GFW_TOKEN: ${{ secrets.GFW_TOKEN }}
