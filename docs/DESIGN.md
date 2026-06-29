@@ -1,5 +1,13 @@
 # SeaVigil - design sketch
 
+> **Historical note (2026-06-29).** This is the original design sketch. The project has
+> since shipped well beyond it: global coverage (584 records across 132 EEZs), an
+> authorization layer (foreign vessels graded against GFW registry / RFMO records), a
+> near-real-time GFW-events monitor with an alerts feed, live AIS spoofing, fully offline
+> deployment, and a four-language interface. For the current system see the
+> [README](../README.md) and the [About page](https://iadicarlo.github.io/seavigil/about.html).
+> This file is kept as a record of the original reasoning.
+
 _Last updated: 2026-06-25. This is the working spec: what we're building, why, what's
 genuinely new, what already exists, what we implement now, and with which tools._
 

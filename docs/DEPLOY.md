@@ -1,5 +1,10 @@
 # SeaVigil - pre-deploy checklist
 
+> **Historical note (2026-06-29).** Dated checklist from the initial publish. The site is
+> live and has since gained global coverage, an authorization layer, a near-real-time
+> monitor + alerts, live spoofing, offline deployment, and four languages. See the
+> [README](../README.md) for the current state.
+
 Gates to clear before publishing the site / pitching publicly. Status as of 2026-06-25.
 
 Legend: ✅ done · ⚠️ action needed (you) · ⏳ time-sensitive.
