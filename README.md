@@ -28,6 +28,8 @@ Every flag is tagged with the EEZ it falls in (global Marine Regions boundaries)
 - **Near-real-time monitor** (`?live`): the GFW Events API (gaps + encounters, about a 3-4 day lag) plus live AIS spoofing, filtered to the high-signal subset (a foreign or unauthorized vessel inside another state's EEZ, or a no-take incursion), refreshed hourly by a GitHub Action.
 - **Alerts** ([alerts.html](https://iadicarlo.github.io/seavigil/alerts.html) + an [RSS feed](https://iadicarlo.github.io/seavigil/alerts.xml)): new high-severity leads, each carrying its flag, EEZ, authorization status, and reason.
 
+The SAR (dark-vessel) layer can be either **consumed** from GFW or **run by us on demand**: [`notebooks/sentinel1_vessel_detection.ipynb`](notebooks/sentinel1_vessel_detection.ipynb) runs the open, pre-trained **Allen Institute** Sentinel-1 detector (Apache-2.0, the model behind Skylight) on a free Colab GPU over a Copernicus scene we choose, and `scripts/sar_detections_to_incidents.py` folds the detections (length, heading, fishing-vessel class) into a `?sar` view with jurisdiction, dark-vessel AIS matching, and evidence. So we control where and when we look, instead of waiting for GFW to publish.
+
 The interface is available in **English, Spanish, French, and Portuguese**, and the site loads **zero external resources** (every library, font, glyph, and the basemap are vendored locally), so it runs fully offline.
 
 ## Why it is not a GFW clone
