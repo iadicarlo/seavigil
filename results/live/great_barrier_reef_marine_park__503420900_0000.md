@@ -4,9 +4,9 @@
 - **Severity:** LOW (multi-use protected area)  ·  boundary sample-approx-2024
 - **EEZ:** Australia EEZ (Australia)  (flag matches coastal state)
 - **Vessel:** 🇦🇺 WINDAH  ·  **gear:** unknown
-- **When (UTC):** 2026-06-27T21:53:38Z → 2026-06-27T21:53:38Z (0.0 h)
-- **Apparent fishing:** 1 of 1 in-MPA positions; mean p=0.57, max p=0.57
-- **Where:** -16.929, 145.783 (centroid)
+- **When (UTC):** 2026-06-29T04:05:13Z → 2026-06-29T04:05:13Z (0.0 h)
+- **Apparent fishing:** 1 of 1 in-MPA positions; mean p=0.55, max p=0.55
+- **Where:** -16.930, 145.780 (centroid)
 - **Vs. speed baseline:** the trivial rule (speed < 10.7 kn) also flags 100% of these positions; here the speed rule alone suffices.
 
 ## Why this was flagged
@@ -15,11 +15,11 @@ _mean per-position SHAP (fishing class) over the incident's fishing positions._
 
 | feature | mean value | mean SHAP |
 |---|---:|---:|
-| `distance_from_port` | 812.281 | -0.223 |
-| `speed` | 4.500 | +0.163 |
-| `speed_roll_mean` | 4.500 | +0.143 |
-| `speed_roll_std` | 0.000 | -0.013 |
-| `distance_from_shore` | 7251.424 | +0.006 |
+| `distance_from_shore` | 7556.777 | +0.171 |
+| `distance_from_port` | 463.738 | -0.121 |
+| `speed` | 0.000 | +0.032 |
+| `speed_roll_std` | 0.000 | -0.031 |
+| `hour_sin` | 0.877 | +0.016 |
 
 ## Caveats
 
@@ -34,7 +34,7 @@ _mean per-position SHAP (fishing class) over the incident's fishing positions._
 - WDPA / WD-OECM (World Database on Protected Areas) (UNEP-WCMC and IUCN (2026), June 2026). Protected Planet Terms of Use (non-commercial, display-only).
 - Marine Regions Exclusive Economic Zones v12 (Flanders Marine Institute (2024), DOI 10.14284/632). CC BY 4.0.
 - **Model confidence:** Fishing probabilities are well-calibrated (Brier 0.0915 on 408,194 held-out positions from vessels not seen in training); read the score as a probability.
-- **Integrity (SHA-256 of canonical facts):** `bf8c009e31b2ca7217b81f2fc2a1df88a6cd434fc1572da37cfc43f0317ec041`
+- **Integrity (SHA-256 of canonical facts):** `08f90d6637f01ec823c84e9fb274a767d6fc3364baccb2744ba7855e5aa9f26a`
 - **Evidence schema:** seavigil-evidence-1.0
 
 _Apparent activity and an inspection lead, not proof of illegality. AIS and SAR evidence have known coverage gaps and spoofing risks; verify against authoritative sources before any enforcement action._
