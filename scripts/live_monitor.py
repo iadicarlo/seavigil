@@ -105,6 +105,7 @@ def _write_rss(alerts: list[dict]) -> None:
             f"<link>{SITE_URL}/?live</link></item>")
     rss = (
         '<?xml version="1.0" encoding="UTF-8"?>\n'
+        '<?xml-stylesheet type="text/xsl" href="alerts.xsl"?>\n'
         '<rss version="2.0"><channel>'
         '<title>SeaVigil alerts</title>'
         f'<link>{SITE_URL}/?live</link>'

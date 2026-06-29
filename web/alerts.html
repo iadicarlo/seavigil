@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>SeaVigil alerts: near-real-time illegal-fishing leads</title>
+  <meta name="description" content="Near-real-time alerts: foreign or unauthorized vessels going dark or transshipping inside another state's waters, from Global Fishing Watch events, each with its authorization status and reason." />
+  <link rel="canonical" href="https://iadicarlo.github.io/seavigil/alerts.html" />
+  <meta name="robots" content="index, follow" />
+  <link rel="alternate" type="application/rss+xml" title="SeaVigil alerts" href="./alerts.xml" />
+  <link rel="icon" href="favicon.svg" type="image/svg+xml" />
+  <link href="./fonts/poppins.css" rel="stylesheet" />
+  <style>
+    :root{
+      --bg:#081620; --panel:#0d1f2c; --border:rgba(43,212,168,.22);
+      --fg:#eaf4f2; --muted:#8fa6b2; --faint:#6f879a; --line:#1c3a4f;
+      --teal:#2bd4a8; --teal-bright:#3ff0c0; --ais:#f4a236;
+      --sev-high:#e0455e; --sev-medium:#f2b705; --sev-low:#2bd4a8;
+    }
+    *{box-sizing:border-box;}
+    body{margin:0;background:var(--bg);color:var(--fg);line-height:1.55;
+      font-family:system-ui,-apple-system,'Segoe UI',Roboto,sans-serif;
+      background-image:radial-gradient(1200px 600px at 70% -10%, rgba(43,212,168,.06), transparent);}
+    .wrap{max-width:820px;margin:0 auto;padding:30px 20px 80px;position:relative;}
+    a{color:var(--teal-bright);}
+    .brand{display:flex;align-items:center;gap:11px;margin-bottom:6px;}
+    .brand svg{width:36px;height:36px;}
+    .brand .name{font-family:'Poppins',sans-serif;font-weight:600;font-size:24px;letter-spacing:.3px;}
+    .brand .name .v{color:var(--ais);}
+    .sub{color:var(--muted);font-size:14px;margin:0 0 6px;}
+    .lead{font-size:15px;color:#dbe7e6;margin:8px 0 4px;}
+    .links{font-size:13px;margin:6px 0 18px;color:var(--muted);}
+    .meta-line{color:var(--faint);font-size:12px;margin:0 0 14px;}
+    .langsel{position:absolute;top:0;right:0;background:#0a1e2d;color:var(--fg);
+      border:1px solid var(--line);border-radius:6px;font-size:11px;padding:3px 7px;cursor:pointer;}
+    .langsel:hover{border-color:var(--teal-bright);}
+    .alert{border:1px solid var(--line);border-left:3px solid var(--sev-high);border-radius:8px;
+      padding:11px 14px;margin:9px 0;background:rgba(13,31,44,.5);}
+    .alert.medium{border-left-color:var(--sev-medium);}
+    .a-top{display:flex;align-items:center;gap:8px;flex-wrap:wrap;font-size:13px;}
+    .badge{font-size:9.5px;font-weight:700;letter-spacing:.4px;padding:2px 6px;border-radius:5px;color:#06241c;}
+    .b-high{background:var(--sev-high);color:#fff;} .b-med{background:var(--sev-medium);color:#3a2400;}
+    .b-auth{background:var(--sev-high);color:#fff;} .b-lapsed{background:var(--sev-medium);color:#3a2400;}
+    .type{font-weight:600;}
+    .vessel{font-size:15px;font-weight:600;margin:6px 0 2px;}
+    .meta{font-size:13px;color:#cfe0dd;}
+    .meta .k{color:var(--muted);}
+    .when{color:var(--faint);font-size:12px;margin-top:3px;}
+    .empty{color:var(--muted);border:1px dashed var(--line);border-radius:8px;padding:18px;text-align:center;}
+    footer{margin-top:34px;color:var(--faint);font-size:12px;border-top:1px solid var(--border);padding-top:14px;}
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <select id="langsel" class="langsel" aria-label="Language / Idioma / Langue / Idioma">
+      <option value="en">English</option>
+      <option value="es">Español</option>
+      <option value="fr">Français</option>
+      <option value="pt">Português</option>
+    </select>
+    <div class="brand">
+      <svg viewBox="0 0 64 64" role="img" aria-label="SeaVigil">
+        <rect width="64" height="64" rx="15" fill="#0b2233"/>
+        <rect x="31.2" y="11" width="1.7" height="28" fill="#ffffff"/>
+        <path d="M33.4 13 L45 37 L33.4 37 Z" fill="#2bd4a8"/>
+        <path d="M30.4 18.5 L20 37 L30.4 37 Z" fill="#ffffff"/>
+        <path d="M16.5 39 H47.5 L43 47.5 Q32 51.5 21 47.5 Z" fill="#ffffff"/>
+        <path d="M11 51.5 Q19 46.5 27 51.5 T43 51.5 T59 51.5" fill="none"
+              stroke="#2bd4a8" stroke-width="2.6" stroke-linecap="round" opacity="0.92"/>
+      </svg>
+      <span class="name">Sea<span class="v">Vigil</span></span>
+    </div>
+    <p class="sub" data-i18n="sub">Near-real-time illegal-fishing leads</p>
+    <p class="lead" data-i18n="intro">New high-severity leads: a foreign or unauthorized vessel going dark or transshipping inside another state's waters, from Global Fishing Watch events (about a 3 to 4 day lag). Each is an inspection lead, not proof.</p>
+    <p class="links">
+      <a href="./?live" data-i18n="open_map">Open the live map</a> &middot;
+      <a href="./alerts.xml"><span data-i18n="subscribe">Subscribe via RSS</span></a>
+      <span data-i18n="subscribe_note">(for feed readers)</span> &middot;
+      <a href="./" data-i18n="back">Back to the map</a>
+    </p>
+    <p class="meta-line" id="updated"></p>
+    <div id="list"></div>
+    <footer data-i18n="footer">SeaVigil is a non-commercial, public-interest project. Alerts are inspection leads, not proof of illegal activity. Source: Global Fishing Watch events (CC BY-NC).</footer>
+  </div>
+
+  <script>
+    const I18N = {
+      en: { sub: "Near-real-time illegal-fishing leads",
+        intro: "New high-severity leads: a foreign or unauthorized vessel going dark or transshipping inside another state's waters, from Global Fishing Watch events (about a 3 to 4 day lag). Each is an inspection lead, not proof.",
+        open_map: "Open the live map", subscribe: "Subscribe via RSS", subscribe_note: "(for feed readers)", back: "Back to the map",
+        updated: "Feed updated {when} UTC", empty: "No alerts yet. The monitor publishes new high-severity leads as they appear.",
+        going: "Going dark", enc: "At-sea encounter", k_eez: "EEZ", k_auth: "Authorization", k_when: "Event time",
+        a_no_record: "no authorization on record", a_lapsed: "authorization lapsed", a_authorized: "authorized",
+        footer: "SeaVigil is a non-commercial, public-interest project. Alerts are inspection leads, not proof of illegal activity. Source: Global Fishing Watch events (CC BY-NC)." },
+      es: { sub: "Alertas de pesca ilegal casi en tiempo real",
+        intro: "Nuevas alertas de alta gravedad: un buque extranjero o no autorizado que se apaga o transborda en aguas de otro estado, a partir de eventos de Global Fishing Watch (con un retraso de unos 3 a 4 días). Cada una es una pista de inspección, no una prueba.",
+        open_map: "Abrir el mapa en vivo", subscribe: "Suscribirse por RSS", subscribe_note: "(para lectores de feeds)", back: "Volver al mapa",
+        updated: "Feed actualizado {when} UTC", empty: "Aún no hay alertas. El monitor publica nuevas pistas de alta gravedad a medida que aparecen.",
+        going: "Apagado de AIS", enc: "Encuentro en el mar", k_eez: "ZEE", k_auth: "Autorización", k_when: "Hora del evento",
+        a_no_record: "sin autorización registrada", a_lapsed: "autorización vencida", a_authorized: "autorizado",
+        footer: "SeaVigil es un proyecto de interés público sin fines de lucro. Las alertas son pistas de inspección, no pruebas de actividad ilegal. Fuente: eventos de Global Fishing Watch (CC BY-NC)." },
+      fr: { sub: "Alertes de pêche illégale en quasi temps réel",
+        intro: "Nouvelles alertes de gravité élevée : un navire étranger ou non autorisé qui s'éteint ou transborde dans les eaux d'un autre État, à partir des événements de Global Fishing Watch (avec un décalage d'environ 3 à 4 jours). Chacune est une piste d'inspection, pas une preuve.",
+        open_map: "Ouvrir la carte en direct", subscribe: "S'abonner par RSS", subscribe_note: "(pour lecteurs de flux)", back: "Retour à la carte",
+        updated: "Flux mis à jour {when} UTC", empty: "Aucune alerte pour le moment. Le moniteur publie les nouvelles pistes de gravité élevée dès qu'elles apparaissent.",
+        going: "Extinction de l'AIS", enc: "Rencontre en mer", k_eez: "ZEE", k_auth: "Autorisation", k_when: "Heure de l'événement",
+        a_no_record: "aucune autorisation enregistrée", a_lapsed: "autorisation expirée", a_authorized: "autorisé",
+        footer: "SeaVigil est un projet d'intérêt public sans but lucratif. Les alertes sont des pistes d'inspection, pas des preuves d'activité illégale. Source : événements de Global Fishing Watch (CC BY-NC)." },
+      pt: { sub: "Alertas de pesca ilegal quase em tempo real",
+        intro: "Novos alertas de alta gravidade: uma embarcação estrangeira ou não autorizada que se desliga ou transborda nas águas de outro estado, a partir de eventos da Global Fishing Watch (com um atraso de cerca de 3 a 4 dias). Cada um é uma pista de inspeção, não uma prova.",
+        open_map: "Abrir o mapa ao vivo", subscribe: "Subscrever por RSS", subscribe_note: "(para leitores de feeds)", back: "Voltar ao mapa",
+        updated: "Feed atualizado {when} UTC", empty: "Ainda não há alertas. O monitor publica novas pistas de alta gravidade à medida que surgem.",
+        going: "Desligamento de AIS", enc: "Encontro no mar", k_eez: "ZEE", k_auth: "Autorização", k_when: "Hora do evento",
+        a_no_record: "sem autorização registada", a_lapsed: "autorização expirada", a_authorized: "autorizado",
+        footer: "SeaVigil é um projeto de interesse público sem fins lucrativos. Os alertas são pistas de inspeção, não provas de atividade ilegal. Fonte: eventos da Global Fishing Watch (CC BY-NC)." },
+    };
+    let LANG = "en", ALERTS = [], UPDATED = null;
+    function t(key, vars) {
+      const s = (I18N[LANG] && I18N[LANG][key]) || I18N.en[key] || key;
+      return vars ? s.replace(/\{(\w+)\}/g, (m, k) => (vars[k] != null ? vars[k] : "")) : s;
+    }
+    function flagEmoji(iso2) {
+      if (!iso2 || !/^[A-Za-z]{2}$/.test(iso2)) return "";
+      return String.fromCodePoint(...[...iso2.toUpperCase()].map(c => 0x1F1E6 + c.charCodeAt(0) - 65));
+    }
+    function esc(s) { return String(s == null ? "" : s).replace(/[&<>"]/g, c => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c])); }
+    const AUTH = {
+      no_record: { key: "a_no_record", cls: "b-auth" },
+      authorization_lapsed: { key: "a_lapsed", cls: "b-lapsed" },
+      authorized: { key: "a_authorized", cls: "b-med" },
+    };
+    function render() {
+      document.getElementById("updated").textContent = UPDATED ? t("updated", { when: UPDATED.slice(0, 16).replace("T", " ") }) : "";
+      const host = document.getElementById("list");
+      if (!ALERTS.length) { host.innerHTML = `<div class="empty">${esc(t("empty"))}</div>`; return; }
+      host.innerHTML = ALERTS.map(a => {
+        const typ = a.type === "encounter" ? t("enc") : t("going");
+        const sev = "high"; // the feed only carries high-severity leads
+        const who = (flagEmoji(a.flag) ? flagEmoji(a.flag) + " " : "") + (a.ship_name || a.flag || "unknown vessel");
+        const au = AUTH[a.authorization];
+        const auBadge = au ? `<span class="badge ${au.cls}">${esc(t(au.key)).toUpperCase()}</span>` : esc(a.authorization || "");
+        const pos = (a.lat != null && a.lon != null) ? ` &middot; ${a.lat.toFixed(2)}, ${a.lon.toFixed(2)}` : "";
+        return `<div class="alert ${sev === "high" ? "" : "medium"}">
+          <div class="a-top"><span class="badge b-high">HIGH</span> <span class="type">${esc(typ)}</span></div>
+          <div class="vessel">${esc(who)}</div>
+          <div class="meta"><span class="k">${esc(t("k_eez"))}:</span> ${esc(a.eez || "n/a")} &middot;
+            <span class="k">${esc(t("k_auth"))}:</span> ${auBadge}</div>
+          <div class="when"><span class="k">${esc(t("k_when"))}:</span> ${esc((a.when || "").slice(0, 16).replace("T", " "))} UTC${pos}</div>
+        </div>`;
+      }).join("");
+    }
+    function applyStatic() {
+      document.querySelectorAll("[data-i18n]").forEach(el => { el.textContent = t(el.getAttribute("data-i18n")); });
+      document.documentElement.lang = LANG;
+    }
+    function setLang(l) {
+      LANG = I18N[l] ? l : "en";
+      try { localStorage.setItem("seavigil_lang", LANG); } catch (e) {}
+      const s = document.getElementById("langsel"); if (s) s.value = LANG;
+      applyStatic(); render();
+    }
+    (function init() {
+      let l = null;
+      try { l = localStorage.getItem("seavigil_lang"); } catch (e) {}
+      if (!l) { const n = (navigator.language || "en").slice(0, 2).toLowerCase(); l = I18N[n] ? n : "en"; }
+      LANG = I18N[l] ? l : "en";
+      const s = document.getElementById("langsel"); if (s) { s.value = LANG; s.onchange = () => setLang(s.value); }
+      applyStatic();
+    })();
+    fetch("./data/alerts.json", { cache: "no-store" })
+      .then(r => r.ok ? r.json() : { alerts: [] })
+      .then(d => { ALERTS = d.alerts || []; UPDATED = d.generated_at || null; render(); })
+      .catch(() => { ALERTS = []; render(); });
+  </script>
+</body>
+</html>
