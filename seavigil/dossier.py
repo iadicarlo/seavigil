@@ -266,6 +266,28 @@ def render_markdown(dossier: dict) -> str:
     return "\n".join(lines)
 
 
+def _unwrap_lons(coords: list) -> list:
+    """Unwrap a track's longitudes so it never draws the long way around the globe.
+
+    A vessel that goes dark near +179 and reappears near -179 has a tiny real gap but a
+    ~358 deg raw longitude jump; drawn as-is the line crosses the whole map. Shift each
+    point by multiples of 360 so consecutive longitudes stay within 180 deg of each other
+    (MapLibre wraps longitudes outside [-180, 180] back into view correctly).
+    """
+    if not coords:
+        return coords
+    out = [[float(coords[0][0]), float(coords[0][1])]]
+    for c in coords[1:]:
+        lon, lat = float(c[0]), float(c[1])
+        prev = out[-1][0]
+        while lon - prev > 180:
+            lon -= 360
+        while lon - prev < -180:
+            lon += 360
+        out.append([lon, lat])
+    return out
+
+
 def write_dossiers(dossiers: list[dict], out_dir: str | Path) -> dict:
     """Write incidents.json, per-incident Markdown, and an INDEX.md summary.
 
@@ -285,7 +307,7 @@ def write_dossiers(dossiers: list[dict], out_dir: str | Path) -> dict:
 
     track_feats = [
         {"type": "Feature",
-         "geometry": {"type": "LineString", "coordinates": d["track"]},
+         "geometry": {"type": "LineString", "coordinates": _unwrap_lons(d["track"])},
          "properties": {"id": d["incident_id"], "kind": d.get("type", "ais_fishing_incident")}}
         for d in dossiers if len(d.get("track") or []) >= 2
     ]
