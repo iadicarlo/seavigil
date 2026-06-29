@@ -6,7 +6,7 @@
     "mpa_no_take": "False",
     "mpa_iucn_cat": "V",
     "severity": "low",
-    "severity_reason": "multi-use protected area",
+    "severity_reason": "stationary vessel inside a protected area (likely at anchor; broadcasting unverified)",
     "vessel_id": "(SAR detection -- no AIS identity)",
     "ship_name": "",
     "flag": "",
@@ -37,7 +37,8 @@
         "Sentinel-1 SAR detection, confidence 0.99",
         "length 61 m (industrial scale)",
         "classified non-fishing vessel (p=0.03)",
-        "heading about 0 deg at 0 kn"
+        "heading about 0 deg at 0 kn",
+        "near-stationary at acquisition (likely at anchor)"
       ]
     },
     "caveats": [
@@ -55,8 +56,8 @@
     "mpa_name": "Galapagos Marine Reserve",
     "mpa_no_take": "False",
     "mpa_iucn_cat": "V",
-    "severity": "high",
-    "severity_reason": "apparent fishing vessel inside a protected area",
+    "severity": "low",
+    "severity_reason": "stationary vessel inside a protected area (likely at anchor; broadcasting unverified)",
     "vessel_id": "(SAR detection -- no AIS identity)",
     "ship_name": "",
     "flag": "",
@@ -87,7 +88,8 @@
         "Sentinel-1 SAR detection, confidence 0.99",
         "length 32 m (industrial scale)",
         "classified fishing vessel (p=0.86)",
-        "heading about 0 deg at 0 kn"
+        "heading about 0 deg at 0 kn",
+        "near-stationary at acquisition (likely at anchor)"
       ]
     },
     "caveats": [
@@ -101,7 +103,7 @@
     "eez_iso_sov": "ECU",
     "eez_foreign": null,
     "evidence_schema": "seavigil-evidence-1.0",
-    "evidence_hash": "844e59e7ff1ae788bef18de8398f35062a83407cf021d0edcdba122533e2927f"
+    "evidence_hash": "050a8d80fcc230743de075cc243852cf16914c5f540c9350d34dfd273dc3725c"
   },
   {
     "type": "dark_vessel_sar",
@@ -109,8 +111,8 @@
     "mpa_name": "Galapagos Marine Reserve",
     "mpa_no_take": "False",
     "mpa_iucn_cat": "V",
-    "severity": "high",
-    "severity_reason": "apparent fishing vessel inside a protected area",
+    "severity": "low",
+    "severity_reason": "stationary vessel inside a protected area (likely at anchor; broadcasting unverified)",
     "vessel_id": "(SAR detection -- no AIS identity)",
     "ship_name": "",
     "flag": "",
@@ -141,7 +143,8 @@
         "Sentinel-1 SAR detection, confidence 0.99",
         "length 42 m (industrial scale)",
         "classified fishing vessel (p=0.93)",
-        "heading about 0 deg at 0 kn"
+        "heading about 0 deg at 0 kn",
+        "near-stationary at acquisition (likely at anchor)"
       ]
     },
     "caveats": [
@@ -155,7 +158,7 @@
     "eez_iso_sov": "ECU",
     "eez_foreign": null,
     "evidence_schema": "seavigil-evidence-1.0",
-    "evidence_hash": "8dfe1897c1f67180f97164d86474e99b986214016a33cb8e12faef0534eb2669"
+    "evidence_hash": "75ba92772ca50285181ce395ec3a4e940923ffbfa4fc6724db99082e5e6cb203"
   },
   {
     "type": "dark_vessel_sar",
@@ -164,7 +167,7 @@
     "mpa_no_take": "False",
     "mpa_iucn_cat": "V",
     "severity": "low",
-    "severity_reason": "multi-use protected area",
+    "severity_reason": "stationary vessel inside a protected area (likely at anchor; broadcasting unverified)",
     "vessel_id": "(SAR detection -- no AIS identity)",
     "ship_name": "",
     "flag": "",
@@ -195,7 +198,8 @@
         "Sentinel-1 SAR detection, confidence 0.98",
         "length 42 m (industrial scale)",
         "classified non-fishing vessel (p=0.16)",
-        "heading about 0 deg at 0 kn"
+        "heading about 0 deg at 0 kn",
+        "near-stationary at acquisition (likely at anchor)"
       ]
     },
     "caveats": [
@@ -213,8 +217,8 @@
     "mpa_name": "Galapagos Marine Reserve",
     "mpa_no_take": "False",
     "mpa_iucn_cat": "V",
-    "severity": "high",
-    "severity_reason": "apparent fishing vessel inside a protected area",
+    "severity": "low",
+    "severity_reason": "stationary vessel inside a protected area (likely at anchor; broadcasting unverified)",
     "vessel_id": "(SAR detection -- no AIS identity)",
     "ship_name": "",
     "flag": "",
@@ -245,7 +249,8 @@
         "Sentinel-1 SAR detection, confidence 0.98",
         "length 37 m (industrial scale)",
         "classified fishing vessel (p=0.56)",
-        "heading about 270 deg at 0 kn"
+        "heading about 270 deg at 0 kn",
+        "near-stationary at acquisition (likely at anchor)"
       ]
     },
     "caveats": [
@@ -259,7 +264,7 @@
     "eez_iso_sov": "ECU",
     "eez_foreign": null,
     "evidence_schema": "seavigil-evidence-1.0",
-    "evidence_hash": "c65951bd7b7a4ffd0599f8aadb51d9fec9a0bb2bf785cf07a52501da792d1c0c"
+    "evidence_hash": "6ed96667e3536a23b3929b2d30955f4e8f25b61f2228071d3528dabefcd793f3"
   },
   {
     "type": "dark_vessel_sar",
@@ -267,8 +272,8 @@
     "mpa_name": "Galapagos Marine Reserve",
     "mpa_no_take": "False",
     "mpa_iucn_cat": "V",
-    "severity": "high",
-    "severity_reason": "apparent fishing vessel inside a protected area",
+    "severity": "low",
+    "severity_reason": "stationary vessel inside a protected area (likely at anchor; broadcasting unverified)",
     "vessel_id": "(SAR detection -- no AIS identity)",
     "ship_name": "",
     "flag": "",
@@ -299,7 +304,8 @@
         "Sentinel-1 SAR detection, confidence 0.97",
         "length 25 m (industrial scale)",
         "classified fishing vessel (p=0.99)",
-        "heading about 270 deg at -0 kn"
+        "heading about 270 deg at -0 kn",
+        "near-stationary at acquisition (likely at anchor)"
       ]
     },
     "caveats": [
@@ -309,7 +315,7 @@
       "An inspection lead, not proof of illegal activity."
     ],
     "evidence_schema": "seavigil-evidence-1.0",
-    "evidence_hash": "d79d7ee84e54357e0def2b5ae00a963bc4ccb6105d0d6f587679b1502c25dc4f"
+    "evidence_hash": "4a5bb80dd4c82f8de4b0251d37a96f09a1a80db2c6a2ea15b7de5d199cd11f99"
   },
   {
     "type": "dark_vessel_sar",
@@ -318,7 +324,7 @@
     "mpa_no_take": "False",
     "mpa_iucn_cat": "V",
     "severity": "low",
-    "severity_reason": "multi-use protected area",
+    "severity_reason": "stationary vessel inside a protected area (likely at anchor; broadcasting unverified)",
     "vessel_id": "(SAR detection -- no AIS identity)",
     "ship_name": "",
     "flag": "",
@@ -349,7 +355,8 @@
         "Sentinel-1 SAR detection, confidence 0.97",
         "length 61 m (industrial scale)",
         "classified non-fishing vessel (p=0.03)",
-        "heading about 90 deg at 0 kn"
+        "heading about 90 deg at 0 kn",
+        "near-stationary at acquisition (likely at anchor)"
       ]
     },
     "caveats": [
@@ -367,8 +374,8 @@
     "mpa_name": "Galapagos Marine Reserve",
     "mpa_no_take": "False",
     "mpa_iucn_cat": "V",
-    "severity": "high",
-    "severity_reason": "apparent fishing vessel inside a protected area",
+    "severity": "medium",
+    "severity_reason": "fishing-type vessel underway in a protected area (broadcasting unverified)",
     "vessel_id": "(SAR detection -- no AIS identity)",
     "ship_name": "",
     "flag": "",
@@ -413,7 +420,7 @@
     "eez_iso_sov": "ECU",
     "eez_foreign": null,
     "evidence_schema": "seavigil-evidence-1.0",
-    "evidence_hash": "946d8a62741dba58a35da8d1278c790e0e5a8ad433cde49de166cd0d5aced6b5"
+    "evidence_hash": "0d332b5c5ccb3a7c07da11096e8084f7bf61b3ba44956438507cb9642748b9ac"
   },
   {
     "type": "dark_vessel_sar",
@@ -422,7 +429,7 @@
     "mpa_no_take": "False",
     "mpa_iucn_cat": "V",
     "severity": "low",
-    "severity_reason": "multi-use protected area",
+    "severity_reason": "stationary vessel inside a protected area (likely at anchor; broadcasting unverified)",
     "vessel_id": "(SAR detection -- no AIS identity)",
     "ship_name": "",
     "flag": "",
@@ -453,7 +460,8 @@
         "Sentinel-1 SAR detection, confidence 0.95",
         "length 153 m (industrial scale)",
         "classified non-fishing vessel (p=0.00)",
-        "heading about 0 deg at 0 kn"
+        "heading about 0 deg at 0 kn",
+        "near-stationary at acquisition (likely at anchor)"
       ]
     },
     "caveats": [
@@ -471,8 +479,8 @@
     "mpa_name": "Galapagos Marine Reserve",
     "mpa_no_take": "False",
     "mpa_iucn_cat": "V",
-    "severity": "high",
-    "severity_reason": "apparent fishing vessel inside a protected area",
+    "severity": "medium",
+    "severity_reason": "fishing-type vessel underway in a protected area (broadcasting unverified)",
     "vessel_id": "(SAR detection -- no AIS identity)",
     "ship_name": "",
     "flag": "",
@@ -517,7 +525,7 @@
     "eez_iso_sov": "ECU",
     "eez_foreign": null,
     "evidence_schema": "seavigil-evidence-1.0",
-    "evidence_hash": "6fe846e1a5d6992e6dfb1f02d8baf5ae9019c31056d24edc1a87531cca99d07e"
+    "evidence_hash": "d3798ca15adf9a447d24ab5229ade05f843879693c3e9e0ff53b8d4b17989e87"
   },
   {
     "type": "dark_vessel_sar",
@@ -526,7 +534,7 @@
     "mpa_no_take": "False",
     "mpa_iucn_cat": "V",
     "severity": "low",
-    "severity_reason": "multi-use protected area",
+    "severity_reason": "stationary vessel inside a protected area (likely at anchor; broadcasting unverified)",
     "vessel_id": "(SAR detection -- no AIS identity)",
     "ship_name": "",
     "flag": "",
@@ -557,7 +565,8 @@
         "Sentinel-1 SAR detection, confidence 0.93",
         "length 35 m (industrial scale)",
         "classified non-fishing vessel (p=0.30)",
-        "heading about 0 deg at 0 kn"
+        "heading about 0 deg at 0 kn",
+        "near-stationary at acquisition (likely at anchor)"
       ]
     },
     "caveats": [
@@ -579,8 +588,8 @@
     "mpa_name": "Galapagos Marine Reserve",
     "mpa_no_take": "False",
     "mpa_iucn_cat": "V",
-    "severity": "high",
-    "severity_reason": "apparent fishing vessel inside a protected area",
+    "severity": "low",
+    "severity_reason": "stationary vessel inside a protected area (likely at anchor; broadcasting unverified)",
     "vessel_id": "(SAR detection -- no AIS identity)",
     "ship_name": "",
     "flag": "",
@@ -611,7 +620,8 @@
         "Sentinel-1 SAR detection, confidence 0.91",
         "length 34 m (industrial scale)",
         "classified fishing vessel (p=0.77)",
-        "heading about 0 deg at 0 kn"
+        "heading about 0 deg at 0 kn",
+        "near-stationary at acquisition (likely at anchor)"
       ]
     },
     "caveats": [
@@ -625,7 +635,7 @@
     "eez_iso_sov": "ECU",
     "eez_foreign": null,
     "evidence_schema": "seavigil-evidence-1.0",
-    "evidence_hash": "6f7e504488d11b658c4686d9a0c70c829e02efc5f67422102e5b06a42f579781"
+    "evidence_hash": "9253e59e3cf1d4aa0a398951830688a6d7b73da0d2c72e390a31114aa38664c7"
   },
   {
     "type": "dark_vessel_sar",
@@ -633,8 +643,8 @@
     "mpa_name": "Galapagos Marine Reserve",
     "mpa_no_take": "False",
     "mpa_iucn_cat": "V",
-    "severity": "high",
-    "severity_reason": "apparent fishing vessel inside a protected area",
+    "severity": "medium",
+    "severity_reason": "fishing-type vessel underway in a protected area (broadcasting unverified)",
     "vessel_id": "(SAR detection -- no AIS identity)",
     "ship_name": "",
     "flag": "",
@@ -679,7 +689,7 @@
     "eez_iso_sov": "ECU",
     "eez_foreign": null,
     "evidence_schema": "seavigil-evidence-1.0",
-    "evidence_hash": "f3c98cd6ed50f5f354048f3c794c48f2618a6ad984e6588ec3c3769d05d4a5fb"
+    "evidence_hash": "7f926a3a7a2232853af9e8d9cd1940da4a4596707ab58d33bb620a7d203a1a1d"
   },
   {
     "type": "dark_vessel_sar",
@@ -688,7 +698,7 @@
     "mpa_no_take": "False",
     "mpa_iucn_cat": "V",
     "severity": "low",
-    "severity_reason": "multi-use protected area",
+    "severity_reason": "stationary vessel inside a protected area (likely at anchor; broadcasting unverified)",
     "vessel_id": "(SAR detection -- no AIS identity)",
     "ship_name": "",
     "flag": "",
@@ -719,7 +729,8 @@
         "Sentinel-1 SAR detection, confidence 0.90",
         "length 40 m (industrial scale)",
         "classified non-fishing vessel (p=0.16)",
-        "heading about 68 deg at 0 kn"
+        "heading about 68 deg at 0 kn",
+        "near-stationary at acquisition (likely at anchor)"
       ]
     },
     "caveats": [
@@ -741,8 +752,8 @@
     "mpa_name": "Galapagos Marine Reserve",
     "mpa_no_take": "False",
     "mpa_iucn_cat": "V",
-    "severity": "high",
-    "severity_reason": "apparent fishing vessel inside a protected area",
+    "severity": "low",
+    "severity_reason": "stationary vessel inside a protected area (likely at anchor; broadcasting unverified)",
     "vessel_id": "(SAR detection -- no AIS identity)",
     "ship_name": "",
     "flag": "",
@@ -773,7 +784,8 @@
         "Sentinel-1 SAR detection, confidence 0.86",
         "length 29 m (industrial scale)",
         "classified fishing vessel (p=0.65)",
-        "heading about 0 deg at 0 kn"
+        "heading about 0 deg at 0 kn",
+        "near-stationary at acquisition (likely at anchor)"
       ]
     },
     "caveats": [
@@ -787,7 +799,7 @@
     "eez_iso_sov": "ECU",
     "eez_foreign": null,
     "evidence_schema": "seavigil-evidence-1.0",
-    "evidence_hash": "c0da31fb246e8c7746c8bd3091641b65f2974939fc5ea6356a494c4f334ea53c"
+    "evidence_hash": "72fe6716911b518762ca250e21b6b8026049cb3bb4ff038a6c0c4b305bb4e1d7"
   },
   {
     "type": "dark_vessel_sar",
@@ -795,8 +807,8 @@
     "mpa_name": "Galapagos Marine Reserve",
     "mpa_no_take": "False",
     "mpa_iucn_cat": "V",
-    "severity": "high",
-    "severity_reason": "apparent fishing vessel inside a protected area",
+    "severity": "medium",
+    "severity_reason": "fishing-type vessel underway in a protected area (broadcasting unverified)",
     "vessel_id": "(SAR detection -- no AIS identity)",
     "ship_name": "",
     "flag": "",
@@ -841,7 +853,7 @@
     "eez_iso_sov": "ECU",
     "eez_foreign": null,
     "evidence_schema": "seavigil-evidence-1.0",
-    "evidence_hash": "4e47ebda2632860c8ce17957de45856d271b1e81dfaae9ccb68e2b797b9f2b3a"
+    "evidence_hash": "85782e6c443189d1ea35f400bb628ed2e5996db1df5e40716e825605817e9134"
   },
   {
     "type": "dark_vessel_sar",
@@ -850,7 +862,7 @@
     "mpa_no_take": "False",
     "mpa_iucn_cat": "V",
     "severity": "low",
-    "severity_reason": "multi-use protected area",
+    "severity_reason": "stationary vessel inside a protected area (likely at anchor; broadcasting unverified)",
     "vessel_id": "(SAR detection -- no AIS identity)",
     "ship_name": "",
     "flag": "",
@@ -881,7 +893,8 @@
         "Sentinel-1 SAR detection, confidence 0.83",
         "length 43 m (industrial scale)",
         "classified non-fishing vessel (p=0.16)",
-        "heading about 0 deg at 0 kn"
+        "heading about 0 deg at 0 kn",
+        "near-stationary at acquisition (likely at anchor)"
       ]
     },
     "caveats": [
@@ -900,7 +913,7 @@
     "mpa_no_take": "False",
     "mpa_iucn_cat": "V",
     "severity": "low",
-    "severity_reason": "multi-use protected area",
+    "severity_reason": "stationary vessel inside a protected area (likely at anchor; broadcasting unverified)",
     "vessel_id": "(SAR detection -- no AIS identity)",
     "ship_name": "",
     "flag": "",
@@ -931,7 +944,8 @@
         "Sentinel-1 SAR detection, confidence 0.83",
         "length 48 m (industrial scale)",
         "classified non-fishing vessel (p=0.07)",
-        "heading about 248 deg at 0 kn"
+        "heading about 248 deg at 0 kn",
+        "near-stationary at acquisition (likely at anchor)"
       ]
     },
     "caveats": [
@@ -954,7 +968,7 @@
     "mpa_no_take": "False",
     "mpa_iucn_cat": "V",
     "severity": "low",
-    "severity_reason": "multi-use protected area",
+    "severity_reason": "stationary vessel inside a protected area (likely at anchor; broadcasting unverified)",
     "vessel_id": "(SAR detection -- no AIS identity)",
     "ship_name": "",
     "flag": "",
@@ -985,7 +999,8 @@
         "Sentinel-1 SAR detection, confidence 0.97",
         "length 49 m (industrial scale)",
         "classified non-fishing vessel (p=0.17)",
-        "heading about 0 deg at 0 kn"
+        "heading about 0 deg at 0 kn",
+        "near-stationary at acquisition (likely at anchor)"
       ]
     },
     "caveats": [
@@ -1008,7 +1023,7 @@
     "mpa_no_take": "False",
     "mpa_iucn_cat": "V",
     "severity": "low",
-    "severity_reason": "multi-use protected area",
+    "severity_reason": "stationary vessel inside a protected area (likely at anchor; broadcasting unverified)",
     "vessel_id": "(SAR detection -- no AIS identity)",
     "ship_name": "",
     "flag": "",
@@ -1039,7 +1054,8 @@
         "Sentinel-1 SAR detection, confidence 0.88",
         "length 78 m (industrial scale)",
         "classified non-fishing vessel (p=0.04)",
-        "heading about 90 deg at 0 kn"
+        "heading about 90 deg at 0 kn",
+        "near-stationary at acquisition (likely at anchor)"
       ]
     },
     "caveats": [
@@ -1062,7 +1078,7 @@
     "mpa_no_take": "False",
     "mpa_iucn_cat": "V",
     "severity": "low",
-    "severity_reason": "multi-use protected area",
+    "severity_reason": "stationary vessel inside a protected area (likely at anchor; broadcasting unverified)",
     "vessel_id": "(SAR detection -- no AIS identity)",
     "ship_name": "",
     "flag": "",
@@ -1093,7 +1109,8 @@
         "Sentinel-1 SAR detection, confidence 0.99",
         "length 74 m (industrial scale)",
         "classified non-fishing vessel (p=0.27)",
-        "heading about 0 deg at 0 kn"
+        "heading about 0 deg at 0 kn",
+        "near-stationary at acquisition (likely at anchor)"
       ]
     },
     "caveats": [
@@ -1115,8 +1132,8 @@
     "mpa_name": "Galapagos Marine Reserve",
     "mpa_no_take": "False",
     "mpa_iucn_cat": "V",
-    "severity": "high",
-    "severity_reason": "apparent fishing vessel inside a protected area",
+    "severity": "low",
+    "severity_reason": "stationary vessel inside a protected area (likely at anchor; broadcasting unverified)",
     "vessel_id": "(SAR detection -- no AIS identity)",
     "ship_name": "",
     "flag": "",
@@ -1147,7 +1164,8 @@
         "Sentinel-1 SAR detection, confidence 0.88",
         "length 38 m (industrial scale)",
         "classified fishing vessel (p=0.55)",
-        "heading about 0 deg at 0 kn"
+        "heading about 0 deg at 0 kn",
+        "near-stationary at acquisition (likely at anchor)"
       ]
     },
     "caveats": [
@@ -1161,7 +1179,7 @@
     "eez_iso_sov": "ECU",
     "eez_foreign": null,
     "evidence_schema": "seavigil-evidence-1.0",
-    "evidence_hash": "8d561a9830cc745d1a55283bdb3962cd95974c6b6b9d9ab161fc5e689698fd4b"
+    "evidence_hash": "8864deff843191ebff39eb941aa38b0e467e93b3c33d080efeecae7a67b07fa7"
   },
   {
     "type": "dark_vessel_sar",
@@ -1169,8 +1187,8 @@
     "mpa_name": "Galapagos Marine Reserve",
     "mpa_no_take": "False",
     "mpa_iucn_cat": "V",
-    "severity": "high",
-    "severity_reason": "apparent fishing vessel inside a protected area",
+    "severity": "medium",
+    "severity_reason": "fishing-type vessel underway in a protected area (broadcasting unverified)",
     "vessel_id": "(SAR detection -- no AIS identity)",
     "ship_name": "",
     "flag": "",
@@ -1215,7 +1233,7 @@
     "eez_iso_sov": "ECU",
     "eez_foreign": null,
     "evidence_schema": "seavigil-evidence-1.0",
-    "evidence_hash": "44d58482c1b1251fdd5e18db3021b5162201c0d5f0f812154dcc550c6008f5af"
+    "evidence_hash": "0a5b289cd60b10d8eb55c2ba0c1ad35c94618bfc8441d12f09f1ec42b13a1803"
   },
   {
     "type": "dark_vessel_sar",
@@ -1224,7 +1242,7 @@
     "mpa_no_take": "False",
     "mpa_iucn_cat": "V",
     "severity": "low",
-    "severity_reason": "multi-use protected area",
+    "severity_reason": "stationary vessel inside a protected area (likely at anchor; broadcasting unverified)",
     "vessel_id": "(SAR detection -- no AIS identity)",
     "ship_name": "",
     "flag": "",
@@ -1255,7 +1273,8 @@
         "Sentinel-1 SAR detection, confidence 0.85",
         "length 58 m (industrial scale)",
         "classified non-fishing vessel (p=0.31)",
-        "heading about 0 deg at 0 kn"
+        "heading about 0 deg at 0 kn",
+        "near-stationary at acquisition (likely at anchor)"
       ]
     },
     "caveats": [
@@ -1277,8 +1296,8 @@
     "mpa_name": "Galapagos Marine Reserve",
     "mpa_no_take": "False",
     "mpa_iucn_cat": "V",
-    "severity": "high",
-    "severity_reason": "apparent fishing vessel inside a protected area",
+    "severity": "low",
+    "severity_reason": "stationary vessel inside a protected area (likely at anchor; broadcasting unverified)",
     "vessel_id": "(SAR detection -- no AIS identity)",
     "ship_name": "",
     "flag": "",
@@ -1309,7 +1328,8 @@
         "Sentinel-1 SAR detection, confidence 0.96",
         "length 38 m (industrial scale)",
         "classified fishing vessel (p=0.93)",
-        "heading about 0 deg at 0 kn"
+        "heading about 0 deg at 0 kn",
+        "near-stationary at acquisition (likely at anchor)"
       ]
     },
     "caveats": [
@@ -1323,7 +1343,7 @@
     "eez_iso_sov": "ECU",
     "eez_foreign": null,
     "evidence_schema": "seavigil-evidence-1.0",
-    "evidence_hash": "4e39272d17eab4a04cd555c494226cf600fba03da7d37d317ea89cecdc06b5e8"
+    "evidence_hash": "590260df68223effaa25f87e8fbd5c67531d35c9a028c04528891a3767252b0f"
   },
   {
     "type": "dark_vessel_sar",
@@ -1331,8 +1351,8 @@
     "mpa_name": "Galapagos Marine Reserve",
     "mpa_no_take": "False",
     "mpa_iucn_cat": "V",
-    "severity": "high",
-    "severity_reason": "apparent fishing vessel inside a protected area",
+    "severity": "low",
+    "severity_reason": "stationary vessel inside a protected area (likely at anchor; broadcasting unverified)",
     "vessel_id": "(SAR detection -- no AIS identity)",
     "ship_name": "",
     "flag": "",
@@ -1363,7 +1383,8 @@
         "Sentinel-1 SAR detection, confidence 0.87",
         "length 46 m (industrial scale)",
         "classified fishing vessel (p=0.94)",
-        "heading about 0 deg at 0 kn"
+        "heading about 0 deg at 0 kn",
+        "near-stationary at acquisition (likely at anchor)"
       ]
     },
     "caveats": [
@@ -1377,7 +1398,7 @@
     "eez_iso_sov": "ECU",
     "eez_foreign": null,
     "evidence_schema": "seavigil-evidence-1.0",
-    "evidence_hash": "25b39d94ea66e08bb1ab7b8660de9fbf88370814fc8d5331d74d056933cb2a94"
+    "evidence_hash": "a32a3aae1cdf6495a6133464368a27e0799d7b9566ce0843f829b409f4e53494"
   },
   {
     "type": "dark_vessel_sar",
@@ -1386,7 +1407,7 @@
     "mpa_no_take": "False",
     "mpa_iucn_cat": "V",
     "severity": "low",
-    "severity_reason": "multi-use protected area",
+    "severity_reason": "stationary vessel inside a protected area (likely at anchor; broadcasting unverified)",
     "vessel_id": "(SAR detection -- no AIS identity)",
     "ship_name": "",
     "flag": "",
@@ -1417,7 +1438,8 @@
         "Sentinel-1 SAR detection, confidence 0.79",
         "length 50 m (industrial scale)",
         "classified non-fishing vessel (p=0.25)",
-        "heading about 270 deg at 0 kn"
+        "heading about 270 deg at 0 kn",
+        "near-stationary at acquisition (likely at anchor)"
       ]
     },
     "caveats": [

@@ -117,32 +117,51 @@ def _dossier(seq, scene, t, lon, lat, length, fishing, score, speed, head, in_mp
     }
 
 
+# SAR-estimated speed below this reads as moored / at anchor, not as fishing. SAR speed is a
+# noisy azimuth-offset estimate, so this only separates clearly-stationary from clearly-underway.
+UNDERWAY_KN = 1.0
+
+
 def _finalize_severity(d: dict) -> None:
-    dark = d["matched_to_ais"] is False
+    """Grade a SAR detection. The strongest IUU signal is *dark*: a vessel emitting no AIS. That
+    needs an AIS feed to confirm, so when no feed matched at acquisition the broadcasting status is
+    unverified and we must not claim "high" (we cannot tell a dark intruder from the broadcasting
+    local fleet). In that case we grade by activity and location instead, and a near-stationary
+    vessel (likely at anchor) is a weak lead, not apparent fishing.
+    """
+    dark = d["matched_to_ais"] is False        # confirmed: no AIS broadcast matched (needs a feed)
+    matched = d["matched_to_ais"] is True       # confirmed: broadcasting at acquisition
     in_mpa, notake, iucn = d.pop("_in_mpa"), d.pop("_notake"), d.pop("_iucn")
     is_fishing = (d.get("is_fishing_vessel_proba") or 0) >= 0.5
-    if in_mpa and (is_fishing or dark):
-        sev = "high"
-        reason = ("dark fishing-type vessel inside a protected area" if (dark and is_fishing)
-                  else "dark vessel inside a protected area" if dark
-                  else "apparent fishing vessel inside a protected area")
+    underway = (d.get("vessel_speed_kn") or 0) >= UNDERWAY_KN
+    if dark:
+        if in_mpa and is_fishing:
+            sev, reason = "high", "dark fishing-type vessel inside a protected area"
+        elif in_mpa:
+            sev, reason = "high", "dark vessel inside a protected area"
+        else:
+            sev, reason = "high", "dark vessel (no AIS broadcast) detected by SAR"
+    elif matched:
+        sev, reason = "low", "SAR detection matched to an AIS broadcast (identified, broadcasting)"
+    elif in_mpa and is_fishing and underway:
+        sev, reason = "medium", "fishing-type vessel underway in a protected area (broadcasting unverified)"
+    elif in_mpa and not underway:
+        sev, reason = "low", "stationary vessel inside a protected area (likely at anchor; broadcasting unverified)"
     elif in_mpa:
-        sev, reason = grade_severity(iucn, notake)  # non-fishing in a reserve: grade by category
-    elif dark:
-        sev, reason = "high", "dark vessel (no AIS broadcast) detected by SAR"
-    elif d["matched_to_ais"] is True:
-        sev, reason = "low", "SAR detection matched to an AIS broadcast"
+        sev, reason = grade_severity(iucn, notake)  # non-fishing underway in a reserve: by category
+    elif is_fishing and underway:
+        sev, reason = "medium", "fishing-type vessel underway (broadcasting unverified)"
     else:
-        sev = "medium" if is_fishing else "low"
-        reason = "SAR-detected fishing-type vessel (broadcasting unverified)" if is_fishing \
-            else "SAR-detected vessel (broadcasting unverified)"
+        sev, reason = "low", "SAR-detected vessel (broadcasting unverified)"
     d["severity"], d["severity_reason"] = sev, reason
     if dark:
         d["vessel_id"] = "(dark -- no AIS identity)"
         d["gear"] = "Sentinel-1 SAR (dark)"
         d["explanation"]["drivers"].append("no AIS broadcast matched at acquisition (dark)")
-    elif d["matched_to_ais"] is True:
+    elif matched:
         d["explanation"]["drivers"].append("matched to an AIS broadcast at acquisition")
+    elif not underway:
+        d["explanation"]["drivers"].append("near-stationary at acquisition (likely at anchor)")
 
 
 def _match_ais(dossiers, ais_csv, radius_nm=2.0, window_min=30) -> int:
