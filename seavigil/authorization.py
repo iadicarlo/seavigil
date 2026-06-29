@@ -117,7 +117,11 @@ def classify(vessel: dict | None, incident_iso: str | None, eez_iso_sov: str | N
         return {"status": "unverifiable", "current": [], "lapsed": []}
     foreign = is_foreign(flag, eez_iso_sov)  # True / False / None
     day = (incident_iso or "")[:10]
-    auths = vessel.get("authorizations") or []
+    all_auths = vessel.get("authorizations") or []
+    # An "IUU" entry in the registry is a LISTING, not a fishing authorization. Never let it count as
+    # authorized (that would grade a known IUU vessel "authorized"); surface it as a flag instead.
+    iuu = any((a.get("source") or "").upper() == "IUU" for a in all_auths)
+    auths = [a for a in all_auths if (a.get("source") or "").upper() != "IUU"]
     current = sorted({a["source"] for a in auths
                       if a.get("date_from", "") <= day <= (a.get("date_to") or "9999-12-31")})
     lapsed = sorted({a["source"] for a in auths
@@ -132,7 +136,7 @@ def classify(vessel: dict | None, incident_iso: str | None, eez_iso_sov: str | N
         status = "no_record"
     else:
         status = "flag_unknown"
-    return {"status": status, "current": current, "lapsed": lapsed}
+    return {"status": status, "current": current, "lapsed": lapsed, "iuu": iuu}
 
 
 def enrich_authorization(dossiers: list[dict], cache: dict) -> list[dict]:
@@ -150,6 +154,7 @@ def enrich_authorization(dossiers: list[dict], cache: dict) -> list[dict]:
         res = classify(vessel, d.get("time_start_utc"), d.get("eez_iso_sov"), eff_flag)
         d["authorization_status"] = res["status"]
         d["authorization_authorities"] = res["current"] or res["lapsed"]
+        d["registry_iuu_tag"] = bool(res.get("iuu"))   # GFW registry has it on an RFMO IUU list
         if vessel and vessel.get("found"):
             d["registry_flag"] = reg_flag or ""
             d["registry_imo"] = vessel.get("imo") or ""

@@ -82,30 +82,37 @@ def enrich_iuu(dossiers: list[dict], iuu: IUUList | None = None) -> int:
                              mmsi=str(d.get("vessel_id") or ""),
                              name=d.get("ship_name") or "",
                              callsign=d.get("callsign") or "")
-        if not rec:
+        gfw_tag = bool(d.get("registry_iuu_tag"))     # GFW registry already lists this hull as IUU
+        if not rec and not gfw_tag:
             continue
         matched += 1
-        strong = how in ("imo", "callsign")
+        list_strong = bool(rec) and how in ("imo", "callsign")
+        strong = gfw_tag or list_strong
         d["iuu_listed"] = bool(strong)
-        d["iuu_match"] = {
-            "source": rec["source"], "list": rec.get("list", ""), "listed_name": rec["name"],
-            "matched_on": how, "date_listed": rec.get("date_listed", ""),
-            "aliases": rec.get("aliases", [])[:8],
-        }
-        verb = (f"identified ({how}) as '{rec['name']}', on the {rec['source']} RFMO IUU vessel list"
-                if strong else
-                f"possible name match to '{rec['name']}' on the {rec['source']} IUU list (verify identity)")
+        if rec:
+            d["iuu_match"] = {
+                "source": rec["source"], "list": rec.get("list", ""), "listed_name": rec["name"],
+                "matched_on": how, "date_listed": rec.get("date_listed", ""),
+                "aliases": rec.get("aliases", [])[:8],
+            }
+            verb = (f"identified ({how}) as '{rec['name']}', on the {rec['source']} RFMO IUU vessel list"
+                    if list_strong else
+                    f"possible name match to '{rec['name']}' on the {rec['source']} IUU list (verify identity)")
+        else:                                          # GFW registry IUU tag only
+            d["iuu_match"] = {"source": "GFW vessel registry", "list": "RFMO IUU tag",
+                              "listed_name": d.get("ship_name") or "", "matched_on": "registry"}
+            verb = "listed as IUU in the GFW vessel registry, which aggregates the RFMO IUU lists"
         expl = d.setdefault("explanation", {})
         if isinstance(expl.get("drivers"), list):
             expl["drivers"].insert(0, verb)
         else:
             expl["drivers"] = [verb]
         caveats = d.setdefault("caveats", [])
-        if isinstance(caveats, list) and how == "name":
+        if isinstance(caveats, list) and rec and not list_strong and not gfw_tag:
             caveats.insert(0, "IUU match is by name only; IUU vessels reuse names, so confirm the identity.")
         if strong:
             d["severity"] = "high"
-            d["severity_reason"] = f"On the {rec['source']} RFMO IUU vessel list"
+            d["severity_reason"] = f"On an RFMO IUU vessel list ({d['iuu_match']['source']})"
     return matched
 
 
