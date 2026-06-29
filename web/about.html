@@ -12,8 +12,8 @@
   <meta property="og:url" content="https://iadicarlo.github.io/seavigil/about.html" />
   <meta name="robots" content="index, follow" />
   <link rel="icon" href="favicon.svg" type="image/svg+xml" />
-  <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500;600;700&display=swap" rel="stylesheet" />
+  <!-- Font vendored locally (no CDN) so the page works offline. -->
+  <link href="./fonts/poppins.css" rel="stylesheet" />
   <style>
     :root{
       --bg:#081620; --panel:#0d1f2c; --border:rgba(43,212,168,.22);
@@ -156,9 +156,9 @@
         <tr><td>Coastline and ports (distance features)</td>
           <td><a href="https://www.naturalearthdata.com" target="_blank" rel="noopener">Natural Earth</a></td>
           <td class="lic">Public domain</td></tr>
-        <tr><td>Basemap tiles</td>
-          <td>&copy; <a href="https://www.openstreetmap.org/copyright" target="_blank" rel="noopener">OpenStreetMap</a> contributors, &copy; <a href="https://carto.com/attributions" target="_blank" rel="noopener">CARTO</a></td>
-          <td class="lic">ODbL / CC BY</td></tr>
+        <tr><td>Basemap (land and borders)</td>
+          <td><a href="https://www.naturalearthdata.com" target="_blank" rel="noopener">Natural Earth</a>, built into a local vector tileset so the map runs fully offline (no CDN)</td>
+          <td class="lic">Public domain</td></tr>
       </tbody>
     </table>
     <p class="caveat">Methods reference: AIS disabling, Welch et al., <em>Science Advances</em> 2022,

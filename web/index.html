@@ -16,11 +16,11 @@
   <meta name="twitter:description" content="Explainable, auditable detection of illegal-fishing behaviors, with a reason and evidence for every flag." />
   <meta name="robots" content="index, follow" />
   <link rel="icon" href="favicon.svg" type="image/svg+xml" />
-  <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500;600;700&display=swap" rel="stylesheet" />
-  <link href="https://unpkg.com/maplibre-gl@5.24.0/dist/maplibre-gl.css" rel="stylesheet" />
-  <script src="https://unpkg.com/maplibre-gl@5.24.0/dist/maplibre-gl.js"></script>
-  <script src="https://unpkg.com/pmtiles@4.4.1/dist/pmtiles.js"></script>
+  <!-- All runtime assets are vendored locally so the site runs fully offline (no CDN). -->
+  <link href="./fonts/poppins.css" rel="stylesheet" />
+  <link href="./vendor/maplibre-gl.css" rel="stylesheet" />
+  <script src="./vendor/maplibre-gl.js"></script>
+  <script src="./vendor/pmtiles.js"></script>
   <style>
     :root{
       --bg:#081620; --ocean-tint:#0a2233;
@@ -177,7 +177,9 @@
       <a href="https://www.protectedplanet.net" target="_blank" rel="noopener">Protected Planet</a>
       (UNEP-WCMC &amp; IUCN 2026, display only) &middot; EEZs
       <a href="https://www.marineregions.org" target="_blank" rel="noopener">Marine Regions</a>
-      (Flanders VLIZ, CC BY 4.0) &middot; basemap &copy; OpenStreetMap, CARTO</div>
+      (Flanders VLIZ, CC BY 4.0) &middot; basemap land &amp; borders
+      <a href="https://www.naturalearthdata.com" target="_blank" rel="noopener">Natural Earth</a>
+      (public domain)</div>
   </div>
 
   <div id="stats" class="panel"></div>
@@ -189,13 +191,6 @@
     const protocol = new pmtiles.Protocol();
     maplibregl.addProtocol('pmtiles', protocol.tile);
 
-    const CARTO = sub => [
-      `https://a.basemaps.cartocdn.com/${sub}/{z}/{x}/{y}{r}.png`,
-      `https://b.basemaps.cartocdn.com/${sub}/{z}/{x}/{y}{r}.png`,
-      `https://c.basemaps.cartocdn.com/${sub}/{z}/{x}/{y}{r}.png`,
-      `https://d.basemaps.cartocdn.com/${sub}/{z}/{x}/{y}{r}.png`,
-    ];
-
     const map = new maplibregl.Map({
       container: 'map',
       center: [-110, 5],
@@ -203,10 +198,13 @@
       attributionControl: { compact: true },
       style: {
         version: 8,
-        glyphs: 'https://fonts.openmaptiles.org/{fontstack}/{range}.pbf',
+        // Local glyphs (Noto Sans Regular, Latin ranges) so labels render with no network.
+        glyphs: './fonts/glyphs/{fontstack}/{range}.pbf',
         sources: {
-          basemap: { type: 'raster', tiles: CARTO('dark_nolabels'), tileSize: 256,
-            attribution: '© OpenStreetMap contributors © CARTO · MPA boundaries © Protected Planet (UNEP-WCMC & IUCN 2026)' },
+          // Local dark vector basemap (Natural Earth land + country borders) replacing the
+          // CartoDB raster tiles, so the map needs no CDN at all.
+          basemap: { type: 'vector', url: 'pmtiles://./tiles/basemap.pmtiles',
+            attribution: 'Land & borders © Natural Earth (public domain) · MPA boundaries © Protected Planet (UNEP-WCMC & IUCN 2026)' },
           mpas: { type: 'vector', url: 'pmtiles://./tiles/mpas.pmtiles',
             attribution: 'WDPA © UNEP-WCMC & IUCN (2026), protectedplanet.net' },
         },
@@ -214,8 +212,12 @@
         light: { anchor: 'map', position: [1.5, 90, 80] },
         layers: [
           { id: 'bg', type: 'background', paint: { 'background-color': '#0a2233' } },
-          { id: 'basemap', type: 'raster', source: 'basemap',
-            paint: { 'raster-opacity': 0.9, 'raster-saturation': -0.15, 'raster-contrast': 0.08 } },
+          { id: 'land', type: 'fill', source: 'basemap', 'source-layer': 'land',
+            paint: { 'fill-color': '#13314a', 'fill-opacity': 0.92 } },
+          { id: 'land-edge', type: 'line', source: 'basemap', 'source-layer': 'land',
+            paint: { 'line-color': '#2a516c', 'line-width': 0.6, 'line-opacity': 0.7 } },
+          { id: 'boundaries', type: 'line', source: 'basemap', 'source-layer': 'boundaries',
+            paint: { 'line-color': '#28465f', 'line-width': 0.5, 'line-opacity': 0.55, 'line-dasharray': [2, 2] } },
           // MPA boundaries (from vector tiles, source-layer 'mpas')
           { id: 'mpa-fill', type: 'fill', source: 'mpas', 'source-layer': 'mpas',
             paint: { 'fill-color': '#2bd4a8',
