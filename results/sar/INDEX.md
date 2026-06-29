@@ -1,9 +1,16 @@
 # In-MPA records
 
-88 record(s): 0 AIS fishing incident(s), 88 dark-vessel SAR detection(s).
+95 record(s): 0 AIS fishing incident(s), 95 dark-vessel SAR detection(s).
 
 | id | type | MPA | start (UTC) | score / mean p |
 |---|---|---|---|---:|
+| [s1sar__20260620_0000](s1sar__20260620_0000.md) | dark SAR | Sentinel-1 SAR detection | 2026-06-20T11:42:23Z | 0.90 |
+| [s1sar__20260620_0001](s1sar__20260620_0001.md) | dark SAR | Sentinel-1 SAR detection | 2026-06-20T11:42:23Z | 0.11 |
+| [s1sar__20260620_0002](s1sar__20260620_0002.md) | dark SAR | Sentinel-1 SAR detection | 2026-06-20T11:42:23Z | 0.49 |
+| [s1sar__20260620_0003](s1sar__20260620_0003.md) | dark SAR | Sentinel-1 SAR detection | 2026-06-20T11:42:23Z | 0.97 |
+| [s1sar__20260620_0004](s1sar__20260620_0004.md) | dark SAR | Sentinel-1 SAR detection | 2026-06-20T11:42:23Z | 0.66 |
+| [s1sar__20260624_0023](s1sar__20260624_0023.md) | dark SAR | Sentinel-1 SAR detection | 2026-06-24T23:33:32Z | 0.00 |
+| [s1sar__20260624_0100](s1sar__20260624_0100.md) | dark SAR | Sentinel-1 SAR detection | 2026-06-24T23:33:32Z | 0.63 |
 | [s1sar__20260626_0000](s1sar__20260626_0000.md) | dark SAR | Galapagos Marine Reserve | 2026-06-26T00:17:29Z | 0.15 |
 | [s1sar__20260626_0001](s1sar__20260626_0001.md) | dark SAR | Galapagos Marine Reserve | 2026-06-26T00:17:29Z | 0.03 |
 | [s1sar__20260626_0002](s1sar__20260626_0002.md) | dark SAR | Galapagos Marine Reserve | 2026-06-26T00:17:29Z | 0.54 |
