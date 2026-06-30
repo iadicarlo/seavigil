@@ -68,6 +68,43 @@ def _positions_geojson(window_min: float) -> bytes:
     return json.dumps(body).encode()
 
 
+TRACKS_ENDPOINT = "/live/tracks.geojson"
+TRACK_WINDOW_MIN = 180.0   # how far back each drawn track reaches
+MIN_TRACK_POINTS = 3       # a line needs at least this many fixes to be worth drawing
+MAX_TRACKS = 2000
+
+
+def _tracks_geojson() -> bytes:
+    """Each vessel's recent path (last TRACK_WINDOW_MIN minutes) as a GeoJSON LineString."""
+    from itertools import groupby
+    feats = []
+    if DB.exists():
+        con = sqlite3.connect(f"file:{DB}?mode=ro", uri=True)
+        try:
+            cutoff = int(time.time()) - int(TRACK_WINDOW_MIN * 60)
+            ident = {m: (n, f) for m, n, f in con.execute(
+                "SELECT mmsi,name,flag FROM vessels WHERE ts>=?", (cutoff,))}
+            rows = con.execute(
+                "SELECT mmsi,ts,lat,lon FROM positions WHERE ts>=? ORDER BY mmsi,ts",
+                (cutoff,)).fetchall()
+            for mmsi, grp in groupby(rows, key=lambda r: r[0]):
+                pts = [[r[3], r[2]] for r in grp]   # [lon, lat] in time order
+                if len(pts) < MIN_TRACK_POINTS:
+                    continue
+                name, flag = ident.get(mmsi, ("", ""))
+                feats.append({
+                    "type": "Feature",
+                    "geometry": {"type": "LineString", "coordinates": pts},
+                    "properties": {"mmsi": mmsi, "name": name or "", "flag": flag or ""},
+                })
+                if len(feats) >= MAX_TRACKS:
+                    break
+        finally:
+            con.close()
+    return json.dumps({"type": "FeatureCollection", "generated": int(time.time()),
+                       "features": feats}).encode()
+
+
 class Handler(SimpleHTTPRequestHandler):
     window_min = 60.0
 
@@ -75,14 +112,20 @@ class Handler(SimpleHTTPRequestHandler):
         self.send_header("Cache-Control", "no-cache, no-store, must-revalidate")
         super().end_headers()
 
+    def _send_json(self, body: bytes) -> None:
+        self.send_response(200)
+        self.send_header("Content-Type", "application/json")
+        self.send_header("Content-Length", str(len(body)))
+        self.end_headers()
+        self.wfile.write(body)
+
     def do_GET(self):  # noqa: N802 (stdlib casing)
-        if self.path.split("?", 1)[0] == LIVE_ENDPOINT:
-            body = _positions_geojson(self.window_min)
-            self.send_response(200)
-            self.send_header("Content-Type", "application/json")
-            self.send_header("Content-Length", str(len(body)))
-            self.end_headers()
-            self.wfile.write(body)
+        route = self.path.split("?", 1)[0]
+        if route == LIVE_ENDPOINT:
+            self._send_json(_positions_geojson(self.window_min))
+            return
+        if route == TRACKS_ENDPOINT:
+            self._send_json(_tracks_geojson())
             return
         super().do_GET()
 

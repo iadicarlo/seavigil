@@ -554,6 +554,14 @@
         filter: ['==', ['get', 'id'], '__none__'],
         paint: { 'line-color': '#ffd27f', 'line-width': 2, 'line-opacity': 0.95 } });
 
+      // Live vessel tracks: each broadcasting vessel's recent path (last few hours), fed by
+      // /live/tracks.geojson. Drawn faint and beneath the live dots, so a boat's movement reads.
+      map.addSource('live_tracks', { type: 'geojson', data: { type: 'FeatureCollection', features: [] } });
+      map.addLayer({ id: 'live-track-lines', type: 'line', source: 'live_tracks',
+        layout: { 'line-cap': 'round', 'line-join': 'round' },
+        paint: { 'line-color': '#5fb6c4',
+          'line-width': ['interpolate', ['linear'], ['zoom'], 3, 0.5, 9, 1.5], 'line-opacity': 0.5 } });
+
       // Live all-ships layer (AIS): every broadcasting vessel in view, fed by the always-on
       // tracker (tracker/ingest.py -> SQLite -> /live/positions.geojson) and polled every few
       // seconds. Drawn beneath the incident flags as live context. Stays empty on a static host.
@@ -631,8 +639,25 @@
       pill.querySelector('#lp-n').textContent = fc.features.length;
       pill.classList.toggle('stale', !fc.features.length);
     }
-    function startLivePolling() { pollLiveShips(); _liveTimer = setInterval(pollLiveShips, 8000); }
-    function stopLivePolling() { if (_liveTimer) { clearInterval(_liveTimer); _liveTimer = null; } }
+    let _trackTimer = null;
+    async function pollLiveTracks() {
+      let fc;
+      try {
+        const r = await fetch('./live/tracks.geojson', { cache: 'no-store' });
+        if (!r.ok) return;
+        fc = await r.json();
+      } catch (e) { return; }  // transient blip: keep the last tracks
+      const src = map.getSource('live_tracks');
+      if (src) src.setData(fc);
+    }
+    function startLivePolling() {
+      pollLiveShips(); _liveTimer = setInterval(pollLiveShips, 8000);
+      pollLiveTracks(); _trackTimer = setInterval(pollLiveTracks, 30000);
+    }
+    function stopLivePolling() {
+      if (_liveTimer) { clearInterval(_liveTimer); _liveTimer = null; }
+      if (_trackTimer) { clearInterval(_trackTimer); _trackTimer = null; }
+    }
     function wireLiveShips() {
       const popup = new maplibregl.Popup({ closeButton: false, closeOnClick: true, offset: 8 });
       map.on('click', 'live-ship-dots', (e) => {

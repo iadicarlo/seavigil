@@ -98,6 +98,13 @@ def _connect(db_path: Path) -> sqlite3.Connection:
         )
     """)
     con.execute("CREATE INDEX IF NOT EXISTS vessels_ts ON vessels(ts)")
+    con.execute("""
+        CREATE TABLE IF NOT EXISTS positions (
+            mmsi TEXT, ts INTEGER, lat REAL, lon REAL
+        )
+    """)
+    con.execute("CREATE INDEX IF NOT EXISTS positions_mmsi_ts ON positions(mmsi, ts)")
+    con.execute("CREATE INDEX IF NOT EXISTS positions_ts ON positions(ts)")
     con.commit()
     return con
 
@@ -139,7 +146,9 @@ async def _run(key: str, boxes: list, prune_hours: float, heartbeat_s: float) ->
     sub = {"APIKey": key, "BoundingBoxes": boxes,
            "FilterMessageTypes": ["PositionReport", "ShipStaticData"]}
     statics: dict[str, dict] = {}   # MMSI -> last seen name / destination / ship_type
-    pending: list[tuple] = []       # buffered position rows, flushed in batches
+    pending: list[tuple] = []       # buffered vessel rows (latest fix), flushed in batches
+    pos_pending: list[tuple] = []   # buffered track points (mmsi, ts, lat, lon)
+    last_pos: dict[str, int] = {}   # MMSI -> ts of its last stored track point (downsample)
     total = 0
     last_commit = last_beat = last_prune = time.time()
 
@@ -181,12 +190,20 @@ async def _run(key: str, boxes: list, prune_hours: float, heartbeat_s: float) ->
                     pending.append((mmsi, lat, lon, ts, pr.get("Sog") or 0.0, pr.get("Cog") or 0.0,
                                     st.get("name", ""), _iso2(mmsi),
                                     st.get("ship_type", ""), st.get("destination", "")))
+                    if ts - last_pos.get(mmsi, 0) >= 30:   # keep ~1 track point / 30s / vessel
+                        pos_pending.append((mmsi, ts, lat, lon))
+                        last_pos[mmsi] = ts
                     total += 1
 
                     now = time.time()
                     if len(pending) >= 50 or now - last_commit >= 2.0:
                         _upsert(con, pending)
                         pending.clear()
+                        if pos_pending:
+                            con.executemany(
+                                "INSERT INTO positions (mmsi, ts, lat, lon) VALUES (?,?,?,?)", pos_pending)
+                            con.commit()
+                            pos_pending.clear()
                         last_commit = now
                     if now - last_beat >= heartbeat_s:
                         live = con.execute("SELECT COUNT(*) FROM vessels WHERE ts>=?",
@@ -194,8 +211,9 @@ async def _run(key: str, boxes: list, prune_hours: float, heartbeat_s: float) ->
                         print(f"  {total} msgs in, {live} vessels live in the last hour")
                         last_beat = now
                     if now - last_prune >= 600:
-                        con.execute("DELETE FROM vessels WHERE ts < ?",
-                                    (int(now) - int(prune_hours * 3600),))
+                        cutoff = int(now) - int(prune_hours * 3600)
+                        con.execute("DELETE FROM vessels WHERE ts < ?", (cutoff,))
+                        con.execute("DELETE FROM positions WHERE ts < ?", (cutoff,))
                         con.commit()
                         last_prune = now
         except KeyboardInterrupt:
