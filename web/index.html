@@ -536,12 +536,12 @@
           'line-width': ['interpolate', ['linear'], ['zoom'], 1, 0.5, 6, 1.4],
           'line-opacity': 0.45, 'line-dasharray': [3, 2] } }, 'mpa-fill');
       map.addLayer({ id: 'eez-labels', type: 'symbol', source: 'eez', 'source-layer': 'eez',
-        minzoom: 3,
+        minzoom: 4.2,
         layout: { 'text-field': ['coalesce', ['get', 'geoname'], ['get', 'name'], 'EEZ'],
-          'text-size': 10.5, 'text-font': ['Noto Sans Regular'], 'symbol-placement': 'point',
+          'text-size': 10, 'text-font': ['Noto Sans Regular'], 'symbol-placement': 'point',
           'text-max-width': 8 },
         paint: { 'text-color': '#9fc0ec', 'text-halo-color': '#05182a', 'text-halo-width': 1.2,
-          'text-opacity': 0.7 } }, 'mpa-fill');
+          'text-opacity': ['interpolate', ['linear'], ['zoom'], 4.2, 0, 5.5, 0.5] } }, 'mpa-fill');
 
       // tracks
       map.addSource('tracks', { type: 'geojson', data: tracks });
