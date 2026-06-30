@@ -48,6 +48,9 @@
     .note{background:rgba(43,212,168,.07);border-left:2px solid var(--teal);border-radius:5px;
       padding:10px 13px;margin:12px 0;color:#dbe7e6;font-size:13.5px;}
     .caveat{color:var(--muted);}
+    .pipe{margin:22px 0 4px;}
+    .pipe svg{width:100%;height:auto;display:block;}
+    .pipe figcaption{color:var(--muted);font-size:12.5px;text-align:center;margin-top:8px;line-height:1.5;}
     footer{margin-top:40px;color:var(--faint);font-size:12px;border-top:1px solid var(--border);padding-top:16px;}
     .langsel{position:fixed;top:14px;right:14px;z-index:10;background:#0a1e2d;color:var(--fg);
       border:1px solid #1c3a4f;border-radius:6px;font-size:12px;padding:3px 7px;cursor:pointer;}
@@ -89,6 +92,47 @@
     <span data-i18n="note_2">and 72 to 76 percent of the world's industrial fishing vessels are not publicly tracked</span>
     (<a href="https://doi.org/10.1038/s41586-023-06825-8" target="_blank" rel="noopener">Paolo et al., 2024</a>).
     <span data-i18n="note_3">SeaVigil targets the last mile: explaining and evidencing the suspicious behaviors that monitoring surfaces.</span></div>
+
+    <figure class="pipe" aria-label="How SeaVigil works, in four steps">
+      <svg viewBox="0 0 760 200" xmlns="http://www.w3.org/2000/svg" role="img" aria-hidden="true" font-family="system-ui,-apple-system,sans-serif">
+        <defs>
+          <marker id="pa" markerWidth="10" markerHeight="10" refX="6.5" refY="4.5" orient="auto">
+            <path d="M1.5 1.5 L7 4.5 L1.5 7.5" fill="none" stroke="#2bd4a8" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/>
+          </marker>
+        </defs>
+        <!-- 1 Inputs -->
+        <rect x="6" y="22" width="160" height="156" rx="12" fill="#0d1f2c" stroke="rgba(43,212,168,.28)"/>
+        <circle cx="29" cy="48" r="12" fill="rgba(43,212,168,.16)"/>
+        <text x="29" y="52.5" text-anchor="middle" font-size="13" font-weight="700" fill="#3ff0c0">1</text>
+        <text x="51" y="53" font-size="15" font-weight="700" fill="#3ff0c0">Inputs</text>
+        <text x="22" y="88" font-size="12" fill="#cfe0dd"><tspan x="22" dy="0">Satellites (radar</tspan><tspan x="22" dy="16">and optical) and</tspan><tspan x="22" dy="16">ships' own AIS</tspan><tspan x="22" dy="16">radio signals</tspan></text>
+        <!-- 2 Detect -->
+        <rect x="200" y="22" width="160" height="156" rx="12" fill="#0d1f2c" stroke="rgba(43,212,168,.28)"/>
+        <circle cx="223" cy="48" r="12" fill="rgba(43,212,168,.16)"/>
+        <text x="223" y="52.5" text-anchor="middle" font-size="13" font-weight="700" fill="#3ff0c0">2</text>
+        <text x="245" y="53" font-size="15" font-weight="700" fill="#3ff0c0">Detect</text>
+        <text x="216" y="88" font-size="12" fill="#cfe0dd"><tspan x="216" dy="0">SeaVigil's models</tspan><tspan x="216" dy="16">find vessels and</tspan><tspan x="216" dy="16">judge whether the</tspan><tspan x="216" dy="16">behavior is suspect</tspan></text>
+        <!-- 3 Flag -->
+        <rect x="394" y="22" width="160" height="156" rx="12" fill="#0d1f2c" stroke="rgba(43,212,168,.28)"/>
+        <circle cx="417" cy="48" r="12" fill="rgba(43,212,168,.16)"/>
+        <text x="417" y="52.5" text-anchor="middle" font-size="13" font-weight="700" fill="#3ff0c0">3</text>
+        <text x="439" y="53" font-size="15" font-weight="700" fill="#3ff0c0">Flag</text>
+        <text x="410" y="88" font-size="12" fill="#cfe0dd"><tspan x="410" dy="0">Each suspicious</tspan><tspan x="410" dy="16">vessel becomes a</tspan><tspan x="410" dy="16">flagged incident in</tspan><tspan x="410" dy="16">its sea zone</tspan></text>
+        <circle cx="520" cy="156" r="6" fill="#e0455e"/>
+        <!-- 4 Evidence -->
+        <rect x="588" y="22" width="166" height="156" rx="12" fill="#0d1f2c" stroke="rgba(43,212,168,.28)"/>
+        <circle cx="611" cy="48" r="12" fill="rgba(43,212,168,.16)"/>
+        <text x="611" y="52.5" text-anchor="middle" font-size="13" font-weight="700" fill="#3ff0c0">4</text>
+        <text x="633" y="53" font-size="15" font-weight="700" fill="#3ff0c0">Evidence</text>
+        <text x="604" y="88" font-size="12" fill="#cfe0dd"><tspan x="604" dy="0">A dossier: the</tspan><tspan x="604" dy="16">reason, the place,</tspan><tspan x="604" dy="16">and a satellite</tspan><tspan x="604" dy="16">image of the boat</tspan></text>
+        <rect x="700" y="148" width="22" height="17" rx="2.5" fill="none" stroke="#7fd8c4" stroke-width="1.3"/>
+        <!-- arrows -->
+        <line x1="170" y1="100" x2="195" y2="100" stroke="#2bd4a8" stroke-width="1.7" marker-end="url(#pa)"/>
+        <line x1="364" y1="100" x2="389" y2="100" stroke="#2bd4a8" stroke-width="1.7" marker-end="url(#pa)"/>
+        <line x1="558" y1="100" x2="583" y2="100" stroke="#2bd4a8" stroke-width="1.7" marker-end="url(#pa)"/>
+      </svg>
+      <figcaption>From satellites and ships' signals to an evidence-backed alert: the same path behind every flag on the map.</figcaption>
+    </figure>
 
     <h2 data-i18n="h2_detects">What SeaVigil detects, and how</h2>
 
