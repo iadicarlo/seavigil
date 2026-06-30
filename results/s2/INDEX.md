@@ -1,0 +1,69 @@
+# In-MPA records
+
+63 record(s): 63 AIS fishing incident(s), 0 dark-vessel SAR detection(s).
+
+| id | type | MPA | start (UTC) | score / mean p |
+|---|---|---|---|---:|
+| [s2opt__29T11061_0000](s2opt__29T11061_0000.md) | AIS fishing | Sentinel-2 optical detection | 2026-06-29T11:06:19Z | 0.00 |
+| [s2opt__29T11061_0001](s2opt__29T11061_0001.md) | AIS fishing | Sentinel-2 optical detection | 2026-06-29T11:06:19Z | 0.00 |
+| [s2opt__29T11061_0002](s2opt__29T11061_0002.md) | AIS fishing | Sentinel-2 optical detection | 2026-06-29T11:06:19Z | 0.00 |
+| [s2opt__29T11061_0003](s2opt__29T11061_0003.md) | AIS fishing | Sentinel-2 optical detection | 2026-06-29T11:06:19Z | 1.00 |
+| [s2opt__29T11061_0006](s2opt__29T11061_0006.md) | AIS fishing | Sentinel-2 optical detection | 2026-06-29T11:06:19Z | 1.00 |
+| [s2opt__29T11061_0007](s2opt__29T11061_0007.md) | AIS fishing | Sentinel-2 optical detection | 2026-06-29T11:06:19Z | 1.00 |
+| [s2opt__29T11061_0009](s2opt__29T11061_0009.md) | AIS fishing | Sentinel-2 optical detection | 2026-06-29T11:06:19Z | 0.00 |
+| [s2opt__29T11061_0010](s2opt__29T11061_0010.md) | AIS fishing | Sentinel-2 optical detection | 2026-06-29T11:06:19Z | 0.00 |
+| [s2opt__29T11061_0011](s2opt__29T11061_0011.md) | AIS fishing | Sentinel-2 optical detection | 2026-06-29T11:06:19Z | 1.00 |
+| [s2opt__29T11061_0013](s2opt__29T11061_0013.md) | AIS fishing | Sentinel-2 optical detection | 2026-06-29T11:06:19Z | 1.00 |
+| [s2opt__29T11061_0014](s2opt__29T11061_0014.md) | AIS fishing | Sentinel-2 optical detection | 2026-06-29T11:06:19Z | 1.00 |
+| [s2opt__29T11061_0016](s2opt__29T11061_0016.md) | AIS fishing | Sentinel-2 optical detection | 2026-06-29T11:06:19Z | 0.00 |
+| [s2opt__29T11061_0017](s2opt__29T11061_0017.md) | AIS fishing | Sentinel-2 optical detection | 2026-06-29T11:06:19Z | 0.00 |
+| [s2opt__29T11061_0018](s2opt__29T11061_0018.md) | AIS fishing | Sentinel-2 optical detection | 2026-06-29T11:06:19Z | 0.00 |
+| [s2opt__29T11061_0019](s2opt__29T11061_0019.md) | AIS fishing | Sentinel-2 optical detection | 2026-06-29T11:06:19Z | 1.00 |
+| [s2opt__29T11061_0020](s2opt__29T11061_0020.md) | AIS fishing | Sentinel-2 optical detection | 2026-06-29T11:06:19Z | 1.00 |
+| [s2opt__29T11061_0021](s2opt__29T11061_0021.md) | AIS fishing | Sentinel-2 optical detection | 2026-06-29T11:06:19Z | 0.00 |
+| [s2opt__29T11061_0022](s2opt__29T11061_0022.md) | AIS fishing | Sentinel-2 optical detection | 2026-06-29T11:06:19Z | 0.00 |
+| [s2opt__29T11061_0023](s2opt__29T11061_0023.md) | AIS fishing | Sentinel-2 optical detection | 2026-06-29T11:06:19Z | 0.00 |
+| [s2opt__29T11061_0024](s2opt__29T11061_0024.md) | AIS fishing | Sentinel-2 optical detection | 2026-06-29T11:06:19Z | 0.00 |
+| [s2opt__29T11061_0025](s2opt__29T11061_0025.md) | AIS fishing | Sentinel-2 optical detection | 2026-06-29T11:06:19Z | 0.00 |
+| [s2opt__29T11061_0026](s2opt__29T11061_0026.md) | AIS fishing | Sentinel-2 optical detection | 2026-06-29T11:06:19Z | 1.00 |
+| [s2opt__29T11061_0027](s2opt__29T11061_0027.md) | AIS fishing | Sentinel-2 optical detection | 2026-06-29T11:06:19Z | 0.00 |
+| [s2opt__29T11061_0028](s2opt__29T11061_0028.md) | AIS fishing | Sentinel-2 optical detection | 2026-06-29T11:06:19Z | 1.00 |
+| [s2opt__29T11061_0029](s2opt__29T11061_0029.md) | AIS fishing | Sentinel-2 optical detection | 2026-06-29T11:06:19Z | 0.00 |
+| [s2opt__29T11061_0030](s2opt__29T11061_0030.md) | AIS fishing | Sentinel-2 optical detection | 2026-06-29T11:06:19Z | 0.00 |
+| [s2opt__29T11061_0031](s2opt__29T11061_0031.md) | AIS fishing | Sentinel-2 optical detection | 2026-06-29T11:06:19Z | 0.00 |
+| [s2opt__29T11061_0032](s2opt__29T11061_0032.md) | AIS fishing | Sentinel-2 optical detection | 2026-06-29T11:06:19Z | 0.00 |
+| [s2opt__29T11061_0034](s2opt__29T11061_0034.md) | AIS fishing | Sentinel-2 optical detection | 2026-06-29T11:06:19Z | 0.00 |
+| [s2opt__29T11061_0035](s2opt__29T11061_0035.md) | AIS fishing | Sentinel-2 optical detection | 2026-06-29T11:06:19Z | 0.00 |
+| [s2opt__29T11061_0036](s2opt__29T11061_0036.md) | AIS fishing | Sentinel-2 optical detection | 2026-06-29T11:06:19Z | 0.00 |
+| [s2opt__29T11061_0037](s2opt__29T11061_0037.md) | AIS fishing | Sentinel-2 optical detection | 2026-06-29T11:06:19Z | 0.00 |
+| [s2opt__29T11061_0038](s2opt__29T11061_0038.md) | AIS fishing | Sentinel-2 optical detection | 2026-06-29T11:06:19Z | 0.00 |
+| [s2opt__29T11061_0039](s2opt__29T11061_0039.md) | AIS fishing | Sentinel-2 optical detection | 2026-06-29T11:06:19Z | 0.00 |
+| [s2opt__29T11061_0040](s2opt__29T11061_0040.md) | AIS fishing | Sentinel-2 optical detection | 2026-06-29T11:06:19Z | 0.00 |
+| [s2opt__29T11061_0041](s2opt__29T11061_0041.md) | AIS fishing | Sentinel-2 optical detection | 2026-06-29T11:06:19Z | 0.00 |
+| [s2opt__29T11061_0043](s2opt__29T11061_0043.md) | AIS fishing | Sentinel-2 optical detection | 2026-06-29T11:06:19Z | 0.00 |
+| [s2opt__29T11061_0044](s2opt__29T11061_0044.md) | AIS fishing | Sentinel-2 optical detection | 2026-06-29T11:06:19Z | 0.00 |
+| [s2opt__29T11061_0045](s2opt__29T11061_0045.md) | AIS fishing | Sentinel-2 optical detection | 2026-06-29T11:06:19Z | 0.00 |
+| [s2opt__29T11061_0046](s2opt__29T11061_0046.md) | AIS fishing | Sentinel-2 optical detection | 2026-06-29T11:06:19Z | 1.00 |
+| [s2opt__29T11061_0047](s2opt__29T11061_0047.md) | AIS fishing | Sentinel-2 optical detection | 2026-06-29T11:06:19Z | 0.00 |
+| [s2opt__29T11061_0048](s2opt__29T11061_0048.md) | AIS fishing | Sentinel-2 optical detection | 2026-06-29T11:06:19Z | 0.00 |
+| [s2opt__29T11061_0049](s2opt__29T11061_0049.md) | AIS fishing | Sentinel-2 optical detection | 2026-06-29T11:06:19Z | 0.00 |
+| [s2opt__29T11061_0050](s2opt__29T11061_0050.md) | AIS fishing | Sentinel-2 optical detection | 2026-06-29T11:06:19Z | 0.00 |
+| [s2opt__29T11061_0051](s2opt__29T11061_0051.md) | AIS fishing | Sentinel-2 optical detection | 2026-06-29T11:06:19Z | 0.00 |
+| [s2opt__29T11061_0052](s2opt__29T11061_0052.md) | AIS fishing | Sentinel-2 optical detection | 2026-06-29T11:06:19Z | 0.00 |
+| [s2opt__29T11061_0053](s2opt__29T11061_0053.md) | AIS fishing | Sentinel-2 optical detection | 2026-06-29T11:06:19Z | 0.00 |
+| [s2opt__29T11061_0054](s2opt__29T11061_0054.md) | AIS fishing | Sentinel-2 optical detection | 2026-06-29T11:06:19Z | 0.00 |
+| [s2opt__29T11061_0055](s2opt__29T11061_0055.md) | AIS fishing | Sentinel-2 optical detection | 2026-06-29T11:06:19Z | 0.00 |
+| [s2opt__29T11061_0056](s2opt__29T11061_0056.md) | AIS fishing | Sentinel-2 optical detection | 2026-06-29T11:06:19Z | 0.00 |
+| [s2opt__29T11061_0057](s2opt__29T11061_0057.md) | AIS fishing | Sentinel-2 optical detection | 2026-06-29T11:06:19Z | 0.00 |
+| [s2opt__29T11061_0058](s2opt__29T11061_0058.md) | AIS fishing | Sentinel-2 optical detection | 2026-06-29T11:06:19Z | 0.00 |
+| [s2opt__29T11061_0059](s2opt__29T11061_0059.md) | AIS fishing | Sentinel-2 optical detection | 2026-06-29T11:06:19Z | 0.00 |
+| [s2opt__29T11061_0060](s2opt__29T11061_0060.md) | AIS fishing | Sentinel-2 optical detection | 2026-06-29T11:06:19Z | 0.00 |
+| [s2opt__29T11061_0061](s2opt__29T11061_0061.md) | AIS fishing | Sentinel-2 optical detection | 2026-06-29T11:06:19Z | 0.00 |
+| [s2opt__29T11061_0062](s2opt__29T11061_0062.md) | AIS fishing | Sentinel-2 optical detection | 2026-06-29T11:06:19Z | 0.00 |
+| [s2opt__29T11061_0063](s2opt__29T11061_0063.md) | AIS fishing | Sentinel-2 optical detection | 2026-06-29T11:06:19Z | 0.00 |
+| [s2opt__29T11061_0064](s2opt__29T11061_0064.md) | AIS fishing | Sentinel-2 optical detection | 2026-06-29T11:06:19Z | 0.00 |
+| [s2opt__29T11061_0065](s2opt__29T11061_0065.md) | AIS fishing | Sentinel-2 optical detection | 2026-06-29T11:06:19Z | 0.00 |
+| [s2opt__29T11061_0066](s2opt__29T11061_0066.md) | AIS fishing | Sentinel-2 optical detection | 2026-06-29T11:06:19Z | 0.00 |
+| [s2opt__29T11061_0067](s2opt__29T11061_0067.md) | AIS fishing | Sentinel-2 optical detection | 2026-06-29T11:06:19Z | 0.00 |
+| [s2opt__29T11061_0068](s2opt__29T11061_0068.md) | AIS fishing | Sentinel-2 optical detection | 2026-06-29T11:06:19Z | 0.00 |
+| [s2opt__29T11061_0069](s2opt__29T11061_0069.md) | AIS fishing | Sentinel-2 optical detection | 2026-06-29T11:06:19Z | 0.00 |

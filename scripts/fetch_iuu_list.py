@@ -59,6 +59,12 @@ def parse_ccamlr(html: str, list_name: str) -> list[dict]:
     return out
 
 
+# Coverage strategy: CCAMLR is the clean, server-rendered direct source (parsed below). The other
+# RFMOs (ICCAT, IOTC, WCPFC, CCSBT, ...) publish their IUU lists as JavaScript tables or PDFs, which
+# are brittle to scrape; rather than chase each, breadth is provided by Global Fishing Watch's vessel
+# registry, which aggregates the RFMO IUU listings and which seavigil/iuu_list.py already cross-checks
+# via the registry IUU tag (authorization.registry_iuu_tag). So CCAMLR gives an independent direct
+# list, GFW gives the breadth, and adding a brittle parser here is only worth it for a clean source.
 SOURCES = {
     "CCAMLR Non-Contracting Party": {
         "url": "https://www.ccamlr.org/en/compliance/non-contracting-party-iuu-vessel-list",
