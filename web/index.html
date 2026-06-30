@@ -521,8 +521,10 @@
         return;
       }
 
-      // Detection chips (the satellite image of each detection), loaded per source.
-      await loadChips(MODE === 'realtime' ? ['./data/sar', './data/s2']
+      // Detection chips: load the per-source index in the background (it is only needed when a
+      // dossier opens). Deliberately not awaited, so it never blocks the map render even on a
+      // single-threaded server busy serving tiles.
+      loadChips(MODE === 'realtime' ? ['./data/sar', './data/s2']
         : MODE === 'sar' ? ['./data/sar'] : MODE === 's2' ? ['./data/s2'] : []);
 
       // Global EEZ reference layer from non-extractable vector tiles (CC BY, Marine
