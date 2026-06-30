@@ -26,7 +26,8 @@
     "severity": "medium"
    }
   ],
-  "summary": "medium severity; seen by ais"
+  "summary": "medium severity; seen by ais",
+  "review_status": "new"
  },
  {
   "case_id": "case_bbc316edf4f0",
@@ -55,7 +56,8 @@
     "severity": "medium"
    }
   ],
-  "summary": "medium severity; seen by ais"
+  "summary": "medium severity; seen by ais",
+  "review_status": "new"
  },
  {
   "case_id": "case_e62c7b0c067b",
@@ -84,7 +86,8 @@
     "severity": "medium"
    }
   ],
-  "summary": "medium severity; seen by ais"
+  "summary": "medium severity; seen by ais",
+  "review_status": "new"
  },
  {
   "case_id": "case_b7113a327d82",
@@ -113,7 +116,8 @@
     "severity": "medium"
    }
   ],
-  "summary": "medium severity; seen by ais"
+  "summary": "medium severity; seen by ais",
+  "review_status": "new"
  },
  {
   "case_id": "case_b507dd5b92e3",
@@ -142,7 +146,8 @@
     "severity": "medium"
    }
   ],
-  "summary": "medium severity; seen by ais"
+  "summary": "medium severity; seen by ais",
+  "review_status": "new"
  },
  {
   "case_id": "case_3d79ec8d6d94",
@@ -171,7 +176,8 @@
     "severity": "medium"
    }
   ],
-  "summary": "medium severity; seen by ais"
+  "summary": "medium severity; seen by ais",
+  "review_status": "new"
  },
  {
   "case_id": "case_aa53413f30d7",
@@ -200,7 +206,8 @@
     "severity": "medium"
    }
   ],
-  "summary": "medium severity; seen by ais"
+  "summary": "medium severity; seen by ais",
+  "review_status": "new"
  },
  {
   "case_id": "case_e7869c8d2efe",
@@ -229,7 +236,8 @@
     "severity": "medium"
    }
   ],
-  "summary": "medium severity; seen by ais"
+  "summary": "medium severity; seen by ais",
+  "review_status": "new"
  },
  {
   "case_id": "case_c263266e8282",
@@ -258,7 +266,8 @@
     "severity": "medium"
    }
   ],
-  "summary": "medium severity; seen by ais"
+  "summary": "medium severity; seen by ais",
+  "review_status": "new"
  },
  {
   "case_id": "case_8693f5699d47",
@@ -287,7 +296,8 @@
     "severity": "medium"
    }
   ],
-  "summary": "medium severity; seen by ais"
+  "summary": "medium severity; seen by ais",
+  "review_status": "new"
  },
  {
   "case_id": "case_d317de9fabbc",
@@ -316,7 +326,8 @@
     "severity": "medium"
    }
   ],
-  "summary": "medium severity; seen by ais"
+  "summary": "medium severity; seen by ais",
+  "review_status": "new"
  },
  {
   "case_id": "case_c9dfabad9062",
@@ -345,7 +356,8 @@
     "severity": "medium"
    }
   ],
-  "summary": "medium severity; seen by ais"
+  "summary": "medium severity; seen by ais",
+  "review_status": "new"
  },
  {
   "case_id": "case_0ed6702bbaec",
@@ -374,7 +386,8 @@
     "severity": "medium"
    }
   ],
-  "summary": "medium severity; seen by ais"
+  "summary": "medium severity; seen by ais",
+  "review_status": "new"
  },
  {
   "case_id": "case_4fcd807038f7",
@@ -403,7 +416,8 @@
     "severity": "medium"
    }
   ],
-  "summary": "medium severity; seen by ais"
+  "summary": "medium severity; seen by ais",
+  "review_status": "new"
  },
  {
   "case_id": "case_9761ffb8041c",
@@ -432,7 +446,8 @@
     "severity": "medium"
    }
   ],
-  "summary": "medium severity; seen by ais"
+  "summary": "medium severity; seen by ais",
+  "review_status": "new"
  },
  {
   "case_id": "case_aa2347a1211e",
@@ -461,7 +476,8 @@
     "severity": "medium"
    }
   ],
-  "summary": "medium severity; seen by ais"
+  "summary": "medium severity; seen by ais",
+  "review_status": "new"
  },
  {
   "case_id": "case_7b3476952b2d",
@@ -490,7 +506,8 @@
     "severity": "medium"
    }
   ],
-  "summary": "medium severity; seen by ais"
+  "summary": "medium severity; seen by ais",
+  "review_status": "new"
  },
  {
   "case_id": "case_c5eff7fbad84",
@@ -519,7 +536,8 @@
     "severity": "medium"
    }
   ],
-  "summary": "medium severity; seen by ais"
+  "summary": "medium severity; seen by ais",
+  "review_status": "new"
  },
  {
   "case_id": "case_601e59bc7c89",
@@ -548,7 +566,8 @@
     "severity": "medium"
    }
   ],
-  "summary": "medium severity; seen by ais"
+  "summary": "medium severity; seen by ais",
+  "review_status": "new"
  },
  {
   "case_id": "case_e7ac7c39b93e",
@@ -577,7 +596,8 @@
     "severity": "medium"
    }
   ],
-  "summary": "medium severity; seen by ais"
+  "summary": "medium severity; seen by ais",
+  "review_status": "new"
  },
  {
   "case_id": "case_708672d8729b",
@@ -606,7 +626,8 @@
     "severity": "medium"
    }
   ],
-  "summary": "medium severity; seen by ais"
+  "summary": "medium severity; seen by ais",
+  "review_status": "new"
  },
  {
   "case_id": "case_b755283395a4",
@@ -635,7 +656,8 @@
     "severity": "medium"
    }
   ],
-  "summary": "medium severity; seen by ais"
+  "summary": "medium severity; seen by ais",
+  "review_status": "new"
  },
  {
   "case_id": "case_5a15a92cef49",
@@ -664,7 +686,8 @@
     "severity": "medium"
    }
   ],
-  "summary": "medium severity; seen by ais"
+  "summary": "medium severity; seen by ais",
+  "review_status": "new"
  },
  {
   "case_id": "case_14a8c0d1c0aa",
@@ -693,7 +716,8 @@
     "severity": "medium"
    }
   ],
-  "summary": "medium severity; seen by ais"
+  "summary": "medium severity; seen by ais",
+  "review_status": "new"
  },
  {
   "case_id": "case_b1804e8b77f1",
@@ -734,7 +758,8 @@
     "severity": "medium"
    }
   ],
-  "summary": "medium severity; seen by sar"
+  "summary": "medium severity; seen by sar",
+  "review_status": "new"
  },
  {
   "case_id": "case_1f0b0ad22000",
@@ -763,7 +788,8 @@
     "severity": "high"
    }
   ],
-  "summary": "high severity; seen by sar"
+  "summary": "high severity; seen by sar",
+  "review_status": "new"
  },
  {
   "case_id": "case_f86f9d3c2240",
@@ -792,7 +818,8 @@
     "severity": "high"
    }
   ],
-  "summary": "high severity; seen by sar"
+  "summary": "high severity; seen by sar",
+  "review_status": "new"
  },
  {
   "case_id": "case_41fd4f1a717a",
@@ -821,7 +848,8 @@
     "severity": "medium"
    }
   ],
-  "summary": "medium severity; seen by sar"
+  "summary": "medium severity; seen by sar",
+  "review_status": "new"
  },
  {
   "case_id": "case_74dd6ccd6d66",
@@ -850,7 +878,8 @@
     "severity": "medium"
    }
   ],
-  "summary": "medium severity; seen by sar"
+  "summary": "medium severity; seen by sar",
+  "review_status": "new"
  },
  {
   "case_id": "case_21ef0e1ea42b",
@@ -879,7 +908,8 @@
     "severity": "high"
    }
   ],
-  "summary": "high severity; seen by sar"
+  "summary": "high severity; seen by sar",
+  "review_status": "new"
  },
  {
   "case_id": "case_23a55db91422",
@@ -908,7 +938,8 @@
     "severity": "high"
    }
   ],
-  "summary": "high severity; seen by sar"
+  "summary": "high severity; seen by sar",
+  "review_status": "new"
  },
  {
   "case_id": "case_98dc5a18b178",
@@ -937,7 +968,8 @@
     "severity": "medium"
    }
   ],
-  "summary": "medium severity; seen by sar"
+  "summary": "medium severity; seen by sar",
+  "review_status": "new"
  },
  {
   "case_id": "case_d7a3bbae37b6",
@@ -972,7 +1004,8 @@
     "severity": "medium"
    }
   ],
-  "summary": "medium severity; seen by sar"
+  "summary": "medium severity; seen by sar",
+  "review_status": "new"
  },
  {
   "case_id": "case_4ae63c9b33e0",
@@ -1001,7 +1034,8 @@
     "severity": "high"
    }
   ],
-  "summary": "high severity; seen by sar"
+  "summary": "high severity; seen by sar",
+  "review_status": "new"
  },
  {
   "case_id": "case_f6501f1ba2a7",
@@ -1030,7 +1064,8 @@
     "severity": "high"
    }
   ],
-  "summary": "high severity; seen by sar"
+  "summary": "high severity; seen by sar",
+  "review_status": "new"
  },
  {
   "case_id": "case_9eba0ce5dd21",
@@ -1059,7 +1094,8 @@
     "severity": "medium"
    }
   ],
-  "summary": "medium severity; seen by sar"
+  "summary": "medium severity; seen by sar",
+  "review_status": "new"
  },
  {
   "case_id": "case_8a2db0a55395",
@@ -1088,7 +1124,8 @@
     "severity": "high"
    }
   ],
-  "summary": "high severity; seen by sar"
+  "summary": "high severity; seen by sar",
+  "review_status": "new"
  },
  {
   "case_id": "case_c63866815ffa",
@@ -1117,7 +1154,8 @@
     "severity": "high"
    }
   ],
-  "summary": "high severity; seen by sar"
+  "summary": "high severity; seen by sar",
+  "review_status": "new"
  },
  {
   "case_id": "case_a66196b9ef9a",
@@ -1146,7 +1184,8 @@
     "severity": "medium"
    }
   ],
-  "summary": "medium severity; seen by sar"
+  "summary": "medium severity; seen by sar",
+  "review_status": "new"
  },
  {
   "case_id": "case_9afc981a79e1",
@@ -1175,7 +1214,8 @@
     "severity": "medium"
    }
   ],
-  "summary": "medium severity; seen by sar"
+  "summary": "medium severity; seen by sar",
+  "review_status": "new"
  },
  {
   "case_id": "case_24a278497076",
@@ -1204,7 +1244,8 @@
     "severity": "high"
    }
   ],
-  "summary": "high severity; seen by sar"
+  "summary": "high severity; seen by sar",
+  "review_status": "new"
  },
  {
   "case_id": "case_7f893f7415fb",
@@ -1233,7 +1274,8 @@
     "severity": "high"
    }
   ],
-  "summary": "high severity; seen by sar"
+  "summary": "high severity; seen by sar",
+  "review_status": "new"
  },
  {
   "case_id": "case_001253029569",
@@ -1262,7 +1304,8 @@
     "severity": "medium"
    }
   ],
-  "summary": "medium severity; seen by sar"
+  "summary": "medium severity; seen by sar",
+  "review_status": "new"
  },
  {
   "case_id": "case_dc3e37364de2",
@@ -1291,7 +1334,8 @@
     "severity": "medium"
    }
   ],
-  "summary": "medium severity; seen by sar"
+  "summary": "medium severity; seen by sar",
+  "review_status": "new"
  },
  {
   "case_id": "case_3be0b1faecd4",
@@ -1320,7 +1364,8 @@
     "severity": "high"
    }
   ],
-  "summary": "high severity; seen by sar"
+  "summary": "high severity; seen by sar",
+  "review_status": "new"
  },
  {
   "case_id": "case_ee6d09b428c5",
@@ -1355,7 +1400,8 @@
     "severity": "high"
    }
   ],
-  "summary": "high severity; seen by sar"
+  "summary": "high severity; seen by sar",
+  "review_status": "new"
  },
  {
   "case_id": "case_478a67a8a22c",
@@ -1384,7 +1430,8 @@
     "severity": "medium"
    }
   ],
-  "summary": "medium severity; seen by sar"
+  "summary": "medium severity; seen by sar",
+  "review_status": "new"
  },
  {
   "case_id": "case_e08108628f9e",
@@ -1413,7 +1460,8 @@
     "severity": "medium"
    }
   ],
-  "summary": "medium severity; seen by sar"
+  "summary": "medium severity; seen by sar",
+  "review_status": "new"
  },
  {
   "case_id": "case_98ff0d9b1d01",
@@ -1442,7 +1490,8 @@
     "severity": "high"
    }
   ],
-  "summary": "high severity; seen by sar"
+  "summary": "high severity; seen by sar",
+  "review_status": "new"
  },
  {
   "case_id": "case_373cda529bbc",
@@ -1471,7 +1520,8 @@
     "severity": "high"
    }
   ],
-  "summary": "high severity; seen by sar"
+  "summary": "high severity; seen by sar",
+  "review_status": "new"
  },
  {
   "case_id": "case_3d6f234b7772",
@@ -1500,7 +1550,8 @@
     "severity": "medium"
    }
   ],
-  "summary": "medium severity; seen by sar"
+  "summary": "medium severity; seen by sar",
+  "review_status": "new"
  },
  {
   "case_id": "case_99ec760fd261",
@@ -1529,7 +1580,8 @@
     "severity": "high"
    }
   ],
-  "summary": "high severity; seen by sar"
+  "summary": "high severity; seen by sar",
+  "review_status": "new"
  },
  {
   "case_id": "case_e080b248f735",
@@ -1558,7 +1610,8 @@
     "severity": "high"
    }
   ],
-  "summary": "high severity; seen by sar"
+  "summary": "high severity; seen by sar",
+  "review_status": "new"
  },
  {
   "case_id": "case_e789219827d9",
@@ -1587,7 +1640,8 @@
     "severity": "medium"
    }
   ],
-  "summary": "medium severity; seen by sar"
+  "summary": "medium severity; seen by sar",
+  "review_status": "new"
  },
  {
   "case_id": "case_b6d1003ece2e",
@@ -1616,7 +1670,8 @@
     "severity": "medium"
    }
   ],
-  "summary": "medium severity; seen by sar"
+  "summary": "medium severity; seen by sar",
+  "review_status": "new"
  },
  {
   "case_id": "case_e06148ecf9d4",
@@ -1645,7 +1700,8 @@
     "severity": "high"
    }
   ],
-  "summary": "high severity; seen by sar"
+  "summary": "high severity; seen by sar",
+  "review_status": "new"
  },
  {
   "case_id": "case_9e8d4a63f514",
@@ -1674,7 +1730,8 @@
     "severity": "medium"
    }
   ],
-  "summary": "medium severity; seen by sar"
+  "summary": "medium severity; seen by sar",
+  "review_status": "new"
  },
  {
   "case_id": "case_af02e27f705d",
@@ -1703,7 +1760,8 @@
     "severity": "high"
    }
   ],
-  "summary": "high severity; seen by sar"
+  "summary": "high severity; seen by sar",
+  "review_status": "new"
  },
  {
   "case_id": "case_4a31ca9108ab",
@@ -1732,7 +1790,8 @@
     "severity": "high"
    }
   ],
-  "summary": "high severity; seen by sar"
+  "summary": "high severity; seen by sar",
+  "review_status": "new"
  },
  {
   "case_id": "case_8a0c6677cf87",
@@ -1761,7 +1820,8 @@
     "severity": "medium"
    }
   ],
-  "summary": "medium severity; seen by sar"
+  "summary": "medium severity; seen by sar",
+  "review_status": "new"
  },
  {
   "case_id": "case_ecf3abeb0749",
@@ -1790,7 +1850,8 @@
     "severity": "high"
    }
   ],
-  "summary": "high severity; seen by sar"
+  "summary": "high severity; seen by sar",
+  "review_status": "new"
  },
  {
   "case_id": "case_4d8689f0a356",
@@ -1819,7 +1880,8 @@
     "severity": "high"
    }
   ],
-  "summary": "high severity; seen by sar"
+  "summary": "high severity; seen by sar",
+  "review_status": "new"
  },
  {
   "case_id": "case_8d9950f54905",
@@ -1848,7 +1910,8 @@
     "severity": "high"
    }
   ],
-  "summary": "high severity; seen by sar"
+  "summary": "high severity; seen by sar",
+  "review_status": "new"
  },
  {
   "case_id": "case_88dc0391efc7",
@@ -1877,7 +1940,8 @@
     "severity": "high"
    }
   ],
-  "summary": "high severity; seen by sar"
+  "summary": "high severity; seen by sar",
+  "review_status": "new"
  },
  {
   "case_id": "case_23cf81f7300b",
@@ -1906,7 +1970,8 @@
     "severity": "high"
    }
   ],
-  "summary": "high severity; seen by sar"
+  "summary": "high severity; seen by sar",
+  "review_status": "new"
  },
  {
   "case_id": "case_15acd9224c37",
@@ -1935,7 +2000,8 @@
     "severity": "high"
    }
   ],
-  "summary": "high severity; seen by sar"
+  "summary": "high severity; seen by sar",
+  "review_status": "new"
  },
  {
   "case_id": "case_733efe39090f",
@@ -1964,7 +2030,8 @@
     "severity": "high"
    }
   ],
-  "summary": "high severity; seen by sar"
+  "summary": "high severity; seen by sar",
+  "review_status": "new"
  },
  {
   "case_id": "case_190862ca0633",
@@ -1993,7 +2060,8 @@
     "severity": "high"
    }
   ],
-  "summary": "high severity; seen by sar"
+  "summary": "high severity; seen by sar",
+  "review_status": "new"
  },
  {
   "case_id": "case_ce4e56e96209",
@@ -2028,7 +2096,8 @@
     "severity": "high"
    }
   ],
-  "summary": "high severity; seen by ais"
+  "summary": "high severity; seen by ais",
+  "review_status": "new"
  },
  {
   "case_id": "case_1bb820f5e777",
@@ -2063,7 +2132,8 @@
     "severity": "medium"
    }
   ],
-  "summary": "medium severity; seen by ais"
+  "summary": "medium severity; seen by ais",
+  "review_status": "new"
  },
  {
   "case_id": "case_8ebec324cd67",
@@ -2098,7 +2168,8 @@
     "severity": "medium"
    }
   ],
-  "summary": "medium severity; seen by ais"
+  "summary": "medium severity; seen by ais",
+  "review_status": "new"
  },
  {
   "case_id": "case_aa612ff400c1",
@@ -2133,7 +2204,8 @@
     "severity": "medium"
    }
   ],
-  "summary": "medium severity; seen by ais"
+  "summary": "medium severity; seen by ais",
+  "review_status": "new"
  },
  {
   "case_id": "case_f1ff393aa34d",
@@ -2168,7 +2240,8 @@
     "severity": "medium"
    }
   ],
-  "summary": "medium severity; seen by ais"
+  "summary": "medium severity; seen by ais",
+  "review_status": "new"
  },
  {
   "case_id": "case_e37c9c7da2cf",
@@ -2203,7 +2276,8 @@
     "severity": "medium"
    }
   ],
-  "summary": "medium severity; seen by ais"
+  "summary": "medium severity; seen by ais",
+  "review_status": "new"
  },
  {
   "case_id": "case_503872684de4",
@@ -2238,7 +2312,8 @@
     "severity": "medium"
    }
   ],
-  "summary": "medium severity; seen by ais"
+  "summary": "medium severity; seen by ais",
+  "review_status": "new"
  },
  {
   "case_id": "case_cc62b1fb08f6",
@@ -2273,7 +2348,8 @@
     "severity": "high"
    }
   ],
-  "summary": "high severity; seen by ais"
+  "summary": "high severity; seen by ais",
+  "review_status": "new"
  },
  {
   "case_id": "case_7339efc920ce",
@@ -2302,7 +2378,8 @@
     "severity": "high"
    }
   ],
-  "summary": "high severity; seen by ais"
+  "summary": "high severity; seen by ais",
+  "review_status": "new"
  },
  {
   "case_id": "case_fc6b6d06f321",
@@ -2331,7 +2408,8 @@
     "severity": "medium"
    }
   ],
-  "summary": "medium severity; seen by ais"
+  "summary": "medium severity; seen by ais",
+  "review_status": "new"
  },
  {
   "case_id": "case_bc8404aca4eb",
@@ -2360,7 +2438,8 @@
     "severity": "medium"
    }
   ],
-  "summary": "medium severity; seen by ais"
+  "summary": "medium severity; seen by ais",
+  "review_status": "new"
  },
  {
   "case_id": "case_4cbeb743bc98",
@@ -2389,7 +2468,8 @@
     "severity": "high"
    }
   ],
-  "summary": "high severity; seen by ais"
+  "summary": "high severity; seen by ais",
+  "review_status": "new"
  },
  {
   "case_id": "case_0ed70af093bb",
@@ -2418,7 +2498,8 @@
     "severity": "medium"
    }
   ],
-  "summary": "medium severity; seen by ais"
+  "summary": "medium severity; seen by ais",
+  "review_status": "new"
  },
  {
   "case_id": "case_190143b1de49",
@@ -2447,7 +2528,8 @@
     "severity": "medium"
    }
   ],
-  "summary": "medium severity; seen by ais"
+  "summary": "medium severity; seen by ais",
+  "review_status": "new"
  },
  {
   "case_id": "case_e60946d12f19",
@@ -2476,7 +2558,8 @@
     "severity": "medium"
    }
   ],
-  "summary": "medium severity; seen by ais"
+  "summary": "medium severity; seen by ais",
+  "review_status": "new"
  },
  {
   "case_id": "case_bedc92c6f75b",
@@ -2511,7 +2594,8 @@
     "severity": "high"
    }
   ],
-  "summary": "high severity; seen by ais"
+  "summary": "high severity; seen by ais",
+  "review_status": "new"
  },
  {
   "case_id": "case_58baabe9103e",
@@ -2540,7 +2624,8 @@
     "severity": "high"
    }
   ],
-  "summary": "high severity; seen by ais"
+  "summary": "high severity; seen by ais",
+  "review_status": "new"
  },
  {
   "case_id": "case_f71a9c7a12eb",
@@ -2581,7 +2666,8 @@
     "severity": "medium"
    }
   ],
-  "summary": "high severity; seen by ais"
+  "summary": "high severity; seen by ais",
+  "review_status": "new"
  },
  {
   "case_id": "case_067718a34595",
@@ -2622,7 +2708,8 @@
     "severity": "high"
    }
   ],
-  "summary": "high severity; seen by ais"
+  "summary": "high severity; seen by ais",
+  "review_status": "new"
  },
  {
   "case_id": "case_a618f5ee8953",
@@ -2657,7 +2744,8 @@
     "severity": "high"
    }
   ],
-  "summary": "high severity; seen by ais"
+  "summary": "high severity; seen by ais",
+  "review_status": "new"
  },
  {
   "case_id": "case_889d2f4b5e88",
@@ -2686,7 +2774,8 @@
     "severity": "high"
    }
   ],
-  "summary": "high severity; seen by ais"
+  "summary": "high severity; seen by ais",
+  "review_status": "new"
  },
  {
   "case_id": "case_254641c5bc3f",
@@ -2715,7 +2804,8 @@
     "severity": "medium"
    }
   ],
-  "summary": "medium severity; seen by ais"
+  "summary": "medium severity; seen by ais",
+  "review_status": "new"
  },
  {
   "case_id": "case_e140c574298b",
@@ -2744,7 +2834,8 @@
     "severity": "high"
    }
   ],
-  "summary": "high severity; seen by ais"
+  "summary": "high severity; seen by ais",
+  "review_status": "new"
  },
  {
   "case_id": "case_d43413d53669",
@@ -2779,7 +2870,8 @@
     "severity": "high"
    }
   ],
-  "summary": "high severity; seen by ais"
+  "summary": "high severity; seen by ais",
+  "review_status": "new"
  },
  {
   "case_id": "case_f896cd051019",
@@ -2808,7 +2900,8 @@
     "severity": "medium"
    }
   ],
-  "summary": "medium severity; seen by ais"
+  "summary": "medium severity; seen by ais",
+  "review_status": "new"
  },
  {
   "case_id": "case_a0e7a1fa2ebb",
@@ -2843,7 +2936,8 @@
     "severity": "high"
    }
   ],
-  "summary": "high severity; seen by ais"
+  "summary": "high severity; seen by ais",
+  "review_status": "new"
  },
  {
   "case_id": "case_f93476fa4c3d",
@@ -2872,7 +2966,8 @@
     "severity": "high"
    }
   ],
-  "summary": "high severity; seen by ais"
+  "summary": "high severity; seen by ais",
+  "review_status": "new"
  },
  {
   "case_id": "case_8bb9d9aa1b32",
@@ -2913,7 +3008,8 @@
     "severity": "high"
    }
   ],
-  "summary": "high severity; seen by ais"
+  "summary": "high severity; seen by ais",
+  "review_status": "new"
  },
  {
   "case_id": "case_df8a567ea3ac",
@@ -2942,7 +3038,8 @@
     "severity": "medium"
    }
   ],
-  "summary": "medium severity; seen by ais"
+  "summary": "medium severity; seen by ais",
+  "review_status": "new"
  },
  {
   "case_id": "case_7151d1fe8254",
@@ -2971,7 +3068,8 @@
     "severity": "high"
    }
   ],
-  "summary": "high severity; seen by ais"
+  "summary": "high severity; seen by ais",
+  "review_status": "new"
  },
  {
   "case_id": "case_d2a01f8f0575",
@@ -3006,7 +3104,8 @@
     "severity": "high"
    }
   ],
-  "summary": "high severity; seen by ais"
+  "summary": "high severity; seen by ais",
+  "review_status": "new"
  },
  {
   "case_id": "case_2dae41428407",
@@ -3047,7 +3146,8 @@
     "severity": "medium"
    }
   ],
-  "summary": "high severity; seen by ais"
+  "summary": "high severity; seen by ais",
+  "review_status": "new"
  },
  {
   "case_id": "case_7d4172890b7a",
@@ -3076,7 +3176,8 @@
     "severity": "high"
    }
   ],
-  "summary": "high severity; seen by ais"
+  "summary": "high severity; seen by ais",
+  "review_status": "new"
  },
  {
   "case_id": "case_e9da2cd072c7",
@@ -3105,7 +3206,8 @@
     "severity": "high"
    }
   ],
-  "summary": "high severity; seen by ais"
+  "summary": "high severity; seen by ais",
+  "review_status": "new"
  },
  {
   "case_id": "case_fa1e543aff26",
@@ -3134,7 +3236,8 @@
     "severity": "medium"
    }
   ],
-  "summary": "medium severity; seen by ais"
+  "summary": "medium severity; seen by ais",
+  "review_status": "new"
  },
  {
   "case_id": "case_743e01818e7f",
@@ -3163,7 +3266,8 @@
     "severity": "high"
    }
   ],
-  "summary": "high severity; seen by ais"
+  "summary": "high severity; seen by ais",
+  "review_status": "new"
  },
  {
   "case_id": "case_c854ebdffcea",
@@ -3192,7 +3296,8 @@
     "severity": "high"
    }
   ],
-  "summary": "high severity; seen by ais"
+  "summary": "high severity; seen by ais",
+  "review_status": "new"
  },
  {
   "case_id": "case_b214feda6dfe",
@@ -3227,7 +3332,8 @@
     "severity": "high"
    }
   ],
-  "summary": "high severity; seen by ais"
+  "summary": "high severity; seen by ais",
+  "review_status": "new"
  },
  {
   "case_id": "case_b910b657fbb5",
@@ -3256,7 +3362,8 @@
     "severity": "high"
    }
   ],
-  "summary": "high severity; seen by ais"
+  "summary": "high severity; seen by ais",
+  "review_status": "new"
  },
  {
   "case_id": "case_240ed2bcf73b",
@@ -3297,7 +3404,8 @@
     "severity": "medium"
    }
   ],
-  "summary": "medium severity; seen by ais"
+  "summary": "medium severity; seen by ais",
+  "review_status": "new"
  },
  {
   "case_id": "case_75da35a12b5f",
@@ -3326,7 +3434,8 @@
     "severity": "high"
    }
   ],
-  "summary": "high severity; seen by ais"
+  "summary": "high severity; seen by ais",
+  "review_status": "new"
  },
  {
   "case_id": "case_f97302ae1cf2",
@@ -3361,7 +3470,8 @@
     "severity": "high"
    }
   ],
-  "summary": "high severity; seen by ais"
+  "summary": "high severity; seen by ais",
+  "review_status": "new"
  },
  {
   "case_id": "case_2168f5e169d3",
@@ -3390,7 +3500,8 @@
     "severity": "medium"
    }
   ],
-  "summary": "medium severity; seen by ais"
+  "summary": "medium severity; seen by ais",
+  "review_status": "new"
  },
  {
   "case_id": "case_1c4245abdf98",
@@ -3425,7 +3536,8 @@
     "severity": "high"
    }
   ],
-  "summary": "high severity; seen by ais"
+  "summary": "high severity; seen by ais",
+  "review_status": "new"
  },
  {
   "case_id": "case_5f7b36df2d9a",
@@ -3454,7 +3566,8 @@
     "severity": "high"
    }
   ],
-  "summary": "high severity; seen by ais"
+  "summary": "high severity; seen by ais",
+  "review_status": "new"
  },
  {
   "case_id": "case_e4aed6a5f541",
@@ -3483,7 +3596,8 @@
     "severity": "medium"
    }
   ],
-  "summary": "medium severity; seen by ais"
+  "summary": "medium severity; seen by ais",
+  "review_status": "new"
  },
  {
   "case_id": "case_97e9b8250b6f",
@@ -3512,7 +3626,8 @@
     "severity": "medium"
    }
   ],
-  "summary": "medium severity; seen by ais"
+  "summary": "medium severity; seen by ais",
+  "review_status": "new"
  },
  {
   "case_id": "case_d5cfef8bd489",
@@ -3547,7 +3662,8 @@
     "severity": "high"
    }
   ],
-  "summary": "high severity; seen by ais"
+  "summary": "high severity; seen by ais",
+  "review_status": "new"
  },
  {
   "case_id": "case_46831b647595",
@@ -3583,7 +3699,8 @@
     "severity": "medium"
    }
   ],
-  "summary": "high severity; seen by ais, behavior (2 independent sensors agree)"
+  "summary": "high severity; seen by ais, behavior (2 independent sensors agree)",
+  "review_status": "new"
  },
  {
   "case_id": "case_8214d2c3e72a",
@@ -3612,7 +3729,8 @@
     "severity": "high"
    }
   ],
-  "summary": "high severity; seen by ais"
+  "summary": "high severity; seen by ais",
+  "review_status": "new"
  },
  {
   "case_id": "case_813b8ec7b2d1",
@@ -3641,7 +3759,8 @@
     "severity": "high"
    }
   ],
-  "summary": "high severity; seen by ais"
+  "summary": "high severity; seen by ais",
+  "review_status": "new"
  },
  {
   "case_id": "case_24709dbe12cb",
@@ -3670,7 +3789,8 @@
     "severity": "high"
    }
   ],
-  "summary": "high severity; seen by ais"
+  "summary": "high severity; seen by ais",
+  "review_status": "new"
  },
  {
   "case_id": "case_d4a2dde54d5e",
@@ -3699,7 +3819,8 @@
     "severity": "medium"
    }
   ],
-  "summary": "medium severity; seen by ais"
+  "summary": "medium severity; seen by ais",
+  "review_status": "new"
  },
  {
   "case_id": "case_de1f057cf3a5",
@@ -3728,7 +3849,8 @@
     "severity": "high"
    }
   ],
-  "summary": "high severity; seen by ais"
+  "summary": "high severity; seen by ais",
+  "review_status": "new"
  },
  {
   "case_id": "case_e53e376d81ed",
@@ -3757,7 +3879,8 @@
     "severity": "high"
    }
   ],
-  "summary": "high severity; seen by ais"
+  "summary": "high severity; seen by ais",
+  "review_status": "new"
  },
  {
   "case_id": "case_2e912d452e23",
@@ -3786,7 +3909,8 @@
     "severity": "high"
    }
   ],
-  "summary": "high severity; seen by ais"
+  "summary": "high severity; seen by ais",
+  "review_status": "new"
  },
  {
   "case_id": "case_1720ea83b9ef",
@@ -3815,7 +3939,8 @@
     "severity": "high"
    }
   ],
-  "summary": "high severity; seen by ais"
+  "summary": "high severity; seen by ais",
+  "review_status": "new"
  },
  {
   "case_id": "case_08f083f7fa41",
@@ -3844,7 +3969,8 @@
     "severity": "medium"
    }
   ],
-  "summary": "medium severity; seen by ais"
+  "summary": "medium severity; seen by ais",
+  "review_status": "new"
  },
  {
   "case_id": "case_18819686c813",
@@ -3873,7 +3999,8 @@
     "severity": "medium"
    }
   ],
-  "summary": "medium severity; seen by ais"
+  "summary": "medium severity; seen by ais",
+  "review_status": "new"
  },
  {
   "case_id": "case_7d7d89c7e91f",
@@ -3902,7 +4029,8 @@
     "severity": "medium"
    }
   ],
-  "summary": "medium severity; seen by ais"
+  "summary": "medium severity; seen by ais",
+  "review_status": "new"
  },
  {
   "case_id": "case_91fbdc22c2e1",
@@ -3931,7 +4059,8 @@
     "severity": "medium"
    }
   ],
-  "summary": "medium severity; seen by ais"
+  "summary": "medium severity; seen by ais",
+  "review_status": "new"
  },
  {
   "case_id": "case_0bc599de89c2",
@@ -3960,7 +4089,8 @@
     "severity": "high"
    }
   ],
-  "summary": "high severity; seen by ais"
+  "summary": "high severity; seen by ais",
+  "review_status": "new"
  },
  {
   "case_id": "case_bbd17db7e2ab",
@@ -3995,7 +4125,8 @@
     "severity": "high"
    }
   ],
-  "summary": "high severity; seen by ais"
+  "summary": "high severity; seen by ais",
+  "review_status": "new"
  },
  {
   "case_id": "case_406406993431",
@@ -4024,7 +4155,8 @@
     "severity": "high"
    }
   ],
-  "summary": "high severity; seen by ais"
+  "summary": "high severity; seen by ais",
+  "review_status": "new"
  },
  {
   "case_id": "case_91882ba5b082",
@@ -4053,7 +4185,8 @@
     "severity": "high"
    }
   ],
-  "summary": "high severity; seen by ais"
+  "summary": "high severity; seen by ais",
+  "review_status": "new"
  },
  {
   "case_id": "case_af4ba98cd5a7",
@@ -4082,7 +4215,8 @@
     "severity": "high"
    }
   ],
-  "summary": "high severity; seen by ais"
+  "summary": "high severity; seen by ais",
+  "review_status": "new"
  },
  {
   "case_id": "case_e2fca86b7295",
@@ -4123,7 +4257,8 @@
     "severity": "high"
    }
   ],
-  "summary": "high severity; seen by ais"
+  "summary": "high severity; seen by ais",
+  "review_status": "new"
  },
  {
   "case_id": "case_79434c3c57c2",
@@ -4152,7 +4287,8 @@
     "severity": "high"
    }
   ],
-  "summary": "high severity; seen by ais"
+  "summary": "high severity; seen by ais",
+  "review_status": "new"
  },
  {
   "case_id": "case_9f317d664240",
@@ -4187,7 +4323,8 @@
     "severity": "high"
    }
   ],
-  "summary": "high severity; seen by ais"
+  "summary": "high severity; seen by ais",
+  "review_status": "new"
  },
  {
   "case_id": "case_8e1f25a27df5",
@@ -4216,7 +4353,8 @@
     "severity": "high"
    }
   ],
-  "summary": "high severity; seen by ais"
+  "summary": "high severity; seen by ais",
+  "review_status": "new"
  },
  {
   "case_id": "case_af5922bb02b1",
@@ -4245,7 +4383,8 @@
     "severity": "high"
    }
   ],
-  "summary": "high severity; seen by ais"
+  "summary": "high severity; seen by ais",
+  "review_status": "new"
  },
  {
   "case_id": "case_008a56ebc56c",
@@ -4274,7 +4413,8 @@
     "severity": "high"
    }
   ],
-  "summary": "high severity; seen by ais"
+  "summary": "high severity; seen by ais",
+  "review_status": "new"
  },
  {
   "case_id": "case_d5c03bf9916f",
@@ -4303,7 +4443,8 @@
     "severity": "medium"
    }
   ],
-  "summary": "medium severity; seen by ais"
+  "summary": "medium severity; seen by ais",
+  "review_status": "new"
  },
  {
   "case_id": "case_3db036af735a",
@@ -4350,7 +4491,8 @@
     "severity": "high"
    }
   ],
-  "summary": "high severity; seen by ais"
+  "summary": "high severity; seen by ais",
+  "review_status": "new"
  },
  {
   "case_id": "case_5adb9e376b4f",
@@ -4379,7 +4521,8 @@
     "severity": "high"
    }
   ],
-  "summary": "high severity; seen by ais"
+  "summary": "high severity; seen by ais",
+  "review_status": "new"
  },
  {
   "case_id": "case_6d92aa93d26e",
@@ -4420,7 +4563,8 @@
     "severity": "high"
    }
   ],
-  "summary": "high severity; seen by ais"
+  "summary": "high severity; seen by ais",
+  "review_status": "new"
  },
  {
   "case_id": "case_fae230bcaea8",
@@ -4449,7 +4593,8 @@
     "severity": "medium"
    }
   ],
-  "summary": "medium severity; seen by ais"
+  "summary": "medium severity; seen by ais",
+  "review_status": "new"
  },
  {
   "case_id": "case_254bb54a788c",
@@ -4478,7 +4623,8 @@
     "severity": "high"
    }
   ],
-  "summary": "high severity; seen by ais"
+  "summary": "high severity; seen by ais",
+  "review_status": "new"
  },
  {
   "case_id": "case_7fd53e6615b5",
@@ -4507,7 +4653,8 @@
     "severity": "medium"
    }
   ],
-  "summary": "medium severity; seen by ais"
+  "summary": "medium severity; seen by ais",
+  "review_status": "new"
  },
  {
   "case_id": "case_a4a9e01db219",
@@ -4542,7 +4689,8 @@
     "severity": "high"
    }
   ],
-  "summary": "high severity; seen by ais"
+  "summary": "high severity; seen by ais",
+  "review_status": "new"
  },
  {
   "case_id": "case_51b71e627f79",
@@ -4583,7 +4731,8 @@
     "severity": "high"
    }
   ],
-  "summary": "high severity; seen by ais"
+  "summary": "high severity; seen by ais",
+  "review_status": "new"
  },
  {
   "case_id": "case_bd7771915261",
@@ -4612,7 +4761,8 @@
     "severity": "high"
    }
   ],
-  "summary": "high severity; seen by ais"
+  "summary": "high severity; seen by ais",
+  "review_status": "new"
  },
  {
   "case_id": "case_59ee7df15140",
@@ -4641,7 +4791,8 @@
     "severity": "high"
    }
   ],
-  "summary": "high severity; seen by ais"
+  "summary": "high severity; seen by ais",
+  "review_status": "new"
  },
  {
   "case_id": "case_4709cffbece4",
@@ -4670,7 +4821,8 @@
     "severity": "high"
    }
   ],
-  "summary": "high severity; seen by ais"
+  "summary": "high severity; seen by ais",
+  "review_status": "new"
  },
  {
   "case_id": "case_084361383cbe",
@@ -4705,7 +4857,8 @@
     "severity": "high"
    }
   ],
-  "summary": "high severity; seen by ais"
+  "summary": "high severity; seen by ais",
+  "review_status": "new"
  },
  {
   "case_id": "case_23ea92780439",
@@ -4752,7 +4905,8 @@
     "severity": "high"
    }
   ],
-  "summary": "high severity; seen by ais"
+  "summary": "high severity; seen by ais",
+  "review_status": "new"
  },
  {
   "case_id": "case_74d5d43c4059",
@@ -4781,7 +4935,8 @@
     "severity": "high"
    }
   ],
-  "summary": "high severity; seen by ais"
+  "summary": "high severity; seen by ais",
+  "review_status": "new"
  },
  {
   "case_id": "case_4ec49bcd9aaf",
@@ -4822,7 +4977,8 @@
     "severity": "high"
    }
   ],
-  "summary": "high severity; seen by ais"
+  "summary": "high severity; seen by ais",
+  "review_status": "new"
  },
  {
   "case_id": "case_c10d089cf140",
@@ -4851,7 +5007,8 @@
     "severity": "high"
    }
   ],
-  "summary": "high severity; seen by ais"
+  "summary": "high severity; seen by ais",
+  "review_status": "new"
  },
  {
   "case_id": "case_8b6fa645d27d",
@@ -4892,7 +5049,8 @@
     "severity": "high"
    }
   ],
-  "summary": "high severity; seen by ais"
+  "summary": "high severity; seen by ais",
+  "review_status": "new"
  },
  {
   "case_id": "case_212de1ec3d13",
@@ -4933,7 +5091,8 @@
     "severity": "high"
    }
   ],
-  "summary": "high severity; seen by ais"
+  "summary": "high severity; seen by ais",
+  "review_status": "new"
  },
  {
   "case_id": "case_a4292dc4f9e2",
@@ -4962,7 +5121,8 @@
     "severity": "medium"
    }
   ],
-  "summary": "medium severity; seen by ais"
+  "summary": "medium severity; seen by ais",
+  "review_status": "new"
  },
  {
   "case_id": "case_c6dbc60480e3",
@@ -4991,7 +5151,8 @@
     "severity": "medium"
    }
   ],
-  "summary": "medium severity; seen by ais"
+  "summary": "medium severity; seen by ais",
+  "review_status": "new"
  },
  {
   "case_id": "case_a856ff32d44a",
@@ -5020,7 +5181,8 @@
     "severity": "high"
    }
   ],
-  "summary": "high severity; seen by ais"
+  "summary": "high severity; seen by ais",
+  "review_status": "new"
  },
  {
   "case_id": "case_76a5d6ab2df4",
@@ -5049,7 +5211,8 @@
     "severity": "high"
    }
   ],
-  "summary": "high severity; seen by ais"
+  "summary": "high severity; seen by ais",
+  "review_status": "new"
  },
  {
   "case_id": "case_1f8c81c94cdf",
@@ -5078,7 +5241,8 @@
     "severity": "high"
    }
   ],
-  "summary": "high severity; seen by ais"
+  "summary": "high severity; seen by ais",
+  "review_status": "new"
  },
  {
   "case_id": "case_8634a828f576",
@@ -5107,7 +5271,8 @@
     "severity": "medium"
    }
   ],
-  "summary": "medium severity; seen by ais"
+  "summary": "medium severity; seen by ais",
+  "review_status": "new"
  },
  {
   "case_id": "case_9c97da3fb68e",
@@ -5136,7 +5301,8 @@
     "severity": "medium"
    }
   ],
-  "summary": "medium severity; seen by ais"
+  "summary": "medium severity; seen by ais",
+  "review_status": "new"
  },
  {
   "case_id": "case_503e3c5d18df",
@@ -5171,7 +5337,8 @@
     "severity": "high"
    }
   ],
-  "summary": "high severity; seen by ais"
+  "summary": "high severity; seen by ais",
+  "review_status": "new"
  },
  {
   "case_id": "case_36f8931f8fee",
@@ -5200,7 +5367,8 @@
     "severity": "medium"
    }
   ],
-  "summary": "medium severity; seen by ais"
+  "summary": "medium severity; seen by ais",
+  "review_status": "new"
  },
  {
   "case_id": "case_fab59e9fbb60",
@@ -5229,7 +5397,8 @@
     "severity": "high"
    }
   ],
-  "summary": "high severity; seen by ais"
+  "summary": "high severity; seen by ais",
+  "review_status": "new"
  },
  {
   "case_id": "case_c3933e8de03a",
@@ -5265,7 +5434,8 @@
     "severity": "high"
    }
   ],
-  "summary": "high severity; seen by ais, behavior (2 independent sensors agree)"
+  "summary": "high severity; seen by ais, behavior (2 independent sensors agree)",
+  "review_status": "new"
  },
  {
   "case_id": "case_acffff539a14",
@@ -5294,7 +5464,8 @@
     "severity": "high"
    }
   ],
-  "summary": "high severity; seen by ais"
+  "summary": "high severity; seen by ais",
+  "review_status": "new"
  },
  {
   "case_id": "case_21823b7e6755",
@@ -5335,7 +5506,8 @@
     "severity": "high"
    }
   ],
-  "summary": "high severity; seen by ais"
+  "summary": "high severity; seen by ais",
+  "review_status": "new"
  },
  {
   "case_id": "case_0739a8652340",
@@ -5376,7 +5548,8 @@
     "severity": "high"
    }
   ],
-  "summary": "high severity; seen by ais"
+  "summary": "high severity; seen by ais",
+  "review_status": "new"
  },
  {
   "case_id": "case_2e0f3138b374",
@@ -5405,7 +5578,8 @@
     "severity": "high"
    }
   ],
-  "summary": "high severity; seen by ais"
+  "summary": "high severity; seen by ais",
+  "review_status": "new"
  },
  {
   "case_id": "case_e38f5702ccdd",
@@ -5434,7 +5608,8 @@
     "severity": "high"
    }
   ],
-  "summary": "high severity; seen by ais"
+  "summary": "high severity; seen by ais",
+  "review_status": "new"
  },
  {
   "case_id": "case_fd89ee186ef9",
@@ -5463,7 +5638,8 @@
     "severity": "medium"
    }
   ],
-  "summary": "medium severity; seen by ais"
+  "summary": "medium severity; seen by ais",
+  "review_status": "new"
  },
  {
   "case_id": "case_f75037777ac9",
@@ -5492,7 +5668,8 @@
     "severity": "medium"
    }
   ],
-  "summary": "medium severity; seen by ais"
+  "summary": "medium severity; seen by ais",
+  "review_status": "new"
  },
  {
   "case_id": "case_c89ed707dd12",
@@ -5521,7 +5698,8 @@
     "severity": "high"
    }
   ],
-  "summary": "high severity; seen by ais"
+  "summary": "high severity; seen by ais",
+  "review_status": "new"
  },
  {
   "case_id": "case_634c46615158",
@@ -5562,7 +5740,8 @@
     "severity": "high"
    }
   ],
-  "summary": "high severity; seen by ais"
+  "summary": "high severity; seen by ais",
+  "review_status": "new"
  },
  {
   "case_id": "case_5ca873c40bcb",
@@ -5591,7 +5770,8 @@
     "severity": "high"
    }
   ],
-  "summary": "high severity; seen by ais"
+  "summary": "high severity; seen by ais",
+  "review_status": "new"
  },
  {
   "case_id": "case_f9ed0e61837b",
@@ -5620,7 +5800,8 @@
     "severity": "high"
    }
   ],
-  "summary": "high severity; seen by ais"
+  "summary": "high severity; seen by ais",
+  "review_status": "new"
  },
  {
   "case_id": "case_0cccda56678b",
@@ -5649,7 +5830,8 @@
     "severity": "medium"
    }
   ],
-  "summary": "medium severity; seen by ais"
+  "summary": "medium severity; seen by ais",
+  "review_status": "new"
  },
  {
   "case_id": "case_af7f9ab2e9fc",
@@ -5678,7 +5860,8 @@
     "severity": "high"
    }
   ],
-  "summary": "high severity; seen by ais"
+  "summary": "high severity; seen by ais",
+  "review_status": "new"
  },
  {
   "case_id": "case_184bfbb87aff",
@@ -5707,7 +5890,8 @@
     "severity": "high"
    }
   ],
-  "summary": "high severity; seen by ais"
+  "summary": "high severity; seen by ais",
+  "review_status": "new"
  },
  {
   "case_id": "case_48c2940b3f49",
@@ -5736,7 +5920,8 @@
     "severity": "high"
    }
   ],
-  "summary": "high severity; seen by ais"
+  "summary": "high severity; seen by ais",
+  "review_status": "new"
  },
  {
   "case_id": "case_b463a1ccaa4a",
@@ -5765,7 +5950,8 @@
     "severity": "medium"
    }
   ],
-  "summary": "medium severity; seen by ais"
+  "summary": "medium severity; seen by ais",
+  "review_status": "new"
  },
  {
   "case_id": "case_5f729e6109ec",
@@ -5794,7 +5980,8 @@
     "severity": "medium"
    }
   ],
-  "summary": "medium severity; seen by ais"
+  "summary": "medium severity; seen by ais",
+  "review_status": "new"
  },
  {
   "case_id": "case_5d642ca93e76",
@@ -5823,7 +6010,8 @@
     "severity": "high"
    }
   ],
-  "summary": "high severity; seen by ais"
+  "summary": "high severity; seen by ais",
+  "review_status": "new"
  },
  {
   "case_id": "case_5a7d68aebcee",
@@ -5864,7 +6052,8 @@
     "severity": "high"
    }
   ],
-  "summary": "high severity; seen by ais"
+  "summary": "high severity; seen by ais",
+  "review_status": "new"
  },
  {
   "case_id": "case_731416a4c175",
@@ -5893,7 +6082,8 @@
     "severity": "high"
    }
   ],
-  "summary": "high severity; seen by ais"
+  "summary": "high severity; seen by ais",
+  "review_status": "new"
  },
  {
   "case_id": "case_79b25fa974a7",
@@ -5946,7 +6136,8 @@
     "severity": "medium"
    }
   ],
-  "summary": "medium severity; seen by ais"
+  "summary": "medium severity; seen by ais",
+  "review_status": "new"
  },
  {
   "case_id": "case_3a349e6d1b99",
@@ -5975,7 +6166,8 @@
     "severity": "medium"
    }
   ],
-  "summary": "medium severity; seen by ais"
+  "summary": "medium severity; seen by ais",
+  "review_status": "new"
  },
  {
   "case_id": "case_b3370805f53c",
@@ -6010,7 +6202,8 @@
     "severity": "medium"
    }
   ],
-  "summary": "medium severity; seen by ais"
+  "summary": "medium severity; seen by ais",
+  "review_status": "new"
  },
  {
   "case_id": "case_cdf07076758e",
@@ -6039,7 +6232,8 @@
     "severity": "high"
    }
   ],
-  "summary": "high severity; seen by ais"
+  "summary": "high severity; seen by ais",
+  "review_status": "new"
  },
  {
   "case_id": "case_d39769c14ea0",
@@ -6068,7 +6262,8 @@
     "severity": "medium"
    }
   ],
-  "summary": "medium severity; seen by ais"
+  "summary": "medium severity; seen by ais",
+  "review_status": "new"
  },
  {
   "case_id": "case_b76404f11973",
@@ -6097,7 +6292,8 @@
     "severity": "medium"
    }
   ],
-  "summary": "medium severity; seen by ais"
+  "summary": "medium severity; seen by ais",
+  "review_status": "new"
  },
  {
   "case_id": "case_e1ebcc5523d9",
@@ -6126,7 +6322,8 @@
     "severity": "high"
    }
   ],
-  "summary": "high severity; seen by ais"
+  "summary": "high severity; seen by ais",
+  "review_status": "new"
  },
  {
   "case_id": "case_1fb60ad6351e",
@@ -6155,7 +6352,8 @@
     "severity": "high"
    }
   ],
-  "summary": "high severity; seen by ais"
+  "summary": "high severity; seen by ais",
+  "review_status": "new"
  },
  {
   "case_id": "case_09bbc7d6e89c",
@@ -6184,7 +6382,8 @@
     "severity": "medium"
    }
   ],
-  "summary": "medium severity; seen by ais"
+  "summary": "medium severity; seen by ais",
+  "review_status": "new"
  },
  {
   "case_id": "case_950bf39101ed",
@@ -6213,7 +6412,8 @@
     "severity": "high"
    }
   ],
-  "summary": "high severity; seen by ais"
+  "summary": "high severity; seen by ais",
+  "review_status": "new"
  },
  {
   "case_id": "case_c9b770252faa",
@@ -6242,7 +6442,8 @@
     "severity": "high"
    }
   ],
-  "summary": "high severity; seen by ais"
+  "summary": "high severity; seen by ais",
+  "review_status": "new"
  },
  {
   "case_id": "case_30da3af37eb2",
@@ -6271,7 +6472,8 @@
     "severity": "high"
    }
   ],
-  "summary": "high severity; seen by ais"
+  "summary": "high severity; seen by ais",
+  "review_status": "new"
  },
  {
   "case_id": "case_eb63346a285c",
@@ -6300,7 +6502,8 @@
     "severity": "high"
    }
   ],
-  "summary": "high severity; seen by ais"
+  "summary": "high severity; seen by ais",
+  "review_status": "new"
  },
  {
   "case_id": "case_77215b60fcb9",
@@ -6342,7 +6545,8 @@
     "severity": "medium"
    }
   ],
-  "summary": "high severity; seen by ais, behavior (2 independent sensors agree)"
+  "summary": "high severity; seen by ais, behavior (2 independent sensors agree)",
+  "review_status": "new"
  },
  {
   "case_id": "case_fade5a30e560",
@@ -6371,7 +6575,8 @@
     "severity": "high"
    }
   ],
-  "summary": "high severity; seen by ais"
+  "summary": "high severity; seen by ais",
+  "review_status": "new"
  },
  {
   "case_id": "case_03a1b382c6e1",
@@ -6400,7 +6605,8 @@
     "severity": "high"
    }
   ],
-  "summary": "high severity; seen by ais"
+  "summary": "high severity; seen by ais",
+  "review_status": "new"
  },
  {
   "case_id": "case_6a1e36ebb0be",
@@ -6429,7 +6635,8 @@
     "severity": "medium"
    }
   ],
-  "summary": "medium severity; seen by ais"
+  "summary": "medium severity; seen by ais",
+  "review_status": "new"
  },
  {
   "case_id": "case_1261e90114a9",
@@ -6458,7 +6665,8 @@
     "severity": "high"
    }
   ],
-  "summary": "high severity; seen by ais"
+  "summary": "high severity; seen by ais",
+  "review_status": "new"
  },
  {
   "case_id": "case_a983ff87179f",
@@ -6493,7 +6701,8 @@
     "severity": "medium"
    }
   ],
-  "summary": "high severity; seen by ais"
+  "summary": "high severity; seen by ais",
+  "review_status": "new"
  },
  {
   "case_id": "case_2cb172762db5",
@@ -6522,7 +6731,8 @@
     "severity": "high"
    }
   ],
-  "summary": "high severity; seen by ais"
+  "summary": "high severity; seen by ais",
+  "review_status": "new"
  },
  {
   "case_id": "case_520fe295b6f0",
@@ -6551,7 +6761,8 @@
     "severity": "medium"
    }
   ],
-  "summary": "medium severity; seen by ais"
+  "summary": "medium severity; seen by ais",
+  "review_status": "new"
  },
  {
   "case_id": "case_2100ca25da60",
@@ -6580,7 +6791,8 @@
     "severity": "high"
    }
   ],
-  "summary": "high severity; seen by ais"
+  "summary": "high severity; seen by ais",
+  "review_status": "new"
  },
  {
   "case_id": "case_885007244893",
@@ -6609,7 +6821,8 @@
     "severity": "high"
    }
   ],
-  "summary": "high severity; seen by ais"
+  "summary": "high severity; seen by ais",
+  "review_status": "new"
  },
  {
   "case_id": "case_7128681372c6",
@@ -6638,7 +6851,8 @@
     "severity": "high"
    }
   ],
-  "summary": "high severity; seen by ais"
+  "summary": "high severity; seen by ais",
+  "review_status": "new"
  },
  {
   "case_id": "case_4c9dc4179b70",
@@ -6667,7 +6881,8 @@
     "severity": "high"
    }
   ],
-  "summary": "high severity; seen by ais"
+  "summary": "high severity; seen by ais",
+  "review_status": "new"
  },
  {
   "case_id": "case_e8a5056e5636",
@@ -6702,7 +6917,8 @@
     "severity": "high"
    }
   ],
-  "summary": "high severity; seen by ais"
+  "summary": "high severity; seen by ais",
+  "review_status": "new"
  },
  {
   "case_id": "case_c14ebe61fa92",
@@ -6731,7 +6947,8 @@
     "severity": "high"
    }
   ],
-  "summary": "high severity; seen by ais"
+  "summary": "high severity; seen by ais",
+  "review_status": "new"
  },
  {
   "case_id": "case_d5c6926e4ae8",
@@ -6766,7 +6983,8 @@
     "severity": "high"
    }
   ],
-  "summary": "high severity; seen by ais"
+  "summary": "high severity; seen by ais",
+  "review_status": "new"
  },
  {
   "case_id": "case_9135f450f188",
@@ -6795,7 +7013,8 @@
     "severity": "medium"
    }
   ],
-  "summary": "medium severity; seen by ais"
+  "summary": "medium severity; seen by ais",
+  "review_status": "new"
  },
  {
   "case_id": "case_6d16bc9005ba",
@@ -6824,7 +7043,8 @@
     "severity": "medium"
    }
   ],
-  "summary": "medium severity; seen by ais"
+  "summary": "medium severity; seen by ais",
+  "review_status": "new"
  },
  {
   "case_id": "case_092fc17fd54f",
@@ -6853,7 +7073,8 @@
     "severity": "medium"
    }
   ],
-  "summary": "medium severity; seen by ais"
+  "summary": "medium severity; seen by ais",
+  "review_status": "new"
  },
  {
   "case_id": "case_cbeb2c830029",
@@ -6882,7 +7103,8 @@
     "severity": "medium"
    }
   ],
-  "summary": "medium severity; seen by ais"
+  "summary": "medium severity; seen by ais",
+  "review_status": "new"
  },
  {
   "case_id": "case_f198ebb4e1be",
@@ -6911,7 +7133,8 @@
     "severity": "high"
    }
   ],
-  "summary": "high severity; seen by ais"
+  "summary": "high severity; seen by ais",
+  "review_status": "new"
  },
  {
   "case_id": "case_73e5d2f5d04e",
@@ -6940,7 +7163,8 @@
     "severity": "medium"
    }
   ],
-  "summary": "medium severity; seen by ais"
+  "summary": "medium severity; seen by ais",
+  "review_status": "new"
  },
  {
   "case_id": "case_5c212c35fd20",
@@ -6969,7 +7193,8 @@
     "severity": "high"
    }
   ],
-  "summary": "high severity; seen by ais"
+  "summary": "high severity; seen by ais",
+  "review_status": "new"
  },
  {
   "case_id": "case_dfc97cbb891b",
@@ -6998,7 +7223,8 @@
     "severity": "medium"
    }
   ],
-  "summary": "medium severity; seen by ais"
+  "summary": "medium severity; seen by ais",
+  "review_status": "new"
  },
  {
   "case_id": "case_f636b9b824c2",
@@ -7027,7 +7253,8 @@
     "severity": "high"
    }
   ],
-  "summary": "high severity; seen by ais"
+  "summary": "high severity; seen by ais",
+  "review_status": "new"
  },
  {
   "case_id": "case_be54eb67340a",
@@ -7056,7 +7283,8 @@
     "severity": "high"
    }
   ],
-  "summary": "high severity; seen by ais"
+  "summary": "high severity; seen by ais",
+  "review_status": "new"
  },
  {
   "case_id": "case_fc901388aa05",
@@ -7085,7 +7313,8 @@
     "severity": "medium"
    }
   ],
-  "summary": "medium severity; seen by ais"
+  "summary": "medium severity; seen by ais",
+  "review_status": "new"
  },
  {
   "case_id": "case_e8cd0d7743e1",
@@ -7114,7 +7343,8 @@
     "severity": "medium"
    }
   ],
-  "summary": "medium severity; seen by ais"
+  "summary": "medium severity; seen by ais",
+  "review_status": "new"
  },
  {
   "case_id": "case_b41b504e9da2",
@@ -7143,7 +7373,8 @@
     "severity": "high"
    }
   ],
-  "summary": "high severity; seen by ais"
+  "summary": "high severity; seen by ais",
+  "review_status": "new"
  },
  {
   "case_id": "case_7590f8a7d556",
@@ -7184,7 +7415,8 @@
     "severity": "high"
    }
   ],
-  "summary": "high severity; seen by ais"
+  "summary": "high severity; seen by ais",
+  "review_status": "new"
  },
  {
   "case_id": "case_f43adf37d739",
@@ -7213,7 +7445,8 @@
     "severity": "high"
    }
   ],
-  "summary": "high severity; seen by ais"
+  "summary": "high severity; seen by ais",
+  "review_status": "new"
  },
  {
   "case_id": "case_5a020528d6eb",
@@ -7242,7 +7475,8 @@
     "severity": "medium"
    }
   ],
-  "summary": "medium severity; seen by ais"
+  "summary": "medium severity; seen by ais",
+  "review_status": "new"
  },
  {
   "case_id": "case_0b11e38d2327",
@@ -7271,7 +7505,8 @@
     "severity": "medium"
    }
   ],
-  "summary": "medium severity; seen by ais"
+  "summary": "medium severity; seen by ais",
+  "review_status": "new"
  },
  {
   "case_id": "case_da7f0dc89944",
@@ -7300,7 +7535,8 @@
     "severity": "medium"
    }
   ],
-  "summary": "medium severity; seen by ais"
+  "summary": "medium severity; seen by ais",
+  "review_status": "new"
  },
  {
   "case_id": "case_c78d7d870f1b",
@@ -7335,7 +7571,8 @@
     "severity": "high"
    }
   ],
-  "summary": "high severity; seen by ais"
+  "summary": "high severity; seen by ais",
+  "review_status": "new"
  },
  {
   "case_id": "case_864150774db5",
@@ -7364,7 +7601,8 @@
     "severity": "medium"
    }
   ],
-  "summary": "medium severity; seen by ais"
+  "summary": "medium severity; seen by ais",
+  "review_status": "new"
  },
  {
   "case_id": "case_7af948361817",
@@ -7393,7 +7631,8 @@
     "severity": "high"
    }
   ],
-  "summary": "high severity; seen by ais"
+  "summary": "high severity; seen by ais",
+  "review_status": "new"
  },
  {
   "case_id": "case_5e7681fa9800",
@@ -7422,7 +7661,8 @@
     "severity": "high"
    }
   ],
-  "summary": "high severity; seen by ais"
+  "summary": "high severity; seen by ais",
+  "review_status": "new"
  },
  {
   "case_id": "case_c46cb0ed8c78",
@@ -7463,7 +7703,8 @@
     "severity": "high"
    }
   ],
-  "summary": "high severity; seen by ais"
+  "summary": "high severity; seen by ais",
+  "review_status": "new"
  },
  {
   "case_id": "case_364b7dd4f333",
@@ -7498,7 +7739,8 @@
     "severity": "medium"
    }
   ],
-  "summary": "high severity; seen by ais"
+  "summary": "high severity; seen by ais",
+  "review_status": "new"
  },
  {
   "case_id": "case_5324de8130d0",
@@ -7527,7 +7769,8 @@
     "severity": "medium"
    }
   ],
-  "summary": "medium severity; seen by ais"
+  "summary": "medium severity; seen by ais",
+  "review_status": "new"
  },
  {
   "case_id": "case_da287605154e",
@@ -7556,7 +7799,8 @@
     "severity": "high"
    }
   ],
-  "summary": "high severity; seen by ais"
+  "summary": "high severity; seen by ais",
+  "review_status": "new"
  },
  {
   "case_id": "case_44c2fe46f5b5",
@@ -7585,7 +7829,8 @@
     "severity": "high"
    }
   ],
-  "summary": "high severity; seen by ais"
+  "summary": "high severity; seen by ais",
+  "review_status": "new"
  },
  {
   "case_id": "case_da68051fa691",
@@ -7614,7 +7859,8 @@
     "severity": "high"
    }
   ],
-  "summary": "high severity; seen by ais"
+  "summary": "high severity; seen by ais",
+  "review_status": "new"
  },
  {
   "case_id": "case_d6b34cae1410",
@@ -7643,7 +7889,8 @@
     "severity": "high"
    }
   ],
-  "summary": "high severity; seen by ais"
+  "summary": "high severity; seen by ais",
+  "review_status": "new"
  },
  {
   "case_id": "case_ec5e4eb55957",
@@ -7672,7 +7919,8 @@
     "severity": "high"
    }
   ],
-  "summary": "high severity; seen by ais"
+  "summary": "high severity; seen by ais",
+  "review_status": "new"
  },
  {
   "case_id": "case_e947f6942715",
@@ -7701,7 +7949,8 @@
     "severity": "high"
    }
   ],
-  "summary": "high severity; seen by ais"
+  "summary": "high severity; seen by ais",
+  "review_status": "new"
  },
  {
   "case_id": "case_afea602038d7",
@@ -7730,7 +7979,8 @@
     "severity": "high"
    }
   ],
-  "summary": "high severity; seen by ais"
+  "summary": "high severity; seen by ais",
+  "review_status": "new"
  },
  {
   "case_id": "case_26f5f1bec8da",
@@ -7759,7 +8009,8 @@
     "severity": "high"
    }
   ],
-  "summary": "high severity; seen by ais"
+  "summary": "high severity; seen by ais",
+  "review_status": "new"
  },
  {
   "case_id": "case_1bdaeb6f364e",
@@ -7794,7 +8045,8 @@
     "severity": "medium"
    }
   ],
-  "summary": "medium severity; seen by ais"
+  "summary": "medium severity; seen by ais",
+  "review_status": "new"
  },
  {
   "case_id": "case_46d63571d530",
@@ -7823,7 +8075,8 @@
     "severity": "high"
    }
   ],
-  "summary": "high severity; seen by ais"
+  "summary": "high severity; seen by ais",
+  "review_status": "new"
  },
  {
   "case_id": "case_a1e9306c019a",
@@ -7852,7 +8105,8 @@
     "severity": "medium"
    }
   ],
-  "summary": "medium severity; seen by ais"
+  "summary": "medium severity; seen by ais",
+  "review_status": "new"
  },
  {
   "case_id": "case_18229b92d60d",
@@ -7881,7 +8135,8 @@
     "severity": "high"
    }
   ],
-  "summary": "high severity; seen by ais"
+  "summary": "high severity; seen by ais",
+  "review_status": "new"
  },
  {
   "case_id": "case_fea436fb9b8d",
@@ -7910,7 +8165,8 @@
     "severity": "high"
    }
   ],
-  "summary": "high severity; seen by ais"
+  "summary": "high severity; seen by ais",
+  "review_status": "new"
  },
  {
   "case_id": "case_51f75ebc845a",
@@ -7945,7 +8201,8 @@
     "severity": "high"
    }
   ],
-  "summary": "high severity; seen by ais"
+  "summary": "high severity; seen by ais",
+  "review_status": "new"
  },
  {
   "case_id": "case_4d8ff2dbd7bc",
@@ -7974,7 +8231,8 @@
     "severity": "high"
    }
   ],
-  "summary": "high severity; seen by ais"
+  "summary": "high severity; seen by ais",
+  "review_status": "new"
  },
  {
   "case_id": "case_9da7d29653c6",
@@ -8003,7 +8261,8 @@
     "severity": "high"
    }
   ],
-  "summary": "high severity; seen by ais"
+  "summary": "high severity; seen by ais",
+  "review_status": "new"
  },
  {
   "case_id": "case_8dbc5b0d321d",
@@ -8032,7 +8291,8 @@
     "severity": "medium"
    }
   ],
-  "summary": "medium severity; seen by ais"
+  "summary": "medium severity; seen by ais",
+  "review_status": "new"
  },
  {
   "case_id": "case_75c1d83ea9b7",
@@ -8061,7 +8321,8 @@
     "severity": "high"
    }
   ],
-  "summary": "high severity; seen by ais"
+  "summary": "high severity; seen by ais",
+  "review_status": "new"
  },
  {
   "case_id": "case_017d7a01e3c5",
@@ -8090,7 +8351,8 @@
     "severity": "high"
    }
   ],
-  "summary": "high severity; seen by ais"
+  "summary": "high severity; seen by ais",
+  "review_status": "new"
  },
  {
   "case_id": "case_8fc3b0a6f5c7",
@@ -8119,7 +8381,8 @@
     "severity": "high"
    }
   ],
-  "summary": "high severity; seen by ais"
+  "summary": "high severity; seen by ais",
+  "review_status": "new"
  },
  {
   "case_id": "case_337743b192b0",
@@ -8148,7 +8411,8 @@
     "severity": "medium"
    }
   ],
-  "summary": "medium severity; seen by ais"
+  "summary": "medium severity; seen by ais",
+  "review_status": "new"
  },
  {
   "case_id": "case_9907ab5946f7",
@@ -8177,7 +8441,8 @@
     "severity": "medium"
    }
   ],
-  "summary": "medium severity; seen by ais"
+  "summary": "medium severity; seen by ais",
+  "review_status": "new"
  },
  {
   "case_id": "case_127855f53525",
@@ -8206,7 +8471,8 @@
     "severity": "high"
    }
   ],
-  "summary": "high severity; seen by ais"
+  "summary": "high severity; seen by ais",
+  "review_status": "new"
  },
  {
   "case_id": "case_55e7770f6804",
@@ -8235,7 +8501,8 @@
     "severity": "medium"
    }
   ],
-  "summary": "medium severity; seen by ais"
+  "summary": "medium severity; seen by ais",
+  "review_status": "new"
  },
  {
   "case_id": "case_6351e86fdc23",
@@ -8264,7 +8531,8 @@
     "severity": "medium"
    }
   ],
-  "summary": "medium severity; seen by ais"
+  "summary": "medium severity; seen by ais",
+  "review_status": "new"
  },
  {
   "case_id": "case_c1a806cb6004",
@@ -8293,7 +8561,8 @@
     "severity": "high"
    }
   ],
-  "summary": "high severity; seen by ais"
+  "summary": "high severity; seen by ais",
+  "review_status": "new"
  },
  {
   "case_id": "case_351ca07c529c",
@@ -8322,7 +8591,8 @@
     "severity": "medium"
    }
   ],
-  "summary": "medium severity; seen by ais"
+  "summary": "medium severity; seen by ais",
+  "review_status": "new"
  },
  {
   "case_id": "case_8a78d3168045",
@@ -8351,7 +8621,8 @@
     "severity": "medium"
    }
   ],
-  "summary": "medium severity; seen by ais"
+  "summary": "medium severity; seen by ais",
+  "review_status": "new"
  },
  {
   "case_id": "case_31a31374b9a8",
@@ -8380,7 +8651,8 @@
     "severity": "high"
    }
   ],
-  "summary": "high severity; seen by ais"
+  "summary": "high severity; seen by ais",
+  "review_status": "new"
  },
  {
   "case_id": "case_04a37b95e598",
@@ -8409,7 +8681,8 @@
     "severity": "medium"
    }
   ],
-  "summary": "medium severity; seen by ais"
+  "summary": "medium severity; seen by ais",
+  "review_status": "new"
  },
  {
   "case_id": "case_896e336b9bb8",
@@ -8438,7 +8711,8 @@
     "severity": "high"
    }
   ],
-  "summary": "high severity; seen by ais"
+  "summary": "high severity; seen by ais",
+  "review_status": "new"
  },
  {
   "case_id": "case_a234c52212f9",
@@ -8467,7 +8741,8 @@
     "severity": "high"
    }
   ],
-  "summary": "high severity; seen by ais"
+  "summary": "high severity; seen by ais",
+  "review_status": "new"
  },
  {
   "case_id": "case_752479391ff2",
@@ -8496,7 +8771,8 @@
     "severity": "high"
    }
   ],
-  "summary": "high severity; seen by ais"
+  "summary": "high severity; seen by ais",
+  "review_status": "new"
  },
  {
   "case_id": "case_297727aedce1",
@@ -8525,7 +8801,8 @@
     "severity": "medium"
    }
   ],
-  "summary": "medium severity; seen by ais"
+  "summary": "medium severity; seen by ais",
+  "review_status": "new"
  },
  {
   "case_id": "case_4e9e5b9f965e",
@@ -8554,7 +8831,8 @@
     "severity": "high"
    }
   ],
-  "summary": "high severity; seen by ais"
+  "summary": "high severity; seen by ais",
+  "review_status": "new"
  },
  {
   "case_id": "case_b2c555ff09b9",
@@ -8589,7 +8867,8 @@
     "severity": "high"
    }
   ],
-  "summary": "high severity; seen by ais"
+  "summary": "high severity; seen by ais",
+  "review_status": "new"
  },
  {
   "case_id": "case_28656fbb535e",
@@ -8618,7 +8897,8 @@
     "severity": "high"
    }
   ],
-  "summary": "high severity; seen by ais"
+  "summary": "high severity; seen by ais",
+  "review_status": "new"
  },
  {
   "case_id": "case_68215a3c8ff0",
@@ -8647,7 +8927,8 @@
     "severity": "high"
    }
   ],
-  "summary": "high severity; seen by ais"
+  "summary": "high severity; seen by ais",
+  "review_status": "new"
  },
  {
   "case_id": "case_3d03b9e5376d",
@@ -8676,7 +8957,8 @@
     "severity": "high"
    }
   ],
-  "summary": "high severity; seen by ais"
+  "summary": "high severity; seen by ais",
+  "review_status": "new"
  },
  {
   "case_id": "case_26ec00968b18",
@@ -8711,7 +8993,8 @@
     "severity": "medium"
    }
   ],
-  "summary": "medium severity; seen by ais"
+  "summary": "medium severity; seen by ais",
+  "review_status": "new"
  },
  {
   "case_id": "case_010eaf8d9d55",
@@ -8740,7 +9023,8 @@
     "severity": "medium"
    }
   ],
-  "summary": "medium severity; seen by ais"
+  "summary": "medium severity; seen by ais",
+  "review_status": "new"
  },
  {
   "case_id": "case_4ebb7ad2a368",
@@ -8769,7 +9053,8 @@
     "severity": "high"
    }
   ],
-  "summary": "high severity; seen by ais"
+  "summary": "high severity; seen by ais",
+  "review_status": "new"
  },
  {
   "case_id": "case_59a4587fea5e",
@@ -8798,7 +9083,8 @@
     "severity": "high"
    }
   ],
-  "summary": "high severity; seen by ais"
+  "summary": "high severity; seen by ais",
+  "review_status": "new"
  },
  {
   "case_id": "case_d62ec18836b7",
@@ -8827,7 +9113,8 @@
     "severity": "medium"
    }
   ],
-  "summary": "medium severity; seen by ais"
+  "summary": "medium severity; seen by ais",
+  "review_status": "new"
  },
  {
   "case_id": "case_47c81dd01682",
@@ -8863,7 +9150,8 @@
     "severity": "medium"
    }
   ],
-  "summary": "high severity; seen by ais, behavior (2 independent sensors agree)"
+  "summary": "high severity; seen by ais, behavior (2 independent sensors agree)",
+  "review_status": "new"
  },
  {
   "case_id": "case_1ef1a87cdfd7",
@@ -8892,7 +9180,8 @@
     "severity": "high"
    }
   ],
-  "summary": "high severity; seen by ais"
+  "summary": "high severity; seen by ais",
+  "review_status": "new"
  },
  {
   "case_id": "case_0f800e490c81",
@@ -8927,7 +9216,8 @@
     "severity": "high"
    }
   ],
-  "summary": "high severity; seen by ais"
+  "summary": "high severity; seen by ais",
+  "review_status": "new"
  },
  {
   "case_id": "case_97431030cf5b",
@@ -8956,7 +9246,8 @@
     "severity": "medium"
    }
   ],
-  "summary": "medium severity; seen by ais"
+  "summary": "medium severity; seen by ais",
+  "review_status": "new"
  },
  {
   "case_id": "case_abdc2704d825",
@@ -8985,7 +9276,8 @@
     "severity": "medium"
    }
   ],
-  "summary": "medium severity; seen by ais"
+  "summary": "medium severity; seen by ais",
+  "review_status": "new"
  },
  {
   "case_id": "case_175bb0e2c1a5",
@@ -9014,7 +9306,8 @@
     "severity": "high"
    }
   ],
-  "summary": "high severity; seen by ais"
+  "summary": "high severity; seen by ais",
+  "review_status": "new"
  },
  {
   "case_id": "case_21bbff512369",
@@ -9043,7 +9336,8 @@
     "severity": "high"
    }
   ],
-  "summary": "high severity; seen by ais"
+  "summary": "high severity; seen by ais",
+  "review_status": "new"
  },
  {
   "case_id": "case_e339f2180fd0",
@@ -9072,7 +9366,8 @@
     "severity": "high"
    }
   ],
-  "summary": "high severity; seen by ais"
+  "summary": "high severity; seen by ais",
+  "review_status": "new"
  },
  {
   "case_id": "case_6e4f1c213a14",
@@ -9101,7 +9396,8 @@
     "severity": "high"
    }
   ],
-  "summary": "high severity; seen by ais"
+  "summary": "high severity; seen by ais",
+  "review_status": "new"
  },
  {
   "case_id": "case_d6bd3176f493",
@@ -9130,7 +9426,8 @@
     "severity": "medium"
    }
   ],
-  "summary": "medium severity; seen by ais"
+  "summary": "medium severity; seen by ais",
+  "review_status": "new"
  },
  {
   "case_id": "case_44e59c85aee0",
@@ -9159,7 +9456,8 @@
     "severity": "high"
    }
   ],
-  "summary": "high severity; seen by ais"
+  "summary": "high severity; seen by ais",
+  "review_status": "new"
  },
  {
   "case_id": "case_06921d298c31",
@@ -9188,7 +9486,8 @@
     "severity": "medium"
    }
   ],
-  "summary": "medium severity; seen by ais"
+  "summary": "medium severity; seen by ais",
+  "review_status": "new"
  },
  {
   "case_id": "case_6b6849368958",
@@ -9217,7 +9516,8 @@
     "severity": "high"
    }
   ],
-  "summary": "high severity; seen by ais"
+  "summary": "high severity; seen by ais",
+  "review_status": "new"
  },
  {
   "case_id": "case_195edf019a38",
@@ -9246,7 +9546,8 @@
     "severity": "high"
    }
   ],
-  "summary": "high severity; seen by ais"
+  "summary": "high severity; seen by ais",
+  "review_status": "new"
  },
  {
   "case_id": "case_70aa5e980fc8",
@@ -9275,7 +9576,8 @@
     "severity": "high"
    }
   ],
-  "summary": "high severity; seen by ais"
+  "summary": "high severity; seen by ais",
+  "review_status": "new"
  },
  {
   "case_id": "case_7dc57eb60bdf",
@@ -9304,7 +9606,8 @@
     "severity": "high"
    }
   ],
-  "summary": "high severity; seen by ais"
+  "summary": "high severity; seen by ais",
+  "review_status": "new"
  },
  {
   "case_id": "case_3a68ee8236da",
@@ -9333,7 +9636,8 @@
     "severity": "medium"
    }
   ],
-  "summary": "medium severity; seen by ais"
+  "summary": "medium severity; seen by ais",
+  "review_status": "new"
  },
  {
   "case_id": "case_c239269554db",
@@ -9362,7 +9666,8 @@
     "severity": "high"
    }
   ],
-  "summary": "high severity; seen by ais"
+  "summary": "high severity; seen by ais",
+  "review_status": "new"
  },
  {
   "case_id": "case_99d07066fd52",
@@ -9397,7 +9702,8 @@
     "severity": "high"
    }
   ],
-  "summary": "high severity; seen by ais"
+  "summary": "high severity; seen by ais",
+  "review_status": "new"
  },
  {
   "case_id": "case_34dddfc7b38e",
@@ -9426,7 +9732,8 @@
     "severity": "high"
    }
   ],
-  "summary": "high severity; seen by ais"
+  "summary": "high severity; seen by ais",
+  "review_status": "new"
  },
  {
   "case_id": "case_86aebe5d5a0c",
@@ -9455,7 +9762,8 @@
     "severity": "high"
    }
   ],
-  "summary": "high severity; seen by ais"
+  "summary": "high severity; seen by ais",
+  "review_status": "new"
  },
  {
   "case_id": "case_6be3afb277e9",
@@ -9484,7 +9792,8 @@
     "severity": "high"
    }
   ],
-  "summary": "high severity; seen by ais"
+  "summary": "high severity; seen by ais",
+  "review_status": "new"
  },
  {
   "case_id": "case_5e408fd1b43a",
@@ -9513,7 +9822,8 @@
     "severity": "high"
    }
   ],
-  "summary": "high severity; seen by ais"
+  "summary": "high severity; seen by ais",
+  "review_status": "new"
  },
  {
   "case_id": "case_ac57d82b0961",
@@ -9542,7 +9852,8 @@
     "severity": "high"
    }
   ],
-  "summary": "high severity; seen by ais"
+  "summary": "high severity; seen by ais",
+  "review_status": "new"
  },
  {
   "case_id": "case_65bceeb529b9",
@@ -9571,7 +9882,8 @@
     "severity": "high"
    }
   ],
-  "summary": "high severity; seen by ais"
+  "summary": "high severity; seen by ais",
+  "review_status": "new"
  },
  {
   "case_id": "case_98c403da165d",
@@ -9600,7 +9912,8 @@
     "severity": "high"
    }
   ],
-  "summary": "high severity; seen by ais"
+  "summary": "high severity; seen by ais",
+  "review_status": "new"
  },
  {
   "case_id": "case_6d3787bf7c70",
@@ -9629,7 +9942,8 @@
     "severity": "high"
    }
   ],
-  "summary": "high severity; seen by ais"
+  "summary": "high severity; seen by ais",
+  "review_status": "new"
  },
  {
   "case_id": "case_d0e54f39884a",
@@ -9658,7 +9972,8 @@
     "severity": "high"
    }
   ],
-  "summary": "high severity; seen by ais"
+  "summary": "high severity; seen by ais",
+  "review_status": "new"
  },
  {
   "case_id": "case_3c97f2aa0605",
@@ -9687,7 +10002,8 @@
     "severity": "medium"
    }
   ],
-  "summary": "medium severity; seen by ais"
+  "summary": "medium severity; seen by ais",
+  "review_status": "new"
  },
  {
   "case_id": "case_4c928b62fab4",
@@ -9716,7 +10032,8 @@
     "severity": "high"
    }
   ],
-  "summary": "high severity; seen by ais"
+  "summary": "high severity; seen by ais",
+  "review_status": "new"
  },
  {
   "case_id": "case_d879c77058ec",
@@ -9745,7 +10062,8 @@
     "severity": "high"
    }
   ],
-  "summary": "high severity; seen by ais"
+  "summary": "high severity; seen by ais",
+  "review_status": "new"
  },
  {
   "case_id": "case_8a3b027159d3",
@@ -9774,7 +10092,8 @@
     "severity": "high"
    }
   ],
-  "summary": "high severity; seen by ais"
+  "summary": "high severity; seen by ais",
+  "review_status": "new"
  },
  {
   "case_id": "case_3286e38ff0a6",
@@ -9803,7 +10122,8 @@
     "severity": "high"
    }
   ],
-  "summary": "high severity; seen by ais"
+  "summary": "high severity; seen by ais",
+  "review_status": "new"
  },
  {
   "case_id": "case_244e1187f2a8",
@@ -9832,7 +10152,8 @@
     "severity": "high"
    }
   ],
-  "summary": "high severity; seen by ais"
+  "summary": "high severity; seen by ais",
+  "review_status": "new"
  },
  {
   "case_id": "case_3ceacc024cf4",
@@ -9861,7 +10182,8 @@
     "severity": "high"
    }
   ],
-  "summary": "high severity; seen by ais"
+  "summary": "high severity; seen by ais",
+  "review_status": "new"
  },
  {
   "case_id": "case_141f7f3c0d61",
@@ -9890,7 +10212,8 @@
     "severity": "medium"
    }
   ],
-  "summary": "medium severity; seen by ais"
+  "summary": "medium severity; seen by ais",
+  "review_status": "new"
  },
  {
   "case_id": "case_8b794700b941",
@@ -9919,7 +10242,8 @@
     "severity": "high"
    }
   ],
-  "summary": "high severity; seen by ais"
+  "summary": "high severity; seen by ais",
+  "review_status": "new"
  },
  {
   "case_id": "case_3c09be64565c",
@@ -9948,7 +10272,8 @@
     "severity": "high"
    }
   ],
-  "summary": "high severity; seen by ais"
+  "summary": "high severity; seen by ais",
+  "review_status": "new"
  },
  {
   "case_id": "case_ccd53a9812fd",
@@ -9977,7 +10302,8 @@
     "severity": "high"
    }
   ],
-  "summary": "high severity; seen by ais"
+  "summary": "high severity; seen by ais",
+  "review_status": "new"
  },
  {
   "case_id": "case_0b3b761914a4",
@@ -10006,7 +10332,8 @@
     "severity": "high"
    }
   ],
-  "summary": "high severity; seen by ais"
+  "summary": "high severity; seen by ais",
+  "review_status": "new"
  },
  {
   "case_id": "case_ca1bd3f0d623",
@@ -10035,7 +10362,8 @@
     "severity": "medium"
    }
   ],
-  "summary": "medium severity; seen by ais"
+  "summary": "medium severity; seen by ais",
+  "review_status": "new"
  },
  {
   "case_id": "case_c2bfaa11df81",
@@ -10064,7 +10392,8 @@
     "severity": "high"
    }
   ],
-  "summary": "high severity; seen by ais"
+  "summary": "high severity; seen by ais",
+  "review_status": "new"
  },
  {
   "case_id": "case_ce5550bcb2a7",
@@ -10093,7 +10422,8 @@
     "severity": "high"
    }
   ],
-  "summary": "high severity; seen by ais"
+  "summary": "high severity; seen by ais",
+  "review_status": "new"
  },
  {
   "case_id": "case_a6356753c005",
@@ -10122,7 +10452,8 @@
     "severity": "medium"
    }
   ],
-  "summary": "medium severity; seen by ais"
+  "summary": "medium severity; seen by ais",
+  "review_status": "new"
  },
  {
   "case_id": "case_d1d41a68e200",
@@ -10151,7 +10482,8 @@
     "severity": "medium"
    }
   ],
-  "summary": "medium severity; seen by ais"
+  "summary": "medium severity; seen by ais",
+  "review_status": "new"
  },
  {
   "case_id": "case_0919c33da210",
@@ -10180,7 +10512,8 @@
     "severity": "high"
    }
   ],
-  "summary": "high severity; seen by ais"
+  "summary": "high severity; seen by ais",
+  "review_status": "new"
  },
  {
   "case_id": "case_f78e41dec923",
@@ -10209,7 +10542,8 @@
     "severity": "medium"
    }
   ],
-  "summary": "medium severity; seen by ais"
+  "summary": "medium severity; seen by ais",
+  "review_status": "new"
  },
  {
   "case_id": "case_0906fe15a84f",
@@ -10238,7 +10572,8 @@
     "severity": "high"
    }
   ],
-  "summary": "high severity; seen by ais"
+  "summary": "high severity; seen by ais",
+  "review_status": "new"
  },
  {
   "case_id": "case_b3d52c4a8668",
@@ -10267,7 +10602,8 @@
     "severity": "medium"
    }
   ],
-  "summary": "medium severity; seen by ais"
+  "summary": "medium severity; seen by ais",
+  "review_status": "new"
  },
  {
   "case_id": "case_0169bfb2c5da",
@@ -10296,7 +10632,8 @@
     "severity": "medium"
    }
   ],
-  "summary": "medium severity; seen by ais"
+  "summary": "medium severity; seen by ais",
+  "review_status": "new"
  },
  {
   "case_id": "case_82e248a71885",
@@ -10325,7 +10662,8 @@
     "severity": "medium"
    }
   ],
-  "summary": "medium severity; seen by ais"
+  "summary": "medium severity; seen by ais",
+  "review_status": "new"
  },
  {
   "case_id": "case_81a96e289f67",
@@ -10354,7 +10692,8 @@
     "severity": "high"
    }
   ],
-  "summary": "high severity; seen by ais"
+  "summary": "high severity; seen by ais",
+  "review_status": "new"
  },
  {
   "case_id": "case_a4c6efcc9c5a",
@@ -10383,7 +10722,8 @@
     "severity": "high"
    }
   ],
-  "summary": "high severity; seen by ais"
+  "summary": "high severity; seen by ais",
+  "review_status": "new"
  },
  {
   "case_id": "case_3e67b9ae41c9",
@@ -10412,7 +10752,8 @@
     "severity": "high"
    }
   ],
-  "summary": "high severity; seen by ais"
+  "summary": "high severity; seen by ais",
+  "review_status": "new"
  },
  {
   "case_id": "case_6087b0ae19a3",
@@ -10441,7 +10782,8 @@
     "severity": "high"
    }
   ],
-  "summary": "high severity; seen by ais"
+  "summary": "high severity; seen by ais",
+  "review_status": "new"
  },
  {
   "case_id": "case_ecf1b3744443",
@@ -10470,7 +10812,8 @@
     "severity": "high"
    }
   ],
-  "summary": "high severity; seen by ais"
+  "summary": "high severity; seen by ais",
+  "review_status": "new"
  },
  {
   "case_id": "case_37bc8716eaf2",
@@ -10499,7 +10842,8 @@
     "severity": "medium"
    }
   ],
-  "summary": "medium severity; seen by ais"
+  "summary": "medium severity; seen by ais",
+  "review_status": "new"
  },
  {
   "case_id": "case_3fc32eb5f74b",
@@ -10528,7 +10872,8 @@
     "severity": "medium"
    }
   ],
-  "summary": "medium severity; seen by ais"
+  "summary": "medium severity; seen by ais",
+  "review_status": "new"
  },
  {
   "case_id": "case_ac3fae4b9176",
@@ -10557,7 +10902,8 @@
     "severity": "medium"
    }
   ],
-  "summary": "medium severity; seen by ais"
+  "summary": "medium severity; seen by ais",
+  "review_status": "new"
  },
  {
   "case_id": "case_134ad51a0599",
@@ -10586,7 +10932,8 @@
     "severity": "high"
    }
   ],
-  "summary": "high severity; seen by ais"
+  "summary": "high severity; seen by ais",
+  "review_status": "new"
  },
  {
   "case_id": "case_9aaf8cb9571a",
@@ -10615,7 +10962,8 @@
     "severity": "high"
    }
   ],
-  "summary": "high severity; seen by ais"
+  "summary": "high severity; seen by ais",
+  "review_status": "new"
  },
  {
   "case_id": "case_fe37e4eb3c2b",
@@ -10644,7 +10992,8 @@
     "severity": "high"
    }
   ],
-  "summary": "high severity; seen by ais"
+  "summary": "high severity; seen by ais",
+  "review_status": "new"
  },
  {
   "case_id": "case_a9bc234dd5ce",
@@ -10673,7 +11022,8 @@
     "severity": "medium"
    }
   ],
-  "summary": "medium severity; seen by ais"
+  "summary": "medium severity; seen by ais",
+  "review_status": "new"
  },
  {
   "case_id": "case_3404aedb1584",
@@ -10702,7 +11052,8 @@
     "severity": "high"
    }
   ],
-  "summary": "high severity; seen by ais"
+  "summary": "high severity; seen by ais",
+  "review_status": "new"
  },
  {
   "case_id": "case_c8a420a31b9b",
@@ -10731,7 +11082,8 @@
     "severity": "high"
    }
   ],
-  "summary": "high severity; seen by ais"
+  "summary": "high severity; seen by ais",
+  "review_status": "new"
  },
  {
   "case_id": "case_7279bd39a741",
@@ -10760,7 +11112,8 @@
     "severity": "high"
    }
   ],
-  "summary": "high severity; seen by ais"
+  "summary": "high severity; seen by ais",
+  "review_status": "new"
  },
  {
   "case_id": "case_88125c5b3ccd",
@@ -10789,7 +11142,8 @@
     "severity": "high"
    }
   ],
-  "summary": "high severity; seen by ais"
+  "summary": "high severity; seen by ais",
+  "review_status": "new"
  },
  {
   "case_id": "case_3c389a0399b2",
@@ -10818,7 +11172,8 @@
     "severity": "high"
    }
   ],
-  "summary": "high severity; seen by ais"
+  "summary": "high severity; seen by ais",
+  "review_status": "new"
  },
  {
   "case_id": "case_2bc0cd0eba45",
@@ -10847,7 +11202,8 @@
     "severity": "high"
    }
   ],
-  "summary": "high severity; seen by ais"
+  "summary": "high severity; seen by ais",
+  "review_status": "new"
  },
  {
   "case_id": "case_2179cec87fa3",
@@ -10876,7 +11232,8 @@
     "severity": "medium"
    }
   ],
-  "summary": "medium severity; seen by ais"
+  "summary": "medium severity; seen by ais",
+  "review_status": "new"
  },
  {
   "case_id": "case_8386c7e3d70b",
@@ -10911,7 +11268,8 @@
     "severity": "high"
    }
   ],
-  "summary": "high severity; seen by behavior"
+  "summary": "high severity; seen by behavior",
+  "review_status": "new"
  },
  {
   "case_id": "case_d7f4bb3dbe9c",
@@ -10964,7 +11322,8 @@
     "severity": "high"
    }
   ],
-  "summary": "high severity; seen by behavior"
+  "summary": "high severity; seen by behavior",
+  "review_status": "new"
  },
  {
   "case_id": "case_209e75d49da2",
@@ -11005,7 +11364,8 @@
     "severity": "high"
    }
   ],
-  "summary": "high severity; seen by behavior"
+  "summary": "high severity; seen by behavior",
+  "review_status": "new"
  },
  {
   "case_id": "case_6f563a6c1e64",
@@ -11046,7 +11406,8 @@
     "severity": "high"
    }
   ],
-  "summary": "high severity; seen by behavior"
+  "summary": "high severity; seen by behavior",
+  "review_status": "new"
  },
  {
   "case_id": "case_2f2d16023a7a",
@@ -11075,7 +11436,8 @@
     "severity": "high"
    }
   ],
-  "summary": "high severity; seen by behavior"
+  "summary": "high severity; seen by behavior",
+  "review_status": "new"
  },
  {
   "case_id": "case_dc84b8323e0d",
@@ -11104,7 +11466,8 @@
     "severity": "high"
    }
   ],
-  "summary": "high severity; seen by behavior"
+  "summary": "high severity; seen by behavior",
+  "review_status": "new"
  },
  {
   "case_id": "case_b846de162c4a",
@@ -11133,7 +11496,8 @@
     "severity": "high"
    }
   ],
-  "summary": "high severity; seen by behavior"
+  "summary": "high severity; seen by behavior",
+  "review_status": "new"
  },
  {
   "case_id": "case_2410b203a154",
@@ -11174,7 +11538,8 @@
     "severity": "high"
    }
   ],
-  "summary": "high severity; seen by behavior"
+  "summary": "high severity; seen by behavior",
+  "review_status": "new"
  },
  {
   "case_id": "case_542cc420a240",
@@ -11215,7 +11580,8 @@
     "severity": "high"
    }
   ],
-  "summary": "high severity; seen by behavior"
+  "summary": "high severity; seen by behavior",
+  "review_status": "new"
  },
  {
   "case_id": "case_1d57ddb10b55",
@@ -11244,7 +11610,8 @@
     "severity": "high"
    }
   ],
-  "summary": "high severity; seen by behavior"
+  "summary": "high severity; seen by behavior",
+  "review_status": "new"
  },
  {
   "case_id": "case_715fef9afbd7",
@@ -11273,7 +11640,8 @@
     "severity": "high"
    }
   ],
-  "summary": "high severity; seen by behavior"
+  "summary": "high severity; seen by behavior",
+  "review_status": "new"
  },
  {
   "case_id": "case_d472a9519bbd",
@@ -11308,7 +11676,8 @@
     "severity": "high"
    }
   ],
-  "summary": "high severity; seen by behavior"
+  "summary": "high severity; seen by behavior",
+  "review_status": "new"
  },
  {
   "case_id": "case_aad1e813b03c",
@@ -11337,7 +11706,8 @@
     "severity": "high"
    }
   ],
-  "summary": "high severity; seen by behavior"
+  "summary": "high severity; seen by behavior",
+  "review_status": "new"
  },
  {
   "case_id": "case_26a32f19e7aa",
@@ -11384,7 +11754,8 @@
     "severity": "medium"
    }
   ],
-  "summary": "high severity; seen by behavior"
+  "summary": "high severity; seen by behavior",
+  "review_status": "new"
  },
  {
   "case_id": "case_77bfd16cb0ec",
@@ -11419,7 +11790,8 @@
     "severity": "high"
    }
   ],
-  "summary": "high severity; seen by behavior"
+  "summary": "high severity; seen by behavior",
+  "review_status": "new"
  },
  {
   "case_id": "case_6c548b64be2e",
@@ -11448,7 +11820,8 @@
     "severity": "high"
    }
   ],
-  "summary": "high severity; seen by behavior"
+  "summary": "high severity; seen by behavior",
+  "review_status": "new"
  },
  {
   "case_id": "case_14013b10abd1",
@@ -11477,7 +11850,8 @@
     "severity": "high"
    }
   ],
-  "summary": "high severity; seen by behavior"
+  "summary": "high severity; seen by behavior",
+  "review_status": "new"
  },
  {
   "case_id": "case_e654f65ce70a",
@@ -11506,7 +11880,8 @@
     "severity": "high"
    }
   ],
-  "summary": "high severity; seen by behavior"
+  "summary": "high severity; seen by behavior",
+  "review_status": "new"
  },
  {
   "case_id": "case_c8ee23cde2f9",
@@ -11535,7 +11910,8 @@
     "severity": "high"
    }
   ],
-  "summary": "high severity; seen by behavior"
+  "summary": "high severity; seen by behavior",
+  "review_status": "new"
  },
  {
   "case_id": "case_bddee9400717",
@@ -11570,7 +11946,8 @@
     "severity": "medium"
    }
   ],
-  "summary": "high severity; seen by behavior"
+  "summary": "high severity; seen by behavior",
+  "review_status": "new"
  },
  {
   "case_id": "case_deca5b2f6506",
@@ -11599,7 +11976,8 @@
     "severity": "high"
    }
   ],
-  "summary": "high severity; seen by behavior"
+  "summary": "high severity; seen by behavior",
+  "review_status": "new"
  },
  {
   "case_id": "case_1293e0b0439f",
@@ -11628,7 +12006,8 @@
     "severity": "high"
    }
   ],
-  "summary": "high severity; seen by behavior"
+  "summary": "high severity; seen by behavior",
+  "review_status": "new"
  },
  {
   "case_id": "case_3c9a6daa2f37",
@@ -11657,7 +12036,8 @@
     "severity": "high"
    }
   ],
-  "summary": "high severity; seen by behavior"
+  "summary": "high severity; seen by behavior",
+  "review_status": "new"
  },
  {
   "case_id": "case_646f8a25cad8",
@@ -11686,7 +12066,8 @@
     "severity": "high"
    }
   ],
-  "summary": "high severity; seen by behavior"
+  "summary": "high severity; seen by behavior",
+  "review_status": "new"
  },
  {
   "case_id": "case_f3575314b14d",
@@ -11715,7 +12096,8 @@
     "severity": "high"
    }
   ],
-  "summary": "high severity; seen by behavior"
+  "summary": "high severity; seen by behavior",
+  "review_status": "new"
  },
  {
   "case_id": "case_4c141ed3577f",
@@ -11744,7 +12126,8 @@
     "severity": "high"
    }
   ],
-  "summary": "high severity; seen by behavior"
+  "summary": "high severity; seen by behavior",
+  "review_status": "new"
  },
  {
   "case_id": "case_b634ad665418",
@@ -11773,7 +12156,8 @@
     "severity": "high"
    }
   ],
-  "summary": "high severity; seen by behavior"
+  "summary": "high severity; seen by behavior",
+  "review_status": "new"
  },
  {
   "case_id": "case_e29ea973c74b",
@@ -11802,7 +12186,8 @@
     "severity": "high"
    }
   ],
-  "summary": "high severity; seen by behavior"
+  "summary": "high severity; seen by behavior",
+  "review_status": "new"
  },
  {
   "case_id": "case_b845547410ae",
@@ -11831,7 +12216,8 @@
     "severity": "medium"
    }
   ],
-  "summary": "medium severity; seen by behavior"
+  "summary": "medium severity; seen by behavior",
+  "review_status": "new"
  },
  {
   "case_id": "case_16a2b9e6ed88",
@@ -11860,7 +12246,8 @@
     "severity": "medium"
    }
   ],
-  "summary": "medium severity; seen by behavior"
+  "summary": "medium severity; seen by behavior",
+  "review_status": "new"
  },
  {
   "case_id": "case_98e502d5a15b",
@@ -11889,7 +12276,8 @@
     "severity": "medium"
    }
   ],
-  "summary": "medium severity; seen by behavior"
+  "summary": "medium severity; seen by behavior",
+  "review_status": "new"
  },
  {
   "case_id": "case_24821adc78d6",
@@ -11918,7 +12306,8 @@
     "severity": "medium"
    }
   ],
-  "summary": "medium severity; seen by behavior"
+  "summary": "medium severity; seen by behavior",
+  "review_status": "new"
  },
  {
   "case_id": "case_a40da659f491",
@@ -11947,7 +12336,8 @@
     "severity": "medium"
    }
   ],
-  "summary": "medium severity; seen by behavior"
+  "summary": "medium severity; seen by behavior",
+  "review_status": "new"
  },
  {
   "case_id": "case_a187cfb63e8d",
@@ -11976,7 +12366,8 @@
     "severity": "medium"
    }
   ],
-  "summary": "medium severity; seen by behavior"
+  "summary": "medium severity; seen by behavior",
+  "review_status": "new"
  },
  {
   "case_id": "case_f8fc0796f8d7",
@@ -12005,7 +12396,8 @@
     "severity": "medium"
    }
   ],
-  "summary": "medium severity; seen by behavior"
+  "summary": "medium severity; seen by behavior",
+  "review_status": "new"
  },
  {
   "case_id": "case_0dba4d091dde",
@@ -12034,7 +12426,8 @@
     "severity": "high"
    }
   ],
-  "summary": "high severity; seen by behavior"
+  "summary": "high severity; seen by behavior",
+  "review_status": "new"
  },
  {
   "case_id": "case_be23396cef7c",
@@ -12063,7 +12456,8 @@
     "severity": "high"
    }
   ],
-  "summary": "high severity; seen by behavior"
+  "summary": "high severity; seen by behavior",
+  "review_status": "new"
  },
  {
   "case_id": "case_baaf3f476113",
@@ -12092,7 +12486,8 @@
     "severity": "high"
    }
   ],
-  "summary": "high severity; seen by behavior"
+  "summary": "high severity; seen by behavior",
+  "review_status": "new"
  },
  {
   "case_id": "case_1012e838c98a",
@@ -12121,7 +12516,8 @@
     "severity": "high"
    }
   ],
-  "summary": "high severity; seen by behavior"
+  "summary": "high severity; seen by behavior",
+  "review_status": "new"
  },
  {
   "case_id": "case_49fa3f2b9eed",
@@ -12150,7 +12546,8 @@
     "severity": "high"
    }
   ],
-  "summary": "high severity; seen by behavior"
+  "summary": "high severity; seen by behavior",
+  "review_status": "new"
  },
  {
   "case_id": "case_42883e443cf1",
@@ -12185,7 +12582,8 @@
     "severity": "high"
    }
   ],
-  "summary": "high severity; seen by behavior"
+  "summary": "high severity; seen by behavior",
+  "review_status": "new"
  },
  {
   "case_id": "case_e29bc3100e5b",
@@ -12214,7 +12612,8 @@
     "severity": "high"
    }
   ],
-  "summary": "high severity; seen by behavior"
+  "summary": "high severity; seen by behavior",
+  "review_status": "new"
  },
  {
   "case_id": "case_cd4e619e1b84",
@@ -12243,7 +12642,8 @@
     "severity": "high"
    }
   ],
-  "summary": "high severity; seen by behavior"
+  "summary": "high severity; seen by behavior",
+  "review_status": "new"
  },
  {
   "case_id": "case_f3a17252e3e7",
@@ -12272,7 +12672,8 @@
     "severity": "high"
    }
   ],
-  "summary": "high severity; seen by behavior"
+  "summary": "high severity; seen by behavior",
+  "review_status": "new"
  },
  {
   "case_id": "case_ff1a84bdaadf",
@@ -12307,7 +12708,8 @@
     "severity": "high"
    }
   ],
-  "summary": "high severity; seen by behavior"
+  "summary": "high severity; seen by behavior",
+  "review_status": "new"
  },
  {
   "case_id": "case_6f82a31bd4a8",
@@ -12342,7 +12744,8 @@
     "severity": "medium"
    }
   ],
-  "summary": "medium severity; seen by behavior"
+  "summary": "medium severity; seen by behavior",
+  "review_status": "new"
  },
  {
   "case_id": "case_729c28ebae49",
@@ -12371,7 +12774,8 @@
     "severity": "medium"
    }
   ],
-  "summary": "medium severity; seen by behavior"
+  "summary": "medium severity; seen by behavior",
+  "review_status": "new"
  },
  {
   "case_id": "case_658ca8dfea10",
@@ -12400,7 +12804,8 @@
     "severity": "high"
    }
   ],
-  "summary": "high severity; seen by behavior"
+  "summary": "high severity; seen by behavior",
+  "review_status": "new"
  },
  {
   "case_id": "case_fe377712ebab",
@@ -12435,7 +12840,8 @@
     "severity": "high"
    }
   ],
-  "summary": "high severity; seen by behavior"
+  "summary": "high severity; seen by behavior",
+  "review_status": "new"
  },
  {
   "case_id": "case_5c1d931d804f",
@@ -12470,7 +12876,8 @@
     "severity": "high"
    }
   ],
-  "summary": "high severity; seen by behavior"
+  "summary": "high severity; seen by behavior",
+  "review_status": "new"
  },
  {
   "case_id": "case_c4df2a46411c",
@@ -12499,7 +12906,8 @@
     "severity": "medium"
    }
   ],
-  "summary": "medium severity; seen by behavior"
+  "summary": "medium severity; seen by behavior",
+  "review_status": "new"
  },
  {
   "case_id": "case_f7f19d840cf6",
@@ -12528,7 +12936,8 @@
     "severity": "high"
    }
   ],
-  "summary": "high severity; seen by behavior"
+  "summary": "high severity; seen by behavior",
+  "review_status": "new"
  },
  {
   "case_id": "case_7d45500491fd",
@@ -12557,7 +12966,8 @@
     "severity": "medium"
    }
   ],
-  "summary": "medium severity; seen by behavior"
+  "summary": "medium severity; seen by behavior",
+  "review_status": "new"
  },
  {
   "case_id": "case_dd8152d321a1",
@@ -12586,7 +12996,8 @@
     "severity": "medium"
    }
   ],
-  "summary": "medium severity; seen by behavior"
+  "summary": "medium severity; seen by behavior",
+  "review_status": "new"
  },
  {
   "case_id": "case_c596a5edeff1",
@@ -12615,7 +13026,8 @@
     "severity": "medium"
    }
   ],
-  "summary": "medium severity; seen by behavior"
+  "summary": "medium severity; seen by behavior",
+  "review_status": "new"
  },
  {
   "case_id": "case_a5d82631d59a",
@@ -12644,7 +13056,8 @@
     "severity": "high"
    }
   ],
-  "summary": "high severity; seen by behavior"
+  "summary": "high severity; seen by behavior",
+  "review_status": "new"
  },
  {
   "case_id": "case_1a1cfdb0af56",
@@ -12685,7 +13098,8 @@
     "severity": "high"
    }
   ],
-  "summary": "high severity; seen by behavior"
+  "summary": "high severity; seen by behavior",
+  "review_status": "new"
  },
  {
   "case_id": "case_04634c4ab34a",
@@ -12714,7 +13128,8 @@
     "severity": "high"
    }
   ],
-  "summary": "high severity; seen by behavior"
+  "summary": "high severity; seen by behavior",
+  "review_status": "new"
  },
  {
   "case_id": "case_375323239981",
@@ -12743,7 +13158,8 @@
     "severity": "high"
    }
   ],
-  "summary": "high severity; seen by behavior"
+  "summary": "high severity; seen by behavior",
+  "review_status": "new"
  },
  {
   "case_id": "case_61f1eeeec306",
@@ -12772,7 +13188,8 @@
     "severity": "high"
    }
   ],
-  "summary": "high severity; seen by behavior"
+  "summary": "high severity; seen by behavior",
+  "review_status": "new"
  },
  {
   "case_id": "case_1d1d583be791",
@@ -12807,7 +13224,8 @@
     "severity": "high"
    }
   ],
-  "summary": "high severity; seen by behavior"
+  "summary": "high severity; seen by behavior",
+  "review_status": "new"
  },
  {
   "case_id": "case_fc152898def5",
@@ -12842,7 +13260,8 @@
     "severity": "high"
    }
   ],
-  "summary": "high severity; seen by behavior"
+  "summary": "high severity; seen by behavior",
+  "review_status": "new"
  },
  {
   "case_id": "case_8f31b33ebc52",
@@ -12877,7 +13296,8 @@
     "severity": "high"
    }
   ],
-  "summary": "high severity; seen by behavior"
+  "summary": "high severity; seen by behavior",
+  "review_status": "new"
  },
  {
   "case_id": "case_5633687a697d",
@@ -12906,7 +13326,8 @@
     "severity": "medium"
    }
   ],
-  "summary": "medium severity; seen by behavior"
+  "summary": "medium severity; seen by behavior",
+  "review_status": "new"
  },
  {
   "case_id": "case_fd3ea02e82bc",
@@ -12935,7 +13356,8 @@
     "severity": "medium"
    }
   ],
-  "summary": "medium severity; seen by behavior"
+  "summary": "medium severity; seen by behavior",
+  "review_status": "new"
  },
  {
   "case_id": "case_618a159bb573",
@@ -12964,7 +13386,8 @@
     "severity": "medium"
    }
   ],
-  "summary": "medium severity; seen by behavior"
+  "summary": "medium severity; seen by behavior",
+  "review_status": "new"
  },
  {
   "case_id": "case_db01677409ef",
@@ -12993,7 +13416,8 @@
     "severity": "high"
    }
   ],
-  "summary": "high severity; seen by behavior"
+  "summary": "high severity; seen by behavior",
+  "review_status": "new"
  },
  {
   "case_id": "case_f6dda8199739",
@@ -13022,7 +13446,8 @@
     "severity": "high"
    }
   ],
-  "summary": "high severity; seen by behavior"
+  "summary": "high severity; seen by behavior",
+  "review_status": "new"
  },
  {
   "case_id": "case_b4898dc4cbf5",
@@ -13051,7 +13476,8 @@
     "severity": "high"
    }
   ],
-  "summary": "high severity; seen by behavior"
+  "summary": "high severity; seen by behavior",
+  "review_status": "new"
  },
  {
   "case_id": "case_e3cc1839edf6",
@@ -13080,7 +13506,8 @@
     "severity": "medium"
    }
   ],
-  "summary": "medium severity; seen by behavior"
+  "summary": "medium severity; seen by behavior",
+  "review_status": "new"
  },
  {
   "case_id": "case_5029406837c0",
@@ -13109,7 +13536,8 @@
     "severity": "medium"
    }
   ],
-  "summary": "medium severity; seen by behavior"
+  "summary": "medium severity; seen by behavior",
+  "review_status": "new"
  },
  {
   "case_id": "case_861539d98cb6",
@@ -13144,7 +13572,8 @@
     "severity": "medium"
    }
   ],
-  "summary": "medium severity; seen by behavior"
+  "summary": "medium severity; seen by behavior",
+  "review_status": "new"
  },
  {
   "case_id": "case_5c5071dd7a4b",
@@ -13173,7 +13602,8 @@
     "severity": "medium"
    }
   ],
-  "summary": "medium severity; seen by behavior"
+  "summary": "medium severity; seen by behavior",
+  "review_status": "new"
  },
  {
   "case_id": "case_0d19a2f1a634",
@@ -13202,7 +13632,8 @@
     "severity": "medium"
    }
   ],
-  "summary": "medium severity; seen by behavior"
+  "summary": "medium severity; seen by behavior",
+  "review_status": "new"
  },
  {
   "case_id": "case_4b0060199915",
@@ -13231,7 +13662,8 @@
     "severity": "high"
    }
   ],
-  "summary": "high severity; seen by behavior"
+  "summary": "high severity; seen by behavior",
+  "review_status": "new"
  },
  {
   "case_id": "case_edcbb376ceae",
@@ -13260,7 +13692,8 @@
     "severity": "high"
    }
   ],
-  "summary": "high severity; seen by behavior"
+  "summary": "high severity; seen by behavior",
+  "review_status": "new"
  },
  {
   "case_id": "case_44909bc8c33d",
@@ -13289,7 +13722,8 @@
     "severity": "high"
    }
   ],
-  "summary": "high severity; seen by behavior"
+  "summary": "high severity; seen by behavior",
+  "review_status": "new"
  },
  {
   "case_id": "case_4839191de308",
@@ -13318,7 +13752,8 @@
     "severity": "high"
    }
   ],
-  "summary": "high severity; seen by behavior"
+  "summary": "high severity; seen by behavior",
+  "review_status": "new"
  },
  {
   "case_id": "case_42e56e77a96b",
@@ -13347,7 +13782,8 @@
     "severity": "high"
    }
   ],
-  "summary": "high severity; seen by behavior"
+  "summary": "high severity; seen by behavior",
+  "review_status": "new"
  },
  {
   "case_id": "case_be2e5421d995",
@@ -13376,7 +13812,8 @@
     "severity": "high"
    }
   ],
-  "summary": "high severity; seen by behavior"
+  "summary": "high severity; seen by behavior",
+  "review_status": "new"
  },
  {
   "case_id": "case_774b709e1c9a",
@@ -13405,7 +13842,8 @@
     "severity": "high"
    }
   ],
-  "summary": "high severity; seen by behavior"
+  "summary": "high severity; seen by behavior",
+  "review_status": "new"
  },
  {
   "case_id": "case_2a2d8bb8fe72",
@@ -13434,7 +13872,8 @@
     "severity": "high"
    }
   ],
-  "summary": "high severity; seen by behavior"
+  "summary": "high severity; seen by behavior",
+  "review_status": "new"
  },
  {
   "case_id": "case_8feeb2d56120",
@@ -13463,7 +13902,8 @@
     "severity": "high"
    }
   ],
-  "summary": "high severity; seen by behavior"
+  "summary": "high severity; seen by behavior",
+  "review_status": "new"
  },
  {
   "case_id": "case_b7f0c1b258a0",
@@ -13492,7 +13932,8 @@
     "severity": "high"
    }
   ],
-  "summary": "high severity; seen by behavior"
+  "summary": "high severity; seen by behavior",
+  "review_status": "new"
  },
  {
   "case_id": "case_d6fab7e16550",
@@ -13521,7 +13962,8 @@
     "severity": "medium"
    }
   ],
-  "summary": "medium severity; seen by behavior"
+  "summary": "medium severity; seen by behavior",
+  "review_status": "new"
  },
  {
   "case_id": "case_5c5a7183b586",
@@ -13550,7 +13992,8 @@
     "severity": "medium"
    }
   ],
-  "summary": "medium severity; seen by behavior"
+  "summary": "medium severity; seen by behavior",
+  "review_status": "new"
  },
  {
   "case_id": "case_484aa0340cc2",
@@ -13579,7 +14022,8 @@
     "severity": "high"
    }
   ],
-  "summary": "high severity; seen by behavior"
+  "summary": "high severity; seen by behavior",
+  "review_status": "new"
  },
  {
   "case_id": "case_a3c100f185f2",
@@ -13608,7 +14052,8 @@
     "severity": "high"
    }
   ],
-  "summary": "high severity; seen by behavior"
+  "summary": "high severity; seen by behavior",
+  "review_status": "new"
  },
  {
   "case_id": "case_249b35abeda3",
@@ -13637,7 +14082,8 @@
     "severity": "high"
    }
   ],
-  "summary": "high severity; seen by behavior"
+  "summary": "high severity; seen by behavior",
+  "review_status": "new"
  },
  {
   "case_id": "case_8e4411ce6559",
@@ -13666,7 +14112,8 @@
     "severity": "medium"
    }
   ],
-  "summary": "medium severity; seen by behavior"
+  "summary": "medium severity; seen by behavior",
+  "review_status": "new"
  },
  {
   "case_id": "case_c3aac1a15d6c",
@@ -13695,7 +14142,8 @@
     "severity": "medium"
    }
   ],
-  "summary": "medium severity; seen by behavior"
+  "summary": "medium severity; seen by behavior",
+  "review_status": "new"
  },
  {
   "case_id": "case_2316e86d3884",
@@ -13724,7 +14172,8 @@
     "severity": "high"
    }
   ],
-  "summary": "high severity; seen by behavior"
+  "summary": "high severity; seen by behavior",
+  "review_status": "new"
  },
  {
   "case_id": "case_55f42300a48d",
@@ -13753,7 +14202,8 @@
     "severity": "high"
    }
   ],
-  "summary": "high severity; seen by behavior"
+  "summary": "high severity; seen by behavior",
+  "review_status": "new"
  },
  {
   "case_id": "case_6ee45c242372",
@@ -13782,7 +14232,8 @@
     "severity": "high"
    }
   ],
-  "summary": "high severity; seen by behavior"
+  "summary": "high severity; seen by behavior",
+  "review_status": "new"
  },
  {
   "case_id": "case_34166f544486",
@@ -13811,7 +14262,8 @@
     "severity": "high"
    }
   ],
-  "summary": "high severity; seen by behavior"
+  "summary": "high severity; seen by behavior",
+  "review_status": "new"
  },
  {
   "case_id": "case_0c246fad9e9d",
@@ -13840,7 +14292,8 @@
     "severity": "high"
    }
   ],
-  "summary": "high severity; seen by behavior"
+  "summary": "high severity; seen by behavior",
+  "review_status": "new"
  },
  {
   "case_id": "case_9ddb5b17de9f",
@@ -13869,7 +14322,8 @@
     "severity": "high"
    }
   ],
-  "summary": "high severity; seen by behavior"
+  "summary": "high severity; seen by behavior",
+  "review_status": "new"
  },
  {
   "case_id": "case_43f3378f42b7",
@@ -13898,7 +14352,8 @@
     "severity": "medium"
    }
   ],
-  "summary": "medium severity; seen by behavior"
+  "summary": "medium severity; seen by behavior",
+  "review_status": "new"
  },
  {
   "case_id": "case_0a89e2bac886",
@@ -13927,7 +14382,8 @@
     "severity": "medium"
    }
   ],
-  "summary": "medium severity; seen by behavior"
+  "summary": "medium severity; seen by behavior",
+  "review_status": "new"
  },
  {
   "case_id": "case_7b76ca1c4605",
@@ -13956,7 +14412,8 @@
     "severity": "high"
    }
   ],
-  "summary": "high severity; seen by behavior"
+  "summary": "high severity; seen by behavior",
+  "review_status": "new"
  },
  {
   "case_id": "case_8cd7fc568fc2",
@@ -13985,7 +14442,8 @@
     "severity": "high"
    }
   ],
-  "summary": "high severity; seen by behavior"
+  "summary": "high severity; seen by behavior",
+  "review_status": "new"
  },
  {
   "case_id": "case_813f85553651",
@@ -14014,7 +14472,8 @@
     "severity": "medium"
    }
   ],
-  "summary": "medium severity; seen by behavior"
+  "summary": "medium severity; seen by behavior",
+  "review_status": "new"
  },
  {
   "case_id": "case_c8133e8c5f6f",
@@ -14043,7 +14502,8 @@
     "severity": "medium"
    }
   ],
-  "summary": "medium severity; seen by behavior"
+  "summary": "medium severity; seen by behavior",
+  "review_status": "new"
  },
  {
   "case_id": "case_9c295aedaba3",
@@ -14072,7 +14532,8 @@
     "severity": "high"
    }
   ],
-  "summary": "high severity; seen by behavior"
+  "summary": "high severity; seen by behavior",
+  "review_status": "new"
  },
  {
   "case_id": "case_f4891e74f7b9",
@@ -14101,7 +14562,8 @@
     "severity": "high"
    }
   ],
-  "summary": "high severity; seen by behavior"
+  "summary": "high severity; seen by behavior",
+  "review_status": "new"
  },
  {
   "case_id": "case_a0c1e2ca8c17",
@@ -14130,7 +14592,8 @@
     "severity": "high"
    }
   ],
-  "summary": "high severity; seen by behavior"
+  "summary": "high severity; seen by behavior",
+  "review_status": "new"
  },
  {
   "case_id": "case_1318b0a4596b",
@@ -14159,7 +14622,8 @@
     "severity": "high"
    }
   ],
-  "summary": "high severity; seen by behavior"
+  "summary": "high severity; seen by behavior",
+  "review_status": "new"
  },
  {
   "case_id": "case_48b1de495987",
@@ -14188,7 +14652,8 @@
     "severity": "high"
    }
   ],
-  "summary": "high severity; seen by behavior"
+  "summary": "high severity; seen by behavior",
+  "review_status": "new"
  },
  {
   "case_id": "case_bb07b3b3c698",
@@ -14217,7 +14682,8 @@
     "severity": "high"
    }
   ],
-  "summary": "high severity; seen by behavior"
+  "summary": "high severity; seen by behavior",
+  "review_status": "new"
  },
  {
   "case_id": "case_bfca659b85ec",
@@ -14246,7 +14712,8 @@
     "severity": "high"
    }
   ],
-  "summary": "high severity; seen by behavior"
+  "summary": "high severity; seen by behavior",
+  "review_status": "new"
  },
  {
   "case_id": "case_96e6fd458efe",
@@ -14275,7 +14742,8 @@
     "severity": "high"
    }
   ],
-  "summary": "high severity; seen by behavior"
+  "summary": "high severity; seen by behavior",
+  "review_status": "new"
  },
  {
   "case_id": "case_d078b568691f",
@@ -14304,7 +14772,8 @@
     "severity": "high"
    }
   ],
-  "summary": "high severity; seen by behavior"
+  "summary": "high severity; seen by behavior",
+  "review_status": "new"
  },
  {
   "case_id": "case_ff37a5d84328",
@@ -14333,7 +14802,8 @@
     "severity": "high"
    }
   ],
-  "summary": "high severity; seen by behavior"
+  "summary": "high severity; seen by behavior",
+  "review_status": "new"
  },
  {
   "case_id": "case_34974553b188",
@@ -14368,7 +14838,8 @@
     "severity": "medium"
    }
   ],
-  "summary": "medium severity; seen by behavior"
+  "summary": "medium severity; seen by behavior",
+  "review_status": "new"
  },
  {
   "case_id": "case_77f3b7ddcd0e",
@@ -14397,7 +14868,8 @@
     "severity": "high"
    }
   ],
-  "summary": "high severity; seen by behavior"
+  "summary": "high severity; seen by behavior",
+  "review_status": "new"
  },
  {
   "case_id": "case_1d1273e6b491",
@@ -14426,7 +14898,8 @@
     "severity": "high"
    }
   ],
-  "summary": "high severity; seen by behavior"
+  "summary": "high severity; seen by behavior",
+  "review_status": "new"
  },
  {
   "case_id": "case_e5c149108208",
@@ -14455,7 +14928,8 @@
     "severity": "high"
    }
   ],
-  "summary": "high severity; seen by behavior"
+  "summary": "high severity; seen by behavior",
+  "review_status": "new"
  },
  {
   "case_id": "case_bf6d51dcaa3f",
@@ -14484,11 +14958,12 @@
     "severity": "medium"
    }
   ],
-  "summary": "medium severity; seen by behavior"
+  "summary": "medium severity; seen by behavior",
+  "review_status": "new"
  },
  {
-  "case_id": "case_6421b6df5a70",
-  "n_members": 2,
+  "case_id": "case_4818d2233a3e",
+  "n_members": 1,
   "sources": [
    "behavior"
   ],
@@ -14497,21 +14972,75 @@
   "iuu_listed": false,
   "severity": "high",
   "confidence": 0.8,
-  "centroid_lat": 32.05095,
-  "centroid_lon": 124.9954,
-  "time_start_utc": "2026-06-25T09:20:00.000Z",
+  "centroid_lat": 38.7208,
+  "centroid_lon": 17.6532,
+  "time_start_utc": "2026-06-26T03:10:00.000Z",
   "identity_type": "mmsi",
-  "identity_value": "412422736",
-  "ship_name": "ZHEPUYU31376",
-  "flag": "CHN",
-  "eez_iso_sov": "KOR",
+  "identity_value": "215000770",
+  "ship_name": "DEGRE",
+  "flag": "MLT",
+  "eez_iso_sov": "ITA",
   "members": [
    {
-    "incident_id": "live_enco_d04559dfcfc67d",
+    "incident_id": "live_enco_8a326a0d234190",
     "source": "behavior",
     "type": "encounter",
     "severity": "high"
-   },
+   }
+  ],
+  "summary": "high severity; seen by behavior",
+  "review_status": "new"
+ },
+ {
+  "case_id": "case_5fd3fbd7edf3",
+  "n_members": 1,
+  "sources": [
+   "behavior"
+  ],
+  "n_sensors": 1,
+  "corroborated": false,
+  "iuu_listed": false,
+  "severity": "high",
+  "confidence": 0.8,
+  "centroid_lat": -35.3403,
+  "centroid_lon": -56.9292,
+  "time_start_utc": "2026-06-26T07:40:00.000Z",
+  "identity_type": "mmsi",
+  "identity_value": "770576185",
+  "ship_name": "DARTESA II",
+  "flag": "URY",
+  "eez_iso_sov": "ARG",
+  "members": [
+   {
+    "incident_id": "live_enco_651fc3dac16632",
+    "source": "behavior",
+    "type": "encounter",
+    "severity": "high"
+   }
+  ],
+  "summary": "high severity; seen by behavior",
+  "review_status": "new"
+ },
+ {
+  "case_id": "case_be03162a7120",
+  "n_members": 1,
+  "sources": [
+   "behavior"
+  ],
+  "n_sensors": 1,
+  "corroborated": false,
+  "iuu_listed": false,
+  "severity": "high",
+  "confidence": 0.8,
+  "centroid_lat": 32.0566,
+  "centroid_lon": 124.9959,
+  "time_start_utc": "2026-06-25T09:20:00.000Z",
+  "identity_type": "mmsi",
+  "identity_value": "412411853",
+  "ship_name": "ZHEPUYU62218",
+  "flag": "CHN",
+  "eez_iso_sov": "KOR",
+  "members": [
    {
     "incident_id": "live_enco_c3515b14ed27e7",
     "source": "behavior",
@@ -14519,7 +15048,128 @@
     "severity": "high"
    }
   ],
-  "summary": "high severity; seen by behavior"
+  "summary": "high severity; seen by behavior",
+  "review_status": "new"
+ },
+ {
+  "case_id": "case_e69363671252",
+  "n_members": 1,
+  "sources": [
+   "behavior"
+  ],
+  "n_sensors": 1,
+  "corroborated": false,
+  "iuu_listed": false,
+  "severity": "high",
+  "confidence": 0.8,
+  "centroid_lat": 27.0552,
+  "centroid_lon": 121.7164,
+  "time_start_utc": "2026-06-26T08:40:00.000Z",
+  "identity_type": "mmsi",
+  "identity_value": "416001976",
+  "ship_name": "YU JIN",
+  "flag": "TWN",
+  "eez_iso_sov": "CHN",
+  "members": [
+   {
+    "incident_id": "live_enco_8a2393fcff0c85",
+    "source": "behavior",
+    "type": "encounter",
+    "severity": "high"
+   }
+  ],
+  "summary": "high severity; seen by behavior",
+  "review_status": "new"
+ },
+ {
+  "case_id": "case_41d18f8a48c0",
+  "n_members": 1,
+  "sources": [
+   "behavior"
+  ],
+  "n_sensors": 1,
+  "corroborated": false,
+  "iuu_listed": false,
+  "severity": "high",
+  "confidence": 0.8,
+  "centroid_lat": 36.3307,
+  "centroid_lon": 12.1827,
+  "time_start_utc": "2026-06-26T09:40:00.000Z",
+  "identity_type": "mmsi",
+  "identity_value": "605066452",
+  "ship_name": "BORHANE",
+  "flag": "DZA",
+  "eez_iso_sov": "TUN",
+  "members": [
+   {
+    "incident_id": "live_enco_75f0c1196f3ed1",
+    "source": "behavior",
+    "type": "encounter",
+    "severity": "high"
+   }
+  ],
+  "summary": "high severity; seen by behavior",
+  "review_status": "new"
+ },
+ {
+  "case_id": "case_4eb0df07d85c",
+  "n_members": 1,
+  "sources": [
+   "behavior"
+  ],
+  "n_sensors": 1,
+  "corroborated": false,
+  "iuu_listed": false,
+  "severity": "high",
+  "confidence": 0.8,
+  "centroid_lat": 32.1316,
+  "centroid_lon": 124.9832,
+  "time_start_utc": "2026-06-26T00:00:00.000Z",
+  "identity_type": "mmsi",
+  "identity_value": "412411816",
+  "ship_name": "ZHE PU YU 19167",
+  "flag": "CHN",
+  "eez_iso_sov": "KOR",
+  "members": [
+   {
+    "incident_id": "live_enco_10138c3e221fa6",
+    "source": "behavior",
+    "type": "encounter",
+    "severity": "high"
+   }
+  ],
+  "summary": "high severity; seen by behavior",
+  "review_status": "new"
+ },
+ {
+  "case_id": "case_80779a9b3906",
+  "n_members": 1,
+  "sources": [
+   "behavior"
+  ],
+  "n_sensors": 1,
+  "corroborated": false,
+  "iuu_listed": false,
+  "severity": "high",
+  "confidence": 0.8,
+  "centroid_lat": -2.544,
+  "centroid_lon": 172.6418,
+  "time_start_utc": "2026-06-26T08:40:00.000Z",
+  "identity_type": "mmsi",
+  "identity_value": "412549273",
+  "ship_name": "JIN HUI 68",
+  "flag": "CHN",
+  "eez_iso_sov": "KIR",
+  "members": [
+   {
+    "incident_id": "live_enco_5ffd19d011a494",
+    "source": "behavior",
+    "type": "encounter",
+    "severity": "high"
+   }
+  ],
+  "summary": "high severity; seen by behavior",
+  "review_status": "new"
  },
  {
   "case_id": "case_aa157318719d",
@@ -14532,8 +15182,8 @@
   "iuu_listed": false,
   "severity": "high",
   "confidence": 0.8,
-  "centroid_lat": 34.499,
-  "centroid_lon": 14.0617,
+  "centroid_lat": 34.5642,
+  "centroid_lon": 14.0656,
   "time_start_utc": "2026-06-25T19:50:00.000Z",
   "identity_type": "mmsi",
   "identity_value": "256003194",
@@ -14548,10 +15198,11 @@
     "severity": "high"
    }
   ],
-  "summary": "high severity; seen by behavior"
+  "summary": "high severity; seen by behavior",
+  "review_status": "new"
  },
  {
-  "case_id": "case_693bc4dd2e60",
+  "case_id": "case_bb561539853d",
   "n_members": 1,
   "sources": [
    "behavior"
@@ -14561,23 +15212,24 @@
   "iuu_listed": false,
   "severity": "high",
   "confidence": 0.8,
-  "centroid_lat": -2.3865,
-  "centroid_lon": 171.787,
-  "time_start_utc": "2026-06-25T20:40:00.000Z",
+  "centroid_lat": 11.1764,
+  "centroid_lon": 108.6257,
+  "time_start_utc": "2026-06-26T01:10:00.000Z",
   "identity_type": "mmsi",
-  "identity_value": "416248700",
-  "ship_name": "HSIEH FENG NO.789",
-  "flag": "TWN",
-  "eez_iso_sov": "KIR",
+  "identity_value": "538560319",
+  "ship_name": "3 TINH F7",
+  "flag": "MHL",
+  "eez_iso_sov": "VNM",
   "members": [
    {
-    "incident_id": "live_enco_ec3ec97ccfb47a",
+    "incident_id": "live_enco_cdc511be82ea37",
     "source": "behavior",
     "type": "encounter",
     "severity": "high"
    }
   ],
-  "summary": "high severity; seen by behavior"
+  "summary": "high severity; seen by behavior",
+  "review_status": "new"
  },
  {
   "case_id": "case_bcb928b8063a",
@@ -14606,7 +15258,8 @@
     "severity": "high"
    }
   ],
-  "summary": "high severity; seen by ais"
+  "summary": "high severity; seen by ais",
+  "review_status": "new"
  },
  {
   "case_id": "case_224f51b132db",
@@ -14641,7 +15294,8 @@
     "severity": "high"
    }
   ],
-  "summary": "high severity; seen by ais"
+  "summary": "high severity; seen by ais",
+  "review_status": "new"
  },
  {
   "case_id": "case_d71f727d743c",
@@ -14670,7 +15324,8 @@
     "severity": "high"
    }
   ],
-  "summary": "high severity; seen by ais"
+  "summary": "high severity; seen by ais",
+  "review_status": "new"
  },
  {
   "case_id": "case_4b8bff16400c",
@@ -14699,7 +15354,8 @@
     "severity": "high"
    }
   ],
-  "summary": "high severity; seen by ais"
+  "summary": "high severity; seen by ais",
+  "review_status": "new"
  },
  {
   "case_id": "case_495407eef9d0",
@@ -14728,152 +15384,8 @@
     "severity": "high"
    }
   ],
-  "summary": "high severity; seen by ais"
- },
- {
-  "case_id": "case_bc94dbdbee51",
-  "n_members": 1,
-  "sources": [
-   "behavior"
-  ],
-  "n_sensors": 1,
-  "corroborated": false,
-  "iuu_listed": false,
-  "severity": "high",
-  "confidence": 0.8,
-  "centroid_lat": 19.5781,
-  "centroid_lon": 107.0977,
-  "time_start_utc": "2026-06-25T13:20:00.000Z",
-  "identity_type": "mmsi",
-  "identity_value": "666666656",
-  "ship_name": "TAU 56-A2",
-  "flag": "SOM",
-  "eez_iso_sov": "VNM",
-  "members": [
-   {
-    "incident_id": "live_enco_4d468496cf3e41",
-    "source": "behavior",
-    "type": "encounter",
-    "severity": "high"
-   }
-  ],
-  "summary": "high severity; seen by behavior"
- },
- {
-  "case_id": "case_a7f4281e905b",
-  "n_members": 1,
-  "sources": [
-   "behavior"
-  ],
-  "n_sensors": 1,
-  "corroborated": false,
-  "iuu_listed": false,
-  "severity": "high",
-  "confidence": 0.8,
-  "centroid_lat": -2.4284,
-  "centroid_lon": 171.7122,
-  "time_start_utc": "2026-06-25T15:50:00.000Z",
-  "identity_type": "mmsi",
-  "identity_value": "412549296",
-  "ship_name": "ZHONGTAI6",
-  "flag": "CHN",
-  "eez_iso_sov": "KIR",
-  "members": [
-   {
-    "incident_id": "live_enco_e8f3f9ed810178",
-    "source": "behavior",
-    "type": "encounter",
-    "severity": "high"
-   }
-  ],
-  "summary": "high severity; seen by behavior"
- },
- {
-  "case_id": "case_bb54dcdbceaf",
-  "n_members": 1,
-  "sources": [
-   "behavior"
-  ],
-  "n_sensors": 1,
-  "corroborated": false,
-  "iuu_listed": false,
-  "severity": "high",
-  "confidence": 0.8,
-  "centroid_lat": 22.1245,
-  "centroid_lon": 115.8154,
-  "time_start_utc": "2026-06-25T02:10:00.000Z",
-  "identity_type": "mmsi",
-  "identity_value": "468817888",
-  "ship_name": "QIONGDANYU17166",
-  "flag": "SYR",
-  "eez_iso_sov": "CHN",
-  "members": [
-   {
-    "incident_id": "live_enco_83fd982826726f",
-    "source": "behavior",
-    "type": "encounter",
-    "severity": "high"
-   }
-  ],
-  "summary": "high severity; seen by behavior"
- },
- {
-  "case_id": "case_53a6a553f393",
-  "n_members": 1,
-  "sources": [
-   "behavior"
-  ],
-  "n_sensors": 1,
-  "corroborated": false,
-  "iuu_listed": false,
-  "severity": "high",
-  "confidence": 0.8,
-  "centroid_lat": 22.0632,
-  "centroid_lon": 115.7449,
-  "time_start_utc": "2026-06-25T14:30:00.000Z",
-  "identity_type": "mmsi",
-  "identity_value": "608679415",
-  "ship_name": "QIONGYANGYU12056",
-  "flag": "SHN",
-  "eez_iso_sov": "CHN",
-  "members": [
-   {
-    "incident_id": "live_enco_20120711599c30",
-    "source": "behavior",
-    "type": "encounter",
-    "severity": "high"
-   }
-  ],
-  "summary": "high severity; seen by behavior"
- },
- {
-  "case_id": "case_05fa66523a42",
-  "n_members": 1,
-  "sources": [
-   "behavior"
-  ],
-  "n_sensors": 1,
-  "corroborated": false,
-  "iuu_listed": false,
-  "severity": "high",
-  "confidence": 0.8,
-  "centroid_lat": 27.4912,
-  "centroid_lon": 121.7067,
-  "time_start_utc": "2026-06-25T12:00:00.000Z",
-  "identity_type": "mmsi",
-  "identity_value": "416003799",
-  "ship_name": "YU JIN_888",
-  "flag": "TWN",
-  "eez_iso_sov": "CHN",
-  "members": [
-   {
-    "incident_id": "live_enco_0b6d40cac60b93",
-    "source": "behavior",
-    "type": "encounter",
-    "severity": "high"
-   }
-  ],
-  "summary": "high severity; seen by behavior"
+  "summary": "high severity; seen by ais",
+  "review_status": "new"
  },
  {
   "case_id": "case_e5661d29c480",
@@ -14902,7 +15414,8 @@
     "severity": "high"
    }
   ],
-  "summary": "high severity; seen by ais"
+  "summary": "high severity; seen by ais",
+  "review_status": "new"
  },
  {
   "case_id": "case_39aa1c0f9810",
@@ -14931,36 +15444,8 @@
     "severity": "high"
    }
   ],
-  "summary": "high severity; seen by ais"
- },
- {
-  "case_id": "case_50011f5aabff",
-  "n_members": 1,
-  "sources": [
-   "behavior"
-  ],
-  "n_sensors": 1,
-  "corroborated": false,
-  "iuu_listed": false,
-  "severity": "high",
-  "confidence": 0.8,
-  "centroid_lat": 10.1688,
-  "centroid_lon": 111.2169,
-  "time_start_utc": "2026-06-25T02:10:00.000Z",
-  "identity_type": "mmsi",
-  "identity_value": "412520251",
-  "ship_name": "QIONG LIN YU 60018",
-  "flag": "CHN",
-  "eez_iso_sov": "VNM",
-  "members": [
-   {
-    "incident_id": "live_enco_ef8e6a9873bbf5",
-    "source": "behavior",
-    "type": "encounter",
-    "severity": "high"
-   }
-  ],
-  "summary": "high severity; seen by behavior"
+  "summary": "high severity; seen by ais",
+  "review_status": "new"
  },
  {
   "case_id": "case_604aa5e75c49",
@@ -14989,7 +15474,8 @@
     "severity": "high"
    }
   ],
-  "summary": "high severity; seen by ais"
+  "summary": "high severity; seen by ais",
+  "review_status": "new"
  },
  {
   "case_id": "case_62dc98498efe",
@@ -15018,7 +15504,8 @@
     "severity": "high"
    }
   ],
-  "summary": "high severity; seen by ais"
+  "summary": "high severity; seen by ais",
+  "review_status": "new"
  },
  {
   "case_id": "case_0b9ff12bfa82",
@@ -15047,36 +15534,8 @@
     "severity": "high"
    }
   ],
-  "summary": "high severity; seen by ais"
- },
- {
-  "case_id": "case_da62e131d5a6",
-  "n_members": 1,
-  "sources": [
-   "behavior"
-  ],
-  "n_sensors": 1,
-  "corroborated": false,
-  "iuu_listed": false,
-  "severity": "high",
-  "confidence": 0.8,
-  "centroid_lat": 36.2562,
-  "centroid_lon": 22.0597,
-  "time_start_utc": "2026-06-25T07:20:00.000Z",
-  "identity_type": "mmsi",
-  "identity_value": "271062025",
-  "ship_name": "GORENLER-3",
-  "flag": "TUR",
-  "eez_iso_sov": "GRC",
-  "members": [
-   {
-    "incident_id": "live_enco_dc110594587231",
-    "source": "behavior",
-    "type": "encounter",
-    "severity": "high"
-   }
-  ],
-  "summary": "high severity; seen by behavior"
+  "summary": "high severity; seen by ais",
+  "review_status": "new"
  },
  {
   "case_id": "case_b493f4f1df28",
@@ -15105,7 +15564,8 @@
     "severity": "high"
    }
   ],
-  "summary": "high severity; seen by ais"
+  "summary": "high severity; seen by ais",
+  "review_status": "new"
  },
  {
   "case_id": "case_bc7f56e7c0d8",
@@ -15134,7 +15594,8 @@
     "severity": "high"
    }
   ],
-  "summary": "high severity; seen by ais"
+  "summary": "high severity; seen by ais",
+  "review_status": "new"
  },
  {
   "case_id": "case_bfde80d1a0da",
@@ -15163,7 +15624,8 @@
     "severity": "high"
    }
   ],
-  "summary": "high severity; seen by ais"
+  "summary": "high severity; seen by ais",
+  "review_status": "new"
  },
  {
   "case_id": "case_89fa722c370e",
@@ -15192,7 +15654,8 @@
     "severity": "high"
    }
   ],
-  "summary": "high severity; seen by ais"
+  "summary": "high severity; seen by ais",
+  "review_status": "new"
  },
  {
   "case_id": "case_940e1b06b09b",
@@ -15221,7 +15684,8 @@
     "severity": "high"
    }
   ],
-  "summary": "high severity; seen by ais"
+  "summary": "high severity; seen by ais",
+  "review_status": "new"
  },
  {
   "case_id": "case_992156a74393",
@@ -15250,7 +15714,8 @@
     "severity": "high"
    }
   ],
-  "summary": "high severity; seen by ais"
+  "summary": "high severity; seen by ais",
+  "review_status": "new"
  },
  {
   "case_id": "case_fad7695f4da7",
@@ -15279,7 +15744,8 @@
     "severity": "high"
    }
   ],
-  "summary": "high severity; seen by ais"
+  "summary": "high severity; seen by ais",
+  "review_status": "new"
  },
  {
   "case_id": "case_cde2891d4b40",
@@ -15308,7 +15774,8 @@
     "severity": "high"
    }
   ],
-  "summary": "high severity; seen by ais"
+  "summary": "high severity; seen by ais",
+  "review_status": "new"
  },
  {
   "case_id": "case_65c8e3f678f4",
@@ -15337,7 +15804,8 @@
     "severity": "high"
    }
   ],
-  "summary": "high severity; seen by ais"
+  "summary": "high severity; seen by ais",
+  "review_status": "new"
  },
  {
   "case_id": "case_485e97764b8f",
@@ -15366,7 +15834,8 @@
     "severity": "high"
    }
   ],
-  "summary": "high severity; seen by ais"
+  "summary": "high severity; seen by ais",
+  "review_status": "new"
  },
  {
   "case_id": "case_f67a38f5de21",
@@ -15395,7 +15864,8 @@
     "severity": "medium"
    }
   ],
-  "summary": "medium severity; seen by ais"
+  "summary": "medium severity; seen by ais",
+  "review_status": "new"
  },
  {
   "case_id": "case_8f615cfbab38",
@@ -15424,7 +15894,8 @@
     "severity": "high"
    }
   ],
-  "summary": "high severity; seen by ais"
+  "summary": "high severity; seen by ais",
+  "review_status": "new"
  },
  {
   "case_id": "case_023a8f926576",
@@ -15453,7 +15924,8 @@
     "severity": "high"
    }
   ],
-  "summary": "high severity; seen by ais"
+  "summary": "high severity; seen by ais",
+  "review_status": "new"
  },
  {
   "case_id": "case_255ffd8ef8ba",
@@ -15482,7 +15954,8 @@
     "severity": "high"
    }
   ],
-  "summary": "high severity; seen by ais"
+  "summary": "high severity; seen by ais",
+  "review_status": "new"
  },
  {
   "case_id": "case_8938fdac4bb6",
@@ -15511,7 +15984,8 @@
     "severity": "high"
    }
   ],
-  "summary": "high severity; seen by ais"
+  "summary": "high severity; seen by ais",
+  "review_status": "new"
  },
  {
   "case_id": "case_021e5635257f",
@@ -15540,7 +16014,8 @@
     "severity": "high"
    }
   ],
-  "summary": "high severity; seen by ais"
+  "summary": "high severity; seen by ais",
+  "review_status": "new"
  },
  {
   "case_id": "case_c599ab1502b9",
@@ -15569,7 +16044,8 @@
     "severity": "high"
    }
   ],
-  "summary": "high severity; seen by ais"
+  "summary": "high severity; seen by ais",
+  "review_status": "new"
  },
  {
   "case_id": "case_7582994b0567",
@@ -15598,7 +16074,8 @@
     "severity": "high"
    }
   ],
-  "summary": "high severity; seen by ais"
+  "summary": "high severity; seen by ais",
+  "review_status": "new"
  },
  {
   "case_id": "case_98b138c75946",
@@ -15627,7 +16104,8 @@
     "severity": "high"
    }
   ],
-  "summary": "high severity; seen by ais"
+  "summary": "high severity; seen by ais",
+  "review_status": "new"
  },
  {
   "case_id": "case_8e55cd71f378",
@@ -15656,7 +16134,8 @@
     "severity": "high"
    }
   ],
-  "summary": "high severity; seen by ais"
+  "summary": "high severity; seen by ais",
+  "review_status": "new"
  },
  {
   "case_id": "case_94cdb700855f",
@@ -15685,7 +16164,368 @@
     "severity": "high"
    }
   ],
-  "summary": "high severity; seen by ais"
+  "summary": "high severity; seen by ais",
+  "review_status": "new"
+ },
+ {
+  "case_id": "case_ec070083ed94",
+  "n_members": 5,
+  "sources": [
+   "sar"
+  ],
+  "n_sensors": 1,
+  "corroborated": false,
+  "iuu_listed": false,
+  "severity": "high",
+  "confidence": 0.8,
+  "centroid_lat": -0.51132,
+  "centroid_lon": -90.50838,
+  "time_start_utc": "2026-06-20T11:41:54Z",
+  "identity_type": "",
+  "identity_value": "",
+  "ship_name": "",
+  "flag": "",
+  "eez_iso_sov": "ECU",
+  "members": [
+   {
+    "incident_id": "s1sar__20260620_0000",
+    "source": "sar",
+    "type": "dark_vessel_sar",
+    "severity": "high"
+   },
+   {
+    "incident_id": "s1sar__20260620_0001",
+    "source": "sar",
+    "type": "dark_vessel_sar",
+    "severity": "high"
+   },
+   {
+    "incident_id": "s1sar__20260620_0002",
+    "source": "sar",
+    "type": "dark_vessel_sar",
+    "severity": "high"
+   },
+   {
+    "incident_id": "s1sar__20260620_0003",
+    "source": "sar",
+    "type": "dark_vessel_sar",
+    "severity": "high"
+   },
+   {
+    "incident_id": "s1sar__20260620_0005",
+    "source": "sar",
+    "type": "dark_vessel_sar",
+    "severity": "high"
+   }
+  ],
+  "summary": "high severity; seen by sar",
+  "review_status": "new"
+ },
+ {
+  "case_id": "case_f1182a167f76",
+  "n_members": 1,
+  "sources": [
+   "sar"
+  ],
+  "n_sensors": 1,
+  "corroborated": false,
+  "iuu_listed": false,
+  "severity": "high",
+  "confidence": 0.8,
+  "centroid_lat": -0.56295,
+  "centroid_lon": -90.55494,
+  "time_start_utc": "2026-06-20T11:41:54Z",
+  "identity_type": "",
+  "identity_value": "",
+  "ship_name": "",
+  "flag": "",
+  "eez_iso_sov": "ECU",
+  "members": [
+   {
+    "incident_id": "s1sar__20260620_0004",
+    "source": "sar",
+    "type": "dark_vessel_sar",
+    "severity": "high"
+   }
+  ],
+  "summary": "high severity; seen by sar",
+  "review_status": "new"
+ },
+ {
+  "case_id": "case_724d6398a002",
+  "n_members": 1,
+  "sources": [
+   "sar"
+  ],
+  "n_sensors": 1,
+  "corroborated": false,
+  "iuu_listed": false,
+  "severity": "high",
+  "confidence": 0.8,
+  "centroid_lat": -0.49257,
+  "centroid_lon": -90.34628,
+  "time_start_utc": "2026-06-20T11:41:54Z",
+  "identity_type": "",
+  "identity_value": "",
+  "ship_name": "",
+  "flag": "",
+  "eez_iso_sov": "ECU",
+  "members": [
+   {
+    "incident_id": "s1sar__20260620_0006",
+    "source": "sar",
+    "type": "dark_vessel_sar",
+    "severity": "high"
+   }
+  ],
+  "summary": "high severity; seen by sar",
+  "review_status": "new"
+ },
+ {
+  "case_id": "case_977e29e52247",
+  "n_members": 6,
+  "sources": [
+   "sar"
+  ],
+  "n_sensors": 1,
+  "corroborated": false,
+  "iuu_listed": false,
+  "severity": "high",
+  "confidence": 0.8,
+  "centroid_lat": -0.57307,
+  "centroid_lon": -90.15818,
+  "time_start_utc": "2026-06-20T11:41:54Z",
+  "identity_type": "",
+  "identity_value": "",
+  "ship_name": "",
+  "flag": "",
+  "eez_iso_sov": "ECU",
+  "members": [
+   {
+    "incident_id": "s1sar__20260620_0007",
+    "source": "sar",
+    "type": "dark_vessel_sar",
+    "severity": "high"
+   },
+   {
+    "incident_id": "s1sar__20260620_0008",
+    "source": "sar",
+    "type": "dark_vessel_sar",
+    "severity": "high"
+   },
+   {
+    "incident_id": "s1sar__20260620_0009",
+    "source": "sar",
+    "type": "dark_vessel_sar",
+    "severity": "high"
+   },
+   {
+    "incident_id": "s1sar__20260620_0010",
+    "source": "sar",
+    "type": "dark_vessel_sar",
+    "severity": "high"
+   },
+   {
+    "incident_id": "s1sar__20260620_0011",
+    "source": "sar",
+    "type": "dark_vessel_sar",
+    "severity": "high"
+   },
+   {
+    "incident_id": "s1sar__20260620_0012",
+    "source": "sar",
+    "type": "dark_vessel_sar",
+    "severity": "high"
+   }
+  ],
+  "summary": "high severity; seen by sar",
+  "review_status": "new"
+ },
+ {
+  "case_id": "case_ebf5ed1f0755",
+  "n_members": 1,
+  "sources": [
+   "sar"
+  ],
+  "n_sensors": 1,
+  "corroborated": false,
+  "iuu_listed": false,
+  "severity": "high",
+  "confidence": 0.8,
+  "centroid_lat": -0.84068,
+  "centroid_lon": -90.42602,
+  "time_start_utc": "2026-06-20T11:42:23Z",
+  "identity_type": "",
+  "identity_value": "",
+  "ship_name": "",
+  "flag": "",
+  "eez_iso_sov": "ECU",
+  "members": [
+   {
+    "incident_id": "s1sar__20260620_0000",
+    "source": "sar",
+    "type": "dark_vessel_sar",
+    "severity": "high"
+   }
+  ],
+  "summary": "high severity; seen by sar",
+  "review_status": "new"
+ },
+ {
+  "case_id": "case_cecfe25df9ad",
+  "n_members": 1,
+  "sources": [
+   "sar"
+  ],
+  "n_sensors": 1,
+  "corroborated": false,
+  "iuu_listed": false,
+  "severity": "high",
+  "confidence": 0.8,
+  "centroid_lat": -0.76868,
+  "centroid_lon": -90.38001,
+  "time_start_utc": "2026-06-20T11:42:23Z",
+  "identity_type": "",
+  "identity_value": "",
+  "ship_name": "",
+  "flag": "",
+  "eez_iso_sov": "ECU",
+  "members": [
+   {
+    "incident_id": "s1sar__20260620_0001",
+    "source": "sar",
+    "type": "dark_vessel_sar",
+    "severity": "high"
+   }
+  ],
+  "summary": "high severity; seen by sar",
+  "review_status": "new"
+ },
+ {
+  "case_id": "case_d4f9346befd0",
+  "n_members": 2,
+  "sources": [
+   "sar"
+  ],
+  "n_sensors": 1,
+  "corroborated": false,
+  "iuu_listed": false,
+  "severity": "low",
+  "confidence": 0.3,
+  "centroid_lat": -0.74688,
+  "centroid_lon": -90.3092,
+  "time_start_utc": "2026-06-20T11:42:23Z",
+  "identity_type": "",
+  "identity_value": "",
+  "ship_name": "",
+  "flag": "",
+  "eez_iso_sov": "ECU",
+  "members": [
+   {
+    "incident_id": "s1sar__20260620_0002",
+    "source": "sar",
+    "type": "dark_vessel_sar",
+    "severity": "low"
+   },
+   {
+    "incident_id": "s1sar__20260620_0003",
+    "source": "sar",
+    "type": "dark_vessel_sar",
+    "severity": "low"
+   }
+  ],
+  "summary": "low severity; seen by sar",
+  "review_status": "new"
+ },
+ {
+  "case_id": "case_f1182a167f76",
+  "n_members": 1,
+  "sources": [
+   "sar"
+  ],
+  "n_sensors": 1,
+  "corroborated": false,
+  "iuu_listed": false,
+  "severity": "high",
+  "confidence": 0.8,
+  "centroid_lat": -0.79665,
+  "centroid_lon": -90.0627,
+  "time_start_utc": "2026-06-20T11:42:23Z",
+  "identity_type": "",
+  "identity_value": "",
+  "ship_name": "",
+  "flag": "",
+  "eez_iso_sov": "ECU",
+  "members": [
+   {
+    "incident_id": "s1sar__20260620_0004",
+    "source": "sar",
+    "type": "dark_vessel_sar",
+    "severity": "high"
+   }
+  ],
+  "summary": "high severity; seen by sar",
+  "review_status": "new"
+ },
+ {
+  "case_id": "case_d9dc822f36d0",
+  "n_members": 1,
+  "sources": [
+   "sar"
+  ],
+  "n_sensors": 1,
+  "corroborated": false,
+  "iuu_listed": false,
+  "severity": "high",
+  "confidence": 0.8,
+  "centroid_lat": -12.00979,
+  "centroid_lon": -77.22074,
+  "time_start_utc": "2026-06-24T23:33:32Z",
+  "identity_type": "",
+  "identity_value": "",
+  "ship_name": "",
+  "flag": "",
+  "eez_iso_sov": "PER",
+  "members": [
+   {
+    "incident_id": "s1sar__20260624_0023",
+    "source": "sar",
+    "type": "dark_vessel_sar",
+    "severity": "high"
+   }
+  ],
+  "summary": "high severity; seen by sar",
+  "review_status": "new"
+ },
+ {
+  "case_id": "case_23e0baf771b4",
+  "n_members": 1,
+  "sources": [
+   "sar"
+  ],
+  "n_sensors": 1,
+  "corroborated": false,
+  "iuu_listed": false,
+  "severity": "high",
+  "confidence": 0.8,
+  "centroid_lat": -12.11496,
+  "centroid_lon": -77.20744,
+  "time_start_utc": "2026-06-24T23:33:32Z",
+  "identity_type": "",
+  "identity_value": "",
+  "ship_name": "",
+  "flag": "",
+  "eez_iso_sov": "PER",
+  "members": [
+   {
+    "incident_id": "s1sar__20260624_0100",
+    "source": "sar",
+    "type": "dark_vessel_sar",
+    "severity": "high"
+   }
+  ],
+  "summary": "high severity; seen by sar",
+  "review_status": "new"
  },
  {
   "case_id": "case_4da3b186317d",
@@ -15732,7 +16572,8 @@
     "severity": "low"
    }
   ],
-  "summary": "medium severity; seen by sar"
+  "summary": "medium severity; seen by sar",
+  "review_status": "new"
  },
  {
   "case_id": "case_c649240ceec9",
@@ -15761,7 +16602,8 @@
     "severity": "low"
    }
   ],
-  "summary": "low severity; seen by sar"
+  "summary": "low severity; seen by sar",
+  "review_status": "new"
  },
  {
   "case_id": "case_1b33a005b21a",
@@ -15790,7 +16632,8 @@
     "severity": "low"
    }
   ],
-  "summary": "low severity; seen by sar"
+  "summary": "low severity; seen by sar",
+  "review_status": "new"
  },
  {
   "case_id": "case_ac4e94f85d85",
@@ -15837,7 +16680,8 @@
     "severity": "low"
    }
   ],
-  "summary": "low severity; seen by sar"
+  "summary": "low severity; seen by sar",
+  "review_status": "new"
  },
  {
   "case_id": "case_4f0e68006bd1",
@@ -15884,7 +16728,8 @@
     "severity": "low"
    }
   ],
-  "summary": "medium severity; seen by sar"
+  "summary": "medium severity; seen by sar",
+  "review_status": "new"
  },
  {
   "case_id": "case_a70f093ec094",
@@ -15913,7 +16758,8 @@
     "severity": "low"
    }
   ],
-  "summary": "low severity; seen by sar"
+  "summary": "low severity; seen by sar",
+  "review_status": "new"
  },
  {
   "case_id": "case_9b4542b4a3a8",
@@ -15948,7 +16794,8 @@
     "severity": "high"
    }
   ],
-  "summary": "high severity; seen by sar"
+  "summary": "high severity; seen by sar",
+  "review_status": "new"
  },
  {
   "case_id": "case_84f0712f9a5b",
@@ -15983,7 +16830,8 @@
     "severity": "high"
    }
   ],
-  "summary": "high severity; seen by sar"
+  "summary": "high severity; seen by sar",
+  "review_status": "new"
  },
  {
   "case_id": "case_f20608ad81b9",
@@ -16264,7 +17112,8 @@
     "severity": "low"
    }
   ],
-  "summary": "high severity; seen by sar"
+  "summary": "high severity; seen by sar",
+  "review_status": "new"
  },
  {
   "case_id": "case_a28f5fe07d41",
@@ -16293,7 +17142,8 @@
     "severity": "high"
    }
   ],
-  "summary": "high severity; seen by sar"
+  "summary": "high severity; seen by sar",
+  "review_status": "new"
  },
  {
   "case_id": "case_304dbfa982c6",
@@ -16340,7 +17190,8 @@
     "severity": "high"
    }
   ],
-  "summary": "high severity; seen by sar"
+  "summary": "high severity; seen by sar",
+  "review_status": "new"
  },
  {
   "case_id": "case_94ce9cebbc56",
@@ -16477,7 +17328,8 @@
     "severity": "high"
    }
   ],
-  "summary": "high severity; seen by sar"
+  "summary": "high severity; seen by sar",
+  "review_status": "new"
  },
  {
   "case_id": "case_0baa36b2d772",
@@ -16512,6 +17364,7 @@
     "severity": "high"
    }
   ],
-  "summary": "high severity; seen by sar"
+  "summary": "high severity; seen by sar",
+  "review_status": "new"
  }
 ]

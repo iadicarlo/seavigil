@@ -21,12 +21,13 @@ ROOT = Path(__file__).resolve().parent.parent
 sys.path.insert(0, str(ROOT))
 
 from seavigil.fusion import fuse  # noqa: E402
+from seavigil.review import apply_review, precision_from_reviews  # noqa: E402
 
 VIEWS = ["incidents", "live", "sar", "behaviors", "s2", "vbd"]
 OUT_JSON = ROOT / "results" / "cases" / "cases.json"
 WEB = ROOT / "web" / "data" / "cases"
 PROPS = ("case_id", "severity", "confidence", "corroborated", "n_sensors", "sources",
-         "iuu_listed", "ship_name", "flag", "eez_iso_sov", "summary", "time_start_utc")
+         "iuu_listed", "ship_name", "flag", "eez_iso_sov", "summary", "time_start_utc", "review_status")
 
 
 def load_dossiers() -> list[dict]:
@@ -48,6 +49,7 @@ def main() -> None:
     if not dossiers:
         raise SystemExit("No detection views found under results/*/incidents.json")
     cases = fuse(dossiers)
+    reviewed = apply_review(cases)   # annotate each case with its operator triage status (VERIFY)
     corroborated = [c for c in cases if c["corroborated"]]
 
     OUT_JSON.parent.mkdir(parents=True, exist_ok=True)
@@ -65,10 +67,11 @@ def main() -> None:
         "n_corroborated_multi_sensor": len(corroborated),
         "by_sensor_count": {str(k): v for k, v in sorted(Counter(c["n_sensors"] for c in cases).items())},
         "generated_from": [v for v in VIEWS if (ROOT / "results" / v / "incidents.json").exists()],
+        "review": precision_from_reviews(cases),   # operator-derived accuracy from triage decisions
     }
     (WEB / "summary.json").write_text(json.dumps(summary, indent=1))
     print(f"\n{len(dossiers)} detections -> {len(cases)} cases "
-          f"({len(corroborated)} corroborated by 2+ independent sensors)")
+          f"({len(corroborated)} corroborated by 2+ independent sensors; {reviewed} triaged)")
     print(json.dumps(summary, indent=1))
 
 
