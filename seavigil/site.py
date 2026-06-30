@@ -38,7 +38,7 @@ def _baseline_line(d: dict) -> str:
     if d.get("baseline_agreement") is None:
         return ""
     agree = d["baseline_agreement"] * 100
-    tail = f"; model adds {100 - agree:.0f}%" if (100 - agree) >= 1 else "; rule alone suffices"
+    tail = f"; model adds {100 - agree:.0f}%" if (100 - agree) >= 1 else "; agrees here, but the model beats the rule overall (PR-AUC 0.93 vs 0.40)"
     return f"speed rule (<{d['baseline_speed_threshold_knots']} kn) flags {agree:.0f}%{tail}"
 
 

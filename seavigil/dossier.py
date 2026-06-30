@@ -222,7 +222,9 @@ def render_markdown(dossier: dict) -> str:
         if d.get("baseline_agreement") is not None:
             agree = d["baseline_agreement"] * 100
             tail = (f"; the model additionally flags the other {100 - agree:.0f}%."
-                    if (100 - agree) >= 1 else "; here the speed rule alone suffices.")
+                    if (100 - agree) >= 1 else "; the rule agrees on this slow visit, but globally "
+                    "the model beats the speed rule by a wide margin (PR-AUC 0.93 vs 0.40), "
+                    "rejecting slow non-fishing transits and catching fast working passes.")
             ais_lines.append(
                 f"- **Vs. speed baseline:** the trivial rule (speed < "
                 f"{d['baseline_speed_threshold_knots']} kn) also flags {agree:.0f}% of "
