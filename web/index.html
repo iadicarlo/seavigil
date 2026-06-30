@@ -124,6 +124,21 @@
     .maplibregl-ctrl-attrib,.maplibregl-ctrl-attrib a{color:var(--muted)!important;}
     .maplibregl-ctrl-scale{background:rgba(8,22,32,.6);border-color:var(--panel-border);color:var(--muted);}
 
+    /* Live AIS layer: count pill (present only while the always-on live endpoint is serving) */
+    #livepill{position:absolute;left:50%;bottom:14px;transform:translateX(-50%);z-index:6;
+      display:flex;align-items:center;gap:6px;background:rgba(8,22,32,.82);
+      border:1px solid var(--panel-border);border-radius:999px;padding:5px 12px;font-size:12px;
+      color:var(--fg);font-variant-numeric:tabular-nums;box-shadow:0 2px 10px rgba(0,0,0,.32);}
+    #livepill .lp-dot{width:8px;height:8px;border-radius:50%;background:#7fd8c4;
+      box-shadow:0 0 7px #7fd8c4;animation:lppulse 2s infinite;}
+    #livepill.stale .lp-dot{background:#6b7d86;box-shadow:none;animation:none;}
+    @keyframes lppulse{50%{opacity:.35;}}
+    /* Live-vessel popup, matched to the dark map skin */
+    .maplibregl-popup-content{background:var(--panel);color:var(--fg);border:1px solid var(--panel-border);
+      border-radius:8px;font-size:12px;line-height:1.5;box-shadow:0 4px 18px rgba(0,0,0,.4);}
+    .maplibregl-popup-content b{color:var(--ais,#7fd8c4);}
+    .maplibregl-popup-tip{border-top-color:var(--panel)!important;border-bottom-color:var(--panel)!important;}
+
     @media (max-width:760px){
       .panel{padding:10px 12px;border-radius:10px;}
       #header{top:8px;left:8px;right:8px;max-width:none;}
@@ -519,6 +534,17 @@
         filter: ['==', ['get', 'id'], '__none__'],
         paint: { 'line-color': '#ffd27f', 'line-width': 2, 'line-opacity': 0.95 } });
 
+      // Live all-ships layer (AIS): every broadcasting vessel in view, fed by the always-on
+      // tracker (tracker/ingest.py -> SQLite -> /live/positions.geojson) and polled every few
+      // seconds. Drawn beneath the incident flags as live context. Stays empty on a static host.
+      map.addSource('live_ships', { type: 'geojson', data: { type: 'FeatureCollection', features: [] } });
+      map.addLayer({ id: 'live-ship-dots', type: 'circle', source: 'live_ships',
+        paint: {
+          'circle-radius': ['interpolate', ['linear'], ['zoom'], 3, 1.6, 9, 4],
+          'circle-color': ['interpolate', ['linear'], ['coalesce', ['get', 'age_min'], 0],
+            0, '#7fd8c4', 20, '#4d8ea0', 60, '#2c5566'],
+          'circle-opacity': 0.7, 'circle-stroke-color': '#06161f', 'circle-stroke-width': 0.4 } });
+
       // incidents (generateId for feature-state hover/selected)
       map.addSource('incidents', { type: 'geojson', data: incidents, generateId: true });
       map.addLayer({ id: 'incident-glow', type: 'circle', source: 'incidents',
@@ -545,6 +571,8 @@
 
       wireLayerToggles();
       wireInteractions();
+      wireLiveShips();
+      if (MODE === 'realtime' || MODE === 'live') startLivePolling();
     });
 
     // Frame the live monitor on its region (normalize Pacific lng so fitBounds takes the short way).
@@ -557,6 +585,47 @@
       };
       for (const f of fc.features) { if (f.geometry) add(f.geometry.coordinates); }
       if (any) map.fitBounds(b, { padding: 70, maxZoom: 8.5, duration: 0 });
+    }
+
+    // --- Live all-ships layer: poll the always-on endpoint and keep the dots fresh ---
+    let _liveTimer = null, _livePill = null;
+    function _ensureLivePill() {
+      if (_livePill) return _livePill;
+      const el = document.createElement('div');
+      el.id = 'livepill';
+      el.innerHTML = '<span class="lp-dot"></span><span id="lp-n">0</span>&nbsp;AIS';
+      document.body.appendChild(el);
+      _livePill = el;
+      return el;
+    }
+    async function pollLiveShips() {
+      let fc;
+      try {
+        const r = await fetch('./live/positions.geojson', { cache: 'no-store' });
+        if (!r.ok) { if (r.status === 404) stopLivePolling(); return; }  // no live server (static host)
+        fc = await r.json();
+      } catch (e) { return; }  // transient blip: keep the last dots, retry next tick
+      const src = map.getSource('live_ships');
+      if (src) src.setData(fc);
+      const pill = _ensureLivePill();
+      pill.querySelector('#lp-n').textContent = fc.features.length;
+      pill.classList.toggle('stale', !fc.features.length);
+    }
+    function startLivePolling() { pollLiveShips(); _liveTimer = setInterval(pollLiveShips, 8000); }
+    function stopLivePolling() { if (_liveTimer) { clearInterval(_liveTimer); _liveTimer = null; } }
+    function wireLiveShips() {
+      const popup = new maplibregl.Popup({ closeButton: false, closeOnClick: true, offset: 8 });
+      map.on('click', 'live-ship-dots', (e) => {
+        // an incident flag sits on top here: let its dossier handler own the click
+        if (map.queryRenderedFeatures(e.point, { layers: ['incident-pts'] }).length) return;
+        const p = e.features[0].properties, c = e.features[0].geometry.coordinates.slice();
+        const nm = (p.name && p.name !== '') ? p.name : ('MMSI ' + p.mmsi);
+        const fl = p.flag ? (' ' + flagEmoji(p.flag) + ' ' + p.flag) : '';
+        const ty = p.ship_type ? ('<br>' + p.ship_type) : '';
+        popup.setLngLat(c).setHTML(`<b>${nm}</b>${fl}${ty}<br>${p.speed} kn · ${p.age_min} min`).addTo(map);
+      });
+      map.on('mouseenter', 'live-ship-dots', () => { map.getCanvas().style.cursor = 'pointer'; });
+      map.on('mouseleave', 'live-ship-dots', () => { map.getCanvas().style.cursor = ''; });
     }
 
     function mergeSummaries(list) {

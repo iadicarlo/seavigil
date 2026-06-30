@@ -61,5 +61,10 @@ data/authorizations_live.json
 data/positions/ais_buffer.csv
 data/positions/ais_new.csv
 
+# Live tracker SQLite (regenerated from the aisstream feed; never committed)
+tracker/*.db
+tracker/*.db-wal
+tracker/*.db-shm
+
 # The open Allen model repo, cloned + cached by the SAR engine workflow (never committed)
 vendor/
