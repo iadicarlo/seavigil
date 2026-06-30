@@ -36,6 +36,9 @@ jobs:
         env:
           GFW_TOKEN: ${{ secrets.GFW_TOKEN }}
         run: |
+          # Refresh the public RFMO IUU blacklists (a brittle scrape, so do not fail the whole
+          # refresh on it: the committed data/iuu list is the fallback).
+          uv run python scripts/fetch_iuu_list.py || echo "::warning::IUU list refresh failed; keeping the committed list"
           if [ -n "$GFW_TOKEN" ]; then
             echo "GFW_TOKEN present -> pulling live GFW SAR detections (dark fleet)"
             uv run python -m seavigil.fetch_gfw --date-range 2024-01-01,2025-01-01
@@ -45,12 +48,13 @@ jobs:
             uv run python -m seavigil.alert --scope all --sample-sar
           fi
           uv run python -m seavigil.site
+          uv run python scripts/build_cases.py   # fuse the views into vessel-centric cases
       - name: Commit refreshed data if changed
         run: |
           git config user.name "Isma Abdelkader Di Carlo"
           EU="iadicarlo"; ED="icloud.com"   # composed so cron commits attribute to the owner
           git config user.email "${EU}@${ED}"
-          git add results/incidents web/data
+          git add results/incidents results/cases data/iuu web/data
           if git diff --staged --quiet; then
             echo "No data changes."
           else
