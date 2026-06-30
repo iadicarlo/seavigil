@@ -66,5 +66,8 @@ tracker/*.db
 tracker/*.db-wal
 tracker/*.db-shm
 
+# Detection image chips (generated on the box from Copernicus scenes, served directly)
+web/data/*/chips/
+
 # The open Allen model repo, cloned + cached by the SAR engine workflow (never committed)
 vendor/
