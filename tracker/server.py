@@ -27,7 +27,7 @@ import sqlite3
 import sys
 import time
 from functools import partial
-from http.server import HTTPServer, SimpleHTTPRequestHandler
+from http.server import SimpleHTTPRequestHandler, ThreadingHTTPServer
 from pathlib import Path
 from urllib.parse import unquote
 
@@ -144,7 +144,7 @@ def main() -> None:
     handler = partial(Handler, directory=str(WEB))
     print(f"SeaVigil live site on http://localhost:{port}  "
           f"(live layer {LIVE_ENDPOINT}, window {Handler.window_min:.0f} min, db {DB.name})")
-    HTTPServer(("0.0.0.0", port), handler).serve_forever()
+    ThreadingHTTPServer(("0.0.0.0", port), handler).serve_forever()
 
 
 if __name__ == "__main__":

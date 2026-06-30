@@ -14,7 +14,7 @@ import os
 import re
 import sys
 from functools import partial
-from http.server import HTTPServer, SimpleHTTPRequestHandler
+from http.server import SimpleHTTPRequestHandler, ThreadingHTTPServer
 from pathlib import Path
 
 WEB = Path(__file__).resolve().parent.parent / "web"
@@ -73,7 +73,7 @@ def main() -> None:
     port = int(sys.argv[1]) if len(sys.argv) > 1 else 8000
     handler = partial(RangeHandler, directory=str(WEB))
     print(f"serving {WEB} with Range support on http://localhost:{port}")
-    HTTPServer(("0.0.0.0", port), handler).serve_forever()
+    ThreadingHTTPServer(("0.0.0.0", port), handler).serve_forever()
 
 
 if __name__ == "__main__":
