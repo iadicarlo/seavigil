@@ -34,19 +34,6 @@ SeaVigil runs its **own** Sentinel-1 SAR and Sentinel-2 optical vessel detection
 
 The interface is available in **English, Spanish, French, and Portuguese**, and the site loads **zero external resources** (every library, font, glyph, and the basemap are vendored locally), so it runs fully offline.
 
-## Why it is not a GFW clone
-
-Detecting apparent fishing from vessel tracks is a solved, industrialised problem - GFW's flagship product. Even MPA-incursion alerting is shipped: **Skylight** (Allen Institute for AI) does it free for 70+ countries. SeaVigil reinvents neither. What no one ships together is:
-
-- a **per-flag explanation** - a SHAP attribution for *why a position scored as fishing*, and an explicit rule/evidence trail for the other behaviors;
-- an **authorization grade** - "foreign" checked against real RFMO records, not just flag-vs-coast;
-- an **auditable dossier** - a SHA-256 integrity hash over the incident's canonical facts plus full data provenance, downloadable as JSON;
-- **near-real-time alerts that carry all of the above**;
-- **its own on-demand detection** - the same open vessel-detection models Skylight uses, but run by us over the scene and the moment we choose; and
-- **offline, open-source deployment** - it runs on a laptop with no account, and the whole pipeline is public.
-
-> **Honest scope.** A SeaVigil flag is an *inspection lead*, not courtroom proof. Encrypted VMS outranks public AIS/SAR in fisheries law, and remote-sensing-only prosecutions are rare. SeaVigil tells an officer where to look and why; it does not convict.
-
 ## Compared to other tools
 
 | Tool | Alerts | Per-flag explanation | Authorization grade | Offline / open |
@@ -142,7 +129,7 @@ Consuming GFW's SAR / events (CC BY-NC) and the WDPA layer (non-commercial, disp
 
 ## Honest caveats
 
-- A flag is an **inspection lead**, not proof of illegal activity.
+- A flag is an **inspection lead, not courtroom proof**: encrypted VMS outranks public AIS/SAR in fisheries law and remote-sensing-only prosecutions are rare, so it tells an officer where to look and why, it does not convict.
 - "Fishing" is **apparent** (inferred from movement); classifier metrics are on **unseen vessels**, and the labels cover a few gear types (2012-2015).
 - AIS is blind to the **~75% of industrial vessels that don't broadcast** (the dark fleet) and is spoofable; SAR and optical see them but carry no identity.
 - National EEZ fishing **licences are not public**, so an empty authorization record means "no public record", not proof of illegality.
