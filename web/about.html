@@ -49,8 +49,14 @@
       padding:10px 13px;margin:12px 0;color:#dbe7e6;font-size:13.5px;}
     .caveat{color:var(--muted);}
     .pipe{margin:22px 0 4px;}
-    .pipe svg{width:100%;height:auto;display:block;}
-    .pipe figcaption{color:var(--muted);font-size:12.5px;text-align:center;margin-top:8px;line-height:1.5;}
+    .pipe .prow{list-style:none;display:flex;gap:10px;padding:0;margin:0;}
+    .pipe .pcard{flex:1;position:relative;background:#0d1f2c;border:1px solid rgba(43,212,168,.28);border-radius:12px;padding:12px 13px;}
+    .pipe .pcard+.pcard::before{content:"";position:absolute;left:-8px;top:50%;width:7px;height:7px;border-top:1.7px solid #2bd4a8;border-right:1.7px solid #2bd4a8;transform:translateY(-50%) rotate(45deg);}
+    .pipe .pnum{display:inline-flex;align-items:center;justify-content:center;width:22px;height:22px;border-radius:50%;background:rgba(43,212,168,.16);color:#3ff0c0;font-weight:700;font-size:12.5px;vertical-align:middle;}
+    .pipe .pcard b{color:#3ff0c0;font-size:14.5px;margin-left:7px;vertical-align:middle;}
+    .pipe .pcard p{color:#cfe0dd;font-size:12px;line-height:1.45;margin:9px 0 0;}
+    .pipe figcaption{color:var(--muted);font-size:12.5px;text-align:center;margin-top:10px;line-height:1.5;}
+    @media(max-width:680px){.pipe .prow{flex-wrap:wrap;}.pipe .pcard{flex:1 1 44%;}.pipe .pcard+.pcard::before{display:none;}}
     .gloss{display:grid;grid-template-columns:1fr 1fr;gap:14px 26px;margin:10px 0 4px;}
     .gterm{display:flex;gap:9px;align-items:flex-start;font-size:13.5px;color:#dbe7e6;line-height:1.5;margin:0;}
     .gterm b{color:var(--teal-bright);}
@@ -99,44 +105,17 @@
     <span data-i18n="note_3">SeaVigil targets the last mile: explaining and evidencing the suspicious behaviors that monitoring surfaces.</span></div>
 
     <figure class="pipe" aria-label="How SeaVigil works, in four steps">
-      <svg viewBox="0 0 760 200" xmlns="http://www.w3.org/2000/svg" role="img" aria-hidden="true" font-family="system-ui,-apple-system,sans-serif">
-        <defs>
-          <marker id="pa" markerWidth="10" markerHeight="10" refX="6.5" refY="4.5" orient="auto">
-            <path d="M1.5 1.5 L7 4.5 L1.5 7.5" fill="none" stroke="#2bd4a8" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/>
-          </marker>
-        </defs>
-        <!-- 1 Inputs -->
-        <rect x="6" y="22" width="160" height="156" rx="12" fill="#0d1f2c" stroke="rgba(43,212,168,.28)"/>
-        <circle cx="29" cy="48" r="12" fill="rgba(43,212,168,.16)"/>
-        <text x="29" y="52.5" text-anchor="middle" font-size="13" font-weight="700" fill="#3ff0c0">1</text>
-        <text x="51" y="53" font-size="15" font-weight="700" fill="#3ff0c0">Inputs</text>
-        <text x="22" y="88" font-size="12" fill="#cfe0dd"><tspan x="22" dy="0">Satellites (radar</tspan><tspan x="22" dy="16">and optical) and</tspan><tspan x="22" dy="16">ships' own AIS</tspan><tspan x="22" dy="16">radio signals</tspan></text>
-        <!-- 2 Detect -->
-        <rect x="200" y="22" width="160" height="156" rx="12" fill="#0d1f2c" stroke="rgba(43,212,168,.28)"/>
-        <circle cx="223" cy="48" r="12" fill="rgba(43,212,168,.16)"/>
-        <text x="223" y="52.5" text-anchor="middle" font-size="13" font-weight="700" fill="#3ff0c0">2</text>
-        <text x="245" y="53" font-size="15" font-weight="700" fill="#3ff0c0">Detect</text>
-        <text x="216" y="88" font-size="12" fill="#cfe0dd"><tspan x="216" dy="0">SeaVigil's models</tspan><tspan x="216" dy="16">find vessels and</tspan><tspan x="216" dy="16">judge whether the</tspan><tspan x="216" dy="16">behavior is suspect</tspan></text>
-        <!-- 3 Flag -->
-        <rect x="394" y="22" width="160" height="156" rx="12" fill="#0d1f2c" stroke="rgba(43,212,168,.28)"/>
-        <circle cx="417" cy="48" r="12" fill="rgba(43,212,168,.16)"/>
-        <text x="417" y="52.5" text-anchor="middle" font-size="13" font-weight="700" fill="#3ff0c0">3</text>
-        <text x="439" y="53" font-size="15" font-weight="700" fill="#3ff0c0">Flag</text>
-        <text x="410" y="88" font-size="12" fill="#cfe0dd"><tspan x="410" dy="0">Each suspicious</tspan><tspan x="410" dy="16">vessel becomes a</tspan><tspan x="410" dy="16">flagged incident in</tspan><tspan x="410" dy="16">its sea zone</tspan></text>
-        <circle cx="520" cy="156" r="6" fill="#e0455e"/>
-        <!-- 4 Evidence -->
-        <rect x="588" y="22" width="166" height="156" rx="12" fill="#0d1f2c" stroke="rgba(43,212,168,.28)"/>
-        <circle cx="611" cy="48" r="12" fill="rgba(43,212,168,.16)"/>
-        <text x="611" y="52.5" text-anchor="middle" font-size="13" font-weight="700" fill="#3ff0c0">4</text>
-        <text x="633" y="53" font-size="15" font-weight="700" fill="#3ff0c0">Evidence</text>
-        <text x="604" y="88" font-size="12" fill="#cfe0dd"><tspan x="604" dy="0">A dossier: the</tspan><tspan x="604" dy="16">reason, the place,</tspan><tspan x="604" dy="16">and a satellite</tspan><tspan x="604" dy="16">image of the boat</tspan></text>
-        <rect x="700" y="148" width="22" height="17" rx="2.5" fill="none" stroke="#7fd8c4" stroke-width="1.3"/>
-        <!-- arrows -->
-        <line x1="170" y1="100" x2="195" y2="100" stroke="#2bd4a8" stroke-width="1.7" marker-end="url(#pa)"/>
-        <line x1="364" y1="100" x2="389" y2="100" stroke="#2bd4a8" stroke-width="1.7" marker-end="url(#pa)"/>
-        <line x1="558" y1="100" x2="583" y2="100" stroke="#2bd4a8" stroke-width="1.7" marker-end="url(#pa)"/>
-      </svg>
-      <figcaption>From satellites and ships' signals to an evidence-backed alert: the same path behind every flag on the map.</figcaption>
+      <ol class="prow">
+        <li class="pcard"><span class="pnum">1</span><b data-i18n="pipe_t1">Inputs</b>
+          <p data-i18n="pipe_d1">Satellites (radar and optical) and ships' own AIS radio signals</p></li>
+        <li class="pcard"><span class="pnum">2</span><b data-i18n="pipe_t2">Detect</b>
+          <p data-i18n="pipe_d2">SeaVigil's models find vessels and judge whether the behaviour is suspect</p></li>
+        <li class="pcard"><span class="pnum">3</span><b data-i18n="pipe_t3">Flag</b>
+          <p data-i18n="pipe_d3">Each suspicious vessel becomes a flagged incident in its sea zone</p></li>
+        <li class="pcard"><span class="pnum">4</span><b data-i18n="pipe_t4">Evidence</b>
+          <p data-i18n="pipe_d4">A dossier: the reason, the place, and a satellite image of the boat</p></li>
+      </ol>
+      <figcaption data-i18n="pipe_cap">From satellites and ships' signals to an evidence-backed alert: the same path behind every flag on the map.</figcaption>
     </figure>
 
     <h2 data-i18n="gloss_h2">The terms, in plain words</h2>
@@ -296,6 +275,15 @@
         gloss_eez: "<b>EEZ (the dashed border).</b> A country's Exclusive Economic Zone, its waters out to 200 nautical miles. A foreign boat fishing here without a licence is the classic illegal-fishing lead.",
         gloss_mpa: "<b>MPA (the solid border).</b> A Marine Protected Area, where fishing is limited or banned outright. Any apparent fishing inside one is a red flag.",
         gloss_saropt: "<b>SAR and optical.</b> The two satellite eyes. SAR is radar: it sees vessels through cloud and at night. Optical is a true-colour photo: sharper, but blocked by cloud.",
+        pipe_t1: "Inputs",
+        pipe_d1: "Satellites (radar and optical) and ships' own AIS radio signals",
+        pipe_t2: "Detect",
+        pipe_d2: "SeaVigil's models find vessels and judge whether the behaviour is suspect",
+        pipe_t3: "Flag",
+        pipe_d3: "Each suspicious vessel becomes a flagged incident in its sea zone",
+        pipe_t4: "Evidence",
+        pipe_d4: "A dossier: the reason, the place, and a satellite image of the boat",
+        pipe_cap: "From satellites and ships' signals to an evidence-backed alert: the same path behind every flag on the map.",
         h2_detects: "What SeaVigil detects, and how",
         h3_ais: "inside a protected area",
         p_ais: "A RandomForest classifier scores each AIS position as fishing or not from vessel kinematics (speed, turning, distance from shore and port, time of day, rolling statistics), trained on Global Fishing Watch's openly published, hand-labelled AIS data (<a href=\"https://doi.org/10.1126/science.aao5646\" target=\"_blank\" rel=\"noopener\">Kroodsma et al., 2018</a>). Positions are joined by point-in-polygon to Marine Protected Area boundaries; runs of in-MPA fishing positions are segmented into incidents. Each incident's reason is the <a href=\"https://arxiv.org/abs/1705.07874\" target=\"_blank\" rel=\"noopener\">SHAP</a> attribution (Lundberg and Lee, 2017) averaged over its positions, shown as a per-feature contribution chart.",
@@ -348,6 +336,15 @@
         gloss_eez: "<b>ZEE (el borde discontinuo).</b> La Zona Económica Exclusiva de un país, sus aguas hasta 200 millas náuticas. Un buque extranjero que pesca aquí sin licencia es la pista clásica de pesca ilegal.",
         gloss_mpa: "<b>AMP (el borde continuo).</b> Un Área Marina Protegida, donde la pesca está limitada o prohibida por completo. Cualquier pesca aparente dentro de una es una señal de alarma.",
         gloss_saropt: "<b>SAR y óptico.</b> Los dos ojos satelitales. El SAR es radar: ve los buques a través de las nubes y de noche. El óptico es una foto en color real: más nítida, pero bloqueada por las nubes.",
+        pipe_t1: "Entradas",
+        pipe_d1: "Satélites (radar y óptico) y las propias señales de radio AIS de los buques",
+        pipe_t2: "Detectar",
+        pipe_d2: "Los modelos de SeaVigil encuentran buques y juzgan si el comportamiento es sospechoso",
+        pipe_t3: "Señalar",
+        pipe_d3: "Cada buque sospechoso se convierte en un incidente señalado en su zona marina",
+        pipe_t4: "Evidencia",
+        pipe_d4: "Un expediente: el motivo, el lugar y una imagen satelital del barco",
+        pipe_cap: "De los satélites y las señales de los buques a una alerta respaldada por evidencia: el mismo camino detrás de cada señal en el mapa.",
         h2_detects: "Qué detecta SeaVigil, y cómo",
         h3_ais: "dentro de un área protegida",
         p_ais: "Un clasificador RandomForest puntúa cada posición AIS como pesca o no a partir de la cinemática del buque (velocidad, giros, distancia a la costa y al puerto, hora del día, estadísticas móviles), entrenado con los datos AIS etiquetados a mano y publicados abiertamente por Global Fishing Watch (<a href=\"https://doi.org/10.1126/science.aao5646\" target=\"_blank\" rel=\"noopener\">Kroodsma et al., 2018</a>). Las posiciones se asocian mediante punto en polígono a los límites de las Áreas Marinas Protegidas; las secuencias de posiciones de pesca dentro del AMP se segmentan en incidentes. El motivo de cada incidente es la atribución <a href=\"https://arxiv.org/abs/1705.07874\" target=\"_blank\" rel=\"noopener\">SHAP</a> (Lundberg y Lee, 2017) promediada sobre sus posiciones, mostrada como un gráfico de contribución por característica.",
@@ -400,6 +397,15 @@
         gloss_eez: "<b>ZEE (la bordure en pointillés).</b> La zone économique exclusive d'un pays, ses eaux jusqu'à 200 milles nautiques. Un navire étranger qui pêche ici sans licence est la piste classique de pêche illégale.",
         gloss_mpa: "<b>AMP (la bordure pleine).</b> Une aire marine protégée, où la pêche est limitée ou totalement interdite. Toute pêche apparente à l'intérieur est un signal d'alarme.",
         gloss_saropt: "<b>SAR et optique.</b> Les deux yeux satellitaires. Le SAR est un radar : il voit les navires à travers les nuages et de nuit. L'optique est une photo en couleurs réelles : plus nette, mais bloquée par les nuages.",
+        pipe_t1: "Entrées",
+        pipe_d1: "Satellites (radar et optique) et les propres signaux radio AIS des navires",
+        pipe_t2: "Détecter",
+        pipe_d2: "Les modèles de SeaVigil repèrent les navires et jugent si le comportement est suspect",
+        pipe_t3: "Signaler",
+        pipe_d3: "Chaque navire suspect devient un incident signalé dans sa zone maritime",
+        pipe_t4: "Preuve",
+        pipe_d4: "Un dossier : le motif, le lieu et une image satellite du bateau",
+        pipe_cap: "Des satellites et des signaux des navires à une alerte étayée par des preuves : le même chemin derrière chaque signalement sur la carte.",
         h2_detects: "Ce que SeaVigil détecte, et comment",
         h3_ais: "à l'intérieur d'une aire protégée",
         p_ais: "Un classifieur RandomForest note chaque position AIS comme pêche ou non à partir de la cinématique du navire (vitesse, virages, distance à la côte et au port, heure de la journée, statistiques glissantes), entraîné sur les données AIS étiquetées à la main et publiées ouvertement par Global Fishing Watch (<a href=\"https://doi.org/10.1126/science.aao5646\" target=\"_blank\" rel=\"noopener\">Kroodsma et al., 2018</a>). Les positions sont rattachées par point-dans-polygone aux limites des aires marines protégées ; les séquences de positions de pêche dans l'AMP sont segmentées en incidents. Le motif de chaque incident est l'attribution <a href=\"https://arxiv.org/abs/1705.07874\" target=\"_blank\" rel=\"noopener\">SHAP</a> (Lundberg et Lee, 2017) moyennée sur ses positions, présentée sous forme de graphique de contribution par variable.",
@@ -452,6 +458,15 @@
         gloss_eez: "<b>ZEE (a borda tracejada).</b> A Zona Económica Exclusiva de um país, as suas águas até 200 milhas náuticas. Uma embarcação estrangeira que pesca aqui sem licença é a pista clássica de pesca ilegal.",
         gloss_mpa: "<b>AMP (a borda contínua).</b> Uma Área Marinha Protegida, onde a pesca é limitada ou totalmente proibida. Qualquer pesca aparente dentro de uma é um sinal de alerta.",
         gloss_saropt: "<b>SAR e ótico.</b> Os dois olhos de satélite. O SAR é radar: vê as embarcações através das nuvens e à noite. O ótico é uma foto a cores reais: mais nítida, mas bloqueada pelas nuvens.",
+        pipe_t1: "Entradas",
+        pipe_d1: "Satélites (radar e ótico) e os próprios sinais de rádio AIS das embarcações",
+        pipe_t2: "Detetar",
+        pipe_d2: "Os modelos do SeaVigil encontram embarcações e julgam se o comportamento é suspeito",
+        pipe_t3: "Sinalizar",
+        pipe_d3: "Cada embarcação suspeita torna-se um incidente sinalizado na sua zona marítima",
+        pipe_t4: "Evidência",
+        pipe_d4: "Um dossiê: o motivo, o lugar e uma imagem de satélite do barco",
+        pipe_cap: "Dos satélites e dos sinais das embarcações a um alerta apoiado por evidência: o mesmo caminho por trás de cada sinalização no mapa.",
         h2_detects: "O que o SeaVigil deteta, e como",
         h3_ais: "dentro de uma área protegida",
         p_ais: "Um classificador RandomForest pontua cada posição AIS como pesca ou não a partir da cinemática da embarcação (velocidade, viragens, distância à costa e ao porto, hora do dia, estatísticas móveis), treinado com os dados AIS rotulados manualmente e publicados abertamente pela Global Fishing Watch (<a href=\"https://doi.org/10.1126/science.aao5646\" target=\"_blank\" rel=\"noopener\">Kroodsma et al., 2018</a>). As posições são associadas por ponto em polígono aos limites das Áreas Marinhas Protegidas; as sequências de posições de pesca dentro da AMP são segmentadas em incidentes. O motivo de cada incidente é a atribuição <a href=\"https://arxiv.org/abs/1705.07874\" target=\"_blank\" rel=\"noopener\">SHAP</a> (Lundberg e Lee, 2017) calculada como média sobre as suas posições, apresentada como um gráfico de contribuição por característica.",
