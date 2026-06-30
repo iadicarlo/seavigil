@@ -5,7 +5,7 @@
 > authorization layer (foreign vessels graded against GFW registry / RFMO records), a
 > near-real-time GFW-events monitor with an alerts feed, live AIS spoofing, fully offline
 > deployment, and a four-language interface. For the current system see the
-> [README](../README.md) and the [About page](https://iadicarlo.github.io/seavigil/about.html).
+> [README](../README.md) and the [About page](https://seavigil.org/about.html).
 > This file is kept as a record of the original reasoning.
 
 _Last updated: 2026-06-25. This is the working spec: what we're building, why, what's
