@@ -10,7 +10,7 @@ name: SAR engine (sub-day dark vessels)
 
 on:
   schedule:
-    - cron: "13 */6 * * *"   # every 6h: re-check GFW hotspots and process new few-day-old scenes
+    - cron: "13 */2 * * *"   # every 2h: catch each Sentinel-1 pass fresh, for the sub-day dark call
   workflow_dispatch:
 
 permissions:
@@ -29,6 +29,12 @@ jobs:
       - uses: astral-sh/setup-uv@v5
         with:
           python-version: "3.12"
+      - name: Restore the live AIS buffer for the dark call (read-only; ais-stream.yml is the sole writer)
+        uses: actions/cache/restore@v4
+        with:
+          path: data/positions/ais_buffer.csv
+          key: ais-buffer-seed
+          restore-keys: ais-buffer-
       - name: Conda env (gdal + torch) for the detector, cached
         uses: mamba-org/setup-micromamba@v2
         with:

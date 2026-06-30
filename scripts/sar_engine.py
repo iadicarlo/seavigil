@@ -1,16 +1,21 @@
 #!/usr/bin/env python3
 """SeaVigil dark-vessel engine: the GFW-hotspot playbook, automated.
 
-For each priority area it (1) asks GFW where the foreign / distant-water fleet is densest right
-now, (2) runs our Sentinel-1 detector on a scene over that hotspot, (3) cross-matches the detections
-against GFW's AIS for that area and date (matched / dark / no-coverage), and (4) republishes ?sar.
+For each priority area it (1) asks GFW where the foreign / distant-water fleet is densest, (2) runs
+our Sentinel-1 detector on the FRESHEST scene over that hotspot, (3) cross-matches the detections
+against the LIVE aisstream buffer at the scene's acquisition time (matched / dark / no-coverage), and
+(4) republishes ?sar.
 
-This is the automated form of the Guinea proof: GFW AIS points us where to look and tells us which
-detections are dark; our SAR sees everything, broadcasting and dark alike.
+GFW (which lags 3-4 days) is used only to aim the SAR at the fleet; a fleet does not move far in a few
+days, so a slightly stale hotspot is fine. The DARK CALL uses live AIS we already stream, so it is
+sub-day: a scene lands on Copernicus ~3 h after the pass, and we process it within hours instead of
+waiting days for GFW's AIS to catch up. The latency floor is the satellite revisit (~1-3 days between
+looks at a point), which is physics, the same for everyone.
 
-Honest scope: GFW fishing data lags a few days, so the engine targets scenes a few days old (where
-GFW coverage exists) rather than sub-day NRT. A validated few-day dark flag beats an unverified
-sub-day one.
+Honest scope: live aisstream is terrestrial, so reception is strong near coasts (EEZ / reserve
+incursions confirmed dark sub-day) and thin far offshore (graded no-coverage, not dark, until the
+lagged GFW AIS can corroborate). Aim within the buffer's retention window (~24 h) so the dark call has
+live AIS to match.
 
 Run (conda env for the detector; GFW_TOKEN + Copernicus S3 keys in the environment):
   GFW_TOKEN=... AWS_ACCESS_KEY_ID=... AWS_SECRET_ACCESS_KEY=... \
@@ -102,6 +107,33 @@ def _gfw_ais_rows(aoi, ymd, token):
         return []
 
 
+def _live_ais_rows(aoi, acquisition_dt, buffer_path, window_min=60.0):
+    """LIVE aisstream positions in the AOI within window_min of the scene's acquisition time.
+
+    This is what makes the dark call sub-day: these positions were streamed minutes ago (the buffer is
+    written continuously by ais-stream.yml), so we no longer wait days for GFW's lagged AIS to confirm
+    which detections are dark. Returns [vessel_id, timestamp, lat, lon] rows, the format the converter's
+    AIS match expects. Coverage is terrestrial-AIS (strong near coasts, thin far offshore); where there
+    is no live reception the converter honestly grades the detection no-coverage, not dark.
+    """
+    p = Path(buffer_path)
+    if not p.exists():
+        print(f"  live AIS buffer not found at {p}; detections will be unverified (no-coverage)")
+        return []
+    w, s, e, n = aoi
+    t0 = acquisition_dt.timestamp()
+    rows = []
+    with open(p) as f:
+        for r in csv.DictReader(f):
+            try:
+                ts, lat, lon = float(r["timestamp"]), float(r["lat"]), float(r["lon"])
+            except (KeyError, ValueError, TypeError):
+                continue
+            if abs(ts - t0) <= window_min * 60 and s <= lat <= n and w <= lon <= e:
+                rows.append([r.get("vessel_id", ""), int(ts), lat, lon])
+    return rows
+
+
 def _query_scenes(bbox, since_iso, before_iso, top=10):
     """Sentinel-1 IW GRDH (COG) scenes intersecting bbox, acquired in [since, before]."""
     w, s, e, n = bbox
@@ -129,12 +161,18 @@ def main() -> None:
     ap.add_argument("--gfw-token", default=None)
     ap.add_argument("--watchlist", default=str(WATCHLIST))
     ap.add_argument("--state", default=str(STATE))
-    ap.add_argument("--since-days", type=float, default=10.0, help="oldest scene to consider")
-    ap.add_argument("--lag-days", type=float, default=3.0, help="skip scenes newer than this (GFW lag)")
+    ap.add_argument("--since-days", type=float, default=1.0,
+                    help="oldest scene to consider; keep within the live AIS buffer window for the dark call")
+    ap.add_argument("--lag-days", type=float, default=0.0,
+                    help="skip scenes newer than this; 0 = process the freshest scene the moment it lands")
     ap.add_argument("--hotspot-days", type=int, default=14, help="GFW lookback to locate the fleet")
     ap.add_argument("--max-scenes", type=int, default=2, help="cap scenes per run (CPU bound)")
     ap.add_argument("--aoi-deg", type=float, default=0.5)
     ap.add_argument("--conf", type=float, default=0.7)
+    ap.add_argument("--ais-buffer", default=str(ROOT / "data" / "positions" / "ais_buffer.csv"),
+                    help="live aisstream buffer for the dark call (sub-day) instead of GFW's lagged AIS")
+    ap.add_argument("--ais-window-min", type=float, default=60.0,
+                    help="match live AIS within this many minutes of the scene acquisition time")
     ap.add_argument("--accumulate-days", type=int, default=14,
                     help="keep the last N days of detections in ?sar (a rolling map); 0 = overwrite")
     ap.add_argument("--device", default="cpu", choices=["cpu", "cuda"])
@@ -174,7 +212,7 @@ def main() -> None:
         print("no new hotspot scenes to process.")
         return
 
-    # 2. detect at the hotspot + collect GFW AIS for the match
+    # 2. detect at the hotspot + collect LIVE AIS at acquisition time for the dark call
     work = Path(tempfile.mkdtemp(prefix="sar_engine_"))
     det_rows, det_header, processed, ais_rows = [], None, [], []
     for name, info in list(todo.items())[: a.max_scenes]:
@@ -199,13 +237,13 @@ def main() -> None:
                 det_header = hdr
             det_rows.extend(list(rd))
         dt = _scene_dt(info["start"])
-        ts = int(dt.timestamp())
-        gfw = _gfw_ais_rows(aoi, dt.strftime("%Y%m%d"), token)
-        for i, r in enumerate(gfw):
-            ais_rows.append([f"gfw_{r.get('flag')}_{i}", ts, r["lat"], r["lon"]])
-        print(f"    {len(gfw)} GFW AIS positions for the match")
+        live = _live_ais_rows(aoi, dt, a.ais_buffer, a.ais_window_min)
+        ais_rows.extend(live)
+        age_h = (now - dt).total_seconds() / 3600.0
+        print(f"    {len(live)} live AIS positions within {a.ais_window_min:.0f} min of acquisition "
+              f"({age_h:.1f} h ago) for the dark call")
 
-    # 3 + 4. publish (the 3-way match runs against the GFW AIS) + record state
+    # 3 + 4. publish (the 3-way match runs against the live AIS) + record state
     if det_rows and det_header:
         combined = work / "engine_predictions.csv"
         with open(combined, "w", newline="") as f:
@@ -222,7 +260,7 @@ def main() -> None:
                 w.writerows(ais_rows)
             cmd += ["--ais", str(ais_csv)]
         cmd += ["--accumulate-days", str(a.accumulate_days)]
-        print(f"publish: {len(det_rows)} detections, {len(ais_rows)} GFW AIS positions")
+        print(f"publish: {len(det_rows)} detections, {len(ais_rows)} live AIS positions")
         subprocess.run(cmd, check=True)
     else:
         print("no detections produced this run; ?sar view left unchanged")
