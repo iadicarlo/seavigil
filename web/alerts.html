@@ -77,7 +77,7 @@
       <span class="name">Sea<span class="v">Vigil</span></span>
     </div>
     <p class="sub" data-i18n="sub">Near-real-time illegal-fishing leads</p>
-    <p class="lead" data-i18n="intro">Real-time leads from our own live AIS, vessels going dark or meeting at sea, seconds old, then offshore events from Global Fishing Watch (about a 3 to 4 day lag). Each is an inspection lead, not proof.</p>
+    <p class="lead" data-i18n="intro">Real-time leads from our own live AIS: vessels going dark, meeting at sea, or showing a position or identity anomaly, seconds old. Each is an inspection lead, not proof.</p>
     <p class="links">
       <a href="./?live" data-i18n="open_map">Open the live map</a> &middot;
       <a href="./alerts.xml"><span data-i18n="subscribe">Subscribe via RSS</span></a>
@@ -86,45 +86,45 @@
     </p>
     <p class="meta-line" id="updated"></p>
     <div id="list"></div>
-    <footer data-i18n="footer">SeaVigil is a non-commercial, public-interest project. Alerts are inspection leads, not proof of illegal activity. Sources: SeaVigil live AIS (real-time, coastal) and Global Fishing Watch events (offshore, ~3-4 day, CC BY-NC).</footer>
+    <footer data-i18n="footer">SeaVigil is a non-commercial, public-interest project. Alerts are inspection leads, not proof of illegal activity. Source: SeaVigil live AIS (near-real-time), scoped to priority areas.</footer>
   </div>
 
   <script>
     const I18N = {
       en: { sub: "Near-real-time illegal-fishing leads",
-        intro: "Real-time leads from our own live AIS, vessels going dark or meeting at sea, seconds old, then offshore events from Global Fishing Watch (about a 3 to 4 day lag). Each is an inspection lead, not proof.",
+        intro: "Real-time leads from our own live AIS: vessels going dark, meeting at sea, or showing a position or identity anomaly, seconds old. Each is an inspection lead, not proof.",
         open_map: "Open the live map", subscribe: "Subscribe via RSS", subscribe_note: "(for feed readers)", back: "Back to the map",
         updated: "Feed updated {when} UTC", empty: "No alerts yet. The monitor publishes new high-severity leads as they appear.",
-        going: "Going dark", enc: "At-sea encounter", k_eez: "EEZ", k_auth: "Authorization", k_when: "Event time",
+        going: "Going dark", enc: "At-sea encounter", al_spoof: "Position anomaly", al_nav: "AIS status vs motion", al_ident: "Identity change", k_eez: "EEZ", k_auth: "Authorization", k_when: "Event time",
         a_no_record: "no authorization on record", a_lapsed: "authorization lapsed", a_authorized: "authorized",
-        footer: "SeaVigil is a non-commercial, public-interest project. Alerts are inspection leads, not proof of illegal activity. Sources: SeaVigil live AIS (real-time, coastal) and Global Fishing Watch events (offshore, ~3-4 day, CC BY-NC).",
+        footer: "SeaVigil is a non-commercial, public-interest project. Alerts are inspection leads, not proof of illegal activity. Source: SeaVigil live AIS (near-real-time), scoped to priority areas.",
         sec_live: "Live now (our own AIS)", sec_gfw: "Offshore (Global Fishing Watch)", b_live: "LIVE", b_gfw: "~3-4 DAY",
         live_note: "real-time, seconds old", live_quiet: "quiet {n} min", live_empty: "No live going-dark or encounters in the current window." },
       es: { sub: "Alertas de pesca ilegal casi en tiempo real",
-        intro: "Pistas en tiempo real de nuestro propio AIS en vivo, buques que se apagan o se encuentran en el mar, hace segundos, y luego eventos de alta mar de Global Fishing Watch (con un retraso de unos 3 a 4 días). Cada una es una pista de inspección, no una prueba.",
+        intro: "Pistas en tiempo real de nuestro propio AIS en vivo: buques que se apagan, se encuentran en el mar o muestran una anomalía de posición o identidad, hace segundos. Cada una es una pista de inspección, no una prueba.",
         open_map: "Abrir el mapa en vivo", subscribe: "Suscribirse por RSS", subscribe_note: "(para lectores de feeds)", back: "Volver al mapa",
         updated: "Feed actualizado {when} UTC", empty: "Aún no hay alertas. El monitor publica nuevas pistas de alta gravedad a medida que aparecen.",
-        going: "Apagado de AIS", enc: "Encuentro en el mar", k_eez: "ZEE", k_auth: "Autorización", k_when: "Hora del evento",
+        going: "Apagado de AIS", enc: "Encuentro en el mar", al_spoof: "Anomalía de posición", al_nav: "Estado AIS vs movimiento", al_ident: "Cambio de identidad", k_eez: "ZEE", k_auth: "Autorización", k_when: "Hora del evento",
         a_no_record: "sin autorización registrada", a_lapsed: "autorización vencida", a_authorized: "autorizado",
-        footer: "SeaVigil es un proyecto de interés público sin fines de lucro. Las alertas son pistas de inspección, no pruebas de actividad ilegal. Fuentes: AIS en vivo de SeaVigil (en tiempo real, costero) y eventos de Global Fishing Watch (alta mar, ~3-4 días, CC BY-NC).",
+        footer: "SeaVigil es un proyecto de interés público sin fines de lucro. Las alertas son pistas de inspección, no pruebas de actividad ilegal. Fuente: AIS en vivo de SeaVigil (casi en tiempo real), en áreas prioritarias.",
         sec_live: "En vivo ahora (nuestro propio AIS)", sec_gfw: "Alta mar (Global Fishing Watch)", b_live: "EN VIVO", b_gfw: "~3-4 DÍAS",
         live_note: "en tiempo real, hace segundos", live_quiet: "en silencio {n} min", live_empty: "Ningún apagado de AIS ni encuentro en vivo en la ventana actual." },
       fr: { sub: "Alertes de pêche illégale en quasi temps réel",
-        intro: "Pistes en temps réel à partir de notre propre AIS en direct, des navires qui s'éteignent ou se rejoignent en mer, il y a quelques secondes, puis des événements au large de Global Fishing Watch (avec un décalage d'environ 3 à 4 jours). Chacune est une piste d'inspection, pas une preuve.",
+        intro: "Pistes en temps réel à partir de notre propre AIS en direct : navires qui s'éteignent, se rejoignent en mer ou présentent une anomalie de position ou d'identité, il y a quelques secondes. Chacune est une piste d'inspection, pas une preuve.",
         open_map: "Ouvrir la carte en direct", subscribe: "S'abonner par RSS", subscribe_note: "(pour lecteurs de flux)", back: "Retour à la carte",
         updated: "Flux mis à jour {when} UTC", empty: "Aucune alerte pour le moment. Le moniteur publie les nouvelles pistes de gravité élevée dès qu'elles apparaissent.",
-        going: "Extinction de l'AIS", enc: "Rencontre en mer", k_eez: "ZEE", k_auth: "Autorisation", k_when: "Heure de l'événement",
+        going: "Extinction de l'AIS", enc: "Rencontre en mer", al_spoof: "Anomalie de position", al_nav: "Statut AIS vs mouvement", al_ident: "Changement d'identité", k_eez: "ZEE", k_auth: "Autorisation", k_when: "Heure de l'événement",
         a_no_record: "aucune autorisation enregistrée", a_lapsed: "autorisation expirée", a_authorized: "autorisé",
-        footer: "SeaVigil est un projet d'intérêt public sans but lucratif. Les alertes sont des pistes d'inspection, pas des preuves d'activité illégale. Sources : AIS en direct de SeaVigil (temps réel, côtier) et événements de Global Fishing Watch (au large, ~3-4 jours, CC BY-NC).",
+        footer: "SeaVigil est un projet d'intérêt public sans but lucratif. Les alertes sont des pistes d'inspection, pas des preuves d'activité illégale. Source : AIS en direct de SeaVigil (quasi temps réel), dans les zones prioritaires.",
         sec_live: "En direct (notre propre AIS)", sec_gfw: "Au large (Global Fishing Watch)", b_live: "EN DIRECT", b_gfw: "~3-4 JOURS",
         live_note: "temps réel, il y a quelques secondes", live_quiet: "silencieux {n} min", live_empty: "Aucune extinction d'AIS ni rencontre en direct dans la fenêtre actuelle." },
       pt: { sub: "Alertas de pesca ilegal quase em tempo real",
-        intro: "Pistas em tempo real a partir do nosso próprio AIS ao vivo, embarcações que se desligam ou se encontram no mar, há segundos, e depois eventos de alto-mar da Global Fishing Watch (com um atraso de cerca de 3 a 4 dias). Cada uma é uma pista de inspeção, não uma prova.",
+        intro: "Pistas em tempo real a partir do nosso próprio AIS ao vivo: embarcações que se desligam, se encontram no mar ou apresentam uma anomalia de posição ou identidade, há segundos. Cada uma é uma pista de inspeção, não uma prova.",
         open_map: "Abrir o mapa ao vivo", subscribe: "Subscrever por RSS", subscribe_note: "(para leitores de feeds)", back: "Voltar ao mapa",
         updated: "Feed atualizado {when} UTC", empty: "Ainda não há alertas. O monitor publica novas pistas de alta gravidade à medida que surgem.",
-        going: "Desligamento de AIS", enc: "Encontro no mar", k_eez: "ZEE", k_auth: "Autorização", k_when: "Hora do evento",
+        going: "Desligamento de AIS", enc: "Encontro no mar", al_spoof: "Anomalia de posição", al_nav: "Estado AIS vs movimento", al_ident: "Mudança de identidade", k_eez: "ZEE", k_auth: "Autorização", k_when: "Hora do evento",
         a_no_record: "sem autorização registada", a_lapsed: "autorização expirada", a_authorized: "autorizado",
-        footer: "SeaVigil é um projeto de interesse público sem fins lucrativos. Os alertas são pistas de inspeção, não provas de atividade ilegal. Fontes: AIS ao vivo da SeaVigil (tempo real, costeiro) e eventos da Global Fishing Watch (alto-mar, ~3-4 dias, CC BY-NC).",
+        footer: "SeaVigil é um projeto de interesse público sem fins lucrativos. Os alertas são pistas de inspeção, não provas de atividade ilegal. Fonte: AIS ao vivo da SeaVigil (quase em tempo real), em áreas prioritárias.",
         sec_live: "Ao vivo agora (o nosso próprio AIS)", sec_gfw: "Alto-mar (Global Fishing Watch)", b_live: "AO VIVO", b_gfw: "~3-4 DIAS",
         live_note: "tempo real, há segundos", live_quiet: "em silêncio {n} min", live_empty: "Nenhum desligamento de AIS ou encontro ao vivo na janela atual." },
     };
@@ -159,7 +159,9 @@
     }
     function liveCard(f) {
       const p = f.properties || f;
-      const typ = p.kind === "encounter" ? t("enc") : t("going");
+      const LABELS = { encounter: t("enc"), ais_disabling: t("going"), ais_spoofing: t("al_spoof"),
+        navstatus_mismatch: t("al_nav"), identity_change: t("al_ident") };
+      const typ = LABELS[p.kind] || t("going");
       const who = (flagEmoji(p.flag) ? flagEmoji(p.flag) + " " : "") + (p.name || p.flag || "unknown vessel");
       const quiet = (p.quiet_min != null) ? ` &middot; ${esc(t("live_quiet", { n: p.quiet_min }))}` : "";
       return `<div class="alert live">
@@ -173,8 +175,6 @@
       const host = document.getElementById("list");
       let html = `<h2 class="sec-head"><span class="badge b-live">${esc(t("b_live"))}</span> ${esc(t("sec_live"))}</h2>`;
       html += LIVE.length ? LIVE.map(liveCard).join("") : `<div class="empty">${esc(t("live_empty"))}</div>`;
-      html += `<h2 class="sec-head"><span class="badge b-gfw">${esc(t("b_gfw"))}</span> ${esc(t("sec_gfw"))}</h2>`;
-      html += ALERTS.length ? ALERTS.map(gfwCard).join("") : `<div class="empty">${esc(t("empty"))}</div>`;
       host.innerHTML = html;
     }
     function applyStatic() {
@@ -195,15 +195,14 @@
       const s = document.getElementById("langsel"); if (s) { s.value = LANG; s.onchange = () => setLang(s.value); }
       applyStatic();
     })();
-    Promise.all([
-      fetch("./live/events.geojson", { cache: "no-store" }).then(r => r.ok ? r.json() : { features: [] }).catch(() => ({ features: [] })),
-      fetch("./data/alerts.json", { cache: "no-store" }).then(r => r.ok ? r.json() : { alerts: [] }).catch(() => ({ alerts: [] })),
-    ]).then(([live, d]) => {
-      LIVE = (live && live.features) || [];
-      ALERTS = (d && d.alerts) || [];
-      UPDATED = (d && d.generated_at) || null;
-      render();
-    });
+    fetch("./live/events.geojson", { cache: "no-store" })
+      .then(r => r.ok ? r.json() : { features: [], generated: 0 })
+      .catch(() => ({ features: [], generated: 0 }))
+      .then(live => {
+        LIVE = (live && live.features) || [];
+        UPDATED = (live && live.generated) ? new Date(live.generated * 1000).toISOString() : null;
+        render();
+      });
   </script>
 </body>
 </html>
