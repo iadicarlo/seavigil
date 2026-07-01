@@ -466,6 +466,44 @@ def _archive_geojson() -> bytes:
                        "retain_days": ARCHIVE_RETAIN_DAYS, "features": feats}).encode()
 
 
+ALERTS_RSS_ENDPOINT = "/live/alerts.xml"
+_RSS_LABELS = {"ais_disabling": "Going dark", "encounter": "At-sea encounter",
+               "ais_spoofing": "Position anomaly", "navstatus_mismatch": "AIS status vs motion",
+               "identity_change": "Identity change"}
+
+
+def _archive_rss() -> bytes:
+    """RSS 2.0 of our own live leads (from the archive), so the subscribe feed is near-real-time
+    instead of the old GFW ~3-4 day events."""
+    from email.utils import formatdate
+    from xml.sax.saxutils import escape
+    recs = _archive_read(time.time() - ARCHIVE_RETAIN_DAYS * 86400)
+    recs.sort(key=lambda r: r.get("first_seen", 0), reverse=True)
+    items = []
+    for r in recs[:60]:
+        p = r.get("properties", {})
+        label = _RSS_LABELS.get(p.get("kind"), p.get("kind") or "lead")
+        who = p.get("name") or ("MMSI " + str(p.get("mmsi", "")))
+        area = p.get("area") or ""
+        title = f"{label} - {who}" + (f" ({area})" if area else "")
+        items.append(
+            "<item>"
+            f"<title>{escape(title)}</title>"
+            f"<description>{escape(title)}. A live inspection lead, not proof.</description>"
+            f"<pubDate>{formatdate(r.get('first_seen', time.time()))}</pubDate>"
+            f'<guid isPermaLink="false">{escape(str(r.get("id", "")))}</guid>'
+            "<link>https://seavigil.org/</link></item>")
+    xml = ('<?xml version="1.0" encoding="UTF-8"?>'
+           '<rss version="2.0"><channel>'
+           '<title>SeaVigil live alerts</title>'
+           '<link>https://seavigil.org/alerts.html</link>'
+           "<description>Near-real-time illegal-fishing leads from SeaVigil's own live AIS. "
+           "An inspection lead, not proof.</description>"
+           f"<lastBuildDate>{formatdate(time.time())}</lastBuildDate>"
+           + "".join(items) + "</channel></rss>")
+    return xml.encode()
+
+
 def _relay_contact(rec: dict) -> None:
     """Best-effort email relay if SMTP is configured in the environment; otherwise the message is
     already stored in the inbox file. Configure in .env to forward to your own mailbox (e.g. iCloud:
@@ -552,6 +590,14 @@ class Handler(SimpleHTTPRequestHandler):
             return
         if route == ARCHIVE_ENDPOINT:
             self._send_json(_cached("archive", 60.0, _archive_geojson))
+            return
+        if route == ALERTS_RSS_ENDPOINT:
+            body = _cached("alerts_rss", 60.0, _archive_rss)
+            self.send_response(200)
+            self.send_header("Content-Type", "application/rss+xml; charset=utf-8")
+            self.send_header("Content-Length", str(len(body)))
+            self.end_headers()
+            self.wfile.write(body)
             return
         super().do_GET()
 
