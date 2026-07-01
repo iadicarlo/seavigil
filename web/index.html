@@ -55,6 +55,13 @@
     .full{margin:6px 0;font-size:12.5px;color:var(--muted);line-height:1.45;}
     .disclaimer{margin-top:8px;font-size:11.5px;color:var(--muted);line-height:1.5;}
     .disclaimer em{color:var(--fg);font-style:italic;}
+    /* Two-view switcher (Live monitor | Historical sample), always visible so both real views are discoverable. */
+    #modelink{display:flex;gap:6px;margin-top:9px;}
+    .modesw{font-size:12px;padding:3px 11px;border-radius:999px;border:1px solid var(--panel-border);
+      color:var(--muted);text-decoration:none;background:rgba(8,22,32,.4);white-space:nowrap;}
+    .modesw:hover{border-color:var(--teal-bright);color:var(--teal-bright);}
+    .modesw.on{background:var(--teal);color:#06241c;font-weight:600;border-color:var(--teal);}
+    .modesw.on:hover{color:#06241c;}
     a{color:var(--teal-bright);}
 
     /* interactive legend = layer manager */
@@ -199,8 +206,8 @@
        Marine Protected Areas, dark (non-broadcasting) vessels, AIS spoofing, going dark, and at-sea
        transshipment. Click a marker for the per-incident reason and evidence.</p>
     <p class="disclaimer navlinks"><a href="about.html" data-i18n="about">About &amp; methodology</a> <span style="color:var(--faint)">&middot;</span> <a href="alerts.html" data-i18n="alerts_link">Alerts</a> <span style="color:var(--faint)">&middot;</span> <a href="https://github.com/iadicarlo/seavigil" target="_blank" rel="noopener">GitHub</a></p>
-    <p class="disclaimer" id="vintage"></p>
     <p class="disclaimer" id="modelink"></p>
+    <p class="disclaimer" id="vintage"></p>
   </div>
 
   <div id="legend" class="panel">
@@ -255,6 +262,8 @@
         badge_sar: "Our own Sentinel-1 SAR detection over the densest fishing hotspots in our watchlist. Global Fishing Watch AIS only aims the radar at the fleet; we run the open Allen Institute model on the freshest scene (on Copernicus about 3 hours after the pass) and cross-match live AIS at that instant, so a radar blip with no live broadcast right there is flagged dark within hours of the pass, not days. The floor is the satellite revisit, about 1 to 3 days. Confirmed dark near coasts where live AIS reaches; offshore is graded no-coverage until lagged AIS can corroborate.{asof} An inspection lead, not proof.",
         asof: " Data as of {date} UTC.", back_to_showcase: "← Back to showcase", view_live: "View the near-real-time monitor →", view_showcase: "View the worldwide showcase →", back_to_live: "← Back to the live monitor",
         badge_realtime: "Live monitor: vessels flagged for apparently illegal activity, each with its reason, jurisdiction, and an evidence hash.{asof} An inspection lead, not proof.",
+        nav_live: "Live monitor", nav_historical: "Historical sample",
+        badge_s2: "Our own Sentinel-2 optical vessel detection over a watchlist hotspot: one detector run on the freshest Copernicus scene, cross-matched with live AIS, so a vessel with no live broadcast is flagged dark. Part of the live monitor.{asof} An inspection lead, not proof.",
         hdr_global: "{total} records across {n} EEZs worldwide", hdr_local: "{total} records in monitored waters",
         by_type: "by type", by_severity: "by severity", by_eez: "by jurisdiction (EEZ)", by_flag: "by flag state", by_auth: "by authorization",
         more_eez: "and {n} more EEZs", more_flags: "and {n} more flags",
@@ -292,6 +301,8 @@
         badge_sar: "Nuestra propia detección SAR de Sentinel-1 sobre los focos de pesca más densos de nuestra lista. El AIS de Global Fishing Watch solo apunta el radar hacia la flota; ejecutamos el modelo abierto del Allen Institute sobre la escena más reciente (en Copernicus unas 3 horas tras el paso) y cruzamos el AIS en vivo en ese instante, así que una señal de radar sin emisión en vivo justo allí se marca como oscura horas después del paso, no días. El límite es la revisita del satélite, de 1 a 3 días. Confirmado oscuro cerca de la costa donde llega el AIS en vivo; mar adentro se gradúa como sin cobertura hasta que el AIS con retraso lo corrobore.{asof} Una pista de inspección, no una prueba.",
         asof: " Datos al {date} UTC.", back_to_showcase: "← Volver a la muestra", view_live: "Ver el monitor casi en tiempo real →", view_showcase: "Ver la muestra mundial →", back_to_live: "← Volver al monitor en vivo",
         badge_realtime: "Monitor en vivo: buques señalados por actividad aparentemente ilegal, cada uno con su motivo, jurisdicción y un hash de evidencia.{asof} Una pista de inspección, no una prueba.",
+        nav_live: "Monitor en vivo", nav_historical: "Muestra histórica",
+        badge_s2: "Nuestra propia detección óptica de buques con Sentinel-2 sobre un foco de nuestra lista: una ejecución del detector sobre la escena de Copernicus más reciente, cruzada con el AIS en vivo, de modo que un buque sin emisión en vivo se marca como oscuro. Parte del monitor en vivo.{asof} Una pista de inspección, no una prueba.",
         hdr_global: "{total} registros en {n} ZEE de todo el mundo", hdr_local: "{total} registros en aguas monitoreadas",
         by_type: "por tipo", by_severity: "por gravedad", by_eez: "por jurisdicción (ZEE)", by_flag: "por estado de pabellón", by_auth: "por autorización",
         more_eez: "y {n} ZEE más", more_flags: "y {n} pabellones más",
@@ -329,6 +340,8 @@
         badge_sar: "Notre propre détection SAR Sentinel-1 sur les foyers de pêche les plus denses de notre liste. L'AIS de Global Fishing Watch ne fait que pointer le radar vers la flotte ; nous exécutons le modèle ouvert de l'Allen Institute sur la scène la plus récente (sur Copernicus environ 3 heures après le passage) et croisons l'AIS en direct à cet instant, donc une signature radar sans émission en direct juste là est marquée obscure quelques heures après le passage, pas des jours. Le plancher est la revisite du satellite, de 1 à 3 jours. Confirmé obscur près des côtes où l'AIS en direct parvient ; au large, c'est gradué sans couverture jusqu'à ce que l'AIS différé le corrobore.{asof} Une piste d'inspection, pas une preuve.",
         asof: " Données au {date} UTC.", back_to_showcase: "← Retour à la démonstration", view_live: "Voir le moniteur en quasi temps réel →", view_showcase: "Voir la démonstration mondiale →", back_to_live: "← Retour au moniteur en direct",
         badge_realtime: "Moniteur en direct : navires signalés pour une activité apparemment illégale, chacun avec son motif, sa juridiction et une empreinte de preuve.{asof} Une piste d'inspection, pas une preuve.",
+        nav_live: "Moniteur en direct", nav_historical: "Échantillon historique",
+        badge_s2: "Notre propre détection optique de navires par Sentinel-2 sur un foyer de notre liste : une exécution du détecteur sur la scène Copernicus la plus récente, croisée avec l'AIS en direct, de sorte qu'un navire sans émission en direct est marqué obscur. Fait partie du moniteur en direct.{asof} Une piste d'inspection, pas une preuve.",
         hdr_global: "{total} signalements dans {n} ZEE à travers le monde", hdr_local: "{total} signalements dans les eaux surveillées",
         by_type: "par type", by_severity: "par gravité", by_eez: "par juridiction (ZEE)", by_flag: "par État du pavillon", by_auth: "par autorisation",
         more_eez: "et {n} ZEE de plus", more_flags: "et {n} pavillons de plus",
@@ -366,6 +379,8 @@
         badge_sar: "A nossa própria deteção SAR do Sentinel-1 sobre os focos de pesca mais densos da nossa lista. O AIS da Global Fishing Watch apenas aponta o radar para a frota; executamos o modelo aberto do Allen Institute na cena mais recente (no Copernicus cerca de 3 horas após a passagem) e cruzamos o AIS ao vivo nesse instante, por isso uma assinatura de radar sem emissão ao vivo mesmo ali é marcada como oculta horas após a passagem, não dias. O limite é a revisita do satélite, de 1 a 3 dias. Confirmado oculto perto da costa onde o AIS ao vivo chega; ao largo é classificado como sem cobertura até o AIS com atraso o corroborar.{asof} Uma pista de inspeção, não uma prova.",
         asof: " Dados de {date} UTC.", back_to_showcase: "← Voltar à amostra", view_live: "Ver o monitor quase em tempo real →", view_showcase: "Ver a amostra mundial →", back_to_live: "← Voltar ao monitor ao vivo",
         badge_realtime: "Monitor ao vivo: embarcações sinalizadas por atividade aparentemente ilegal, cada uma com o seu motivo, jurisdição e um hash de evidência.{asof} Uma pista de inspeção, não uma prova.",
+        nav_live: "Monitor ao vivo", nav_historical: "Amostra histórica",
+        badge_s2: "A nossa própria deteção ótica de embarcações com Sentinel-2 sobre um foco da nossa lista: uma execução do detetor na cena Copernicus mais recente, cruzada com o AIS ao vivo, por isso uma embarcação sem emissão ao vivo é marcada como oculta. Parte do monitor ao vivo.{asof} Uma pista de inspeção, não uma prova.",
         hdr_global: "{total} registos em {n} ZEE de todo o mundo", hdr_local: "{total} registos em águas monitorizadas",
         by_type: "por tipo", by_severity: "por gravidade", by_eez: "por jurisdição (ZEE)", by_flag: "por Estado de bandeira", by_auth: "por autorização",
         more_eez: "e mais {n} ZEE", more_flags: "e mais {n} bandeiras",
@@ -576,6 +591,7 @@
       // merged with the live events monitor. The historical worldwide sample is at ?showcase.
       const MODE = params.has('showcase') ? 'showcase'
         : params.has('sar') ? 'sar'
+        : params.has('s2') ? 's2'
         : params.has('live') ? 'live'
         : 'realtime';
       let incidents, tracks, summary;
@@ -825,11 +841,15 @@
       const badge = mode === 'realtime' ? t('badge_realtime', { asof })
         : mode === 'live' ? t('badge_live', { asof })
         : mode === 'sar' ? t('badge_sar', { asof })
+        : mode === 's2' ? t('badge_s2', { asof })
         : t('badge_showcase');
       document.getElementById('vintage').innerHTML = badge;
-      document.getElementById('modelink').innerHTML = (mode === 'realtime')
-        ? `<a href="?showcase">${t('view_showcase')}</a>`
-        : `<a href="./" style="color:var(--fg)">${t('back_to_live')}</a>`;
+      // Persistent two-view switcher: the live monitor (default; also the parent of the sar / s2 /
+      // live detector views) vs the historical worldwide sample. Both always visible, active filled.
+      const liveOn = (mode !== 'showcase');
+      document.getElementById('modelink').innerHTML =
+        `<a href="./" class="modesw${liveOn ? ' on' : ''}">${t('nav_live')}</a>`
+        + `<a href="?showcase" class="modesw${liveOn ? '' : ' on'}">${t('nav_historical')}</a>`;
     }
 
     function flagEmoji(iso2) {
