@@ -666,14 +666,15 @@
         : params.has('live') ? 'live'
         : 'realtime';
       let incidents, tracks, summary;
+      // no-store: the data is regenerated (cron / near-real-time), so always fetch the current
+      // version rather than a stale cached copy. Defined out here (not inside the try) so the
+      // later sar-density and archive loaders can reuse it without a scope error.
+      const getJSON = async (p) => {
+        const r = await fetch(p, { cache: 'no-store' });
+        if (!r.ok) throw new Error(`${p} (${r.status})`);
+        return r.json();
+      };
       try {
-        // no-store: the data is regenerated (cron / near-real-time), so always fetch the
-        // current version rather than a stale cached copy.
-        const getJSON = async (p) => {
-          const r = await fetch(p, { cache: 'no-store' });
-          if (!r.ok) throw new Error(`${p} (${r.status})`);
-          return r.json();
-        };
         const loadDir = async (d) => ({
           incidents: await getJSON(`${d}/incidents.geojson`),
           tracks: await getJSON(`${d}/tracks.geojson`).catch(() => ({ type: 'FeatureCollection', features: [] })),
