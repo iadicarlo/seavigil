@@ -36,6 +36,45 @@ CAVEATS = [
     "An inspection lead, not courtroom evidence.",
 ]
 
+
+def innocent_note(d: dict) -> str:
+    """One honest, type-specific benign explanation for a flag (or '' if none applies).
+
+    The loudest maritime-industry critique of monitoring tools is false positives and
+    alert fatigue: most flags have an innocent explanation. Surfacing the most likely
+    benign cause next to every flag keeps SeaVigil a *lead*, not an accusation, and lets
+    an analyst rule out the obvious before acting. Deterministic, keyed on the dossier
+    type and its already-measured context; it invents no probability.
+    """
+    t = d.get("type")
+    if t == "ais_disabling":
+        off = d.get("off_distance_nm")
+        where = ("near the coast, where gaps are often port congestion or lost reception"
+                 if (off is not None and off < 20)
+                 else "in open water, where gaps are commonly protecting a fishing ground or "
+                      "waiting out weather")
+        return ("Going dark is frequently benign: " + where
+                + ". It is most actionable inside or beside a closed zone.")
+    if t == "ais_spoofing":
+        return ("Impossible-looking movement can be GNSS jamming or a faulty GPS/transponder, "
+                "not necessarily deliberate spoofing; flagged only on a sustained pattern.")
+    if t == "navstatus_mismatch":
+        return ("AIS navigational status is entered by the crew and is routinely stale; a wrong "
+                "status is usually a data-entry error, not wrongdoing.")
+    if t == "identity_change":
+        return ("One MMSI carrying more than one name can be a recycled transponder or a "
+                "transcription error, not necessarily identity manipulation.")
+    if t == "encounter":
+        return ("Two vessels meeting at sea can be a legitimate transfer, bunkering, or a safety "
+                "stop; transshipment is a possibility to verify, not a certainty.")
+    if t == "dark_vessel_sar":
+        return ("A radar contact with no AIS may be a vessel not required to broadcast, sea "
+                "clutter, or fixed infrastructure; treat as a lead to confirm.")
+    if t == "ais_fishing_incident":
+        return ("Apparent-fishing movement can also be slow transit or drifting; the model "
+                "rejects most such cases but not all.")
+    return ""
+
 _SHAP_METHOD = "mean per-position SHAP (fishing class) over the incident's fishing positions"
 
 
@@ -245,6 +284,10 @@ def render_markdown(dossier: dict) -> str:
         elif "drivers" in expl:  # SAR: attribute bullets (no movement track to SHAP)
             lines += [f"- {x}" for x in expl["drivers"]]
         lines.append("")
+
+    note = innocent_note(d)
+    if note:
+        lines += ["## Could be innocent", "", note, ""]
 
     lines += ["## Caveats", ""]
     lines += [f"- {c}" for c in d["caveats"]]

@@ -128,6 +128,7 @@
       padding:8px 9px;margin:8px 0;}
     .why2 strong{color:var(--teal-bright);}
     .cav2{color:var(--muted);font-size:11px;margin-top:8px;line-height:1.45;}
+    .cav2.inno{color:#a7c0c9;border-left:2px solid rgba(43,212,168,.55);padding-left:8px;margin-top:9px;}
     /* SHAP bars */
     .shap{margin-top:6px;}
     .shap-row{display:grid;grid-template-columns:96px 1fr;gap:7px;align-items:center;margin:3px 0;font-size:11px;}
@@ -281,6 +282,15 @@
         why_flagged: "Why flagged", why_flagged_c: "Why flagged:", why_sar: "SAR attributes; no AIS track to SHAP",
         why_spoof: "AIS position-anomaly rule", why_enc: "two-vessel encounter (Miller et al. 2018)",
         why_dark: "AIS gap rule (Welch et al. 2022 criteria)", why_shap: "SHAP, fishing class",
+        why_innocent: "Could be innocent",
+        innocent_ais_disabling: "Going dark is often benign: weather, port congestion, lost reception, or protecting a fishing ground. Most actionable inside or beside a closed zone.",
+        innocent_ais_spoofing: "Impossible-looking movement can be GNSS jamming or a faulty GPS, not necessarily deliberate spoofing; flagged only on a sustained pattern.",
+        innocent_encounter: "Two vessels meeting can be a legitimate transfer, bunkering, or a safety stop; transshipment is a possibility to verify, not a certainty.",
+        innocent_dark_vessel_sar: "A radar contact with no AIS may be a vessel not required to broadcast, sea clutter, or fixed infrastructure; treat as a lead to confirm.",
+        innocent_dark_vessel_optical: "An optical contact with no AIS may be a vessel not required to broadcast or a small non-fishing craft; treat as a lead to confirm.",
+        innocent_ais_fishing_incident: "Apparent-fishing movement can also be slow transit or drifting; the model rejects most such cases but not all.",
+        innocent_navstatus_mismatch: "AIS navigational status is entered by the crew and is routinely stale; a wrong status is usually a data error, not wrongdoing.",
+        innocent_identity_change: "One MMSI carrying more than one name can be a recycled transponder or a transcription error, not necessarily identity manipulation.",
         shap_legend: "Red pushes toward fishing, teal away.", confidence: "Confidence: ",
         data_unavailable: "Data unavailable.", could_not_load: "Could not load {msg}",
         reserves_title: "Marine reserves", reserves_hint: "Jump to a famous reserve.", reserves_notake: "no-take",
@@ -320,6 +330,15 @@
         why_flagged: "Por qué se señaló", why_flagged_c: "Por qué se señaló:", why_sar: "atributos SAR; sin trayectoria AIS para SHAP",
         why_spoof: "regla de anomalía de posición AIS", why_enc: "encuentro de dos buques (Miller et al. 2018)",
         why_dark: "regla de interrupción de AIS (criterios de Welch et al. 2022)", why_shap: "SHAP, clase pesca",
+        why_innocent: "Podría ser inocente",
+        innocent_ais_disabling: "Apagar el AIS suele ser inofensivo: clima, congestión portuaria, pérdida de recepción o proteger un caladero. Más accionable dentro o junto a una zona cerrada.",
+        innocent_ais_spoofing: "Un movimiento imposible puede ser interferencia GNSS o un GPS defectuoso, no necesariamente suplantación deliberada; se señala solo ante un patrón sostenido.",
+        innocent_encounter: "Dos buques que se encuentran pueden hacer una transferencia legítima, repostaje o una parada de seguridad; el transbordo es una posibilidad a verificar, no una certeza.",
+        innocent_dark_vessel_sar: "Un contacto de radar sin AIS puede ser un buque no obligado a emitir, retorno de mar o infraestructura fija; trátese como una pista a confirmar.",
+        innocent_dark_vessel_optical: "Un contacto óptico sin AIS puede ser un buque no obligado a emitir o una embarcación pequeña no pesquera; trátese como una pista a confirmar.",
+        innocent_ais_fishing_incident: "El movimiento de pesca aparente también puede ser tránsito lento o deriva; el modelo descarta la mayoría de esos casos, pero no todos.",
+        innocent_navstatus_mismatch: "El estado de navegación AIS lo introduce la tripulación y suele estar desactualizado; un estado erróneo suele ser un error de datos, no una infracción.",
+        innocent_identity_change: "Un MMSI con más de un nombre puede ser un transpondedor reciclado o un error de transcripción, no necesariamente manipulación de identidad.",
         shap_legend: "El rojo empuja hacia pesca; el verde, en contra.", confidence: "Confianza: ",
         data_unavailable: "Datos no disponibles.", could_not_load: "No se pudo cargar {msg}",
         reserves_title: "Reservas marinas", reserves_hint: "Salta a una reserva famosa.", reserves_notake: "veda total",
@@ -359,6 +378,15 @@
         why_flagged: "Motif du signalement", why_flagged_c: "Motif du signalement :", why_sar: "attributs SAR ; pas de trajectoire AIS pour SHAP",
         why_spoof: "règle d'anomalie de position AIS", why_enc: "rencontre de deux navires (Miller et al. 2018)",
         why_dark: "règle de coupure AIS (critères de Welch et al. 2022)", why_shap: "SHAP, classe pêche",
+        why_innocent: "Peut être innocent",
+        innocent_ais_disabling: "Couper l'AIS est souvent anodin : météo, congestion portuaire, perte de réception ou protection d'un lieu de pêche. Plus exploitable dans ou près d'une zone fermée.",
+        innocent_ais_spoofing: "Un mouvement impossible peut être un brouillage GNSS ou un GPS défectueux, pas forcément une usurpation délibérée ; signalé uniquement sur un schéma soutenu.",
+        innocent_encounter: "Deux navires qui se rencontrent peuvent faire un transfert légitime, un soutage ou un arrêt de sécurité ; le transbordement est une possibilité à vérifier, pas une certitude.",
+        innocent_dark_vessel_sar: "Un contact radar sans AIS peut être un navire non tenu d'émettre, un écho de mer ou une infrastructure fixe ; à traiter comme une piste à confirmer.",
+        innocent_dark_vessel_optical: "Un contact optique sans AIS peut être un navire non tenu d'émettre ou une petite embarcation non pêcheuse ; à traiter comme une piste à confirmer.",
+        innocent_ais_fishing_incident: "Un mouvement de pêche apparente peut aussi être un transit lent ou une dérive ; le modèle rejette la plupart de ces cas, mais pas tous.",
+        innocent_navstatus_mismatch: "Le statut de navigation AIS est saisi par l'équipage et souvent périmé ; un statut erroné est généralement une erreur de données, pas une infraction.",
+        innocent_identity_change: "Un MMSI portant plusieurs noms peut être un transpondeur recyclé ou une erreur de transcription, pas forcément une manipulation d'identité.",
         shap_legend: "Le rouge pousse vers la pêche, le turquoise à l'opposé.", confidence: "Confiance : ",
         data_unavailable: "Données indisponibles.", could_not_load: "Impossible de charger {msg}",
         reserves_title: "Réserves marines", reserves_hint: "Aller à une réserve célèbre.", reserves_notake: "réserve intégrale",
@@ -398,6 +426,15 @@
         why_flagged: "Por que foi sinalizado", why_flagged_c: "Por que foi sinalizado:", why_sar: "atributos SAR; sem rota AIS para SHAP",
         why_spoof: "regra de anomalia de posição AIS", why_enc: "encontro de duas embarcações (Miller et al. 2018)",
         why_dark: "regra de interrupção de AIS (critérios de Welch et al. 2022)", why_shap: "SHAP, classe pesca",
+        why_innocent: "Pode ser inocente",
+        innocent_ais_disabling: "Desligar o AIS costuma ser inofensivo: clima, congestão portuária, perda de receção ou proteger um pesqueiro. Mais acionável dentro ou junto a uma zona fechada.",
+        innocent_ais_spoofing: "Um movimento impossível pode ser interferência GNSS ou um GPS defeituoso, não necessariamente falsificação deliberada; sinalizado apenas num padrão sustentado.",
+        innocent_encounter: "Duas embarcações que se encontram podem fazer uma transferência legítima, abastecimento ou paragem de segurança; o transbordo é uma possibilidade a verificar, não uma certeza.",
+        innocent_dark_vessel_sar: "Um contacto de radar sem AIS pode ser uma embarcação não obrigada a emitir, retorno de mar ou infraestrutura fixa; trate como uma pista a confirmar.",
+        innocent_dark_vessel_optical: "Um contacto ótico sem AIS pode ser uma embarcação não obrigada a emitir ou uma pequena embarcação não pesqueira; trate como uma pista a confirmar.",
+        innocent_ais_fishing_incident: "O movimento de pesca aparente também pode ser trânsito lento ou deriva; o modelo rejeita a maioria desses casos, mas não todos.",
+        innocent_navstatus_mismatch: "O estado de navegação AIS é introduzido pela tripulação e costuma estar desatualizado; um estado errado é geralmente um erro de dados, não uma infração.",
+        innocent_identity_change: "Um MMSI com mais de um nome pode ser um transpondedor reciclado ou um erro de transcrição, não necessariamente manipulação de identidade.",
         shap_legend: "O vermelho puxa para pesca; o verde, ao contrário.", confidence: "Confiança: ",
         data_unavailable: "Dados indisponíveis.", could_not_load: "Não foi possível carregar {msg}",
         reserves_title: "Reservas marinhas", reserves_hint: "Ir para uma reserva famosa.", reserves_notake: "proteção total",
@@ -809,7 +846,10 @@
         const who = (p.name && p.name !== '') ? p.name : ('MMSI ' + p.mmsi);
         const detail = isDark ? `${p.quiet_min} min quiet, last seen at ${p.last_speed} kn`
           : 'two near-stationary vessels together';
-        popup.setLngLat(c).setHTML(`<b>${title}</b><br>${who}<br>${detail}`
+        const _inno = t('innocent_' + p.kind);
+        const innoLine = (_inno && _inno !== 'innocent_' + p.kind)
+          ? `<br><span style="color:var(--muted);font-size:11px">${_inno}</span>` : '';
+        popup.setLngLat(c).setHTML(`<b>${title}</b><br>${who}<br>${detail}${innoLine}`
           + `<br><span style="color:var(--muted)">A lead, not proof</span>`).addTo(map);
       });
       map.on('mouseenter', 'live-event-pts', () => { map.getCanvas().style.cursor = 'pointer'; });
@@ -999,6 +1039,10 @@
         const idBits = [p.flag, p.ship_type, p.destination ? 'to ' + p.destination : ''].filter(Boolean).join(' &middot; ');
         const kindLabel = t('kind_' + p.kind);
         const kindColor = KIND_COLOR[p.kind] || 'var(--ais)';
+        // The most likely benign cause, so a flag reads as a lead to check, not an accusation.
+        const _inno = t('innocent_' + p.kind);
+        const innoBit = (_inno && _inno !== 'innocent_' + p.kind)
+          ? `<div class="cav2 inno">&#9888;&#65039; <strong>${t('why_innocent')}:</strong> ${esc(_inno)}</div>` : '';
         const iuuBit = p.iuu_listed
           ? `<div class="row"><span class="sev" style="background:#c0392b;color:#fff;font-weight:700">IUU</span> <span style="color:var(--muted)">${esc(p.iuu_label || '')}</span></div>`
           : (p.iuu_label ? `<div class="row" style="color:var(--muted)">&#9873; ${esc(p.iuu_label)}</div>` : '');
@@ -1020,6 +1064,7 @@
           <div class="row"><strong>${t('d_when')}</strong> ${esc(p.when || 'n/a')}</div>
           ${whyBlock(p, isAttr)}
           ${p.baseline ? `<div class="row" style="color:var(--muted)"><strong style="color:var(--teal-bright)">${t('d_baseline')}</strong> ${esc(p.baseline)}</div>` : ''}
+          ${innoBit}
           <div class="cav2">${esc(p.caveats || p.caveat || '')}</div>
           ${p.evidence_hash ? `<div class="row" style="font-size:10px;color:var(--faint)">${t('d_evidence_id')} <code>${esc(p.evidence_hash.slice(0, 16))}</code></div>` : ''}
           <button type="button" class="dlbtn" id="dl-dossier">${t('d_download')}</button>`;
@@ -1125,6 +1170,7 @@
         generated_at: GENERATED_AT,
         detection: { type: p.kind, severity: p.severity || null, severity_reason: p.severity_reason || null,
           model_fishing_score: (p.score ?? null), explanation: p.why_full || p.why || null,
+          benign_explanation: (p.innocent || I18N.en['innocent_' + p.kind] || null),
           model_calibration: (p.kind === 'ais_fishing_incident' ? MODEL_CAL : null) },
         location: { mpa: p.mpa || null, eez: p.eez || null, eez_sovereign: p.eez_sovereign || null,
           eez_foreign: (p.eez_foreign ?? null), when_utc: p.when || null },

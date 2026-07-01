@@ -14,6 +14,7 @@ from datetime import datetime, timezone
 from pathlib import Path
 
 from seavigil import evidence
+from seavigil.dossier import innocent_note
 from seavigil.flags import emoji_for, to_iso2
 
 ROOT = Path(__file__).resolve().parent.parent
@@ -129,6 +130,8 @@ def incidents_to_geojson(dossiers: list[dict]) -> dict:
                     # whole caveat list joined for the full dossier view
                     "caveats": " | ".join(d.get("caveats") or []),
                     "caveat": (d.get("caveats") or [""])[0],
+                    # the most likely benign cause, so a flag reads as a lead, not an accusation
+                    "innocent": innocent_note(d),
                 },
             }
         )
