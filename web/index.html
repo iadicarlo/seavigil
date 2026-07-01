@@ -159,6 +159,12 @@
     .maplibregl-ctrl-attrib{background:rgba(8,22,32,.7)!important;}
     .maplibregl-ctrl-attrib,.maplibregl-ctrl-attrib a{color:var(--muted)!important;}
     .maplibregl-ctrl-scale{background:rgba(8,22,32,.6);border-color:var(--panel-border);color:var(--muted);}
+    /* keep the zoom + compass control clear of the top-right stats panel */
+    .maplibregl-ctrl-top-right{top:12px;right:256px;}
+    #copyright{position:absolute;bottom:2px;right:10px;z-index:1;font-size:9.5px;line-height:1.3;
+      color:var(--faint);background:rgba(8,22,32,.55);padding:2px 8px;border-radius:5px;
+      max-width:min(72vw,540px);text-align:right;pointer-events:none;}
+    #copyright a{color:var(--faint);}
 
     /* Live AIS layer: count pill (present only while the always-on live endpoint is serving) */
     #livepill{position:absolute;left:50%;bottom:14px;transform:translateX(-50%);z-index:6;
@@ -185,6 +191,9 @@
       #header .full{display:none;}
       #stats,#detail{top:auto;bottom:8px;left:8px;right:8px;width:auto;max-height:42vh;}
       #legend,#reserves{display:none;}
+      /* the header fills the top and the stats panel the bottom, so float zoom on the right edge */
+      .maplibregl-ctrl-top-right{top:auto;right:8px;bottom:calc(42vh + 14px);}
+      #copyright{display:none;}
     }
   </style>
 </head>
@@ -246,6 +255,7 @@
 
   <div id="stats" class="panel"></div>
   <div id="detail" class="panel"></div>
+  <div id="copyright">&copy; 2026 SeaVigil &middot; Natural Earth &middot; Protected Planet &middot; Global Fishing Watch (CC BY-NC)</div>
 
   <!-- Reserves browser: collapsed by default so it stays out of the way; click the
        summary to expand the list of famous marine reserves, click a row to fly there. -->
