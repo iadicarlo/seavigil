@@ -1,7 +1,7 @@
 # SeaVigil - outreach pack
 
 Drafts to reach fisheries-enforcement NGOs, marine-conservation groups, Global Fishing Watch, and
-National Geographic. Sender: Isma Abdelkader Di Carlo (independent / solo). Ask: **collaboration /
+National Geographic. Sender: Isma A Di Carlo (independent / solo). Ask: **collaboration /
 feedback** (low-friction), not a sale.
 Links: live map https://seavigil.org · code https://github.com/iadicarlo/seavigil
 Honest framing throughout: lead with what is genuinely ours, name the limits ourselves, keep every
@@ -106,7 +106,7 @@ exactly this kind of tool.
 
 Hi `[name]`,
 
-I'm Isma Abdelkader Di Carlo, an independent developer. I built a small open, non-commercial tool,
+I'm Isma A Di Carlo, an independent developer. I built a small open, non-commercial tool,
 SeaVigil, **on top of your work**: it trains on your open AIS labels, runs the open Allen
 Institute / Skylight Sentinel-1 and Sentinel-2 vessel detectors over scenes I choose, and uses your
 vessel-identity registry for authorization. I want to be upfront that I am not claiming to have
@@ -123,7 +123,7 @@ https://seavigil.org · https://github.com/iadicarlo/seavigil.
 
 Thank you for making the data and the models open; none of this exists without it.
 
-Isma Abdelkader Di Carlo
+Isma A Di Carlo
 
 ---
 
@@ -133,7 +133,7 @@ Isma Abdelkader Di Carlo
 
 Hi `[name]`,
 
-I'm Isma Abdelkader Di Carlo, an independent developer. I've built SeaVigil, a free, non-commercial
+I'm Isma A Di Carlo, an independent developer. I've built SeaVigil, a free, non-commercial
 tool that flags illegal-fishing behavior - apparent fishing, dark (non-broadcasting) vessels, going
 dark, at-sea encounters - and produces a per-incident dossier with a plain, auditable reason for each
 flag, an **authorization check against the RFMO records**, and a **satellite photo of the vessel**.
@@ -149,7 +149,7 @@ Live map + open code: https://seavigil.org · https://github.com/iadicarlo/seavi
 
 Thanks for considering it,
 
-Isma Abdelkader Di Carlo
+Isma A Di Carlo
 
 ---
 
@@ -159,7 +159,7 @@ Isma Abdelkader Di Carlo
 
 Hi `[name]`,
 
-I'm Isma Abdelkader Di Carlo, an independent developer. I built SeaVigil, a free, non-commercial tool
+I'm Isma A Di Carlo, an independent developer. I built SeaVigil, a free, non-commercial tool
 that turns vessel-movement and satellite signals into an **auditable, per-incident dossier** of
 apparent fishing and dark vessels inside Marine Protected Areas and national waters, with a
 **true-color satellite photo of each detection**, designed to run **offline on a laptop** so an
@@ -177,7 +177,7 @@ inspection lead, not proof, and strictly non-commercial.
 
 Warm regards,
 
-Isma Abdelkader Di Carlo
+Isma A Di Carlo
 
 ---
 

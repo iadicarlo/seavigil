@@ -148,4 +148,4 @@ SeaVigil is built and maintained by one independent researcher as a non-commerci
 
 ## Credits
 
-Author: Isma Abdelkader Di Carlo. Built on open data and open models from Global Fishing Watch, the Allen Institute for AI / Skylight, Marine Regions (Flanders VLIZ), UNEP-WCMC / IUCN, and Natural Earth. License: MIT (code).
+Author: Isma A Di Carlo. Built on open data and open models from Global Fishing Watch, the Allen Institute for AI / Skylight, Marine Regions (Flanders VLIZ), UNEP-WCMC / IUCN, and Natural Earth. License: MIT (code).
