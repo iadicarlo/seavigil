@@ -3,7 +3,7 @@
 - **MPA:** At-sea encounter (transshipment)
 - **Severity:** HIGH (foreign vessel, no authorization on record)
 - **EEZ:** Overlapping claim Taiwan: Taiwan / China (Taiwan) -- FOREIGN-flagged vessel
-- **Authorization:** No authorization on record
+- **Authorization:** No public authorization record (check coastal state)
 - **Vessel:** 🇨🇳 MINHUIYU02086  ·  **signal:** Encounter
 - **When (UTC):** 2026-06-27T20:20:00.000Z → 2026-06-27T23:50:00.000Z
 - **Encounter:** 3.5 h with carrier `700225652` (apparent transshipment)

@@ -3,7 +3,7 @@
 - **MPA:** AIS disabling (going dark)
 - **Severity:** HIGH (foreign vessel, no authorization on record)
 - **EEZ:** Spanish Exclusive Economic Zone (Spain) -- FOREIGN-flagged vessel
-- **Authorization:** No authorization on record
+- **Authorization:** No public authorization record (check coastal state)
 - **Vessel:** 🇵🇹 LUTADOR  ·  **signal:** AIS gap
 - **When (UTC):** 2026-06-26T07:00:55.000Z → 2026-06-26T19:28:43.000Z
 - **Gap:** 12.5 h dark, 249.0 nm offshore

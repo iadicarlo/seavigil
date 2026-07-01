@@ -3,7 +3,7 @@
 - **MPA:** At-sea encounter (transshipment)
 - **Severity:** HIGH (foreign vessel, no authorization on record)
 - **EEZ:** Chinese Exclusive Economic Zone (China) -- FOREIGN-flagged vessel
-- **Authorization:** No authorization on record
+- **Authorization:** No public authorization record (check coastal state)
 - **Vessel:** 🇨🇽 60037-4 90%  ·  **signal:** Encounter
 - **When (UTC):** 2026-06-27T14:20:00.000Z → 2026-06-27T20:30:00.000Z
 - **Encounter:** 6.2 h with carrier `516003701` (apparent transshipment)

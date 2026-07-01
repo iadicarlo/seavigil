@@ -3,7 +3,7 @@
 - **MPA:** AIS disabling (going dark)
 - **Severity:** HIGH (foreign vessel, no authorization on record)
 - **EEZ:** Sierra Leonean Exclusive Economic Zone (Sierra Leone) -- FOREIGN-flagged vessel
-- **Authorization:** No authorization on record
+- **Authorization:** No public authorization record (check coastal state)
 - **Vessel:** 🇲🇭 PRINCESS ETERNITY  ·  **signal:** AIS gap
 - **When (UTC):** 2026-06-26T00:48:41.000Z → 2026-06-26T15:30:28.000Z
 - **Gap:** 14.7 h dark, 119.0 nm offshore

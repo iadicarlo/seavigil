@@ -3,7 +3,7 @@
 - **MPA:** AIS disabling (going dark)
 - **Severity:** HIGH (foreign vessel, no authorization on record)
 - **EEZ:** Australian Exclusive Economic Zone (Australia) -- FOREIGN-flagged vessel
-- **Authorization:** No authorization on record
+- **Authorization:** No public authorization record (check coastal state)
 - **Vessel:** 🇮🇪 KAYBEANNA 5-99%  ·  **signal:** AIS gap
 - **When (UTC):** 2026-06-25T15:45:16.000Z → 2026-06-26T22:51:06.000Z
 - **Gap:** 31.1 h dark, 69.0 nm offshore

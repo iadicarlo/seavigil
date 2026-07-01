@@ -3,7 +3,7 @@
 - **MPA:** AIS disabling (going dark)
 - **Severity:** HIGH (foreign vessel, no authorization on record)
 - **EEZ:** Kiribati Exclusive Economic Zone (Phoenix Group) (Kiribati) -- FOREIGN-flagged vessel
-- **Authorization:** No authorization on record
+- **Authorization:** No public authorization record (check coastal state)
 - **Vessel:** 🇨🇳 SYY39-2024-07-99%  ·  **signal:** AIS gap
 - **When (UTC):** 2026-06-26T11:28:37.000Z → 2026-06-27T08:18:54.000Z
 - **Gap:** 20.8 h dark, 67.0 nm offshore

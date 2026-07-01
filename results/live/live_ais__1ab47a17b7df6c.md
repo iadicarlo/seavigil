@@ -3,7 +3,7 @@
 - **MPA:** AIS disabling (going dark)
 - **Severity:** HIGH (foreign vessel, no authorization on record)
 - **EEZ:** Cape Verdean Exclusive Economic Zone (Cape Verde) -- FOREIGN-flagged vessel
-- **Authorization:** No authorization on record
+- **Authorization:** No public authorization record (check coastal state)
 - **Vessel:** 🇪🇸 F/V ALBACORA QUINCE  ·  **signal:** AIS gap
 - **When (UTC):** 2026-06-21T05:23:06.000Z → 2026-06-26T18:29:13.000Z
 - **Gap:** 133.1 h dark, 350.0 nm offshore

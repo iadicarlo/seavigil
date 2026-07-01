@@ -3,7 +3,7 @@
 - **MPA:** AIS disabling (going dark)
 - **Severity:** HIGH (foreign vessel, no authorization on record)
 - **EEZ:** Cape Verdean Exclusive Economic Zone (Cape Verde) -- FOREIGN-flagged vessel
-- **Authorization:** No authorization on record
+- **Authorization:** No public authorization record (check coastal state)
 - **Vessel:** 🇧🇿 PLAYA DE LAGA  ·  **signal:** AIS gap
 - **When (UTC):** 2026-06-16T06:26:43.000Z → 2026-06-27T19:56:08.000Z
 - **Gap:** 277.5 h dark, 171.0 nm offshore

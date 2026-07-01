@@ -3,7 +3,7 @@
 - **MPA:** At-sea encounter (transshipment)
 - **Severity:** HIGH (foreign vessel, no authorization on record)
 - **EEZ:** Kiribati Exclusive Economic Zone (Gilbert Islands) (Kiribati) -- FOREIGN-flagged vessel
-- **Authorization:** No authorization on record  ·  IMO 9808687
+- **Authorization:** No public authorization record (check coastal state)  ·  IMO 9808687
 - **Vessel:** 🇨🇳 JIN HUI 58  ·  **signal:** Encounter
 - **When (UTC):** 2026-06-27T09:20:00.000Z → 2026-06-27T13:40:00.000Z
 - **Encounter:** 4.3 h with carrier `577639000` (apparent transshipment)

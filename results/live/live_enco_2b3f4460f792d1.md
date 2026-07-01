@@ -3,7 +3,7 @@
 - **MPA:** At-sea encounter (transshipment)
 - **Severity:** HIGH (foreign vessel, no authorization on record)
 - **EEZ:** Overlapping claim: South China Sea (China) -- FOREIGN-flagged vessel
-- **Authorization:** No authorization on record
+- **Authorization:** No public authorization record (check coastal state)
 - **Vessel:** 🇻🇳 CMK ANH 2  B7  ·  **signal:** Encounter
 - **When (UTC):** 2026-06-27T12:10:00.000Z → 2026-06-27T17:10:00.000Z
 - **Encounter:** 5.0 h with carrier `574208099` (apparent transshipment)

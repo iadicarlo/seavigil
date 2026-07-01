@@ -3,7 +3,7 @@
 - **MPA:** AIS disabling (going dark)
 - **Severity:** HIGH (foreign vessel, no authorization on record)
 - **EEZ:** Senegalese Exclusive Economic Zone (Senegal) -- FOREIGN-flagged vessel
-- **Authorization:** No authorization on record
+- **Authorization:** No public authorization record (check coastal state)
 - **Vessel:** 🇲🇭 PRINCESS ETERNITY  ·  **signal:** AIS gap
 - **When (UTC):** 2026-06-27T07:47:41.000Z → 2026-06-27T20:40:37.000Z
 - **Gap:** 12.9 h dark, 53.0 nm offshore

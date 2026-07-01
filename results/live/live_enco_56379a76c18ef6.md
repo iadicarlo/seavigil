@@ -3,7 +3,7 @@
 - **MPA:** At-sea encounter (transshipment)
 - **Severity:** HIGH (foreign vessel, no authorization on record)
 - **EEZ:** Chinese Exclusive Economic Zone (China) -- FOREIGN-flagged vessel
-- **Authorization:** No authorization on record
+- **Authorization:** No public authorization record (check coastal state)
 - **Vessel:** 🇹🇼 XIE XING 168  ·  **signal:** Encounter
 - **When (UTC):** 2026-06-27T02:40:00.000Z → 2026-06-27T23:50:00.000Z
 - **Encounter:** 21.2 h with carrier `416002468` (apparent transshipment)

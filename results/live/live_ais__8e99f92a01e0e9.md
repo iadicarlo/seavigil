@@ -3,7 +3,7 @@
 - **MPA:** AIS disabling (going dark)
 - **Severity:** HIGH (foreign vessel, no authorization on record)
 - **EEZ:** Somali Exclusive Economic Zone (Federal Republic of Somalia) -- FOREIGN-flagged vessel
-- **Authorization:** No authorization on record  ·  IMO 9165839
+- **Authorization:** No public authorization record (check coastal state)  ·  IMO 9165839
 - **Vessel:** 🇮🇷 NEGAR  ·  **signal:** AIS gap
 - **When (UTC):** 2026-06-26T08:33:23.000Z → 2026-06-26T22:04:21.000Z
 - **Gap:** 13.5 h dark, 156.0 nm offshore

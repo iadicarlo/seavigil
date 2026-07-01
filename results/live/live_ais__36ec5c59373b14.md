@@ -3,7 +3,7 @@
 - **MPA:** AIS disabling (going dark)
 - **Severity:** HIGH (foreign vessel, no authorization on record)
 - **EEZ:** Grenadian Exclusive Economic Zone (Grenada) -- FOREIGN-flagged vessel
-- **Authorization:** No authorization on record
+- **Authorization:** No public authorization record (check coastal state)
 - **Vessel:** 🇨🇳 ONWA52112  ·  **signal:** AIS gap
 - **When (UTC):** 2026-06-25T10:10:58.000Z → 2026-06-26T12:27:44.000Z
 - **Gap:** 26.3 h dark, 73.0 nm offshore

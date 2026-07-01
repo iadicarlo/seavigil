@@ -3,7 +3,7 @@
 - **MPA:** AIS disabling (going dark)
 - **Severity:** HIGH (foreign vessel, no authorization on record)
 - **EEZ:** Japanese Exclusive Economic Zone (Japan) -- FOREIGN-flagged vessel
-- **Authorization:** No authorization on record
+- **Authorization:** No public authorization record (check coastal state)
 - **Vessel:** 🇵🇹 BELLE CONFIDENCE  ·  **signal:** AIS gap
 - **When (UTC):** 2026-06-26T02:19:34.000Z → 2026-06-27T01:01:19.000Z
 - **Gap:** 22.7 h dark, 207.0 nm offshore

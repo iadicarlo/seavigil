@@ -3,7 +3,7 @@
 - **MPA:** AIS disabling (going dark)
 - **Severity:** HIGH (foreign vessel, no authorization on record)
 - **EEZ:** Brazilian Exclusive Economic Zone (Brazil) -- FOREIGN-flagged vessel
-- **Authorization:** No authorization on record
+- **Authorization:** No public authorization record (check coastal state)
 - **Vessel:** 🇸🇬 EAGLE CAMBE  ·  **signal:** AIS gap
 - **When (UTC):** 2026-06-26T16:34:03.000Z → 2026-06-27T10:32:03.000Z
 - **Gap:** 18.0 h dark, 106.0 nm offshore

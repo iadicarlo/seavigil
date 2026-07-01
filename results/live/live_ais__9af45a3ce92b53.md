@@ -3,7 +3,7 @@
 - **MPA:** AIS disabling (going dark)
 - **Severity:** HIGH (foreign vessel, no authorization on record)
 - **EEZ:** Joint regime area: São Tomé and Principe / Nigeria (São Tomé and Principe) -- FOREIGN-flagged vessel
-- **Authorization:** No authorization on record
+- **Authorization:** No public authorization record (check coastal state)
 - **Vessel:** 🇱🇷 AMARYA  ·  **signal:** AIS gap
 - **When (UTC):** 2026-06-24T23:59:13.000Z → 2026-06-27T00:04:15.000Z
 - **Gap:** 48.1 h dark, 62.0 nm offshore

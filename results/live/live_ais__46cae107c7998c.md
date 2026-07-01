@@ -3,7 +3,7 @@
 - **MPA:** AIS disabling (going dark)
 - **Severity:** HIGH (foreign vessel, no authorization on record)
 - **EEZ:** New Zealand Exclusive Economic Zone (Niue) (New Zealand) -- FOREIGN-flagged vessel
-- **Authorization:** No authorization on record
+- **Authorization:** No public authorization record (check coastal state)
 - **Vessel:** 🇺🇸 DUE  ·  **signal:** AIS gap
 - **When (UTC):** 2026-06-24T22:33:31.000Z → 2026-06-26T21:29:20.000Z
 - **Gap:** 46.9 h dark, 129.0 nm offshore

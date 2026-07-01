@@ -3,7 +3,7 @@
 - **MPA:** AIS disabling (going dark)
 - **Severity:** HIGH (foreign vessel, no authorization on record)
 - **EEZ:** Brazilian Exclusive Economic Zone (Brazil) -- FOREIGN-flagged vessel
-- **Authorization:** No authorization on record
+- **Authorization:** No public authorization record (check coastal state)
 - **Vessel:** 🇬🇧 LIVORNO  ·  **signal:** AIS gap
 - **When (UTC):** 2026-06-25T16:32:03.000Z → 2026-06-27T05:02:11.000Z
 - **Gap:** 36.5 h dark, 148.0 nm offshore

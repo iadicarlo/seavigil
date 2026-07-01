@@ -3,7 +3,7 @@
 - **MPA:** At-sea encounter (transshipment)
 - **Severity:** HIGH (foreign vessel, no authorization on record)
 - **EEZ:** Chinese Exclusive Economic Zone (China) -- FOREIGN-flagged vessel
-- **Authorization:** No authorization on record
+- **Authorization:** No public authorization record (check coastal state)
 - **Vessel:** 🇹🇼 FUHJYI NO 6  ·  **signal:** Encounter
 - **When (UTC):** 2026-06-26T07:50:00.000Z → 2026-06-27T13:00:00.000Z
 - **Encounter:** 29.2 h with carrier `200027020` (apparent transshipment)

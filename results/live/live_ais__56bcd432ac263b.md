@@ -3,7 +3,7 @@
 - **MPA:** AIS disabling (going dark)
 - **Severity:** HIGH (foreign vessel, no authorization on record)
 - **EEZ:** Tuvaluan Exclusive Economic Zone (Tuvalu) -- FOREIGN-flagged vessel
-- **Authorization:** No authorization on record
+- **Authorization:** No public authorization record (check coastal state)
 - **Vessel:** 🇨🇳 LRYY137....08  ·  **signal:** AIS gap
 - **When (UTC):** 2026-06-25T17:29:03.000Z → 2026-06-26T14:16:39.000Z
 - **Gap:** 20.8 h dark, 67.0 nm offshore

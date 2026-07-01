@@ -3,7 +3,7 @@
 - **MPA:** AIS disabling (going dark)
 - **Severity:** HIGH (foreign vessel, no authorization on record)
 - **EEZ:** Angolan Exclusive Economic Zone (Angola) -- FOREIGN-flagged vessel
-- **Authorization:** No authorization on record
+- **Authorization:** No public authorization record (check coastal state)
 - **Vessel:** 🇸🇬 AGOGO FPSO  ·  **signal:** AIS gap
 - **When (UTC):** 2026-06-26T18:54:57.000Z → 2026-06-27T06:58:52.000Z
 - **Gap:** 12.1 h dark, 83.0 nm offshore

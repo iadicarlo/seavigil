@@ -3,7 +3,7 @@
 - **MPA:** AIS disabling (going dark)
 - **Severity:** HIGH (foreign vessel, no authorization on record)
 - **EEZ:** New Zealand Exclusive Economic Zone (Cook Islands) (New Zealand) -- FOREIGN-flagged vessel
-- **Authorization:** No authorization on record
+- **Authorization:** No public authorization record (check coastal state)
 - **Vessel:** 🇨🇳 RONGDAYANG8-5  100%  ·  **signal:** AIS gap
 - **When (UTC):** 2026-06-26T03:36:01.000Z → 2026-06-26T21:29:58.000Z
 - **Gap:** 17.9 h dark, 95.0 nm offshore
