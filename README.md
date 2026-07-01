@@ -22,7 +22,7 @@ It does not try to out-detect [Global Fishing Watch](https://globalfishingwatch.
 
 Plus three **data-integrity leads** on the live monitor, the AIS anomalies working mariners say they actually trust: **nav-status vs motion** (broadcasting *moored* while the track shows real transit), **identity change** (one MMSI carrying more than one vessel name), and the position anomaly above. Each is context for an analyst to check, never proof, and never rolled into a flag's confidence. Every flag also carries its most likely **innocent explanation**, so it reads as a lead to check, not an accusation.
 
-Every flag is tagged with the EEZ it falls in (global Marine Regions boundaries) and graded for **authorization**: a foreign-flagged vessel is looked up in the GFW vessel-identity registry and checked against the RFMO / regional authorizations on record (FFA, WCPFC, IOTC, ICCAT, IATTC, CCSBT, CCAMLR), so a bare "foreign" becomes *authorized / authorization lapsed / no authorization on record / domestic*. National EEZ licences are not public, so an empty record means "no public record", not proof.
+Every flag is tagged with the EEZ it falls in (global Marine Regions boundaries) and graded for **authorization**: a foreign-flagged vessel is looked up in the GFW vessel-identity registry and checked against the RFMO / regional authorizations on record (FFA, WCPFC, IOTC, ICCAT, IATTC, CCSBT, CCAMLR), so a bare "foreign" becomes *authorized / authorization lapsed / no public authorization record / domestic*. National EEZ licences are not public, so an empty record means "no public record", not proof of illegality.
 
 ## Three ways to see it
 
@@ -136,9 +136,15 @@ Consuming GFW's SAR / events (CC BY-NC) and the WDPA layer (non-commercial, disp
 - A flag is an **inspection lead, not courtroom proof**: encrypted VMS outranks public AIS/SAR in fisheries law and remote-sensing-only prosecutions are rare, so it tells an officer where to look and why, it does not convict.
 - "Fishing" is **apparent** (inferred from movement); classifier metrics are on **unseen vessels**, and the labels cover a few gear types (2012-2015).
 - AIS is blind to the **~75% of industrial vessels that don't broadcast** (the dark fleet) and is spoofable; SAR and optical see them but carry no identity.
+- Dark-vessel detection runs the **open Allen Institute / Skylight models**; their per-scene false-positive rate has not been independently validated here, so a SAR or optical flag is a candidate to confirm, not a certainty.
+- We have **no satellite AIS**: the live feed is terrestrial (~24k mostly-coastal vessels), so the open ocean looks emptier than it is, and a "dark" SAR blip offshore cannot be fully cleared against space-based AIS we do not receive. SAR is the answer for what terrestrial AIS cannot see.
 - SeaVigil is a **targeting and evidence layer, not an enforcement one**: it does not supply the patrol asset, jurisdiction, or state will an interdiction needs, and it is blind to crew and labor conditions and to small artisanal (under ~12 m) boats. Its value is a better-targeted inspection per patrol-day, and a defensible packet to attach to the hull.
 - National EEZ fishing **licences are not public**, so an empty authorization record means "no public record", not proof of illegality.
 - Coverage is **focused, not omniscient**: live AIS is seconds to minutes and our own SAR / optical detection lands within hours of each satellite pass, but coverage is bounded by satellite revisit and the reach of terrestrial AIS, and GFW's offshore events carry their own multi-day lag. The showcase is a fixed historical sample.
+
+## Maintenance and continuity
+
+SeaVigil is built and maintained by one independent researcher as a non-commercial project. Because the whole pipeline, models, and data are open source and reproducible, a partner organisation can run, audit, fork, or self-host it independently, so its continuity does not depend on a single maintainer. Collaboration, pilots, and corrections are welcome via [GitHub issues](https://github.com/iadicarlo/seavigil/issues) or the contact form on the [About page](https://seavigil.org/about.html).
 
 ## Credits
 
