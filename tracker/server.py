@@ -104,7 +104,9 @@ ROOT = HERE.parent
 WEB = ROOT / "web"
 DB = HERE / "tracker.db"
 LIVE_ENDPOINT = "/live/positions.geojson"
-MAX_FEATURES = 8000   # backstop so a very busy window cannot produce a pathological payload
+MAX_FEATURES = 20000  # newest-N cap; gzip keeps the payload small. Higher = fairer to sparse-AIS
+                      # regions (Indian Ocean, S. Atlantic, Latin America), whose vessels update less
+                      # often and were being truncated out by the busy North-Atlantic feed.
 
 # Loaded after ROOT is defined (it reads ROOT/data/watchlist.json).
 _AREAS = _load_areas()
@@ -410,6 +412,11 @@ class Handler(SimpleHTTPRequestHandler):
     def _send_json(self, body: bytes) -> None:
         self.send_response(200)
         self.send_header("Content-Type", "application/json")
+        # GeoJSON is highly repetitive; gzip shrinks it ~8x, so a 20k-vessel feed stays small.
+        if "gzip" in self.headers.get("Accept-Encoding", ""):
+            import gzip
+            body = gzip.compress(body, 5)
+            self.send_header("Content-Encoding", "gzip")
         self.send_header("Content-Length", str(len(body)))
         self.end_headers()
         self.wfile.write(body)
