@@ -71,3 +71,6 @@ web/data/*/chips/
 
 # The open Allen model repo, cloned + cached by the SAR engine workflow (never committed)
 vendor/
+
+# contact form submissions (VPS-local)
+tracker/contact_inbox.jsonl

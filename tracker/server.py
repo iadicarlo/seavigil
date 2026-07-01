@@ -103,6 +103,8 @@ HERE = Path(__file__).resolve().parent
 ROOT = HERE.parent
 WEB = ROOT / "web"
 DB = HERE / "tracker.db"
+CONTACT_LOG = HERE / "contact_inbox.jsonl"   # gitignored; every submission is stored here
+_CONTACT_HITS: dict = {}                     # ip -> [timestamps], a light per-IP rate limit
 LIVE_ENDPOINT = "/live/positions.geojson"
 MAX_FEATURES = 20000  # newest-N cap; gzip keeps the payload small. Higher = fairer to sparse-AIS
                       # regions (Indian Ocean, S. Atlantic, Latin America), whose vessels update less
@@ -402,6 +404,60 @@ def _events_geojson() -> bytes:
                        "features": feats}).encode()
 
 
+def _relay_contact(rec: dict) -> None:
+    """Best-effort email relay if SMTP is configured in the environment; otherwise the message is
+    already stored in the inbox file. Configure in .env to forward to your own mailbox (e.g. iCloud:
+    CONTACT_SMTP_HOST=smtp.mail.me.com, CONTACT_SMTP_PORT=587, CONTACT_SMTP_USER + CONTACT_SMTP_PASS
+    = an app-specific password, CONTACT_TO + CONTACT_FROM = your address)."""
+    host, to = os.environ.get("CONTACT_SMTP_HOST"), os.environ.get("CONTACT_TO")
+    if not host or not to:
+        return
+    import smtplib
+    import ssl
+    from email.message import EmailMessage
+    try:
+        m = EmailMessage()
+        m["Subject"] = "SeaVigil contact form"
+        m["From"] = os.environ.get("CONTACT_FROM", os.environ.get("CONTACT_SMTP_USER", to))
+        m["To"] = to
+        m.set_content(f"From: {rec.get('name') or '(no name)'} <{rec.get('email') or 'n/a'}>\n"
+                      f"IP: {rec.get('ip')}\n\n{rec.get('message', '')}")
+        port = int(os.environ.get("CONTACT_SMTP_PORT", "587"))
+        user, pw = os.environ.get("CONTACT_SMTP_USER"), os.environ.get("CONTACT_SMTP_PASS")
+        with smtplib.SMTP(host, port, timeout=15) as s:
+            s.starttls(context=ssl.create_default_context())
+            if user and pw:
+                s.login(user, pw)
+            s.send_message(m)
+    except Exception as e:  # noqa: BLE001 - a mail failure must not lose the stored message
+        print("contact relay failed:", e)
+
+
+def _handle_contact(data: dict, ip: str):
+    """Validate + store a contact submission (and relay if configured). Returns (ok, error)."""
+    msg = (data.get("message") or "").strip()
+    if not msg:
+        return False, "message required"
+    if len(msg) > 5000:
+        return False, "message too long"
+    now = time.time()
+    hits = [t for t in _CONTACT_HITS.get(ip, []) if now - t < 3600]
+    if len(hits) >= 5:   # 5 per hour per IP is plenty for a contact form
+        return False, "too many messages, please try later"
+    hits.append(now)
+    _CONTACT_HITS[ip] = hits
+    rec = {"ts": int(now), "ip": ip, "name": (data.get("name") or "").strip()[:200],
+           "email": (data.get("email") or "").strip()[:200], "message": msg[:5000]}
+    try:
+        with open(CONTACT_LOG, "a", encoding="utf-8") as f:
+            f.write(json.dumps(rec) + "\n")
+    except Exception as e:  # noqa: BLE001
+        print("contact store failed:", e)
+        return False, "server error"
+    _relay_contact(rec)
+    return True, ""
+
+
 class Handler(SimpleHTTPRequestHandler):
     window_min = 60.0
 
@@ -433,6 +489,22 @@ class Handler(SimpleHTTPRequestHandler):
             self._send_json(_cached("events", 20.0, _events_geojson))
             return
         super().do_GET()
+
+    def do_POST(self):  # noqa: N802 (stdlib casing)
+        if self.path.split("?", 1)[0] != "/contact":
+            self.send_error(404)
+            return
+        try:
+            n = int(self.headers.get("Content-Length", 0))
+            if n <= 0 or n > 20000:
+                self._send_json(json.dumps({"ok": False, "error": "empty or too large"}).encode())
+                return
+            data = json.loads(self.rfile.read(n))
+        except Exception:  # noqa: BLE001
+            self._send_json(json.dumps({"ok": False, "error": "bad request"}).encode())
+            return
+        ok, err = _handle_contact(data, self.client_address[0])
+        self._send_json(json.dumps({"ok": ok, "error": err}).encode())
 
     def translate_path(self, path: str) -> str:
         # The whole UI is the real web/ site; "/" is its index.
