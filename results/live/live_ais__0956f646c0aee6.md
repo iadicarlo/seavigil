@@ -1,9 +1,9 @@
 # Incident `live_ais__0956f646c0aee6`
 
 - **MPA:** AIS disabling (going dark)
-- **Severity:** HIGH (foreign vessel, authorization lapsed)
+- **Severity:** HIGH (foreign vessel, no authorization on record)
 - **EEZ:** Spanish Exclusive Economic Zone (Spain) -- FOREIGN-flagged vessel
-- **Authorization:** Authorization lapsed before this date: NAFO, NEAFC  ·  IMO 6711390
+- **Authorization:** No authorization on record
 - **Vessel:** 🇵🇹 LUTADOR  ·  **signal:** AIS gap
 - **When (UTC):** 2026-06-26T07:00:55.000Z → 2026-06-26T19:28:43.000Z
 - **Gap:** 12.5 h dark, 249.0 nm offshore
@@ -15,6 +15,10 @@ _GFW Events gaps dataset (satellite AIS).._
 
 - went dark 249 nm offshore for 12 h
 - satellite-confirmed AIS gap (GFW Events)
+
+## Could be innocent
+
+Going dark is frequently benign: in open water, where gaps are commonly protecting a fishing ground or waiting out weather. It is most actionable inside or beside a closed zone.
 
 ## Caveats
 

@@ -3,7 +3,7 @@
 - **MPA:** AIS disabling (going dark)
 - **Severity:** HIGH (foreign vessel, no authorization on record)
 - **EEZ:** Japanese Exclusive Economic Zone (Japan) -- FOREIGN-flagged vessel
-- **Authorization:** No authorization on record
+- **Authorization:** No authorization on record  ·  IMO 9591600
 - **Vessel:** 🇨🇾 VENUS HISTORY  ·  **signal:** AIS gap
 - **When (UTC):** 2026-06-25T08:47:31.000Z → 2026-06-26T06:45:28.000Z
 - **Gap:** 22.0 h dark, 154.0 nm offshore
@@ -15,6 +15,10 @@ _GFW Events gaps dataset (satellite AIS).._
 
 - went dark 154 nm offshore for 22 h
 - satellite-confirmed AIS gap (GFW Events)
+
+## Could be innocent
+
+Going dark is frequently benign: in open water, where gaps are commonly protecting a fishing ground or waiting out weather. It is most actionable inside or beside a closed zone.
 
 ## Caveats
 

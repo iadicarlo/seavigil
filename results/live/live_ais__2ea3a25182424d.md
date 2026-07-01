@@ -3,7 +3,7 @@
 - **MPA:** AIS disabling (going dark)
 - **Severity:** HIGH (foreign vessel, no authorization on record)
 - **EEZ:** Saudi Arabian Exclusive Economic Zone (Saudi Arabia) -- FOREIGN-flagged vessel
-- **Authorization:** No authorization on record
+- **Authorization:** No authorization on record  ·  IMO 9800271
 - **Vessel:** 🇱🇷 TILOS I  ·  **signal:** AIS gap
 - **When (UTC):** 2026-06-25T16:21:22.000Z → 2026-06-26T04:22:39.000Z
 - **Gap:** 12.0 h dark, 68.0 nm offshore
@@ -15,6 +15,10 @@ _GFW Events gaps dataset (satellite AIS).._
 
 - went dark 68 nm offshore for 12 h
 - satellite-confirmed AIS gap (GFW Events)
+
+## Could be innocent
+
+Going dark is frequently benign: in open water, where gaps are commonly protecting a fishing ground or waiting out weather. It is most actionable inside or beside a closed zone.
 
 ## Caveats
 

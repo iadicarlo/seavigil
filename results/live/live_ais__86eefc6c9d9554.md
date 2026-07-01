@@ -1,9 +1,9 @@
 # Incident `live_ais__86eefc6c9d9554`
 
 - **MPA:** AIS disabling (going dark)
-- **Severity:** HIGH (foreign vessel, authorization lapsed)
+- **Severity:** HIGH (foreign vessel, no authorization on record)
 - **EEZ:** Gabonese Exclusive Economic Zone (Gabon) -- FOREIGN-flagged vessel
-- **Authorization:** Authorization lapsed before this date: ICCAT, IOTC, WCPFC  ·  IMO 8912986
+- **Authorization:** No authorization on record  ·  IMO 8912986
 - **Vessel:** 🇫🇷 F/V GUEOTEC  ·  **signal:** AIS gap
 - **When (UTC):** 2026-06-22T08:04:15.000Z → 2026-06-25T17:02:31.000Z
 - **Gap:** 81.0 h dark, 52.0 nm offshore
@@ -15,6 +15,10 @@ _GFW Events gaps dataset (satellite AIS).._
 
 - went dark 52 nm offshore for 81 h
 - satellite-confirmed AIS gap (GFW Events)
+
+## Could be innocent
+
+Going dark is frequently benign: in open water, where gaps are commonly protecting a fishing ground or waiting out weather. It is most actionable inside or beside a closed zone.
 
 ## Caveats
 

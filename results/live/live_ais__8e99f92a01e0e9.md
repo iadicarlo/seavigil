@@ -3,7 +3,7 @@
 - **MPA:** AIS disabling (going dark)
 - **Severity:** HIGH (foreign vessel, no authorization on record)
 - **EEZ:** Somali Exclusive Economic Zone (Federal Republic of Somalia) -- FOREIGN-flagged vessel
-- **Authorization:** No authorization on record
+- **Authorization:** No authorization on record  ·  IMO 9165839
 - **Vessel:** 🇮🇷 NEGAR  ·  **signal:** AIS gap
 - **When (UTC):** 2026-06-26T08:33:23.000Z → 2026-06-26T22:04:21.000Z
 - **Gap:** 13.5 h dark, 156.0 nm offshore
@@ -15,6 +15,10 @@ _GFW Events gaps dataset (satellite AIS).._
 
 - went dark 156 nm offshore for 14 h
 - satellite-confirmed AIS gap (GFW Events)
+
+## Could be innocent
+
+Going dark is frequently benign: in open water, where gaps are commonly protecting a fishing ground or waiting out weather. It is most actionable inside or beside a closed zone.
 
 ## Caveats
 
