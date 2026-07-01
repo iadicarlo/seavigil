@@ -121,7 +121,10 @@ def _crop_sar(key: str, lat: float, lon: float, half_m: float = 750.0, size: int
             a = vrt.read(1, window=win, out_shape=(size, size)).astype("float32")
     inside = a[a > 0]
     lo, hi = (np.percentile(inside, (2, 98)) if inside.size else (0.0, 1.0))
-    return np.clip((a - lo) / (hi - lo + 1e-6) * 255, 0, 255).astype("uint8")
+    g = np.clip((a - lo) / (hi - lo + 1e-6), 0, 1)
+    # A mild gamma darkens the speckled sea toward black while the bright vessel return stays
+    # near white, so the boat reads at a glance even in a small dossier thumbnail.
+    return (np.power(g, 1.4) * 255).astype("uint8")
 
 
 def main() -> None:
