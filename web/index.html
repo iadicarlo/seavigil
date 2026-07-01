@@ -154,19 +154,6 @@
       box-shadow:0 0 7px #7fd8c4;animation:lppulse 2s infinite;}
     #livepill.stale .lp-dot{background:#6b7d86;box-shadow:none;animation:none;}
     @keyframes lppulse{50%{opacity:.35;}}
-    /* Map credit: the vendored maplibre compact-attribution CSS is incomplete, so the <details>
-       control otherwise renders expanded across the bottom and collides with the count pill.
-       Collapse it to a small info button; click to reveal. */
-    details.maplibregl-ctrl-attrib{background:rgba(8,22,32,.82);border:1px solid var(--panel-border);border-radius:999px;}
-    details.maplibregl-ctrl-attrib>summary{cursor:pointer;list-style:none;width:22px;height:22px;
-      display:flex;align-items:center;justify-content:center;color:var(--muted);font:italic 700 12px Georgia,serif;}
-    details.maplibregl-ctrl-attrib>summary::-webkit-details-marker{display:none;}
-    details.maplibregl-ctrl-attrib>summary::after{content:'i';}
-    details.maplibregl-ctrl-attrib:not([open]) .maplibregl-ctrl-attrib-inner{display:none;}
-    details.maplibregl-ctrl-attrib[open]{border-radius:10px;}
-    details.maplibregl-ctrl-attrib[open]>summary{width:auto;height:auto;justify-content:flex-end;padding:2px 8px 0;}
-    details.maplibregl-ctrl-attrib[open] .maplibregl-ctrl-attrib-inner{display:block;padding:2px 10px 8px;
-      color:var(--muted);font-size:10.5px;line-height:1.5;max-width:min(72vw,540px);}
     /* Live-vessel popup, matched to the dark map skin */
     .maplibregl-popup-content{background:var(--panel);color:var(--fg);border:1px solid var(--panel-border);
       border-radius:8px;font-size:12px;line-height:1.5;box-shadow:0 4px 18px rgba(0,0,0,.4);}
@@ -438,7 +425,7 @@
       container: 'map',
       center: [-110, 5],
       zoom: 1.4,
-      attributionControl: { compact: true },
+      attributionControl: false,
       style: {
         version: 8,
         // Local glyphs (Noto Sans Regular, Latin ranges) so labels render with no network.
@@ -482,9 +469,6 @@
     });
     map.addControl(new maplibregl.NavigationControl({ showCompass: true, visualizePitch: true }), 'top-right');
     map.addControl(new maplibregl.ScaleControl({ unit: 'nautical' }), 'bottom-left');
-    // Vendored maplibre lacks the compact-attribution CSS; keep the credit collapsed to its info
-    // button by default so it never spans the bottom or collides with the live count pill.
-    map.on('load', () => { const a = document.querySelector('.maplibregl-ctrl-attrib'); if (a) a.open = false; });
     map.on('style.load', () => map.setProjection({ type: 'globe' }));
     new ResizeObserver(() => map.resize()).observe(document.getElementById('map'));
 
