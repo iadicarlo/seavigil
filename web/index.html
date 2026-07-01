@@ -84,6 +84,11 @@
     /* stats */
     .stat-h{font-family:'Poppins',sans-serif;font-weight:600;font-size:14px;}
     .stat-sub{margin-top:8px;color:var(--muted);font-size:11px;text-transform:uppercase;letter-spacing:.5px;}
+    .stat-sec{margin-top:7px;}
+    .stat-sec>summary{cursor:pointer;list-style:none;color:var(--muted);font-size:11px;text-transform:uppercase;letter-spacing:.5px;padding:1px 0;user-select:none;}
+    .stat-sec>summary::-webkit-details-marker{display:none;}
+    .stat-sec>summary::before{content:'\25B8';color:var(--faint);margin-right:5px;font-size:9px;}
+    .stat-sec[open]>summary::before{content:'\25BE';}
     .stat-row{display:flex;justify-content:space-between;gap:10px;padding:1.5px 0;}
     .mpa-link{cursor:pointer;color:var(--fg);border-bottom:1px dotted transparent;}
     .mpa-link:hover{color:var(--teal-bright);border-bottom-color:var(--teal-bright);}
@@ -926,10 +931,8 @@
       const byType = Object.fromEntries(Object.entries(s.by_type).map(([k, v]) => [tl[k] || k, v]));
       const sev = s.by_severity || {};
       const bySev = ['high', 'medium', 'low'].filter(k => sev[k]);
-      const sevHtml = bySev.length
-        ? `<div class="stat-sub">${t('by_severity')}</div>` + bySev.map(k =>
-            `<div class="stat-row"><span><span class="sev sev-${k}">${t('sev_' + k)}</span></span><span>${sev[k]}</span></div>`).join('')
-        : '';
+      const sevBody = bySev.map(k =>
+        `<div class="stat-row"><span><span class="sev sev-${k}">${t('sev_' + k)}</span></span><span>${sev[k]}</span></div>`).join('');
       // Jurisdiction: global data spans 100+ EEZs, so show the busiest and tally the rest.
       // A row is clickable only when a jump-to view exists for it (the showcase reserves).
       const zones = (s.by_eez && Object.keys(s.by_eez).length) ? s.by_eez : (s.by_mpa || {});
@@ -945,8 +948,8 @@
         ? `<div class="stat-row stat-more"><span>${t('more_eez', { n: ze.length - TOPZ })}</span><span></span></div>` : '');
       // Flag state: the classic IUU lens (which flags go dark / transship most).
       const fe = Object.entries(s.by_flag || {}), TOPF = 4;
-      const flagHtml = fe.length
-        ? `<div class="stat-sub">${t('by_flag')}</div>` + fe.slice(0, TOPF).map(([k, v]) =>
+      const flagBody = fe.length
+        ? fe.slice(0, TOPF).map(([k, v]) =>
             `<div class="stat-row"><span>${flagEmoji(k)} ${k}</span><span>${v}</span></div>`).join('')
           + (fe.length > TOPF
             ? `<div class="stat-row stat-more"><span>${t('more_flags', { n: fe.length - TOPF })}</span><span></span></div>` : '')
@@ -957,20 +960,22 @@
         flag_unknown: t('auth_flag_unknown'), unverifiable: t('auth_unverifiable') };
       const ba = s.by_authorization || {};
       const authOrder = ['no_record', 'authorization_lapsed', 'authorized', 'domestic', 'flag_unknown', 'unverifiable'];
-      const authHtml = Object.keys(ba).length
-        ? `<div class="stat-sub">${t('by_auth')}</div>` + authOrder.filter(k => ba[k]).map(k =>
+      const authBody = Object.keys(ba).length
+        ? authOrder.filter(k => ba[k]).map(k =>
             `<div class="stat-row"><span>${authLabels[k] || k}</span><span>${ba[k]}</span></div>`).join('')
         : '';
       const header = ze.length > 6
         ? t('hdr_global', { total: s.total, n: ze.length })
         : t('hdr_local', { total: s.total });
+      const sec = (title, body, open) => body
+        ? `<details class="stat-sec"${open ? ' open' : ''}><summary>${title}</summary>${body}</details>` : '';
       document.getElementById('stats').innerHTML =
         `<div class="stat-h">${header}</div>
-         <div class="stat-sub">${t('by_type')}</div>${rows(byType)}
-         ${sevHtml}
-         <div class="stat-sub">${t('by_eez')}</div>${zoneHtml}
-         ${flagHtml}
-         ${authHtml}`;
+         ${sec(t('by_type'), rows(byType), true)}
+         ${sec(t('by_auth'), authBody, true)}
+         ${sec(t('by_severity'), sevBody, false)}
+         ${sec(t('by_eez'), zoneHtml, false)}
+         ${sec(t('by_flag'), flagBody, false)}`;
       document.querySelectorAll('#stats .mpa-link').forEach(el => {
         el.onclick = () => flyToZone(el.dataset.zone);
       });
