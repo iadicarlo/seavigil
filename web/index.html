@@ -28,7 +28,7 @@
       --panel-border:rgba(43,212,168,.22); --panel-shadow:0 8px 28px rgba(0,0,0,.55);
       --fg:#eaf4f2; --muted:#8fa6b2; --faint:#5d7383;
       --teal:#2bd4a8; --teal-bright:#3ff0c0;
-      --ais:#f4a236; --sar:#e0455e;
+      --ais:#f4a236; --sar:#e0455e; --fish:#4f8ff7;
       --sev-high:#e0455e; --sev-medium:#f4a236; --sev-low:#2bd4a8;
     }
     *{box-sizing:border-box;}
@@ -213,7 +213,7 @@
 
   <div id="legend" class="panel">
     <div class="legrow" data-layers="incident-ais"><input type="checkbox" checked />
-      <span class="dot" style="background:var(--ais);color:var(--ais)"></span><span data-i18n="leg_ais">AIS apparent fishing (SHAP-explained)</span></div>
+      <span class="dot" style="background:var(--fish);color:var(--fish)"></span><span data-i18n="leg_ais">AIS apparent fishing (SHAP-explained)</span></div>
     <div class="legrow" data-layers="incident-sar"><input type="checkbox" checked />
       <span class="dot" style="background:var(--sar);color:var(--sar)"></span><span data-i18n="leg_sar">Dark vessel (SAR, not broadcasting AIS)</span></div>
     <div class="legrow" data-layers="incident-optical"><input type="checkbox" checked />
@@ -225,7 +225,7 @@
     <div class="legrow" data-layers="incident-enc"><input type="checkbox" checked />
       <span class="dot" style="background:#22d3ee;color:#22d3ee"></span><span data-i18n="leg_enc">At-sea encounter (transshipment)</span></div>
     <div class="legrow" data-layers="tracks"><input type="checkbox" checked />
-      <span class="swatch-line" style="border-color:var(--ais);box-shadow:0 0 6px var(--ais)"></span><span data-i18n="leg_tracks">Vessel tracks</span></div>
+      <span class="swatch-line" style="border-color:#5fb6c4;box-shadow:0 0 6px #5fb6c4"></span><span data-i18n="leg_tracks">Vessel tracks</span></div>
     <div class="legrow" data-layers="mpas"><input type="checkbox" checked />
       <span class="swatch-line"></span><span data-i18n="leg_mpa">Marine Protected Area (WDPA)</span></div>
     <div class="legrow" data-layers="eez"><input type="checkbox" checked />
@@ -703,7 +703,7 @@
       map.addLayer({ id: 'live-track-lines', type: 'line', source: 'live_tracks',
         layout: { 'line-cap': 'round', 'line-join': 'round' },
         paint: { 'line-color': '#5fb6c4',
-          'line-width': ['interpolate', ['linear'], ['zoom'], 3, 0.5, 9, 1.5], 'line-opacity': 0.5 } });
+          'line-width': ['interpolate', ['linear'], ['zoom'], 2, 0.8, 5, 1.4, 9, 2.2], 'line-opacity': 0.7 } });
 
       // Live all-ships layer (AIS): every broadcasting vessel in view, fed by the always-on
       // tracker (tracker/ingest.py -> SQLite -> /live/positions.geojson) and polled every few
@@ -733,12 +733,12 @@
       map.addLayer({ id: 'incident-glow', type: 'circle', source: 'incidents',
         paint: {
           'circle-radius': ['interpolate', ['linear'], ['coalesce', ['get', 'score'], 0.8], 0.5, 9, 1, 16],
-          'circle-color': ['match', ['get', 'kind'], 'dark_vessel_sar', '#e0455e', 'dark_vessel_optical', '#34d399', 'viirs_boat', '#fb923c', 'ais_spoofing', '#c084fc', 'ais_disabling', '#ffd24a', 'encounter', '#22d3ee', '#f4a236'],
+          'circle-color': ['match', ['get', 'kind'], 'dark_vessel_sar', '#e0455e', 'dark_vessel_optical', '#34d399', 'viirs_boat', '#fb923c', 'ais_spoofing', '#c084fc', 'ais_disabling', '#ffd24a', 'encounter', '#22d3ee', 'ais_fishing_incident', '#4f8ff7', '#f4a236'],
           'circle-opacity': 0.28, 'circle-blur': 1 } });
       map.addLayer({ id: 'incident-pts', type: 'circle', source: 'incidents',
         paint: {
           'circle-radius': ['interpolate', ['linear'], ['coalesce', ['get', 'score'], 0.8], 0.5, 3.5, 1, 7],
-          'circle-color': ['match', ['get', 'kind'], 'dark_vessel_sar', '#e0455e', 'dark_vessel_optical', '#34d399', 'viirs_boat', '#fb923c', 'ais_spoofing', '#c084fc', 'ais_disabling', '#ffd24a', 'encounter', '#22d3ee', '#f4a236'],
+          'circle-color': ['match', ['get', 'kind'], 'dark_vessel_sar', '#e0455e', 'dark_vessel_optical', '#34d399', 'viirs_boat', '#fb923c', 'ais_spoofing', '#c084fc', 'ais_disabling', '#ffd24a', 'encounter', '#22d3ee', 'ais_fishing_incident', '#4f8ff7', '#f4a236'],
           'circle-stroke-color': ['case',
             ['boolean', ['feature-state', 'selected'], false], '#3ff0c0',
             ['boolean', ['feature-state', 'hover'], false], '#ffffff', '#081620'],
@@ -754,6 +754,7 @@
       else fitLive(incidents);
 
       wireLayerToggles();
+      hideEmptyDetectionRows(incidents);
       wireInteractions();
       wireLiveShips();
       if (MODE === 'realtime' || MODE === 'live') startLivePolling();
@@ -960,11 +961,25 @@
       });
     }
 
+    // Detection-type legend rows to hide when the current view produced none of that kind, so the
+    // legend never advertises an empty layer (e.g. AIS apparent fishing on the live monitor, which
+    // only exists in the historical sample). Behavior rows (dark / encounter / anomaly) stay, since
+    // those kinds also arrive as live events on a separate layer.
+    const ROW_KIND = { 'incident-ais': 'ais_fishing_incident', 'incident-sar': 'dark_vessel_sar',
+      'incident-optical': 'dark_vessel_optical' };
+    function hideEmptyDetectionRows(fc) {
+      const present = new Set((fc.features || []).map(f => f.properties && f.properties.kind));
+      document.querySelectorAll('.legrow').forEach(row => {
+        const kind = ROW_KIND[row.dataset.layers];
+        if (kind) row.style.display = present.has(kind) ? '' : 'none';
+      });
+    }
+
     // Interactive legend doubles as the layer manager.
     const LAYER_GROUPS = {
       'incident-ais': ['incident-glow', 'incident-pts'], // AIS filtered visually below; toggles all points
       'incident-sar': ['incident-glow', 'incident-pts'],
-      'tracks': ['track-lines', 'track-hi', 'track-hi-glow'],
+      'tracks': ['track-lines', 'track-hi', 'track-hi-glow', 'live-track-lines'],
       'mpas': ['mpa-fill', 'mpa-glow', 'mpa-line', 'mpa-labels'],
       'eez': ['eez-line', 'eez-labels'],
     };
@@ -1034,7 +1049,7 @@
       });
 
       const KIND_COLOR = { dark_vessel_sar: 'var(--sar)', dark_vessel_optical: '#34d399', ais_spoofing: '#c084fc',
-        ais_disabling: '#ffd24a', encounter: '#22d3ee', ais_fishing_incident: 'var(--ais)' };
+        ais_disabling: '#ffd24a', encounter: '#22d3ee', ais_fishing_incident: 'var(--fish)' };
 
       function renderDossier(p) {
         const isAttr = ['dark_vessel_sar', 'dark_vessel_optical', 'ais_spoofing', 'ais_disabling', 'encounter'].includes(p.kind);
