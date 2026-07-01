@@ -158,7 +158,7 @@ def _load_behaviors() -> list[dict]:
     """
     import pandas as pd  # noqa: PLC0415
 
-    from seavigil import going_dark, spoofing, transshipment  # noqa: PLC0415
+    from seavigil import going_dark, portcall, spoofing, transshipment  # noqa: PLC0415
     from seavigil.jurisdiction import EEZIndex  # noqa: PLC0415
 
     tracks = ROOT / "data" / "positions" / "noaa_tracks.csv"
@@ -182,6 +182,12 @@ def _load_behaviors() -> list[dict]:
     out += spoofing.build_spoofing_dossiers(pd.read_csv(tracks))
     out += going_dark.build_from_gfw_disabling(str(disabling), eez, max_events=350, cap_per_eez=6)
     out += transshipment.build_from_gfw_encounters(str(enc), eez, max_events=200, cap_per_eez=6)
+    # Follow the fish: chain each encounter carrier to the port it next entered (GFW port
+    # visits, cached to data/portcall_cache.json). No-op without a GFW token, so the build
+    # stays reproducible offline once the cache is populated.
+    n_ports = portcall.enrich_encounters(out)
+    if n_ports:
+        print(f"port-call provenance: chained {n_ports} carrier(s) to a next port call")
     return out
 
 
