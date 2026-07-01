@@ -115,6 +115,8 @@
     .rsv-row:hover .rsv-name{border-bottom-color:var(--teal-bright);}
     .rsv-row.notake .rsv-tag{color:var(--teal);font-size:9.5px;font-weight:700;text-transform:uppercase;
       letter-spacing:.4px;flex:0 0 auto;opacity:.85;}
+    .rsv-tag.multi{color:var(--muted);font-size:9.5px;font-weight:600;text-transform:uppercase;
+      letter-spacing:.4px;flex:0 0 auto;opacity:.8;}
     #header{position:relative;}
     .langsel{position:absolute;top:8px;right:10px;background:#0a1e2d;color:var(--fg);
       border:1px solid #1c3a4f;border-radius:6px;font-size:11px;padding:2px 6px;cursor:pointer;}
@@ -300,7 +302,7 @@
         innocent_identity_change: "One MMSI carrying more than one name can be a recycled transponder or a transcription error, not necessarily identity manipulation.",
         shap_legend: "Red pushes toward fishing, teal away.", confidence: "Confidence: ",
         data_unavailable: "Data unavailable.", could_not_load: "Could not load {msg}",
-        reserves_title: "Marine reserves", reserves_hint: "Jump to a famous reserve.", reserves_notake: "no-take",
+        reserves_title: "Marine reserves", reserves_hint: "Jump to a famous reserve.", reserves_notake: "no-take", reserves_multi: "multiple-use",
       },
       es: {
         subtitle: "Cinco comportamientos de pesca ilegal señalados en aguas de todo el mundo: pesca aparente en Áreas Marinas Protegidas, buques oscuros (que no emiten), suplantación de AIS, apagado de AIS y transbordo en el mar. Haz clic en un marcador para ver el motivo y la evidencia de cada incidente.",
@@ -348,7 +350,7 @@
         innocent_identity_change: "Un MMSI con más de un nombre puede ser un transpondedor reciclado o un error de transcripción, no necesariamente manipulación de identidad.",
         shap_legend: "El rojo empuja hacia pesca; el verde, en contra.", confidence: "Confianza: ",
         data_unavailable: "Datos no disponibles.", could_not_load: "No se pudo cargar {msg}",
-        reserves_title: "Reservas marinas", reserves_hint: "Salta a una reserva famosa.", reserves_notake: "veda total",
+        reserves_title: "Reservas marinas", reserves_hint: "Salta a una reserva famosa.", reserves_notake: "veda total", reserves_multi: "uso múltiple",
       },
       fr: {
         subtitle: "Cinq comportements de pêche illégale repérés dans les eaux du monde entier : pêche apparente dans les aires marines protégées, navires obscurs (n'émettant pas), usurpation AIS, extinction de l'AIS et transbordement en mer. Cliquez sur un marqueur pour le motif et les preuves de chaque incident.",
@@ -396,7 +398,7 @@
         innocent_identity_change: "Un MMSI portant plusieurs noms peut être un transpondeur recyclé ou une erreur de transcription, pas forcément une manipulation d'identité.",
         shap_legend: "Le rouge pousse vers la pêche, le turquoise à l'opposé.", confidence: "Confiance : ",
         data_unavailable: "Données indisponibles.", could_not_load: "Impossible de charger {msg}",
-        reserves_title: "Réserves marines", reserves_hint: "Aller à une réserve célèbre.", reserves_notake: "réserve intégrale",
+        reserves_title: "Réserves marines", reserves_hint: "Aller à une réserve célèbre.", reserves_notake: "réserve intégrale", reserves_multi: "usage multiple",
       },
       pt: {
         subtitle: "Cinco comportamentos de pesca ilegal sinalizados em águas de todo o mundo: pesca aparente em Áreas Marinhas Protegidas, embarcações ocultas (que não transmitem), falsificação de AIS, desligamento de AIS e transbordo no mar. Clique num marcador para ver o motivo e a evidência de cada incidente.",
@@ -444,7 +446,7 @@
         innocent_identity_change: "Um MMSI com mais de um nome pode ser um transpondedor reciclado ou um erro de transcrição, não necessariamente manipulação de identidade.",
         shap_legend: "O vermelho puxa para pesca; o verde, ao contrário.", confidence: "Confiança: ",
         data_unavailable: "Dados indisponíveis.", could_not_load: "Não foi possível carregar {msg}",
-        reserves_title: "Reservas marinhas", reserves_hint: "Ir para uma reserva famosa.", reserves_notake: "proteção total",
+        reserves_title: "Reservas marinhas", reserves_hint: "Ir para uma reserva famosa.", reserves_notake: "proteção total", reserves_multi: "uso múltiplo",
       },
     };
     let LANG = "en";
@@ -586,13 +588,24 @@
       if (v) map.flyTo({ ...v, duration: 1500, essential: true });
     };
 
-    // Reserves whose tile carries no_take=true (per the WDPA build); shown with a "no-take" tag.
+    // Reserves whose WDPA build carries no_take=true, shown with a "no-take" tag. Cocos Island is
+    // added on the documented record that Isla del Coco National Park bans all fishing, where WDPA's
+    // NO_TAKE field is only "Not Reported"; every other entry is WDPA-confirmed.
     const RESERVE_NO_TAKE = new Set([
       'Great Barrier Reef Marine Park', 'Papahanaumokuakea Marine National Monument',
       'Revillagigedo National Park', 'Ascension Island Marine Protected Area',
       'Coiba National Park & Cordillera de Coiba', 'Niue Moana Mahu Marine Protected Area',
-      'Tristan da Cunha Marine Protection Zone',
+      'Tristan da Cunha Marine Protection Zone', 'Cocos Island (Isla del Coco) National Park',
       'South Ari Marine Protected Area (Maldives)', 'Yadua Taba Locally Managed Marine Area (Fiji)',
+    ]);
+    // The remaining reserves permit fishing in part, so they read honestly as multiple-use rather
+    // than left blank: Galapagos (zoned), Rapa Nui and Marae Moana (named multiple-use / marine park),
+    // Palau (a domestic-fishing zone alongside the no-take sanctuary), Phoenix Islands (reopened to
+    // fishing by Kiribati in 2023).
+    const RESERVE_MULTI = new Set([
+      'Galapagos Marine Reserve', 'Rapa Nui Multiple-Use Marine Protected Area',
+      'Marae Moana (Cook Islands Marine Park)', 'Palau National Marine Sanctuary',
+      'Phoenix Islands Protected Area',
     ]);
     // Reserve names are proper nouns and stay as-is across languages (like the EEZ labels in
     // the stats panel); only the panel chrome is translated. Build clickable rows that fly to
@@ -602,7 +615,9 @@
       if (!host) return;
       host.innerHTML = RESERVE_LIST.map(name => {
         const nt = RESERVE_NO_TAKE.has(name);
-        const tag = nt ? `<span class="rsv-tag">${t('reserves_notake')}</span>` : '';
+        const multi = !nt && RESERVE_MULTI.has(name);
+        const tag = nt ? `<span class="rsv-tag">${t('reserves_notake')}</span>`
+          : (multi ? `<span class="rsv-tag multi">${t('reserves_multi')}</span>` : '');
         return `<div class="rsv-row${nt ? ' notake' : ''}" data-zone="${name.replace(/"/g, '&quot;')}" `
           + `role="button" tabindex="0" title="${name.replace(/"/g, '&quot;')}">`
           + `<span class="rsv-name">${name}</span>${tag}</div>`;
