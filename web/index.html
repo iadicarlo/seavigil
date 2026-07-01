@@ -888,10 +888,16 @@
         else if (p.kind === 'ais_spoofing') detail = `${p.anomaly_count} impossible jumps, up to ${p.max_implied_speed_kn} kn`;
         else if (p.kind === 'navstatus_mismatch') detail = `broadcasting "${esc(p.reported_status)}" but moved ${p.moved_nm} nm (${p.sog_median} kn) over ${p.window_min} min`;
         else if (p.kind === 'identity_change') detail = `one MMSI, ${p.name_count} names: ${esc(p.names)}`;
+        const inMpa = p.in_mpa === true || p.in_mpa === 'true';
+        const zoneLine = p.area
+          ? (inMpa
+              ? `<br><span style="color:var(--teal-bright);font-size:11px">&#9873; inside ${esc(p.area)} (marine reserve)</span>`
+              : `<br><span style="color:var(--muted);font-size:11px">in ${esc(p.area)}</span>`)
+          : '';
         const _inno = t('innocent_' + p.kind);
         const innoLine = (_inno && _inno !== 'innocent_' + p.kind)
           ? `<br><span style="color:var(--muted);font-size:11px">${_inno}</span>` : '';
-        popup.setLngLat(c).setHTML(`<b>${title}</b><br>${esc(who)}<br>${detail}${innoLine}`
+        popup.setLngLat(c).setHTML(`<b>${title}</b><br>${esc(who)}<br>${detail}${zoneLine}${innoLine}`
           + `<br><span style="color:var(--muted)">A lead, not proof</span>`).addTo(map);
       });
       map.on('mouseenter', 'live-event-pts', () => { map.getCanvas().style.cursor = 'pointer'; });

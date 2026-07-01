@@ -67,12 +67,10 @@ def _load_areas() -> list:
     encounters would fire on every crowded port/anchorage (noise), not on illegal fishing."""
     try:
         wl = json.loads((ROOT / "data" / "watchlist.json").read_text())
-        return [(a["bbox"][1], a["bbox"][0], a["bbox"][3], a["bbox"][2]) for a in wl.get("areas", [])]
+        return [(a.get("name", ""), a.get("kind", ""),
+                 a["bbox"][1], a["bbox"][0], a["bbox"][3], a["bbox"][2]) for a in wl.get("areas", [])]
     except Exception:  # noqa: BLE001 - a missing/broken watchlist must not take the server down
         return []
-
-
-_AREAS = _load_areas()
 
 
 def _area_clause(lat_col: str, lon_col: str):
@@ -80,7 +78,7 @@ def _area_clause(lat_col: str, lon_col: str):
     if not _AREAS:
         return "1", []
     parts, params = [], []
-    for lat0, lon0, lat1, lon1 in _AREAS:
+    for _name, _kind, lat0, lon0, lat1, lon1 in _AREAS:
         parts.append(f"({lat_col} BETWEEN ? AND ? AND {lon_col} BETWEEN ? AND ?)")
         params += [lat0, lat1, lon0, lon1]
     return "(" + " OR ".join(parts) + ")", params
@@ -90,7 +88,16 @@ def _in_areas(lat: float, lon: float) -> bool:
     """True if a point is inside any IUU-priority box (or if no boxes are configured)."""
     if not _AREAS:
         return True
-    return any(lat0 <= lat <= lat1 and lon0 <= lon <= lon1 for lat0, lon0, lat1, lon1 in _AREAS)
+    return any(lat0 <= lat <= lat1 and lon0 <= lon <= lon1
+               for _n, _k, lat0, lon0, lat1, lon1 in _AREAS)
+
+
+def _area_of(lat: float, lon: float):
+    """The (name, kind) of the first IUU-priority box a point falls in, else ('', '')."""
+    for name, kind, lat0, lon0, lat1, lon1 in _AREAS:
+        if lat0 <= lat <= lat1 and lon0 <= lon <= lon1:
+            return name, kind
+    return "", ""
 
 HERE = Path(__file__).resolve().parent
 ROOT = HERE.parent
@@ -98,6 +105,9 @@ WEB = ROOT / "web"
 DB = HERE / "tracker.db"
 LIVE_ENDPOINT = "/live/positions.geojson"
 MAX_FEATURES = 8000   # backstop so a very busy window cannot produce a pathological payload
+
+# Loaded after ROOT is defined (it reads ROOT/data/watchlist.json).
+_AREAS = _load_areas()
 
 
 def _positions_geojson(window_min: float) -> bytes:
@@ -332,12 +342,14 @@ def _events_geojson() -> bytes:
                     "WHERE v.ts BETWEEN ? AND ? AND v.speed>=? AND " + gd_clause + " "
                     "GROUP BY v.mmsi HAVING COUNT(p.ts)>=? LIMIT 400",
                     (lookback, gap, DARK_MIN_SPEED, *gd_p, DARK_MIN_POINTS)):
+                aname, akind = _area_of(lat, lon)   # going dark is far more actionable inside a reserve
                 feats.append({"type": "Feature",
                               "geometry": {"type": "Point", "coordinates": [lon, lat]},
                               "properties": {"kind": "ais_disabling", "mmsi": mmsi,
                                              "name": name or "", "flag": flag or "",
                                              "quiet_min": round((now - ts) / 60.0),
-                                             "last_speed": round(spd or 0.0, 1)}})
+                                             "last_speed": round(spd or 0.0, 1),
+                                             "area": aname, "in_mpa": akind == "mpa"}})
             fresh = now - int(ENC_FRESH_MIN * 60)
             enc_clause, enc_p = _area_clause("lat", "lon")
             slow = con.execute("SELECT mmsi,lat,lon,name,flag FROM vessels "
@@ -362,12 +374,14 @@ def _events_geojson() -> bytes:
                     if abs(la - lb) <= ENC_RADIUS_DEG and abs(lo - lob) <= ENC_RADIUS_DEG:
                         seen.add(ma)
                         seen.add(mp)
+                        mlat, mlon = (la + lb) / 2, (lo + lob) / 2
+                        aname, akind = _area_of(mlat, mlon)
                         feats.append({"type": "Feature",
-                                      "geometry": {"type": "Point",
-                                                   "coordinates": [(lo + lob) / 2, (la + lb) / 2]},
+                                      "geometry": {"type": "Point", "coordinates": [mlon, mlat]},
                                       "properties": {"kind": "encounter", "mmsi": f"{ma} + {mp}",
                                                      "name": f"{na or ma} / {np_ or mp}",
-                                                     "flag": ((fa or "") + " " + (fp or "")).strip()}})
+                                                     "flag": ((fa or "") + " " + (fp or "")).strip(),
+                                                     "area": aname, "in_mpa": akind == "mpa"}})
                         n += 1
                         break  # one encounter per arriver is plenty
                 if n >= ENC_MAX:
