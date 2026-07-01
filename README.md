@@ -27,10 +27,10 @@ Every flag is tagged with the EEZ it falls in (global Marine Regions boundaries)
 ## Three ways to see it
 
 - **Near-real-time monitor** (the homepage): our own Sentinel-1 SAR and Sentinel-2 optical dark-vessel detections, merged with live AIS - vessel tracks, going-dark, and at-sea encounters read straight from the stream - and GFW's offshore events, filtered to the high-signal subset (a foreign or unauthorized vessel inside another state's EEZ, or a no-take incursion). Our own detection refreshes within hours of each satellite pass; live AIS is seconds to minutes.
-- **Worldwide showcase** ([`?showcase`](https://seavigil.org/?showcase)): an illustrative 584 records across 132 EEZs and 61 flag states, on real WDPA + EEZ boundaries.
+- **Worldwide showcase** ([`?showcase`](https://seavigil.org/?showcase)): an illustrative 318 records across 97 EEZs and 45 flag states, on real WDPA + EEZ boundaries. At-sea encounters are chained to the port the carrier next entered (GFW port visits, within 60 days), so a mid-ocean meeting becomes a port-state inspection lead, "follow the fish to the dock".
 - **Alerts** ([alerts.html](https://seavigil.org/alerts.html) + an [RSS feed](https://seavigil.org/alerts.xml)): new high-severity leads, each carrying its flag, EEZ, authorization status, and reason.
 
-Each dark-vessel detection also saves a **true-color satellite image chip** of the boat, shown in its dossier: the visual proof behind the dot.
+Each dark-vessel detection also saves a **satellite image chip** of the boat, shown in its dossier: true-color for the Sentinel-2 optical detections, grayscale radar for the Sentinel-1 SAR ones (the dark vessel as a bright return on black sea). The visual proof behind the dot.
 
 SeaVigil runs its **own** Sentinel-1 SAR and Sentinel-2 optical vessel detection on demand over a scene it chooses. [`?sar`](https://seavigil.org/?sar) and [`?s2`](https://seavigil.org/?s2) show real runs of the open, pre-trained **Allen Institute / Skylight** detectors (Apache-2.0, the models behind Skylight) over a recent Copernicus scene of the **Galapagos Marine Reserve**, reading just the chosen area of interest straight from the Cloud-Optimized GeoTIFFs on S3 (no bulk download). [`scripts/run_sentinel1_detection.py`](scripts/run_sentinel1_detection.py) and [`scripts/run_sentinel2_detection.py`](scripts/run_sentinel2_detection.py) run them locally on CPU, and [`scripts/sar_detections_to_incidents.py`](scripts/sar_detections_to_incidents.py) folds the detections (length, heading, fishing-vessel class) into the map with jurisdiction, dark-vessel AIS matching, and evidence. So we control where and when we look, instead of waiting for GFW to publish.
 
@@ -64,7 +64,7 @@ AIS / SAR / optical ─────▶ behavior detection ─▶ per-flag reason
 
 - **Detection.** A `scikit-learn` RandomForest scores fishing-vs-not per AIS position from interpretable movement features, evaluated on a **vessel-grouped split** against a speed-threshold baseline it must beat, **calibrated** (Brier 0.092 on ~408k held-out positions), with a **SHAP** attribution for every call. Dark (non-broadcasting) vessels are found by **our own** runs of the open Allen Institute / Skylight Sentinel-1 SAR and Sentinel-2 optical detectors over Copernicus scenes; going-dark and at-sea encounters are detected **live from the AIS stream**, with GFW's published datasets supplementing the open ocean. Each non-AIS behavior carries a rule-based reason.
 - **Jurisdiction + authorization.** Every incident is point-in-polygon tagged with its EEZ (the global Marine Regions set) and, where a vessel identity exists, graded against the GFW registry's RFMO authorizations.
-- **Evidence.** Each incident is a structured dossier with a SHA-256 integrity hash, full provenance, and (for a satellite detection) a true-color image chip of the boat, downloadable as JSON.
+- **Evidence.** Each incident is a structured dossier with a SHA-256 integrity hash, full provenance, and (for a satellite detection) an image chip of the boat (true-color optical or grayscale SAR), downloadable as JSON. Encounter dossiers also carry the carrier's next port call.
 - **Near-real-time.** A continuous AIS ingest ([`tracker/ingest.py`](tracker/ingest.py)) writes positions to a local SQLite database, and [`tracker/server.py`](tracker/server.py) serves the live vessel tracks, going-dark, and encounters from `/live/*` endpoints; the SAR and optical detectors run over fresh Copernicus scenes within hours of each satellite pass. On a static host the `/live/*` endpoints are simply absent and the site falls back to its committed snapshot.
 
 ## Model card and validation
@@ -121,7 +121,7 @@ python3 scripts/serve.py 8000   # then open http://localhost:8000  (and ?sar, ?s
 | Dark-fleet scale (SAR) | Paolo et al., *Nature* 2024 | CC BY-NC 4.0 |
 | Sentinel-1 SAR + Sentinel-2 optical vessel detectors (our own runs) | Allen Institute / Skylight - Beukema et al., *NeurIPS Computational Sustainability* 2023; SatlasPretrain, Bastani et al., *ICCV* 2023 | Apache-2.0 |
 | Sentinel-1 / Sentinel-2 imagery (our own runs) | Copernicus Data Space Ecosystem (ESA) | free and open |
-| GFW events + vessel identity / authorizations | globalfishingwatch.org API | CC BY-NC 4.0 |
+| GFW events (port visits, encounters, disabling) + vessel identity / authorizations | globalfishingwatch.org API | CC BY-NC 4.0 |
 | AIS disabling (going dark) | Welch et al., *Science Advances* 2022 | CC BY-NC |
 | At-sea transshipment | Miller et al., *Frontiers in Marine Science* 2018 | CC BY-NC |
 | Marine Protected Areas (WDPA / WD-OECM) | UNEP-WCMC and IUCN (2026), Protected Planet | non-commercial, display-only |
