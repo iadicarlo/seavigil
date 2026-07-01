@@ -749,6 +749,13 @@
         paint: { 'circle-radius': ['interpolate', ['linear'], ['zoom'], 3, 3.5, 9, 6],
           'circle-color': ['match', ['get', 'kind'], 'ais_disabling', '#ffd24a', 'encounter', '#22d3ee', 'ais_spoofing', '#c084fc', 'navstatus_mismatch', '#2dd4bf', 'identity_change', '#f472b6', '#ffd24a'],
           'circle-stroke-color': '#06161f', 'circle-stroke-width': 1 } });
+      // Historical view rolls in our own accumulated live leads (last 7 days), rendered with the
+      // same live-event styling and popup. Empty / absent on a static host: the showcase stays as is.
+      if (MODE === 'showcase') {
+        getJSON('./live/archive.geojson')
+          .then(a => { if (a && a.features && a.features.length) map.getSource('live_events').setData(a); })
+          .catch(() => {});
+      }
 
       // incidents (generateId for feature-state hover/selected)
       map.addSource('incidents', { type: 'geojson', data: incidents, generateId: true, attribution: 'Detections &amp; AIS labels © Global Fishing Watch (CC BY / CC BY-NC)' });

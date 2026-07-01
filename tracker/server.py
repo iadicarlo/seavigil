@@ -404,6 +404,68 @@ def _events_geojson() -> bytes:
                        "features": feats}).encode()
 
 
+ARCHIVE_ENDPOINT = "/live/archive.geojson"
+ARCHIVE_LOG = HERE / "live_archive.jsonl"   # gitignored; the rolling record of our own live leads
+ARCHIVE_RETAIN_DAYS = 7
+ARCHIVE_MAX = 3000
+
+
+def _archive_read(cutoff: float) -> list:
+    out = []
+    if ARCHIVE_LOG.exists():
+        for ln in ARCHIVE_LOG.read_text(encoding="utf-8").splitlines():
+            try:
+                rec = json.loads(ln)
+            except Exception:  # noqa: BLE001
+                continue
+            if rec.get("first_seen", 0) >= cutoff:
+                out.append(rec)
+    return out
+
+
+def _persist_events_once() -> None:
+    """Harvest the current live events into a rolling, deduped archive so a lead survives past the
+    moment it stops being live: the record the Historical view and the RSS feed read from."""
+    now = int(time.time())
+    cutoff = now - ARCHIVE_RETAIN_DAYS * 86400
+    recs = _archive_read(cutoff)   # prunes anything older than the retention window on rewrite
+    seen = {r["id"] for r in recs}
+    try:
+        fc = json.loads(_events_geojson())
+    except Exception:  # noqa: BLE001
+        return
+    for f in fc.get("features", []):
+        p = f.get("properties", {})
+        eid = f"{p.get('kind')}:{p.get('mmsi')}:{now // 86400}"   # one entry per vessel-kind per day
+        if eid in seen:
+            continue
+        seen.add(eid)
+        recs.append({"id": eid, "first_seen": now, "geometry": f.get("geometry"), "properties": p})
+    try:
+        ARCHIVE_LOG.write_text("\n".join(json.dumps(r) for r in recs) + "\n", encoding="utf-8")
+    except Exception as e:  # noqa: BLE001
+        print("persist_events write failed:", e)
+
+
+def _persist_events_loop() -> None:
+    while True:
+        try:
+            time.sleep(180)   # every 3 minutes
+            _persist_events_once()
+        except Exception as e:  # noqa: BLE001
+            print("persist_events loop error:", e)
+
+
+def _archive_geojson() -> bytes:
+    recs = _archive_read(time.time() - ARCHIVE_RETAIN_DAYS * 86400)
+    recs.sort(key=lambda r: r.get("first_seen", 0), reverse=True)
+    feats = [{"type": "Feature", "geometry": r["geometry"],
+              "properties": {**r.get("properties", {}), "first_seen": r.get("first_seen")}}
+             for r in recs[:ARCHIVE_MAX]]
+    return json.dumps({"type": "FeatureCollection", "generated": int(time.time()),
+                       "retain_days": ARCHIVE_RETAIN_DAYS, "features": feats}).encode()
+
+
 def _relay_contact(rec: dict) -> None:
     """Best-effort email relay if SMTP is configured in the environment; otherwise the message is
     already stored in the inbox file. Configure in .env to forward to your own mailbox (e.g. iCloud:
@@ -488,6 +550,9 @@ class Handler(SimpleHTTPRequestHandler):
         if route == EVENTS_ENDPOINT:
             self._send_json(_cached("events", 20.0, _events_geojson))
             return
+        if route == ARCHIVE_ENDPOINT:
+            self._send_json(_cached("archive", 60.0, _archive_geojson))
+            return
         super().do_GET()
 
     def do_POST(self):  # noqa: N802 (stdlib casing)
@@ -562,6 +627,7 @@ def main() -> None:
     port = int(sys.argv[1]) if len(sys.argv) > 1 else 8100
     Handler.window_min = float(os.environ.get("TRACKER_WINDOW_MIN", "60"))
     handler = partial(Handler, directory=str(WEB))
+    threading.Thread(target=_persist_events_loop, daemon=True).start()  # roll live leads into the archive
     print(f"SeaVigil live site on http://localhost:{port}  "
           f"(live layer {LIVE_ENDPOINT}, window {Handler.window_min:.0f} min, db {DB.name})")
     ThreadingHTTPServer(("0.0.0.0", port), handler).serve_forever()
