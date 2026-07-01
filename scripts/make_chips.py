@@ -104,19 +104,21 @@ def _crop_sar(key: str, lat: float, lon: float, half_m: float = 750.0, size: int
     import numpy as np
     import rasterio
     from rasterio.enums import Resampling
-    from rasterio.transform import from_bounds as transform_from_bounds
     from rasterio.vrt import WarpedVRT
     from rasterio.warp import transform as warp_transform
+    from rasterio.windows import from_bounds
 
     xs, ys = warp_transform("EPSG:4326", "EPSG:3857", [lon], [lat])
     cx, cy = xs[0], ys[0]
-    dst = transform_from_bounds(cx - half_m, cy - half_m, cx + half_m, cy + half_m, size, size)
     with rasterio.open(f"/vsis3/eodata/{key}") as src:
-        # Warp straight into the crop grid, so no boundless read is needed (WarpedVRT forbids it)
-        # and any pixels off the scene footprint come back as 0.
-        with WarpedVRT(src, crs="EPSG:3857", transform=dst, width=size, height=size,
-                       nodata=0, resampling=Resampling.bilinear) as vrt:
-            a = vrt.read(1).astype("float32")
+        # S1 GRD is GCP-geolocated with no CRS or north-up affine, so feed the ground-control
+        # points to the VRT to get a real EPSG:3857 grid, then read only the crop window (a
+        # partial COG read straight from S3, not the whole multi-hundred-MB scene).
+        gcps, gcp_crs = src.gcps
+        with WarpedVRT(src, gcps=gcps, src_crs=gcp_crs, crs="EPSG:3857",
+                       resampling=Resampling.bilinear) as vrt:
+            win = from_bounds(cx - half_m, cy - half_m, cx + half_m, cy + half_m, vrt.transform)
+            a = vrt.read(1, window=win, out_shape=(size, size)).astype("float32")
     inside = a[a > 0]
     lo, hi = (np.percentile(inside, (2, 98)) if inside.size else (0.0, 1.0))
     return np.clip((a - lo) / (hi - lo + 1e-6) * 255, 0, 255).astype("uint8")
