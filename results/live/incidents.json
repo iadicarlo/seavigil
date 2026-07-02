@@ -10,10 +10,10 @@
     "flag": "PA",
     "ship_type": "Fishing",
     "gear": "AIS anomaly",
-    "time_start_utc": "2026-07-01T10:09:16Z",
+    "time_start_utc": "2026-07-01T21:06:52Z",
     "time_end_utc": "2026-07-01T21:34:30Z",
-    "duration_hours": 11.4,
-    "n_positions": 10,
+    "duration_hours": 0.5,
+    "n_positions": 6,
     "n_fishing_positions": 0,
     "mean_fishing_proba": null,
     "max_fishing_proba": null,
@@ -43,7 +43,7 @@
     "authorization_authorities": [],
     "registry_iuu_tag": false,
     "evidence_schema": "seavigil-evidence-1.0",
-    "evidence_hash": "cd4c4ec25fe5bba84289aa2307390b74a40f4cf21a685dc0514f15c57e1e7cf9"
+    "evidence_hash": "cb1e13c4bdccf2f113fff7d146f40c024453a825ea2c5bda3e5354b4b99cce3c"
   },
   {
     "incident_id": "live_enco_642ffddb052696",
