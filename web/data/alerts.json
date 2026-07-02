@@ -1,6 +1,19 @@
 {
-"generated_at": "2026-07-02T01:26:04Z",
+"generated_at": "2026-07-02T06:10:47Z",
 "alerts": [
+{
+"id": "live_enco_bbfe309223fcc2",
+"first_seen": "2026-07-02T06:10:47Z",
+"type": "encounter",
+"when": "2026-06-27T19:00:00.000Z",
+"eez": "Chinese Exclusive Economic Zone",
+"flag": "TWN",
+"authorization": "no_record",
+"severity_reason": "foreign vessel, no authorization on record",
+"lat": 26.7483,
+"lon": 121.7498,
+"ship_name": "FUHJYI NO 6"
+},
 {
 "id": "live_enco_642ffddb052696",
 "first_seen": "2026-07-02T01:26:04Z",
