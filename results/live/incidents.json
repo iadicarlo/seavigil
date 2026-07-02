@@ -1,51 +1,5 @@
 [
   {
-    "type": "ais_spoofing",
-    "incident_id": "live_spoof_372970000.0",
-    "mpa_name": "AIS spoofing",
-    "severity": "medium",
-    "severity_reason": "impossible-speed position jumps",
-    "vessel_id": "372970000.0",
-    "ship_name": "LADY NURGUL",
-    "flag": "PA",
-    "ship_type": "Fishing",
-    "gear": "AIS anomaly",
-    "time_start_utc": "2026-07-01T21:06:52Z",
-    "time_end_utc": "2026-07-01T21:34:30Z",
-    "duration_hours": 0.5,
-    "n_positions": 6,
-    "n_fishing_positions": 0,
-    "mean_fishing_proba": null,
-    "max_fishing_proba": null,
-    "centroid_lat": -12.034444166666669,
-    "centroid_lon": -77.05074250000001,
-    "anomaly_count": 3,
-    "max_implied_speed_kn": 378.0,
-    "spread_nm": 45.0,
-    "explanation": {
-      "method": "AIS position-anomaly analysis (impossible-speed jumps and same-instant conflicts)",
-      "drivers": [
-        "3 physically impossible movements for one MMSI",
-        "fastest implied speed 378 kn (a vessel cannot move this fast)",
-        "positions span 45 nm"
-      ]
-    },
-    "caveats": [
-      "Suspected AIS spoofing or MMSI conflict, not proven and not necessarily illegal.",
-      "Could also be a faulty GPS/transceiver or a transcription error in the feed.",
-      "Flagged only on a sustained pattern (several anomalies), not a single bad fix.",
-      "An inspection lead: confirm the vessel identity against authoritative records."
-    ],
-    "flag_emoji": "\ud83c\uddf5\ud83c\udde6",
-    "_no_take": false,
-    "_rfmo": [],
-    "authorization_status": "unverifiable",
-    "authorization_authorities": [],
-    "registry_iuu_tag": false,
-    "evidence_schema": "seavigil-evidence-1.0",
-    "evidence_hash": "cb1e13c4bdccf2f113fff7d146f40c024453a825ea2c5bda3e5354b4b99cce3c"
-  },
-  {
     "incident_id": "live_enco_642ffddb052696",
     "type": "encounter",
     "centroid_lon": 123.4723,
