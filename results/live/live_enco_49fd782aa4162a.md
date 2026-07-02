@@ -1,20 +1,20 @@
-# Incident `live_enco_fc65177c83dcde`
+# Incident `live_enco_49fd782aa4162a`
 
 - **MPA:** At-sea encounter (transshipment)
 - **Severity:** HIGH (foreign vessel, no authorization on record)
-- **EEZ:** Chinese Exclusive Economic Zone (China) -- FOREIGN-flagged vessel
+- **EEZ:** Overlapping claim Taiwan: Taiwan / China (Taiwan) -- FOREIGN-flagged vessel
 - **Authorization:** No public authorization record (check coastal state)
-- **Vessel:** 🇨🇽 60037-4 90%  ·  **signal:** Encounter
-- **When (UTC):** 2026-06-27T14:20:00.000Z → 2026-06-27T20:30:00.000Z
-- **Encounter:** 6.2 h with carrier `516003701` (apparent transshipment)
-- **Where:** 22.434, 117.150
+- **Vessel:** 🇳🇱 BAOFAHAO-02 90%  ·  **signal:** Encounter
+- **When (UTC):** 2026-06-28T13:10:00.000Z → 2026-06-28T23:50:00.000Z
+- **Encounter:** 10.7 h with carrier `416066008` (apparent transshipment)
+- **Where:** 24.122, 120.293
 
 ## Why this was flagged
 
 _GFW Events encounters dataset (Miller et al. 2018).._
 
-- two vessels within range for 6 h
-- counterpart: 60037-1 90%
+- two vessels within range for 11 h
+- counterpart: CTRSC0400
 - two-vessel at-sea encounter (GFW Events)
 
 ## Could be innocent
@@ -31,7 +31,7 @@ Two vessels meeting at sea can be a legitimate transfer, bunkering, or a safety 
 
 - WDPA / WD-OECM (World Database on Protected Areas) (UNEP-WCMC and IUCN (2026), June 2026). Protected Planet Terms of Use (non-commercial, display-only).
 - Marine Regions Exclusive Economic Zones v12 (Flanders Marine Institute (2024), DOI 10.14284/632). CC BY 4.0.
-- **Integrity (SHA-256 of canonical facts):** `0c1f13b823aa0cf2a4f747907970a30270515fd692650c678530929025d9a706`
+- **Integrity (SHA-256 of canonical facts):** `e92ea8fb0ca15b943f490e9233ec91dd7c9325cf4ea5b63dc47d51622e88067d`
 - **Evidence schema:** seavigil-evidence-1.0
 
 _Apparent activity and an inspection lead, not proof of illegality. AIS and SAR evidence have known coverage gaps and spoofing risks; verify against authoritative sources before any enforcement action._
