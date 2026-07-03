@@ -520,8 +520,8 @@ def _relay_contact(rec: dict) -> None:
         m["Subject"] = "SeaVigil contact form"
         m["From"] = os.environ.get("CONTACT_FROM", os.environ.get("CONTACT_SMTP_USER", to))
         m["To"] = to
-        m.set_content(f"From: {rec.get('name') or '(no name)'} <{rec.get('email') or 'n/a'}>\n"
-                      f"IP: {rec.get('ip')}\n\n{rec.get('message', '')}")
+        m.set_content(f"From: {rec.get('name') or '(no name)'} <{rec.get('email') or 'n/a'}>\n\n"
+                      f"{rec.get('message', '')}")
         port = int(os.environ.get("CONTACT_SMTP_PORT", "587"))
         user, pw = os.environ.get("CONTACT_SMTP_USER"), os.environ.get("CONTACT_SMTP_PASS")
         with smtplib.SMTP(host, port, timeout=15) as s:
@@ -546,7 +546,9 @@ def _handle_contact(data: dict, ip: str):
         return False, "too many messages, please try later"
     hits.append(now)
     _CONTACT_HITS[ip] = hits
-    rec = {"ts": int(now), "ip": ip, "name": (data.get("name") or "").strip()[:200],
+    # Note: the IP is used only in-memory for the per-IP rate limit above; it is deliberately not
+    # persisted or emailed (data minimization), so the stored record is name/email/message only.
+    rec = {"ts": int(now), "name": (data.get("name") or "").strip()[:200],
            "email": (data.get("email") or "").strip()[:200], "message": msg[:5000]}
     try:
         with open(CONTACT_LOG, "a", encoding="utf-8") as f:
