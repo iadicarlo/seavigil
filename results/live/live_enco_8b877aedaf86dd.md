@@ -1,9 +1,9 @@
 # Incident `live_enco_8b877aedaf86dd`
 
 - **MPA:** At-sea encounter (transshipment)
-- **Severity:** HIGH (foreign vessel, no authorization on record)
+- **Severity:** HIGH (foreign vessel, authorization lapsed)
 - **EEZ:** Russian Exclusive Economic Zone (Russia) -- FOREIGN-flagged vessel
-- **Authorization:** No public authorization record (check coastal state)  ·  IMO 7377452
+- **Authorization:** Authorization lapsed before this date: NPFC, SPRFMO  ·  IMO 7377452
 - **Vessel:** 🇰🇷 NAMBUKHO  ·  **signal:** Encounter
 - **When (UTC):** 2026-06-29T16:10:00.000Z → 2026-06-29T23:50:00.000Z
 - **Encounter:** 7.7 h with carrier `273337510` (apparent transshipment)

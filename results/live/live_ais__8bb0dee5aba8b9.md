@@ -1,9 +1,9 @@
 # Incident `live_ais__8bb0dee5aba8b9`
 
 - **MPA:** AIS disabling (going dark)
-- **Severity:** HIGH (foreign vessel, authorization lapsed)
+- **Severity:** HIGH (foreign vessel, no authorization on record)
 - **EEZ:** Papua New Guinean Exclusive Economic Zone (Papua New Guinea) -- FOREIGN-flagged vessel
-- **Authorization:** Authorization lapsed before this date: FFA, WCPFC  ·  IMO 9745469
+- **Authorization:** No public authorization record (check coastal state)
 - **Vessel:** 🇹🇼 WIN HAPPY NO.707  ·  **signal:** AIS gap
 - **When (UTC):** 2026-06-16T03:37:10.000Z → 2026-06-28T20:34:05.000Z
 - **Gap:** 304.9 h dark, 135.0 nm offshore
