@@ -1,9 +1,9 @@
 # Incident `live_enco_e1ea31f429ca8b`
 
 - **MPA:** At-sea encounter (transshipment)
-- **Severity:** HIGH (foreign vessel, authorization lapsed)
+- **Severity:** HIGH (foreign vessel, no authorization on record)
 - **EEZ:** Papua New Guinean Exclusive Economic Zone (Papua New Guinea) -- FOREIGN-flagged vessel
-- **Authorization:** Authorization lapsed before this date: FFA, WCPFC  ·  IMO 8223983
+- **Authorization:** No public authorization record (check coastal state)
 - **Vessel:** 🇵🇭 FRANCESCA L.T  ·  **signal:** Encounter
 - **When (UTC):** 2026-06-30T20:50:00.000Z → 2026-06-30T23:50:00.000Z
 - **Encounter:** 3.0 h with carrier `577641000` (apparent transshipment)

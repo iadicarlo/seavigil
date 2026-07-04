@@ -1,9 +1,9 @@
 # Incident `live_enco_744896410daf1c`
 
 - **MPA:** At-sea encounter (transshipment)
-- **Severity:** HIGH (foreign vessel, no authorization on record)
+- **Severity:** HIGH (foreign vessel, authorization lapsed)
 - **EEZ:** Romanian Exclusive Economic Zone (Romania) -- FOREIGN-flagged vessel
-- **Authorization:** No public authorization record (check coastal state)
+- **Authorization:** Authorization lapsed before this date: GFCM
 - **Vessel:** 🇧🇬 F/V LAVRAK VN71-49  ·  **signal:** Encounter
 - **When (UTC):** 2026-06-30T20:00:00.000Z → 2026-06-30T23:50:00.000Z
 - **Encounter:** 3.8 h with carrier `207829370` (apparent transshipment)

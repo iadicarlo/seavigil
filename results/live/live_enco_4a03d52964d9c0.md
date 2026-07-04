@@ -1,9 +1,9 @@
 # Incident `live_enco_4a03d52964d9c0`
 
 - **MPA:** At-sea encounter (transshipment)
-- **Severity:** HIGH (foreign vessel, no authorization on record)
+- **Severity:** HIGH (foreign vessel, authorization lapsed)
 - **EEZ:** Romanian Exclusive Economic Zone (Romania) -- FOREIGN-flagged vessel
-- **Authorization:** No public authorization record (check coastal state)
+- **Authorization:** Authorization lapsed before this date: GFCM  ·  IMO 8532669
 - **Vessel:** 🇧🇬 IRINA  ·  **signal:** Encounter
 - **When (UTC):** 2026-06-30T18:30:00.000Z → 2026-06-30T22:10:00.000Z
 - **Encounter:** 3.7 h with carrier `207822280` (apparent transshipment)

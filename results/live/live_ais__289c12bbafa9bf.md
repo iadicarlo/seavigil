@@ -3,7 +3,7 @@
 - **MPA:** AIS disabling (going dark)
 - **Severity:** HIGH (foreign vessel, no authorization on record)
 - **EEZ:** Japanese Exclusive Economic Zone (Japan) -- FOREIGN-flagged vessel
-- **Authorization:** No public authorization record (check coastal state)  ·  IMO 9691515
+- **Authorization:** No public authorization record (check coastal state)
 - **Vessel:** 🇵🇦 SUN EXCELSIOR  ·  **signal:** AIS gap
 - **When (UTC):** 2026-06-21T03:01:13.000Z → 2026-06-29T11:51:55.000Z
 - **Gap:** 200.8 h dark, 60.0 nm offshore
