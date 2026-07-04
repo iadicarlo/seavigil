@@ -5,15 +5,15 @@
 - **EEZ:** Russian Exclusive Economic Zone (Russia) -- FOREIGN-flagged vessel
 - **Authorization:** Authorization lapsed before this date: NPFC, SPRFMO  ·  IMO 7377452
 - **Vessel:** 🇰🇷 NAMBUKHO  ·  **signal:** Encounter
-- **When (UTC):** 2026-06-29T07:00:00.000Z → 2026-06-29T23:50:00.000Z
-- **Encounter:** 16.8 h with carrier `273219590` (apparent transshipment)
-- **Where:** 63.525, 179.677
+- **When (UTC):** 2026-06-29T07:00:00.000Z → 2026-06-30T23:50:00.000Z
+- **Encounter:** 40.8 h with carrier `273219590` (apparent transshipment)
+- **Where:** 63.539, 179.646
 
 ## Why this was flagged
 
 _GFW Events encounters dataset (Miller et al. 2018).._
 
-- two vessels within range for 17 h
+- two vessels within range for 41 h
 - counterpart: FRIO ANTWERP
 - two-vessel at-sea encounter (GFW Events)
 
@@ -31,7 +31,7 @@ Two vessels meeting at sea can be a legitimate transfer, bunkering, or a safety 
 
 - WDPA / WD-OECM (World Database on Protected Areas) (UNEP-WCMC and IUCN (2026), June 2026). Protected Planet Terms of Use (non-commercial, display-only).
 - Marine Regions Exclusive Economic Zones v12 (Flanders Marine Institute (2024), DOI 10.14284/632). CC BY 4.0.
-- **Integrity (SHA-256 of canonical facts):** `bdf83f7a7c62880a622a1c85606035a5c3f4cdd1fd729d5d9af7d530a387bc81`
+- **Integrity (SHA-256 of canonical facts):** `ba80626e235b3de20bf14251482a5ea9f1f91251959d5fadb300862f9ae774fb`
 - **Evidence schema:** seavigil-evidence-1.0
 
 _Apparent activity and an inspection lead, not proof of illegality. AIS and SAR evidence have known coverage gaps and spoofing risks; verify against authoritative sources before any enforcement action._
