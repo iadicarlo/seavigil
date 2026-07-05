@@ -1,6 +1,19 @@
 {
-"generated_at": "2026-07-05T00:16:57Z",
+"generated_at": "2026-07-05T04:35:08Z",
 "alerts": [
+{
+"id": "live_enco_2ac6e281ab0f98",
+"first_seen": "2026-07-05T04:35:08Z",
+"type": "encounter",
+"when": "2026-07-01T19:10:00.000Z",
+"eez": "Italian Exclusive Economic Zone",
+"flag": "HRV",
+"authorization": "no_record",
+"severity_reason": "foreign vessel, no authorization on record",
+"lat": 39.5225,
+"lon": 18.6959,
+"ship_name": "NEPTUN I"
+},
 {
 "id": "live_enco_1769c7dfd7a76d",
 "first_seen": "2026-07-05T00:16:57Z",
@@ -2587,19 +2600,6 @@
 "lat": 10.1688,
 "lon": 111.2169,
 "ship_name": "QIONG LIN YU 60017"
-},
-{
-"id": "live_enco_ef8e6a9873bbf5",
-"first_seen": "2026-06-29T12:31:59Z",
-"type": "encounter",
-"when": "2026-06-25T02:10:00.000Z",
-"eez": "Vietnamese Exclusive Economic Zone",
-"flag": "CHN",
-"authorization": "no_record",
-"severity_reason": "foreign vessel, no authorization on record",
-"lat": 10.1688,
-"lon": 111.2169,
-"ship_name": "QIONG LIN YU 60018"
 }
 ]
 }
