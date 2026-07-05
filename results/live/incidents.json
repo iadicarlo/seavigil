@@ -58,60 +58,6 @@
     "evidence_hash": "ef7633b81f2fd8992311b03dd18b7fc37b13718288bfbdb7f018f4e695c41d58"
   },
   {
-    "incident_id": "live_enco_2ac6e281ab0f98",
-    "type": "encounter",
-    "centroid_lon": 18.6959,
-    "centroid_lat": 39.5225,
-    "time_start_utc": "2026-07-01T19:10:00.000Z",
-    "time_end_utc": "2026-07-01T23:50:00.000Z",
-    "vessel_id": "238769140",
-    "ship_name": "NEPTUN I",
-    "ship_type": "Fishing",
-    "flag": "HRV",
-    "flag_emoji": "\ud83c\udded\ud83c\uddf7",
-    "gear": "Encounter",
-    "n_positions": 0,
-    "n_fishing_positions": 0,
-    "mean_fishing_proba": null,
-    "max_fishing_proba": null,
-    "_rfmo": [
-      "ICCAT",
-      "GFCM",
-      "ACAP",
-      "IWC"
-    ],
-    "_no_take": false,
-    "mpa_name": "At-sea encounter (transshipment)",
-    "duration_hours": 4.7,
-    "carrier_mmsi": "247151160",
-    "explanation": {
-      "method": "GFW Events encounters dataset (Miller et al. 2018).",
-      "drivers": [
-        "two vessels within range for 5 h",
-        "counterpart: FABIO",
-        "two-vessel at-sea encounter (GFW Events)"
-      ]
-    },
-    "caveats": [
-      "Co-location can be legitimate (joint operations, safety, shelter).",
-      "Apparent transshipment is inferred from proximity and low speed, not observed.",
-      "An inspection lead from GFW Events, not proof of illegal activity."
-    ],
-    "eez_name": "Italian Exclusive Economic Zone",
-    "eez_sovereign": "Italy",
-    "eez_iso_sov": "ITA",
-    "eez_foreign": true,
-    "authorization_status": "no_record",
-    "authorization_authorities": [],
-    "registry_iuu_tag": false,
-    "registry_flag": "",
-    "registry_imo": "",
-    "severity": "high",
-    "severity_reason": "foreign vessel, no authorization on record",
-    "evidence_schema": "seavigil-evidence-1.0",
-    "evidence_hash": "9ff49a94c1f07e14d52206cd3d5db960cd7cb4b121b8c3826a4669bfb9163b5c"
-  },
-  {
     "incident_id": "live_enco_88d6fb0be41a39",
     "type": "encounter",
     "centroid_lon": 57.7413,
