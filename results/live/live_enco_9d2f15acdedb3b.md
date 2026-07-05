@@ -1,9 +1,9 @@
 # Incident `live_enco_9d2f15acdedb3b`
 
 - **MPA:** At-sea encounter (transshipment)
-- **Severity:** HIGH (foreign vessel, authorization lapsed)
+- **Severity:** HIGH (foreign vessel, no authorization on record)
 - **EEZ:** Kiribati Exclusive Economic Zone (Line Group) (Kiribati) -- FOREIGN-flagged vessel
-- **Authorization:** Authorization lapsed before this date: FFA, ICCAT, SPRFMO, WCPFC  ·  IMO 8919893
+- **Authorization:** No public authorization record (check coastal state)
 - **Vessel:** 🇵🇦 SEA TRADER I  ·  **signal:** Encounter
 - **When (UTC):** 2026-07-01T18:20:00.000Z → 2026-07-01T23:50:00.000Z
 - **Encounter:** 5.5 h with carrier `352585000` (apparent transshipment)
