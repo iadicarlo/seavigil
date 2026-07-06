@@ -4,9 +4,9 @@
 - **Severity:** HIGH (foreign vessel, no authorization on record)
 - **EEZ:** Overlapping claim Liancourt Rocks: Japan / South Korea (Japan) -- FOREIGN-flagged vessel
 - **Authorization:** No public authorization record (check coastal state)
-- **Vessel:** 🇰🇷 202 NAM YANG HO  ·  **signal:** Encounter
+- **Vessel:** 🇰🇷 2013HANJINHO  ·  **signal:** Encounter
 - **When (UTC):** 2026-07-02T20:40:00.000Z → 2026-07-02T23:50:00.000Z
-- **Encounter:** 3.2 h with carrier `440154850` (apparent transshipment)
+- **Encounter:** 3.2 h with carrier `440406150` (apparent transshipment)
 - **Where:** 37.224, 131.834
 
 ## Why this was flagged
@@ -14,7 +14,7 @@
 _GFW Events encounters dataset (Miller et al. 2018).._
 
 - two vessels within range for 3 h
-- counterpart: 2013HANJINHO
+- counterpart: 202 NAM YANG HO
 - two-vessel at-sea encounter (GFW Events)
 
 ## Could be innocent
@@ -31,7 +31,7 @@ Two vessels meeting at sea can be a legitimate transfer, bunkering, or a safety 
 
 - WDPA / WD-OECM (World Database on Protected Areas) (UNEP-WCMC and IUCN (2026), June 2026). Protected Planet Terms of Use (non-commercial, display-only).
 - Marine Regions Exclusive Economic Zones v12 (Flanders Marine Institute (2024), DOI 10.14284/632). CC BY 4.0.
-- **Integrity (SHA-256 of canonical facts):** `0abe0f7a7c4645acb0ac1d745a32584e210173cca25ae7090a4ce0f95e61d969`
+- **Integrity (SHA-256 of canonical facts):** `0c51e203416189cdf7a5331834797314c02c248ea4db25f8d5186859fd11b595`
 - **Evidence schema:** seavigil-evidence-1.0
 
 _Apparent activity and an inspection lead, not proof of illegality. AIS and SAR evidence have known coverage gaps and spoofing risks; verify against authoritative sources before any enforcement action._

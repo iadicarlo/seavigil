@@ -112,60 +112,6 @@
     "evidence_hash": "68d134c9ba883480291153f417a2656785de5fd74b57578553e72844e0e46cb2"
   },
   {
-    "incident_id": "live_enco_1aa5e080b2be46",
-    "type": "encounter",
-    "centroid_lon": 131.8345,
-    "centroid_lat": 37.2245,
-    "time_start_utc": "2026-07-02T20:40:00.000Z",
-    "time_end_utc": "2026-07-02T23:50:00.000Z",
-    "vessel_id": "440406150",
-    "ship_name": "202 NAM YANG HO",
-    "ship_type": "Fishing",
-    "flag": "KOR",
-    "flag_emoji": "\ud83c\uddf0\ud83c\uddf7",
-    "gear": "Encounter",
-    "n_positions": 0,
-    "n_fishing_positions": 0,
-    "mean_fishing_proba": null,
-    "max_fishing_proba": null,
-    "_rfmo": [
-      "ACAP",
-      "PICES",
-      "IWC",
-      "WCPFC"
-    ],
-    "_no_take": false,
-    "mpa_name": "At-sea encounter (transshipment)",
-    "duration_hours": 3.2,
-    "carrier_mmsi": "440154850",
-    "explanation": {
-      "method": "GFW Events encounters dataset (Miller et al. 2018).",
-      "drivers": [
-        "two vessels within range for 3 h",
-        "counterpart: 2013HANJINHO",
-        "two-vessel at-sea encounter (GFW Events)"
-      ]
-    },
-    "caveats": [
-      "Co-location can be legitimate (joint operations, safety, shelter).",
-      "Apparent transshipment is inferred from proximity and low speed, not observed.",
-      "An inspection lead from GFW Events, not proof of illegal activity."
-    ],
-    "eez_name": "Overlapping claim Liancourt Rocks: Japan / South Korea",
-    "eez_sovereign": "Japan",
-    "eez_iso_sov": "JPN",
-    "eez_foreign": true,
-    "authorization_status": "no_record",
-    "authorization_authorities": [],
-    "registry_iuu_tag": false,
-    "registry_flag": "",
-    "registry_imo": "",
-    "severity": "high",
-    "severity_reason": "foreign vessel, no authorization on record",
-    "evidence_schema": "seavigil-evidence-1.0",
-    "evidence_hash": "0abe0f7a7c4645acb0ac1d745a32584e210173cca25ae7090a4ce0f95e61d969"
-  },
-  {
     "incident_id": "live_enco_e444c2954d5871",
     "type": "encounter",
     "centroid_lon": 131.8351,
@@ -321,6 +267,60 @@
     "severity_reason": "foreign vessel, no authorization on record",
     "evidence_schema": "seavigil-evidence-1.0",
     "evidence_hash": "071da09a0a7072ba6d6d9ac9d00598f1c60f396947fbb3284567b14e58982379"
+  },
+  {
+    "incident_id": "live_enco_1aa5e080b2be46",
+    "type": "encounter",
+    "centroid_lon": 131.8345,
+    "centroid_lat": 37.2245,
+    "time_start_utc": "2026-07-02T20:40:00.000Z",
+    "time_end_utc": "2026-07-02T23:50:00.000Z",
+    "vessel_id": "440154850",
+    "ship_name": "2013HANJINHO",
+    "ship_type": "Fishing",
+    "flag": "KOR",
+    "flag_emoji": "\ud83c\uddf0\ud83c\uddf7",
+    "gear": "Encounter",
+    "n_positions": 0,
+    "n_fishing_positions": 0,
+    "mean_fishing_proba": null,
+    "max_fishing_proba": null,
+    "_rfmo": [
+      "WCPFC",
+      "ACAP",
+      "IWC",
+      "PICES"
+    ],
+    "_no_take": false,
+    "mpa_name": "At-sea encounter (transshipment)",
+    "duration_hours": 3.2,
+    "carrier_mmsi": "440406150",
+    "explanation": {
+      "method": "GFW Events encounters dataset (Miller et al. 2018).",
+      "drivers": [
+        "two vessels within range for 3 h",
+        "counterpart: 202 NAM YANG HO",
+        "two-vessel at-sea encounter (GFW Events)"
+      ]
+    },
+    "caveats": [
+      "Co-location can be legitimate (joint operations, safety, shelter).",
+      "Apparent transshipment is inferred from proximity and low speed, not observed.",
+      "An inspection lead from GFW Events, not proof of illegal activity."
+    ],
+    "eez_name": "Overlapping claim Liancourt Rocks: Japan / South Korea",
+    "eez_sovereign": "Japan",
+    "eez_iso_sov": "JPN",
+    "eez_foreign": true,
+    "authorization_status": "no_record",
+    "authorization_authorities": [],
+    "registry_iuu_tag": false,
+    "registry_flag": "",
+    "registry_imo": "",
+    "severity": "high",
+    "severity_reason": "foreign vessel, no authorization on record",
+    "evidence_schema": "seavigil-evidence-1.0",
+    "evidence_hash": "0c51e203416189cdf7a5331834797314c02c248ea4db25f8d5186859fd11b595"
   },
   {
     "incident_id": "live_enco_c14f466c876e3d",
