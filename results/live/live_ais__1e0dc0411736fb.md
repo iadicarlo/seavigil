@@ -3,7 +3,7 @@
 - **MPA:** AIS disabling (going dark)
 - **Severity:** HIGH (foreign vessel, no authorization on record)
 - **EEZ:** Brazilian Exclusive Economic Zone (Brazil) -- FOREIGN-flagged vessel
-- **Authorization:** No public authorization record (check coastal state)  ·  IMO 9492127
+- **Authorization:** No public authorization record (check coastal state)
 - **Vessel:** 🇧🇸 SAO SEBASTIAO  ·  **signal:** AIS gap
 - **When (UTC):** 2026-06-29T14:58:15.000Z → 2026-06-30T16:29:45.000Z
 - **Gap:** 25.5 h dark, 129.0 nm offshore
