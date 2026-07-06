@@ -1,19 +1,19 @@
-# Incident `live_ais__ea153130bf6abc`
+# Incident `live_ais__9deb5c73a13889`
 
 - **MPA:** AIS disabling (going dark)
 - **Severity:** HIGH (foreign vessel, no authorization on record)
-- **EEZ:** Saudi Arabian Exclusive Economic Zone (Saudi Arabia) -- FOREIGN-flagged vessel
-- **Authorization:** No public authorization record (check coastal state)  ·  IMO 9414979
-- **Vessel:** 🇵🇦 SUNNY MOLLY  ·  **signal:** AIS gap
-- **When (UTC):** 2026-06-29T08:00:24.000Z → 2026-06-30T06:43:31.000Z
-- **Gap:** 22.7 h dark, 66.0 nm offshore
-- **Where:** 19.722, 38.999
+- **EEZ:** Brazilian Exclusive Economic Zone (Brazil) -- FOREIGN-flagged vessel
+- **Authorization:** No public authorization record (check coastal state)
+- **Vessel:** 🇳🇱 H3 BOIA 04-98%  ·  **signal:** AIS gap
+- **When (UTC):** 2026-06-26T17:36:31.000Z → 2026-07-02T18:37:53.000Z
+- **Gap:** 145.0 h dark, 284.0 nm offshore
+- **Where:** -10.628, -32.980
 
 ## Why this was flagged
 
 _GFW Events gaps dataset (satellite AIS).._
 
-- went dark 66 nm offshore for 23 h
+- went dark 284 nm offshore for 145 h
 - satellite-confirmed AIS gap (GFW Events)
 
 ## Could be innocent
@@ -31,7 +31,7 @@ Going dark is frequently benign: in open water, where gaps are commonly protecti
 - NOAA Marine Cadastre AIS (marinecadastre.gov/ais (vessel positions)). US public domain.
 - WDPA / WD-OECM (World Database on Protected Areas) (UNEP-WCMC and IUCN (2026), June 2026). Protected Planet Terms of Use (non-commercial, display-only).
 - Marine Regions Exclusive Economic Zones v12 (Flanders Marine Institute (2024), DOI 10.14284/632). CC BY 4.0.
-- **Integrity (SHA-256 of canonical facts):** `7650fd7d6410528674982d275a74679eef708655bb1efd843f790351fc3d0847`
+- **Integrity (SHA-256 of canonical facts):** `ca828a4a4339f0379080d19d54d1910403608295cbb7d1630bcd644fbda33d68`
 - **Evidence schema:** seavigil-evidence-1.0
 
 _Apparent activity and an inspection lead, not proof of illegality. AIS and SAR evidence have known coverage gaps and spoofing risks; verify against authoritative sources before any enforcement action._
