@@ -3,8 +3,8 @@
 - **MPA:** AIS disabling (going dark)
 - **Severity:** HIGH (foreign vessel, no authorization on record)
 - **EEZ:** Colombian Exclusive Economic Zone (Colombia) -- FOREIGN-flagged vessel
-- **Authorization:** No public authorization record (check coastal state)
-- **Vessel:** 🇹🇿 EL EXPERT  ·  **signal:** AIS gap
+- **Authorization:** No public authorization record (check coastal state)  ·  IMO 8844232
+- **Vessel:** 🇹🇬 EL EXPERT  ·  **signal:** AIS gap
 - **When (UTC):** 2026-06-25T03:46:26.000Z → 2026-07-01T13:29:40.000Z
 - **Gap:** 153.7 h dark, 194.0 nm offshore
 - **Where:** 4.957, -81.491
@@ -31,7 +31,7 @@ Going dark is frequently benign: in open water, where gaps are commonly protecti
 - NOAA Marine Cadastre AIS (marinecadastre.gov/ais (vessel positions)). US public domain.
 - WDPA / WD-OECM (World Database on Protected Areas) (UNEP-WCMC and IUCN (2026), June 2026). Protected Planet Terms of Use (non-commercial, display-only).
 - Marine Regions Exclusive Economic Zones v12 (Flanders Marine Institute (2024), DOI 10.14284/632). CC BY 4.0.
-- **Integrity (SHA-256 of canonical facts):** `498087ef72f57ba1c00139ef42532fdf09e22d7e0bddd6663ff91b0c2da1408e`
+- **Integrity (SHA-256 of canonical facts):** `40c1fd8ed84ac3dc8eecb19367cd32b8ccda01fea5f2df3192696be9e7b8f9f9`
 - **Evidence schema:** seavigil-evidence-1.0
 
 _Apparent activity and an inspection lead, not proof of illegality. AIS and SAR evidence have known coverage gaps and spoofing risks; verify against authoritative sources before any enforcement action._

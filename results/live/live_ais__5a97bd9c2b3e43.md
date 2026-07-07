@@ -3,8 +3,8 @@
 - **MPA:** AIS disabling (going dark)
 - **Severity:** HIGH (foreign vessel, no authorization on record)
 - **EEZ:** Guyanese Exclusive Economic Zone (Guyana) -- FOREIGN-flagged vessel
-- **Authorization:** No public authorization record (check coastal state)  ·  IMO 9501174
-- **Vessel:** 🇲🇹 TAQAH  ·  **signal:** AIS gap
+- **Authorization:** No public authorization record (check coastal state)
+- **Vessel:** 🇲🇭 TAQAH  ·  **signal:** AIS gap
 - **When (UTC):** 2026-06-30T19:31:26.000Z → 2026-07-02T06:26:39.000Z
 - **Gap:** 34.9 h dark, 94.0 nm offshore
 - **Where:** 8.011, -56.996
@@ -31,7 +31,7 @@ Going dark is frequently benign: in open water, where gaps are commonly protecti
 - NOAA Marine Cadastre AIS (marinecadastre.gov/ais (vessel positions)). US public domain.
 - WDPA / WD-OECM (World Database on Protected Areas) (UNEP-WCMC and IUCN (2026), June 2026). Protected Planet Terms of Use (non-commercial, display-only).
 - Marine Regions Exclusive Economic Zones v12 (Flanders Marine Institute (2024), DOI 10.14284/632). CC BY 4.0.
-- **Integrity (SHA-256 of canonical facts):** `b4d05794a89a2cfcbe5d188483d9a6b48e20884c4fb2d20552fa0db952696a47`
+- **Integrity (SHA-256 of canonical facts):** `901522d494479bdb9bf5d2f0f254be0f2509c30b75515fc75c068def5bd93dae`
 - **Evidence schema:** seavigil-evidence-1.0
 
 _Apparent activity and an inspection lead, not proof of illegality. AIS and SAR evidence have known coverage gaps and spoofing risks; verify against authoritative sources before any enforcement action._
