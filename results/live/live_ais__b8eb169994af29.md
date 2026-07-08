@@ -3,7 +3,7 @@
 - **MPA:** AIS disabling (going dark)
 - **Severity:** HIGH (foreign vessel, no authorization on record)
 - **EEZ:** Guyanese Exclusive Economic Zone (Guyana) -- FOREIGN-flagged vessel
-- **Authorization:** No public authorization record (check coastal state)
+- **Authorization:** No public authorization record (check coastal state)  ·  IMO 9816323
 - **Vessel:** 🇱🇷 ALMI ATLAS  ·  **signal:** AIS gap
 - **When (UTC):** 2026-07-02T23:18:35.000Z → 2026-07-03T16:43:51.000Z
 - **Gap:** 17.4 h dark, 103.0 nm offshore

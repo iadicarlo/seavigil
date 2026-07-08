@@ -3,7 +3,7 @@
 - **MPA:** AIS disabling (going dark)
 - **Severity:** HIGH (foreign vessel, no authorization on record)
 - **EEZ:** French Exclusive Economic Zone (French Guiana) (France) -- FOREIGN-flagged vessel
-- **Authorization:** No public authorization record (check coastal state)  ·  IMO 9696785
+- **Authorization:** No public authorization record (check coastal state)
 - **Vessel:** 🇵🇦 BLUE AKIHABARA  ·  **signal:** AIS gap
 - **When (UTC):** 2026-07-02T19:24:15.000Z → 2026-07-03T14:41:23.000Z
 - **Gap:** 19.3 h dark, 68.0 nm offshore

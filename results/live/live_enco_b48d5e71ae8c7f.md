@@ -1,9 +1,9 @@
 # Incident `live_enco_b48d5e71ae8c7f`
 
 - **MPA:** At-sea encounter (transshipment)
-- **Severity:** HIGH (foreign vessel, no authorization on record)
+- **Severity:** HIGH (foreign vessel, authorization lapsed)
 - **EEZ:** Italian Exclusive Economic Zone (Italy) -- FOREIGN-flagged vessel
-- **Authorization:** No public authorization record (check coastal state)
+- **Authorization:** Authorization lapsed before this date: GFCM, ICCAT  ·  IMO 9498145
 - **Vessel:** 🇭🇷 NEPTUN I  ·  **signal:** Encounter
 - **When (UTC):** 2026-07-02T16:30:00.000Z → 2026-07-03T23:20:00.000Z
 - **Encounter:** 30.8 h with carrier `247100520` (apparent transshipment)

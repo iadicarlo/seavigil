@@ -1,9 +1,9 @@
 # Incident `live_ais__6b5aad0dd192a9`
 
 - **MPA:** AIS disabling (going dark)
-- **Severity:** HIGH (foreign vessel, no authorization on record)
+- **Severity:** HIGH (foreign vessel, authorization lapsed)
 - **EEZ:** Bissau-Guinean Exclusive Economic Zone (Guinea-Bissau) -- FOREIGN-flagged vessel
-- **Authorization:** No public authorization record (check coastal state)
+- **Authorization:** Authorization lapsed before this date: FFA, ICCAT  ·  IMO 8102907
 - **Vessel:** 🇸🇳 GRANADA  ·  **signal:** AIS gap
 - **When (UTC):** 2026-07-02T20:06:18.000Z → 2026-07-03T12:40:45.000Z
 - **Gap:** 16.6 h dark, 76.0 nm offshore
