@@ -1,20 +1,20 @@
-# Incident `live_enco_f0b3f9271111a2`
+# Incident `live_enco_13115fa60f8c24`
 
 - **MPA:** At-sea encounter (transshipment)
 - **Severity:** HIGH (foreign vessel, no authorization on record)
-- **EEZ:** Kiribati Exclusive Economic Zone (Line Group) (Kiribati) -- FOREIGN-flagged vessel
+- **EEZ:** Chinese Exclusive Economic Zone (China) -- FOREIGN-flagged vessel
 - **Authorization:** No public authorization record (check coastal state)
-- **Vessel:** 🇲🇭 UNAAK  ·  **signal:** Encounter
-- **When (UTC):** 2026-07-03T19:20:00.000Z → 2026-07-03T22:50:00.000Z
-- **Encounter:** 3.5 h with carrier `352585000` (apparent transshipment)
-- **Where:** 2.987, -158.598
+- **Vessel:** 🇹🇼 11168  ·  **signal:** Encounter
+- **When (UTC):** 2026-07-04T09:50:00.000Z → 2026-07-04T18:30:00.000Z
+- **Encounter:** 8.7 h with carrier `416888668` (apparent transshipment)
+- **Where:** 26.982, 121.702
 
 ## Why this was flagged
 
 _GFW Events encounters dataset (Miller et al. 2018).._
 
-- two vessels within range for 4 h
-- counterpart: AT GLORY
+- two vessels within range for 9 h
+- counterpart: 16888
 - two-vessel at-sea encounter (GFW Events)
 
 ## Could be innocent
@@ -31,7 +31,7 @@ Two vessels meeting at sea can be a legitimate transfer, bunkering, or a safety 
 
 - WDPA / WD-OECM (World Database on Protected Areas) (UNEP-WCMC and IUCN (2026), June 2026). Protected Planet Terms of Use (non-commercial, display-only).
 - Marine Regions Exclusive Economic Zones v12 (Flanders Marine Institute (2024), DOI 10.14284/632). CC BY 4.0.
-- **Integrity (SHA-256 of canonical facts):** `53a345bb966e3a9ed43923dceacc51f48a709948028feaa8defe69266be639c5`
+- **Integrity (SHA-256 of canonical facts):** `09ee0d8de2f539a8da119dd3600dbafa565e427ab8606090adb19fe1abc4cafa`
 - **Evidence schema:** seavigil-evidence-1.0
 
 _Apparent activity and an inspection lead, not proof of illegality. AIS and SAR evidence have known coverage gaps and spoofing risks; verify against authoritative sources before any enforcement action._
