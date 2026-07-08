@@ -160,6 +160,65 @@
     "evidence_hash": "0c60e35987772c55927b9d7d9a1230dc0763515764702e21fe410de58f7e7d59"
   },
   {
+    "incident_id": "live_enco_524b22dfb57c9a",
+    "type": "encounter",
+    "centroid_lon": -3.9958,
+    "centroid_lat": 47.1841,
+    "time_start_utc": "2026-07-04T11:40:00.000Z",
+    "time_end_utc": "2026-07-04T23:50:00.000Z",
+    "vessel_id": "225360000",
+    "ship_name": "ALBELO PRIMERO",
+    "ship_type": "Fishing",
+    "flag": "ESP",
+    "flag_emoji": "\ud83c\uddea\ud83c\uddf8",
+    "gear": "Encounter",
+    "n_positions": 0,
+    "n_fishing_positions": 0,
+    "mean_fishing_proba": null,
+    "max_fishing_proba": null,
+    "_rfmo": [
+      "NEAFC",
+      "ICCAT",
+      "ACAP",
+      "ICES",
+      "NAMMCO",
+      "IWC",
+      "NASCO"
+    ],
+    "_no_take": false,
+    "mpa_name": "At-sea encounter (transshipment)",
+    "duration_hours": 12.2,
+    "carrier_mmsi": "993574562",
+    "explanation": {
+      "method": "GFW Events encounters dataset (Miller et al. 2018).",
+      "drivers": [
+        "two vessels within range for 12 h",
+        "counterpart: ALBELO- BUOY- 7",
+        "two-vessel at-sea encounter (GFW Events)"
+      ]
+    },
+    "caveats": [
+      "Co-location can be legitimate (joint operations, safety, shelter).",
+      "Apparent transshipment is inferred from proximity and low speed, not observed.",
+      "An inspection lead from GFW Events, not proof of illegal activity."
+    ],
+    "eez_name": "French Exclusive Economic Zone",
+    "eez_sovereign": "France",
+    "eez_iso_sov": "FRA",
+    "eez_foreign": true,
+    "authorization_status": "authorization_lapsed",
+    "authorization_authorities": [
+      "NEAFC"
+    ],
+    "registry_iuu_tag": false,
+    "registry_flag": "ESP",
+    "registry_imo": "9476513",
+    "severity": "high",
+    "severity_reason": "foreign vessel, authorization lapsed",
+    "evidence_schema": "seavigil-evidence-1.0",
+    "evidence_hash": "02589246794c67964eec1de1c1f75b562475de90b3f52c967f1b654225c43d73"
+  },
+  {
     "incident_id": "live_enco_681ba1e61ed8bb",
     "type": "encounter",
     "centroid_lon": 177.9266,

@@ -1,6 +1,19 @@
 {
-"generated_at": "2026-07-08T16:50:56Z",
+"generated_at": "2026-07-08T18:48:10Z",
 "alerts": [
+{
+"id": "live_enco_524b22dfb57c9a",
+"first_seen": "2026-07-08T18:48:10Z",
+"type": "encounter",
+"when": "2026-07-04T11:40:00.000Z",
+"eez": "French Exclusive Economic Zone",
+"flag": "ESP",
+"authorization": "authorization_lapsed",
+"severity_reason": "foreign vessel, authorization lapsed",
+"lat": 47.1841,
+"lon": -3.9958,
+"ship_name": "ALBELO PRIMERO"
+},
 {
 "id": "live_enco_5bbc5b084dd62d",
 "first_seen": "2026-07-08T16:50:56Z",
@@ -2587,19 +2600,6 @@
 "lat": -24.7397,
 "lon": -42.515,
 "ship_name": "EAGLE CAMBE"
-},
-{
-"id": "live_ais__46366aec31b715",
-"first_seen": "2026-07-01T13:41:42Z",
-"type": "ais_disabling",
-"when": "2026-06-26T11:28:37.000Z",
-"eez": "Kiribati Exclusive Economic Zone (Phoenix Group)",
-"flag": "CHN",
-"authorization": "no_record",
-"severity_reason": "foreign vessel, no authorization on record",
-"lat": -3.2566,
-"lon": -169.7952,
-"ship_name": "SYY39-2024-07-99%"
 }
 ]
 }
