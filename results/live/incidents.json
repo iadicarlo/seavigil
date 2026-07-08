@@ -330,6 +330,63 @@
     "evidence_hash": "96b459a7102f30dec0e912988b348021d5fb67e89ff4e18ded61308f59423d91"
   },
   {
+    "incident_id": "live_enco_e49a4225bcd409",
+    "type": "encounter",
+    "centroid_lon": 14.3507,
+    "centroid_lat": 35.6218,
+    "time_start_utc": "2026-07-03T15:40:00.000Z",
+    "time_end_utc": "2026-07-03T23:50:00.000Z",
+    "vessel_id": "210380000",
+    "ship_name": "MFV RANIA",
+    "ship_type": "Fishing",
+    "flag": "CYP",
+    "flag_emoji": "\ud83c\udde8\ud83c\uddfe",
+    "gear": "Encounter",
+    "n_positions": 0,
+    "n_fishing_positions": 0,
+    "mean_fishing_proba": null,
+    "max_fishing_proba": null,
+    "_rfmo": [
+      "GFCM",
+      "ICCAT",
+      "ACAP",
+      "IWC"
+    ],
+    "_no_take": false,
+    "mpa_name": "At-sea encounter (transshipment)",
+    "duration_hours": 8.2,
+    "carrier_mmsi": "249000171",
+    "explanation": {
+      "method": "GFW Events encounters dataset (Miller et al. 2018).",
+      "drivers": [
+        "two vessels within range for 8 h",
+        "counterpart: CMS SEACAT TOW300M",
+        "two-vessel at-sea encounter (GFW Events)"
+      ]
+    },
+    "caveats": [
+      "Co-location can be legitimate (joint operations, safety, shelter).",
+      "Apparent transshipment is inferred from proximity and low speed, not observed.",
+      "An inspection lead from GFW Events, not proof of illegal activity."
+    ],
+    "eez_name": "Maltese Exclusive Economic Zone",
+    "eez_sovereign": "Malta",
+    "eez_iso_sov": "MLT",
+    "eez_foreign": true,
+    "authorization_status": "authorization_lapsed",
+    "authorization_authorities": [
+      "GFCM",
+      "ICCAT"
+    ],
+    "registry_iuu_tag": false,
+    "registry_flag": "CYP",
+    "registry_imo": "8688157",
+    "severity": "high",
+    "severity_reason": "foreign vessel, authorization lapsed",
+    "evidence_schema": "seavigil-evidence-1.0",
+    "evidence_hash": "6a1c3a71ad8ad86ca693d7a4012e27dfbcf5a71da1fd51d5a94d73e20ddfa372"
+  },
+  {
     "incident_id": "live_enco_23a74448201ef1",
     "type": "encounter",
     "centroid_lon": 121.7024,
