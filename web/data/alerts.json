@@ -1,6 +1,19 @@
 {
-"generated_at": "2026-07-09T18:11:47Z",
+"generated_at": "2026-07-09T20:05:36Z",
 "alerts": [
+{
+"id": "live_enco_03eacb866fd39c",
+"first_seen": "2026-07-09T20:05:36Z",
+"type": "encounter",
+"when": "2026-07-05T03:00:00.000Z",
+"eez": "Overlapping claim Senkaku Islands: Taiwan / Japan / China",
+"flag": "ARG",
+"authorization": "no_record",
+"severity_reason": "foreign vessel, no authorization on record",
+"lat": 27.2878,
+"lon": 123.2453,
+"ship_name": ""
+},
 {
 "id": "live_enco_ced92c05e43cb3",
 "first_seen": "2026-07-09T18:11:47Z",
@@ -2587,19 +2600,6 @@
 "lat": 23.0793,
 "lon": 121.3831,
 "ship_name": "CT3-4412-16 90%"
-},
-{
-"id": "live_enco_132c4c076bdf6f",
-"first_seen": "2026-07-03T04:10:38Z",
-"type": "encounter",
-"when": "2026-06-29T02:20:00.000Z",
-"eez": "Chinese Exclusive Economic Zone",
-"flag": "SHN",
-"authorization": "no_record",
-"severity_reason": "foreign vessel, no authorization on record",
-"lat": 22.1129,
-"lon": 115.8223,
-"ship_name": "QIONGYANGYU12056"
 }
 ]
 }
