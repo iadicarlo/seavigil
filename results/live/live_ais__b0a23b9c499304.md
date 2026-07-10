@@ -3,7 +3,7 @@
 - **MPA:** AIS disabling (going dark)
 - **Severity:** HIGH (foreign vessel, no authorization on record)
 - **EEZ:** Gabonese Exclusive Economic Zone (Gabon) -- FOREIGN-flagged vessel
-- **Authorization:** No public authorization record (check coastal state)
+- **Authorization:** No public authorization record (check coastal state)  ·  IMO 9447029
 - **Vessel:** 🇲🇹 BASAT  ·  **signal:** AIS gap
 - **When (UTC):** 2026-07-03T13:27:46.000Z → 2026-07-04T11:05:49.000Z
 - **Gap:** 21.6 h dark, 79.0 nm offshore
