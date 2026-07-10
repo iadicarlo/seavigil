@@ -1,9 +1,23 @@
 # In-MPA records
 
-731 record(s): 0 AIS fishing incident(s), 731 dark-vessel SAR detection(s).
+730 record(s): 0 AIS fishing incident(s), 730 dark-vessel SAR detection(s).
 
 | id | type | MPA | start (UTC) | score / mean p |
 |---|---|---|---|---:|
+| [s1sar__20260710_0000](s1sar__20260710_0000.md) | dark SAR | Sentinel-1 SAR detection | 2026-07-10T10:47:04Z | 0.02 |
+| [s1sar__20260710_0014](s1sar__20260710_0014.md) | dark SAR | Sentinel-1 SAR detection | 2026-07-10T10:47:04Z | 0.02 |
+| [s1sar__20260710_0015](s1sar__20260710_0015.md) | dark SAR | Sentinel-1 SAR detection | 2026-07-10T10:47:04Z | 0.02 |
+| [s1sar__20260710_0016](s1sar__20260710_0016.md) | dark SAR | Sentinel-1 SAR detection | 2026-07-10T10:47:04Z | 0.00 |
+| [s1sar__20260710_0018](s1sar__20260710_0018.md) | dark SAR | Sentinel-1 SAR detection | 2026-07-10T10:47:04Z | 0.00 |
+| [s1sar__20260710_0019](s1sar__20260710_0019.md) | dark SAR | Sentinel-1 SAR detection | 2026-07-10T10:47:04Z | 0.01 |
+| [s1sar__20260710_0020](s1sar__20260710_0020.md) | dark SAR | Sentinel-1 SAR detection | 2026-07-10T10:47:04Z | 0.00 |
+| [s1sar__20260710_0035](s1sar__20260710_0035.md) | dark SAR | Sentinel-1 SAR detection | 2026-07-10T10:47:04Z | 0.03 |
+| [s1sar__20260710_0036](s1sar__20260710_0036.md) | dark SAR | Sentinel-1 SAR detection | 2026-07-10T10:47:04Z | 0.03 |
+| [s1sar__20260710_0037](s1sar__20260710_0037.md) | dark SAR | Sentinel-1 SAR detection | 2026-07-10T10:47:04Z | 0.00 |
+| [s1sar__20260710_0041](s1sar__20260710_0041.md) | dark SAR | Sentinel-1 SAR detection | 2026-07-10T10:47:04Z | 0.00 |
+| [s1sar__20260710_0045](s1sar__20260710_0045.md) | dark SAR | Sentinel-1 SAR detection | 2026-07-10T10:47:04Z | 0.98 |
+| [s1sar__20260710_0090](s1sar__20260710_0090.md) | dark SAR | Sentinel-1 SAR detection | 2026-07-10T10:47:04Z | 0.61 |
+| [s1sar__20260710_0092](s1sar__20260710_0092.md) | dark SAR | Sentinel-1 SAR detection | 2026-07-10T10:47:04Z | 0.16 |
 | [s1sar__20260709_0000](s1sar__20260709_0000.md) | dark SAR | Sentinel-1 SAR detection | 2026-07-09T19:07:39Z | 0.22 |
 | [s1sar__20260709_0001](s1sar__20260709_0001.md) | dark SAR | Sentinel-1 SAR detection | 2026-07-09T19:07:39Z | 0.90 |
 | [s1sar__20260709_0002](s1sar__20260709_0002.md) | dark SAR | Sentinel-1 SAR detection | 2026-07-09T19:07:39Z | 0.06 |
@@ -720,18 +734,3 @@
 | [s1sar__20260630_0028](s1sar__20260630_0028.md) | dark SAR | Sentinel-1 SAR detection | 2026-06-30T23:33:13Z | 0.03 |
 | [s1sar__20260630_0113](s1sar__20260630_0113.md) | dark SAR | Sentinel-1 SAR detection | 2026-06-30T23:33:13Z | 0.84 |
 | [s1sar__20260630_0114](s1sar__20260630_0114.md) | dark SAR | Sentinel-1 SAR detection | 2026-06-30T23:33:13Z | 0.52 |
-| [s1sar__20260626_0000](s1sar__20260626_0000.md) | dark SAR | Galapagos Marine Reserve | 2026-06-26T00:17:29Z | 0.15 |
-| [s1sar__20260626_0001](s1sar__20260626_0001.md) | dark SAR | Galapagos Marine Reserve | 2026-06-26T00:17:29Z | 0.03 |
-| [s1sar__20260626_0002](s1sar__20260626_0002.md) | dark SAR | Galapagos Marine Reserve | 2026-06-26T00:17:29Z | 0.54 |
-| [s1sar__20260626_0003](s1sar__20260626_0003.md) | dark SAR | Sentinel-1 SAR detection | 2026-06-26T00:17:29Z | 0.01 |
-| [s1sar__20260626_0004](s1sar__20260626_0004.md) | dark SAR | Galapagos Marine Reserve | 2026-06-26T00:17:29Z | 0.29 |
-| [s1sar__20260626_0005](s1sar__20260626_0005.md) | dark SAR | Galapagos Marine Reserve | 2026-06-26T00:17:29Z | 0.97 |
-| [s1sar__20260626_0006](s1sar__20260626_0006.md) | dark SAR | Galapagos Marine Reserve | 2026-06-26T00:17:29Z | 0.04 |
-| [s1sar__20260626_0007](s1sar__20260626_0007.md) | dark SAR | Galapagos Marine Reserve | 2026-06-26T00:17:29Z | 0.07 |
-| [s1sar__20260626_0008](s1sar__20260626_0008.md) | dark SAR | Galapagos Marine Reserve | 2026-06-26T00:17:29Z | 0.03 |
-| [s1sar__20260626_0009](s1sar__20260626_0009.md) | dark SAR | Sentinel-1 SAR detection | 2026-06-26T00:17:29Z | 0.01 |
-| [s1sar__20260626_0010](s1sar__20260626_0010.md) | dark SAR | Galapagos Marine Reserve | 2026-06-26T00:17:29Z | 0.80 |
-| [s1sar__20260626_0011](s1sar__20260626_0011.md) | dark SAR | Galapagos Marine Reserve | 2026-06-26T00:17:29Z | 0.16 |
-| [s1sar__20260626_0012](s1sar__20260626_0012.md) | dark SAR | Galapagos Marine Reserve | 2026-06-26T00:17:29Z | 0.33 |
-| [s1sar__20260626_0013](s1sar__20260626_0013.md) | dark SAR | Galapagos Marine Reserve | 2026-06-26T00:17:29Z | 0.40 |
-| [s1sar__20260626_0014](s1sar__20260626_0014.md) | dark SAR | Galapagos Marine Reserve | 2026-06-26T00:17:29Z | 0.10 |
