@@ -3,7 +3,7 @@
 - **MPA:** AIS disabling (going dark)
 - **Severity:** HIGH (foreign vessel, no authorization on record)
 - **EEZ:** Micronesian Exclusive Economic Zone (Micronesia) -- FOREIGN-flagged vessel
-- **Authorization:** No public authorization record (check coastal state)
+- **Authorization:** No public authorization record (check coastal state)  ·  IMO 9108609
 - **Vessel:** 🇯🇵 WAKABAMARU NO11  ·  **signal:** AIS gap
 - **When (UTC):** 2026-06-23T07:35:55.000Z → 2026-07-06T07:53:39.000Z
 - **Gap:** 312.3 h dark, 93.0 nm offshore

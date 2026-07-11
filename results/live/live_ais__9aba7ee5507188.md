@@ -1,9 +1,9 @@
 # Incident `live_ais__9aba7ee5507188`
 
 - **MPA:** AIS disabling (going dark)
-- **Severity:** HIGH (foreign vessel, no authorization on record)
+- **Severity:** HIGH (foreign vessel, authorization lapsed)
 - **EEZ:** United States Exclusive Economic Zone (Howland and Baker Islands) (United States) -- FOREIGN-flagged vessel
-- **Authorization:** No public authorization record (check coastal state)
+- **Authorization:** Authorization lapsed before this date: FFA, WCPFC  ·  IMO 9733404
 - **Vessel:** 🇨🇳 JIN HUI 18  ·  **signal:** AIS gap
 - **When (UTC):** 2026-07-01T22:16:09.000Z → 2026-07-05T21:26:49.000Z
 - **Gap:** 95.2 h dark, 84.0 nm offshore

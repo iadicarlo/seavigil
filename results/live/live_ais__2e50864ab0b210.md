@@ -1,9 +1,9 @@
 # Incident `live_ais__2e50864ab0b210`
 
 - **MPA:** AIS disabling (going dark)
-- **Severity:** HIGH (foreign vessel, authorization lapsed)
+- **Severity:** HIGH (foreign vessel, no authorization on record)
 - **EEZ:** Kiribati Exclusive Economic Zone (Gilbert Islands) (Kiribati) -- FOREIGN-flagged vessel
-- **Authorization:** Authorization lapsed before this date: FFA, WCPFC  ·  IMO 8924381
+- **Authorization:** No public authorization record (check coastal state)
 - **Vessel:** 🇨🇳 JIN HUI NO.6  ·  **signal:** AIS gap
 - **When (UTC):** 2026-07-05T08:17:47.000Z → 2026-07-06T00:24:20.000Z
 - **Gap:** 16.1 h dark, 53.0 nm offshore
