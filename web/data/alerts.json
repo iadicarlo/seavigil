@@ -1,6 +1,32 @@
 {
-"generated_at": "2026-07-11T00:11:10Z",
+"generated_at": "2026-07-11T03:44:21Z",
 "alerts": [
+{
+"id": "live_enco_e20f9616e17d0a",
+"first_seen": "2026-07-11T03:44:21Z",
+"type": "encounter",
+"when": "2026-07-07T15:00:00.000Z",
+"eez": "Vietnamese Exclusive Economic Zone",
+"flag": "LBR",
+"authorization": "no_record",
+"severity_reason": "foreign vessel, no authorization on record",
+"lat": 10.1275,
+"lon": 107.1474,
+"ship_name": "81- DZ  A26"
+},
+{
+"id": "live_enco_c3567ea60544bf",
+"first_seen": "2026-07-11T03:44:21Z",
+"type": "encounter",
+"when": "2026-07-07T05:50:00.000Z",
+"eez": "Italian Exclusive Economic Zone",
+"flag": "MLT",
+"authorization": "authorization_lapsed",
+"severity_reason": "foreign vessel, authorization lapsed",
+"lat": 36.0224,
+"lon": 13.1457,
+"ship_name": "CMS SEACAT TOW300M"
+},
 {
 "id": "live_enco_88fdd3c9306949",
 "first_seen": "2026-07-11T00:11:10Z",
@@ -2574,32 +2600,6 @@
 "lat": 26.4301,
 "lon": 121.5926,
 "ship_name": "CHANG SHENG 26"
-},
-{
-"id": "live_enco_3fe0c1debb1745",
-"first_seen": "2026-07-04T04:03:33Z",
-"type": "encounter",
-"when": "2026-06-30T13:10:00.000Z",
-"eez": "Chinese Exclusive Economic Zone",
-"flag": "TWN",
-"authorization": "no_record",
-"severity_reason": "foreign vessel, no authorization on record",
-"lat": 26.7962,
-"lon": 121.7575,
-"ship_name": "JU JIN NO OOOOONO  6"
-},
-{
-"id": "live_enco_82452b92e1d93e",
-"first_seen": "2026-07-04T04:03:33Z",
-"type": "encounter",
-"when": "2026-06-30T13:50:00.000Z",
-"eez": "Vietnamese Exclusive Economic Zone",
-"flag": "TZA",
-"authorization": "no_record",
-"severity_reason": "foreign vessel, no authorization on record",
-"lat": 12.1698,
-"lon": 109.4385,
-"ship_name": "NGOC HUAN 835 B20"
 }
 ]
 }
