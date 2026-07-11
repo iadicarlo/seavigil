@@ -1,6 +1,45 @@
 {
-"generated_at": "2026-07-10T22:17:54Z",
+"generated_at": "2026-07-11T00:11:10Z",
 "alerts": [
+{
+"id": "live_enco_88fdd3c9306949",
+"first_seen": "2026-07-11T00:11:10Z",
+"type": "encounter",
+"when": "2026-07-07T11:10:00.000Z",
+"eez": "Russian Exclusive Economic Zone",
+"flag": "CHN",
+"authorization": "authorization_lapsed",
+"severity_reason": "foreign vessel, authorization lapsed",
+"lat": 62.2865,
+"lon": 177.9804,
+"ship_name": "LONG TENG"
+},
+{
+"id": "live_enco_84fa1d78cf1f52",
+"first_seen": "2026-07-11T00:11:10Z",
+"type": "encounter",
+"when": "2026-07-07T16:10:00.000Z",
+"eez": "Kiribati Exclusive Economic Zone (Line Group)",
+"flag": "CHN",
+"authorization": "authorization_lapsed",
+"severity_reason": "foreign vessel, authorization lapsed",
+"lat": -11.3612,
+"lon": -150.3368,
+"ship_name": "HAIXING717"
+},
+{
+"id": "live_enco_1a320181abfaa7",
+"first_seen": "2026-07-11T00:11:10Z",
+"type": "encounter",
+"when": "2026-07-07T18:10:00.000Z",
+"eez": "Omani Exclusive Economic Zone",
+"flag": "TUR",
+"authorization": "authorization_lapsed",
+"severity_reason": "foreign vessel, authorization lapsed",
+"lat": 19.4779,
+"lon": 57.7298,
+"ship_name": "YUSUF REIS BLKCLK A"
+},
 {
 "id": "live_ais__c042beb7fe5f49",
 "first_seen": "2026-07-10T15:02:37Z",
@@ -2561,45 +2600,6 @@
 "lat": 12.1698,
 "lon": 109.4385,
 "ship_name": "NGOC HUAN 835 B20"
-},
-{
-"id": "live_ais__a22211be533cfa",
-"first_seen": "2026-07-03T13:13:22Z",
-"type": "ais_disabling",
-"when": "2026-06-27T01:44:55.000Z",
-"eez": "New Zealand Exclusive Economic Zone (Niue)",
-"flag": "USA",
-"authorization": "no_record",
-"severity_reason": "foreign vessel, no authorization on record",
-"lat": -20.0266,
-"lon": -167.7561,
-"ship_name": "DUE"
-},
-{
-"id": "live_ais__91a727a508cd0b",
-"first_seen": "2026-07-03T13:13:22Z",
-"type": "ais_disabling",
-"when": "2026-06-29T09:41:39.000Z",
-"eez": "United States Exclusive Economic Zone (Hawaii)",
-"flag": "GBR",
-"authorization": "no_record",
-"severity_reason": "foreign vessel, no authorization on record",
-"lat": 22.7622,
-"lon": -157.9613,
-"ship_name": "HSD-NET-99%"
-},
-{
-"id": "live_ais__4c4e8a8c97f88c",
-"first_seen": "2026-07-03T13:13:22Z",
-"type": "ais_disabling",
-"when": "2026-06-28T07:40:24.000Z",
-"eez": "Nigerian Exclusive Economic Zone",
-"flag": "ANT",
-"authorization": "authorization_lapsed",
-"severity_reason": "foreign vessel, authorization lapsed",
-"lat": 3.3989,
-"lon": 3.0764,
-"ship_name": "SIERRA LAUREL"
 }
 ]
 }
