@@ -1,19 +1,19 @@
-# Incident `live_ais__23244842f1f852`
+# Incident `live_ais__b2f7c3ce379fdd`
 
 - **MPA:** AIS disabling (going dark)
-- **Severity:** HIGH (foreign vessel, no authorization on record)
-- **EEZ:** Portuguese Exclusive Economic Zone (Madeira) (Portugal) -- FOREIGN-flagged vessel
-- **Authorization:** No public authorization record (check coastal state)
-- **Vessel:** 🇪🇸 SANT0-NINO  ·  **signal:** AIS gap
-- **When (UTC):** 2026-07-04T17:02:04.000Z → 2026-07-05T20:37:59.000Z
-- **Gap:** 27.6 h dark, 123.0 nm offshore
-- **Where:** 34.265, -13.389
+- **Severity:** HIGH (foreign vessel, authorization lapsed)
+- **EEZ:** Cape Verdean Exclusive Economic Zone (Cape Verde) -- FOREIGN-flagged vessel
+- **Authorization:** Authorization lapsed before this date: ICCAT  ·  IMO 7409176
+- **Vessel:** 🇸🇻 MONTEFRISA NUEVE  ·  **signal:** AIS gap
+- **When (UTC):** 2026-07-03T09:35:40.000Z → 2026-07-07T20:06:02.000Z
+- **Gap:** 106.5 h dark, 57.0 nm offshore
+- **Where:** 18.064, -20.683
 
 ## Why this was flagged
 
 _GFW Events gaps dataset (satellite AIS).._
 
-- went dark 123 nm offshore for 28 h
+- went dark 57 nm offshore for 107 h
 - satellite-confirmed AIS gap (GFW Events)
 
 ## Could be innocent
@@ -22,6 +22,7 @@ Going dark is frequently benign: in open water, where gaps are commonly protecti
 
 ## Caveats
 
+- IUU match is by name only; IUU vessels reuse names, so confirm the identity.
 - AIS gaps can be reception loss, not always intentional disabling.
 - The position is where AIS dropped; the path while dark is unknown.
 - An inspection lead from GFW Events, not proof of illegal activity.
@@ -31,7 +32,7 @@ Going dark is frequently benign: in open water, where gaps are commonly protecti
 - NOAA Marine Cadastre AIS (marinecadastre.gov/ais (vessel positions)). US public domain.
 - WDPA / WD-OECM (World Database on Protected Areas) (UNEP-WCMC and IUCN (2026), June 2026). Protected Planet Terms of Use (non-commercial, display-only).
 - Marine Regions Exclusive Economic Zones v12 (Flanders Marine Institute (2024), DOI 10.14284/632). CC BY 4.0.
-- **Integrity (SHA-256 of canonical facts):** `6009bc3f5a1749c34eac82a29e50b3c6bde89a7c91ad6e940d476227629fdebc`
+- **Integrity (SHA-256 of canonical facts):** `def18411bfe88730a85391a74063ae17b5f2a17fab7d91c5ed518a3054134389`
 - **Evidence schema:** seavigil-evidence-1.0
 
 _Apparent activity and an inspection lead, not proof of illegality. AIS and SAR evidence have known coverage gaps and spoofing risks; verify against authoritative sources before any enforcement action._
