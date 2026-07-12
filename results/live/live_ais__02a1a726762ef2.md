@@ -3,7 +3,7 @@
 - **MPA:** AIS disabling (going dark)
 - **Severity:** HIGH (foreign vessel, no authorization on record)
 - **EEZ:** Japanese Exclusive Economic Zone (Japan) -- FOREIGN-flagged vessel
-- **Authorization:** No public authorization record (check coastal state)
+- **Authorization:** No public authorization record (check coastal state)  ·  IMO 9412751
 - **Vessel:** 🇵🇦 LADY ROSEBAY  ·  **signal:** AIS gap
 - **When (UTC):** 2026-07-06T11:07:49.000Z → 2026-07-06T23:15:52.000Z
 - **Gap:** 12.1 h dark, 93.0 nm offshore

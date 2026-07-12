@@ -1,9 +1,9 @@
 # Incident `live_ais__be4cbffd883dbb`
 
 - **MPA:** AIS disabling (going dark)
-- **Severity:** HIGH (foreign vessel, authorization lapsed)
+- **Severity:** HIGH (foreign vessel, no authorization on record)
 - **EEZ:** Ghanaian Exclusive Economic Zone (Ghana) -- FOREIGN-flagged vessel
-- **Authorization:** Authorization lapsed before this date: ICCAT, IOTC, WCPFC  ·  IMO 8912998
+- **Authorization:** No public authorization record (check coastal state)
 - **Vessel:** 🇫🇷 F/V GUERIDEN  ·  **signal:** AIS gap
 - **When (UTC):** 2026-07-04T05:06:21.000Z → 2026-07-07T19:10:45.000Z
 - **Gap:** 86.1 h dark, 147.0 nm offshore
