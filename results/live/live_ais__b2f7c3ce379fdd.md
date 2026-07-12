@@ -22,7 +22,6 @@ Going dark is frequently benign: in open water, where gaps are commonly protecti
 
 ## Caveats
 
-- IUU match is by name only; IUU vessels reuse names, so confirm the identity.
 - AIS gaps can be reception loss, not always intentional disabling.
 - The position is where AIS dropped; the path while dark is unknown.
 - An inspection lead from GFW Events, not proof of illegal activity.

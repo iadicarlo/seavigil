@@ -1,5 +1,61 @@
 [
   {
+    "incident_id": "live_ais__8f0fc2b5b7b879",
+    "type": "ais_disabling",
+    "centroid_lon": -168.3123,
+    "centroid_lat": -3.3849,
+    "time_start_utc": "2026-07-08T09:41:38.000Z",
+    "time_end_utc": "2026-07-08T23:52:32.000Z",
+    "vessel_id": "670000016",
+    "ship_name": "670000016         5V",
+    "ship_type": "Gear",
+    "flag": "TCD",
+    "flag_emoji": "\ud83c\uddf9\ud83c\udde9",
+    "gear": "AIS gap",
+    "n_positions": 0,
+    "n_fishing_positions": 0,
+    "mean_fishing_proba": null,
+    "max_fishing_proba": null,
+    "_rfmo": [
+      "ACAP",
+      "FFA",
+      "WCPFC",
+      "IWC",
+      "SPC"
+    ],
+    "_no_take": false,
+    "mpa_name": "AIS disabling (going dark)",
+    "gap_hours": 14.2,
+    "duration_hours": 14.2,
+    "off_distance_nm": 167.0,
+    "displacement_nm": null,
+    "explanation": {
+      "method": "GFW Events gaps dataset (satellite AIS).",
+      "drivers": [
+        "went dark 167 nm offshore for 14 h",
+        "satellite-confirmed AIS gap (GFW Events)"
+      ]
+    },
+    "caveats": [
+      "AIS gaps can be reception loss, not always intentional disabling.",
+      "The position is where AIS dropped; the path while dark is unknown.",
+      "An inspection lead from GFW Events, not proof of illegal activity."
+    ],
+    "eez_name": "Kiribati Exclusive Economic Zone (Phoenix Group)",
+    "eez_sovereign": "Kiribati",
+    "eez_iso_sov": "KIR",
+    "eez_foreign": true,
+    "authorization_status": "no_record",
+    "authorization_authorities": [],
+    "registry_iuu_tag": false,
+    "registry_flag": "",
+    "registry_imo": "",
+    "severity": "high",
+    "severity_reason": "foreign vessel, no authorization on record",
+    "evidence_schema": "seavigil-evidence-1.0",
+    "evidence_hash": "e64cb74e988d0dad24576b1d31a40cffa2625a7a30be13341e4cef29dcd59761"
+  },
+  {
     "incident_id": "live_enco_979b1ce9963926",
     "type": "encounter",
     "centroid_lon": 16.4839,
@@ -112,6 +168,515 @@
     "evidence_hash": "bbb2d152089f0ae60547f6b198bc64dbda20730c46a9e5a920751e12400069b4"
   },
   {
+    "incident_id": "live_ais__fc7dbcedc52b23",
+    "type": "ais_disabling",
+    "centroid_lon": -169.9439,
+    "centroid_lat": -6.1529,
+    "time_start_utc": "2026-07-08T05:18:03.000Z",
+    "time_end_utc": "2026-07-08T22:55:07.000Z",
+    "vessel_id": "412124318",
+    "ship_name": "SYY2024-18-99%",
+    "ship_type": "Gear",
+    "flag": "CHN",
+    "flag_emoji": "\ud83c\udde8\ud83c\uddf3",
+    "gear": "AIS gap",
+    "n_positions": 0,
+    "n_fishing_positions": 0,
+    "mean_fishing_proba": null,
+    "max_fishing_proba": null,
+    "_rfmo": [
+      "ACAP",
+      "WCPFC",
+      "FFA",
+      "IWC",
+      "SPC"
+    ],
+    "_no_take": false,
+    "mpa_name": "AIS disabling (going dark)",
+    "gap_hours": 17.6,
+    "duration_hours": 17.6,
+    "off_distance_nm": 103.0,
+    "displacement_nm": null,
+    "explanation": {
+      "method": "GFW Events gaps dataset (satellite AIS).",
+      "drivers": [
+        "went dark 103 nm offshore for 18 h",
+        "satellite-confirmed AIS gap (GFW Events)"
+      ]
+    },
+    "caveats": [
+      "AIS gaps can be reception loss, not always intentional disabling.",
+      "The position is where AIS dropped; the path while dark is unknown.",
+      "An inspection lead from GFW Events, not proof of illegal activity."
+    ],
+    "eez_name": "Kiribati Exclusive Economic Zone (Phoenix Group)",
+    "eez_sovereign": "Kiribati",
+    "eez_iso_sov": "KIR",
+    "eez_foreign": true,
+    "authorization_status": "no_record",
+    "authorization_authorities": [],
+    "registry_iuu_tag": false,
+    "registry_flag": "",
+    "registry_imo": "",
+    "severity": "high",
+    "severity_reason": "foreign vessel, no authorization on record",
+    "evidence_schema": "seavigil-evidence-1.0",
+    "evidence_hash": "0cfe7deeb669a9bc904f0ebf527dfc77f545ef95477efb322f54afe5c3a8c70d"
+  },
+  {
+    "incident_id": "live_ais__6f48eaf464fe5d",
+    "type": "ais_disabling",
+    "centroid_lon": 51.4976,
+    "centroid_lat": 6.2754,
+    "time_start_utc": "2026-07-01T15:07:11.000Z",
+    "time_end_utc": "2026-07-08T20:09:18.000Z",
+    "vessel_id": "422100202",
+    "ship_name": "ALKHAYYAM",
+    "ship_type": "Fishing",
+    "flag": "IRN",
+    "flag_emoji": "\ud83c\uddee\ud83c\uddf7",
+    "gear": "AIS gap",
+    "n_positions": 0,
+    "n_fishing_positions": 0,
+    "mean_fishing_proba": null,
+    "max_fishing_proba": null,
+    "_rfmo": [
+      "ACAP",
+      "IOTC",
+      "IWC",
+      "SIOFA"
+    ],
+    "_no_take": false,
+    "mpa_name": "AIS disabling (going dark)",
+    "gap_hours": 173.0,
+    "duration_hours": 173.0,
+    "off_distance_nm": 299.0,
+    "displacement_nm": null,
+    "explanation": {
+      "method": "GFW Events gaps dataset (satellite AIS).",
+      "drivers": [
+        "went dark 299 nm offshore for 173 h",
+        "satellite-confirmed AIS gap (GFW Events)"
+      ]
+    },
+    "caveats": [
+      "AIS gaps can be reception loss, not always intentional disabling.",
+      "The position is where AIS dropped; the path while dark is unknown.",
+      "An inspection lead from GFW Events, not proof of illegal activity."
+    ],
+    "eez_name": "Somali Exclusive Economic Zone",
+    "eez_sovereign": "Federal Republic of Somalia",
+    "eez_iso_sov": "SOM",
+    "eez_foreign": true,
+    "authorization_status": "no_record",
+    "authorization_authorities": [],
+    "registry_iuu_tag": false,
+    "registry_flag": "",
+    "registry_imo": "",
+    "severity": "high",
+    "severity_reason": "foreign vessel, no authorization on record",
+    "evidence_schema": "seavigil-evidence-1.0",
+    "evidence_hash": "c60d073f7f8b051d971cf85a852dd6af9998d3c3a6006be449bd5d9826f1e958"
+  },
+  {
+    "incident_id": "live_ais__01718722ca2d15",
+    "type": "ais_disabling",
+    "centroid_lon": 48.2897,
+    "centroid_lat": -24.3395,
+    "time_start_utc": "2026-07-07T23:02:28.000Z",
+    "time_end_utc": "2026-07-08T19:33:39.000Z",
+    "vessel_id": "636020327",
+    "ship_name": "C HAMBURG",
+    "ship_type": "Cargo",
+    "flag": "LBR",
+    "flag_emoji": "\ud83c\uddf1\ud83c\uddf7",
+    "gear": "AIS gap",
+    "n_positions": 0,
+    "n_fishing_positions": 0,
+    "mean_fishing_proba": null,
+    "max_fishing_proba": null,
+    "_rfmo": [
+      "ACAP",
+      "IOTC",
+      "SWIOFC",
+      "IWC",
+      "CCSBT"
+    ],
+    "_no_take": false,
+    "mpa_name": "AIS disabling (going dark)",
+    "gap_hours": 20.5,
+    "duration_hours": 20.5,
+    "off_distance_nm": 58.0,
+    "displacement_nm": null,
+    "explanation": {
+      "method": "GFW Events gaps dataset (satellite AIS).",
+      "drivers": [
+        "went dark 58 nm offshore for 21 h",
+        "satellite-confirmed AIS gap (GFW Events)"
+      ]
+    },
+    "caveats": [
+      "AIS gaps can be reception loss, not always intentional disabling.",
+      "The position is where AIS dropped; the path while dark is unknown.",
+      "An inspection lead from GFW Events, not proof of illegal activity."
+    ],
+    "eez_name": "Madagascan Exclusive Economic Zone",
+    "eez_sovereign": "Madagascar",
+    "eez_iso_sov": "MDG",
+    "eez_foreign": true,
+    "authorization_status": "no_record",
+    "authorization_authorities": [],
+    "registry_iuu_tag": false,
+    "registry_flag": "",
+    "registry_imo": "",
+    "severity": "high",
+    "severity_reason": "foreign vessel, no authorization on record",
+    "evidence_schema": "seavigil-evidence-1.0",
+    "evidence_hash": "4b1d4afde6dedb311d8cd563fa979c0caefdb8f1492906b407b026764a6d1005"
+  },
+  {
+    "incident_id": "live_ais__5470242eabf6f2",
+    "type": "ais_disabling",
+    "centroid_lon": 151.1621,
+    "centroid_lat": 3.2262,
+    "time_start_utc": "2026-06-20T01:54:05.000Z",
+    "time_end_utc": "2026-07-08T18:57:15.000Z",
+    "vessel_id": "431159000",
+    "ship_name": "SHOKIMARU NO.36",
+    "ship_type": "Fishing",
+    "flag": "JPN",
+    "flag_emoji": "\ud83c\uddef\ud83c\uddf5",
+    "gear": "AIS gap",
+    "n_positions": 0,
+    "n_fishing_positions": 0,
+    "mean_fishing_proba": null,
+    "max_fishing_proba": null,
+    "_rfmo": [
+      "ACAP",
+      "WCPFC",
+      "FFA",
+      "IWC",
+      "SPC"
+    ],
+    "_no_take": false,
+    "mpa_name": "AIS disabling (going dark)",
+    "gap_hours": 449.1,
+    "duration_hours": 449.1,
+    "off_distance_nm": 122.0,
+    "displacement_nm": null,
+    "explanation": {
+      "method": "GFW Events gaps dataset (satellite AIS).",
+      "drivers": [
+        "went dark 122 nm offshore for 449 h",
+        "satellite-confirmed AIS gap (GFW Events)"
+      ]
+    },
+    "caveats": [
+      "AIS gaps can be reception loss, not always intentional disabling.",
+      "The position is where AIS dropped; the path while dark is unknown.",
+      "An inspection lead from GFW Events, not proof of illegal activity."
+    ],
+    "eez_name": "Micronesian Exclusive Economic Zone",
+    "eez_sovereign": "Micronesia",
+    "eez_iso_sov": "FSM",
+    "eez_foreign": true,
+    "authorization_status": "authorization_lapsed",
+    "authorization_authorities": [
+      "FFA",
+      "WCPFC"
+    ],
+    "registry_iuu_tag": false,
+    "registry_flag": "JPN",
+    "registry_imo": "9066306",
+    "severity": "high",
+    "severity_reason": "foreign vessel, authorization lapsed",
+    "evidence_schema": "seavigil-evidence-1.0",
+    "evidence_hash": "9f8d623e114ec3cb4405cf24b2df7c8705b4b3b3ad3344073c8a2b29bde2c9ae"
+  },
+  {
+    "incident_id": "live_ais__2909e32b1d32a5",
+    "type": "ais_disabling",
+    "centroid_lon": 164.516,
+    "centroid_lat": -11.0484,
+    "time_start_utc": "2026-07-06T02:27:33.000Z",
+    "time_end_utc": "2026-07-08T18:51:31.000Z",
+    "vessel_id": "412549266",
+    "ship_name": "ZHONG SHUI 797",
+    "ship_type": "Fishing",
+    "flag": "CHN",
+    "flag_emoji": "\ud83c\udde8\ud83c\uddf3",
+    "gear": "AIS gap",
+    "n_positions": 0,
+    "n_fishing_positions": 0,
+    "mean_fishing_proba": null,
+    "max_fishing_proba": null,
+    "_rfmo": [
+      "ACAP",
+      "WCPFC",
+      "FFA",
+      "IWC",
+      "SPC"
+    ],
+    "_no_take": false,
+    "mpa_name": "AIS disabling (going dark)",
+    "gap_hours": 64.4,
+    "duration_hours": 64.4,
+    "off_distance_nm": 74.0,
+    "displacement_nm": null,
+    "explanation": {
+      "method": "GFW Events gaps dataset (satellite AIS).",
+      "drivers": [
+        "went dark 74 nm offshore for 64 h",
+        "satellite-confirmed AIS gap (GFW Events)"
+      ]
+    },
+    "caveats": [
+      "AIS gaps can be reception loss, not always intentional disabling.",
+      "The position is where AIS dropped; the path while dark is unknown.",
+      "An inspection lead from GFW Events, not proof of illegal activity."
+    ],
+    "eez_name": "Solomon Islands Exclusive Economic Zone",
+    "eez_sovereign": "Solomon Islands",
+    "eez_iso_sov": "SLB",
+    "eez_foreign": true,
+    "authorization_status": "authorization_lapsed",
+    "authorization_authorities": [
+      "FFA",
+      "WCPFC"
+    ],
+    "registry_iuu_tag": false,
+    "registry_flag": "CHN",
+    "registry_imo": "9910040",
+    "severity": "high",
+    "severity_reason": "foreign vessel, authorization lapsed",
+    "evidence_schema": "seavigil-evidence-1.0",
+    "evidence_hash": "73c31d2bb9cf5bdc59a998c11831b071dad1ad56d1e7c5b3777857b7d545a1ee"
+  },
+  {
+    "incident_id": "live_ais__ab146fff20928b",
+    "type": "ais_disabling",
+    "centroid_lon": 38.9453,
+    "centroid_lat": 18.7084,
+    "time_start_utc": "2026-07-07T22:33:23.000Z",
+    "time_end_utc": "2026-07-08T16:25:22.000Z",
+    "vessel_id": "355801000",
+    "ship_name": "BESIKTAS-M",
+    "ship_type": "Cargo",
+    "flag": "PAN",
+    "flag_emoji": "\ud83c\uddf5\ud83c\udde6",
+    "gear": "AIS gap",
+    "n_positions": 0,
+    "n_fishing_positions": 0,
+    "mean_fishing_proba": null,
+    "max_fishing_proba": null,
+    "_rfmo": [
+      "ACAP",
+      "PERSGA",
+      "IOTC",
+      "IWC"
+    ],
+    "_no_take": false,
+    "mpa_name": "AIS disabling (going dark)",
+    "gap_hours": 17.9,
+    "duration_hours": 17.9,
+    "off_distance_nm": 51.0,
+    "displacement_nm": null,
+    "explanation": {
+      "method": "GFW Events gaps dataset (satellite AIS).",
+      "drivers": [
+        "went dark 51 nm offshore for 18 h",
+        "satellite-confirmed AIS gap (GFW Events)"
+      ]
+    },
+    "caveats": [
+      "AIS gaps can be reception loss, not always intentional disabling.",
+      "The position is where AIS dropped; the path while dark is unknown.",
+      "An inspection lead from GFW Events, not proof of illegal activity."
+    ],
+    "eez_name": "Sudanese Exclusive Economic Zone",
+    "eez_sovereign": "Sudan",
+    "eez_iso_sov": "SDN",
+    "eez_foreign": true,
+    "authorization_status": "no_record",
+    "authorization_authorities": [],
+    "registry_iuu_tag": false,
+    "registry_flag": "",
+    "registry_imo": "",
+    "severity": "high",
+    "severity_reason": "foreign vessel, no authorization on record",
+    "evidence_schema": "seavigil-evidence-1.0",
+    "evidence_hash": "923732314450f803deb0512afb8ac6c47309da3647fd2202aa343b05df919212"
+  },
+  {
+    "incident_id": "live_ais__49b82c9c14daad",
+    "type": "ais_disabling",
+    "centroid_lon": -161.8288,
+    "centroid_lat": -0.4198,
+    "time_start_utc": "2026-07-03T06:13:38.000Z",
+    "time_end_utc": "2026-07-08T11:10:06.000Z",
+    "vessel_id": "440226000",
+    "ship_name": "F/V.MIRAERO",
+    "ship_type": "Fishing",
+    "flag": "KOR",
+    "flag_emoji": "\ud83c\uddf0\ud83c\uddf7",
+    "gear": "AIS gap",
+    "n_positions": 0,
+    "n_fishing_positions": 0,
+    "mean_fishing_proba": null,
+    "max_fishing_proba": null,
+    "_rfmo": [
+      "ACAP",
+      "WCPFC",
+      "IWC",
+      "SPC"
+    ],
+    "_no_take": false,
+    "mpa_name": "AIS disabling (going dark)",
+    "gap_hours": 124.9,
+    "duration_hours": 124.9,
+    "off_distance_nm": 109.0,
+    "displacement_nm": null,
+    "explanation": {
+      "method": "GFW Events gaps dataset (satellite AIS).",
+      "drivers": [
+        "went dark 109 nm offshore for 125 h",
+        "satellite-confirmed AIS gap (GFW Events)"
+      ]
+    },
+    "caveats": [
+      "AIS gaps can be reception loss, not always intentional disabling.",
+      "The position is where AIS dropped; the path while dark is unknown.",
+      "An inspection lead from GFW Events, not proof of illegal activity."
+    ],
+    "eez_name": "United States Exclusive Economic Zone (Jarvis Islands)",
+    "eez_sovereign": "United States",
+    "eez_iso_sov": "USA",
+    "eez_foreign": true,
+    "authorization_status": "authorization_lapsed",
+    "authorization_authorities": [
+      "FFA",
+      "WCPFC"
+    ],
+    "registry_iuu_tag": false,
+    "registry_flag": "KOR",
+    "registry_imo": "9713985",
+    "severity": "high",
+    "severity_reason": "foreign vessel, authorization lapsed",
+    "evidence_schema": "seavigil-evidence-1.0",
+    "evidence_hash": "773437fa12d9663993270834ebf72a7b69a7053a72b2b9798ceeb28c89600918"
+  },
+  {
+    "incident_id": "live_ais__f6f3f7ed4421f6",
+    "type": "ais_disabling",
+    "centroid_lon": 44.0057,
+    "centroid_lat": -28.4537,
+    "time_start_utc": "2026-07-07T14:04:13.000Z",
+    "time_end_utc": "2026-07-08T08:14:49.000Z",
+    "vessel_id": "636022811",
+    "ship_name": "STEEL C",
+    "ship_type": "Cargo",
+    "flag": "MHL",
+    "flag_emoji": "\ud83c\uddf1\ud83c\uddf7",
+    "gear": "AIS gap",
+    "n_positions": 0,
+    "n_fishing_positions": 0,
+    "mean_fishing_proba": null,
+    "max_fishing_proba": null,
+    "_rfmo": [
+      "ACAP",
+      "IOTC",
+      "IWC",
+      "SIOFA",
+      "CCSBT"
+    ],
+    "_no_take": false,
+    "mpa_name": "AIS disabling (going dark)",
+    "gap_hours": 18.2,
+    "duration_hours": 18.2,
+    "off_distance_nm": 251.0,
+    "displacement_nm": null,
+    "explanation": {
+      "method": "GFW Events gaps dataset (satellite AIS).",
+      "drivers": [
+        "went dark 251 nm offshore for 18 h",
+        "satellite-confirmed AIS gap (GFW Events)"
+      ]
+    },
+    "caveats": [
+      "AIS gaps can be reception loss, not always intentional disabling.",
+      "The position is where AIS dropped; the path while dark is unknown.",
+      "An inspection lead from GFW Events, not proof of illegal activity."
+    ],
+    "eez_name": "Madagascan Exclusive Economic Zone",
+    "eez_sovereign": "Madagascar",
+    "eez_iso_sov": "MDG",
+    "eez_foreign": true,
+    "authorization_status": "no_record",
+    "authorization_authorities": [],
+    "registry_iuu_tag": false,
+    "registry_flag": "MHL",
+    "registry_imo": "9700330",
+    "severity": "high",
+    "severity_reason": "foreign vessel, no authorization on record",
+    "evidence_schema": "seavigil-evidence-1.0",
+    "evidence_hash": "2b12476e88d901f1bbb67c6b1f9638fdf2353af64884fdc4d15230ec9703d830"
+  },
+  {
+    "incident_id": "live_ais__e2640924431a24",
+    "type": "ais_disabling",
+    "centroid_lon": 4.6335,
+    "centroid_lat": 4.5657,
+    "time_start_utc": "2026-07-07T14:13:17.000Z",
+    "time_end_utc": "2026-07-08T06:56:13.000Z",
+    "vessel_id": "240840000",
+    "ship_name": "CAP THEODORA",
+    "ship_type": "Other",
+    "flag": "GRC",
+    "flag_emoji": "\ud83c\uddec\ud83c\uddf7",
+    "gear": "AIS gap",
+    "n_positions": 0,
+    "n_fishing_positions": 0,
+    "mean_fishing_proba": null,
+    "max_fishing_proba": null,
+    "_rfmo": [
+      "ICCAT",
+      "ACAP",
+      "NAMMCO",
+      "IWC"
+    ],
+    "_no_take": false,
+    "mpa_name": "AIS disabling (going dark)",
+    "gap_hours": 16.7,
+    "duration_hours": 16.7,
+    "off_distance_nm": 53.0,
+    "displacement_nm": null,
+    "explanation": {
+      "method": "GFW Events gaps dataset (satellite AIS).",
+      "drivers": [
+        "went dark 53 nm offshore for 17 h",
+        "satellite-confirmed AIS gap (GFW Events)"
+      ]
+    },
+    "caveats": [
+      "AIS gaps can be reception loss, not always intentional disabling.",
+      "The position is where AIS dropped; the path while dark is unknown.",
+      "An inspection lead from GFW Events, not proof of illegal activity."
+    ],
+    "eez_name": "Nigerian Exclusive Economic Zone",
+    "eez_sovereign": "Nigeria",
+    "eez_iso_sov": "NGA",
+    "eez_foreign": true,
+    "authorization_status": "no_record",
+    "authorization_authorities": [],
+    "registry_iuu_tag": false,
+    "registry_flag": "GRC",
+    "registry_imo": "9380740",
+    "severity": "high",
+    "severity_reason": "foreign vessel, no authorization on record",
+    "evidence_schema": "seavigil-evidence-1.0",
+    "evidence_hash": "c87554cf88759b493f70ce22bbb89feccde8e90a93e1ba3ea55d035c395901f8"
+  },
+  {
     "incident_id": "live_ais__311bf1290ca9e3",
     "type": "ais_disabling",
     "centroid_lon": 175.0684,
@@ -149,7 +714,6 @@
       ]
     },
     "caveats": [
-      "IUU match is by name only; IUU vessels reuse names, so confirm the identity.",
       "AIS gaps can be reception loss, not always intentional disabling.",
       "The position is where AIS dropped; the path while dark is unknown.",
       "An inspection lead from GFW Events, not proof of illegal activity."
@@ -167,6 +731,62 @@
     "severity_reason": "foreign vessel, no authorization on record",
     "evidence_schema": "seavigil-evidence-1.0",
     "evidence_hash": "d1e781cb412175ddedce969de44c434709ad62858ef17544a222fb2427bfa007"
+  },
+  {
+    "incident_id": "live_ais__9e041ec84e02a7",
+    "type": "ais_disabling",
+    "centroid_lon": -169.7189,
+    "centroid_lat": -4.8255,
+    "time_start_utc": "2026-07-07T06:22:10.000Z",
+    "time_end_utc": "2026-07-07T21:54:40.000Z",
+    "vessel_id": "412124107",
+    "ship_name": "SYY39-2024-07-99%",
+    "ship_type": "Gear",
+    "flag": "CHN",
+    "flag_emoji": "\ud83c\udde8\ud83c\uddf3",
+    "gear": "AIS gap",
+    "n_positions": 0,
+    "n_fishing_positions": 0,
+    "mean_fishing_proba": null,
+    "max_fishing_proba": null,
+    "_rfmo": [
+      "ACAP",
+      "WCPFC",
+      "FFA",
+      "IWC",
+      "SPC"
+    ],
+    "_no_take": false,
+    "mpa_name": "AIS disabling (going dark)",
+    "gap_hours": 15.5,
+    "duration_hours": 15.5,
+    "off_distance_nm": 84.0,
+    "displacement_nm": null,
+    "explanation": {
+      "method": "GFW Events gaps dataset (satellite AIS).",
+      "drivers": [
+        "went dark 84 nm offshore for 16 h",
+        "satellite-confirmed AIS gap (GFW Events)"
+      ]
+    },
+    "caveats": [
+      "AIS gaps can be reception loss, not always intentional disabling.",
+      "The position is where AIS dropped; the path while dark is unknown.",
+      "An inspection lead from GFW Events, not proof of illegal activity."
+    ],
+    "eez_name": "Kiribati Exclusive Economic Zone (Phoenix Group)",
+    "eez_sovereign": "Kiribati",
+    "eez_iso_sov": "KIR",
+    "eez_foreign": true,
+    "authorization_status": "no_record",
+    "authorization_authorities": [],
+    "registry_iuu_tag": false,
+    "registry_flag": "",
+    "registry_imo": "",
+    "severity": "high",
+    "severity_reason": "foreign vessel, no authorization on record",
+    "evidence_schema": "seavigil-evidence-1.0",
+    "evidence_hash": "70fe22a76730336eb916969db2a005f1f9f5f25d3147d5cefe3fc58e143e9e2a"
   },
   {
     "incident_id": "live_ais__fc6e0d7c3052ab",
@@ -206,7 +826,6 @@
       ]
     },
     "caveats": [
-      "IUU match is by name only; IUU vessels reuse names, so confirm the identity.",
       "AIS gaps can be reception loss, not always intentional disabling.",
       "The position is where AIS dropped; the path while dark is unknown.",
       "An inspection lead from GFW Events, not proof of illegal activity."
@@ -263,7 +882,6 @@
       ]
     },
     "caveats": [
-      "IUU match is by name only; IUU vessels reuse names, so confirm the identity.",
       "AIS gaps can be reception loss, not always intentional disabling.",
       "The position is where AIS dropped; the path while dark is unknown.",
       "An inspection lead from GFW Events, not proof of illegal activity."
@@ -320,7 +938,6 @@
       ]
     },
     "caveats": [
-      "IUU match is by name only; IUU vessels reuse names, so confirm the identity.",
       "AIS gaps can be reception loss, not always intentional disabling.",
       "The position is where AIS dropped; the path while dark is unknown.",
       "An inspection lead from GFW Events, not proof of illegal activity."
@@ -377,7 +994,6 @@
       ]
     },
     "caveats": [
-      "IUU match is by name only; IUU vessels reuse names, so confirm the identity.",
       "AIS gaps can be reception loss, not always intentional disabling.",
       "The position is where AIS dropped; the path while dark is unknown.",
       "An inspection lead from GFW Events, not proof of illegal activity."
@@ -437,7 +1053,6 @@
       ]
     },
     "caveats": [
-      "IUU match is by name only; IUU vessels reuse names, so confirm the identity.",
       "AIS gaps can be reception loss, not always intentional disabling.",
       "The position is where AIS dropped; the path while dark is unknown.",
       "An inspection lead from GFW Events, not proof of illegal activity."
@@ -493,7 +1108,6 @@
       ]
     },
     "caveats": [
-      "IUU match is by name only; IUU vessels reuse names, so confirm the identity.",
       "AIS gaps can be reception loss, not always intentional disabling.",
       "The position is where AIS dropped; the path while dark is unknown.",
       "An inspection lead from GFW Events, not proof of illegal activity."
@@ -548,7 +1162,6 @@
       ]
     },
     "caveats": [
-      "IUU match is by name only; IUU vessels reuse names, so confirm the identity.",
       "AIS gaps can be reception loss, not always intentional disabling.",
       "The position is where AIS dropped; the path while dark is unknown.",
       "An inspection lead from GFW Events, not proof of illegal activity."
@@ -603,7 +1216,6 @@
       ]
     },
     "caveats": [
-      "IUU match is by name only; IUU vessels reuse names, so confirm the identity.",
       "AIS gaps can be reception loss, not always intentional disabling.",
       "The position is where AIS dropped; the path while dark is unknown.",
       "An inspection lead from GFW Events, not proof of illegal activity."
@@ -659,7 +1271,6 @@
       ]
     },
     "caveats": [
-      "IUU match is by name only; IUU vessels reuse names, so confirm the identity.",
       "AIS gaps can be reception loss, not always intentional disabling.",
       "The position is where AIS dropped; the path while dark is unknown.",
       "An inspection lead from GFW Events, not proof of illegal activity."
@@ -715,7 +1326,6 @@
       ]
     },
     "caveats": [
-      "IUU match is by name only; IUU vessels reuse names, so confirm the identity.",
       "AIS gaps can be reception loss, not always intentional disabling.",
       "The position is where AIS dropped; the path while dark is unknown.",
       "An inspection lead from GFW Events, not proof of illegal activity."
@@ -774,7 +1384,6 @@
       ]
     },
     "caveats": [
-      "IUU match is by name only; IUU vessels reuse names, so confirm the identity.",
       "AIS gaps can be reception loss, not always intentional disabling.",
       "The position is where AIS dropped; the path while dark is unknown.",
       "An inspection lead from GFW Events, not proof of illegal activity."
@@ -829,7 +1438,6 @@
       ]
     },
     "caveats": [
-      "IUU match is by name only; IUU vessels reuse names, so confirm the identity.",
       "AIS gaps can be reception loss, not always intentional disabling.",
       "The position is where AIS dropped; the path while dark is unknown.",
       "An inspection lead from GFW Events, not proof of illegal activity."
@@ -886,7 +1494,6 @@
       ]
     },
     "caveats": [
-      "IUU match is by name only; IUU vessels reuse names, so confirm the identity.",
       "AIS gaps can be reception loss, not always intentional disabling.",
       "The position is where AIS dropped; the path while dark is unknown.",
       "An inspection lead from GFW Events, not proof of illegal activity."
@@ -941,7 +1548,6 @@
       ]
     },
     "caveats": [
-      "IUU match is by name only; IUU vessels reuse names, so confirm the identity.",
       "AIS gaps can be reception loss, not always intentional disabling.",
       "The position is where AIS dropped; the path while dark is unknown.",
       "An inspection lead from GFW Events, not proof of illegal activity."
@@ -998,7 +1604,6 @@
       ]
     },
     "caveats": [
-      "IUU match is by name only; IUU vessels reuse names, so confirm the identity.",
       "AIS gaps can be reception loss, not always intentional disabling.",
       "The position is where AIS dropped; the path while dark is unknown.",
       "An inspection lead from GFW Events, not proof of illegal activity."
@@ -1020,927 +1625,5 @@
     "severity_reason": "foreign vessel, authorization lapsed",
     "evidence_schema": "seavigil-evidence-1.0",
     "evidence_hash": "414fe1d6e747f043775357cbd0b8f12312a1cca460a2671a9c8591b1048551b7"
-  },
-  {
-    "incident_id": "live_ais__5d5b7eca794765",
-    "type": "ais_disabling",
-    "centroid_lon": -56.7205,
-    "centroid_lat": 7.9558,
-    "time_start_utc": "2026-07-06T11:19:22.000Z",
-    "time_end_utc": "2026-07-07T03:20:15.000Z",
-    "vessel_id": "636016129",
-    "ship_name": "RED MOON",
-    "ship_type": "Other",
-    "flag": "LBR",
-    "flag_emoji": "\ud83c\uddf1\ud83c\uddf7",
-    "gear": "AIS gap",
-    "n_positions": 0,
-    "n_fishing_positions": 0,
-    "mean_fishing_proba": null,
-    "max_fishing_proba": null,
-    "_rfmo": [
-      "ICCAT",
-      "ACAP",
-      "CRFM",
-      "NAMMCO",
-      "IWC"
-    ],
-    "_no_take": false,
-    "mpa_name": "AIS disabling (going dark)",
-    "gap_hours": 16.0,
-    "duration_hours": 16.0,
-    "off_distance_nm": 103.0,
-    "displacement_nm": null,
-    "explanation": {
-      "method": "GFW Events gaps dataset (satellite AIS).",
-      "drivers": [
-        "possible name match to 'Asian Warrior' on the CCAMLR IUU list (verify identity)",
-        "went dark 103 nm offshore for 16 h",
-        "satellite-confirmed AIS gap (GFW Events)"
-      ]
-    },
-    "caveats": [
-      "IUU match is by name only; IUU vessels reuse names, so confirm the identity.",
-      "AIS gaps can be reception loss, not always intentional disabling.",
-      "The position is where AIS dropped; the path while dark is unknown.",
-      "An inspection lead from GFW Events, not proof of illegal activity."
-    ],
-    "eez_name": "Guyanese Exclusive Economic Zone",
-    "eez_sovereign": "Guyana",
-    "eez_iso_sov": "GUY",
-    "eez_foreign": true,
-    "authorization_status": "no_record",
-    "authorization_authorities": [],
-    "registry_iuu_tag": false,
-    "registry_flag": "LBR",
-    "registry_imo": "9590307",
-    "severity": "high",
-    "severity_reason": "foreign vessel, no authorization on record",
-    "iuu_listed": false,
-    "iuu_match": {
-      "source": "CCAMLR",
-      "list": "Non-Contracting Party",
-      "listed_name": "Asian Warrior",
-      "matched_on": "name",
-      "date_listed": "2003",
-      "aliases": [
-        "Kunlun",
-        "Taishan",
-        "Chang Bai",
-        "Hongshui",
-        "Huang He 22",
-        "Sima Qian Baru 22",
-        "Corvus",
-        "Galaxy"
-      ]
-    },
-    "evidence_schema": "seavigil-evidence-1.0",
-    "evidence_hash": "7773238c23497c039bb9bbe34c40688cf37e6ed8d94b87e2a701ad37a4da17cd"
-  },
-  {
-    "incident_id": "live_ais__b42e4163b7500c",
-    "type": "ais_disabling",
-    "centroid_lon": -168.3593,
-    "centroid_lat": -2.3266,
-    "time_start_utc": "2026-07-05T13:28:39.000Z",
-    "time_end_utc": "2026-07-07T02:32:27.000Z",
-    "vessel_id": "670000019",
-    "ship_name": "670000019         9V",
-    "ship_type": "Gear",
-    "flag": "TCD",
-    "flag_emoji": "\ud83c\uddf9\ud83c\udde9",
-    "gear": "AIS gap",
-    "n_positions": 0,
-    "n_fishing_positions": 0,
-    "mean_fishing_proba": null,
-    "max_fishing_proba": null,
-    "_rfmo": [
-      "ACAP",
-      "FFA",
-      "WCPFC",
-      "IWC",
-      "SPC"
-    ],
-    "_no_take": false,
-    "mpa_name": "AIS disabling (going dark)",
-    "gap_hours": 37.1,
-    "duration_hours": 37.1,
-    "off_distance_nm": 179.0,
-    "displacement_nm": null,
-    "explanation": {
-      "method": "GFW Events gaps dataset (satellite AIS).",
-      "drivers": [
-        "went dark 179 nm offshore for 37 h",
-        "satellite-confirmed AIS gap (GFW Events)"
-      ]
-    },
-    "caveats": [
-      "IUU match is by name only; IUU vessels reuse names, so confirm the identity.",
-      "AIS gaps can be reception loss, not always intentional disabling.",
-      "The position is where AIS dropped; the path while dark is unknown.",
-      "An inspection lead from GFW Events, not proof of illegal activity."
-    ],
-    "eez_name": "Kiribati Exclusive Economic Zone (Phoenix Group)",
-    "eez_sovereign": "Kiribati",
-    "eez_iso_sov": "KIR",
-    "eez_foreign": true,
-    "authorization_status": "no_record",
-    "authorization_authorities": [],
-    "registry_iuu_tag": false,
-    "registry_flag": "",
-    "registry_imo": "",
-    "severity": "high",
-    "severity_reason": "foreign vessel, no authorization on record",
-    "evidence_schema": "seavigil-evidence-1.0",
-    "evidence_hash": "ccd3b6495d9bbd6dd1469a7f48df5e68c2b302a50f51e71f203429feb39d5705"
-  },
-  {
-    "incident_id": "live_ais__eb866aee3014bc",
-    "type": "ais_disabling",
-    "centroid_lon": -167.7496,
-    "centroid_lat": -20.0048,
-    "time_start_utc": "2026-07-06T07:42:10.000Z",
-    "time_end_utc": "2026-07-07T02:16:31.000Z",
-    "vessel_id": "232034197",
-    "ship_name": "SOWILO",
-    "ship_type": "Passenger",
-    "flag": "GBR",
-    "flag_emoji": "\ud83c\uddec\ud83c\udde7",
-    "gear": "AIS gap",
-    "n_positions": 0,
-    "n_fishing_positions": 0,
-    "mean_fishing_proba": null,
-    "max_fishing_proba": null,
-    "_rfmo": [
-      "ACAP",
-      "WCPFC",
-      "FFA",
-      "IWC",
-      "SPC"
-    ],
-    "_no_take": false,
-    "mpa_name": "AIS disabling (going dark)",
-    "gap_hours": 18.6,
-    "duration_hours": 18.6,
-    "off_distance_nm": 129.0,
-    "displacement_nm": null,
-    "explanation": {
-      "method": "GFW Events gaps dataset (satellite AIS).",
-      "drivers": [
-        "went dark 129 nm offshore for 19 h",
-        "satellite-confirmed AIS gap (GFW Events)"
-      ]
-    },
-    "caveats": [
-      "IUU match is by name only; IUU vessels reuse names, so confirm the identity.",
-      "AIS gaps can be reception loss, not always intentional disabling.",
-      "The position is where AIS dropped; the path while dark is unknown.",
-      "An inspection lead from GFW Events, not proof of illegal activity."
-    ],
-    "eez_name": "New Zealand Exclusive Economic Zone (Niue)",
-    "eez_sovereign": "New Zealand",
-    "eez_iso_sov": "NZL",
-    "eez_foreign": true,
-    "authorization_status": "no_record",
-    "authorization_authorities": [],
-    "registry_iuu_tag": false,
-    "registry_flag": "",
-    "registry_imo": "",
-    "severity": "high",
-    "severity_reason": "foreign vessel, no authorization on record",
-    "evidence_schema": "seavigil-evidence-1.0",
-    "evidence_hash": "de9256b694e388ca953db6a00cefb697d9a3d16cbf5bf1ef715d67d969a405c1"
-  },
-  {
-    "incident_id": "live_ais__c042beb7fe5f49",
-    "type": "ais_disabling",
-    "centroid_lon": -168.521,
-    "centroid_lat": -2.426,
-    "time_start_utc": "2026-07-06T10:52:48.000Z",
-    "time_end_utc": "2026-07-06T23:23:03.000Z",
-    "vessel_id": "670000016",
-    "ship_name": "670000016         6V",
-    "ship_type": "Gear",
-    "flag": "TCD",
-    "flag_emoji": "\ud83c\uddf9\ud83c\udde9",
-    "gear": "AIS gap",
-    "n_positions": 0,
-    "n_fishing_positions": 0,
-    "mean_fishing_proba": null,
-    "max_fishing_proba": null,
-    "_rfmo": [
-      "ACAP",
-      "FFA",
-      "WCPFC",
-      "IWC",
-      "SPC"
-    ],
-    "_no_take": false,
-    "mpa_name": "AIS disabling (going dark)",
-    "gap_hours": 12.5,
-    "duration_hours": 12.5,
-    "off_distance_nm": 171.0,
-    "displacement_nm": null,
-    "explanation": {
-      "method": "GFW Events gaps dataset (satellite AIS).",
-      "drivers": [
-        "went dark 171 nm offshore for 13 h",
-        "satellite-confirmed AIS gap (GFW Events)"
-      ]
-    },
-    "caveats": [
-      "IUU match is by name only; IUU vessels reuse names, so confirm the identity.",
-      "AIS gaps can be reception loss, not always intentional disabling.",
-      "The position is where AIS dropped; the path while dark is unknown.",
-      "An inspection lead from GFW Events, not proof of illegal activity."
-    ],
-    "eez_name": "Kiribati Exclusive Economic Zone (Phoenix Group)",
-    "eez_sovereign": "Kiribati",
-    "eez_iso_sov": "KIR",
-    "eez_foreign": true,
-    "authorization_status": "no_record",
-    "authorization_authorities": [],
-    "registry_iuu_tag": false,
-    "registry_flag": "",
-    "registry_imo": "",
-    "severity": "high",
-    "severity_reason": "foreign vessel, no authorization on record",
-    "evidence_schema": "seavigil-evidence-1.0",
-    "evidence_hash": "9943c65ba70cb90fee92c9df38a1fcf0767891ec4286834300acf2fd9580d60d"
-  },
-  {
-    "incident_id": "live_ais__02a1a726762ef2",
-    "type": "ais_disabling",
-    "centroid_lon": 138.8923,
-    "centroid_lat": 33.5262,
-    "time_start_utc": "2026-07-06T11:07:49.000Z",
-    "time_end_utc": "2026-07-06T23:15:52.000Z",
-    "vessel_id": "370095000",
-    "ship_name": "LADY ROSEBAY",
-    "ship_type": "Carrier",
-    "flag": "PAN",
-    "flag_emoji": "\ud83c\uddf5\ud83c\udde6",
-    "gear": "AIS gap",
-    "n_positions": 0,
-    "n_fishing_positions": 0,
-    "mean_fishing_proba": null,
-    "max_fishing_proba": null,
-    "_rfmo": [
-      "ACAP",
-      "PICES",
-      "WCPFC",
-      "IWC"
-    ],
-    "_no_take": false,
-    "mpa_name": "AIS disabling (going dark)",
-    "gap_hours": 12.1,
-    "duration_hours": 12.1,
-    "off_distance_nm": 93.0,
-    "displacement_nm": null,
-    "explanation": {
-      "method": "GFW Events gaps dataset (satellite AIS).",
-      "drivers": [
-        "went dark 93 nm offshore for 12 h",
-        "satellite-confirmed AIS gap (GFW Events)"
-      ]
-    },
-    "caveats": [
-      "IUU match is by name only; IUU vessels reuse names, so confirm the identity.",
-      "AIS gaps can be reception loss, not always intentional disabling.",
-      "The position is where AIS dropped; the path while dark is unknown.",
-      "An inspection lead from GFW Events, not proof of illegal activity."
-    ],
-    "eez_name": "Japanese Exclusive Economic Zone",
-    "eez_sovereign": "Japan",
-    "eez_iso_sov": "JPN",
-    "eez_foreign": true,
-    "authorization_status": "no_record",
-    "authorization_authorities": [],
-    "registry_iuu_tag": false,
-    "registry_flag": "PAN",
-    "registry_imo": "9412751",
-    "severity": "high",
-    "severity_reason": "foreign vessel, no authorization on record",
-    "evidence_schema": "seavigil-evidence-1.0",
-    "evidence_hash": "f92892d9cc53813fb281a4b92350fea8eb4b258e7a521f8d567563f263516859"
-  },
-  {
-    "incident_id": "live_ais__979fd019ad2277",
-    "type": "ais_disabling",
-    "centroid_lon": 125.5714,
-    "centroid_lat": 20.8645,
-    "time_start_utc": "2026-07-05T20:10:40.000Z",
-    "time_end_utc": "2026-07-06T23:02:19.000Z",
-    "vessel_id": "416442000",
-    "ship_name": "TAIPOWER PROSPERITY7",
-    "ship_type": "Cargo",
-    "flag": "TWN",
-    "flag_emoji": "\ud83c\uddf9\ud83c\uddfc",
-    "gear": "AIS gap",
-    "n_positions": 0,
-    "n_fishing_positions": 0,
-    "mean_fishing_proba": null,
-    "max_fishing_proba": null,
-    "_rfmo": [
-      "ACAP",
-      "SEAFDEC",
-      "WCPFC",
-      "APFIC",
-      "IWC"
-    ],
-    "_no_take": false,
-    "mpa_name": "AIS disabling (going dark)",
-    "gap_hours": 26.9,
-    "duration_hours": 26.9,
-    "off_distance_nm": 269.0,
-    "displacement_nm": null,
-    "explanation": {
-      "method": "GFW Events gaps dataset (satellite AIS).",
-      "drivers": [
-        "went dark 269 nm offshore for 27 h",
-        "satellite-confirmed AIS gap (GFW Events)"
-      ]
-    },
-    "caveats": [
-      "IUU match is by name only; IUU vessels reuse names, so confirm the identity.",
-      "AIS gaps can be reception loss, not always intentional disabling.",
-      "The position is where AIS dropped; the path while dark is unknown.",
-      "An inspection lead from GFW Events, not proof of illegal activity."
-    ],
-    "eez_name": "Philippine Exclusive Economic Zone",
-    "eez_sovereign": "Philippines",
-    "eez_iso_sov": "PHL",
-    "eez_foreign": true,
-    "authorization_status": "no_record",
-    "authorization_authorities": [],
-    "registry_iuu_tag": false,
-    "registry_flag": "TWN",
-    "registry_imo": "9567611",
-    "severity": "high",
-    "severity_reason": "foreign vessel, no authorization on record",
-    "evidence_schema": "seavigil-evidence-1.0",
-    "evidence_hash": "ee60499d82e4e180dafd64765d16a5f2b48168553ec1847868239338327373a3"
-  },
-  {
-    "incident_id": "live_ais__4cedf78bddae28",
-    "type": "ais_disabling",
-    "centroid_lon": -167.7526,
-    "centroid_lat": -20.0157,
-    "time_start_utc": "2026-07-06T05:26:08.000Z",
-    "time_end_utc": "2026-07-06T22:04:36.000Z",
-    "vessel_id": "368083150",
-    "ship_name": "RAVEN",
-    "ship_type": "Passenger",
-    "flag": "USA",
-    "flag_emoji": "\ud83c\uddfa\ud83c\uddf8",
-    "gear": "AIS gap",
-    "n_positions": 0,
-    "n_fishing_positions": 0,
-    "mean_fishing_proba": null,
-    "max_fishing_proba": null,
-    "_rfmo": [
-      "ACAP",
-      "WCPFC",
-      "FFA",
-      "IWC",
-      "SPC"
-    ],
-    "_no_take": false,
-    "mpa_name": "AIS disabling (going dark)",
-    "gap_hours": 16.6,
-    "duration_hours": 16.6,
-    "off_distance_nm": 129.0,
-    "displacement_nm": null,
-    "explanation": {
-      "method": "GFW Events gaps dataset (satellite AIS).",
-      "drivers": [
-        "went dark 129 nm offshore for 17 h",
-        "satellite-confirmed AIS gap (GFW Events)"
-      ]
-    },
-    "caveats": [
-      "IUU match is by name only; IUU vessels reuse names, so confirm the identity.",
-      "AIS gaps can be reception loss, not always intentional disabling.",
-      "The position is where AIS dropped; the path while dark is unknown.",
-      "An inspection lead from GFW Events, not proof of illegal activity."
-    ],
-    "eez_name": "New Zealand Exclusive Economic Zone (Niue)",
-    "eez_sovereign": "New Zealand",
-    "eez_iso_sov": "NZL",
-    "eez_foreign": true,
-    "authorization_status": "no_record",
-    "authorization_authorities": [],
-    "registry_iuu_tag": false,
-    "registry_flag": "USA",
-    "registry_imo": "",
-    "severity": "high",
-    "severity_reason": "foreign vessel, no authorization on record",
-    "evidence_schema": "seavigil-evidence-1.0",
-    "evidence_hash": "f789ac24db1812737801ee6d1badb70f49115fb13ae1818d766d7f4a38353b85"
-  },
-  {
-    "incident_id": "live_ais__1eb41233878bdb",
-    "type": "ais_disabling",
-    "centroid_lon": -178.9313,
-    "centroid_lat": -23.631,
-    "time_start_utc": "2026-07-06T01:15:03.000Z",
-    "time_end_utc": "2026-07-06T20:30:41.000Z",
-    "vessel_id": "211263940",
-    "ship_name": "ZIGANKA III",
-    "ship_type": "Passenger",
-    "flag": "DEU",
-    "flag_emoji": "\ud83c\udde9\ud83c\uddea",
-    "gear": "AIS gap",
-    "n_positions": 0,
-    "n_fishing_positions": 0,
-    "mean_fishing_proba": null,
-    "max_fishing_proba": null,
-    "_rfmo": [
-      "ACAP",
-      "WCPFC",
-      "FFA",
-      "IWC",
-      "SPC"
-    ],
-    "_no_take": false,
-    "mpa_name": "AIS disabling (going dark)",
-    "gap_hours": 19.3,
-    "duration_hours": 19.3,
-    "off_distance_nm": 169.0,
-    "displacement_nm": null,
-    "explanation": {
-      "method": "GFW Events gaps dataset (satellite AIS).",
-      "drivers": [
-        "went dark 169 nm offshore for 19 h",
-        "satellite-confirmed AIS gap (GFW Events)"
-      ]
-    },
-    "caveats": [
-      "IUU match is by name only; IUU vessels reuse names, so confirm the identity.",
-      "AIS gaps can be reception loss, not always intentional disabling.",
-      "The position is where AIS dropped; the path while dark is unknown.",
-      "An inspection lead from GFW Events, not proof of illegal activity."
-    ],
-    "eez_name": "Fijian Exclusive Economic Zone",
-    "eez_sovereign": "Fiji",
-    "eez_iso_sov": "FJI",
-    "eez_foreign": true,
-    "authorization_status": "no_record",
-    "authorization_authorities": [],
-    "registry_iuu_tag": false,
-    "registry_flag": "",
-    "registry_imo": "",
-    "severity": "high",
-    "severity_reason": "foreign vessel, no authorization on record",
-    "evidence_schema": "seavigil-evidence-1.0",
-    "evidence_hash": "e419ad3345e44311ab146dcba8b4158bda557256b9fdc53e8a6b42f7cf3492f2"
-  },
-  {
-    "incident_id": "live_ais__60b33076ea91a9",
-    "type": "ais_disabling",
-    "centroid_lon": 178.7096,
-    "centroid_lat": -3.7815,
-    "time_start_utc": "2026-07-05T16:10:12.000Z",
-    "time_end_utc": "2026-07-06T20:05:16.000Z",
-    "vessel_id": "413108633",
-    "ship_name": "WANGBIAO-8633  100%",
-    "ship_type": "Gear",
-    "flag": "CHN",
-    "flag_emoji": "\ud83c\udde8\ud83c\uddf3",
-    "gear": "AIS gap",
-    "n_positions": 0,
-    "n_fishing_positions": 0,
-    "mean_fishing_proba": null,
-    "max_fishing_proba": null,
-    "_rfmo": [
-      "ACAP",
-      "WCPFC",
-      "FFA",
-      "IWC",
-      "SPC"
-    ],
-    "_no_take": false,
-    "mpa_name": "AIS disabling (going dark)",
-    "gap_hours": 27.9,
-    "duration_hours": 27.9,
-    "off_distance_nm": 98.0,
-    "displacement_nm": null,
-    "explanation": {
-      "method": "GFW Events gaps dataset (satellite AIS).",
-      "drivers": [
-        "went dark 98 nm offshore for 28 h",
-        "satellite-confirmed AIS gap (GFW Events)"
-      ]
-    },
-    "caveats": [
-      "IUU match is by name only; IUU vessels reuse names, so confirm the identity.",
-      "AIS gaps can be reception loss, not always intentional disabling.",
-      "The position is where AIS dropped; the path while dark is unknown.",
-      "An inspection lead from GFW Events, not proof of illegal activity."
-    ],
-    "eez_name": "Kiribati Exclusive Economic Zone (Gilbert Islands)",
-    "eez_sovereign": "Kiribati",
-    "eez_iso_sov": "KIR",
-    "eez_foreign": true,
-    "authorization_status": "no_record",
-    "authorization_authorities": [],
-    "registry_iuu_tag": false,
-    "registry_flag": "",
-    "registry_imo": "",
-    "severity": "high",
-    "severity_reason": "foreign vessel, no authorization on record",
-    "evidence_schema": "seavigil-evidence-1.0",
-    "evidence_hash": "78315a1c0ce950384241c433e4891d877705674d0c54c71df01269db95cfe8c6"
-  },
-  {
-    "incident_id": "live_ais__3b198d88625427",
-    "type": "ais_disabling",
-    "centroid_lon": 174.6488,
-    "centroid_lat": -16.7063,
-    "time_start_utc": "2026-07-05T12:54:12.000Z",
-    "time_end_utc": "2026-07-06T19:14:21.000Z",
-    "vessel_id": "413129547",
-    "ship_name": "WANGBIAO-9547  100%",
-    "ship_type": "Gear",
-    "flag": "CHN",
-    "flag_emoji": "\ud83c\udde8\ud83c\uddf3",
-    "gear": "AIS gap",
-    "n_positions": 0,
-    "n_fishing_positions": 0,
-    "mean_fishing_proba": null,
-    "max_fishing_proba": null,
-    "_rfmo": [
-      "ACAP",
-      "WCPFC",
-      "FFA",
-      "IWC",
-      "SPC"
-    ],
-    "_no_take": false,
-    "mpa_name": "AIS disabling (going dark)",
-    "gap_hours": 30.3,
-    "duration_hours": 30.3,
-    "off_distance_nm": 143.0,
-    "displacement_nm": null,
-    "explanation": {
-      "method": "GFW Events gaps dataset (satellite AIS).",
-      "drivers": [
-        "went dark 143 nm offshore for 30 h",
-        "satellite-confirmed AIS gap (GFW Events)"
-      ]
-    },
-    "caveats": [
-      "IUU match is by name only; IUU vessels reuse names, so confirm the identity.",
-      "AIS gaps can be reception loss, not always intentional disabling.",
-      "The position is where AIS dropped; the path while dark is unknown.",
-      "An inspection lead from GFW Events, not proof of illegal activity."
-    ],
-    "eez_name": "Fijian Exclusive Economic Zone",
-    "eez_sovereign": "Fiji",
-    "eez_iso_sov": "FJI",
-    "eez_foreign": true,
-    "authorization_status": "no_record",
-    "authorization_authorities": [],
-    "registry_iuu_tag": false,
-    "registry_flag": "",
-    "registry_imo": "",
-    "severity": "high",
-    "severity_reason": "foreign vessel, no authorization on record",
-    "evidence_schema": "seavigil-evidence-1.0",
-    "evidence_hash": "c31164a13b043cc4ab0a1d49dea7cb39d8d3a5cb7dae2100cc8e7fd445c7138b"
-  },
-  {
-    "incident_id": "live_ais__5c7482f27bdea7",
-    "type": "ais_disabling",
-    "centroid_lon": 178.6169,
-    "centroid_lat": -3.7364,
-    "time_start_utc": "2026-07-05T13:07:16.000Z",
-    "time_end_utc": "2026-07-06T19:13:15.000Z",
-    "vessel_id": "413129338",
-    "ship_name": "BF3165  100%",
-    "ship_type": "Gear",
-    "flag": "CHN",
-    "flag_emoji": "\ud83c\udde8\ud83c\uddf3",
-    "gear": "AIS gap",
-    "n_positions": 0,
-    "n_fishing_positions": 0,
-    "mean_fishing_proba": null,
-    "max_fishing_proba": null,
-    "_rfmo": [
-      "ACAP",
-      "WCPFC",
-      "FFA",
-      "IWC",
-      "SPC"
-    ],
-    "_no_take": false,
-    "mpa_name": "AIS disabling (going dark)",
-    "gap_hours": 30.1,
-    "duration_hours": 30.1,
-    "off_distance_nm": 89.0,
-    "displacement_nm": null,
-    "explanation": {
-      "method": "GFW Events gaps dataset (satellite AIS).",
-      "drivers": [
-        "went dark 89 nm offshore for 30 h",
-        "satellite-confirmed AIS gap (GFW Events)"
-      ]
-    },
-    "caveats": [
-      "IUU match is by name only; IUU vessels reuse names, so confirm the identity.",
-      "AIS gaps can be reception loss, not always intentional disabling.",
-      "The position is where AIS dropped; the path while dark is unknown.",
-      "An inspection lead from GFW Events, not proof of illegal activity."
-    ],
-    "eez_name": "Kiribati Exclusive Economic Zone (Gilbert Islands)",
-    "eez_sovereign": "Kiribati",
-    "eez_iso_sov": "KIR",
-    "eez_foreign": true,
-    "authorization_status": "no_record",
-    "authorization_authorities": [],
-    "registry_iuu_tag": false,
-    "registry_flag": "",
-    "registry_imo": "",
-    "severity": "high",
-    "severity_reason": "foreign vessel, no authorization on record",
-    "evidence_schema": "seavigil-evidence-1.0",
-    "evidence_hash": "4ce8d8e2a2e0333389394335b3a3c9acbeda8834cc8840d37f6e46f845280ad4"
-  },
-  {
-    "incident_id": "live_ais__545b456dbffd4c",
-    "type": "ais_disabling",
-    "centroid_lon": -42.7594,
-    "centroid_lat": -25.3904,
-    "time_start_utc": "2026-07-05T16:52:16.000Z",
-    "time_end_utc": "2026-07-06T17:54:33.000Z",
-    "vessel_id": "563151600",
-    "ship_name": "EAGLE COLATINA",
-    "ship_type": "Other",
-    "flag": "SGP",
-    "flag_emoji": "\ud83c\uddf8\ud83c\uddec",
-    "gear": "AIS gap",
-    "n_positions": 0,
-    "n_fishing_positions": 0,
-    "mean_fishing_proba": null,
-    "max_fishing_proba": null,
-    "_rfmo": [
-      "ICCAT",
-      "ACAP",
-      "IWC"
-    ],
-    "_no_take": false,
-    "mpa_name": "AIS disabling (going dark)",
-    "gap_hours": 25.0,
-    "duration_hours": 25.0,
-    "off_distance_nm": 141.0,
-    "displacement_nm": null,
-    "explanation": {
-      "method": "GFW Events gaps dataset (satellite AIS).",
-      "drivers": [
-        "went dark 141 nm offshore for 25 h",
-        "satellite-confirmed AIS gap (GFW Events)"
-      ]
-    },
-    "caveats": [
-      "IUU match is by name only; IUU vessels reuse names, so confirm the identity.",
-      "AIS gaps can be reception loss, not always intentional disabling.",
-      "The position is where AIS dropped; the path while dark is unknown.",
-      "An inspection lead from GFW Events, not proof of illegal activity."
-    ],
-    "eez_name": "Brazilian Exclusive Economic Zone",
-    "eez_sovereign": "Brazil",
-    "eez_iso_sov": "BRA",
-    "eez_foreign": true,
-    "authorization_status": "no_record",
-    "authorization_authorities": [],
-    "registry_iuu_tag": false,
-    "registry_flag": "",
-    "registry_imo": "",
-    "severity": "high",
-    "severity_reason": "foreign vessel, no authorization on record",
-    "evidence_schema": "seavigil-evidence-1.0",
-    "evidence_hash": "903a6861bfb021e0930b8fcb7f47f7875c89dadc3ae5e6c4929602f9bff551aa"
-  },
-  {
-    "incident_id": "live_ais__1a49e8c7a0970b",
-    "type": "ais_disabling",
-    "centroid_lon": -42.8573,
-    "centroid_lat": -25.6528,
-    "time_start_utc": "2026-07-05T17:30:13.000Z",
-    "time_end_utc": "2026-07-06T16:55:35.000Z",
-    "vessel_id": "563159500",
-    "ship_name": "EAGLE CAMBE",
-    "ship_type": "Other",
-    "flag": "SGP",
-    "flag_emoji": "\ud83c\uddf8\ud83c\uddec",
-    "gear": "AIS gap",
-    "n_positions": 0,
-    "n_fishing_positions": 0,
-    "mean_fishing_proba": null,
-    "max_fishing_proba": null,
-    "_rfmo": [
-      "ICCAT",
-      "ACAP",
-      "IWC"
-    ],
-    "_no_take": false,
-    "mpa_name": "AIS disabling (going dark)",
-    "gap_hours": 23.4,
-    "duration_hours": 23.4,
-    "off_distance_nm": 156.0,
-    "displacement_nm": null,
-    "explanation": {
-      "method": "GFW Events gaps dataset (satellite AIS).",
-      "drivers": [
-        "went dark 156 nm offshore for 23 h",
-        "satellite-confirmed AIS gap (GFW Events)"
-      ]
-    },
-    "caveats": [
-      "IUU match is by name only; IUU vessels reuse names, so confirm the identity.",
-      "AIS gaps can be reception loss, not always intentional disabling.",
-      "The position is where AIS dropped; the path while dark is unknown.",
-      "An inspection lead from GFW Events, not proof of illegal activity."
-    ],
-    "eez_name": "Brazilian Exclusive Economic Zone",
-    "eez_sovereign": "Brazil",
-    "eez_iso_sov": "BRA",
-    "eez_foreign": true,
-    "authorization_status": "no_record",
-    "authorization_authorities": [],
-    "registry_iuu_tag": false,
-    "registry_flag": "",
-    "registry_imo": "",
-    "severity": "high",
-    "severity_reason": "foreign vessel, no authorization on record",
-    "evidence_schema": "seavigil-evidence-1.0",
-    "evidence_hash": "16ed8156271865cfa85288d8323e13277a934db28af2c17503f59afb76a271f4"
-  },
-  {
-    "incident_id": "live_ais__f51f73fcf25229",
-    "type": "ais_disabling",
-    "centroid_lon": -42.4682,
-    "centroid_lat": -24.5393,
-    "time_start_utc": "2026-07-05T22:28:40.000Z",
-    "time_end_utc": "2026-07-06T15:50:43.000Z",
-    "vessel_id": "563163800",
-    "ship_name": "EAGLE CRATO",
-    "ship_type": "Other",
-    "flag": "SGP",
-    "flag_emoji": "\ud83c\uddf8\ud83c\uddec",
-    "gear": "AIS gap",
-    "n_positions": 0,
-    "n_fishing_positions": 0,
-    "mean_fishing_proba": null,
-    "max_fishing_proba": null,
-    "_rfmo": [
-      "ICCAT",
-      "ACAP",
-      "IWC"
-    ],
-    "_no_take": false,
-    "mpa_name": "AIS disabling (going dark)",
-    "gap_hours": 17.4,
-    "duration_hours": 17.4,
-    "off_distance_nm": 94.0,
-    "displacement_nm": null,
-    "explanation": {
-      "method": "GFW Events gaps dataset (satellite AIS).",
-      "drivers": [
-        "went dark 94 nm offshore for 17 h",
-        "satellite-confirmed AIS gap (GFW Events)"
-      ]
-    },
-    "caveats": [
-      "IUU match is by name only; IUU vessels reuse names, so confirm the identity.",
-      "AIS gaps can be reception loss, not always intentional disabling.",
-      "The position is where AIS dropped; the path while dark is unknown.",
-      "An inspection lead from GFW Events, not proof of illegal activity."
-    ],
-    "eez_name": "Brazilian Exclusive Economic Zone",
-    "eez_sovereign": "Brazil",
-    "eez_iso_sov": "BRA",
-    "eez_foreign": true,
-    "authorization_status": "no_record",
-    "authorization_authorities": [],
-    "registry_iuu_tag": false,
-    "registry_flag": "",
-    "registry_imo": "",
-    "severity": "high",
-    "severity_reason": "foreign vessel, no authorization on record",
-    "evidence_schema": "seavigil-evidence-1.0",
-    "evidence_hash": "f38670d1992ef14e20927bc106574c235e41b879424c20e48b523e2f18898be3"
-  },
-  {
-    "incident_id": "live_ais__1213ec62022af1",
-    "type": "ais_disabling",
-    "centroid_lon": -9.3798,
-    "centroid_lat": 37.8506,
-    "time_start_utc": "2026-06-30T00:10:51.000Z",
-    "time_end_utc": "2026-07-06T13:20:36.000Z",
-    "vessel_id": "538008626",
-    "ship_name": "CHAMPION ENDURANCE",
-    "ship_type": "Other",
-    "flag": "MHL",
-    "flag_emoji": "\ud83c\uddf2\ud83c\udded",
-    "gear": "AIS gap",
-    "n_positions": 0,
-    "n_fishing_positions": 0,
-    "mean_fishing_proba": null,
-    "max_fishing_proba": null,
-    "_rfmo": [
-      "ICCAT",
-      "ACAP",
-      "NAMMCO",
-      "IWC"
-    ],
-    "_no_take": false,
-    "mpa_name": "AIS disabling (going dark)",
-    "gap_hours": 157.2,
-    "duration_hours": 157.2,
-    "off_distance_nm": 54.0,
-    "displacement_nm": null,
-    "explanation": {
-      "method": "GFW Events gaps dataset (satellite AIS).",
-      "drivers": [
-        "went dark 54 nm offshore for 157 h",
-        "satellite-confirmed AIS gap (GFW Events)"
-      ]
-    },
-    "caveats": [
-      "IUU match is by name only; IUU vessels reuse names, so confirm the identity.",
-      "AIS gaps can be reception loss, not always intentional disabling.",
-      "The position is where AIS dropped; the path while dark is unknown.",
-      "An inspection lead from GFW Events, not proof of illegal activity."
-    ],
-    "eez_name": "Portuguese Exclusive Economic Zone",
-    "eez_sovereign": "Portugal",
-    "eez_iso_sov": "PRT",
-    "eez_foreign": true,
-    "authorization_status": "no_record",
-    "authorization_authorities": [],
-    "registry_iuu_tag": false,
-    "registry_flag": "",
-    "registry_imo": "",
-    "severity": "high",
-    "severity_reason": "foreign vessel, no authorization on record",
-    "evidence_schema": "seavigil-evidence-1.0",
-    "evidence_hash": "caebe8c36a86375c24ea15c63b92fe1ef605e69c7e6ffa908464d7a4a0f42008"
-  },
-  {
-    "incident_id": "live_ais__75b4206234adc4",
-    "type": "ais_disabling",
-    "centroid_lon": -175.5804,
-    "centroid_lat": -7.6313,
-    "time_start_utc": "2026-07-05T20:58:03.000Z",
-    "time_end_utc": "2026-07-06T11:46:34.000Z",
-    "vessel_id": "412123701",
-    "ship_name": "SYY33-2024-01-99%",
-    "ship_type": "Gear",
-    "flag": "CHN",
-    "flag_emoji": "\ud83c\udde8\ud83c\uddf3",
-    "gear": "AIS gap",
-    "n_positions": 0,
-    "n_fishing_positions": 0,
-    "mean_fishing_proba": null,
-    "max_fishing_proba": null,
-    "_rfmo": [
-      "ACAP",
-      "SPRFMO",
-      "WCPFC",
-      "IWC"
-    ],
-    "_no_take": false,
-    "mpa_name": "AIS disabling (going dark)",
-    "gap_hours": 14.8,
-    "duration_hours": 14.8,
-    "off_distance_nm": 215.0,
-    "displacement_nm": null,
-    "explanation": {
-      "method": "GFW Events gaps dataset (satellite AIS).",
-      "drivers": [
-        "went dark 215 nm offshore for 15 h",
-        "satellite-confirmed AIS gap (GFW Events)"
-      ]
-    },
-    "caveats": [
-      "IUU match is by name only; IUU vessels reuse names, so confirm the identity.",
-      "AIS gaps can be reception loss, not always intentional disabling.",
-      "The position is where AIS dropped; the path while dark is unknown.",
-      "An inspection lead from GFW Events, not proof of illegal activity."
-    ],
-    "eez_name": "Kiribati Exclusive Economic Zone (Phoenix Group)",
-    "eez_sovereign": "Kiribati",
-    "eez_iso_sov": "KIR",
-    "eez_foreign": true,
-    "authorization_status": "no_record",
-    "authorization_authorities": [],
-    "registry_iuu_tag": false,
-    "registry_flag": "",
-    "registry_imo": "",
-    "severity": "high",
-    "severity_reason": "foreign vessel, no authorization on record",
-    "evidence_schema": "seavigil-evidence-1.0",
-    "evidence_hash": "33d2baaae2fd1cc49d45213e933dc28b0710cb91881d23d5cc1415c41c634256"
   }
 ]
