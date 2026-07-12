@@ -1,6 +1,32 @@
 {
-"generated_at": "2026-07-12T00:12:12Z",
+"generated_at": "2026-07-12T03:59:14Z",
 "alerts": [
+{
+"id": "live_enco_979b1ce9963926",
+"first_seen": "2026-07-12T03:59:14Z",
+"type": "encounter",
+"when": "2026-07-08T07:00:00.000Z",
+"eez": "Croatian Exclusive Economic Zone",
+"flag": "ITA",
+"authorization": "no_record",
+"severity_reason": "foreign vessel, no authorization on record",
+"lat": 42.4926,
+"lon": 16.4839,
+"ship_name": "VIKINGO"
+},
+{
+"id": "live_enco_89ad1a315ed108",
+"first_seen": "2026-07-12T03:59:14Z",
+"type": "encounter",
+"when": "2026-07-08T19:50:00.000Z",
+"eez": "Kiribati Exclusive Economic Zone (Phoenix Group)",
+"flag": "NRU",
+"authorization": "authorization_lapsed",
+"severity_reason": "foreign vessel, authorization lapsed",
+"lat": -1.9935,
+"lon": -173.221,
+"ship_name": "MALVA888"
+},
 {
 "id": "live_ais__311bf1290ca9e3",
 "first_seen": "2026-07-11T10:35:08Z",
@@ -2574,32 +2600,6 @@
 "lat": 17.6458,
 "lon": -17.9039,
 "ship_name": "PLAYA DE LAGA"
-},
-{
-"id": "live_ais__9354b73f601346",
-"first_seen": "2026-07-04T11:47:05Z",
-"type": "ais_disabling",
-"when": "2026-06-27T16:51:38.000Z",
-"eez": "Ghanaian Exclusive Economic Zone",
-"flag": "MLT",
-"authorization": "no_record",
-"severity_reason": "foreign vessel, no authorization on record",
-"lat": 2.2939,
-"lon": -0.033,
-"ship_name": "OCEAN ROYAL"
-},
-{
-"id": "live_ais__67fba69e5a2a01",
-"first_seen": "2026-07-04T11:47:05Z",
-"type": "ais_disabling",
-"when": "2026-06-28T01:11:46.000Z",
-"eez": "New Zealand Exclusive Economic Zone (Niue)",
-"flag": "USA",
-"authorization": "no_record",
-"severity_reason": "foreign vessel, no authorization on record",
-"lat": -20.0211,
-"lon": -167.7642,
-"ship_name": "POLAR SUN"
 }
 ]
 }
