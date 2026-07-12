@@ -1,20 +1,20 @@
-# Incident `live_enco_82c15482daba04`
+# Incident `live_enco_89ad1a315ed108`
 
 - **MPA:** At-sea encounter (transshipment)
 - **Severity:** HIGH (foreign vessel, authorization lapsed)
-- **EEZ:** Kiribati Exclusive Economic Zone (Line Group) (Kiribati) -- FOREIGN-flagged vessel
-- **Authorization:** Authorization lapsed before this date: FFA, IATTC, WCPFC  ·  IMO 8654209
-- **Vessel:** 🇨🇳 HAI XING 718  ·  **signal:** Encounter
-- **When (UTC):** 2026-07-08T19:00:00.000Z → 2026-07-08T23:50:00.000Z
-- **Encounter:** 4.8 h with carrier `413312990` (apparent transshipment)
-- **Where:** -8.823, -152.019
+- **EEZ:** Kiribati Exclusive Economic Zone (Phoenix Group) (Kiribati) -- FOREIGN-flagged vessel
+- **Authorization:** Authorization lapsed before this date: FFA, WCPFC  ·  IMO 9761396
+- **Vessel:** 🇳🇷 MALVA888  ·  **signal:** Encounter
+- **When (UTC):** 2026-07-08T19:50:00.000Z → 2026-07-08T23:50:00.000Z
+- **Encounter:** 4.0 h with carrier `352978208` (apparent transshipment)
+- **Where:** -1.994, -173.221
 
 ## Why this was flagged
 
 _GFW Events encounters dataset (Miller et al. 2018).._
 
-- two vessels within range for 5 h
-- counterpart: HENG HONG 5
+- two vessels within range for 4 h
+- counterpart: ANGEL 38
 - two-vessel at-sea encounter (GFW Events)
 
 ## Could be innocent
@@ -31,7 +31,7 @@ Two vessels meeting at sea can be a legitimate transfer, bunkering, or a safety 
 
 - WDPA / WD-OECM (World Database on Protected Areas) (UNEP-WCMC and IUCN (2026), June 2026). Protected Planet Terms of Use (non-commercial, display-only).
 - Marine Regions Exclusive Economic Zones v12 (Flanders Marine Institute (2024), DOI 10.14284/632). CC BY 4.0.
-- **Integrity (SHA-256 of canonical facts):** `d6eeeb44ca08916611efc7fac5c588921ac7a5f64565563d13743887bc475fe9`
+- **Integrity (SHA-256 of canonical facts):** `bbb2d152089f0ae60547f6b198bc64dbda20730c46a9e5a920751e12400069b4`
 - **Evidence schema:** seavigil-evidence-1.0
 
 _Apparent activity and an inspection lead, not proof of illegality. AIS and SAR evidence have known coverage gaps and spoofing risks; verify against authoritative sources before any enforcement action._
