@@ -1,6 +1,45 @@
 {
-"generated_at": "2026-07-12T17:28:30Z",
+"generated_at": "2026-07-12T19:32:33Z",
 "alerts": [
+{
+"id": "live_enco_5e9a21d0debe33",
+"first_seen": "2026-07-12T19:32:33Z",
+"type": "encounter",
+"when": "2026-07-08T17:40:00.000Z",
+"eez": "Italian Exclusive Economic Zone",
+"flag": "MLT",
+"authorization": "authorization_lapsed",
+"severity_reason": "foreign vessel, authorization lapsed",
+"lat": 38.0501,
+"lon": 11.7049,
+"ship_name": "BUDAFELL"
+},
+{
+"id": "live_enco_82c15482daba04",
+"first_seen": "2026-07-12T19:32:33Z",
+"type": "encounter",
+"when": "2026-07-08T19:00:00.000Z",
+"eez": "Kiribati Exclusive Economic Zone (Line Group)",
+"flag": "CHN",
+"authorization": "authorization_lapsed",
+"severity_reason": "foreign vessel, authorization lapsed",
+"lat": -8.8235,
+"lon": -152.0195,
+"ship_name": "HAI XING 718"
+},
+{
+"id": "live_enco_1333c84b9f7812",
+"first_seen": "2026-07-12T19:32:33Z",
+"type": "encounter",
+"when": "2026-07-08T17:30:00.000Z",
+"eez": "Croatian Exclusive Economic Zone",
+"flag": "ITA",
+"authorization": "no_record",
+"severity_reason": "foreign vessel, no authorization on record",
+"lat": 42.2656,
+"lon": 16.8918,
+"ship_name": "BARBARO"
+},
 {
 "id": "live_ais__8f0fc2b5b7b879",
 "first_seen": "2026-07-12T10:46:58Z",
@@ -2561,45 +2600,6 @@
 "lat": -25.6069,
 "lon": -42.8219,
 "ship_name": "EAGLE CRATO"
-},
-{
-"id": "live_ais__9d581e65838066",
-"first_seen": "2026-07-05T12:43:03Z",
-"type": "ais_disabling",
-"when": "2026-06-30T06:36:28.000Z",
-"eez": "New Zealand Exclusive Economic Zone (Cook Islands)",
-"flag": "CHN",
-"authorization": "authorization_lapsed",
-"severity_reason": "foreign vessel, authorization lapsed",
-"lat": -11.6486,
-"lon": -167.9449,
-"ship_name": "HUA NAN YU 718"
-},
-{
-"id": "live_ais__5bf2bdb1454d2f",
-"first_seen": "2026-07-05T12:43:03Z",
-"type": "ais_disabling",
-"when": "2026-06-28T18:42:03.000Z",
-"eez": "New Zealand Exclusive Economic Zone (Cook Islands)",
-"flag": "USA",
-"authorization": "no_record",
-"severity_reason": "foreign vessel, no authorization on record",
-"lat": -14.1111,
-"lon": -163.0151,
-"ship_name": "SV TIGER LILLY"
-},
-{
-"id": "live_ais__0d1b21de662034",
-"first_seen": "2026-07-05T12:43:03Z",
-"type": "ais_disabling",
-"when": "2026-06-30T14:36:34.000Z",
-"eez": "Papua New Guinean Exclusive Economic Zone",
-"flag": "MLT",
-"authorization": "no_record",
-"severity_reason": "foreign vessel, no authorization on record",
-"lat": 0.8764,
-"lon": 143.9665,
-"ship_name": "SEAWIND"
 }
 ]
 }

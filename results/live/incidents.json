@@ -56,60 +56,6 @@
     "evidence_hash": "e64cb74e988d0dad24576b1d31a40cffa2625a7a30be13341e4cef29dcd59761"
   },
   {
-    "incident_id": "live_enco_979b1ce9963926",
-    "type": "encounter",
-    "centroid_lon": 16.4839,
-    "centroid_lat": 42.4926,
-    "time_start_utc": "2026-07-08T07:00:00.000Z",
-    "time_end_utc": "2026-07-08T23:50:00.000Z",
-    "vessel_id": "247231990",
-    "ship_name": "VIKINGO",
-    "ship_type": "Fishing",
-    "flag": "ITA",
-    "flag_emoji": "\ud83c\uddee\ud83c\uddf9",
-    "gear": "Encounter",
-    "n_positions": 0,
-    "n_fishing_positions": 0,
-    "mean_fishing_proba": null,
-    "max_fishing_proba": null,
-    "_rfmo": [
-      "ICCAT",
-      "ACAP",
-      "GFCM",
-      "IWC"
-    ],
-    "_no_take": false,
-    "mpa_name": "At-sea encounter (transshipment)",
-    "duration_hours": 16.8,
-    "carrier_mmsi": "247101140",
-    "explanation": {
-      "method": "GFW Events encounters dataset (Miller et al. 2018).",
-      "drivers": [
-        "two vessels within range for 17 h",
-        "counterpart: ISIDE",
-        "two-vessel at-sea encounter (GFW Events)"
-      ]
-    },
-    "caveats": [
-      "Co-location can be legitimate (joint operations, safety, shelter).",
-      "Apparent transshipment is inferred from proximity and low speed, not observed.",
-      "An inspection lead from GFW Events, not proof of illegal activity."
-    ],
-    "eez_name": "Croatian Exclusive Economic Zone",
-    "eez_sovereign": "Croatia",
-    "eez_iso_sov": "HRV",
-    "eez_foreign": true,
-    "authorization_status": "no_record",
-    "authorization_authorities": [],
-    "registry_iuu_tag": false,
-    "registry_flag": "",
-    "registry_imo": "",
-    "severity": "high",
-    "severity_reason": "foreign vessel, no authorization on record",
-    "evidence_schema": "seavigil-evidence-1.0",
-    "evidence_hash": "d1daddc81088f95da6759367016aec7bf8889e119700ab7797cd640ab6c86678"
-  },
-  {
     "incident_id": "live_enco_89ad1a315ed108",
     "type": "encounter",
     "centroid_lon": -173.221,
@@ -166,6 +112,229 @@
     "severity_reason": "foreign vessel, authorization lapsed",
     "evidence_schema": "seavigil-evidence-1.0",
     "evidence_hash": "bbb2d152089f0ae60547f6b198bc64dbda20730c46a9e5a920751e12400069b4"
+  },
+  {
+    "incident_id": "live_enco_5e9a21d0debe33",
+    "type": "encounter",
+    "centroid_lon": 11.7049,
+    "centroid_lat": 38.0501,
+    "time_start_utc": "2026-07-08T17:40:00.000Z",
+    "time_end_utc": "2026-07-08T23:50:00.000Z",
+    "vessel_id": "256000527",
+    "ship_name": "BUDAFELL",
+    "ship_type": "Carrier",
+    "flag": "MLT",
+    "flag_emoji": "\ud83c\uddf2\ud83c\uddf9",
+    "gear": "Encounter",
+    "n_positions": 0,
+    "n_fishing_positions": 0,
+    "mean_fishing_proba": null,
+    "max_fishing_proba": null,
+    "_rfmo": [
+      "GFCM",
+      "ICCAT",
+      "ACAP",
+      "IWC"
+    ],
+    "_no_take": false,
+    "mpa_name": "At-sea encounter (transshipment)",
+    "duration_hours": 6.2,
+    "carrier_mmsi": "247152250",
+    "explanation": {
+      "method": "GFW Events encounters dataset (Miller et al. 2018).",
+      "drivers": [
+        "two vessels within range for 6 h",
+        "counterpart: CATERINA BONO",
+        "two-vessel at-sea encounter (GFW Events)"
+      ]
+    },
+    "caveats": [
+      "Co-location can be legitimate (joint operations, safety, shelter).",
+      "Apparent transshipment is inferred from proximity and low speed, not observed.",
+      "An inspection lead from GFW Events, not proof of illegal activity."
+    ],
+    "eez_name": "Italian Exclusive Economic Zone",
+    "eez_sovereign": "Italy",
+    "eez_iso_sov": "ITA",
+    "eez_foreign": true,
+    "authorization_status": "authorization_lapsed",
+    "authorization_authorities": [
+      "ICCAT"
+    ],
+    "registry_iuu_tag": false,
+    "registry_flag": "MLT",
+    "registry_imo": "8714372",
+    "severity": "high",
+    "severity_reason": "foreign vessel, authorization lapsed",
+    "evidence_schema": "seavigil-evidence-1.0",
+    "evidence_hash": "ecc68573636b7915038c3f1e7c7ddf91e032e262c76d4ae21f091fd39118a662"
+  },
+  {
+    "incident_id": "live_enco_979b1ce9963926",
+    "type": "encounter",
+    "centroid_lon": 16.4839,
+    "centroid_lat": 42.4926,
+    "time_start_utc": "2026-07-08T07:00:00.000Z",
+    "time_end_utc": "2026-07-08T23:50:00.000Z",
+    "vessel_id": "247231990",
+    "ship_name": "VIKINGO",
+    "ship_type": "Fishing",
+    "flag": "ITA",
+    "flag_emoji": "\ud83c\uddee\ud83c\uddf9",
+    "gear": "Encounter",
+    "n_positions": 0,
+    "n_fishing_positions": 0,
+    "mean_fishing_proba": null,
+    "max_fishing_proba": null,
+    "_rfmo": [
+      "ICCAT",
+      "ACAP",
+      "GFCM",
+      "IWC"
+    ],
+    "_no_take": false,
+    "mpa_name": "At-sea encounter (transshipment)",
+    "duration_hours": 16.8,
+    "carrier_mmsi": "247101140",
+    "explanation": {
+      "method": "GFW Events encounters dataset (Miller et al. 2018).",
+      "drivers": [
+        "two vessels within range for 17 h",
+        "counterpart: ISIDE",
+        "two-vessel at-sea encounter (GFW Events)"
+      ]
+    },
+    "caveats": [
+      "Co-location can be legitimate (joint operations, safety, shelter).",
+      "Apparent transshipment is inferred from proximity and low speed, not observed.",
+      "An inspection lead from GFW Events, not proof of illegal activity."
+    ],
+    "eez_name": "Croatian Exclusive Economic Zone",
+    "eez_sovereign": "Croatia",
+    "eez_iso_sov": "HRV",
+    "eez_foreign": true,
+    "authorization_status": "no_record",
+    "authorization_authorities": [],
+    "registry_iuu_tag": false,
+    "registry_flag": "",
+    "registry_imo": "",
+    "severity": "high",
+    "severity_reason": "foreign vessel, no authorization on record",
+    "evidence_schema": "seavigil-evidence-1.0",
+    "evidence_hash": "d1daddc81088f95da6759367016aec7bf8889e119700ab7797cd640ab6c86678"
+  },
+  {
+    "incident_id": "live_enco_82c15482daba04",
+    "type": "encounter",
+    "centroid_lon": -152.0195,
+    "centroid_lat": -8.8235,
+    "time_start_utc": "2026-07-08T19:00:00.000Z",
+    "time_end_utc": "2026-07-08T23:50:00.000Z",
+    "vessel_id": "412420436",
+    "ship_name": "HAI XING 718",
+    "ship_type": "Fishing",
+    "flag": "CHN",
+    "flag_emoji": "\ud83c\udde8\ud83c\uddf3",
+    "gear": "Encounter",
+    "n_positions": 0,
+    "n_fishing_positions": 0,
+    "mean_fishing_proba": null,
+    "max_fishing_proba": null,
+    "_rfmo": [
+      "FFA",
+      "ACAP",
+      "WCPFC",
+      "SPC",
+      "IWC"
+    ],
+    "_no_take": false,
+    "mpa_name": "At-sea encounter (transshipment)",
+    "duration_hours": 4.8,
+    "carrier_mmsi": "413312990",
+    "explanation": {
+      "method": "GFW Events encounters dataset (Miller et al. 2018).",
+      "drivers": [
+        "two vessels within range for 5 h",
+        "counterpart: HENG HONG 5",
+        "two-vessel at-sea encounter (GFW Events)"
+      ]
+    },
+    "caveats": [
+      "Co-location can be legitimate (joint operations, safety, shelter).",
+      "Apparent transshipment is inferred from proximity and low speed, not observed.",
+      "An inspection lead from GFW Events, not proof of illegal activity."
+    ],
+    "eez_name": "Kiribati Exclusive Economic Zone (Line Group)",
+    "eez_sovereign": "Kiribati",
+    "eez_iso_sov": "KIR",
+    "eez_foreign": true,
+    "authorization_status": "authorization_lapsed",
+    "authorization_authorities": [
+      "FFA",
+      "IATTC",
+      "WCPFC"
+    ],
+    "registry_iuu_tag": false,
+    "registry_flag": "CHN",
+    "registry_imo": "8654209",
+    "severity": "high",
+    "severity_reason": "foreign vessel, authorization lapsed",
+    "evidence_schema": "seavigil-evidence-1.0",
+    "evidence_hash": "d6eeeb44ca08916611efc7fac5c588921ac7a5f64565563d13743887bc475fe9"
+  },
+  {
+    "incident_id": "live_enco_1333c84b9f7812",
+    "type": "encounter",
+    "centroid_lon": 16.8918,
+    "centroid_lat": 42.2656,
+    "time_start_utc": "2026-07-08T17:30:00.000Z",
+    "time_end_utc": "2026-07-08T23:50:00.000Z",
+    "vessel_id": "247232010",
+    "ship_name": "BARBARO",
+    "ship_type": "Fishing",
+    "flag": "ITA",
+    "flag_emoji": "\ud83c\uddee\ud83c\uddf9",
+    "gear": "Encounter",
+    "n_positions": 0,
+    "n_fishing_positions": 0,
+    "mean_fishing_proba": null,
+    "max_fishing_proba": null,
+    "_rfmo": [
+      "GFCM",
+      "ACAP",
+      "IWC",
+      "ICCAT"
+    ],
+    "_no_take": false,
+    "mpa_name": "At-sea encounter (transshipment)",
+    "duration_hours": 6.3,
+    "carrier_mmsi": "238769140",
+    "explanation": {
+      "method": "GFW Events encounters dataset (Miller et al. 2018).",
+      "drivers": [
+        "two vessels within range for 6 h",
+        "counterpart: NEPTUN I",
+        "two-vessel at-sea encounter (GFW Events)"
+      ]
+    },
+    "caveats": [
+      "Co-location can be legitimate (joint operations, safety, shelter).",
+      "Apparent transshipment is inferred from proximity and low speed, not observed.",
+      "An inspection lead from GFW Events, not proof of illegal activity."
+    ],
+    "eez_name": "Croatian Exclusive Economic Zone",
+    "eez_sovereign": "Croatia",
+    "eez_iso_sov": "HRV",
+    "eez_foreign": true,
+    "authorization_status": "no_record",
+    "authorization_authorities": [],
+    "registry_iuu_tag": false,
+    "registry_flag": "",
+    "registry_imo": "",
+    "severity": "high",
+    "severity_reason": "foreign vessel, no authorization on record",
+    "evidence_schema": "seavigil-evidence-1.0",
+    "evidence_hash": "edbadc9e5537d7e3d4d04a2e0249b1e8124a0bc7f4bbc5e82c36a95811e14309"
   },
   {
     "incident_id": "live_ais__fc7dbcedc52b23",
