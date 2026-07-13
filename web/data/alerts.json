@@ -1,6 +1,45 @@
 {
-"generated_at": "2026-07-12T23:10:11Z",
+"generated_at": "2026-07-13T00:11:47Z",
 "alerts": [
+{
+"id": "live_enco_bd3142ceaea934",
+"first_seen": "2026-07-13T00:11:47Z",
+"type": "encounter",
+"when": "2026-07-09T16:00:00.000Z",
+"eez": "Kiribati Exclusive Economic Zone (Line Group)",
+"flag": "CHN",
+"authorization": "no_record",
+"severity_reason": "foreign vessel, no authorization on record",
+"lat": -7.3986,
+"lon": -153.7801,
+"ship_name": "HONG YANG 11"
+},
+{
+"id": "live_enco_4d14e81ccfe80d",
+"first_seen": "2026-07-13T00:11:47Z",
+"type": "encounter",
+"when": "2026-07-09T14:30:00.000Z",
+"eez": "Croatian Exclusive Economic Zone",
+"flag": "ITA",
+"authorization": "authorization_lapsed",
+"severity_reason": "foreign vessel, authorization lapsed",
+"lat": 42.6071,
+"lon": 16.5076,
+"ship_name": "ISIDE"
+},
+{
+"id": "live_enco_2b9623c12245c3",
+"first_seen": "2026-07-13T00:11:47Z",
+"type": "encounter",
+"when": "2026-07-09T11:20:00.000Z",
+"eez": "Vietnamese Exclusive Economic Zone",
+"flag": "PCN",
+"authorization": "no_record",
+"severity_reason": "foreign vessel, no authorization on record",
+"lat": 7.1379,
+"lon": 107.7094,
+"ship_name": ""
+},
 {
 "id": "live_enco_5e9a21d0debe33",
 "first_seen": "2026-07-12T19:32:33Z",
@@ -2561,45 +2600,6 @@
 "lat": -2.2827,
 "lon": -170.634,
 "ship_name": "JIN HUI 18"
-},
-{
-"id": "live_ais__723638fdbdb643",
-"first_seen": "2026-07-05T12:43:03Z",
-"type": "ais_disabling",
-"when": "2026-06-23T08:35:47.000Z",
-"eez": "Canadian Exclusive Economic Zone",
-"flag": "ESP",
-"authorization": "no_record",
-"severity_reason": "foreign vessel, no authorization on record",
-"lat": 47.3558,
-"lon": -47.8891,
-"ship_name": "ALBORAN"
-},
-{
-"id": "live_ais__06587cc80a89ac",
-"first_seen": "2026-07-05T12:43:03Z",
-"type": "ais_disabling",
-"when": "2026-06-25T03:46:26.000Z",
-"eez": "Colombian Exclusive Economic Zone",
-"flag": "TZA",
-"authorization": "no_record",
-"severity_reason": "foreign vessel, no authorization on record",
-"lat": 4.9567,
-"lon": -81.4907,
-"ship_name": "EL EXPERT"
-},
-{
-"id": "live_ais__c4410737818882",
-"first_seen": "2026-07-05T12:43:03Z",
-"type": "ais_disabling",
-"when": "2026-06-30T05:46:55.000Z",
-"eez": "Brazilian Exclusive Economic Zone",
-"flag": "SGP",
-"authorization": "no_record",
-"severity_reason": "foreign vessel, no authorization on record",
-"lat": -25.6069,
-"lon": -42.8219,
-"ship_name": "EAGLE CRATO"
 }
 ]
 }
