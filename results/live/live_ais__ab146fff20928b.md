@@ -3,7 +3,7 @@
 - **MPA:** AIS disabling (going dark)
 - **Severity:** HIGH (foreign vessel, no authorization on record)
 - **EEZ:** Sudanese Exclusive Economic Zone (Sudan) -- FOREIGN-flagged vessel
-- **Authorization:** No public authorization record (check coastal state)
+- **Authorization:** No public authorization record (check coastal state)  ·  IMO 9291365
 - **Vessel:** 🇵🇦 BESIKTAS-M  ·  **signal:** AIS gap
 - **When (UTC):** 2026-07-07T22:33:23.000Z → 2026-07-08T16:25:22.000Z
 - **Gap:** 17.9 h dark, 51.0 nm offshore

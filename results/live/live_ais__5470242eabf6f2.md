@@ -1,9 +1,9 @@
 # Incident `live_ais__5470242eabf6f2`
 
 - **MPA:** AIS disabling (going dark)
-- **Severity:** HIGH (foreign vessel, authorization lapsed)
+- **Severity:** HIGH (foreign vessel, no authorization on record)
 - **EEZ:** Micronesian Exclusive Economic Zone (Micronesia) -- FOREIGN-flagged vessel
-- **Authorization:** Authorization lapsed before this date: FFA, WCPFC  ·  IMO 9066306
+- **Authorization:** No public authorization record (check coastal state)
 - **Vessel:** 🇯🇵 SHOKIMARU NO.36  ·  **signal:** AIS gap
 - **When (UTC):** 2026-06-20T01:54:05.000Z → 2026-07-08T18:57:15.000Z
 - **Gap:** 449.1 h dark, 122.0 nm offshore
