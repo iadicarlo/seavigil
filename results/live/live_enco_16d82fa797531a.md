@@ -1,20 +1,20 @@
-# Incident `live_enco_4d14e81ccfe80d`
+# Incident `live_enco_16d82fa797531a`
 
 - **MPA:** At-sea encounter (transshipment)
 - **Severity:** HIGH (foreign vessel, authorization lapsed)
-- **EEZ:** Croatian Exclusive Economic Zone (Croatia) -- FOREIGN-flagged vessel
-- **Authorization:** Authorization lapsed before this date: GFCM, ICCAT  ·  IMO 8545496
-- **Vessel:** 🇮🇹 ISIDE  ·  **signal:** Encounter
-- **When (UTC):** 2026-07-09T14:30:00.000Z → 2026-07-09T23:50:00.000Z
-- **Encounter:** 9.3 h with carrier `247232010` (apparent transshipment)
-- **Where:** 42.607, 16.508
+- **EEZ:** Spanish Exclusive Economic Zone (Spain) -- FOREIGN-flagged vessel
+- **Authorization:** Authorization lapsed before this date: GFCM, ICCAT  ·  IMO 8688315
+- **Vessel:** 🇮🇹 GLADIUS  ·  **signal:** Encounter
+- **When (UTC):** 2026-07-09T13:50:00.000Z → 2026-07-09T23:50:00.000Z
+- **Encounter:** 10.0 h with carrier `224006930` (apparent transshipment)
+- **Where:** 38.550, 3.835
 
 ## Why this was flagged
 
 _GFW Events encounters dataset (Miller et al. 2018).._
 
-- two vessels within range for 9 h
-- counterpart: BARBARO
+- two vessels within range for 10 h
+- counterpart: SERRA AITANA
 - two-vessel at-sea encounter (GFW Events)
 
 ## Could be innocent
@@ -31,7 +31,7 @@ Two vessels meeting at sea can be a legitimate transfer, bunkering, or a safety 
 
 - WDPA / WD-OECM (World Database on Protected Areas) (UNEP-WCMC and IUCN (2026), June 2026). Protected Planet Terms of Use (non-commercial, display-only).
 - Marine Regions Exclusive Economic Zones v12 (Flanders Marine Institute (2024), DOI 10.14284/632). CC BY 4.0.
-- **Integrity (SHA-256 of canonical facts):** `a054b7294668c1f6a151804ed959662b591bc5348ae55677993eafaf2bb9f152`
+- **Integrity (SHA-256 of canonical facts):** `9f996781df72ce382f2788e13d2a0b6bb8f913655a9ee321297eea4967f5dc4c`
 - **Evidence schema:** seavigil-evidence-1.0
 
 _Apparent activity and an inspection lead, not proof of illegality. AIS and SAR evidence have known coverage gaps and spoofing risks; verify against authoritative sources before any enforcement action._

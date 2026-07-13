@@ -1,6 +1,19 @@
 {
-"generated_at": "2026-07-13T11:30:14Z",
+"generated_at": "2026-07-13T15:13:11Z",
 "alerts": [
+{
+"id": "live_enco_fbd49ba7d97e91",
+"first_seen": "2026-07-13T15:13:11Z",
+"type": "encounter",
+"when": "2026-07-09T19:20:00.000Z",
+"eez": "Maltese Exclusive Economic Zone",
+"flag": "ITA",
+"authorization": "authorization_lapsed",
+"severity_reason": "foreign vessel, authorization lapsed",
+"lat": 35.878,
+"lon": 14.032,
+"ship_name": "ALDO"
+},
 {
 "id": "live_ais__1e8faa28ec68fa",
 "first_seen": "2026-07-13T11:30:14Z",
@@ -2587,19 +2600,6 @@
 "lat": 3.7799,
 "lon": 5.4943,
 "ship_name": "PRINCE OF SEAS"
-},
-{
-"id": "live_ais__cae21901f67c9a",
-"first_seen": "2026-07-06T12:59:34Z",
-"type": "ais_disabling",
-"when": "2026-06-29T11:46:26.000Z",
-"eez": "Overlapping claim Wake Island / Enenkio: United States / Marshall Islands",
-"flag": "TWN",
-"authorization": "authorization_lapsed",
-"severity_reason": "foreign vessel, authorization lapsed",
-"lat": 17.8543,
-"lon": 163.6574,
-"ship_name": "LI CHENG NO.28"
 }
 ]
 }
