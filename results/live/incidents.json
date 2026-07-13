@@ -1,62 +1,5 @@
 [
   {
-    "incident_id": "live_enco_16d82fa797531a",
-    "type": "encounter",
-    "centroid_lon": 3.8352,
-    "centroid_lat": 38.5497,
-    "time_start_utc": "2026-07-09T13:50:00.000Z",
-    "time_end_utc": "2026-07-09T23:50:00.000Z",
-    "vessel_id": "247147370",
-    "ship_name": "GLADIUS",
-    "ship_type": "Fishing",
-    "flag": "ITA",
-    "flag_emoji": "\ud83c\uddee\ud83c\uddf9",
-    "gear": "Encounter",
-    "n_positions": 0,
-    "n_fishing_positions": 0,
-    "mean_fishing_proba": null,
-    "max_fishing_proba": null,
-    "_rfmo": [
-      "ICCAT",
-      "ACAP",
-      "GFCM",
-      "IWC"
-    ],
-    "_no_take": false,
-    "mpa_name": "At-sea encounter (transshipment)",
-    "duration_hours": 10.0,
-    "carrier_mmsi": "224006930",
-    "explanation": {
-      "method": "GFW Events encounters dataset (Miller et al. 2018).",
-      "drivers": [
-        "two vessels within range for 10 h",
-        "counterpart: SERRA AITANA",
-        "two-vessel at-sea encounter (GFW Events)"
-      ]
-    },
-    "caveats": [
-      "Co-location can be legitimate (joint operations, safety, shelter).",
-      "Apparent transshipment is inferred from proximity and low speed, not observed.",
-      "An inspection lead from GFW Events, not proof of illegal activity."
-    ],
-    "eez_name": "Spanish Exclusive Economic Zone",
-    "eez_sovereign": "Spain",
-    "eez_iso_sov": "ESP",
-    "eez_foreign": true,
-    "authorization_status": "authorization_lapsed",
-    "authorization_authorities": [
-      "GFCM",
-      "ICCAT"
-    ],
-    "registry_iuu_tag": false,
-    "registry_flag": "ITA",
-    "registry_imo": "8688315",
-    "severity": "high",
-    "severity_reason": "foreign vessel, authorization lapsed",
-    "evidence_schema": "seavigil-evidence-1.0",
-    "evidence_hash": "9f996781df72ce382f2788e13d2a0b6bb8f913655a9ee321297eea4967f5dc4c"
-  },
-  {
     "incident_id": "live_enco_bd3142ceaea934",
     "type": "encounter",
     "centroid_lon": -153.7801,
@@ -112,14 +55,14 @@
     "evidence_hash": "1943e28569c7fd5e89b214871f48f1bd6a09890eca0cd2f77f0fa0bfbdcccc8c"
   },
   {
-    "incident_id": "live_enco_fbd49ba7d97e91",
+    "incident_id": "live_enco_4d14e81ccfe80d",
     "type": "encounter",
-    "centroid_lon": 14.032,
-    "centroid_lat": 35.878,
-    "time_start_utc": "2026-07-09T19:20:00.000Z",
+    "centroid_lon": 16.5076,
+    "centroid_lat": 42.6071,
+    "time_start_utc": "2026-07-09T14:30:00.000Z",
     "time_end_utc": "2026-07-09T23:50:00.000Z",
-    "vessel_id": "247121260",
-    "ship_name": "ALDO",
+    "vessel_id": "247101140",
+    "ship_name": "ISIDE",
     "ship_type": "Fishing",
     "flag": "ITA",
     "flag_emoji": "\ud83c\uddee\ud83c\uddf9",
@@ -129,20 +72,20 @@
     "mean_fishing_proba": null,
     "max_fishing_proba": null,
     "_rfmo": [
-      "ICCAT",
       "GFCM",
-      "IWC",
-      "ACAP"
+      "ACAP",
+      "ICCAT",
+      "IWC"
     ],
     "_no_take": false,
     "mpa_name": "At-sea encounter (transshipment)",
-    "duration_hours": 4.5,
-    "carrier_mmsi": "249000171",
+    "duration_hours": 9.3,
+    "carrier_mmsi": "247232010",
     "explanation": {
       "method": "GFW Events encounters dataset (Miller et al. 2018).",
       "drivers": [
-        "two vessels within range for 4 h",
-        "counterpart: CMS SEACAT TOW300M",
+        "two vessels within range for 9 h",
+        "counterpart: BARBARO",
         "two-vessel at-sea encounter (GFW Events)"
       ]
     },
@@ -151,9 +94,9 @@
       "Apparent transshipment is inferred from proximity and low speed, not observed.",
       "An inspection lead from GFW Events, not proof of illegal activity."
     ],
-    "eez_name": "Maltese Exclusive Economic Zone",
-    "eez_sovereign": "Malta",
-    "eez_iso_sov": "MLT",
+    "eez_name": "Croatian Exclusive Economic Zone",
+    "eez_sovereign": "Croatia",
+    "eez_iso_sov": "HRV",
     "eez_foreign": true,
     "authorization_status": "authorization_lapsed",
     "authorization_authorities": [
@@ -162,11 +105,11 @@
     ],
     "registry_iuu_tag": false,
     "registry_flag": "ITA",
-    "registry_imo": "8785010",
+    "registry_imo": "8545496",
     "severity": "high",
     "severity_reason": "foreign vessel, authorization lapsed",
     "evidence_schema": "seavigil-evidence-1.0",
-    "evidence_hash": "68ffbcc1afc463dbd3228cfa3e2e9ab1eaf175b3865d590b36b83787947dde42"
+    "evidence_hash": "a054b7294668c1f6a151804ed959662b591bc5348ae55677993eafaf2bb9f152"
   },
   {
     "incident_id": "live_ais__1e8faa28ec68fa",
