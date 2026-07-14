@@ -1,6 +1,71 @@
 {
-"generated_at": "2026-07-13T23:15:02Z",
+"generated_at": "2026-07-14T00:09:50Z",
 "alerts": [
+{
+"id": "live_enco_bb1d208758483e",
+"first_seen": "2026-07-14T00:09:50Z",
+"type": "encounter",
+"when": "2026-07-10T09:50:00.000Z",
+"eez": "French Exclusive Economic Zone",
+"flag": "ESP",
+"authorization": "no_record",
+"severity_reason": "foreign vessel, no authorization on record",
+"lat": 47.138,
+"lon": -4.4332,
+"ship_name": "PUNTA CANDIEIRA"
+},
+{
+"id": "live_enco_31b2f42db1e038",
+"first_seen": "2026-07-14T00:09:50Z",
+"type": "encounter",
+"when": "2026-07-10T19:00:00.000Z",
+"eez": "Omani Exclusive Economic Zone",
+"flag": "CHN",
+"authorization": "no_record",
+"severity_reason": "foreign vessel, no authorization on record",
+"lat": 19.4876,
+"lon": 57.7414,
+"ship_name": "FU YUAN YU9996"
+},
+{
+"id": "live_enco_b515ccfbb881e6",
+"first_seen": "2026-07-14T00:09:50Z",
+"type": "encounter",
+"when": "2026-07-10T16:10:00.000Z",
+"eez": "French Exclusive Economic Zone",
+"flag": "ESP",
+"authorization": "no_record",
+"severity_reason": "foreign vessel, no authorization on record",
+"lat": 47.1438,
+"lon": -4.5201,
+"ship_name": "PUNTA CANDIEIRA"
+},
+{
+"id": "live_enco_8b9cc647deddc1",
+"first_seen": "2026-07-14T00:09:50Z",
+"type": "encounter",
+"when": "2026-07-10T15:50:00.000Z",
+"eez": "French Exclusive Economic Zone",
+"flag": "IRL",
+"authorization": "no_record",
+"severity_reason": "foreign vessel, no authorization on record",
+"lat": 47.3856,
+"lon": -4.7188,
+"ship_name": "BOUY VR2"
+},
+{
+"id": "live_enco_b1c9a29adc4669",
+"first_seen": "2026-07-14T00:09:50Z",
+"type": "encounter",
+"when": "2026-07-10T17:00:00.000Z",
+"eez": "French Exclusive Economic Zone",
+"flag": "ESP",
+"authorization": "no_record",
+"severity_reason": "foreign vessel, no authorization on record",
+"lat": 47.1497,
+"lon": -4.5524,
+"ship_name": "PUNTA CANDIEIRA"
+},
 {
 "id": "live_enco_fbd49ba7d97e91",
 "first_seen": "2026-07-13T15:13:11Z",
@@ -2535,71 +2600,6 @@
 "lat": 2.2203,
 "lon": 152.3769,
 "ship_name": "HAKKO MARU NO2"
-},
-{
-"id": "live_ais__e4d1fa66ea5a04",
-"first_seen": "2026-07-06T12:59:34Z",
-"type": "ais_disabling",
-"when": "2026-07-02T04:40:06.000Z",
-"eez": "Costa Rican Exclusive Economic Zone",
-"flag": "MLT",
-"authorization": "no_record",
-"severity_reason": "foreign vessel, no authorization on record",
-"lat": 11.0782,
-"lon": -80.166,
-"ship_name": "TRUST STAR"
-},
-{
-"id": "live_ais__ee779ad26a6d3a",
-"first_seen": "2026-07-06T12:59:34Z",
-"type": "ais_disabling",
-"when": "2026-07-01T21:51:09.000Z",
-"eez": "Brazilian Exclusive Economic Zone",
-"flag": "BHS",
-"authorization": "no_record",
-"severity_reason": "foreign vessel, no authorization on record",
-"lat": -22.5645,
-"lon": -40.1241,
-"ship_name": "ANGRA DOS REIS"
-},
-{
-"id": "live_ais__f152802be8c974",
-"first_seen": "2026-07-06T12:59:34Z",
-"type": "ais_disabling",
-"when": "2026-06-26T17:51:30.000Z",
-"eez": "Brazilian Exclusive Economic Zone",
-"flag": "NLD",
-"authorization": "no_record",
-"severity_reason": "foreign vessel, no authorization on record",
-"lat": -10.6197,
-"lon": -32.985,
-"ship_name": "H3 BOIA 01-98%"
-},
-{
-"id": "live_ais__9deb5c73a13889",
-"first_seen": "2026-07-06T12:59:34Z",
-"type": "ais_disabling",
-"when": "2026-06-26T17:36:31.000Z",
-"eez": "Brazilian Exclusive Economic Zone",
-"flag": "NLD",
-"authorization": "no_record",
-"severity_reason": "foreign vessel, no authorization on record",
-"lat": -10.6283,
-"lon": -32.9799,
-"ship_name": "H3 BOIA 04-98%"
-},
-{
-"id": "live_ais__7c45f7aadd0073",
-"first_seen": "2026-07-06T12:59:34Z",
-"type": "ais_disabling",
-"when": "2026-07-01T13:16:05.000Z",
-"eez": "Nigerian Exclusive Economic Zone",
-"flag": "BHS",
-"authorization": "authorization_lapsed",
-"severity_reason": "foreign vessel, authorization lapsed",
-"lat": 3.7799,
-"lon": 5.4943,
-"ship_name": "PRINCE OF SEAS"
 }
 ]
 }
