@@ -1,9 +1,9 @@
 # Incident `live_ais__2bb1abfaa8c546`
 
 - **MPA:** AIS disabling (going dark)
-- **Severity:** HIGH (foreign vessel, authorization lapsed)
+- **Severity:** HIGH (foreign vessel, no authorization on record)
 - **EEZ:** Mauritanian Exclusive Economic Zone (Mauritania) -- FOREIGN-flagged vessel
-- **Authorization:** Authorization lapsed before this date: ICCAT  ·  IMO 9882009
+- **Authorization:** No public authorization record (check coastal state)
 - **Vessel:** 🇪🇸 MONTERAIOLA  ·  **signal:** AIS gap
 - **When (UTC):** 2026-07-08T06:13:23.000Z → 2026-07-09T20:19:37.000Z
 - **Gap:** 38.1 h dark, 139.0 nm offshore

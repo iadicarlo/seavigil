@@ -1,9 +1,9 @@
 # Incident `live_ais__49b82c9c14daad`
 
 - **MPA:** AIS disabling (going dark)
-- **Severity:** HIGH (foreign vessel, authorization lapsed)
+- **Severity:** HIGH (foreign vessel, no authorization on record)
 - **EEZ:** United States Exclusive Economic Zone (Jarvis Islands) (United States) -- FOREIGN-flagged vessel
-- **Authorization:** Authorization lapsed before this date: FFA, WCPFC  ·  IMO 9713985
+- **Authorization:** No public authorization record (check coastal state)
 - **Vessel:** 🇰🇷 F/V.MIRAERO  ·  **signal:** AIS gap
 - **When (UTC):** 2026-07-03T06:13:38.000Z → 2026-07-08T11:10:06.000Z
 - **Gap:** 124.9 h dark, 109.0 nm offshore
