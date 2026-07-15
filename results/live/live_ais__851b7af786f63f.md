@@ -1,9 +1,9 @@
 # Incident `live_ais__851b7af786f63f`
 
 - **MPA:** AIS disabling (going dark)
-- **Severity:** HIGH (foreign vessel, authorization lapsed)
+- **Severity:** HIGH (foreign vessel, no authorization on record)
 - **EEZ:** Togolese Exclusive Economic Zone (Togo) -- FOREIGN-flagged vessel
-- **Authorization:** Authorization lapsed before this date: NEAFC  ·  IMO 8915536
+- **Authorization:** No public authorization record (check coastal state)
 - **Vessel:** 🇳🇴 SILVER CRYSTAL  ·  **signal:** AIS gap
 - **When (UTC):** 2026-07-09T06:26:00.000Z → 2026-07-10T06:10:49.000Z
 - **Gap:** 23.7 h dark, 50.0 nm offshore
