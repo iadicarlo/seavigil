@@ -4,6 +4,11 @@
 
 | id | type | MPA | start (UTC) | score / mean p |
 |---|---|---|---|---:|
+| [s1sar__20260714_0000](s1sar__20260714_0000.md) | dark SAR | Sentinel-1 SAR detection | 2026-07-14T11:49:50Z | 0.38 |
+| [s1sar__20260714_0001](s1sar__20260714_0001.md) | dark SAR | Sentinel-1 SAR detection | 2026-07-14T11:49:50Z | 0.98 |
+| [s1sar__20260714_0002](s1sar__20260714_0002.md) | dark SAR | Sentinel-1 SAR detection | 2026-07-14T11:49:50Z | 0.33 |
+| [s1sar__20260714_0003](s1sar__20260714_0003.md) | dark SAR | Sentinel-1 SAR detection | 2026-07-14T11:49:50Z | 0.97 |
+| [s1sar__20260714_0004](s1sar__20260714_0004.md) | dark SAR | Sentinel-1 SAR detection | 2026-07-14T11:49:50Z | 0.01 |
 | [s1sar__20260712_0024](s1sar__20260712_0024.md) | dark SAR | Sentinel-1 SAR detection | 2026-07-12T23:33:14Z | 0.00 |
 | [s1sar__20260712_0036](s1sar__20260712_0036.md) | dark SAR | Sentinel-1 SAR detection | 2026-07-12T23:33:14Z | 0.00 |
 | [s1sar__20260712_0129](s1sar__20260712_0129.md) | dark SAR | Sentinel-1 SAR detection | 2026-07-12T23:33:14Z | 0.64 |
@@ -1141,8 +1146,3 @@
 | [s1sar__20260703_0069](s1sar__20260703_0069.md) | dark SAR | Sentinel-1 SAR detection | 2026-07-03T06:42:30Z | 0.13 |
 | [s1sar__20260703_0070](s1sar__20260703_0070.md) | dark SAR | Sentinel-1 SAR detection | 2026-07-03T06:42:30Z | 0.85 |
 | [s1sar__20260703_0071](s1sar__20260703_0071.md) | dark SAR | Sentinel-1 SAR detection | 2026-07-03T06:42:30Z | 0.91 |
-| [s1sar__20260630_0000](s1sar__20260630_0000.md) | dark SAR | Sentinel-1 SAR detection | 2026-06-30T23:33:13Z | 0.61 |
-| [s1sar__20260630_0024](s1sar__20260630_0024.md) | dark SAR | Sentinel-1 SAR detection | 2026-06-30T23:33:13Z | 0.01 |
-| [s1sar__20260630_0028](s1sar__20260630_0028.md) | dark SAR | Sentinel-1 SAR detection | 2026-06-30T23:33:13Z | 0.03 |
-| [s1sar__20260630_0113](s1sar__20260630_0113.md) | dark SAR | Sentinel-1 SAR detection | 2026-06-30T23:33:13Z | 0.84 |
-| [s1sar__20260630_0114](s1sar__20260630_0114.md) | dark SAR | Sentinel-1 SAR detection | 2026-06-30T23:33:13Z | 0.52 |
