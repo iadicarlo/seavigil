@@ -1,6 +1,71 @@
 {
-"generated_at": "2026-07-15T00:08:14Z",
+"generated_at": "2026-07-15T03:37:44Z",
 "alerts": [
+{
+"id": "live_enco_93bb2b49887ac8",
+"first_seen": "2026-07-15T03:37:44Z",
+"type": "encounter",
+"when": "2026-07-11T15:40:00.000Z",
+"eez": "Maltese Exclusive Economic Zone",
+"flag": "CYP",
+"authorization": "no_record",
+"severity_reason": "foreign vessel, no authorization on record",
+"lat": 35.7135,
+"lon": 14.1235,
+"ship_name": "MFV RANIA"
+},
+{
+"id": "live_enco_7db4ec8f993a62",
+"first_seen": "2026-07-15T03:37:44Z",
+"type": "encounter",
+"when": "2026-07-11T19:20:00.000Z",
+"eez": "Vietnamese Exclusive Economic Zone",
+"flag": "ALB",
+"authorization": "no_record",
+"severity_reason": "foreign vessel, no authorization on record",
+"lat": 10.0569,
+"lon": 107.3387,
+"ship_name": "NGOC LOAN BANK 4 SO3"
+},
+{
+"id": "live_enco_dbf4cb4ebf1e83",
+"first_seen": "2026-07-15T03:37:44Z",
+"type": "encounter",
+"when": "2026-07-11T12:20:00.000Z",
+"eez": "Vietnamese Exclusive Economic Zone",
+"flag": "VUT",
+"authorization": "no_record",
+"severity_reason": "foreign vessel, no authorization on record",
+"lat": 20.0857,
+"lon": 107.7164,
+"ship_name": "51A3"
+},
+{
+"id": "live_enco_d3c11c330c432b",
+"first_seen": "2026-07-15T03:37:44Z",
+"type": "encounter",
+"when": "2026-07-11T10:10:00.000Z",
+"eez": "",
+"flag": "",
+"authorization": "flag_unknown",
+"severity_reason": "inside a no-take reserve",
+"lat": 12.5468,
+"lon": 101.4552,
+"ship_name": "SINGANAN 777"
+},
+{
+"id": "live_enco_5977800a7ff79f",
+"first_seen": "2026-07-15T03:37:44Z",
+"type": "encounter",
+"when": "2026-07-11T10:30:00.000Z",
+"eez": "Sierra Leonean Exclusive Economic Zone",
+"flag": "GIN",
+"authorization": "no_record",
+"severity_reason": "foreign vessel, no authorization on record",
+"lat": 8.7705,
+"lon": -13.7346,
+"ship_name": "MAMOU"
+},
 {
 "id": "live_ais__364c937aac3d76",
 "first_seen": "2026-07-14T11:45:38Z",
@@ -2535,71 +2600,6 @@
 "lat": 3.6879,
 "lon": 150.5113,
 "ship_name": "SHOYUMARU NO18"
-},
-{
-"id": "live_ais__484eb64c42a109",
-"first_seen": "2026-07-07T12:10:35Z",
-"type": "ais_disabling",
-"when": "2026-07-03T04:12:52.000Z",
-"eez": "Tuvaluan Exclusive Economic Zone",
-"flag": "CHN",
-"authorization": "no_record",
-"severity_reason": "foreign vessel, no authorization on record",
-"lat": -6.1647,
-"lon": 179.4079,
-"ship_name": "636-2  100%"
-},
-{
-"id": "live_ais__b8eb169994af29",
-"first_seen": "2026-07-07T12:10:35Z",
-"type": "ais_disabling",
-"when": "2026-07-02T23:18:35.000Z",
-"eez": "Guyanese Exclusive Economic Zone",
-"flag": "LBR",
-"authorization": "no_record",
-"severity_reason": "foreign vessel, no authorization on record",
-"lat": 7.9577,
-"lon": -56.7218,
-"ship_name": "ALMI ATLAS"
-},
-{
-"id": "live_ais__7a9514713e976e",
-"first_seen": "2026-07-07T12:10:35Z",
-"type": "ais_disabling",
-"when": "2026-07-03T01:47:52.000Z",
-"eez": "Indonesian Exclusive Economic Zone",
-"flag": "PAN",
-"authorization": "no_record",
-"severity_reason": "foreign vessel, no authorization on record",
-"lat": 1.5569,
-"lon": 120.8455,
-"ship_name": "KUROTAKISAN MARU 3"
-},
-{
-"id": "live_ais__22d6e8027c051d",
-"first_seen": "2026-07-07T12:10:35Z",
-"type": "ais_disabling",
-"when": "2026-07-02T19:24:15.000Z",
-"eez": "French Exclusive Economic Zone (French Guiana)",
-"flag": "PAN",
-"authorization": "no_record",
-"severity_reason": "foreign vessel, no authorization on record",
-"lat": 6.165,
-"lon": -52.1411,
-"ship_name": "BLUE AKIHABARA"
-},
-{
-"id": "live_ais__6b5aad0dd192a9",
-"first_seen": "2026-07-07T12:10:35Z",
-"type": "ais_disabling",
-"when": "2026-07-02T20:06:18.000Z",
-"eez": "Bissau-Guinean Exclusive Economic Zone",
-"flag": "SEN",
-"authorization": "no_record",
-"severity_reason": "foreign vessel, no authorization on record",
-"lat": 10.3346,
-"lon": -16.9499,
-"ship_name": "GRANADA"
 }
 ]
 }
