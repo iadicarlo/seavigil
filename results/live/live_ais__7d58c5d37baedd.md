@@ -1,9 +1,9 @@
 # Incident `live_ais__7d58c5d37baedd`
 
 - **MPA:** AIS disabling (going dark)
-- **Severity:** HIGH (foreign vessel, no authorization on record)
+- **Severity:** HIGH (foreign vessel, authorization lapsed)
 - **EEZ:** Solomon Islands Exclusive Economic Zone (Solomon Islands) -- FOREIGN-flagged vessel
-- **Authorization:** No public authorization record (check coastal state)
+- **Authorization:** Authorization lapsed before this date: FFA, WCPFC  ·  IMO 1057127
 - **Vessel:** 🇨🇳 HAN YANG 66  ·  **signal:** AIS gap
 - **When (UTC):** 2026-06-22T02:52:25.000Z → 2026-07-10T13:50:50.000Z
 - **Gap:** 443.0 h dark, 179.0 nm offshore

@@ -3,7 +3,7 @@
 - **MPA:** AIS disabling (going dark)
 - **Severity:** HIGH (foreign vessel, no authorization on record)
 - **EEZ:** Ghanaian Exclusive Economic Zone (Ghana) -- FOREIGN-flagged vessel
-- **Authorization:** No public authorization record (check coastal state)  ·  IMO 9757890
+- **Authorization:** No public authorization record (check coastal state)
 - **Vessel:** 🇵🇦 RED ORCHID  ·  **signal:** AIS gap
 - **When (UTC):** 2026-07-07T09:08:02.000Z → 2026-07-10T10:38:55.000Z
 - **Gap:** 73.5 h dark, 116.0 nm offshore

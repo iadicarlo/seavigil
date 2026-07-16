@@ -3,7 +3,7 @@
 - **MPA:** AIS disabling (going dark)
 - **Severity:** HIGH (foreign vessel, no authorization on record)
 - **EEZ:** Saudi Arabian Exclusive Economic Zone (Saudi Arabia) -- FOREIGN-flagged vessel
-- **Authorization:** No public authorization record (check coastal state)
+- **Authorization:** No public authorization record (check coastal state)  ·  IMO 7388231
 - **Vessel:** 🇹🇬 ALBARAKA1  ·  **signal:** AIS gap
 - **When (UTC):** 2026-06-26T02:14:43.000Z → 2026-07-11T05:57:21.000Z
 - **Gap:** 363.7 h dark, 50.0 nm offshore

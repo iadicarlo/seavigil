@@ -1,9 +1,9 @@
 # Incident `live_ais__de9495302f7b7a`
 
 - **MPA:** AIS disabling (going dark)
-- **Severity:** HIGH (foreign vessel, no authorization on record)
+- **Severity:** HIGH (foreign vessel, authorization lapsed)
 - **EEZ:** Micronesian Exclusive Economic Zone (Micronesia) -- FOREIGN-flagged vessel
-- **Authorization:** No public authorization record (check coastal state)
+- **Authorization:** Authorization lapsed before this date: FFA, IATTC, IOTC, WCPFC  ·  IMO 9206188
 - **Vessel:** 🇯🇵 FUKUICHIMARU NO.128  ·  **signal:** AIS gap
 - **When (UTC):** 2026-07-02T19:45:41.000Z → 2026-07-10T20:45:28.000Z
 - **Gap:** 193.0 h dark, 182.0 nm offshore

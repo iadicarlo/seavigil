@@ -3,7 +3,7 @@
 - **MPA:** AIS disabling (going dark)
 - **Severity:** HIGH (foreign vessel, no authorization on record)
 - **EEZ:** Nigerian Exclusive Economic Zone (Nigeria) -- FOREIGN-flagged vessel
-- **Authorization:** No public authorization record (check coastal state)  ·  IMO 9791145
+- **Authorization:** No public authorization record (check coastal state)
 - **Vessel:** 🇲🇭 KIMOLOS  ·  **signal:** AIS gap
 - **When (UTC):** 2026-07-10T14:02:10.000Z → 2026-07-11T06:47:59.000Z
 - **Gap:** 16.8 h dark, 76.0 nm offshore

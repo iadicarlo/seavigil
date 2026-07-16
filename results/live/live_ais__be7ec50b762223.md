@@ -1,9 +1,9 @@
 # Incident `live_ais__be7ec50b762223`
 
 - **MPA:** AIS disabling (going dark)
-- **Severity:** HIGH (foreign vessel, authorization lapsed)
+- **Severity:** HIGH (foreign vessel, no authorization on record)
 - **EEZ:** Equatorial Guinean Exclusive Economic Zone (Equatorial Guinea) -- FOREIGN-flagged vessel
-- **Authorization:** Authorization lapsed before this date: ICCAT, IOTC, WCPFC  ·  IMO 8912986
+- **Authorization:** No public authorization record (check coastal state)
 - **Vessel:** 🇫🇷 F/V GUEOTEC  ·  **signal:** AIS gap
 - **When (UTC):** 2026-06-26T04:29:57.000Z → 2026-07-10T19:20:46.000Z
 - **Gap:** 350.8 h dark, 57.0 nm offshore
