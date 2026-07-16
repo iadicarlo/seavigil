@@ -564,8 +564,8 @@
     "centroid_lat": 19.4855,
     "time_start_utc": "2026-07-12T00:00:00.000Z",
     "time_end_utc": "2026-07-12T20:40:00.000Z",
-    "vessel_id": "412440715",
-    "ship_name": "FU YUAN YU9992",
+    "vessel_id": "412440718",
+    "ship_name": "FU YUAN YU9996",
     "ship_type": "Fishing",
     "flag": "CHN",
     "flag_emoji": "\ud83c\udde8\ud83c\uddf3",
@@ -578,12 +578,12 @@
     "_no_take": false,
     "mpa_name": "At-sea encounter (transshipment)",
     "duration_hours": 20.7,
-    "carrier_mmsi": "412440718",
+    "carrier_mmsi": "412440715",
     "explanation": {
       "method": "GFW Events encounters dataset (Miller et al. 2018).",
       "drivers": [
         "two vessels within range for 21 h",
-        "counterpart: FU YUAN YU9996",
+        "counterpart: FU YUAN YU9992",
         "two-vessel at-sea encounter (GFW Events)"
       ]
     },
@@ -604,7 +604,7 @@
     "severity": "high",
     "severity_reason": "foreign vessel, no authorization on record",
     "evidence_schema": "seavigil-evidence-1.0",
-    "evidence_hash": "2dbccab3624816f9da546d0ab60a2ae15d61b4f2e46279cba260dcd14bbe8368"
+    "evidence_hash": "29493125d9569dcb4e66e4177289351b46a37cac9ee252f380ac0892ca7d8fe3"
   },
   {
     "incident_id": "live_ais__b01001983b32ea",
@@ -836,8 +836,8 @@
     "centroid_lat": 4.4682,
     "time_start_utc": "2026-07-12T15:30:00.000Z",
     "time_end_utc": "2026-07-12T18:30:00.000Z",
-    "vessel_id": "515901124",
-    "ship_name": "PKFB  1485",
+    "vessel_id": "515252519",
+    "ship_name": "PKFB [2519] AH J O Y",
     "ship_type": "Fishing",
     "flag": "KHM",
     "flag_emoji": "\ud83c\uddf0\ud83c\udded",
@@ -848,20 +848,20 @@
     "max_fishing_proba": null,
     "_rfmo": [
       "IWC",
-      "ACAP",
       "IOTC",
+      "SEAFDEC",
       "APFIC",
-      "SEAFDEC"
+      "ACAP"
     ],
     "_no_take": false,
     "mpa_name": "At-sea encounter (transshipment)",
     "duration_hours": 3.0,
-    "carrier_mmsi": "515252519",
+    "carrier_mmsi": "515901124",
     "explanation": {
       "method": "GFW Events encounters dataset (Miller et al. 2018).",
       "drivers": [
         "two vessels within range for 3 h",
-        "counterpart: PKFB [2519] AH J O Y",
+        "counterpart: PKFB  1485",
         "two-vessel at-sea encounter (GFW Events)"
       ]
     },
@@ -882,7 +882,7 @@
     "severity": "high",
     "severity_reason": "foreign vessel, no authorization on record",
     "evidence_schema": "seavigil-evidence-1.0",
-    "evidence_hash": "38f70eedcd8e19ee3e6cc4533bbd7333d22ce94231bbd9e534f42ed13824b270"
+    "evidence_hash": "533be6de4c432cf9ad7be4d6a1c663a106739584767e3416e5aff820bcea1e47"
   },
   {
     "incident_id": "live_ais__ce4ec0cf1b9905",
