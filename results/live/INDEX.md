@@ -1,15 +1,16 @@
 # In-MPA records
 
-31 record(s): 31 AIS fishing incident(s), 0 dark-vessel SAR detection(s).
+32 record(s): 32 AIS fishing incident(s), 0 dark-vessel SAR detection(s).
 
 | id | type | MPA | start (UTC) | score / mean p |
 |---|---|---|---|---:|
+| [live_enco_070d0803e49f43](live_enco_070d0803e49f43.md) | AIS fishing | At-sea encounter (transshipment) | 2026-07-12T20:10:00.000Z | - |
+| [live_enco_f84bc808e8eb14](live_enco_f84bc808e8eb14.md) | AIS fishing | At-sea encounter (transshipment) | 2026-07-12T18:50:00.000Z | - |
+| [live_enco_46dba6df88ebd4](live_enco_46dba6df88ebd4.md) | AIS fishing | At-sea encounter (transshipment) | 2026-07-12T08:30:00.000Z | - |
+| [live_enco_d5f3a1cbb80530](live_enco_d5f3a1cbb80530.md) | AIS fishing | At-sea encounter (transshipment) | 2026-07-12T16:20:00.000Z | - |
 | [live_enco_93bb2b49887ac8](live_enco_93bb2b49887ac8.md) | AIS fishing | At-sea encounter (transshipment) | 2026-07-11T15:40:00.000Z | - |
 | [live_enco_b4937a637fb9f6](live_enco_b4937a637fb9f6.md) | AIS fishing | At-sea encounter (transshipment) | 2026-07-12T08:40:00.000Z | - |
-| [live_enco_46dba6df88ebd4](live_enco_46dba6df88ebd4.md) | AIS fishing | At-sea encounter (transshipment) | 2026-07-12T08:30:00.000Z | - |
 | [live_enco_20f534edbdf48e](live_enco_20f534edbdf48e.md) | AIS fishing | At-sea encounter (transshipment) | 2026-07-12T02:00:00.000Z | - |
-| [live_enco_f84bc808e8eb14](live_enco_f84bc808e8eb14.md) | AIS fishing | At-sea encounter (transshipment) | 2026-07-12T18:50:00.000Z | - |
-| [live_enco_d5f3a1cbb80530](live_enco_d5f3a1cbb80530.md) | AIS fishing | At-sea encounter (transshipment) | 2026-07-12T16:20:00.000Z | - |
 | [live_enco_fec796b151f457](live_enco_fec796b151f457.md) | AIS fishing | At-sea encounter (transshipment) | 2026-07-12T14:40:00.000Z | - |
 | [live_ais__f0fdb83215280b](live_ais__f0fdb83215280b.md) | AIS fishing | AIS disabling (going dark) | 2026-07-06T03:07:00.000Z | - |
 | [live_ais__6747a6cb22d56d](live_ais__6747a6cb22d56d.md) | AIS fishing | AIS disabling (going dark) | 2026-07-12T08:10:26.000Z | - |
