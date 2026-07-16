@@ -1,6 +1,19 @@
 {
-"generated_at": "2026-07-16T03:40:52Z",
+"generated_at": "2026-07-16T06:32:29Z",
 "alerts": [
+{
+"id": "live_enco_070d0803e49f43",
+"first_seen": "2026-07-16T06:32:29Z",
+"type": "encounter",
+"when": "2026-07-12T20:10:00.000Z",
+"eez": "Vietnamese Exclusive Economic Zone",
+"flag": "FRA",
+"authorization": "no_record",
+"severity_reason": "foreign vessel, no authorization on record",
+"lat": 8.8609,
+"lon": 109.9291,
+"ship_name": "TIEN DAT(^-^)"
+},
 {
 "id": "live_enco_46dba6df88ebd4",
 "first_seen": "2026-07-16T03:40:52Z",
@@ -2587,19 +2600,6 @@
 "lat": 9.7735,
 "lon": 107.366,
 "ship_name": "82HYNH-DUONG BAN1SO1"
-},
-{
-"id": "live_enco_61baf5690c590d",
-"first_seen": "2026-07-08T16:50:56Z",
-"type": "encounter",
-"when": "2026-07-04T16:10:00.000Z",
-"eez": "Kiribati Exclusive Economic Zone (Line Group)",
-"flag": "FSM",
-"authorization": "authorization_lapsed",
-"severity_reason": "foreign vessel, authorization lapsed",
-"lat": 2.246,
-"lon": -161.8767,
-"ship_name": "PACIFIC PURSUIT 107"
 }
 ]
 }

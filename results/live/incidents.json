@@ -1,5 +1,115 @@
 [
   {
+    "incident_id": "live_enco_46dba6df88ebd4",
+    "type": "encounter",
+    "centroid_lon": 107.7207,
+    "centroid_lat": 20.1375,
+    "time_start_utc": "2026-07-12T08:30:00.000Z",
+    "time_end_utc": "2026-07-12T23:50:00.000Z",
+    "vessel_id": "450308100",
+    "ship_name": "HUNG VAN   01    C12",
+    "ship_type": "Fishing",
+    "flag": "LBN",
+    "flag_emoji": "\ud83c\uddf1\ud83c\udde7",
+    "gear": "Encounter",
+    "n_positions": 0,
+    "n_fishing_positions": 0,
+    "mean_fishing_proba": null,
+    "max_fishing_proba": null,
+    "_rfmo": [
+      "WCPFC",
+      "IWC",
+      "SEAFDEC",
+      "ACAP",
+      "APFIC"
+    ],
+    "_no_take": false,
+    "mpa_name": "At-sea encounter (transshipment)",
+    "duration_hours": 15.3,
+    "carrier_mmsi": "574093171",
+    "explanation": {
+      "method": "GFW Events encounters dataset (Miller et al. 2018).",
+      "drivers": [
+        "two vessels within range for 15 h",
+        "counterpart: HUNG VAN  61 GOI C12",
+        "two-vessel at-sea encounter (GFW Events)"
+      ]
+    },
+    "caveats": [
+      "Co-location can be legitimate (joint operations, safety, shelter).",
+      "Apparent transshipment is inferred from proximity and low speed, not observed.",
+      "An inspection lead from GFW Events, not proof of illegal activity."
+    ],
+    "eez_name": "Vietnamese Exclusive Economic Zone",
+    "eez_sovereign": "Vietnam",
+    "eez_iso_sov": "VNM",
+    "eez_foreign": true,
+    "authorization_status": "no_record",
+    "authorization_authorities": [],
+    "registry_iuu_tag": false,
+    "registry_flag": "",
+    "registry_imo": "",
+    "severity": "high",
+    "severity_reason": "foreign vessel, no authorization on record",
+    "evidence_schema": "seavigil-evidence-1.0",
+    "evidence_hash": "afa917f61e96c4b84af9e1253b59f6be35635adb831b46944c2a6b49ecb0b7b5"
+  },
+  {
+    "incident_id": "live_enco_070d0803e49f43",
+    "type": "encounter",
+    "centroid_lon": 109.9291,
+    "centroid_lat": 8.8609,
+    "time_start_utc": "2026-07-12T20:10:00.000Z",
+    "time_end_utc": "2026-07-12T23:50:00.000Z",
+    "vessel_id": "228456789",
+    "ship_name": "TIEN DAT(^-^)",
+    "ship_type": "Fishing",
+    "flag": "FRA",
+    "flag_emoji": "\ud83c\uddeb\ud83c\uddf7",
+    "gear": "Encounter",
+    "n_positions": 0,
+    "n_fishing_positions": 0,
+    "mean_fishing_proba": null,
+    "max_fishing_proba": null,
+    "_rfmo": [
+      "IWC",
+      "WCPFC",
+      "APFIC",
+      "ACAP",
+      "SEAFDEC"
+    ],
+    "_no_take": false,
+    "mpa_name": "At-sea encounter (transshipment)",
+    "duration_hours": 3.7,
+    "carrier_mmsi": "574609139",
+    "explanation": {
+      "method": "GFW Events encounters dataset (Miller et al. 2018).",
+      "drivers": [
+        "two vessels within range for 4 h",
+        "counterpart: DAI MA VUONG",
+        "two-vessel at-sea encounter (GFW Events)"
+      ]
+    },
+    "caveats": [
+      "Co-location can be legitimate (joint operations, safety, shelter).",
+      "Apparent transshipment is inferred from proximity and low speed, not observed.",
+      "An inspection lead from GFW Events, not proof of illegal activity."
+    ],
+    "eez_name": "Vietnamese Exclusive Economic Zone",
+    "eez_sovereign": "Vietnam",
+    "eez_iso_sov": "VNM",
+    "eez_foreign": true,
+    "authorization_status": "no_record",
+    "authorization_authorities": [],
+    "registry_iuu_tag": false,
+    "registry_flag": "",
+    "registry_imo": "",
+    "severity": "high",
+    "severity_reason": "foreign vessel, no authorization on record",
+    "evidence_schema": "seavigil-evidence-1.0",
+    "evidence_hash": "f8580233bd1f0cccac3a6ce0551d71b035821304eebaf9a41676e58d0acc0c12"
+  },
+  {
     "incident_id": "live_enco_93bb2b49887ac8",
     "type": "encounter",
     "centroid_lon": 14.3131,
@@ -110,61 +220,6 @@
     "severity_reason": "inside a no-take reserve",
     "evidence_schema": "seavigil-evidence-1.0",
     "evidence_hash": "af6b6e3cc74a840b731e12950336f68752ddb09a4a9560a5c260cdbfa5b283c3"
-  },
-  {
-    "incident_id": "live_enco_46dba6df88ebd4",
-    "type": "encounter",
-    "centroid_lon": 107.7207,
-    "centroid_lat": 20.1375,
-    "time_start_utc": "2026-07-12T08:30:00.000Z",
-    "time_end_utc": "2026-07-12T23:50:00.000Z",
-    "vessel_id": "450308100",
-    "ship_name": "HUNG VAN   01    C12",
-    "ship_type": "Fishing",
-    "flag": "LBN",
-    "flag_emoji": "\ud83c\uddf1\ud83c\udde7",
-    "gear": "Encounter",
-    "n_positions": 0,
-    "n_fishing_positions": 0,
-    "mean_fishing_proba": null,
-    "max_fishing_proba": null,
-    "_rfmo": [
-      "WCPFC",
-      "IWC",
-      "SEAFDEC",
-      "ACAP",
-      "APFIC"
-    ],
-    "_no_take": false,
-    "mpa_name": "At-sea encounter (transshipment)",
-    "duration_hours": 15.3,
-    "carrier_mmsi": "574093171",
-    "explanation": {
-      "method": "GFW Events encounters dataset (Miller et al. 2018).",
-      "drivers": [
-        "two vessels within range for 15 h",
-        "counterpart: HUNG VAN  61 GOI C12",
-        "two-vessel at-sea encounter (GFW Events)"
-      ]
-    },
-    "caveats": [
-      "Co-location can be legitimate (joint operations, safety, shelter).",
-      "Apparent transshipment is inferred from proximity and low speed, not observed.",
-      "An inspection lead from GFW Events, not proof of illegal activity."
-    ],
-    "eez_name": "Vietnamese Exclusive Economic Zone",
-    "eez_sovereign": "Vietnam",
-    "eez_iso_sov": "VNM",
-    "eez_foreign": true,
-    "authorization_status": "no_record",
-    "authorization_authorities": [],
-    "registry_iuu_tag": false,
-    "registry_flag": "",
-    "registry_imo": "",
-    "severity": "high",
-    "severity_reason": "foreign vessel, no authorization on record",
-    "evidence_schema": "seavigil-evidence-1.0",
-    "evidence_hash": "afa917f61e96c4b84af9e1253b59f6be35635adb831b46944c2a6b49ecb0b7b5"
   },
   {
     "incident_id": "live_enco_20f534edbdf48e",
