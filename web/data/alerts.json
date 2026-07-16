@@ -1,6 +1,19 @@
 {
-"generated_at": "2026-07-16T00:13:13Z",
+"generated_at": "2026-07-16T03:40:52Z",
 "alerts": [
+{
+"id": "live_enco_46dba6df88ebd4",
+"first_seen": "2026-07-16T03:40:52Z",
+"type": "encounter",
+"when": "2026-07-12T08:30:00.000Z",
+"eez": "Vietnamese Exclusive Economic Zone",
+"flag": "LBN",
+"authorization": "no_record",
+"severity_reason": "foreign vessel, no authorization on record",
+"lat": 20.1375,
+"lon": 107.7207,
+"ship_name": "HUNG VAN   01    C12"
+},
 {
 "id": "live_enco_20f534edbdf48e",
 "first_seen": "2026-07-16T00:13:13Z",
@@ -2587,19 +2600,6 @@
 "lat": 2.246,
 "lon": -161.8767,
 "ship_name": "PACIFIC PURSUIT 107"
-},
-{
-"id": "live_enco_13115fa60f8c24",
-"first_seen": "2026-07-08T16:50:56Z",
-"type": "encounter",
-"when": "2026-07-04T09:50:00.000Z",
-"eez": "Chinese Exclusive Economic Zone",
-"flag": "TWN",
-"authorization": "no_record",
-"severity_reason": "foreign vessel, no authorization on record",
-"lat": 26.9822,
-"lon": 121.702,
-"ship_name": "11168"
 }
 ]
 }
