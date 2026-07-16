@@ -1,12 +1,12 @@
 # Incident `live_enco_602d2a86d2c7bd`
 
 - **MPA:** At-sea encounter (transshipment)
-- **Severity:** HIGH (foreign vessel, no authorization on record)
+- **Severity:** HIGH (foreign vessel, authorization lapsed)
 - **EEZ:** French Exclusive Economic Zone (France) -- FOREIGN-flagged vessel
-- **Authorization:** No public authorization record (check coastal state)
-- **Vessel:** 🇮🇪 BOUY VR2  ·  **signal:** Encounter
+- **Authorization:** Authorization lapsed before this date: ICCAT, NEAFC  ·  IMO 9233064
+- **Vessel:** 🇪🇸 F/V VERA  ·  **signal:** Encounter
 - **When (UTC):** 2026-07-12T16:40:00.000Z → 2026-07-12T21:50:00.000Z
-- **Encounter:** 5.2 h with carrier `224020340` (apparent transshipment)
+- **Encounter:** 5.2 h with carrier `250500088` (apparent transshipment)
 - **Where:** 47.418, -4.704
 
 ## Why this was flagged
@@ -14,7 +14,7 @@
 _GFW Events encounters dataset (Miller et al. 2018).._
 
 - two vessels within range for 5 h
-- counterpart: F/V VERA
+- counterpart: BOUY VR2
 - two-vessel at-sea encounter (GFW Events)
 
 ## Could be innocent
@@ -31,7 +31,7 @@ Two vessels meeting at sea can be a legitimate transfer, bunkering, or a safety 
 
 - WDPA / WD-OECM (World Database on Protected Areas) (UNEP-WCMC and IUCN (2026), June 2026). Protected Planet Terms of Use (non-commercial, display-only).
 - Marine Regions Exclusive Economic Zones v12 (Flanders Marine Institute (2024), DOI 10.14284/632). CC BY 4.0.
-- **Integrity (SHA-256 of canonical facts):** `949fa25b79fb9456ab236451b32258433d79ea71079b7a2c9173b451ff98a8e9`
+- **Integrity (SHA-256 of canonical facts):** `a9649cf72491621d57fa8df90bc1d4bf082bdb597ad09e0453f273e5d51e036d`
 - **Evidence schema:** seavigil-evidence-1.0
 
 _Apparent activity and an inspection lead, not proof of illegality. AIS and SAR evidence have known coverage gaps and spoofing risks; verify against authoritative sources before any enforcement action._
