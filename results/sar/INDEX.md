@@ -1,9 +1,17 @@
 # In-MPA records
 
-1236 record(s): 0 AIS fishing incident(s), 1236 dark-vessel SAR detection(s).
+1244 record(s): 0 AIS fishing incident(s), 1244 dark-vessel SAR detection(s).
 
 | id | type | MPA | start (UTC) | score / mean p |
 |---|---|---|---|---:|
+| [s1sar__20260716_0004](s1sar__20260716_0004.md) | dark SAR | Sentinel-1 SAR detection | 2026-07-16T10:46:29Z | 0.00 |
+| [s1sar__20260716_0006](s1sar__20260716_0006.md) | dark SAR | Sentinel-1 SAR detection | 2026-07-16T10:46:29Z | 0.01 |
+| [s1sar__20260716_0007](s1sar__20260716_0007.md) | dark SAR | Sentinel-1 SAR detection | 2026-07-16T10:46:29Z | 0.00 |
+| [s1sar__20260716_0012](s1sar__20260716_0012.md) | dark SAR | Sentinel-1 SAR detection | 2026-07-16T10:46:29Z | 0.01 |
+| [s1sar__20260716_0020](s1sar__20260716_0020.md) | dark SAR | Sentinel-1 SAR detection | 2026-07-16T10:46:29Z | 0.01 |
+| [s1sar__20260716_0025](s1sar__20260716_0025.md) | dark SAR | Sentinel-1 SAR detection | 2026-07-16T10:46:29Z | 0.00 |
+| [s1sar__20260716_0096](s1sar__20260716_0096.md) | dark SAR | Sentinel-1 SAR detection | 2026-07-16T10:46:29Z | 0.74 |
+| [s1sar__20260716_0136](s1sar__20260716_0136.md) | dark SAR | Sentinel-1 SAR detection | 2026-07-16T10:46:29Z | 0.97 |
 | [s1sar__20260715_0000](s1sar__20260715_0000.md) | dark SAR | Sentinel-1 SAR detection | 2026-07-15T06:42:06Z | 0.42 |
 | [s1sar__20260715_0001](s1sar__20260715_0001.md) | dark SAR | Sentinel-1 SAR detection | 2026-07-15T06:42:06Z | 0.00 |
 | [s1sar__20260715_0002](s1sar__20260715_0002.md) | dark SAR | Sentinel-1 SAR detection | 2026-07-15T06:42:06Z | 0.00 |
