@@ -1102,63 +1102,6 @@
     "evidence_hash": "0699c3eaa7c1bc2b9485a06acd96ad405db1055726ba3e442ea4e8b0486509be"
   },
   {
-    "incident_id": "live_enco_7e264ed1c28031",
-    "type": "encounter",
-    "centroid_lon": -3.25,
-    "centroid_lat": 46.7093,
-    "time_start_utc": "2026-07-13T09:40:00.000Z",
-    "time_end_utc": "2026-07-13T15:40:00.000Z",
-    "vessel_id": "250500277",
-    "ship_name": "LUI BOYA 3",
-    "ship_type": "Fishing",
-    "flag": "IRL",
-    "flag_emoji": "\ud83c\uddee\ud83c\uddea",
-    "gear": "Encounter",
-    "n_positions": 0,
-    "n_fishing_positions": 0,
-    "mean_fishing_proba": null,
-    "max_fishing_proba": null,
-    "_rfmo": [
-      "NAMMCO",
-      "IWC",
-      "ICCAT",
-      "ACAP",
-      "ICES",
-      "NEAFC",
-      "NASCO"
-    ],
-    "_no_take": false,
-    "mpa_name": "At-sea encounter (transshipment)",
-    "duration_hours": 6.0,
-    "carrier_mmsi": "227408000",
-    "explanation": {
-      "method": "GFW Events encounters dataset (Miller et al. 2018).",
-      "drivers": [
-        "two vessels within range for 6 h",
-        "counterpart: F/V LUI II",
-        "two-vessel at-sea encounter (GFW Events)"
-      ]
-    },
-    "caveats": [
-      "Co-location can be legitimate (joint operations, safety, shelter).",
-      "Apparent transshipment is inferred from proximity and low speed, not observed.",
-      "An inspection lead from GFW Events, not proof of illegal activity."
-    ],
-    "eez_name": "French Exclusive Economic Zone",
-    "eez_sovereign": "France",
-    "eez_iso_sov": "FRA",
-    "eez_foreign": true,
-    "authorization_status": "no_record",
-    "authorization_authorities": [],
-    "registry_iuu_tag": false,
-    "registry_flag": "",
-    "registry_imo": "",
-    "severity": "high",
-    "severity_reason": "foreign vessel, no authorization on record",
-    "evidence_schema": "seavigil-evidence-1.0",
-    "evidence_hash": "6230afc2211fddd8994383f7184c129ca139a906616e368902da452e1e405b91"
-  },
-  {
     "incident_id": "live_ais__c22f329c895590",
     "type": "ais_disabling",
     "centroid_lon": -169.518,
