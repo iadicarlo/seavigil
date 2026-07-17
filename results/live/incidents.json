@@ -11,14 +11,14 @@
     "ship_type": "Fishing",
     "gear": "AIS anomaly",
     "time_start_utc": "2026-07-17T16:21:59Z",
-    "time_end_utc": "2026-07-17T18:37:55Z",
-    "duration_hours": 2.3,
-    "n_positions": 12,
+    "time_end_utc": "2026-07-17T20:40:03Z",
+    "duration_hours": 4.3,
+    "n_positions": 13,
     "n_fishing_positions": 0,
     "mean_fishing_proba": null,
     "max_fishing_proba": null,
-    "centroid_lat": -12.038305833333332,
-    "centroid_lon": -77.05653333333333,
+    "centroid_lat": -12.039011666666664,
+    "centroid_lon": -77.05613833333334,
     "anomaly_count": 3,
     "max_implied_speed_kn": 1929.0,
     "spread_nm": 47.0,
@@ -43,7 +43,7 @@
     "authorization_authorities": [],
     "registry_iuu_tag": false,
     "evidence_schema": "seavigil-evidence-1.0",
-    "evidence_hash": "99e3076cf55c8e79938ef6c5c5055ade9bbc0fa4373d5bb617d56edc9d2be97c"
+    "evidence_hash": "fff7c9ae0ca53d484eade18a7ba9eac162ffbde30cee45379f0a445b10460d03"
   },
   {
     "incident_id": "live_enco_070d0803e49f43",
