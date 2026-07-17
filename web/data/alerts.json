@@ -1,6 +1,32 @@
 {
-"generated_at": "2026-07-17T00:13:34Z",
+"generated_at": "2026-07-17T03:40:53Z",
 "alerts": [
+{
+"id": "live_enco_a7bfecb2140179",
+"first_seen": "2026-07-17T03:40:53Z",
+"type": "encounter",
+"when": "2026-07-13T10:50:00.000Z",
+"eez": "Chinese Exclusive Economic Zone",
+"flag": "TWN",
+"authorization": "no_record",
+"severity_reason": "foreign vessel, no authorization on record",
+"lat": 26.7839,
+"lon": 121.7109,
+"ship_name": "FUHJYI NO 6"
+},
+{
+"id": "live_enco_7e264ed1c28031",
+"first_seen": "2026-07-17T03:40:53Z",
+"type": "encounter",
+"when": "2026-07-13T09:40:00.000Z",
+"eez": "French Exclusive Economic Zone",
+"flag": "IRL",
+"authorization": "no_record",
+"severity_reason": "foreign vessel, no authorization on record",
+"lat": 46.7093,
+"lon": -3.25,
+"ship_name": "LUI BOYA 3"
+},
 {
 "id": "live_enco_4ad1eb355cdb95",
 "first_seen": "2026-07-17T00:13:34Z",
@@ -2574,32 +2600,6 @@
 "lat": -25.438,
 "lon": -42.7498,
 "ship_name": "EAGLE COLATINA"
-},
-{
-"id": "live_ais__036f7686b5d7ec",
-"first_seen": "2026-07-09T12:16:32Z",
-"type": "ais_disabling",
-"when": "2026-07-04T10:20:58.000Z",
-"eez": "Brazilian Exclusive Economic Zone",
-"flag": "CHN",
-"authorization": "no_record",
-"severity_reason": "foreign vessel, no authorization on record",
-"lat": -3.5002,
-"lon": -34.127,
-"ship_name": "BOIA FLM 04 89%"
-},
-{
-"id": "live_ais__437190384d6e2b",
-"first_seen": "2026-07-09T12:16:32Z",
-"type": "ais_disabling",
-"when": "2026-07-04T08:05:31.000Z",
-"eez": "Indonesian Exclusive Economic Zone",
-"flag": "PAN",
-"authorization": "no_record",
-"severity_reason": "foreign vessel, no authorization on record",
-"lat": -7.1922,
-"lon": 103.8342,
-"ship_name": "SAO QUIXOTE"
 }
 ]
 }
