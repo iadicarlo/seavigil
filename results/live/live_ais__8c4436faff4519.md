@@ -3,7 +3,7 @@
 - **MPA:** AIS disabling (going dark)
 - **Severity:** HIGH (foreign vessel, no authorization on record)
 - **EEZ:** Kenyan Exclusive Economic Zone (Kenya) -- FOREIGN-flagged vessel
-- **Authorization:** No public authorization record (check coastal state)  ·  IMO 9460722
+- **Authorization:** No public authorization record (check coastal state)
 - **Vessel:** 🇪🇬 WADI ALBOSTAN  ·  **signal:** AIS gap
 - **When (UTC):** 2026-07-10T20:49:33.000Z → 2026-07-11T12:02:29.000Z
 - **Gap:** 15.2 h dark, 56.0 nm offshore
