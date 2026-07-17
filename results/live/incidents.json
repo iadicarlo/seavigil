@@ -1,5 +1,51 @@
 [
   {
+    "type": "ais_spoofing",
+    "incident_id": "live_spoof_372970000.0",
+    "mpa_name": "AIS spoofing",
+    "severity": "medium",
+    "severity_reason": "impossible-speed position jumps",
+    "vessel_id": "372970000.0",
+    "ship_name": "LADY NURGUL",
+    "flag": "PA",
+    "ship_type": "Fishing",
+    "gear": "AIS anomaly",
+    "time_start_utc": "2026-07-17T16:21:59Z",
+    "time_end_utc": "2026-07-17T18:37:55Z",
+    "duration_hours": 2.3,
+    "n_positions": 12,
+    "n_fishing_positions": 0,
+    "mean_fishing_proba": null,
+    "max_fishing_proba": null,
+    "centroid_lat": -12.038305833333332,
+    "centroid_lon": -77.05653333333333,
+    "anomaly_count": 3,
+    "max_implied_speed_kn": 1929.0,
+    "spread_nm": 47.0,
+    "explanation": {
+      "method": "AIS position-anomaly analysis (impossible-speed jumps and same-instant conflicts)",
+      "drivers": [
+        "3 physically impossible movements for one MMSI",
+        "fastest implied speed 1,929 kn (a vessel cannot move this fast)",
+        "positions span 47 nm"
+      ]
+    },
+    "caveats": [
+      "Suspected AIS spoofing or MMSI conflict, not proven and not necessarily illegal.",
+      "Could also be a faulty GPS/transceiver or a transcription error in the feed.",
+      "Flagged only on a sustained pattern (several anomalies), not a single bad fix.",
+      "An inspection lead: confirm the vessel identity against authoritative records."
+    ],
+    "flag_emoji": "\ud83c\uddf5\ud83c\udde6",
+    "_no_take": false,
+    "_rfmo": [],
+    "authorization_status": "unverifiable",
+    "authorization_authorities": [],
+    "registry_iuu_tag": false,
+    "evidence_schema": "seavigil-evidence-1.0",
+    "evidence_hash": "99e3076cf55c8e79938ef6c5c5055ade9bbc0fa4373d5bb617d56edc9d2be97c"
+  },
+  {
     "incident_id": "live_enco_070d0803e49f43",
     "type": "encounter",
     "centroid_lon": 109.9149,
@@ -112,6 +158,60 @@
     "evidence_hash": "94059e7ef627d457b7725a7c41ae9243adaf2edc96485212bf0fc668c7143fd9"
   },
   {
+    "incident_id": "live_enco_cefdc394222145",
+    "type": "encounter",
+    "centroid_lon": 121.6869,
+    "centroid_lat": 27.1322,
+    "time_start_utc": "2026-07-13T09:00:00.000Z",
+    "time_end_utc": "2026-07-13T23:50:00.000Z",
+    "vessel_id": "416003174",
+    "ship_name": "YU JIN NO 68",
+    "ship_type": "Fishing",
+    "flag": "TWN",
+    "flag_emoji": "\ud83c\uddf9\ud83c\uddfc",
+    "gear": "Encounter",
+    "n_positions": 0,
+    "n_fishing_positions": 0,
+    "mean_fishing_proba": null,
+    "max_fishing_proba": null,
+    "_rfmo": [
+      "IWC",
+      "WCPFC",
+      "APFIC",
+      "ACAP"
+    ],
+    "_no_take": false,
+    "mpa_name": "At-sea encounter (transshipment)",
+    "duration_hours": 14.8,
+    "carrier_mmsi": "416001583",
+    "explanation": {
+      "method": "GFW Events encounters dataset (Miller et al. 2018).",
+      "drivers": [
+        "two vessels within range for 15 h",
+        "counterpart: 01583",
+        "two-vessel at-sea encounter (GFW Events)"
+      ]
+    },
+    "caveats": [
+      "Co-location can be legitimate (joint operations, safety, shelter).",
+      "Apparent transshipment is inferred from proximity and low speed, not observed.",
+      "An inspection lead from GFW Events, not proof of illegal activity."
+    ],
+    "eez_name": "Chinese Exclusive Economic Zone",
+    "eez_sovereign": "China",
+    "eez_iso_sov": "CHN",
+    "eez_foreign": true,
+    "authorization_status": "no_record",
+    "authorization_authorities": [],
+    "registry_iuu_tag": false,
+    "registry_flag": "",
+    "registry_imo": "",
+    "severity": "high",
+    "severity_reason": "foreign vessel, no authorization on record",
+    "evidence_schema": "seavigil-evidence-1.0",
+    "evidence_hash": "83afa2446cfafa743fb5236197b68042770e6b17f948bf7df2b86cef1a8df2af"
+  },
+  {
     "incident_id": "live_enco_6e7af5cae890a4",
     "type": "encounter",
     "centroid_lon": -173.9077,
@@ -165,60 +265,6 @@
     "severity_reason": "foreign vessel, no authorization on record",
     "evidence_schema": "seavigil-evidence-1.0",
     "evidence_hash": "b6f8a3c08ba21ea68abf7dbec0e051757464c0f24606cd1d550a1dd25225c7e9"
-  },
-  {
-    "incident_id": "live_enco_cefdc394222145",
-    "type": "encounter",
-    "centroid_lon": 121.6869,
-    "centroid_lat": 27.1322,
-    "time_start_utc": "2026-07-13T09:00:00.000Z",
-    "time_end_utc": "2026-07-13T23:50:00.000Z",
-    "vessel_id": "416003174",
-    "ship_name": "YU JIN NO 68",
-    "ship_type": "Fishing",
-    "flag": "TWN",
-    "flag_emoji": "\ud83c\uddf9\ud83c\uddfc",
-    "gear": "Encounter",
-    "n_positions": 0,
-    "n_fishing_positions": 0,
-    "mean_fishing_proba": null,
-    "max_fishing_proba": null,
-    "_rfmo": [
-      "IWC",
-      "WCPFC",
-      "APFIC",
-      "ACAP"
-    ],
-    "_no_take": false,
-    "mpa_name": "At-sea encounter (transshipment)",
-    "duration_hours": 14.8,
-    "carrier_mmsi": "416001583",
-    "explanation": {
-      "method": "GFW Events encounters dataset (Miller et al. 2018).",
-      "drivers": [
-        "two vessels within range for 15 h",
-        "counterpart: 01583",
-        "two-vessel at-sea encounter (GFW Events)"
-      ]
-    },
-    "caveats": [
-      "Co-location can be legitimate (joint operations, safety, shelter).",
-      "Apparent transshipment is inferred from proximity and low speed, not observed.",
-      "An inspection lead from GFW Events, not proof of illegal activity."
-    ],
-    "eez_name": "Chinese Exclusive Economic Zone",
-    "eez_sovereign": "China",
-    "eez_iso_sov": "CHN",
-    "eez_foreign": true,
-    "authorization_status": "no_record",
-    "authorization_authorities": [],
-    "registry_iuu_tag": false,
-    "registry_flag": "",
-    "registry_imo": "",
-    "severity": "high",
-    "severity_reason": "foreign vessel, no authorization on record",
-    "evidence_schema": "seavigil-evidence-1.0",
-    "evidence_hash": "83afa2446cfafa743fb5236197b68042770e6b17f948bf7df2b86cef1a8df2af"
   },
   {
     "incident_id": "live_enco_46dba6df88ebd4",
@@ -1100,6 +1146,63 @@
     "severity_reason": "foreign vessel, no authorization on record",
     "evidence_schema": "seavigil-evidence-1.0",
     "evidence_hash": "0699c3eaa7c1bc2b9485a06acd96ad405db1055726ba3e442ea4e8b0486509be"
+  },
+  {
+    "incident_id": "live_enco_7e264ed1c28031",
+    "type": "encounter",
+    "centroid_lon": -3.25,
+    "centroid_lat": 46.7093,
+    "time_start_utc": "2026-07-13T09:40:00.000Z",
+    "time_end_utc": "2026-07-13T15:40:00.000Z",
+    "vessel_id": "250500277",
+    "ship_name": "LUI BOYA 3",
+    "ship_type": "Fishing",
+    "flag": "IRL",
+    "flag_emoji": "\ud83c\uddee\ud83c\uddea",
+    "gear": "Encounter",
+    "n_positions": 0,
+    "n_fishing_positions": 0,
+    "mean_fishing_proba": null,
+    "max_fishing_proba": null,
+    "_rfmo": [
+      "NAMMCO",
+      "IWC",
+      "ICCAT",
+      "ACAP",
+      "ICES",
+      "NEAFC",
+      "NASCO"
+    ],
+    "_no_take": false,
+    "mpa_name": "At-sea encounter (transshipment)",
+    "duration_hours": 6.0,
+    "carrier_mmsi": "227408000",
+    "explanation": {
+      "method": "GFW Events encounters dataset (Miller et al. 2018).",
+      "drivers": [
+        "two vessels within range for 6 h",
+        "counterpart: F/V LUI II",
+        "two-vessel at-sea encounter (GFW Events)"
+      ]
+    },
+    "caveats": [
+      "Co-location can be legitimate (joint operations, safety, shelter).",
+      "Apparent transshipment is inferred from proximity and low speed, not observed.",
+      "An inspection lead from GFW Events, not proof of illegal activity."
+    ],
+    "eez_name": "French Exclusive Economic Zone",
+    "eez_sovereign": "France",
+    "eez_iso_sov": "FRA",
+    "eez_foreign": true,
+    "authorization_status": "no_record",
+    "authorization_authorities": [],
+    "registry_iuu_tag": false,
+    "registry_flag": "",
+    "registry_imo": "",
+    "severity": "high",
+    "severity_reason": "foreign vessel, no authorization on record",
+    "evidence_schema": "seavigil-evidence-1.0",
+    "evidence_hash": "6230afc2211fddd8994383f7184c129ca139a906616e368902da452e1e405b91"
   },
   {
     "incident_id": "live_ais__c22f329c895590",
