@@ -1,9 +1,9 @@
 # Incident `live_enco_4a1b891470ea97`
 
 - **MPA:** At-sea encounter (transshipment)
-- **Severity:** HIGH (foreign vessel, no authorization on record)
+- **Severity:** HIGH (foreign vessel, authorization lapsed)
 - **EEZ:** Kiribati Exclusive Economic Zone (Phoenix Group) (Kiribati) -- FOREIGN-flagged vessel
-- **Authorization:** No public authorization record (check coastal state)
+- **Authorization:** Authorization lapsed before this date: FFA, IATTC, IOTC, WCPFC  ·  IMO 8653542
 - **Vessel:** 🇨🇳 XINSHIJI82  ·  **signal:** Encounter
 - **When (UTC):** 2026-07-14T17:50:00.000Z → 2026-07-14T23:50:00.000Z
 - **Encounter:** 6.0 h with carrier `413582250` (apparent transshipment)

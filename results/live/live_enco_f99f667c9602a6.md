@@ -1,9 +1,9 @@
 # Incident `live_enco_f99f667c9602a6`
 
 - **MPA:** At-sea encounter (transshipment)
-- **Severity:** HIGH (foreign vessel, authorization lapsed)
+- **Severity:** HIGH (foreign vessel, no authorization on record)
 - **EEZ:** Kiribati Exclusive Economic Zone (Gilbert Islands) (Kiribati) -- FOREIGN-flagged vessel
-- **Authorization:** Authorization lapsed before this date: FFA, WCPFC  ·  IMO 9682825
+- **Authorization:** No public authorization record (check coastal state)
 - **Vessel:** 🇨🇳 JIN HUI 9  ·  **signal:** Encounter
 - **When (UTC):** 2026-07-14T12:50:00.000Z → 2026-07-14T16:30:00.000Z
 - **Encounter:** 3.7 h with carrier `373311000` (apparent transshipment)

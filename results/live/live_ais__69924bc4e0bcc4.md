@@ -1,9 +1,9 @@
 # Incident `live_ais__69924bc4e0bcc4`
 
 - **MPA:** AIS disabling (going dark)
-- **Severity:** HIGH (foreign vessel, authorization lapsed)
+- **Severity:** HIGH (foreign vessel, no authorization on record)
 - **EEZ:** Nauruan Exclusive Economic Zone (Nauru) -- FOREIGN-flagged vessel
-- **Authorization:** Authorization lapsed before this date: FFA, WCPFC  ·  IMO 9764415
+- **Authorization:** No public authorization record (check coastal state)
 - **Vessel:** 🇸🇧 SOUTHERN SEAS 301  ·  **signal:** AIS gap
 - **When (UTC):** 2026-07-04T11:16:49.000Z → 2026-07-13T00:54:59.000Z
 - **Gap:** 205.6 h dark, 179.0 nm offshore
