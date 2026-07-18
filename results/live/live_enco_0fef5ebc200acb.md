@@ -1,20 +1,20 @@
-# Incident `live_enco_8357738d343939`
+# Incident `live_enco_0fef5ebc200acb`
 
 - **MPA:** At-sea encounter (transshipment)
-- **Severity:** HIGH (inside a no-take reserve)
-- **EEZ:** Thailand Exclusive Economic Zone (Thailand)  (flag matches coastal state)
-- **Authorization:** Domestic flag (own EEZ)
-- **Vessel:** 🇹🇭 SAPSISAWAT 7  ·  **signal:** Encounter
-- **When (UTC):** 2026-07-13T01:10:00.000Z → 2026-07-13T04:10:00.000Z
-- **Encounter:** 3.0 h with carrier `567110156` (apparent transshipment)
-- **Where:** 11.797, 102.399
+- **Severity:** HIGH (foreign vessel, no authorization on record)
+- **EEZ:** Chinese Exclusive Economic Zone (China) -- FOREIGN-flagged vessel
+- **Authorization:** No public authorization record (check coastal state)
+- **Vessel:** 🇹🇼 DAH YIH FA 166  ·  **signal:** Encounter
+- **When (UTC):** 2026-07-14T12:20:00.000Z → 2026-07-14T21:00:00.000Z
+- **Encounter:** 8.7 h with carrier `416236589` (apparent transshipment)
+- **Where:** 26.176, 121.328
 
 ## Why this was flagged
 
 _GFW Events encounters dataset (Miller et al. 2018).._
 
-- two vessels within range for 3 h
-- counterpart: LOR THRONGPHON 2
+- two vessels within range for 9 h
+- counterpart: 416236589
 - two-vessel at-sea encounter (GFW Events)
 
 ## Could be innocent
@@ -31,7 +31,7 @@ Two vessels meeting at sea can be a legitimate transfer, bunkering, or a safety 
 
 - WDPA / WD-OECM (World Database on Protected Areas) (UNEP-WCMC and IUCN (2026), June 2026). Protected Planet Terms of Use (non-commercial, display-only).
 - Marine Regions Exclusive Economic Zones v12 (Flanders Marine Institute (2024), DOI 10.14284/632). CC BY 4.0.
-- **Integrity (SHA-256 of canonical facts):** `69ac03fdc18ac7ee918bc598b7c7a1119584e27a36f59cbab708acadbe8f559d`
+- **Integrity (SHA-256 of canonical facts):** `cab5005189d39d5262cb1ccb769c78768e11307f6c971d5fde558effa551b00e`
 - **Evidence schema:** seavigil-evidence-1.0
 
 _Apparent activity and an inspection lead, not proof of illegality. AIS and SAR evidence have known coverage gaps and spoofing risks; verify against authoritative sources before any enforcement action._
