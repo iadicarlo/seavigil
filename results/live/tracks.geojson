@@ -1,1 +1,1 @@
-{"type": "FeatureCollection", "features": [{"type": "Feature", "geometry": {"type": "LineString", "coordinates": [[-77.43465166666667, -11.361525], [-77.05507666666668, -12.034973333333332]]}, "properties": {"id": "live_spoof_372970000.0", "kind": "ais_spoofing"}}]}
+{"type": "FeatureCollection", "features": []}
