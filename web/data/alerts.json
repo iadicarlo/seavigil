@@ -1,6 +1,19 @@
 {
-"generated_at": "2026-07-19T03:56:39Z",
+"generated_at": "2026-07-19T06:43:46Z",
 "alerts": [
+{
+"id": "live_enco_c4fa8e954823b7",
+"first_seen": "2026-07-19T06:43:46Z",
+"type": "encounter",
+"when": "2026-07-15T15:10:00.000Z",
+"eez": "Vietnamese Exclusive Economic Zone",
+"flag": "FRA",
+"authorization": "no_record",
+"severity_reason": "foreign vessel, no authorization on record",
+"lat": 9.7986,
+"lon": 110.1349,
+"ship_name": "TIEN DAT(^-^)"
+},
 {
 "id": "live_enco_4f9e393674f2b4",
 "first_seen": "2026-07-19T03:56:39Z",
@@ -2587,19 +2600,6 @@
 "lat": -38.1152,
 "lon": 150.4252,
 "ship_name": "ESBJORN 03-99%"
-},
-{
-"id": "live_ais__d7592579ddebd0",
-"first_seen": "2026-07-11T10:35:08Z",
-"type": "ais_disabling",
-"when": "2026-07-06T21:29:34.000Z",
-"eez": "Brazilian Exclusive Economic Zone",
-"flag": "SGP",
-"authorization": "no_record",
-"severity_reason": "foreign vessel, no authorization on record",
-"lat": -24.5857,
-"lon": -42.5683,
-"ship_name": "EAGLE CRATO"
 }
 ]
 }
