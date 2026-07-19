@@ -320,6 +320,61 @@
     "evidence_hash": "b759a0da2d87f487c1be70f8ba6c2aff6a6bf5a5ec491d4f7e41dcbcabb6747b"
   },
   {
+    "incident_id": "live_enco_4f9e393674f2b4",
+    "type": "encounter",
+    "centroid_lon": 110.5691,
+    "centroid_lat": 10.6503,
+    "time_start_utc": "2026-07-15T00:00:00.000Z",
+    "time_end_utc": "2026-07-15T21:20:00.000Z",
+    "vessel_id": "413000999",
+    "ship_name": "999  58%",
+    "ship_type": "Fishing",
+    "flag": "CHN",
+    "flag_emoji": "\ud83c\udde8\ud83c\uddf3",
+    "gear": "Encounter",
+    "n_positions": 0,
+    "n_fishing_positions": 0,
+    "mean_fishing_proba": null,
+    "max_fishing_proba": null,
+    "_rfmo": [
+      "IWC",
+      "SEAFDEC",
+      "APFIC",
+      "WCPFC",
+      "ACAP"
+    ],
+    "_no_take": false,
+    "mpa_name": "At-sea encounter (transshipment)",
+    "duration_hours": 21.3,
+    "carrier_mmsi": "574096318",
+    "explanation": {
+      "method": "GFW Events encounters dataset (Miller et al. 2018).",
+      "drivers": [
+        "two vessels within range for 21 h",
+        "counterpart: LOC LUOI NOI A29",
+        "two-vessel at-sea encounter (GFW Events)"
+      ]
+    },
+    "caveats": [
+      "Co-location can be legitimate (joint operations, safety, shelter).",
+      "Apparent transshipment is inferred from proximity and low speed, not observed.",
+      "An inspection lead from GFW Events, not proof of illegal activity."
+    ],
+    "eez_name": "Vietnamese Exclusive Economic Zone",
+    "eez_sovereign": "Vietnam",
+    "eez_iso_sov": "VNM",
+    "eez_foreign": true,
+    "authorization_status": "no_record",
+    "authorization_authorities": [],
+    "registry_iuu_tag": false,
+    "registry_flag": "",
+    "registry_imo": "",
+    "severity": "high",
+    "severity_reason": "foreign vessel, no authorization on record",
+    "evidence_schema": "seavigil-evidence-1.0",
+    "evidence_hash": "9842e7223912a295cb38c1346d6b9a83d08919946cb827c440b5dc50b78ea8e0"
+  },
+  {
     "incident_id": "live_enco_e7d712ab043fdc",
     "type": "encounter",
     "centroid_lon": 122.6029,

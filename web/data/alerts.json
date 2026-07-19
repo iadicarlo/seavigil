@@ -1,6 +1,19 @@
 {
-"generated_at": "2026-07-19T00:11:11Z",
+"generated_at": "2026-07-19T03:56:39Z",
 "alerts": [
+{
+"id": "live_enco_4f9e393674f2b4",
+"first_seen": "2026-07-19T03:56:39Z",
+"type": "encounter",
+"when": "2026-07-15T00:00:00.000Z",
+"eez": "Vietnamese Exclusive Economic Zone",
+"flag": "CHN",
+"authorization": "no_record",
+"severity_reason": "foreign vessel, no authorization on record",
+"lat": 10.6503,
+"lon": 110.5691,
+"ship_name": "999  58%"
+},
 {
 "id": "live_enco_ffd32a3a30b9e4",
 "first_seen": "2026-07-19T00:11:11Z",
@@ -2587,19 +2600,6 @@
 "lat": -24.5857,
 "lon": -42.5683,
 "ship_name": "EAGLE CRATO"
-},
-{
-"id": "live_ais__7ddc5088a8af49",
-"first_seen": "2026-07-11T10:35:08Z",
-"type": "ais_disabling",
-"when": "2026-07-05T11:04:53.000Z",
-"eez": "New Zealand Exclusive Economic Zone (Cook Islands)",
-"flag": "CHN",
-"authorization": "authorization_lapsed",
-"severity_reason": "foreign vessel, authorization lapsed",
-"lat": -8.9661,
-"lon": -165.4858,
-"ship_name": "HUA NAN YU 718"
 }
 ]
 }
