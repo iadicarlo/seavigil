@@ -1,9 +1,9 @@
 # Incident `live_ais__c8805b95d1915f`
 
 - **MPA:** AIS disabling (going dark)
-- **Severity:** HIGH (foreign vessel, no authorization on record)
+- **Severity:** HIGH (foreign vessel, authorization lapsed)
 - **EEZ:** Marshallese Exclusive Economic Zone (Marshall Islands) -- FOREIGN-flagged vessel
-- **Authorization:** No public authorization record (check coastal state)
+- **Authorization:** Authorization lapsed before this date: FFA, WCPFC  ·  IMO 9712125
 - **Vessel:** 🇹🇼 FONG KUO NO:188  ·  **signal:** AIS gap
 - **When (UTC):** 2026-07-13T03:12:16.000Z → 2026-07-13T23:49:05.000Z
 - **Gap:** 20.6 h dark, 130.0 nm offshore

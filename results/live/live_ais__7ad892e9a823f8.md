@@ -1,9 +1,9 @@
 # Incident `live_ais__7ad892e9a823f8`
 
 - **MPA:** AIS disabling (going dark)
-- **Severity:** HIGH (foreign vessel, no authorization on record)
+- **Severity:** HIGH (foreign vessel, authorization lapsed)
 - **EEZ:** Micronesian Exclusive Economic Zone (Micronesia) -- FOREIGN-flagged vessel
-- **Authorization:** No public authorization record (check coastal state)
+- **Authorization:** Authorization lapsed before this date: FFA, IOTC, WCPFC  ·  IMO 9991018
 - **Vessel:** 🇯🇵 KOYOMARU NO.78  ·  **signal:** AIS gap
 - **When (UTC):** 2026-06-23T10:49:56.000Z → 2026-07-13T18:18:19.000Z
 - **Gap:** 487.5 h dark, 86.0 nm offshore

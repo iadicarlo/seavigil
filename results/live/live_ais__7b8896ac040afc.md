@@ -3,7 +3,7 @@
 - **MPA:** AIS disabling (going dark)
 - **Severity:** HIGH (foreign vessel, no authorization on record)
 - **EEZ:** Australian Exclusive Economic Zone (Australia) -- FOREIGN-flagged vessel
-- **Authorization:** No public authorization record (check coastal state)  ·  IMO 9431604
+- **Authorization:** No public authorization record (check coastal state)
 - **Vessel:** 🇳🇱 O.T. IDEAAL  ·  **signal:** AIS gap
 - **When (UTC):** 2026-07-14T01:54:40.000Z → 2026-07-14T21:14:19.000Z
 - **Gap:** 19.3 h dark, 99.0 nm offshore
