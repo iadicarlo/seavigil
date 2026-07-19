@@ -59,55 +59,6 @@
     "evidence_hash": "ac21977d89d4d19fcbe7c274d94490db001a7d50a3f8204b1773c383e8363930"
   },
   {
-    "incident_id": "live_enco_db796f8007f146",
-    "type": "encounter",
-    "centroid_lon": 57.7413,
-    "centroid_lat": 19.4855,
-    "time_start_utc": "2026-07-15T08:30:00.000Z",
-    "time_end_utc": "2026-07-15T23:50:00.000Z",
-    "vessel_id": "412440718",
-    "ship_name": "FU YUAN YU9996",
-    "ship_type": "Fishing",
-    "flag": "CHN",
-    "flag_emoji": "\ud83c\udde8\ud83c\uddf3",
-    "gear": "Encounter",
-    "n_positions": 0,
-    "n_fishing_positions": 0,
-    "mean_fishing_proba": null,
-    "max_fishing_proba": null,
-    "_rfmo": [],
-    "_no_take": false,
-    "mpa_name": "At-sea encounter (transshipment)",
-    "duration_hours": 15.3,
-    "carrier_mmsi": "412440715",
-    "explanation": {
-      "method": "GFW Events encounters dataset (Miller et al. 2018).",
-      "drivers": [
-        "two vessels within range for 15 h",
-        "counterpart: FU YUAN YU9992",
-        "two-vessel at-sea encounter (GFW Events)"
-      ]
-    },
-    "caveats": [
-      "Co-location can be legitimate (joint operations, safety, shelter).",
-      "Apparent transshipment is inferred from proximity and low speed, not observed.",
-      "An inspection lead from GFW Events, not proof of illegal activity."
-    ],
-    "eez_name": "Omani Exclusive Economic Zone",
-    "eez_sovereign": "Oman",
-    "eez_iso_sov": "OMN",
-    "eez_foreign": true,
-    "authorization_status": "no_record",
-    "authorization_authorities": [],
-    "registry_iuu_tag": false,
-    "registry_flag": "",
-    "registry_imo": "",
-    "severity": "high",
-    "severity_reason": "foreign vessel, no authorization on record",
-    "evidence_schema": "seavigil-evidence-1.0",
-    "evidence_hash": "b487a0c7d564eb636527a5e3e33a26fbe04da77b93de05bf0d258eeb48501668"
-  },
-  {
     "incident_id": "live_enco_ffd32a3a30b9e4",
     "type": "encounter",
     "centroid_lon": -168.8924,
@@ -165,6 +116,55 @@
     "severity_reason": "foreign vessel, authorization lapsed",
     "evidence_schema": "seavigil-evidence-1.0",
     "evidence_hash": "ff5f5b9f7fde732d70b3333e02043978d26d8a11e0f1c624ef5aaeb6afa9064a"
+  },
+  {
+    "incident_id": "live_enco_db796f8007f146",
+    "type": "encounter",
+    "centroid_lon": 57.7413,
+    "centroid_lat": 19.4855,
+    "time_start_utc": "2026-07-15T08:30:00.000Z",
+    "time_end_utc": "2026-07-15T23:50:00.000Z",
+    "vessel_id": "412440715",
+    "ship_name": "FU YUAN YU9992",
+    "ship_type": "Fishing",
+    "flag": "CHN",
+    "flag_emoji": "\ud83c\udde8\ud83c\uddf3",
+    "gear": "Encounter",
+    "n_positions": 0,
+    "n_fishing_positions": 0,
+    "mean_fishing_proba": null,
+    "max_fishing_proba": null,
+    "_rfmo": [],
+    "_no_take": false,
+    "mpa_name": "At-sea encounter (transshipment)",
+    "duration_hours": 15.3,
+    "carrier_mmsi": "412440718",
+    "explanation": {
+      "method": "GFW Events encounters dataset (Miller et al. 2018).",
+      "drivers": [
+        "two vessels within range for 15 h",
+        "counterpart: FU YUAN YU9996",
+        "two-vessel at-sea encounter (GFW Events)"
+      ]
+    },
+    "caveats": [
+      "Co-location can be legitimate (joint operations, safety, shelter).",
+      "Apparent transshipment is inferred from proximity and low speed, not observed.",
+      "An inspection lead from GFW Events, not proof of illegal activity."
+    ],
+    "eez_name": "Omani Exclusive Economic Zone",
+    "eez_sovereign": "Oman",
+    "eez_iso_sov": "OMN",
+    "eez_foreign": true,
+    "authorization_status": "no_record",
+    "authorization_authorities": [],
+    "registry_iuu_tag": false,
+    "registry_flag": "",
+    "registry_imo": "",
+    "severity": "high",
+    "severity_reason": "foreign vessel, no authorization on record",
+    "evidence_schema": "seavigil-evidence-1.0",
+    "evidence_hash": "a4115f5ce6b4fb235252db02ee4acf9676467d6f1ddf3ee9e5f1e5945eb62e39"
   },
   {
     "incident_id": "live_enco_3a8f8da50f5be8",
@@ -1618,32 +1618,32 @@
     "centroid_lat": -7.0861,
     "time_start_utc": "2026-07-15T10:00:00.000Z",
     "time_end_utc": "2026-07-15T15:30:00.000Z",
-    "vessel_id": "413109603",
-    "ship_name": "WANGBIAO-9603  100%",
+    "vessel_id": "520172000",
+    "ship_name": "RISING NO.8",
     "ship_type": "Fishing",
-    "flag": "CHN",
-    "flag_emoji": "\ud83c\udde8\ud83c\uddf3",
+    "flag": "FJI",
+    "flag_emoji": "\ud83c\uddeb\ud83c\uddef",
     "gear": "Encounter",
     "n_positions": 0,
     "n_fishing_positions": 0,
     "mean_fishing_proba": null,
     "max_fishing_proba": null,
     "_rfmo": [
-      "FFA",
       "IWC",
-      "SPC",
+      "FFA",
       "ACAP",
+      "SPC",
       "WCPFC"
     ],
     "_no_take": false,
     "mpa_name": "At-sea encounter (transshipment)",
     "duration_hours": 5.5,
-    "carrier_mmsi": "520172000",
+    "carrier_mmsi": "413109603",
     "explanation": {
       "method": "GFW Events encounters dataset (Miller et al. 2018).",
       "drivers": [
         "two vessels within range for 6 h",
-        "counterpart: RISING NO.8",
+        "counterpart: WANGBIAO-9603  100%",
         "two-vessel at-sea encounter (GFW Events)"
       ]
     },
@@ -1664,7 +1664,7 @@
     "severity": "high",
     "severity_reason": "foreign vessel, no authorization on record",
     "evidence_schema": "seavigil-evidence-1.0",
-    "evidence_hash": "9b9aa1c71396ff38fd3f6c1a0246dbc756e843fb1645876cdbd9408843eda638"
+    "evidence_hash": "2a86fcf342b490d68732dca5e8f06a9cad0e790a82862d16797f9aac10dbdf02"
   },
   {
     "incident_id": "live_enco_e4d9578558356b",
