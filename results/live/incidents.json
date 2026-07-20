@@ -6,9 +6,9 @@
     "centroid_lat": -2.4738,
     "time_start_utc": "2026-07-16T17:30:00.000Z",
     "time_end_utc": "2026-07-16T23:50:00.000Z",
-    "vessel_id": "412695680",
-    "ship_name": "XIN SHI JI 83",
-    "ship_type": "Fishing",
+    "vessel_id": "413582250",
+    "ship_name": "XIN XIANG LI 56",
+    "ship_type": "Carrier",
     "flag": "CHN",
     "flag_emoji": "\ud83c\udde8\ud83c\uddf3",
     "gear": "Encounter",
@@ -17,21 +17,21 @@
     "mean_fishing_proba": null,
     "max_fishing_proba": null,
     "_rfmo": [
-      "SPC",
-      "IWC",
       "WCPFC",
       "FFA",
-      "ACAP"
+      "IWC",
+      "ACAP",
+      "SPC"
     ],
     "_no_take": false,
     "mpa_name": "At-sea encounter (transshipment)",
     "duration_hours": 6.3,
-    "carrier_mmsi": "413582250",
+    "carrier_mmsi": "412695680",
     "explanation": {
       "method": "GFW Events encounters dataset (Miller et al. 2018).",
       "drivers": [
         "two vessels within range for 6 h",
-        "counterpart: XIN XIANG LI 56",
+        "counterpart: XIN SHI JI 83",
         "two-vessel at-sea encounter (GFW Events)"
       ]
     },
@@ -47,17 +47,17 @@
     "authorization_status": "authorization_lapsed",
     "authorization_authorities": [
       "FFA",
-      "IATTC",
-      "IOTC",
+      "NPFC",
+      "SPRFMO",
       "WCPFC"
     ],
     "registry_iuu_tag": false,
     "registry_flag": "CHN",
-    "registry_imo": "8670057",
+    "registry_imo": "1041166",
     "severity": "high",
     "severity_reason": "foreign vessel, authorization lapsed",
     "evidence_schema": "seavigil-evidence-1.0",
-    "evidence_hash": "dedf7f53ce33f120efac7680529a106cc17e3aff05962458a781d68b3bd18028"
+    "evidence_hash": "a694ee57b3247892018dd7270673039cd288b800e58bd6b1b78b102c2427958c"
   },
   {
     "incident_id": "live_enco_2ccd6ae3487d0d",
