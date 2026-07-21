@@ -3,7 +3,7 @@
 - **MPA:** AIS disabling (going dark)
 - **Severity:** HIGH (foreign vessel, no authorization on record)
 - **EEZ:** South African Exclusive Economic Zone (South Africa) -- FOREIGN-flagged vessel
-- **Authorization:** No public authorization record (check coastal state)
+- **Authorization:** No public authorization record (check coastal state)  ·  IMO 9349174
 - **Vessel:** 🇲🇹 DELTA MARIA  ·  **signal:** AIS gap
 - **When (UTC):** 2026-07-15T17:24:03.000Z → 2026-07-16T17:10:35.000Z
 - **Gap:** 23.8 h dark, 151.0 nm offshore

@@ -1,9 +1,9 @@
 # Incident `live_ais__572b8ee1e8e47c`
 
 - **MPA:** AIS disabling (going dark)
-- **Severity:** HIGH (foreign vessel, no authorization on record)
+- **Severity:** HIGH (foreign vessel, authorization lapsed)
 - **EEZ:** Marshallese Exclusive Economic Zone (Marshall Islands) -- FOREIGN-flagged vessel
-- **Authorization:** No public authorization record (check coastal state)
+- **Authorization:** Authorization lapsed before this date: FFA, WCPFC  ·  IMO 9733404
 - **Vessel:** 🇨🇳 JIN HUI 18  ·  **signal:** AIS gap
 - **When (UTC):** 2026-07-15T03:54:25.000Z → 2026-07-15T16:10:13.000Z
 - **Gap:** 12.3 h dark, 110.0 nm offshore

@@ -4,9 +4,9 @@
 - **Severity:** HIGH (foreign vessel, no authorization on record)
 - **EEZ:** Chinese Exclusive Economic Zone (China) -- FOREIGN-flagged vessel
 - **Authorization:** No public authorization record (check coastal state)
-- **Vessel:** 🇹🇼 FUHJYI NO 6  ·  **signal:** Encounter
+- **Vessel:** 🇹🇼 JU JIN NO OOOOONO  6  ·  **signal:** Encounter
 - **When (UTC):** 2026-07-17T09:30:00.000Z → 2026-07-17T23:50:00.000Z
-- **Encounter:** 14.3 h with carrier `416001098` (apparent transshipment)
+- **Encounter:** 14.3 h with carrier `416000006` (apparent transshipment)
 - **Where:** 26.764, 121.729
 
 ## Why this was flagged
@@ -14,7 +14,7 @@
 _GFW Events encounters dataset (Miller et al. 2018).._
 
 - two vessels within range for 14 h
-- counterpart: JU JIN NO OOOOONO  6
+- counterpart: FUHJYI NO 6
 - two-vessel at-sea encounter (GFW Events)
 
 ## Could be innocent
@@ -31,7 +31,7 @@ Two vessels meeting at sea can be a legitimate transfer, bunkering, or a safety 
 
 - WDPA / WD-OECM (World Database on Protected Areas) (UNEP-WCMC and IUCN (2026), June 2026). Protected Planet Terms of Use (non-commercial, display-only).
 - Marine Regions Exclusive Economic Zones v12 (Flanders Marine Institute (2024), DOI 10.14284/632). CC BY 4.0.
-- **Integrity (SHA-256 of canonical facts):** `8fca4f8671f9da06e9bba59a8b81ca673f3231ad192a3e63b04d045d5c97179d`
+- **Integrity (SHA-256 of canonical facts):** `e7c63191f66e7c850c76eca45e7c400d623083a396ef33f83eea028277ac7a67`
 - **Evidence schema:** seavigil-evidence-1.0
 
 _Apparent activity and an inspection lead, not proof of illegality. AIS and SAR evidence have known coverage gaps and spoofing risks; verify against authoritative sources before any enforcement action._
