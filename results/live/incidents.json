@@ -1,5 +1,59 @@
 [
   {
+    "incident_id": "live_enco_7f5690ca8a7ba6",
+    "type": "encounter",
+    "centroid_lon": 121.7436,
+    "centroid_lat": 26.769,
+    "time_start_utc": "2026-07-17T19:10:00.000Z",
+    "time_end_utc": "2026-07-17T23:50:00.000Z",
+    "vessel_id": "416001098",
+    "ship_name": "JU JIN NO OOOOONO  6",
+    "ship_type": "Fishing",
+    "flag": "TWN",
+    "flag_emoji": "\ud83c\uddf9\ud83c\uddfc",
+    "gear": "Encounter",
+    "n_positions": 0,
+    "n_fishing_positions": 0,
+    "mean_fishing_proba": null,
+    "max_fishing_proba": null,
+    "_rfmo": [
+      "ACAP",
+      "IWC",
+      "APFIC",
+      "WCPFC"
+    ],
+    "_no_take": false,
+    "mpa_name": "At-sea encounter (transshipment)",
+    "duration_hours": 4.7,
+    "carrier_mmsi": "200027020",
+    "explanation": {
+      "method": "GFW Events encounters dataset (Miller et al. 2018).",
+      "drivers": [
+        "two vessels within range for 5 h",
+        "counterpart: 200027020",
+        "two-vessel at-sea encounter (GFW Events)"
+      ]
+    },
+    "caveats": [
+      "Co-location can be legitimate (joint operations, safety, shelter).",
+      "Apparent transshipment is inferred from proximity and low speed, not observed.",
+      "An inspection lead from GFW Events, not proof of illegal activity."
+    ],
+    "eez_name": "Chinese Exclusive Economic Zone",
+    "eez_sovereign": "China",
+    "eez_iso_sov": "CHN",
+    "eez_foreign": true,
+    "authorization_status": "no_record",
+    "authorization_authorities": [],
+    "registry_iuu_tag": false,
+    "registry_flag": "",
+    "registry_imo": "",
+    "severity": "high",
+    "severity_reason": "foreign vessel, no authorization on record",
+    "evidence_schema": "seavigil-evidence-1.0",
+    "evidence_hash": "0bc1c60eb5c150ce06d25edc8ce4a14a3ae832f6fd75be256039147576f675d2"
+  },
+  {
     "incident_id": "live_enco_e7dd1728c14afe",
     "type": "encounter",
     "centroid_lon": 57.7413,
@@ -160,60 +214,6 @@
     "severity_reason": "foreign vessel, no authorization on record",
     "evidence_schema": "seavigil-evidence-1.0",
     "evidence_hash": "e7c63191f66e7c850c76eca45e7c400d623083a396ef33f83eea028277ac7a67"
-  },
-  {
-    "incident_id": "live_enco_7f5690ca8a7ba6",
-    "type": "encounter",
-    "centroid_lon": 121.7436,
-    "centroid_lat": 26.769,
-    "time_start_utc": "2026-07-17T19:10:00.000Z",
-    "time_end_utc": "2026-07-17T23:50:00.000Z",
-    "vessel_id": "416001098",
-    "ship_name": "JU JIN NO OOOOONO  6",
-    "ship_type": "Fishing",
-    "flag": "TWN",
-    "flag_emoji": "\ud83c\uddf9\ud83c\uddfc",
-    "gear": "Encounter",
-    "n_positions": 0,
-    "n_fishing_positions": 0,
-    "mean_fishing_proba": null,
-    "max_fishing_proba": null,
-    "_rfmo": [
-      "ACAP",
-      "IWC",
-      "APFIC",
-      "WCPFC"
-    ],
-    "_no_take": false,
-    "mpa_name": "At-sea encounter (transshipment)",
-    "duration_hours": 4.7,
-    "carrier_mmsi": "200027020",
-    "explanation": {
-      "method": "GFW Events encounters dataset (Miller et al. 2018).",
-      "drivers": [
-        "two vessels within range for 5 h",
-        "counterpart: 200027020",
-        "two-vessel at-sea encounter (GFW Events)"
-      ]
-    },
-    "caveats": [
-      "Co-location can be legitimate (joint operations, safety, shelter).",
-      "Apparent transshipment is inferred from proximity and low speed, not observed.",
-      "An inspection lead from GFW Events, not proof of illegal activity."
-    ],
-    "eez_name": "Chinese Exclusive Economic Zone",
-    "eez_sovereign": "China",
-    "eez_iso_sov": "CHN",
-    "eez_foreign": true,
-    "authorization_status": "no_record",
-    "authorization_authorities": [],
-    "registry_iuu_tag": false,
-    "registry_flag": "",
-    "registry_imo": "",
-    "severity": "high",
-    "severity_reason": "foreign vessel, no authorization on record",
-    "evidence_schema": "seavigil-evidence-1.0",
-    "evidence_hash": "0bc1c60eb5c150ce06d25edc8ce4a14a3ae832f6fd75be256039147576f675d2"
   },
   {
     "incident_id": "live_enco_b0b9c564bb94ae",
