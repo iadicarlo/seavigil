@@ -1,6 +1,45 @@
 {
-"generated_at": "2026-07-21T12:01:50Z",
+"generated_at": "2026-07-21T14:24:36Z",
 "alerts": [
+{
+"id": "live_enco_8795433a0ce26f",
+"first_seen": "2026-07-21T14:24:36Z",
+"type": "encounter",
+"when": "2026-07-17T05:10:00.000Z",
+"eez": "Vietnamese Exclusive Economic Zone",
+"flag": "HKG",
+"authorization": "no_record",
+"severity_reason": "foreign vessel, no authorization on record",
+"lat": 20.1382,
+"lon": 107.7216,
+"ship_name": "HUNG HA D20"
+},
+{
+"id": "live_enco_1c24b3bbc7f813",
+"first_seen": "2026-07-21T14:24:36Z",
+"type": "encounter",
+"when": "2026-07-17T02:20:00.000Z",
+"eez": "Vietnamese Exclusive Economic Zone",
+"flag": "HKG",
+"authorization": "no_record",
+"severity_reason": "foreign vessel, no authorization on record",
+"lat": 20.1376,
+"lon": 107.7213,
+"ship_name": "HUNG HA D20"
+},
+{
+"id": "live_enco_f3ab7edc9bea8b",
+"first_seen": "2026-07-21T14:24:36Z",
+"type": "encounter",
+"when": "2026-07-17T02:40:00.000Z",
+"eez": "Chinese Exclusive Economic Zone",
+"flag": "TWN",
+"authorization": "no_record",
+"severity_reason": "foreign vessel, no authorization on record",
+"lat": 26.761,
+"lon": 121.7216,
+"ship_name": "FUHJYI NO 6"
+},
 {
 "id": "live_ais__3d7e223a609bbb",
 "first_seen": "2026-07-21T12:01:50Z",
@@ -2561,45 +2600,6 @@
 "lat": -4.4799,
 "lon": 40.6165,
 "ship_name": "WADI ALBOSTAN"
-},
-{
-"id": "live_ais__336d99a431fc5b",
-"first_seen": "2026-07-15T11:50:13Z",
-"type": "ais_disabling",
-"when": "2026-07-10T10:59:45.000Z",
-"eez": "Brazilian Exclusive Economic Zone",
-"flag": "MYS",
-"authorization": "no_record",
-"severity_reason": "foreign vessel, no authorization on record",
-"lat": -22.5553,
-"lon": -40.2624,
-"ship_name": "EAGLE PARAIBA"
-},
-{
-"id": "live_ais__627471640fec1b",
-"first_seen": "2026-07-15T11:50:13Z",
-"type": "ais_disabling",
-"when": "2026-06-27T18:07:19.000Z",
-"eez": "Kiribati Exclusive Economic Zone (Gilbert Islands)",
-"flag": "CHN",
-"authorization": "authorization_lapsed",
-"severity_reason": "foreign vessel, authorization lapsed",
-"lat": -2.8501,
-"lon": 178.4762,
-"ship_name": "SHUN FA 8"
-},
-{
-"id": "live_ais__796783fc0fef47",
-"first_seen": "2026-07-15T11:50:13Z",
-"type": "ais_disabling",
-"when": "2026-07-09T14:40:04.000Z",
-"eez": "Liberian Exclusive Economic Zone",
-"flag": "PAN",
-"authorization": "no_record",
-"severity_reason": "foreign vessel, no authorization on record",
-"lat": 4.9488,
-"lon": -10.8366,
-"ship_name": "BERGE ANNUPURI"
 }
 ]
 }
