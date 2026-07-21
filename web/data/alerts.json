@@ -1,6 +1,58 @@
 {
-"generated_at": "2026-07-20T23:17:05Z",
+"generated_at": "2026-07-21T00:15:14Z",
 "alerts": [
+{
+"id": "live_enco_7f5690ca8a7ba6",
+"first_seen": "2026-07-21T00:15:14Z",
+"type": "encounter",
+"when": "2026-07-17T19:10:00.000Z",
+"eez": "Chinese Exclusive Economic Zone",
+"flag": "TWN",
+"authorization": "no_record",
+"severity_reason": "foreign vessel, no authorization on record",
+"lat": 26.769,
+"lon": 121.7436,
+"ship_name": "JU JIN NO OOOOONO  6"
+},
+{
+"id": "live_enco_e7dd1728c14afe",
+"first_seen": "2026-07-21T00:15:14Z",
+"type": "encounter",
+"when": "2026-07-17T16:20:00.000Z",
+"eez": "Omani Exclusive Economic Zone",
+"flag": "CHN",
+"authorization": "no_record",
+"severity_reason": "foreign vessel, no authorization on record",
+"lat": 19.4854,
+"lon": 57.7413,
+"ship_name": "FU YUAN YU9996"
+},
+{
+"id": "live_enco_d6beb608a05c16",
+"first_seen": "2026-07-21T00:15:14Z",
+"type": "encounter",
+"when": "2026-07-17T17:40:00.000Z",
+"eez": "Kiribati Exclusive Economic Zone (Phoenix Group)",
+"flag": "CHN",
+"authorization": "no_record",
+"severity_reason": "foreign vessel, no authorization on record",
+"lat": -2.6082,
+"lon": -173.9276,
+"ship_name": "XIN SHI JI 65"
+},
+{
+"id": "live_enco_4af0ccdf5400e4",
+"first_seen": "2026-07-21T00:15:14Z",
+"type": "encounter",
+"when": "2026-07-17T09:30:00.000Z",
+"eez": "Chinese Exclusive Economic Zone",
+"flag": "TWN",
+"authorization": "no_record",
+"severity_reason": "foreign vessel, no authorization on record",
+"lat": 26.7639,
+"lon": 121.7289,
+"ship_name": "JU JIN NO OOOOONO  6"
+},
 {
 "id": "live_ais__dc4c351ee35bb0",
 "first_seen": "2026-07-20T11:14:38Z",
@@ -2548,58 +2600,6 @@
 "lat": -5.8896,
 "lon": 160.9982,
 "ship_name": "HAN YANG 66"
-},
-{
-"id": "live_ais__5c8ed5fbdddfff",
-"first_seen": "2026-07-14T11:45:38Z",
-"type": "ais_disabling",
-"when": "2026-07-07T09:08:02.000Z",
-"eez": "Ghanaian Exclusive Economic Zone",
-"flag": "PAN",
-"authorization": "no_record",
-"severity_reason": "foreign vessel, no authorization on record",
-"lat": 3.8167,
-"lon": 1.0557,
-"ship_name": "RED ORCHID"
-},
-{
-"id": "live_ais__ed64abdffd6da3",
-"first_seen": "2026-07-14T11:45:38Z",
-"type": "ais_disabling",
-"when": "2026-07-09T12:04:25.000Z",
-"eez": "Bissau-Guinean Exclusive Economic Zone",
-"flag": "PAN",
-"authorization": "no_record",
-"severity_reason": "foreign vessel, no authorization on record",
-"lat": 10.7171,
-"lon": -17.1206,
-"ship_name": "FYM SAPPHIRA"
-},
-{
-"id": "live_ais__f0113242552a2a",
-"first_seen": "2026-07-14T11:45:38Z",
-"type": "ais_disabling",
-"when": "2026-07-09T13:12:08.000Z",
-"eez": "Seychellois Exclusive Economic Zone",
-"flag": "USA",
-"authorization": "no_record",
-"severity_reason": "foreign vessel, no authorization on record",
-"lat": -2.0511,
-"lon": 52.0645,
-"ship_name": "MAERSK ATLANTA"
-},
-{
-"id": "live_ais__895d199bc99f58",
-"first_seen": "2026-07-14T11:45:38Z",
-"type": "ais_disabling",
-"when": "2026-07-08T17:54:02.000Z",
-"eez": "Namibian Exclusive Economic Zone",
-"flag": "LBR",
-"authorization": "no_record",
-"severity_reason": "foreign vessel, no authorization on record",
-"lat": -19.3349,
-"lon": 12.3767,
-"ship_name": "MSC WASHINGTON"
 }
 ]
 }
