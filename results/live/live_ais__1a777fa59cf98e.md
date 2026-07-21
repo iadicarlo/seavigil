@@ -1,19 +1,19 @@
-# Incident `live_ais__b101817870b1cb`
+# Incident `live_ais__1a777fa59cf98e`
 
 - **MPA:** AIS disabling (going dark)
-- **Severity:** HIGH (foreign vessel, authorization lapsed)
-- **EEZ:** United States Exclusive Economic Zone (Howland and Baker Islands) (United States) -- FOREIGN-flagged vessel
-- **Authorization:** Authorization lapsed before this date: FFA, WCPFC  ·  IMO 9781645
-- **Vessel:** 🇨🇳 XINSHIJI 111  ·  **signal:** AIS gap
-- **When (UTC):** 2026-07-08T04:35:21.000Z → 2026-07-16T05:34:35.000Z
-- **Gap:** 193.0 h dark, 94.0 nm offshore
-- **Where:** -1.310, -176.949
+- **Severity:** HIGH (foreign vessel, no authorization on record)
+- **EEZ:** Australian Exclusive Economic Zone (Australia) -- FOREIGN-flagged vessel
+- **Authorization:** No public authorization record (check coastal state)
+- **Vessel:** 🇮🇸 ESBJORN 02-99%  ·  **signal:** AIS gap
+- **When (UTC):** 2026-07-16T10:04:29.000Z → 2026-07-17T20:01:31.000Z
+- **Gap:** 34.0 h dark, 51.0 nm offshore
+- **Where:** -38.730, 149.709
 
 ## Why this was flagged
 
 _GFW Events gaps dataset (satellite AIS).._
 
-- went dark 94 nm offshore for 193 h
+- went dark 51 nm offshore for 34 h
 - satellite-confirmed AIS gap (GFW Events)
 
 ## Could be innocent
@@ -31,7 +31,7 @@ Going dark is frequently benign: in open water, where gaps are commonly protecti
 - NOAA Marine Cadastre AIS (marinecadastre.gov/ais (vessel positions)). US public domain.
 - WDPA / WD-OECM (World Database on Protected Areas) (UNEP-WCMC and IUCN (2026), June 2026). Protected Planet Terms of Use (non-commercial, display-only).
 - Marine Regions Exclusive Economic Zones v12 (Flanders Marine Institute (2024), DOI 10.14284/632). CC BY 4.0.
-- **Integrity (SHA-256 of canonical facts):** `891e17e5a4ccf51b8bda908fb0f7723b9e114001a17cbbeed05e41cbbcc90f4a`
+- **Integrity (SHA-256 of canonical facts):** `99bf8083defc5cb1186d839d8907464dd62c3992c89cc540ca08aee4251ac52f`
 - **Evidence schema:** seavigil-evidence-1.0
 
 _Apparent activity and an inspection lead, not proof of illegality. AIS and SAR evidence have known coverage gaps and spoofing risks; verify against authoritative sources before any enforcement action._
