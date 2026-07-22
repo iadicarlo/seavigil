@@ -1,9 +1,9 @@
 # Incident `live_ais__ddf4d596cf5163`
 
 - **MPA:** AIS disabling (going dark)
-- **Severity:** HIGH (foreign vessel, no authorization on record)
+- **Severity:** HIGH (foreign vessel, authorization lapsed)
 - **EEZ:** Mauritanian Exclusive Economic Zone (Mauritania) -- FOREIGN-flagged vessel
-- **Authorization:** No public authorization record (check coastal state)
+- **Authorization:** Authorization lapsed before this date: ICCAT, IOTC, WCPFC  ·  IMO 8109620
 - **Vessel:** 🇪🇸 EGALUZE  ·  **signal:** AIS gap
 - **When (UTC):** 2026-07-16T05:26:25.000Z → 2026-07-16T19:51:23.000Z
 - **Gap:** 14.4 h dark, 72.0 nm offshore
