@@ -1,15 +1,17 @@
 # In-MPA records
 
-49 record(s): 49 AIS fishing incident(s), 0 dark-vessel SAR detection(s).
+51 record(s): 51 AIS fishing incident(s), 0 dark-vessel SAR detection(s).
 
 | id | type | MPA | start (UTC) | score / mean p |
 |---|---|---|---|---:|
 | [live_enco_0f7eeff8720091](live_enco_0f7eeff8720091.md) | AIS fishing | At-sea encounter (transshipment) | 2026-07-18T12:00:00.000Z | - |
 | [live_enco_e7dd1728c14afe](live_enco_e7dd1728c14afe.md) | AIS fishing | At-sea encounter (transshipment) | 2026-07-17T16:20:00.000Z | - |
 | [live_enco_bb4d9df2262a6e](live_enco_bb4d9df2262a6e.md) | AIS fishing | At-sea encounter (transshipment) | 2026-07-18T19:10:00.000Z | - |
-| [live_enco_344aef42067ad2](live_enco_344aef42067ad2.md) | AIS fishing | At-sea encounter (transshipment) | 2026-07-18T12:00:00.000Z | - |
-| [live_enco_48057955670d0e](live_enco_48057955670d0e.md) | AIS fishing | At-sea encounter (transshipment) | 2026-07-18T18:40:00.000Z | - |
 | [live_enco_2370d74077ed77](live_enco_2370d74077ed77.md) | AIS fishing | At-sea encounter (transshipment) | 2026-07-18T16:40:00.000Z | - |
+| [live_enco_48057955670d0e](live_enco_48057955670d0e.md) | AIS fishing | At-sea encounter (transshipment) | 2026-07-18T18:40:00.000Z | - |
+| [live_enco_d0672122a8f218](live_enco_d0672122a8f218.md) | AIS fishing | At-sea encounter (transshipment) | 2026-07-18T20:00:00.000Z | - |
+| [live_enco_344aef42067ad2](live_enco_344aef42067ad2.md) | AIS fishing | At-sea encounter (transshipment) | 2026-07-18T12:00:00.000Z | - |
+| [live_enco_56c5b9729f0a1c](live_enco_56c5b9729f0a1c.md) | AIS fishing | At-sea encounter (transshipment) | 2026-07-18T03:50:00.000Z | - |
 | [live_ais__d98c4992ff130d](live_ais__d98c4992ff130d.md) | AIS fishing | AIS disabling (going dark) | 2026-07-18T09:52:39.000Z | - |
 | [live_ais__cf3e8ee6301c6f](live_ais__cf3e8ee6301c6f.md) | AIS fishing | AIS disabling (going dark) | 2026-07-18T02:54:55.000Z | - |
 | [live_ais__4d3256e21d98a3](live_ais__4d3256e21d98a3.md) | AIS fishing | AIS disabling (going dark) | 2026-07-10T10:58:11.000Z | - |
