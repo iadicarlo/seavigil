@@ -1,19 +1,19 @@
-# Incident `live_ais__980a6085094ea2`
+# Incident `live_ais__58e1a803f87dae`
 
 - **MPA:** AIS disabling (going dark)
 - **Severity:** HIGH (foreign vessel, no authorization on record)
-- **EEZ:** Brazilian Exclusive Economic Zone (Brazil) -- FOREIGN-flagged vessel
-- **Authorization:** No public authorization record (check coastal state)
-- **Vessel:** 🇸🇬 EAGLE CANOAS  ·  **signal:** AIS gap
-- **When (UTC):** 2026-07-15T10:33:17.000Z → 2026-07-16T18:12:47.000Z
-- **Gap:** 31.7 h dark, 120.0 nm offshore
-- **Where:** -25.027, -42.670
+- **EEZ:** Congolese (Democratic Republic of) Exclusive Economic Zone (Democratic Republic of the Congo) -- FOREIGN-flagged vessel
+- **Authorization:** No public authorization record (check coastal state)  ·  IMO 9730361
+- **Vessel:** 🇲🇭 TRINITY  ·  **signal:** AIS gap
+- **When (UTC):** 2026-07-17T12:33:16.000Z → 2026-07-18T09:22:00.000Z
+- **Gap:** 20.8 h dark, 91.0 nm offshore
+- **Where:** -6.238, 10.728
 
 ## Why this was flagged
 
 _GFW Events gaps dataset (satellite AIS).._
 
-- went dark 120 nm offshore for 32 h
+- went dark 91 nm offshore for 21 h
 - satellite-confirmed AIS gap (GFW Events)
 
 ## Could be innocent
@@ -31,7 +31,7 @@ Going dark is frequently benign: in open water, where gaps are commonly protecti
 - NOAA Marine Cadastre AIS (marinecadastre.gov/ais (vessel positions)). US public domain.
 - WDPA / WD-OECM (World Database on Protected Areas) (UNEP-WCMC and IUCN (2026), June 2026). Protected Planet Terms of Use (non-commercial, display-only).
 - Marine Regions Exclusive Economic Zones v12 (Flanders Marine Institute (2024), DOI 10.14284/632). CC BY 4.0.
-- **Integrity (SHA-256 of canonical facts):** `f748633c06ff8a20fbd9ab9b7ddf87db85909434c3907499357acf6bf1aa1ed3`
+- **Integrity (SHA-256 of canonical facts):** `bf0bbdc45dcc0f19f9be68301121ae8485bb06492780b81f98c77bab717ade37`
 - **Evidence schema:** seavigil-evidence-1.0
 
 _Apparent activity and an inspection lead, not proof of illegality. AIS and SAR evidence have known coverage gaps and spoofing risks; verify against authoritative sources before any enforcement action._

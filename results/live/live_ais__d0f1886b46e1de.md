@@ -1,19 +1,19 @@
-# Incident `live_ais__1c22266f98fc11`
+# Incident `live_ais__d0f1886b46e1de`
 
 - **MPA:** AIS disabling (going dark)
 - **Severity:** HIGH (foreign vessel, no authorization on record)
-- **EEZ:** Sudanese Exclusive Economic Zone (Sudan) -- FOREIGN-flagged vessel
+- **EEZ:** Sri Lankan Exclusive Economic Zone (Sri Lanka) -- FOREIGN-flagged vessel
 - **Authorization:** No public authorization record (check coastal state)
-- **Vessel:** 🇵🇦 NCC DALIA  ·  **signal:** AIS gap
-- **When (UTC):** 2026-07-15T21:05:01.000Z → 2026-07-16T16:59:46.000Z
-- **Gap:** 19.9 h dark, 59.0 nm offshore
-- **Where:** 18.776, 38.922
+- **Vessel:** 🇲🇭 WF ARTEMIS  ·  **signal:** AIS gap
+- **When (UTC):** 2026-07-11T17:03:36.000Z → 2026-07-18T19:28:55.000Z
+- **Gap:** 170.4 h dark, 99.0 nm offshore
+- **Where:** 6.224, 79.306
 
 ## Why this was flagged
 
 _GFW Events gaps dataset (satellite AIS).._
 
-- went dark 59 nm offshore for 20 h
+- went dark 99 nm offshore for 170 h
 - satellite-confirmed AIS gap (GFW Events)
 
 ## Could be innocent
@@ -31,7 +31,7 @@ Going dark is frequently benign: in open water, where gaps are commonly protecti
 - NOAA Marine Cadastre AIS (marinecadastre.gov/ais (vessel positions)). US public domain.
 - WDPA / WD-OECM (World Database on Protected Areas) (UNEP-WCMC and IUCN (2026), June 2026). Protected Planet Terms of Use (non-commercial, display-only).
 - Marine Regions Exclusive Economic Zones v12 (Flanders Marine Institute (2024), DOI 10.14284/632). CC BY 4.0.
-- **Integrity (SHA-256 of canonical facts):** `8b8a73a90829818e898f0ffdebe3e6246a3c3570f0ee88303a48884728452c0a`
+- **Integrity (SHA-256 of canonical facts):** `4e4600978541c8a5bac43c370b070d291861b3de1267786853a0fc5eb40af87d`
 - **Evidence schema:** seavigil-evidence-1.0
 
 _Apparent activity and an inspection lead, not proof of illegality. AIS and SAR evidence have known coverage gaps and spoofing risks; verify against authoritative sources before any enforcement action._

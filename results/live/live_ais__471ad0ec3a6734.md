@@ -1,19 +1,19 @@
-# Incident `live_ais__8c1666767b9bf8`
+# Incident `live_ais__471ad0ec3a6734`
 
 - **MPA:** AIS disabling (going dark)
 - **Severity:** HIGH (foreign vessel, no authorization on record)
-- **EEZ:** South African Exclusive Economic Zone (South Africa) -- FOREIGN-flagged vessel
+- **EEZ:** Brazilian Exclusive Economic Zone (Brazil) -- FOREIGN-flagged vessel
 - **Authorization:** No public authorization record (check coastal state)
-- **Vessel:** 🇲🇹 DELTA MARIA  ·  **signal:** AIS gap
-- **When (UTC):** 2026-07-15T17:24:03.000Z → 2026-07-16T17:10:35.000Z
-- **Gap:** 23.8 h dark, 151.0 nm offshore
-- **Where:** -30.416, 14.280
+- **Vessel:** 🇲🇹 PARIS 24  ·  **signal:** AIS gap
+- **When (UTC):** 2026-07-17T18:38:54.000Z → 2026-07-18T08:03:03.000Z
+- **Gap:** 13.4 h dark, 133.0 nm offshore
+- **Where:** -25.232, -42.573
 
 ## Why this was flagged
 
 _GFW Events gaps dataset (satellite AIS).._
 
-- went dark 151 nm offshore for 24 h
+- went dark 133 nm offshore for 13 h
 - satellite-confirmed AIS gap (GFW Events)
 
 ## Could be innocent
@@ -31,7 +31,7 @@ Going dark is frequently benign: in open water, where gaps are commonly protecti
 - NOAA Marine Cadastre AIS (marinecadastre.gov/ais (vessel positions)). US public domain.
 - WDPA / WD-OECM (World Database on Protected Areas) (UNEP-WCMC and IUCN (2026), June 2026). Protected Planet Terms of Use (non-commercial, display-only).
 - Marine Regions Exclusive Economic Zones v12 (Flanders Marine Institute (2024), DOI 10.14284/632). CC BY 4.0.
-- **Integrity (SHA-256 of canonical facts):** `a7c7521a73f4dd8dad70d2266be4ccbed3421f287d6cf4d4deace82c9372108d`
+- **Integrity (SHA-256 of canonical facts):** `a5bc69496fe5a189b924b8f24cd20c4c6844397b0cbe4c0863ed2f76aac29c07`
 - **Evidence schema:** seavigil-evidence-1.0
 
 _Apparent activity and an inspection lead, not proof of illegality. AIS and SAR evidence have known coverage gaps and spoofing risks; verify against authoritative sources before any enforcement action._
