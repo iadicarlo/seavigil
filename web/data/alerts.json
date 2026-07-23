@@ -1,6 +1,19 @@
 {
-"generated_at": "2026-07-22T23:26:50Z",
+"generated_at": "2026-07-23T03:46:30Z",
 "alerts": [
+{
+"id": "live_enco_d98ffa599aa14b",
+"first_seen": "2026-07-23T03:46:30Z",
+"type": "encounter",
+"when": "2026-07-19T05:20:00.000Z",
+"eez": "Vietnamese Exclusive Economic Zone",
+"flag": "HKG",
+"authorization": "no_record",
+"severity_reason": "foreign vessel, no authorization on record",
+"lat": 20.1396,
+"lon": 107.7235,
+"ship_name": "HUNG HA D20"
+},
 {
 "id": "live_ais__d98c4992ff130d",
 "first_seen": "2026-07-22T12:04:11Z",
@@ -2587,19 +2600,6 @@
 "lat": 19.4855,
 "lon": 57.7412,
 "ship_name": "FU YUAN YU9992"
-},
-{
-"id": "live_enco_fbb7015e28008e",
-"first_seen": "2026-07-17T00:13:34Z",
-"type": "encounter",
-"when": "2026-07-13T12:30:00.000Z",
-"eez": "Chinese Exclusive Economic Zone",
-"flag": "TWN",
-"authorization": "no_record",
-"severity_reason": "foreign vessel, no authorization on record",
-"lat": 26.9816,
-"lon": 121.6967,
-"ship_name": "11168"
 }
 ]
 }
