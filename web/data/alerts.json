@@ -1,6 +1,19 @@
 {
-"generated_at": "2026-07-23T03:46:30Z",
+"generated_at": "2026-07-23T06:41:19Z",
 "alerts": [
+{
+"id": "live_enco_814b23a7c84663",
+"first_seen": "2026-07-23T06:41:19Z",
+"type": "encounter",
+"when": "2026-07-19T17:30:00.000Z",
+"eez": "Kiribati Exclusive Economic Zone (Phoenix Group)",
+"flag": "CHN",
+"authorization": "no_record",
+"severity_reason": "foreign vessel, no authorization on record",
+"lat": -2.4232,
+"lon": -173.9892,
+"ship_name": "XIN SHI JI 80"
+},
 {
 "id": "live_enco_d98ffa599aa14b",
 "first_seen": "2026-07-23T03:46:30Z",
@@ -2587,19 +2600,6 @@
 "lat": 27.0097,
 "lon": 121.6617,
 "ship_name": "YU JIN_888"
-},
-{
-"id": "live_enco_7a70fdbdf40dad",
-"first_seen": "2026-07-17T00:13:34Z",
-"type": "encounter",
-"when": "2026-07-13T01:50:00.000Z",
-"eez": "Omani Exclusive Economic Zone",
-"flag": "CHN",
-"authorization": "no_record",
-"severity_reason": "foreign vessel, no authorization on record",
-"lat": 19.4855,
-"lon": 57.7412,
-"ship_name": "FU YUAN YU9992"
 }
 ]
 }
