@@ -1,9 +1,9 @@
 # Incident `live_enco_0f7eeff8720091`
 
 - **MPA:** At-sea encounter (transshipment)
-- **Severity:** HIGH (foreign vessel, no authorization on record)
+- **Severity:** HIGH (foreign vessel, authorization lapsed)
 - **EEZ:** Russian Exclusive Economic Zone (Russia) -- FOREIGN-flagged vessel
-- **Authorization:** No public authorization record (check coastal state)  ·  IMO 7237250
+- **Authorization:** Authorization lapsed before this date: NPFC, SPRFMO  ·  IMO 7237250
 - **Vessel:** 🇰🇷 JOON SUNG HO  ·  **signal:** Encounter
 - **When (UTC):** 2026-07-18T12:00:00.000Z → 2026-07-19T23:50:00.000Z
 - **Encounter:** 35.8 h with carrier `273512400` (apparent transshipment)

@@ -3,7 +3,7 @@
 - **MPA:** AIS disabling (going dark)
 - **Severity:** HIGH (foreign vessel, no authorization on record)
 - **EEZ:** Micronesian Exclusive Economic Zone (Micronesia) -- FOREIGN-flagged vessel
-- **Authorization:** No public authorization record (check coastal state)
+- **Authorization:** No public authorization record (check coastal state)  ·  IMO 9357303
 - **Vessel:** 🇧🇸 GRACEFUL LEADER  ·  **signal:** AIS gap
 - **When (UTC):** 2026-07-16T12:34:16.000Z → 2026-07-17T20:18:56.000Z
 - **Gap:** 31.7 h dark, 65.0 nm offshore

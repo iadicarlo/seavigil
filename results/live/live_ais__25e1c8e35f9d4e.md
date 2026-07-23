@@ -1,9 +1,9 @@
 # Incident `live_ais__25e1c8e35f9d4e`
 
 - **MPA:** AIS disabling (going dark)
-- **Severity:** HIGH (foreign vessel, authorization lapsed)
+- **Severity:** HIGH (foreign vessel, no authorization on record)
 - **EEZ:** Overlapping claim Western Sahara: Western Sahara / Morocco (Western Sahara) -- FOREIGN-flagged vessel
-- **Authorization:** Authorization lapsed before this date: ICCAT, IOTC, WCPFC  ·  IMO 8109620
+- **Authorization:** No public authorization record (check coastal state)
 - **Vessel:** 🇪🇸 EGALUZE  ·  **signal:** AIS gap
 - **When (UTC):** 2026-07-18T05:24:01.000Z → 2026-07-18T19:33:58.000Z
 - **Gap:** 14.2 h dark, 69.0 nm offshore

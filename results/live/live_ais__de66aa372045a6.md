@@ -1,9 +1,9 @@
 # Incident `live_ais__de66aa372045a6`
 
 - **MPA:** AIS disabling (going dark)
-- **Severity:** HIGH (foreign vessel, no authorization on record)
+- **Severity:** HIGH (foreign vessel, authorization lapsed)
 - **EEZ:** Mauritanian Exclusive Economic Zone (Mauritania) -- FOREIGN-flagged vessel
-- **Authorization:** No public authorization record (check coastal state)
+- **Authorization:** Authorization lapsed before this date: ICCAT, IOTC, WCPFC  ·  IMO 8613267
 - **Vessel:** 🇪🇸 ALBONIGA  ·  **signal:** AIS gap
 - **When (UTC):** 2026-07-17T06:31:10.000Z → 2026-07-17T19:27:54.000Z
 - **Gap:** 12.9 h dark, 146.0 nm offshore

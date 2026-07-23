@@ -3,7 +3,7 @@
 - **MPA:** AIS disabling (going dark)
 - **Severity:** HIGH (foreign vessel, no authorization on record)
 - **EEZ:** Mauritian Exclusive Economic Zone (Republic of Mauritius) -- FOREIGN-flagged vessel
-- **Authorization:** No public authorization record (check coastal state)  ·  IMO 9375721
+- **Authorization:** No public authorization record (check coastal state)
 - **Vessel:** 🇵🇦 POINT FORTIN  ·  **signal:** AIS gap
 - **When (UTC):** 2026-07-18T00:38:21.000Z → 2026-07-18T15:19:33.000Z
 - **Gap:** 14.7 h dark, 73.0 nm offshore

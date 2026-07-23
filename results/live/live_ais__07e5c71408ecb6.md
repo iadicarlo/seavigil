@@ -3,7 +3,7 @@
 - **MPA:** AIS disabling (going dark)
 - **Severity:** HIGH (foreign vessel, no authorization on record)
 - **EEZ:** Madagascan Exclusive Economic Zone (Madagascar) -- FOREIGN-flagged vessel
-- **Authorization:** No public authorization record (check coastal state)  ·  IMO 9606302
+- **Authorization:** No public authorization record (check coastal state)
 - **Vessel:** 🇵🇦 MSC LONDON  ·  **signal:** AIS gap
 - **When (UTC):** 2026-07-07T07:25:11.000Z → 2026-07-17T14:37:50.000Z
 - **Gap:** 247.2 h dark, 92.0 nm offshore

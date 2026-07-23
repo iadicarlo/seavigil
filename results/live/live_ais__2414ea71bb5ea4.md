@@ -1,9 +1,9 @@
 # Incident `live_ais__2414ea71bb5ea4`
 
 - **MPA:** AIS disabling (going dark)
-- **Severity:** HIGH (foreign vessel, no authorization on record)
+- **Severity:** HIGH (foreign vessel, authorization lapsed)
 - **EEZ:** Overlapping claim Western Sahara: Western Sahara / Morocco (Western Sahara) -- FOREIGN-flagged vessel
-- **Authorization:** No public authorization record (check coastal state)
+- **Authorization:** Authorization lapsed before this date: ICCAT, IOTC, WCPFC  ·  IMO 8613267
 - **Vessel:** 🇪🇸 ALBONIGA  ·  **signal:** AIS gap
 - **When (UTC):** 2026-07-18T06:14:36.000Z → 2026-07-18T19:44:03.000Z
 - **Gap:** 13.5 h dark, 155.0 nm offshore
