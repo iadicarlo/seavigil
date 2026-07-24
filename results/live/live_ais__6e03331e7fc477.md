@@ -3,7 +3,7 @@
 - **MPA:** AIS disabling (going dark)
 - **Severity:** HIGH (foreign vessel, no authorization on record)
 - **EEZ:** South African Exclusive Economic Zone (South Africa) -- FOREIGN-flagged vessel
-- **Authorization:** No public authorization record (check coastal state)  ·  IMO 9381249
+- **Authorization:** No public authorization record (check coastal state)
 - **Vessel:** 🇵🇦 CYGNUS LEADER  ·  **signal:** AIS gap
 - **When (UTC):** 2026-07-18T10:52:09.000Z → 2026-07-19T02:17:33.000Z
 - **Gap:** 15.4 h dark, 100.0 nm offshore

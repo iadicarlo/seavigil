@@ -1,9 +1,9 @@
 # Incident `live_enco_04d7339f579cd6`
 
 - **MPA:** At-sea encounter (transshipment)
-- **Severity:** HIGH (foreign vessel, authorization lapsed)
+- **Severity:** HIGH (foreign vessel, no authorization on record)
 - **EEZ:** Greek Exclusive Economic Zone (Greece) -- FOREIGN-flagged vessel
-- **Authorization:** Authorization lapsed before this date: GFCM  ·  IMO 1079151
+- **Authorization:** No public authorization record (check coastal state)
 - **Vessel:** 🇹🇷 KIRANTAS HUSEYIN  ·  **signal:** Encounter
 - **When (UTC):** 2026-07-20T19:40:00.000Z → 2026-07-20T23:50:00.000Z
 - **Encounter:** 4.2 h with carrier `271062064` (apparent transshipment)

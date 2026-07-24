@@ -3,7 +3,7 @@
 - **MPA:** AIS disabling (going dark)
 - **Severity:** HIGH (foreign vessel, no authorization on record)
 - **EEZ:** Brazilian Exclusive Economic Zone (Brazil) -- FOREIGN-flagged vessel
-- **Authorization:** No public authorization record (check coastal state)  ·  IMO 7600902
+- **Authorization:** No public authorization record (check coastal state)
 - **Vessel:** 🇵🇦 CIDADE DE MARICA  ·  **signal:** AIS gap
 - **When (UTC):** 2026-07-18T09:52:39.000Z → 2026-07-18T23:48:02.000Z
 - **Gap:** 13.9 h dark, 145.0 nm offshore

@@ -3,7 +3,7 @@
 - **MPA:** AIS disabling (going dark)
 - **Severity:** HIGH (foreign vessel, no authorization on record)
 - **EEZ:** Kiribati Exclusive Economic Zone (Line Group) (Kiribati) -- FOREIGN-flagged vessel
-- **Authorization:** No public authorization record (check coastal state)  ·  IMO 9150652
+- **Authorization:** No public authorization record (check coastal state)
 - **Vessel:** 🇫🇲 PACIFIC ENTERPRISE 7  ·  **signal:** AIS gap
 - **When (UTC):** 2026-07-08T07:01:10.000Z → 2026-07-19T02:21:01.000Z
 - **Gap:** 259.3 h dark, 178.0 nm offshore

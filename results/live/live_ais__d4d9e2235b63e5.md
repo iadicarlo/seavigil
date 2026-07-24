@@ -1,9 +1,9 @@
 # Incident `live_ais__d4d9e2235b63e5`
 
 - **MPA:** AIS disabling (going dark)
-- **Severity:** HIGH (foreign vessel, no authorization on record)
+- **Severity:** HIGH (foreign vessel, authorization lapsed)
 - **EEZ:** Colombian Exclusive Economic Zone (Colombia) -- FOREIGN-flagged vessel
-- **Authorization:** No public authorization record (check coastal state)
+- **Authorization:** Authorization lapsed before this date: IATTC  ·  IMO 9698757
 - **Vessel:** 🇻🇪 GRAN ROQUE  ·  **signal:** AIS gap
 - **When (UTC):** 2026-07-09T10:01:41.000Z → 2026-07-19T00:12:16.000Z
 - **Gap:** 230.2 h dark, 67.0 nm offshore

@@ -3,7 +3,7 @@
 - **MPA:** AIS disabling (going dark)
 - **Severity:** HIGH (foreign vessel, no authorization on record)
 - **EEZ:** Congolese (Democratic Republic of) Exclusive Economic Zone (Democratic Republic of the Congo) -- FOREIGN-flagged vessel
-- **Authorization:** No public authorization record (check coastal state)  ·  IMO 9730361
+- **Authorization:** No public authorization record (check coastal state)
 - **Vessel:** 🇲🇭 TRINITY  ·  **signal:** AIS gap
 - **When (UTC):** 2026-07-17T12:33:16.000Z → 2026-07-18T09:22:00.000Z
 - **Gap:** 20.8 h dark, 91.0 nm offshore

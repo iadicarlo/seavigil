@@ -1,9 +1,9 @@
 # Incident `live_ais__ff4209ad1239fd`
 
 - **MPA:** AIS disabling (going dark)
-- **Severity:** HIGH (foreign vessel, authorization lapsed)
+- **Severity:** HIGH (foreign vessel, no authorization on record)
 - **EEZ:** Solomon Islands Exclusive Economic Zone (Solomon Islands) -- FOREIGN-flagged vessel
-- **Authorization:** Authorization lapsed before this date: FFA, IATTC, WCPFC  ·  IMO 8661836
+- **Authorization:** No public authorization record (check coastal state)
 - **Vessel:** 🇹🇼 JIN JINN YI NO.168  ·  **signal:** AIS gap
 - **When (UTC):** 2026-07-15T16:45:55.000Z → 2026-07-18T22:14:56.000Z
 - **Gap:** 77.5 h dark, 82.0 nm offshore
