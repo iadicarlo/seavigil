@@ -1,60 +1,5 @@
 [
   {
-    "incident_id": "live_enco_b7ee6462448469",
-    "type": "encounter",
-    "centroid_lon": 112.0216,
-    "centroid_lat": 10.5286,
-    "time_start_utc": "2026-07-20T20:40:00.000Z",
-    "time_end_utc": "2026-07-20T23:50:00.000Z",
-    "vessel_id": "412589168",
-    "ship_name": "ZHONGGUOGUIFANGYU",
-    "ship_type": "Fishing",
-    "flag": "CHN",
-    "flag_emoji": "\ud83c\udde8\ud83c\uddf3",
-    "gear": "Encounter",
-    "n_positions": 0,
-    "n_fishing_positions": 0,
-    "mean_fishing_proba": null,
-    "max_fishing_proba": null,
-    "_rfmo": [
-      "IWC",
-      "WCPFC",
-      "SEAFDEC",
-      "APFIC",
-      "ACAP"
-    ],
-    "_no_take": false,
-    "mpa_name": "At-sea encounter (transshipment)",
-    "duration_hours": 3.2,
-    "carrier_mmsi": "412503532",
-    "explanation": {
-      "method": "GFW Events encounters dataset (Miller et al. 2018).",
-      "drivers": [
-        "two vessels within range for 3 h",
-        "counterpart: GUIFANGYU08013",
-        "two-vessel at-sea encounter (GFW Events)"
-      ]
-    },
-    "caveats": [
-      "Co-location can be legitimate (joint operations, safety, shelter).",
-      "Apparent transshipment is inferred from proximity and low speed, not observed.",
-      "An inspection lead from GFW Events, not proof of illegal activity."
-    ],
-    "eez_name": "Vietnamese Exclusive Economic Zone",
-    "eez_sovereign": "Vietnam",
-    "eez_iso_sov": "VNM",
-    "eez_foreign": true,
-    "authorization_status": "no_record",
-    "authorization_authorities": [],
-    "registry_iuu_tag": false,
-    "registry_flag": "",
-    "registry_imo": "",
-    "severity": "high",
-    "severity_reason": "foreign vessel, no authorization on record",
-    "evidence_schema": "seavigil-evidence-1.0",
-    "evidence_hash": "cba3cdf64b36fbc64b07731aa4dd744369d133c62af7add2c976bd5f3aa50f64"
-  },
-  {
     "incident_id": "live_enco_04d7339f579cd6",
     "type": "encounter",
     "centroid_lon": 25.3958,
@@ -109,6 +54,61 @@
     "severity_reason": "foreign vessel, authorization lapsed",
     "evidence_schema": "seavigil-evidence-1.0",
     "evidence_hash": "6dada93720a2f88ee07120b065817482a8bbdf425ef5fd35f7b41ee48bf5b9c0"
+  },
+  {
+    "incident_id": "live_enco_b7ee6462448469",
+    "type": "encounter",
+    "centroid_lon": 112.0216,
+    "centroid_lat": 10.5286,
+    "time_start_utc": "2026-07-20T20:40:00.000Z",
+    "time_end_utc": "2026-07-20T23:50:00.000Z",
+    "vessel_id": "412589168",
+    "ship_name": "ZHONGGUOGUIFANGYU",
+    "ship_type": "Fishing",
+    "flag": "CHN",
+    "flag_emoji": "\ud83c\udde8\ud83c\uddf3",
+    "gear": "Encounter",
+    "n_positions": 0,
+    "n_fishing_positions": 0,
+    "mean_fishing_proba": null,
+    "max_fishing_proba": null,
+    "_rfmo": [
+      "IWC",
+      "WCPFC",
+      "SEAFDEC",
+      "APFIC",
+      "ACAP"
+    ],
+    "_no_take": false,
+    "mpa_name": "At-sea encounter (transshipment)",
+    "duration_hours": 3.2,
+    "carrier_mmsi": "412503532",
+    "explanation": {
+      "method": "GFW Events encounters dataset (Miller et al. 2018).",
+      "drivers": [
+        "two vessels within range for 3 h",
+        "counterpart: GUIFANGYU08013",
+        "two-vessel at-sea encounter (GFW Events)"
+      ]
+    },
+    "caveats": [
+      "Co-location can be legitimate (joint operations, safety, shelter).",
+      "Apparent transshipment is inferred from proximity and low speed, not observed.",
+      "An inspection lead from GFW Events, not proof of illegal activity."
+    ],
+    "eez_name": "Vietnamese Exclusive Economic Zone",
+    "eez_sovereign": "Vietnam",
+    "eez_iso_sov": "VNM",
+    "eez_foreign": true,
+    "authorization_status": "no_record",
+    "authorization_authorities": [],
+    "registry_iuu_tag": false,
+    "registry_flag": "",
+    "registry_imo": "",
+    "severity": "high",
+    "severity_reason": "foreign vessel, no authorization on record",
+    "evidence_schema": "seavigil-evidence-1.0",
+    "evidence_hash": "cba3cdf64b36fbc64b07731aa4dd744369d133c62af7add2c976bd5f3aa50f64"
   },
   {
     "incident_id": "live_enco_fbdb0178b0a335",
