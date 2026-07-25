@@ -1,6 +1,45 @@
 {
-"generated_at": "2026-07-25T03:39:58Z",
+"generated_at": "2026-07-25T06:30:07Z",
 "alerts": [
+{
+"id": "live_enco_69f3cfeffc343b",
+"first_seen": "2026-07-25T06:30:07Z",
+"type": "encounter",
+"when": "2026-07-21T07:20:00.000Z",
+"eez": "Vietnamese Exclusive Economic Zone",
+"flag": "SOM",
+"authorization": "no_record",
+"severity_reason": "foreign vessel, no authorization on record",
+"lat": 18.8704,
+"lon": 106.3891,
+"ship_name": "TAU 56-A2"
+},
+{
+"id": "live_enco_b702cdc2b33a63",
+"first_seen": "2026-07-25T06:30:07Z",
+"type": "encounter",
+"when": "2026-07-21T05:50:00.000Z",
+"eez": "Overlapping claim Senkaku Islands: Taiwan / Japan / China",
+"flag": "CHN",
+"authorization": "no_record",
+"severity_reason": "foreign vessel, no authorization on record",
+"lat": 26.7191,
+"lon": 123.157,
+"ship_name": "MIN HUI YU 02029"
+},
+{
+"id": "live_enco_5da06f0f9c5a7c",
+"first_seen": "2026-07-25T06:30:07Z",
+"type": "encounter",
+"when": "2026-07-21T03:00:00.000Z",
+"eez": "Vietnamese Exclusive Economic Zone",
+"flag": "TCA",
+"authorization": "no_record",
+"severity_reason": "foreign vessel, no authorization on record",
+"lat": 19.0261,
+"lon": 106.5083,
+"ship_name": "BONG-MUC-B21+GOI-06"
+},
 {
 "id": "live_enco_3d05b281fdce15",
 "first_seen": "2026-07-25T03:39:58Z",
@@ -2561,45 +2600,6 @@
 "lat": -2.3968,
 "lon": -173.9702,
 "ship_name": "XIN SHI JI 81"
-},
-{
-"id": "live_enco_0e1be9217aa3aa",
-"first_seen": "2026-07-19T00:11:11Z",
-"type": "encounter",
-"when": "2026-07-15T00:00:00.000Z",
-"eez": "Chinese Exclusive Economic Zone",
-"flag": "VNM",
-"authorization": "no_record",
-"severity_reason": "foreign vessel, no authorization on record",
-"lat": 16.6831,
-"lon": 113.2306,
-"ship_name": "LXN:QNG:98989:A24"
-},
-{
-"id": "live_enco_4d4d2d246015d5",
-"first_seen": "2026-07-19T00:11:11Z",
-"type": "encounter",
-"when": "2026-07-15T11:20:00.000Z",
-"eez": "Omani Exclusive Economic Zone",
-"flag": "CHN",
-"authorization": "no_record",
-"severity_reason": "foreign vessel, no authorization on record",
-"lat": 19.4763,
-"lon": 57.7346,
-"ship_name": "HAILI618"
-},
-{
-"id": "live_enco_5fe386496696bf",
-"first_seen": "2026-07-19T00:11:11Z",
-"type": "encounter",
-"when": "2026-07-15T01:20:00.000Z",
-"eez": "Overlapping claim Senkaku Islands: Taiwan / Japan / China",
-"flag": "CHN",
-"authorization": "no_record",
-"severity_reason": "foreign vessel, no authorization on record",
-"lat": 26.7983,
-"lon": 123.0758,
-"ship_name": "MIN HUI YU 00195"
 }
 ]
 }
