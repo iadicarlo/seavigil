@@ -4,9 +4,9 @@
 - **Severity:** HIGH (foreign vessel, no authorization on record)
 - **EEZ:** Joint regime area: South Korea / Japan (South Korea) -- FOREIGN-flagged vessel
 - **Authorization:** No public authorization record (check coastal state)
-- **Vessel:** 🇯🇵 OOTORI NO.3  ·  **signal:** Encounter
+- **Vessel:** 🇯🇵 GENPUKUMARU NO.11  ·  **signal:** Encounter
 - **When (UTC):** 2026-07-21T12:50:00.000Z → 2026-07-21T17:10:00.000Z
-- **Encounter:** 4.3 h with carrier `431005085` (apparent transshipment)
+- **Encounter:** 4.3 h with carrier `431017913` (apparent transshipment)
 - **Where:** 30.974, 127.917
 
 ## Why this was flagged
@@ -14,7 +14,7 @@
 _GFW Events encounters dataset (Miller et al. 2018).._
 
 - two vessels within range for 4 h
-- counterpart: GENPUKUMARU NO.11
+- counterpart: OOTORI NO.3
 - two-vessel at-sea encounter (GFW Events)
 
 ## Could be innocent
@@ -31,7 +31,7 @@ Two vessels meeting at sea can be a legitimate transfer, bunkering, or a safety 
 
 - WDPA / WD-OECM (World Database on Protected Areas) (UNEP-WCMC and IUCN (2026), June 2026). Protected Planet Terms of Use (non-commercial, display-only).
 - Marine Regions Exclusive Economic Zones v12 (Flanders Marine Institute (2024), DOI 10.14284/632). CC BY 4.0.
-- **Integrity (SHA-256 of canonical facts):** `ad48eb34a84f4a011d4fedc33a86ccd809cace04e143ae429eb9dce956995925`
+- **Integrity (SHA-256 of canonical facts):** `2407c800f6f15c4d287e1aa8c653fc8154335b6fb8e918233139b5a3c359e12b`
 - **Evidence schema:** seavigil-evidence-1.0
 
 _Apparent activity and an inspection lead, not proof of illegality. AIS and SAR evidence have known coverage gaps and spoofing risks; verify against authoritative sources before any enforcement action._
