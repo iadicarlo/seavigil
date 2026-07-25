@@ -1412,6 +1412,115 @@
     "evidence_hash": "53cbb307826d020c9968e4d6481abfbfc10fe61450e213bbbf0de9dfcd529134"
   },
   {
+    "incident_id": "live_enco_b702cdc2b33a63",
+    "type": "encounter",
+    "centroid_lon": 123.157,
+    "centroid_lat": 26.7191,
+    "time_start_utc": "2026-07-21T05:50:00.000Z",
+    "time_end_utc": "2026-07-21T14:20:00.000Z",
+    "vessel_id": "412452726",
+    "ship_name": "MIN HUI YU 02029",
+    "ship_type": "Fishing",
+    "flag": "CHN",
+    "flag_emoji": "\ud83c\udde8\ud83c\uddf3",
+    "gear": "Encounter",
+    "n_positions": 0,
+    "n_fishing_positions": 0,
+    "mean_fishing_proba": null,
+    "max_fishing_proba": null,
+    "_rfmo": [
+      "ACAP",
+      "WCPFC",
+      "APFIC",
+      "IWC"
+    ],
+    "_no_take": false,
+    "mpa_name": "At-sea encounter (transshipment)",
+    "duration_hours": 8.5,
+    "carrier_mmsi": "700862566",
+    "explanation": {
+      "method": "GFW Events encounters dataset (Miller et al. 2018).",
+      "drivers": [
+        "two vessels within range for 8 h",
+        "counterpart: 02029",
+        "two-vessel at-sea encounter (GFW Events)"
+      ]
+    },
+    "caveats": [
+      "Co-location can be legitimate (joint operations, safety, shelter).",
+      "Apparent transshipment is inferred from proximity and low speed, not observed.",
+      "An inspection lead from GFW Events, not proof of illegal activity."
+    ],
+    "eez_name": "Overlapping claim Senkaku Islands: Taiwan / Japan / China",
+    "eez_sovereign": "Taiwan",
+    "eez_iso_sov": "TWN",
+    "eez_foreign": true,
+    "authorization_status": "no_record",
+    "authorization_authorities": [],
+    "registry_iuu_tag": false,
+    "registry_flag": "",
+    "registry_imo": "",
+    "severity": "high",
+    "severity_reason": "foreign vessel, no authorization on record",
+    "evidence_schema": "seavigil-evidence-1.0",
+    "evidence_hash": "37c6af6d9a3c859d7755f7a67f9c2c955eece3a1499de19e8f79fb2309d51494"
+  },
+  {
+    "incident_id": "live_enco_5da06f0f9c5a7c",
+    "type": "encounter",
+    "centroid_lon": 106.5083,
+    "centroid_lat": 19.0261,
+    "time_start_utc": "2026-07-21T03:00:00.000Z",
+    "time_end_utc": "2026-07-21T13:00:00.000Z",
+    "vessel_id": "364650394",
+    "ship_name": "BONG-MUC-B21+GOI-06",
+    "ship_type": "Fishing",
+    "flag": "TCA",
+    "flag_emoji": "\ud83c\uddf9\ud83c\udde8",
+    "gear": "Encounter",
+    "n_positions": 0,
+    "n_fishing_positions": 0,
+    "mean_fishing_proba": null,
+    "max_fishing_proba": null,
+    "_rfmo": [
+      "SEAFDEC",
+      "IWC",
+      "WCPFC",
+      "APFIC",
+      "ACAP"
+    ],
+    "_no_take": false,
+    "mpa_name": "At-sea encounter (transshipment)",
+    "duration_hours": 10.0,
+    "carrier_mmsi": "574182882",
+    "explanation": {
+      "method": "GFW Events encounters dataset (Miller et al. 2018).",
+      "drivers": [
+        "two vessels within range for 10 h",
+        "counterpart: LONG MUC 06 B21",
+        "two-vessel at-sea encounter (GFW Events)"
+      ]
+    },
+    "caveats": [
+      "Co-location can be legitimate (joint operations, safety, shelter).",
+      "Apparent transshipment is inferred from proximity and low speed, not observed.",
+      "An inspection lead from GFW Events, not proof of illegal activity."
+    ],
+    "eez_name": "Vietnamese Exclusive Economic Zone",
+    "eez_sovereign": "Vietnam",
+    "eez_iso_sov": "VNM",
+    "eez_foreign": true,
+    "authorization_status": "no_record",
+    "authorization_authorities": [],
+    "registry_iuu_tag": false,
+    "registry_flag": "",
+    "registry_imo": "",
+    "severity": "high",
+    "severity_reason": "foreign vessel, no authorization on record",
+    "evidence_schema": "seavigil-evidence-1.0",
+    "evidence_hash": "88db26c916ee01c732ab907b44446d4f1d6433a0a20b73c71da2d7ac96db7104"
+  },
+  {
     "incident_id": "live_enco_49b2b17d9b5714",
     "type": "encounter",
     "centroid_lon": 57.7346,
