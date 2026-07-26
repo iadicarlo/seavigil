@@ -1,6 +1,19 @@
 {
-"generated_at": "2026-07-26T11:37:22Z",
+"generated_at": "2026-07-26T13:58:22Z",
 "alerts": [
+{
+"id": "live_enco_d9f7a37a520a4e",
+"first_seen": "2026-07-26T13:58:22Z",
+"type": "encounter",
+"when": "2026-07-22T07:40:00.000Z",
+"eez": "Chinese Exclusive Economic Zone",
+"flag": "TWN",
+"authorization": "no_record",
+"severity_reason": "foreign vessel, no authorization on record",
+"lat": 27.1805,
+"lon": 122.8986,
+"ship_name": "SIN SHUN JI 16"
+},
 {
 "id": "live_ais__e0d800c435771c",
 "first_seen": "2026-07-26T11:37:22Z",
@@ -2587,19 +2600,6 @@
 "lat": 26.7639,
 "lon": 121.7289,
 "ship_name": "JU JIN NO OOOOONO  6"
-},
-{
-"id": "live_ais__dc4c351ee35bb0",
-"first_seen": "2026-07-20T11:14:38Z",
-"type": "ais_disabling",
-"when": "2026-07-16T11:43:59.000Z",
-"eez": "Australian Exclusive Economic Zone",
-"flag": "ISL",
-"authorization": "no_record",
-"severity_reason": "foreign vessel, no authorization on record",
-"lat": -37.8941,
-"lon": 151.0554,
-"ship_name": "SOUTH SEAS 02-99%"
 }
 ]
 }
