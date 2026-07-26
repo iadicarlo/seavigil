@@ -3091,37 +3091,37 @@
     "evidence_hash": "9da5d432ab8a241f3983ba53d0b26dbeb1141a184c4b883796f3d34d76868f04"
   },
   {
-    "incident_id": "live_enco_121dfba909e68f",
+    "incident_id": "live_enco_b8df2b7eb67e47",
     "type": "encounter",
-    "centroid_lon": 122.8721,
-    "centroid_lat": 27.2142,
-    "time_start_utc": "2026-07-21T04:00:00.000Z",
-    "time_end_utc": "2026-07-21T23:20:00.000Z",
-    "vessel_id": "416000826",
-    "ship_name": "SIN SHUN JI 16",
+    "centroid_lon": 120.7908,
+    "centroid_lat": 38.0446,
+    "time_start_utc": "2026-07-21T20:00:00.000Z",
+    "time_end_utc": "2026-07-21T23:30:00.000Z",
+    "vessel_id": "612335898",
+    "ship_name": "LUCHANGYANG31288",
     "ship_type": "Fishing",
-    "flag": "TWN",
-    "flag_emoji": "\ud83c\uddf9\ud83c\uddfc",
+    "flag": "CAF",
+    "flag_emoji": "\ud83c\udde8\ud83c\uddeb",
     "gear": "Encounter",
     "n_positions": 0,
     "n_fishing_positions": 0,
     "mean_fishing_proba": null,
     "max_fishing_proba": null,
     "_rfmo": [
-      "ACAP",
-      "APFIC",
+      "PICES",
       "IWC",
+      "ACAP",
       "WCPFC"
     ],
     "_no_take": false,
     "mpa_name": "At-sea encounter (transshipment)",
-    "duration_hours": 19.3,
-    "carrier_mmsi": "200042208",
+    "duration_hours": 3.5,
+    "carrier_mmsi": "412335898",
     "explanation": {
       "method": "GFW Events encounters dataset (Miller et al. 2018).",
       "drivers": [
-        "two vessels within range for 19 h",
-        "counterpart: 200042208",
+        "two vessels within range for 4 h",
+        "counterpart: LUCHANGYUYANG64918",
         "two-vessel at-sea encounter (GFW Events)"
       ]
     },
@@ -3142,7 +3142,7 @@
     "severity": "high",
     "severity_reason": "foreign vessel, no authorization on record",
     "evidence_schema": "seavigil-evidence-1.0",
-    "evidence_hash": "9d8e35f04c2829ca4220129b9430eebae8d3a4f1dc24425a2177f39397df3776"
+    "evidence_hash": "6c8ebfafa57f1260870b14e0588186c8e4be1c2f11e200dc5c9dc95cbe275ba6"
   },
   {
     "incident_id": "live_ais__120376dc0c6efe",
@@ -3198,61 +3198,6 @@
     "severity_reason": "foreign vessel, no authorization on record",
     "evidence_schema": "seavigil-evidence-1.0",
     "evidence_hash": "7129a6e8f99ef468d123822c46a3b43782df4f2fe6472e1bf918254f56645376"
-  },
-  {
-    "incident_id": "live_enco_5cfddf3c0feade",
-    "type": "encounter",
-    "centroid_lon": 110.6756,
-    "centroid_lat": 9.1223,
-    "time_start_utc": "2026-07-21T06:30:00.000Z",
-    "time_end_utc": "2026-07-21T22:50:00.000Z",
-    "vessel_id": "228456789",
-    "ship_name": "TIEN DAT(^-^)",
-    "ship_type": "Fishing",
-    "flag": "FRA",
-    "flag_emoji": "\ud83c\uddeb\ud83c\uddf7",
-    "gear": "Encounter",
-    "n_positions": 0,
-    "n_fishing_positions": 0,
-    "mean_fishing_proba": null,
-    "max_fishing_proba": null,
-    "_rfmo": [
-      "IWC",
-      "APFIC",
-      "WCPFC",
-      "ACAP",
-      "SEAFDEC"
-    ],
-    "_no_take": false,
-    "mpa_name": "At-sea encounter (transshipment)",
-    "duration_hours": 16.3,
-    "carrier_mmsi": "574609139",
-    "explanation": {
-      "method": "GFW Events encounters dataset (Miller et al. 2018).",
-      "drivers": [
-        "two vessels within range for 16 h",
-        "counterpart: THUYET NGA",
-        "two-vessel at-sea encounter (GFW Events)"
-      ]
-    },
-    "caveats": [
-      "Co-location can be legitimate (joint operations, safety, shelter).",
-      "Apparent transshipment is inferred from proximity and low speed, not observed.",
-      "An inspection lead from GFW Events, not proof of illegal activity."
-    ],
-    "eez_name": "Vietnamese Exclusive Economic Zone",
-    "eez_sovereign": "Vietnam",
-    "eez_iso_sov": "VNM",
-    "eez_foreign": true,
-    "authorization_status": "no_record",
-    "authorization_authorities": [],
-    "registry_iuu_tag": false,
-    "registry_flag": "",
-    "registry_imo": "",
-    "severity": "high",
-    "severity_reason": "foreign vessel, no authorization on record",
-    "evidence_schema": "seavigil-evidence-1.0",
-    "evidence_hash": "a50e2d995f89ef048baf79a529c91111233acd05d7f46f8486a6532e34305e2e"
   },
   {
     "incident_id": "live_ais__cbbc410b062440",
