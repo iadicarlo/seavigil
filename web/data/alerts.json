@@ -1,6 +1,32 @@
 {
-"generated_at": "2026-07-26T00:15:42Z",
+"generated_at": "2026-07-26T04:02:10Z",
 "alerts": [
+{
+"id": "live_enco_e088b122fe888d",
+"first_seen": "2026-07-26T04:02:10Z",
+"type": "encounter",
+"when": "2026-07-22T15:50:00.000Z",
+"eez": "Russian Exclusive Economic Zone",
+"flag": "CHN",
+"authorization": "no_record",
+"severity_reason": "foreign vessel, no authorization on record",
+"lat": 63.4277,
+"lon": 179.9312,
+"ship_name": "HAI XING"
+},
+{
+"id": "live_enco_c8f54f267e875a",
+"first_seen": "2026-07-26T04:02:10Z",
+"type": "encounter",
+"when": "2026-07-22T02:20:00.000Z",
+"eez": "Overlapping claim Senkaku Islands: Taiwan / Japan / China",
+"flag": "ALB",
+"authorization": "no_record",
+"severity_reason": "foreign vessel, no authorization on record",
+"lat": 26.992,
+"lon": 123.0675,
+"ship_name": ""
+},
 {
 "id": "live_enco_a133e2660e27fd",
 "first_seen": "2026-07-26T00:15:42Z",
@@ -2574,32 +2600,6 @@
 "lat": 26.4968,
 "lon": 121.6948,
 "ship_name": "CHANG SHENG 36"
-},
-{
-"id": "live_enco_819dbe2834c587",
-"first_seen": "2026-07-20T02:13:08Z",
-"type": "encounter",
-"when": "2026-07-16T18:40:00.000Z",
-"eez": "Kiribati Exclusive Economic Zone (Phoenix Group)",
-"flag": "CHN",
-"authorization": "authorization_lapsed",
-"severity_reason": "foreign vessel, authorization lapsed",
-"lat": -4.0182,
-"lon": -169.0472,
-"ship_name": "LURUYUANYU138"
-},
-{
-"id": "live_enco_513de3009d62c8",
-"first_seen": "2026-07-20T02:13:08Z",
-"type": "encounter",
-"when": "2026-07-16T13:10:00.000Z",
-"eez": "Vietnamese Exclusive Economic Zone",
-"flag": "MHL",
-"authorization": "no_record",
-"severity_reason": "foreign vessel, no authorization on record",
-"lat": 11.1945,
-"lon": 108.7352,
-"ship_name": "3 TINH F7"
 }
 ]
 }
