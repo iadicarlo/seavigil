@@ -1,9 +1,9 @@
 # Incident `live_ais__fb8b1a3c063256`
 
 - **MPA:** AIS disabling (going dark)
-- **Severity:** HIGH (foreign vessel, authorization lapsed)
+- **Severity:** HIGH (foreign vessel, no authorization on record)
 - **EEZ:** Japanese Exclusive Economic Zone (Japan) -- FOREIGN-flagged vessel
-- **Authorization:** Authorization lapsed before this date: FFA, WCPFC  ·  IMO 9733404
+- **Authorization:** No public authorization record (check coastal state)
 - **Vessel:** 🇨🇳 JIN HUI 18  ·  **signal:** AIS gap
 - **When (UTC):** 2026-07-20T18:20:19.000Z → 2026-07-21T20:09:54.000Z
 - **Gap:** 25.8 h dark, 179.0 nm offshore
