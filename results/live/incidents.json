@@ -2932,8 +2932,8 @@
     "centroid_lat": 10.7552,
     "time_start_utc": "2026-07-20T20:40:00.000Z",
     "time_end_utc": "2026-07-21T23:50:00.000Z",
-    "vessel_id": "412589168",
-    "ship_name": "ZHONGGUOGUIFANGYU",
+    "vessel_id": "412503532",
+    "ship_name": "GUIFANGYU08013",
     "ship_type": "Fishing",
     "flag": "CHN",
     "flag_emoji": "\ud83c\udde8\ud83c\uddf3",
@@ -2943,21 +2943,21 @@
     "mean_fishing_proba": null,
     "max_fishing_proba": null,
     "_rfmo": [
-      "ACAP",
-      "APFIC",
       "IWC",
+      "ACAP",
+      "SEAFDEC",
       "WCPFC",
-      "SEAFDEC"
+      "APFIC"
     ],
     "_no_take": false,
     "mpa_name": "At-sea encounter (transshipment)",
     "duration_hours": 27.2,
-    "carrier_mmsi": "412503532",
+    "carrier_mmsi": "412589168",
     "explanation": {
       "method": "GFW Events encounters dataset (Miller et al. 2018).",
       "drivers": [
         "two vessels within range for 27 h",
-        "counterpart: GUIFANGYU08013",
+        "counterpart: ZHONGGUOGUIFANGYU",
         "two-vessel at-sea encounter (GFW Events)"
       ]
     },
@@ -2978,7 +2978,7 @@
     "severity": "high",
     "severity_reason": "foreign vessel, no authorization on record",
     "evidence_schema": "seavigil-evidence-1.0",
-    "evidence_hash": "1bf756a02d370566e528b64371ff22d2f28b4eb16c1e5f8b1443b2f905a9db12"
+    "evidence_hash": "970dd8de395aff4910f5b7e3dff6a74c6f80bc546706382817f0f455e31f119b"
   },
   {
     "incident_id": "live_ais__5597d400ad67cc",
