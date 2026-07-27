@@ -1,9 +1,9 @@
 # Incident `live_ais__667b1de26a4b82`
 
 - **MPA:** AIS disabling (going dark)
-- **Severity:** HIGH (foreign vessel, no authorization on record)
+- **Severity:** HIGH (foreign vessel, authorization lapsed)
 - **EEZ:** Papua New Guinean Exclusive Economic Zone (Papua New Guinea) -- FOREIGN-flagged vessel
-- **Authorization:** No public authorization record (check coastal state)
+- **Authorization:** Authorization lapsed before this date: FFA, WCPFC  ·  IMO 9206982
 - **Vessel:** 🇵🇭 MATTEO TC  ·  **signal:** AIS gap
 - **When (UTC):** 2026-07-10T09:29:48.000Z → 2026-07-22T20:36:30.000Z
 - **Gap:** 299.1 h dark, 52.0 nm offshore
