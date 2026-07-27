@@ -1,5 +1,60 @@
 [
   {
+    "incident_id": "live_enco_20d70a62cb0db5",
+    "type": "encounter",
+    "centroid_lon": 179.9006,
+    "centroid_lat": 63.4559,
+    "time_start_utc": "2026-07-24T02:50:00.000Z",
+    "time_end_utc": "2026-07-24T23:50:00.000Z",
+    "vessel_id": "412549556",
+    "ship_name": "HAILI",
+    "ship_type": "Fishing",
+    "flag": "CHN",
+    "flag_emoji": "\ud83c\udde8\ud83c\uddf3",
+    "gear": "Encounter",
+    "n_positions": 0,
+    "n_fishing_positions": 0,
+    "mean_fishing_proba": null,
+    "max_fishing_proba": null,
+    "_rfmo": [
+      "PICES",
+      "ACAP",
+      "IWC"
+    ],
+    "_no_take": false,
+    "mpa_name": "At-sea encounter (transshipment)",
+    "duration_hours": 21.0,
+    "carrier_mmsi": "273439810",
+    "explanation": {
+      "method": "GFW Events encounters dataset (Miller et al. 2018).",
+      "drivers": [
+        "two vessels within range for 21 h",
+        "counterpart: ATMODA",
+        "two-vessel at-sea encounter (GFW Events)"
+      ]
+    },
+    "caveats": [
+      "Co-location can be legitimate (joint operations, safety, shelter).",
+      "Apparent transshipment is inferred from proximity and low speed, not observed.",
+      "An inspection lead from GFW Events, not proof of illegal activity."
+    ],
+    "eez_name": "Russian Exclusive Economic Zone",
+    "eez_sovereign": "Russia",
+    "eez_iso_sov": "RUS",
+    "eez_foreign": true,
+    "authorization_status": "authorization_lapsed",
+    "authorization_authorities": [
+      "NPFC"
+    ],
+    "registry_iuu_tag": false,
+    "registry_flag": "CHN",
+    "registry_imo": "8607244",
+    "severity": "high",
+    "severity_reason": "foreign vessel, authorization lapsed",
+    "evidence_schema": "seavigil-evidence-1.0",
+    "evidence_hash": "85777ca9a88308ed15a16f219830db6412d79b68078fc36affb32e3f31fffd05"
+  },
+  {
     "incident_id": "live_enco_3a1834e3f7117e",
     "type": "encounter",
     "centroid_lon": -168.8018,
@@ -57,61 +112,6 @@
     "severity_reason": "foreign vessel, authorization lapsed",
     "evidence_schema": "seavigil-evidence-1.0",
     "evidence_hash": "f9785cc4b8b7a27b077d76ad335f6c1a00ff13e2b230be01f5985b7ec60dc82d"
-  },
-  {
-    "incident_id": "live_enco_20d70a62cb0db5",
-    "type": "encounter",
-    "centroid_lon": 179.9006,
-    "centroid_lat": 63.4559,
-    "time_start_utc": "2026-07-24T02:50:00.000Z",
-    "time_end_utc": "2026-07-24T23:50:00.000Z",
-    "vessel_id": "412549556",
-    "ship_name": "HAILI",
-    "ship_type": "Fishing",
-    "flag": "CHN",
-    "flag_emoji": "\ud83c\udde8\ud83c\uddf3",
-    "gear": "Encounter",
-    "n_positions": 0,
-    "n_fishing_positions": 0,
-    "mean_fishing_proba": null,
-    "max_fishing_proba": null,
-    "_rfmo": [
-      "PICES",
-      "ACAP",
-      "IWC"
-    ],
-    "_no_take": false,
-    "mpa_name": "At-sea encounter (transshipment)",
-    "duration_hours": 21.0,
-    "carrier_mmsi": "273439810",
-    "explanation": {
-      "method": "GFW Events encounters dataset (Miller et al. 2018).",
-      "drivers": [
-        "two vessels within range for 21 h",
-        "counterpart: ATMODA",
-        "two-vessel at-sea encounter (GFW Events)"
-      ]
-    },
-    "caveats": [
-      "Co-location can be legitimate (joint operations, safety, shelter).",
-      "Apparent transshipment is inferred from proximity and low speed, not observed.",
-      "An inspection lead from GFW Events, not proof of illegal activity."
-    ],
-    "eez_name": "Russian Exclusive Economic Zone",
-    "eez_sovereign": "Russia",
-    "eez_iso_sov": "RUS",
-    "eez_foreign": true,
-    "authorization_status": "authorization_lapsed",
-    "authorization_authorities": [
-      "NPFC"
-    ],
-    "registry_iuu_tag": false,
-    "registry_flag": "CHN",
-    "registry_imo": "8607244",
-    "severity": "high",
-    "severity_reason": "foreign vessel, authorization lapsed",
-    "evidence_schema": "seavigil-evidence-1.0",
-    "evidence_hash": "85777ca9a88308ed15a16f219830db6412d79b68078fc36affb32e3f31fffd05"
   },
   {
     "incident_id": "live_enco_a6fff711164e64",
@@ -224,60 +224,6 @@
     "severity_reason": "foreign vessel, authorization lapsed",
     "evidence_schema": "seavigil-evidence-1.0",
     "evidence_hash": "666c0e84bb29760ea138f3f324f8bba35a06fb6fed3d3cebded801b6673ea00d"
-  },
-  {
-    "incident_id": "live_enco_2c5e5f02978883",
-    "type": "encounter",
-    "centroid_lon": 123.4616,
-    "centroid_lat": 27.1864,
-    "time_start_utc": "2026-07-24T11:00:00.000Z",
-    "time_end_utc": "2026-07-24T22:00:00.000Z",
-    "vessel_id": "412452661",
-    "ship_name": "MINHUIYU02086",
-    "ship_type": "Fishing",
-    "flag": "CHN",
-    "flag_emoji": "\ud83c\udde8\ud83c\uddf3",
-    "gear": "Encounter",
-    "n_positions": 0,
-    "n_fishing_positions": 0,
-    "mean_fishing_proba": null,
-    "max_fishing_proba": null,
-    "_rfmo": [
-      "IWC",
-      "APFIC",
-      "ACAP",
-      "WCPFC"
-    ],
-    "_no_take": false,
-    "mpa_name": "At-sea encounter (transshipment)",
-    "duration_hours": 11.0,
-    "carrier_mmsi": "700225652",
-    "explanation": {
-      "method": "GFW Events encounters dataset (Miller et al. 2018).",
-      "drivers": [
-        "two vessels within range for 11 h",
-        "counterpart: MINHUIYU02086",
-        "two-vessel at-sea encounter (GFW Events)"
-      ]
-    },
-    "caveats": [
-      "Co-location can be legitimate (joint operations, safety, shelter).",
-      "Apparent transshipment is inferred from proximity and low speed, not observed.",
-      "An inspection lead from GFW Events, not proof of illegal activity."
-    ],
-    "eez_name": "Overlapping claim Senkaku Islands: Taiwan / Japan / China",
-    "eez_sovereign": "Taiwan",
-    "eez_iso_sov": "TWN",
-    "eez_foreign": true,
-    "authorization_status": "no_record",
-    "authorization_authorities": [],
-    "registry_iuu_tag": false,
-    "registry_flag": "",
-    "registry_imo": "",
-    "severity": "high",
-    "severity_reason": "foreign vessel, no authorization on record",
-    "evidence_schema": "seavigil-evidence-1.0",
-    "evidence_hash": "f086cfc163c23d3a8ec85ae40c22445e99a1f0de0a53f6acabc2aa32b3f8643b"
   },
   {
     "incident_id": "live_enco_20e5f4a7a216a2",
