@@ -1,6 +1,45 @@
 {
-"generated_at": "2026-07-27T00:15:08Z",
+"generated_at": "2026-07-27T04:06:47Z",
 "alerts": [
+{
+"id": "live_enco_9fe43869c60905",
+"first_seen": "2026-07-27T04:06:47Z",
+"type": "encounter",
+"when": "2026-07-22T13:00:00.000Z",
+"eez": "United States Exclusive Economic Zone (Alaska)",
+"flag": "KOR",
+"authorization": "authorization_lapsed",
+"severity_reason": "foreign vessel, authorization lapsed",
+"lat": 57.9342,
+"lon": -153.0246,
+"ship_name": "DHARA"
+},
+{
+"id": "live_enco_7462cc8b483643",
+"first_seen": "2026-07-27T04:06:47Z",
+"type": "encounter",
+"when": "2026-07-23T10:50:00.000Z",
+"eez": "Chinese Exclusive Economic Zone",
+"flag": "TWN",
+"authorization": "no_record",
+"severity_reason": "foreign vessel, no authorization on record",
+"lat": 23.4058,
+"lon": 118.5278,
+"ship_name": "HORNG DER SHENG"
+},
+{
+"id": "live_enco_b2da8b7aeb2adc",
+"first_seen": "2026-07-27T04:06:47Z",
+"type": "encounter",
+"when": "2026-07-23T00:40:00.000Z",
+"eez": "Overlapping claim Senkaku Islands: Taiwan / Japan / China",
+"flag": "ALB",
+"authorization": "no_record",
+"severity_reason": "foreign vessel, no authorization on record",
+"lat": 27.2128,
+"lon": 123.0854,
+"ship_name": ""
+},
 {
 "id": "live_enco_a6fff711164e64",
 "first_seen": "2026-07-27T00:15:08Z",
@@ -2561,45 +2600,6 @@
 "lat": 5.0199,
 "lon": -162.762,
 "ship_name": "IMVUBU"
-},
-{
-"id": "live_ais__d6d031d3071cc5",
-"first_seen": "2026-07-21T12:01:50Z",
-"type": "ais_disabling",
-"when": "2026-07-14T13:00:24.000Z",
-"eez": "Yemeni Exclusive Economic Zone",
-"flag": "LBR",
-"authorization": "no_record",
-"severity_reason": "foreign vessel, no authorization on record",
-"lat": 15.8612,
-"lon": 42.6667,
-"ship_name": "RODOS"
-},
-{
-"id": "live_ais__fa166a0c68121f",
-"first_seen": "2026-07-21T12:01:50Z",
-"type": "ais_disabling",
-"when": "2026-07-16T05:54:26.000Z",
-"eez": "Brazilian Exclusive Economic Zone",
-"flag": "BHS",
-"authorization": "no_record",
-"severity_reason": "foreign vessel, no authorization on record",
-"lat": -24.6399,
-"lon": -42.4147,
-"ship_name": "RIO GRANDE"
-},
-{
-"id": "live_ais__44a6e2a90fe2af",
-"first_seen": "2026-07-21T12:01:50Z",
-"type": "ais_disabling",
-"when": "2026-07-11T05:45:26.000Z",
-"eez": "Angolan Exclusive Economic Zone",
-"flag": "CUW",
-"authorization": "authorization_lapsed",
-"severity_reason": "foreign vessel, authorization lapsed",
-"lat": -6.4539,
-"lon": 9.7703,
-"ship_name": "HAIZEA BAT"
 }
 ]
 }
