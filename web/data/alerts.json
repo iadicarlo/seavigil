@@ -1,6 +1,19 @@
 {
-"generated_at": "2026-07-28T03:38:07Z",
+"generated_at": "2026-07-28T06:41:41Z",
 "alerts": [
+{
+"id": "live_enco_a2787ec08840df",
+"first_seen": "2026-07-28T06:41:41Z",
+"type": "encounter",
+"when": "2026-07-24T07:30:00.000Z",
+"eez": "Overlapping claim Senkaku Islands: Taiwan / Japan / China",
+"flag": "ALB",
+"authorization": "no_record",
+"severity_reason": "foreign vessel, no authorization on record",
+"lat": 27.2044,
+"lon": 123.4242,
+"ship_name": ""
+},
 {
 "id": "live_enco_0a44913a86fa75",
 "first_seen": "2026-07-28T03:38:07Z",
@@ -2587,19 +2600,6 @@
 "lat": -28.4454,
 "lon": 43.6414,
 "ship_name": "MORNING CORNET"
-},
-{
-"id": "live_ais__84238d4ac21229",
-"first_seen": "2026-07-22T12:04:11Z",
-"type": "ais_disabling",
-"when": "2026-07-17T06:24:23.000Z",
-"eez": "New Zealand Exclusive Economic Zone (Cook Islands)",
-"flag": "CHN",
-"authorization": "no_record",
-"severity_reason": "foreign vessel, no authorization on record",
-"lat": -9.2522,
-"lon": -165.3107,
-"ship_name": "RONGDAYANG8-5  100%"
 }
 ]
 }
