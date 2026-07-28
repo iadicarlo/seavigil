@@ -1,9 +1,9 @@
 # Incident `live_ais__9aa5ff8f93fc57`
 
 - **MPA:** AIS disabling (going dark)
-- **Severity:** HIGH (foreign vessel, no authorization on record)
+- **Severity:** HIGH (foreign vessel, authorization lapsed)
 - **EEZ:** Mauritanian Exclusive Economic Zone (Mauritania) -- FOREIGN-flagged vessel
-- **Authorization:** No public authorization record (check coastal state)
+- **Authorization:** Authorization lapsed before this date: ICCAT  ·  IMO 9747560
 - **Vessel:** 🇪🇸 GARBOLA  ·  **signal:** AIS gap
 - **When (UTC):** 2026-07-22T05:39:17.000Z → 2026-07-22T19:23:21.000Z
 - **Gap:** 13.7 h dark, 68.0 nm offshore
