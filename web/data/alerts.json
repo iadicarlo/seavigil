@@ -1,6 +1,19 @@
 {
-"generated_at": "2026-07-28T00:11:54Z",
+"generated_at": "2026-07-28T03:38:07Z",
 "alerts": [
+{
+"id": "live_enco_0a44913a86fa75",
+"first_seen": "2026-07-28T03:38:07Z",
+"type": "encounter",
+"when": "2026-07-24T14:40:00.000Z",
+"eez": "Joint regime area: South Korea / Japan",
+"flag": "CHN",
+"authorization": "no_record",
+"severity_reason": "foreign vessel, no authorization on record",
+"lat": 30.4191,
+"lon": 126.8886,
+"ship_name": "ZHEYUYU32001"
+},
 {
 "id": "live_enco_3a1834e3f7117e",
 "first_seen": "2026-07-27T17:12:37Z",
@@ -2587,19 +2600,6 @@
 "lat": -9.2522,
 "lon": -165.3107,
 "ship_name": "RONGDAYANG8-5  100%"
-},
-{
-"id": "live_ais__018052993b196f",
-"first_seen": "2026-07-22T12:04:11Z",
-"type": "ais_disabling",
-"when": "2026-07-13T22:15:08.000Z",
-"eez": "Solomon Islands Exclusive Economic Zone",
-"flag": "TWN",
-"authorization": "authorization_lapsed",
-"severity_reason": "foreign vessel, authorization lapsed",
-"lat": -6.7328,
-"lon": 161.3368,
-"ship_name": "SAN LIAN FA NO.18"
 }
 ]
 }
