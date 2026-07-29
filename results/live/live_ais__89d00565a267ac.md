@@ -1,9 +1,9 @@
 # Incident `live_ais__89d00565a267ac`
 
 - **MPA:** AIS disabling (going dark)
-- **Severity:** HIGH (foreign vessel, no authorization on record)
+- **Severity:** HIGH (foreign vessel, authorization lapsed)
 - **EEZ:** Kiribati Exclusive Economic Zone (Line Group) (Kiribati) -- FOREIGN-flagged vessel
-- **Authorization:** No public authorization record (check coastal state)
+- **Authorization:** Authorization lapsed before this date: FFA, WCPFC  ·  IMO 9713985
 - **Vessel:** 🇰🇷 F/V.MIRAERO  ·  **signal:** AIS gap
 - **When (UTC):** 2026-07-09T07:30:17.000Z → 2026-07-24T16:29:23.000Z
 - **Gap:** 369.0 h dark, 185.0 nm offshore

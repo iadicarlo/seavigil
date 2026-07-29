@@ -1,5 +1,60 @@
 [
   {
+    "incident_id": "live_enco_20d70a62cb0db5",
+    "type": "encounter",
+    "centroid_lon": 179.9034,
+    "centroid_lat": 63.4559,
+    "time_start_utc": "2026-07-24T02:50:00.000Z",
+    "time_end_utc": "2026-07-25T23:50:00.000Z",
+    "vessel_id": "412549556",
+    "ship_name": "HAILI",
+    "ship_type": "Fishing",
+    "flag": "CHN",
+    "flag_emoji": "\ud83c\udde8\ud83c\uddf3",
+    "gear": "Encounter",
+    "n_positions": 0,
+    "n_fishing_positions": 0,
+    "mean_fishing_proba": null,
+    "max_fishing_proba": null,
+    "_rfmo": [
+      "IWC",
+      "ACAP",
+      "PICES"
+    ],
+    "_no_take": false,
+    "mpa_name": "At-sea encounter (transshipment)",
+    "duration_hours": 45.0,
+    "carrier_mmsi": "273439810",
+    "explanation": {
+      "method": "GFW Events encounters dataset (Miller et al. 2018).",
+      "drivers": [
+        "two vessels within range for 45 h",
+        "counterpart: ATMODA",
+        "two-vessel at-sea encounter (GFW Events)"
+      ]
+    },
+    "caveats": [
+      "Co-location can be legitimate (joint operations, safety, shelter).",
+      "Apparent transshipment is inferred from proximity and low speed, not observed.",
+      "An inspection lead from GFW Events, not proof of illegal activity."
+    ],
+    "eez_name": "Russian Exclusive Economic Zone",
+    "eez_sovereign": "Russia",
+    "eez_iso_sov": "RUS",
+    "eez_foreign": true,
+    "authorization_status": "authorization_lapsed",
+    "authorization_authorities": [
+      "NPFC"
+    ],
+    "registry_iuu_tag": false,
+    "registry_flag": "CHN",
+    "registry_imo": "8607244",
+    "severity": "high",
+    "severity_reason": "foreign vessel, authorization lapsed",
+    "evidence_schema": "seavigil-evidence-1.0",
+    "evidence_hash": "8b548464bafe6192d5dc6df46fdde5ba500029c870427ea853e18574e29ea132"
+  },
+  {
     "incident_id": "live_enco_01c7a70ae60df1",
     "type": "encounter",
     "centroid_lon": 123.5719,
@@ -600,17 +655,13 @@
     "eez_sovereign": "Micronesia",
     "eez_iso_sov": "FSM",
     "eez_foreign": true,
-    "authorization_status": "authorization_lapsed",
-    "authorization_authorities": [
-      "FFA",
-      "IATTC",
-      "WCPFC"
-    ],
+    "authorization_status": "no_record",
+    "authorization_authorities": [],
     "registry_iuu_tag": false,
-    "registry_flag": "CHN",
-    "registry_imo": "9731133",
+    "registry_flag": "",
+    "registry_imo": "",
     "severity": "high",
-    "severity_reason": "foreign vessel, authorization lapsed",
+    "severity_reason": "foreign vessel, no authorization on record",
     "evidence_schema": "seavigil-evidence-1.0",
     "evidence_hash": "b80612c4da1812a90918b0145229b9c7bae40800567a3c13df03f0a5061136c6"
   },
@@ -660,17 +711,13 @@
     "eez_sovereign": "Solomon Islands",
     "eez_iso_sov": "SLB",
     "eez_foreign": true,
-    "authorization_status": "authorization_lapsed",
-    "authorization_authorities": [
-      "FFA",
-      "IATTC",
-      "WCPFC"
-    ],
+    "authorization_status": "no_record",
+    "authorization_authorities": [],
     "registry_iuu_tag": false,
-    "registry_flag": "TWN",
-    "registry_imo": "8749080",
+    "registry_flag": "",
+    "registry_imo": "",
     "severity": "high",
-    "severity_reason": "foreign vessel, authorization lapsed",
+    "severity_reason": "foreign vessel, no authorization on record",
     "evidence_schema": "seavigil-evidence-1.0",
     "evidence_hash": "87e7377c128918b63ce8fbff7a21e923b3e0f61b1aec512075480fad35d8bc78"
   },
@@ -720,13 +767,16 @@
     "eez_sovereign": "Kiribati",
     "eez_iso_sov": "KIR",
     "eez_foreign": true,
-    "authorization_status": "no_record",
-    "authorization_authorities": [],
+    "authorization_status": "authorization_lapsed",
+    "authorization_authorities": [
+      "FFA",
+      "WCPFC"
+    ],
     "registry_iuu_tag": false,
-    "registry_flag": "",
-    "registry_imo": "",
+    "registry_flag": "KOR",
+    "registry_imo": "9713985",
     "severity": "high",
-    "severity_reason": "foreign vessel, no authorization on record",
+    "severity_reason": "foreign vessel, authorization lapsed",
     "evidence_schema": "seavigil-evidence-1.0",
     "evidence_hash": "7b2c15ed1c130242bbd60e5ad38168063c06b37b4c38ef62e7cd764fb7877bb0"
   },
