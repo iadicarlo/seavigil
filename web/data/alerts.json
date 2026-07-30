@@ -1,6 +1,58 @@
 {
-"generated_at": "2026-07-29T23:16:40Z",
+"generated_at": "2026-07-30T00:14:17Z",
 "alerts": [
+{
+"id": "live_enco_daf61acdb1a943",
+"first_seen": "2026-07-30T00:14:17Z",
+"type": "encounter",
+"when": "2026-07-26T20:50:00.000Z",
+"eez": "Mauritanian Exclusive Economic Zone",
+"flag": "TUR",
+"authorization": "authorization_lapsed",
+"severity_reason": "foreign vessel, authorization lapsed",
+"lat": 20.1645,
+"lon": -17.306,
+"ship_name": "TURKMENLER"
+},
+{
+"id": "live_enco_963fd8124043ad",
+"first_seen": "2026-07-30T00:14:17Z",
+"type": "encounter",
+"when": "2026-07-26T12:30:00.000Z",
+"eez": "Overlapping claim Senkaku Islands: Taiwan / Japan / China",
+"flag": "CHN",
+"authorization": "no_record",
+"severity_reason": "foreign vessel, no authorization on record",
+"lat": 27.2941,
+"lon": 123.0999,
+"ship_name": "MIN HUI YU 00195"
+},
+{
+"id": "live_enco_ef02e1ec259726",
+"first_seen": "2026-07-30T00:14:17Z",
+"type": "encounter",
+"when": "2026-07-26T01:10:00.000Z",
+"eez": "Russian Exclusive Economic Zone",
+"flag": "CHN",
+"authorization": "authorization_lapsed",
+"severity_reason": "foreign vessel, authorization lapsed",
+"lat": 63.4217,
+"lon": 179.8949,
+"ship_name": "LONG TENG"
+},
+{
+"id": "live_enco_2487cef0e77500",
+"first_seen": "2026-07-30T00:14:17Z",
+"type": "encounter",
+"when": "2026-07-26T20:20:00.000Z",
+"eez": "Overlapping claim Kuril Islands: Japan / Russia",
+"flag": "RUS",
+"authorization": "authorization_lapsed",
+"severity_reason": "foreign vessel, authorization lapsed",
+"lat": 44.5735,
+"lon": 147.3704,
+"ship_name": "OSTROVNOY-14"
+},
 {
 "id": "live_enco_dd507fa04846de",
 "first_seen": "2026-07-29T22:15:00Z",
@@ -2548,58 +2600,6 @@
 "lat": -24.7813,
 "lon": -42.7229,
 "ship_name": "EAGLE PETROLINA"
-},
-{
-"id": "live_ais__e558db480845d7",
-"first_seen": "2026-07-23T12:03:25Z",
-"type": "ais_disabling",
-"when": "2026-07-19T07:24:53.000Z",
-"eez": "Mauritanian Exclusive Economic Zone",
-"flag": "SLV",
-"authorization": "authorization_lapsed",
-"severity_reason": "foreign vessel, authorization lapsed",
-"lat": 17.4505,
-"lon": -17.1824,
-"ship_name": "MONTEFRISA NUEVE"
-},
-{
-"id": "live_ais__c70c7592627bda",
-"first_seen": "2026-07-23T12:03:25Z",
-"type": "ais_disabling",
-"when": "2026-07-19T00:19:15.000Z",
-"eez": "Indonesian Exclusive Economic Zone",
-"flag": "LBR",
-"authorization": "no_record",
-"severity_reason": "foreign vessel, no authorization on record",
-"lat": 3.7241,
-"lon": 129.4331,
-"ship_name": "OHSHU MARU"
-},
-{
-"id": "live_ais__b17e7c8e04bba5",
-"first_seen": "2026-07-23T12:03:25Z",
-"type": "ais_disabling",
-"when": "2026-07-19T06:24:21.000Z",
-"eez": "Mauritanian Exclusive Economic Zone",
-"flag": "ESP",
-"authorization": "authorization_lapsed",
-"severity_reason": "foreign vessel, authorization lapsed",
-"lat": 19.2426,
-"lon": -18.4911,
-"ship_name": "ALBONIGA"
-},
-{
-"id": "live_ais__9fe3b04e69f691",
-"first_seen": "2026-07-23T12:03:25Z",
-"type": "ais_disabling",
-"when": "2026-07-18T15:33:25.000Z",
-"eez": "Tuvaluan Exclusive Economic Zone",
-"flag": "CHN",
-"authorization": "no_record",
-"severity_reason": "foreign vessel, no authorization on record",
-"lat": -5.8235,
-"lon": 178.5495,
-"ship_name": "636-2  100%"
 }
 ]
 }
