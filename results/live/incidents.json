@@ -61,8 +61,8 @@
     "centroid_lat": 27.2941,
     "time_start_utc": "2026-07-26T12:30:00.000Z",
     "time_end_utc": "2026-07-26T23:50:00.000Z",
-    "vessel_id": "412450675",
-    "ship_name": "MIN HUI YU 00195",
+    "vessel_id": "412450676",
+    "ship_name": "MINHUIYU00195",
     "ship_type": "Fishing",
     "flag": "CHN",
     "flag_emoji": "\ud83c\udde8\ud83c\uddf3",
@@ -72,20 +72,20 @@
     "mean_fishing_proba": null,
     "max_fishing_proba": null,
     "_rfmo": [
-      "APFIC",
       "ACAP",
-      "IWC",
-      "WCPFC"
+      "APFIC",
+      "WCPFC",
+      "IWC"
     ],
     "_no_take": false,
     "mpa_name": "At-sea encounter (transshipment)",
     "duration_hours": 11.3,
-    "carrier_mmsi": "412450676",
+    "carrier_mmsi": "412450675",
     "explanation": {
       "method": "GFW Events encounters dataset (Miller et al. 2018).",
       "drivers": [
         "two vessels within range for 11 h",
-        "counterpart: MINHUIYU00195",
+        "counterpart: MIN HUI YU 00195",
         "two-vessel at-sea encounter (GFW Events)"
       ]
     },
@@ -106,7 +106,7 @@
     "severity": "high",
     "severity_reason": "foreign vessel, no authorization on record",
     "evidence_schema": "seavigil-evidence-1.0",
-    "evidence_hash": "1393dd1b36e73507f5bf625dd5c807f1f866abbf8c24ed455ecd746a6137e047"
+    "evidence_hash": "38a990a1246ba8473bcc293d6f96f8db6dae62e8fa1daf116b53763eccd22224"
   },
   {
     "incident_id": "live_enco_ef02e1ec259726",
