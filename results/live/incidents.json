@@ -1,5 +1,60 @@
 [
   {
+    "incident_id": "live_enco_daf61acdb1a943",
+    "type": "encounter",
+    "centroid_lon": -17.306,
+    "centroid_lat": 20.1645,
+    "time_start_utc": "2026-07-26T20:50:00.000Z",
+    "time_end_utc": "2026-07-26T23:50:00.000Z",
+    "vessel_id": "271072122",
+    "ship_name": "TURKMENLER",
+    "ship_type": "Fishing",
+    "flag": "TUR",
+    "flag_emoji": "\ud83c\uddf9\ud83c\uddf7",
+    "gear": "Encounter",
+    "n_positions": 0,
+    "n_fishing_positions": 0,
+    "mean_fishing_proba": null,
+    "max_fishing_proba": null,
+    "_rfmo": [
+      "SRFC",
+      "IWC",
+      "NAMMCO",
+      "ICCAT",
+      "ACAP"
+    ],
+    "_no_take": false,
+    "mpa_name": "At-sea encounter (transshipment)",
+    "duration_hours": 3.0,
+    "carrier_mmsi": "271056023",
+    "explanation": {
+      "method": "GFW Events encounters dataset (Miller et al. 2018).",
+      "drivers": [
+        "two vessels within range for 3 h",
+        "counterpart: NECATI REIS 2",
+        "two-vessel at-sea encounter (GFW Events)"
+      ]
+    },
+    "caveats": [
+      "Co-location can be legitimate (joint operations, safety, shelter).",
+      "Apparent transshipment is inferred from proximity and low speed, not observed.",
+      "An inspection lead from GFW Events, not proof of illegal activity."
+    ],
+    "eez_name": "Mauritanian Exclusive Economic Zone",
+    "eez_sovereign": "Mauritania",
+    "eez_iso_sov": "MRT",
+    "eez_foreign": true,
+    "authorization_status": "no_record",
+    "authorization_authorities": [],
+    "registry_iuu_tag": false,
+    "registry_flag": "",
+    "registry_imo": "",
+    "severity": "high",
+    "severity_reason": "foreign vessel, no authorization on record",
+    "evidence_schema": "seavigil-evidence-1.0",
+    "evidence_hash": "dcf03c04355ffa612f8966cb40cfc2bc4af52ae511cd3a5df6ca4bb1896962fc"
+  },
+  {
     "incident_id": "live_enco_963fd8124043ad",
     "type": "encounter",
     "centroid_lon": 123.0999,
@@ -107,63 +162,6 @@
     "severity_reason": "foreign vessel, authorization lapsed",
     "evidence_schema": "seavigil-evidence-1.0",
     "evidence_hash": "48e2ed2159b9898bc1c4ae8e97afbc9a34a73ab315dca46051b8dbef24e05f7e"
-  },
-  {
-    "incident_id": "live_enco_daf61acdb1a943",
-    "type": "encounter",
-    "centroid_lon": -17.306,
-    "centroid_lat": 20.1645,
-    "time_start_utc": "2026-07-26T20:50:00.000Z",
-    "time_end_utc": "2026-07-26T23:50:00.000Z",
-    "vessel_id": "271072122",
-    "ship_name": "TURKMENLER",
-    "ship_type": "Fishing",
-    "flag": "TUR",
-    "flag_emoji": "\ud83c\uddf9\ud83c\uddf7",
-    "gear": "Encounter",
-    "n_positions": 0,
-    "n_fishing_positions": 0,
-    "mean_fishing_proba": null,
-    "max_fishing_proba": null,
-    "_rfmo": [
-      "SRFC",
-      "IWC",
-      "NAMMCO",
-      "ICCAT",
-      "ACAP"
-    ],
-    "_no_take": false,
-    "mpa_name": "At-sea encounter (transshipment)",
-    "duration_hours": 3.0,
-    "carrier_mmsi": "271056023",
-    "explanation": {
-      "method": "GFW Events encounters dataset (Miller et al. 2018).",
-      "drivers": [
-        "two vessels within range for 3 h",
-        "counterpart: NECATI REIS 2",
-        "two-vessel at-sea encounter (GFW Events)"
-      ]
-    },
-    "caveats": [
-      "Co-location can be legitimate (joint operations, safety, shelter).",
-      "Apparent transshipment is inferred from proximity and low speed, not observed.",
-      "An inspection lead from GFW Events, not proof of illegal activity."
-    ],
-    "eez_name": "Mauritanian Exclusive Economic Zone",
-    "eez_sovereign": "Mauritania",
-    "eez_iso_sov": "MRT",
-    "eez_foreign": true,
-    "authorization_status": "authorization_lapsed",
-    "authorization_authorities": [
-      "GFCM"
-    ],
-    "registry_iuu_tag": false,
-    "registry_flag": "TUR",
-    "registry_imo": "8685193",
-    "severity": "high",
-    "severity_reason": "foreign vessel, authorization lapsed",
-    "evidence_schema": "seavigil-evidence-1.0",
-    "evidence_hash": "dcf03c04355ffa612f8966cb40cfc2bc4af52ae511cd3a5df6ca4bb1896962fc"
   },
   {
     "incident_id": "live_enco_2487cef0e77500",
@@ -1379,15 +1377,13 @@
     "eez_sovereign": "Seychelles",
     "eez_iso_sov": "SYC",
     "eez_foreign": true,
-    "authorization_status": "authorization_lapsed",
-    "authorization_authorities": [
-      "IOTC"
-    ],
+    "authorization_status": "no_record",
+    "authorization_authorities": [],
     "registry_iuu_tag": false,
-    "registry_flag": "REU",
-    "registry_imo": "9540156",
+    "registry_flag": "",
+    "registry_imo": "",
     "severity": "high",
-    "severity_reason": "foreign vessel, authorization lapsed",
+    "severity_reason": "foreign vessel, no authorization on record",
     "evidence_schema": "seavigil-evidence-1.0",
     "evidence_hash": "30091f6af548991139b87f3575cdf7f7c023ae0d6f470a5cd14fbc1a7217c3c6"
   },
@@ -1551,13 +1547,16 @@
     "eez_sovereign": "Micronesia",
     "eez_iso_sov": "FSM",
     "eez_foreign": true,
-    "authorization_status": "no_record",
-    "authorization_authorities": [],
+    "authorization_status": "authorization_lapsed",
+    "authorization_authorities": [
+      "FFA",
+      "WCPFC"
+    ],
     "registry_iuu_tag": false,
-    "registry_flag": "",
-    "registry_imo": "",
+    "registry_flag": "JPN",
+    "registry_imo": "9281097",
     "severity": "high",
-    "severity_reason": "foreign vessel, no authorization on record",
+    "severity_reason": "foreign vessel, authorization lapsed",
     "evidence_schema": "seavigil-evidence-1.0",
     "evidence_hash": "a7554f45b187fc9ad4250412f0288099b29f50b25438bf97fa8edd4916d3942a"
   },

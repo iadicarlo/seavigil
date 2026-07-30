@@ -1,9 +1,9 @@
 # Incident `live_enco_daf61acdb1a943`
 
 - **MPA:** At-sea encounter (transshipment)
-- **Severity:** HIGH (foreign vessel, authorization lapsed)
+- **Severity:** HIGH (foreign vessel, no authorization on record)
 - **EEZ:** Mauritanian Exclusive Economic Zone (Mauritania) -- FOREIGN-flagged vessel
-- **Authorization:** Authorization lapsed before this date: GFCM  ·  IMO 8685193
+- **Authorization:** No public authorization record (check coastal state)
 - **Vessel:** 🇹🇷 TURKMENLER  ·  **signal:** Encounter
 - **When (UTC):** 2026-07-26T20:50:00.000Z → 2026-07-26T23:50:00.000Z
 - **Encounter:** 3.0 h with carrier `271056023` (apparent transshipment)

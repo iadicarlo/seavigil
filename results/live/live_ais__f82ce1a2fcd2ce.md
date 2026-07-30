@@ -1,9 +1,9 @@
 # Incident `live_ais__f82ce1a2fcd2ce`
 
 - **MPA:** AIS disabling (going dark)
-- **Severity:** HIGH (foreign vessel, no authorization on record)
+- **Severity:** HIGH (foreign vessel, authorization lapsed)
 - **EEZ:** Micronesian Exclusive Economic Zone (Micronesia) -- FOREIGN-flagged vessel
-- **Authorization:** No public authorization record (check coastal state)
+- **Authorization:** Authorization lapsed before this date: FFA, WCPFC  ·  IMO 9281097
 - **Vessel:** 🇯🇵 WAKABAMARU NO.5  ·  **signal:** AIS gap
 - **When (UTC):** 2026-07-11T08:35:31.000Z → 2026-07-24T22:29:29.000Z
 - **Gap:** 325.9 h dark, 167.0 nm offshore
