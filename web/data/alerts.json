@@ -1,6 +1,71 @@
 {
-"generated_at": "2026-07-30T22:19:50Z",
+"generated_at": "2026-07-31T00:15:56Z",
 "alerts": [
+{
+"id": "live_enco_2d7168d8b75b3a",
+"first_seen": "2026-07-31T00:15:56Z",
+"type": "encounter",
+"when": "2026-07-26T12:30:00.000Z",
+"eez": "Vietnamese Exclusive Economic Zone",
+"flag": "TCA",
+"authorization": "no_record",
+"severity_reason": "foreign vessel, no authorization on record",
+"lat": 19.0688,
+"lon": 106.5747,
+"ship_name": "BONG-MUC-B21+GOI-06"
+},
+{
+"id": "live_enco_7d29a989264a17",
+"first_seen": "2026-07-31T00:15:56Z",
+"type": "encounter",
+"when": "2026-07-27T00:00:00.000Z",
+"eez": "Overlapping claim Senkaku Islands: Taiwan / Japan / China",
+"flag": "ALB",
+"authorization": "no_record",
+"severity_reason": "foreign vessel, no authorization on record",
+"lat": 26.8463,
+"lon": 123.9275,
+"ship_name": ""
+},
+{
+"id": "live_enco_4e3348ecd664c4",
+"first_seen": "2026-07-31T00:15:56Z",
+"type": "encounter",
+"when": "2026-07-27T00:10:00.000Z",
+"eez": "Overlapping claim Taiwan: Taiwan / China",
+"flag": "KOR",
+"authorization": "no_record",
+"severity_reason": "foreign vessel, no authorization on record",
+"lat": 22.9142,
+"lon": 122.0535,
+"ship_name": ""
+},
+{
+"id": "live_enco_69e8bdebc4f353",
+"first_seen": "2026-07-31T00:15:56Z",
+"type": "encounter",
+"when": "2026-07-27T00:10:00.000Z",
+"eez": "Overlapping claim Taiwan: Taiwan / China",
+"flag": "KOR",
+"authorization": "no_record",
+"severity_reason": "foreign vessel, no authorization on record",
+"lat": 22.9127,
+"lon": 122.0261,
+"ship_name": ""
+},
+{
+"id": "live_enco_3370fe7b0ba477",
+"first_seen": "2026-07-31T00:15:56Z",
+"type": "encounter",
+"when": "2026-07-27T19:20:00.000Z",
+"eez": "Kiribati Exclusive Economic Zone (Line Group)",
+"flag": "NRU",
+"authorization": "authorization_lapsed",
+"severity_reason": "foreign vessel, authorization lapsed",
+"lat": -0.9254,
+"lon": -154.0653,
+"ship_name": "MALVA888"
+},
 {
 "id": "live_ais__20049f26a59b4f",
 "first_seen": "2026-07-30T12:04:46Z",
@@ -2535,71 +2600,6 @@
 "lat": 19.4764,
 "lon": 57.7346,
 "ship_name": "HAILI618"
-},
-{
-"id": "live_ais__2ffe64ada17cc0",
-"first_seen": "2026-07-24T11:56:26Z",
-"type": "ais_disabling",
-"when": "2026-07-20T09:00:10.000Z",
-"eez": "Brazilian Exclusive Economic Zone",
-"flag": "MLT",
-"authorization": "no_record",
-"severity_reason": "foreign vessel, no authorization on record",
-"lat": -25.4956,
-"lon": -42.784,
-"ship_name": "LISBOA"
-},
-{
-"id": "live_ais__83718b87540d18",
-"first_seen": "2026-07-24T11:56:26Z",
-"type": "ais_disabling",
-"when": "2026-07-20T04:14:47.000Z",
-"eez": "Kiribati Exclusive Economic Zone (Phoenix Group)",
-"flag": "CHN",
-"authorization": "no_record",
-"severity_reason": "foreign vessel, no authorization on record",
-"lat": -6.4048,
-"lon": -175.0404,
-"ship_name": "SYY33-2024-01-99%"
-},
-{
-"id": "live_ais__c304c49325f853",
-"first_seen": "2026-07-24T11:56:26Z",
-"type": "ais_disabling",
-"when": "2026-07-15T15:10:15.000Z",
-"eez": "United States Exclusive Economic Zone",
-"flag": "MHL",
-"authorization": "no_record",
-"severity_reason": "foreign vessel, no authorization on record",
-"lat": 26.8007,
-"lon": -90.3133,
-"ship_name": "CELSIUS MAYFAIR"
-},
-{
-"id": "live_ais__2868a56767c39c",
-"first_seen": "2026-07-24T11:56:26Z",
-"type": "ais_disabling",
-"when": "2026-07-18T21:33:33.000Z",
-"eez": "Kiribati Exclusive Economic Zone (Line Group)",
-"flag": "TWN",
-"authorization": "no_record",
-"severity_reason": "foreign vessel, no authorization on record",
-"lat": -3.4535,
-"lon": -156.4565,
-"ship_name": "FONG KUO NO.688"
-},
-{
-"id": "live_ais__e7768f79e79814",
-"first_seen": "2026-07-24T11:56:26Z",
-"type": "ais_disabling",
-"when": "2026-07-20T03:39:28.000Z",
-"eez": "United States Exclusive Economic Zone (Hawaii)",
-"flag": "ESP",
-"authorization": "no_record",
-"severity_reason": "foreign vessel, no authorization on record",
-"lat": 19.9754,
-"lon": -158.5883,
-"ship_name": "ESPS NAVY SHIP F101"
 }
 ]
 }
