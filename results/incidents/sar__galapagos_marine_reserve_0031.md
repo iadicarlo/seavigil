@@ -4,9 +4,9 @@
 - **Severity:** HIGH (no-take / national-park protection)  ·  boundary sample-approx-2024
 - **EEZ:** Ecuadorian Exclusive Economic Zone (Galapagos) (Ecuador)
 - **Vessel:** (dark -- no AIS identity)  ·  **source:** SAR (dark)
-- **When (UTC):** 2024-03-31T11:51:02Z
+- **When (UTC):** 2024-01-02T11:42:31Z
 - **Length:** n/a  ·  **broadcasting AIS:** no (dark)  ·  **GFW fishing-score:** n/a (Portal-only)
-- **Where:** -0.850, -91.510
+- **Where:** -0.200, -91.470
 
 ## Why this was flagged
 
@@ -33,7 +33,7 @@ A radar contact with no AIS may be a vessel not required to broadcast, sea clutt
 - Global Fishing Watch Sentinel-1 SAR vessel detections (Paolo et al., Nature 2024). CC BY-NC 4.0 (non-commercial).
 - WDPA / WD-OECM (World Database on Protected Areas) (UNEP-WCMC and IUCN (2026), June 2026). Protected Planet Terms of Use (non-commercial, display-only).
 - Marine Regions Exclusive Economic Zones v12 (Flanders Marine Institute (2024), DOI 10.14284/632). CC BY 4.0.
-- **Integrity (SHA-256 of canonical facts):** `c093a7459a8a7b27a108402afd638a423877139a298bab7b39bbd860e0b1bcf6`
+- **Integrity (SHA-256 of canonical facts):** `e9098cb33f27b8e36fc9f0c30b819734d3e45de1f6e586240e0d1795c81db3cc`
 - **Evidence schema:** seavigil-evidence-1.0
 
 _Apparent activity and an inspection lead, not proof of illegality. AIS and SAR evidence have known coverage gaps and spoofing risks; verify against authoritative sources before any enforcement action._

@@ -1,9 +1,9 @@
 {
- "n_detections": 421,
- "n_cases": 251,
+ "n_detections": 1292,
+ "n_cases": 296,
  "n_corroborated_multi_sensor": 0,
  "by_sensor_count": {
-  "1": 251
+  "1": 296
  },
  "generated_from": [
   "incidents",
@@ -13,7 +13,7 @@
   "s2"
  ],
  "review": {
-  "total_cases": 251,
+  "total_cases": 296,
   "reviewed": 0,
   "confirmed": 0,
   "dismissed": 0,
