@@ -1,9 +1,9 @@
 # Incident `live_ais__12ae189b27076f`
 
 - **MPA:** AIS disabling (going dark)
-- **Severity:** HIGH (foreign vessel, no authorization on record)
+- **Severity:** HIGH (foreign vessel, authorization lapsed)
 - **EEZ:** British Exclusive Economic Zone (Saint Helena) (United Kingdom) -- FOREIGN-flagged vessel
-- **Authorization:** No public authorization record (check coastal state)
+- **Authorization:** Authorization lapsed before this date: CCSBT, ICCAT  ·  IMO 9233038
 - **Vessel:** 🇪🇸 CARRIZO DOUS  ·  **signal:** AIS gap
 - **When (UTC):** 2026-07-25T16:28:34.000Z → 2026-07-26T16:03:23.000Z
 - **Gap:** 23.6 h dark, 277.0 nm offshore
