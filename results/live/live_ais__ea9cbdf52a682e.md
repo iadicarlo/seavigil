@@ -3,7 +3,7 @@
 - **MPA:** AIS disabling (going dark)
 - **Severity:** HIGH (foreign vessel, no authorization on record)
 - **EEZ:** Omani Exclusive Economic Zone (Oman) -- FOREIGN-flagged vessel
-- **Authorization:** No public authorization record (check coastal state)
+- **Authorization:** No public authorization record (check coastal state)  ·  IMO 9484728
 - **Vessel:** 🇸🇦 GHINAH  ·  **signal:** AIS gap
 - **When (UTC):** 2026-07-26T12:36:39.000Z → 2026-07-28T00:45:25.000Z
 - **Gap:** 36.1 h dark, 273.0 nm offshore

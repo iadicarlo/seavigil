@@ -3,7 +3,7 @@
 - **MPA:** AIS disabling (going dark)
 - **Severity:** HIGH (foreign vessel, no authorization on record)
 - **EEZ:** Colombian Exclusive Economic Zone (Colombia) -- FOREIGN-flagged vessel
-- **Authorization:** No public authorization record (check coastal state)
+- **Authorization:** No public authorization record (check coastal state)  ·  IMO 9792199
 - **Vessel:** 🇬🇷 NEAPOLIS  ·  **signal:** AIS gap
 - **When (UTC):** 2026-07-26T13:34:47.000Z → 2026-07-28T10:46:06.000Z
 - **Gap:** 45.2 h dark, 50.0 nm offshore
