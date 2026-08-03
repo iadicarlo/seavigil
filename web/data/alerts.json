@@ -1,6 +1,19 @@
 {
-"generated_at": "2026-08-03T18:07:25Z",
+"generated_at": "2026-08-03T19:59:26Z",
 "alerts": [
+{
+"id": "live_enco_978bc3cda1005c",
+"first_seen": "2026-08-03T19:59:26Z",
+"type": "encounter",
+"when": "2026-07-30T04:20:00.000Z",
+"eez": "Overlapping claim Senkaku Islands: Taiwan / Japan / China",
+"flag": "ALB",
+"authorization": "no_record",
+"severity_reason": "foreign vessel, no authorization on record",
+"lat": 27.3277,
+"lon": 123.202,
+"ship_name": ""
+},
 {
 "id": "live_ais__c79f4a7a5b5e3e",
 "first_seen": "2026-08-03T11:45:33Z",
@@ -2587,19 +2600,6 @@
 "lat": 18.9168,
 "lon": -18.1843,
 "ship_name": "ALBONIGA"
-},
-{
-"id": "live_ais__ca086ae222ab8e",
-"first_seen": "2026-07-27T11:41:42Z",
-"type": "ais_disabling",
-"when": "2026-07-22T11:52:59.000Z",
-"eez": "Mozambican Exclusive Economic Zone",
-"flag": "MHL",
-"authorization": "no_record",
-"severity_reason": "foreign vessel, no authorization on record",
-"lat": -16.5744,
-"lon": 40.9727,
-"ship_name": "TOLMI"
 }
 ]
 }
