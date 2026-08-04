@@ -1,6 +1,19 @@
 {
-"generated_at": "2026-08-04T03:39:52Z",
+"generated_at": "2026-08-04T06:42:00Z",
 "alerts": [
+{
+"id": "live_enco_e2935dd639d5c4",
+"first_seen": "2026-08-04T06:42:00Z",
+"type": "encounter",
+"when": "2026-07-30T16:10:00.000Z",
+"eez": "Vietnamese Exclusive Economic Zone",
+"flag": "USA",
+"authorization": "no_record",
+"severity_reason": "foreign vessel, no authorization on record",
+"lat": 10.0124,
+"lon": 104.0181,
+"ship_name": "THU@SON@85@D5"
+},
 {
 "id": "live_enco_978bc3cda1005c",
 "first_seen": "2026-08-03T19:59:26Z",
@@ -2587,19 +2600,6 @@
 "lat": -22.5641,
 "lon": -40.1246,
 "ship_name": "ANGRA DOS REIS"
-},
-{
-"id": "live_ais__9b9aa157c65890",
-"first_seen": "2026-07-27T11:41:42Z",
-"type": "ais_disabling",
-"when": "2026-07-21T06:33:29.000Z",
-"eez": "Mauritanian Exclusive Economic Zone",
-"flag": "ESP",
-"authorization": "no_record",
-"severity_reason": "foreign vessel, no authorization on record",
-"lat": 18.9168,
-"lon": -18.1843,
-"ship_name": "ALBONIGA"
 }
 ]
 }
