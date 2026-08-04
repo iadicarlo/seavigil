@@ -3,7 +3,7 @@
 - **MPA:** AIS disabling (going dark)
 - **Severity:** HIGH (foreign vessel, no authorization on record)
 - **EEZ:** Seychellois Exclusive Economic Zone (Seychelles) -- FOREIGN-flagged vessel
-- **Authorization:** No public authorization record (check coastal state)
+- **Authorization:** No public authorization record (check coastal state)  ·  IMO 9465368
 - **Vessel:** 🇱🇷 AGIOS FANOURIOS  ·  **signal:** AIS gap
 - **When (UTC):** 2026-07-29T05:31:06.000Z → 2026-07-30T07:27:31.000Z
 - **Gap:** 25.9 h dark, 130.0 nm offshore

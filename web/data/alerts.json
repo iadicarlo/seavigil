@@ -1,6 +1,45 @@
 {
-"generated_at": "2026-08-04T06:42:00Z",
+"generated_at": "2026-08-04T09:59:12Z",
 "alerts": [
+{
+"id": "live_enco_335d19489a40b5",
+"first_seen": "2026-08-04T09:59:12Z",
+"type": "encounter",
+"when": "2026-07-30T06:30:00.000Z",
+"eez": "Vietnamese Exclusive Economic Zone",
+"flag": "CHN",
+"authorization": "no_record",
+"severity_reason": "foreign vessel, no authorization on record",
+"lat": 10.2176,
+"lon": 110.737,
+"ship_name": "QIONG LIN YU 60018"
+},
+{
+"id": "live_enco_8b0e20be2f7d00",
+"first_seen": "2026-08-04T09:59:12Z",
+"type": "encounter",
+"when": "2026-07-31T07:10:00.000Z",
+"eez": "",
+"flag": "NZL",
+"authorization": "authorization_lapsed",
+"severity_reason": "inside a no-take reserve",
+"lat": -50.8142,
+"lon": 166.0762,
+"ship_name": "ALBATROSS II"
+},
+{
+"id": "live_enco_2fe69504c8a56e",
+"first_seen": "2026-08-04T09:59:12Z",
+"type": "encounter",
+"when": "2026-07-31T16:50:00.000Z",
+"eez": "Sierra Leonean Exclusive Economic Zone",
+"flag": "CHN",
+"authorization": "authorization_lapsed",
+"severity_reason": "foreign vessel, authorization lapsed",
+"lat": 8.5901,
+"lon": -13.8055,
+"ship_name": "CHANG RONG 3"
+},
 {
 "id": "live_enco_e2935dd639d5c4",
 "first_seen": "2026-08-04T06:42:00Z",
@@ -2561,45 +2600,6 @@
 "lat": 18.6833,
 "lon": -158.2703,
 "ship_name": "HSD-NET-68%"
-},
-{
-"id": "live_ais__d190949132d0ef",
-"first_seen": "2026-07-27T11:41:42Z",
-"type": "ais_disabling",
-"when": "2026-07-20T12:18:13.000Z",
-"eez": "Micronesian Exclusive Economic Zone",
-"flag": "SMR",
-"authorization": "no_record",
-"severity_reason": "foreign vessel, no authorization on record",
-"lat": 0.8831,
-"lon": 153.9743,
-"ship_name": "NETFISH268-09-99%"
-},
-{
-"id": "live_ais__128532938d89e4",
-"first_seen": "2026-07-27T11:41:42Z",
-"type": "ais_disabling",
-"when": "2026-07-22T22:12:26.000Z",
-"eez": "Solomon Islands Exclusive Economic Zone",
-"flag": "CHN",
-"authorization": "authorization_lapsed",
-"severity_reason": "foreign vessel, authorization lapsed",
-"lat": -10.7128,
-"lon": 171.9256,
-"ship_name": "ZHONGSHUI717"
-},
-{
-"id": "live_ais__e3b2e18fd48394",
-"first_seen": "2026-07-27T11:41:42Z",
-"type": "ais_disabling",
-"when": "2026-07-22T15:52:53.000Z",
-"eez": "Brazilian Exclusive Economic Zone",
-"flag": "BHS",
-"authorization": "no_record",
-"severity_reason": "foreign vessel, no authorization on record",
-"lat": -22.5641,
-"lon": -40.1246,
-"ship_name": "ANGRA DOS REIS"
 }
 ]
 }

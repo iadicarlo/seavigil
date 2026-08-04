@@ -1,9 +1,9 @@
 # Incident `live_ais__cfbeac8b427504`
 
 - **MPA:** AIS disabling (going dark)
-- **Severity:** HIGH (foreign vessel, no authorization on record)
+- **Severity:** HIGH (foreign vessel, authorization lapsed)
 - **EEZ:** Ivorian Exclusive Economic Zone (Ivory Coast) -- FOREIGN-flagged vessel
-- **Authorization:** No public authorization record (check coastal state)
+- **Authorization:** Authorization lapsed before this date: ICCAT  ·  IMO 8919403
 - **Vessel:** 🇧🇿 ATLANTIC GLORY  ·  **signal:** AIS gap
 - **When (UTC):** 2026-07-09T05:55:06.000Z → 2026-07-30T00:46:58.000Z
 - **Gap:** 498.9 h dark, 204.0 nm offshore
