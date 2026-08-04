@@ -6,8 +6,8 @@
     "centroid_lat": 10.2176,
     "time_start_utc": "2026-07-30T06:30:00.000Z",
     "time_end_utc": "2026-07-31T23:50:00.000Z",
-    "vessel_id": "412520251",
-    "ship_name": "QIONG LIN YU 60018",
+    "vessel_id": "412524858",
+    "ship_name": "QIONG LIN YU 60017",
     "ship_type": "Fishing",
     "flag": "CHN",
     "flag_emoji": "\ud83c\udde8\ud83c\uddf3",
@@ -17,21 +17,21 @@
     "mean_fishing_proba": null,
     "max_fishing_proba": null,
     "_rfmo": [
-      "WCPFC",
-      "ACAP",
-      "APFIC",
       "SEAFDEC",
-      "IWC"
+      "ACAP",
+      "IWC",
+      "WCPFC",
+      "APFIC"
     ],
     "_no_take": false,
     "mpa_name": "At-sea encounter (transshipment)",
     "duration_hours": 41.3,
-    "carrier_mmsi": "412524858",
+    "carrier_mmsi": "412520251",
     "explanation": {
       "method": "GFW Events encounters dataset (Miller et al. 2018).",
       "drivers": [
         "two vessels within range for 41 h",
-        "counterpart: QIONG LIN YU 60017",
+        "counterpart: QIONG LIN YU 60018",
         "two-vessel at-sea encounter (GFW Events)"
       ]
     },
@@ -52,7 +52,7 @@
     "severity": "high",
     "severity_reason": "foreign vessel, no authorization on record",
     "evidence_schema": "seavigil-evidence-1.0",
-    "evidence_hash": "e7d0fadf42580ee9d9865eec7c695580afc8b42366ad764bc369b9f4056c02e6"
+    "evidence_hash": "6c759589b67bf8291f55774c5d5306bf041b8361c68f07b8a6b6b0572f05510f"
   },
   {
     "incident_id": "live_enco_8b0e20be2f7d00",
