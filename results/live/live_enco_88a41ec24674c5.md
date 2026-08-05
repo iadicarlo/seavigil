@@ -1,12 +1,12 @@
 # Incident `live_enco_88a41ec24674c5`
 
 - **MPA:** At-sea encounter (transshipment)
-- **Severity:** HIGH (foreign vessel, authorization lapsed)
+- **Severity:** HIGH (foreign vessel, no authorization on record)
 - **EEZ:** Russian Exclusive Economic Zone (Russia) -- FOREIGN-flagged vessel
-- **Authorization:** Authorization lapsed before this date: NPFC, SPRFMO  ·  IMO 7237250
-- **Vessel:** 🇰🇷 JOON SUNG HO  ·  **signal:** Encounter
+- **Authorization:** No public authorization record (check coastal state)  ·  IMO 7377452
+- **Vessel:** 🇰🇷 NAMBUKHO  ·  **signal:** Encounter
 - **When (UTC):** 2026-08-01T01:40:00.000Z → 2026-08-01T23:50:00.000Z
-- **Encounter:** 22.2 h with carrier `440912000` (apparent transshipment)
+- **Encounter:** 22.2 h with carrier `440581000` (apparent transshipment)
 - **Where:** 63.512, 179.434
 
 ## Why this was flagged
@@ -14,7 +14,7 @@
 _GFW Events encounters dataset (Miller et al. 2018).._
 
 - two vessels within range for 22 h
-- counterpart: NAMBUKHO
+- counterpart: JOON SUNG HO
 - two-vessel at-sea encounter (GFW Events)
 
 ## Could be innocent
@@ -31,7 +31,7 @@ Two vessels meeting at sea can be a legitimate transfer, bunkering, or a safety 
 
 - WDPA / WD-OECM (World Database on Protected Areas) (UNEP-WCMC and IUCN (2026), June 2026). Protected Planet Terms of Use (non-commercial, display-only).
 - Marine Regions Exclusive Economic Zones v12 (Flanders Marine Institute (2024), DOI 10.14284/632). CC BY 4.0.
-- **Integrity (SHA-256 of canonical facts):** `a9c9929d7469e3ad2e43bbc91b2120b12359a93897ef5f6385c0ebd98b3f8d1c`
+- **Integrity (SHA-256 of canonical facts):** `4c6d29da97d69d208001328b94cf6855d7eea0f1c2f03166d7068b10fc474fee`
 - **Evidence schema:** seavigil-evidence-1.0
 
 _Apparent activity and an inspection lead, not proof of illegality. AIS and SAR evidence have known coverage gaps and spoofing risks; verify against authoritative sources before any enforcement action._
