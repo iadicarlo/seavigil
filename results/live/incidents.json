@@ -42,13 +42,16 @@
     "eez_sovereign": "Russia",
     "eez_iso_sov": "RUS",
     "eez_foreign": true,
-    "authorization_status": "no_record",
-    "authorization_authorities": [],
+    "authorization_status": "authorization_lapsed",
+    "authorization_authorities": [
+      "NPFC",
+      "SPRFMO"
+    ],
     "registry_iuu_tag": false,
     "registry_flag": "KOR",
     "registry_imo": "7237250",
     "severity": "high",
-    "severity_reason": "foreign vessel, no authorization on record",
+    "severity_reason": "foreign vessel, authorization lapsed",
     "evidence_schema": "seavigil-evidence-1.0",
     "evidence_hash": "a9c9929d7469e3ad2e43bbc91b2120b12359a93897ef5f6385c0ebd98b3f8d1c"
   },
@@ -99,15 +102,13 @@
     "eez_sovereign": "Australia",
     "eez_iso_sov": "AUS",
     "eez_foreign": true,
-    "authorization_status": "authorization_lapsed",
-    "authorization_authorities": [
-      "WCPFC"
-    ],
+    "authorization_status": "no_record",
+    "authorization_authorities": [],
     "registry_iuu_tag": false,
-    "registry_flag": "NCL",
+    "registry_flag": "",
     "registry_imo": "",
     "severity": "high",
-    "severity_reason": "foreign vessel, authorization lapsed",
+    "severity_reason": "foreign vessel, no authorization on record",
     "evidence_schema": "seavigil-evidence-1.0",
     "evidence_hash": "98c802d35b0db251e5c6af775c541e0731e8e11c6ba727d7fdbe59ae8d09b26c"
   },
@@ -820,16 +821,13 @@
     "eez_sovereign": "Mauritania",
     "eez_iso_sov": "MRT",
     "eez_foreign": true,
-    "authorization_status": "authorization_lapsed",
-    "authorization_authorities": [
-      "ICCAT",
-      "IOTC"
-    ],
+    "authorization_status": "no_record",
+    "authorization_authorities": [],
     "registry_iuu_tag": false,
-    "registry_flag": "ESP",
-    "registry_imo": "9747560",
+    "registry_flag": "",
+    "registry_imo": "",
     "severity": "high",
-    "severity_reason": "foreign vessel, authorization lapsed",
+    "severity_reason": "foreign vessel, no authorization on record",
     "evidence_schema": "seavigil-evidence-1.0",
     "evidence_hash": "a072af5b809fdd3d525093033224933e03a8ed4d626249c60f3bfabbe9d7d006"
   },

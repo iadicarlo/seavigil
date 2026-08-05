@@ -1,9 +1,9 @@
 # Incident `live_enco_0dd385e7a9da4e`
 
 - **MPA:** At-sea encounter (transshipment)
-- **Severity:** HIGH (foreign vessel, authorization lapsed)
+- **Severity:** HIGH (foreign vessel, no authorization on record)
 - **EEZ:** Australian Exclusive Economic Zone (Australia) -- FOREIGN-flagged vessel
-- **Authorization:** Authorization lapsed before this date: WCPFC
+- **Authorization:** No public authorization record (check coastal state)
 - **Vessel:** 🇳🇨 F/V SALVATORE  ·  **signal:** Encounter
 - **When (UTC):** 2026-08-01T20:40:00.000Z → 2026-08-01T23:50:00.000Z
 - **Encounter:** 3.2 h with carrier `585710908` (apparent transshipment)
