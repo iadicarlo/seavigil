@@ -1,65 +1,13 @@
 [
   {
-    "incident_id": "live_enco_8b0e20be2f7d00",
-    "type": "encounter",
-    "centroid_lon": 166.0762,
-    "centroid_lat": -50.8143,
-    "time_start_utc": "2026-07-31T07:10:00.000Z",
-    "time_end_utc": "2026-08-01T23:50:00.000Z",
-    "vessel_id": "512002236",
-    "ship_name": "ALBATROSS II",
-    "ship_type": "Fishing",
-    "flag": "NZL",
-    "flag_emoji": "\ud83c\uddf3\ud83c\uddff",
-    "gear": "Encounter",
-    "n_positions": 0,
-    "n_fishing_positions": 0,
-    "mean_fishing_proba": null,
-    "max_fishing_proba": null,
-    "_rfmo": [
-      "WCPFC",
-      "CCSBT",
-      "APFIC"
-    ],
-    "_no_take": true,
-    "mpa_name": "At-sea encounter (transshipment)",
-    "duration_hours": 40.7,
-    "carrier_mmsi": "512392000",
-    "explanation": {
-      "method": "GFW Events encounters dataset (Miller et al. 2018).",
-      "drivers": [
-        "two vessels within range for 41 h",
-        "counterpart: F.V. OCEAN PIONEER",
-        "two-vessel at-sea encounter (GFW Events)"
-      ]
-    },
-    "caveats": [
-      "Co-location can be legitimate (joint operations, safety, shelter).",
-      "Apparent transshipment is inferred from proximity and low speed, not observed.",
-      "An inspection lead from GFW Events, not proof of illegal activity."
-    ],
-    "authorization_status": "authorization_lapsed",
-    "authorization_authorities": [
-      "CCSBT"
-    ],
-    "registry_iuu_tag": false,
-    "registry_flag": "NZL",
-    "registry_imo": "8409111",
-    "eez_foreign": null,
-    "severity": "high",
-    "severity_reason": "inside a no-take reserve",
-    "evidence_schema": "seavigil-evidence-1.0",
-    "evidence_hash": "910f425abc7812158493d1cbeb58256442b1ad2849130e51b5daa742eac6b1f6"
-  },
-  {
     "incident_id": "live_enco_88a41ec24674c5",
     "type": "encounter",
     "centroid_lon": 179.434,
     "centroid_lat": 63.5121,
     "time_start_utc": "2026-08-01T01:40:00.000Z",
     "time_end_utc": "2026-08-01T23:50:00.000Z",
-    "vessel_id": "440912000",
-    "ship_name": "NAMBUKHO",
+    "vessel_id": "440581000",
+    "ship_name": "JOON SUNG HO",
     "ship_type": "Fishing",
     "flag": "KOR",
     "flag_emoji": "\ud83c\uddf0\ud83c\uddf7",
@@ -69,19 +17,19 @@
     "mean_fishing_proba": null,
     "max_fishing_proba": null,
     "_rfmo": [
-      "PICES",
+      "ACAP",
       "IWC",
-      "ACAP"
+      "PICES"
     ],
     "_no_take": false,
     "mpa_name": "At-sea encounter (transshipment)",
     "duration_hours": 22.2,
-    "carrier_mmsi": "440581000",
+    "carrier_mmsi": "440912000",
     "explanation": {
       "method": "GFW Events encounters dataset (Miller et al. 2018).",
       "drivers": [
         "two vessels within range for 22 h",
-        "counterpart: JOON SUNG HO",
+        "counterpart: NAMBUKHO",
         "two-vessel at-sea encounter (GFW Events)"
       ]
     },
@@ -94,15 +42,18 @@
     "eez_sovereign": "Russia",
     "eez_iso_sov": "RUS",
     "eez_foreign": true,
-    "authorization_status": "no_record",
-    "authorization_authorities": [],
+    "authorization_status": "authorization_lapsed",
+    "authorization_authorities": [
+      "NPFC",
+      "SPRFMO"
+    ],
     "registry_iuu_tag": false,
     "registry_flag": "KOR",
-    "registry_imo": "7377452",
+    "registry_imo": "7237250",
     "severity": "high",
-    "severity_reason": "foreign vessel, no authorization on record",
+    "severity_reason": "foreign vessel, authorization lapsed",
     "evidence_schema": "seavigil-evidence-1.0",
-    "evidence_hash": "4c6d29da97d69d208001328b94cf6855d7eea0f1c2f03166d7068b10fc474fee"
+    "evidence_hash": "a9c9929d7469e3ad2e43bbc91b2120b12359a93897ef5f6385c0ebd98b3f8d1c"
   },
   {
     "incident_id": "live_enco_0dd385e7a9da4e",
@@ -160,6 +111,58 @@
     "severity_reason": "foreign vessel, no authorization on record",
     "evidence_schema": "seavigil-evidence-1.0",
     "evidence_hash": "98c802d35b0db251e5c6af775c541e0731e8e11c6ba727d7fdbe59ae8d09b26c"
+  },
+  {
+    "incident_id": "live_enco_8b0e20be2f7d00",
+    "type": "encounter",
+    "centroid_lon": 166.0762,
+    "centroid_lat": -50.8143,
+    "time_start_utc": "2026-07-31T07:10:00.000Z",
+    "time_end_utc": "2026-08-01T23:50:00.000Z",
+    "vessel_id": "512002236",
+    "ship_name": "ALBATROSS II",
+    "ship_type": "Fishing",
+    "flag": "NZL",
+    "flag_emoji": "\ud83c\uddf3\ud83c\uddff",
+    "gear": "Encounter",
+    "n_positions": 0,
+    "n_fishing_positions": 0,
+    "mean_fishing_proba": null,
+    "max_fishing_proba": null,
+    "_rfmo": [
+      "WCPFC",
+      "CCSBT",
+      "APFIC"
+    ],
+    "_no_take": true,
+    "mpa_name": "At-sea encounter (transshipment)",
+    "duration_hours": 40.7,
+    "carrier_mmsi": "512392000",
+    "explanation": {
+      "method": "GFW Events encounters dataset (Miller et al. 2018).",
+      "drivers": [
+        "two vessels within range for 41 h",
+        "counterpart: F.V. OCEAN PIONEER",
+        "two-vessel at-sea encounter (GFW Events)"
+      ]
+    },
+    "caveats": [
+      "Co-location can be legitimate (joint operations, safety, shelter).",
+      "Apparent transshipment is inferred from proximity and low speed, not observed.",
+      "An inspection lead from GFW Events, not proof of illegal activity."
+    ],
+    "authorization_status": "authorization_lapsed",
+    "authorization_authorities": [
+      "CCSBT"
+    ],
+    "registry_iuu_tag": false,
+    "registry_flag": "NZL",
+    "registry_imo": "8409111",
+    "eez_foreign": null,
+    "severity": "high",
+    "severity_reason": "inside a no-take reserve",
+    "evidence_schema": "seavigil-evidence-1.0",
+    "evidence_hash": "910f425abc7812158493d1cbeb58256442b1ad2849130e51b5daa742eac6b1f6"
   },
   {
     "incident_id": "live_ais__1e991c8217b86f",
