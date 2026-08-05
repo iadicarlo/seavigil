@@ -1,6 +1,32 @@
 {
-"generated_at": "2026-08-05T19:56:09Z",
+"generated_at": "2026-08-05T21:34:01Z",
 "alerts": [
+{
+"id": "live_enco_232625aa989fdb",
+"first_seen": "2026-08-05T21:34:01Z",
+"type": "encounter",
+"when": "2026-08-01T16:30:00.000Z",
+"eez": "Australian Exclusive Economic Zone",
+"flag": "NCL",
+"authorization": "no_record",
+"severity_reason": "foreign vessel, no authorization on record",
+"lat": -42.9544,
+"lon": 149.0634,
+"ship_name": "F/V SALVATORE"
+},
+{
+"id": "live_enco_ebcfc758876534",
+"first_seen": "2026-08-05T21:34:01Z",
+"type": "encounter",
+"when": "2026-08-01T10:40:00.000Z",
+"eez": "Chinese Exclusive Economic Zone",
+"flag": "REU",
+"authorization": "no_record",
+"severity_reason": "foreign vessel, no authorization on record",
+"lat": 23.2793,
+"lon": 117.9505,
+"ship_name": "88258"
+},
 {
 "id": "live_ais__a439823dcacf18",
 "first_seen": "2026-08-05T12:17:32Z",
@@ -2574,32 +2600,6 @@
 "lat": -24.6697,
 "lon": -42.3838,
 "ship_name": "MARAN LIBRA"
-},
-{
-"id": "live_ais__605171d46eef7b",
-"first_seen": "2026-07-29T12:21:48Z",
-"type": "ais_disabling",
-"when": "2026-07-22T08:10:29.000Z",
-"eez": "Yemeni Exclusive Economic Zone",
-"flag": "PRT",
-"authorization": "no_record",
-"severity_reason": "foreign vessel, no authorization on record",
-"lat": 13.1947,
-"lon": 48.2534,
-"ship_name": "RINALAND"
-},
-{
-"id": "live_ais__2118633d4768f1",
-"first_seen": "2026-07-29T12:21:48Z",
-"type": "ais_disabling",
-"when": "2026-07-24T20:29:25.000Z",
-"eez": "Mexican Exclusive Economic Zone",
-"flag": "PAN",
-"authorization": "no_record",
-"severity_reason": "foreign vessel, no authorization on record",
-"lat": 14.853,
-"lon": -99.8714,
-"ship_name": "PALADIN TRADER"
 }
 ]
 }
