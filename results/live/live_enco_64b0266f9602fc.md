@@ -1,19 +1,20 @@
-# Incident `live_enco_8b0e20be2f7d00`
+# Incident `live_enco_64b0266f9602fc`
 
 - **MPA:** At-sea encounter (transshipment)
-- **Severity:** HIGH (inside a no-take reserve)
-- **Authorization:** Authorization lapsed before this date: CCSBT  ·  IMO 8409111
-- **Vessel:** 🇳🇿 ALBATROSS II  ·  **signal:** Encounter
-- **When (UTC):** 2026-07-31T07:10:00.000Z → 2026-08-01T23:50:00.000Z
-- **Encounter:** 40.7 h with carrier `512392000` (apparent transshipment)
-- **Where:** -50.814, 166.076
+- **Severity:** HIGH (foreign vessel, no authorization on record)
+- **EEZ:** Chinese Exclusive Economic Zone (China) -- FOREIGN-flagged vessel
+- **Authorization:** No public authorization record (check coastal state)
+- **Vessel:** 🇹🇼 JIN YEONG LIH NO.1  ·  **signal:** Encounter
+- **When (UTC):** 2026-08-01T13:10:00.000Z → 2026-08-01T19:30:00.000Z
+- **Encounter:** 6.3 h with carrier `200016076` (apparent transshipment)
+- **Where:** 25.243, 120.437
 
 ## Why this was flagged
 
 _GFW Events encounters dataset (Miller et al. 2018).._
 
-- two vessels within range for 41 h
-- counterpart: F.V. OCEAN PIONEER
+- two vessels within range for 6 h
+- counterpart: 200016076
 - two-vessel at-sea encounter (GFW Events)
 
 ## Could be innocent
@@ -30,7 +31,7 @@ Two vessels meeting at sea can be a legitimate transfer, bunkering, or a safety 
 
 - WDPA / WD-OECM (World Database on Protected Areas) (UNEP-WCMC and IUCN (2026), June 2026). Protected Planet Terms of Use (non-commercial, display-only).
 - Marine Regions Exclusive Economic Zones v12 (Flanders Marine Institute (2024), DOI 10.14284/632). CC BY 4.0.
-- **Integrity (SHA-256 of canonical facts):** `910f425abc7812158493d1cbeb58256442b1ad2849130e51b5daa742eac6b1f6`
+- **Integrity (SHA-256 of canonical facts):** `7643cd62e504f5d3f131f488058a65574a6ff64abb293edcc18a8e28ec9a8c0e`
 - **Evidence schema:** seavigil-evidence-1.0
 
 _Apparent activity and an inspection lead, not proof of illegality. AIS and SAR evidence have known coverage gaps and spoofing risks; verify against authoritative sources before any enforcement action._
