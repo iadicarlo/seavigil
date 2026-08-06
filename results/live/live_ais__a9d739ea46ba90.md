@@ -1,9 +1,9 @@
 # Incident `live_ais__a9d739ea46ba90`
 
 - **MPA:** AIS disabling (going dark)
-- **Severity:** HIGH (foreign vessel, no authorization on record)
+- **Severity:** HIGH (foreign vessel, authorization lapsed)
 - **EEZ:** New Zealand Exclusive Economic Zone (Cook Islands) (New Zealand) -- FOREIGN-flagged vessel
-- **Authorization:** No public authorization record (check coastal state)
+- **Authorization:** Authorization lapsed before this date: FFA, IATTC, WCPFC  ·  IMO 8654948
 - **Vessel:** 🇨🇳 HUA NAN YU 718  ·  **signal:** AIS gap
 - **When (UTC):** 2026-07-31T09:58:05.000Z → 2026-08-01T09:15:55.000Z
 - **Gap:** 23.3 h dark, 149.0 nm offshore

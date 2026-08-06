@@ -3,7 +3,7 @@
 - **MPA:** AIS disabling (going dark)
 - **Severity:** HIGH (foreign vessel, no authorization on record)
 - **EEZ:** Madagascan Exclusive Economic Zone (Madagascar) -- FOREIGN-flagged vessel
-- **Authorization:** No public authorization record (check coastal state)
+- **Authorization:** No public authorization record (check coastal state)  ·  IMO 9726798
 - **Vessel:** 🇲🇭 STELLAR ACE  ·  **signal:** AIS gap
 - **When (UTC):** 2026-07-22T12:47:21.000Z → 2026-08-01T08:55:45.000Z
 - **Gap:** 236.1 h dark, 165.0 nm offshore
