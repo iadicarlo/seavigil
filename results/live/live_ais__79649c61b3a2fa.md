@@ -3,7 +3,7 @@
 - **MPA:** AIS disabling (going dark)
 - **Severity:** HIGH (foreign vessel, no authorization on record)
 - **EEZ:** Russian Exclusive Economic Zone (Russia) -- FOREIGN-flagged vessel
-- **Authorization:** No public authorization record (check coastal state)
+- **Authorization:** No public authorization record (check coastal state)  ·  IMO 9164615
 - **Vessel:** 🇵🇦 HONG XIANG  ·  **signal:** AIS gap
 - **When (UTC):** 2026-07-31T07:26:46.000Z → 2026-08-02T13:30:14.000Z
 - **Gap:** 54.1 h dark, 116.0 nm offshore

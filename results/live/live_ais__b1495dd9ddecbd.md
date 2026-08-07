@@ -3,7 +3,7 @@
 - **MPA:** AIS disabling (going dark)
 - **Severity:** HIGH (foreign vessel, no authorization on record)
 - **EEZ:** South African Exclusive Economic Zone (South Africa) -- FOREIGN-flagged vessel
-- **Authorization:** No public authorization record (check coastal state)  ·  IMO 9145841
+- **Authorization:** No public authorization record (check coastal state)
 - **Vessel:** 🇵🇦 ORIENTAL TULIP  ·  **signal:** AIS gap
 - **When (UTC):** 2026-08-01T23:57:02.000Z → 2026-08-02T16:28:01.000Z
 - **Gap:** 16.5 h dark, 133.0 nm offshore

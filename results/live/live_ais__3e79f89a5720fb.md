@@ -3,7 +3,7 @@
 - **MPA:** AIS disabling (going dark)
 - **Severity:** HIGH (foreign vessel, no authorization on record)
 - **EEZ:** Yemeni Exclusive Economic Zone (Yemen) -- FOREIGN-flagged vessel
-- **Authorization:** No public authorization record (check coastal state)
+- **Authorization:** No public authorization record (check coastal state)  ·  IMO 9447574
 - **Vessel:** 🇱🇷 FPMC C LORD  ·  **signal:** AIS gap
 - **When (UTC):** 2026-07-31T23:22:13.000Z → 2026-08-01T22:03:56.000Z
 - **Gap:** 22.7 h dark, 62.0 nm offshore

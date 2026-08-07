@@ -3,7 +3,7 @@
 - **MPA:** AIS disabling (going dark)
 - **Severity:** HIGH (foreign vessel, no authorization on record)
 - **EEZ:** Overlapping claim Ile Tromelin: France / Madagascar / Republic of Mauritius (France) -- FOREIGN-flagged vessel
-- **Authorization:** No public authorization record (check coastal state)  ·  IMO 9331256
+- **Authorization:** No public authorization record (check coastal state)
 - **Vessel:** 🇵🇦 ELM GALAXY  ·  **signal:** AIS gap
 - **When (UTC):** 2026-07-31T22:29:03.000Z → 2026-08-02T07:23:18.000Z
 - **Gap:** 32.9 h dark, 170.0 nm offshore
