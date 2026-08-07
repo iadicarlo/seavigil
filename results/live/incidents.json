@@ -1,62 +1,5 @@
 [
   {
-    "incident_id": "live_enco_b5e2f7cd7a404f",
-    "type": "encounter",
-    "centroid_lon": 10.5636,
-    "centroid_lat": 36.0128,
-    "time_start_utc": "2026-08-03T13:50:00.000Z",
-    "time_end_utc": "2026-08-03T23:50:00.000Z",
-    "vessel_id": "215000910",
-    "ship_name": "TA MATTEW",
-    "ship_type": "Fishing",
-    "flag": "MLT",
-    "flag_emoji": "\ud83c\uddf2\ud83c\uddf9",
-    "gear": "Encounter",
-    "n_positions": 0,
-    "n_fishing_positions": 0,
-    "mean_fishing_proba": null,
-    "max_fishing_proba": null,
-    "_rfmo": [
-      "ICCAT",
-      "GFCM",
-      "IWC",
-      "ACAP"
-    ],
-    "_no_take": false,
-    "mpa_name": "At-sea encounter (transshipment)",
-    "duration_hours": 10.0,
-    "carrier_mmsi": "249000017",
-    "explanation": {
-      "method": "GFW Events encounters dataset (Miller et al. 2018).",
-      "drivers": [
-        "two vessels within range for 10 h",
-        "counterpart: CRYSTAL STARLIGHT",
-        "two-vessel at-sea encounter (GFW Events)"
-      ]
-    },
-    "caveats": [
-      "Co-location can be legitimate (joint operations, safety, shelter).",
-      "Apparent transshipment is inferred from proximity and low speed, not observed.",
-      "An inspection lead from GFW Events, not proof of illegal activity."
-    ],
-    "eez_name": "Tunisian Exclusive Economic Zone",
-    "eez_sovereign": "Tunisia",
-    "eez_iso_sov": "TUN",
-    "eez_foreign": true,
-    "authorization_status": "authorization_lapsed",
-    "authorization_authorities": [
-      "GFCM",
-      "ICCAT"
-    ],
-    "registry_iuu_tag": false,
-    "registry_flag": "MLT",
-    "registry_imo": "8537683",
-    "severity": "high",
-    "severity_reason": "foreign vessel, authorization lapsed",
-    "evidence_schema": "seavigil-evidence-1.0",
-    "evidence_hash": "169a876ecbd2119aa5ede0ceb9e32066e8420b2e1728bf5a894a75903887454f"
-  },
-  {
     "incident_id": "live_enco_d804b0337406e4",
     "type": "encounter",
     "centroid_lon": 123.0271,
@@ -165,37 +108,37 @@
     "evidence_hash": "48d1df5c3a558017aefc8c89a05d4dc87f2fd4a0af0206d0f402f99c850fde9b"
   },
   {
-    "incident_id": "live_enco_c865b1ce4526bc",
+    "incident_id": "live_enco_b5e2f7cd7a404f",
     "type": "encounter",
-    "centroid_lon": 123.0799,
-    "centroid_lat": 27.2813,
-    "time_start_utc": "2026-08-03T04:50:00.000Z",
+    "centroid_lon": 10.5636,
+    "centroid_lat": 36.0128,
+    "time_start_utc": "2026-08-03T13:50:00.000Z",
     "time_end_utc": "2026-08-03T23:50:00.000Z",
-    "vessel_id": "412442743",
-    "ship_name": "MINHUIYU01977",
+    "vessel_id": "249000017",
+    "ship_name": "CRYSTAL STARLIGHT",
     "ship_type": "Fishing",
-    "flag": "CHN",
-    "flag_emoji": "\ud83c\udde8\ud83c\uddf3",
+    "flag": "MLT",
+    "flag_emoji": "\ud83c\uddf2\ud83c\uddf9",
     "gear": "Encounter",
     "n_positions": 0,
     "n_fishing_positions": 0,
     "mean_fishing_proba": null,
     "max_fishing_proba": null,
     "_rfmo": [
-      "APFIC",
+      "GFCM",
+      "ICCAT",
       "IWC",
-      "ACAP",
-      "WCPFC"
+      "ACAP"
     ],
     "_no_take": false,
     "mpa_name": "At-sea encounter (transshipment)",
-    "duration_hours": 19.0,
-    "carrier_mmsi": "412466555",
+    "duration_hours": 10.0,
+    "carrier_mmsi": "215000910",
     "explanation": {
       "method": "GFW Events encounters dataset (Miller et al. 2018).",
       "drivers": [
-        "two vessels within range for 19 h",
-        "counterpart: MIN  HUI  YU 01977",
+        "two vessels within range for 10 h",
+        "counterpart: TA MATTEW",
         "two-vessel at-sea encounter (GFW Events)"
       ]
     },
@@ -204,19 +147,22 @@
       "Apparent transshipment is inferred from proximity and low speed, not observed.",
       "An inspection lead from GFW Events, not proof of illegal activity."
     ],
-    "eez_name": "Overlapping claim Senkaku Islands: Taiwan / Japan / China",
-    "eez_sovereign": "Taiwan",
-    "eez_iso_sov": "TWN",
+    "eez_name": "Tunisian Exclusive Economic Zone",
+    "eez_sovereign": "Tunisia",
+    "eez_iso_sov": "TUN",
     "eez_foreign": true,
-    "authorization_status": "no_record",
-    "authorization_authorities": [],
+    "authorization_status": "authorization_lapsed",
+    "authorization_authorities": [
+      "GFCM",
+      "ICCAT"
+    ],
     "registry_iuu_tag": false,
-    "registry_flag": "",
-    "registry_imo": "",
+    "registry_flag": "MLT",
+    "registry_imo": "8412338",
     "severity": "high",
-    "severity_reason": "foreign vessel, no authorization on record",
+    "severity_reason": "foreign vessel, authorization lapsed",
     "evidence_schema": "seavigil-evidence-1.0",
-    "evidence_hash": "b34bca5cf06643af6668cd64054aed9eb375d3d51403a33628fddd0b72da30c9"
+    "evidence_hash": "6dfa9a05548fb964eec5c01030638c4d05c804c64b098325afbb0e9aa2a228e3"
   },
   {
     "incident_id": "live_enco_856554537542c4",
