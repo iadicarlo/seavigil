@@ -1,6 +1,58 @@
 {
-"generated_at": "2026-08-06T15:29:47Z",
+"generated_at": "2026-08-07T00:16:41Z",
 "alerts": [
+{
+"id": "live_enco_b5e2f7cd7a404f",
+"first_seen": "2026-08-07T00:16:41Z",
+"type": "encounter",
+"when": "2026-08-03T13:50:00.000Z",
+"eez": "Tunisian Exclusive Economic Zone",
+"flag": "MLT",
+"authorization": "authorization_lapsed",
+"severity_reason": "foreign vessel, authorization lapsed",
+"lat": 36.0128,
+"lon": 10.5636,
+"ship_name": "TA MATTEW"
+},
+{
+"id": "live_enco_d9eeb47802190c",
+"first_seen": "2026-08-07T00:16:41Z",
+"type": "encounter",
+"when": "2026-08-03T05:30:00.000Z",
+"eez": "Joint regime area: South Korea / Japan",
+"flag": "HTI",
+"authorization": "no_record",
+"severity_reason": "foreign vessel, no authorization on record",
+"lat": 30.5319,
+"lon": 126.7307,
+"ship_name": "ZHEYUYU33666-101-"
+},
+{
+"id": "live_enco_c865b1ce4526bc",
+"first_seen": "2026-08-07T00:16:41Z",
+"type": "encounter",
+"when": "2026-08-03T04:50:00.000Z",
+"eez": "Overlapping claim Senkaku Islands: Taiwan / Japan / China",
+"flag": "CHN",
+"authorization": "no_record",
+"severity_reason": "foreign vessel, no authorization on record",
+"lat": 27.2813,
+"lon": 123.0799,
+"ship_name": "MINHUIYU01977"
+},
+{
+"id": "live_enco_856554537542c4",
+"first_seen": "2026-08-07T00:16:41Z",
+"type": "encounter",
+"when": "2026-08-03T15:50:00.000Z",
+"eez": "Vietnamese Exclusive Economic Zone",
+"flag": "ISL",
+"authorization": "no_record",
+"severity_reason": "foreign vessel, no authorization on record",
+"lat": 8.6041,
+"lon": 109.1844,
+"ship_name": "TI_99144_LXN-99%"
+},
 {
 "id": "live_ais__b52e60d6aa6073",
 "first_seen": "2026-08-06T15:29:47Z",
@@ -2548,58 +2600,6 @@
 "lat": -4.6642,
 "lon": -179.607,
 "ship_name": "XIANG FA 8"
-},
-{
-"id": "live_ais__124f7702f33462",
-"first_seen": "2026-07-31T12:18:13Z",
-"type": "ais_disabling",
-"when": "2026-07-26T02:32:38.000Z",
-"eez": "South African Exclusive Economic Zone",
-"flag": "MHL",
-"authorization": "no_record",
-"severity_reason": "foreign vessel, no authorization on record",
-"lat": -30.6777,
-"lon": 14.6059,
-"ship_name": "LIAO HE KOU"
-},
-{
-"id": "live_ais__cda6b3283d4aeb",
-"first_seen": "2026-07-31T12:18:13Z",
-"type": "ais_disabling",
-"when": "2026-07-23T04:13:06.000Z",
-"eez": "Japanese Exclusive Economic Zone",
-"flag": "PAN",
-"authorization": "no_record",
-"severity_reason": "foreign vessel, no authorization on record",
-"lat": 25.9428,
-"lon": 127.3283,
-"ship_name": "HAVEN"
-},
-{
-"id": "live_ais__12d596d016154d",
-"first_seen": "2026-07-31T12:18:13Z",
-"type": "ais_disabling",
-"when": "2026-07-26T12:54:42.000Z",
-"eez": "Australian Exclusive Economic Zone",
-"flag": "ISL",
-"authorization": "no_record",
-"severity_reason": "foreign vessel, no authorization on record",
-"lat": -35.3169,
-"lon": 152.1149,
-"ship_name": "ESBJORN 03-99%"
-},
-{
-"id": "live_enco_2d7168d8b75b3a",
-"first_seen": "2026-07-31T00:15:56Z",
-"type": "encounter",
-"when": "2026-07-26T12:30:00.000Z",
-"eez": "Vietnamese Exclusive Economic Zone",
-"flag": "TCA",
-"authorization": "no_record",
-"severity_reason": "foreign vessel, no authorization on record",
-"lat": 19.0688,
-"lon": 106.5747,
-"ship_name": "BONG-MUC-B21+GOI-06"
 }
 ]
 }
