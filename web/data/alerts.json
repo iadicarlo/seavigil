@@ -1,6 +1,19 @@
 {
-"generated_at": "2026-08-07T11:09:59Z",
+"generated_at": "2026-08-07T11:58:36Z",
 "alerts": [
+{
+"id": "live_ais__70b3d67cc7ed5a",
+"first_seen": "2026-08-07T11:58:36Z",
+"type": "ais_disabling",
+"when": "2026-08-02T06:28:28.000Z",
+"eez": "Fijian Exclusive Economic Zone",
+"flag": "CHN",
+"authorization": "no_record",
+"severity_reason": "foreign vessel, no authorization on record",
+"lat": -20.4129,
+"lon": 179.7193,
+"ship_name": "SEIN 11 N9-75%"
+},
 {
 "id": "live_enco_b5e2f7cd7a404f",
 "first_seen": "2026-08-07T00:16:41Z",
@@ -2587,19 +2600,6 @@
 "lat": 4.6237,
 "lon": -84.0088,
 "ship_name": "GRAN ROQUE"
-},
-{
-"id": "live_ais__60baccf21d1136",
-"first_seen": "2026-07-31T12:18:13Z",
-"type": "ais_disabling",
-"when": "2026-07-16T23:06:11.000Z",
-"eez": "Tuvaluan Exclusive Economic Zone",
-"flag": "CHN",
-"authorization": "authorization_lapsed",
-"severity_reason": "foreign vessel, authorization lapsed",
-"lat": -4.6642,
-"lon": -179.607,
-"ship_name": "XIANG FA 8"
 }
 ]
 }
