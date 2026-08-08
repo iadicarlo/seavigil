@@ -1,19 +1,19 @@
-# Incident `live_ais__708ec35c64e313`
+# Incident `live_ais__b546e7ff826273`
 
 - **MPA:** AIS disabling (going dark)
 - **Severity:** HIGH (foreign vessel, no authorization on record)
-- **EEZ:** Namibian Exclusive Economic Zone (Namibia) -- FOREIGN-flagged vessel
-- **Authorization:** No public authorization record (check coastal state)
-- **Vessel:** 🇭🇰 COSCO UNIVERSE  ·  **signal:** AIS gap
-- **When (UTC):** 2026-08-02T16:57:01.000Z → 2026-08-03T07:32:55.000Z
-- **Gap:** 14.6 h dark, 214.0 nm offshore
-- **Where:** -29.617, 13.838
+- **EEZ:** Guinean Exclusive Economic Zone (Guinea) -- FOREIGN-flagged vessel
+- **Authorization:** No public authorization record (check coastal state)  ·  IMO 9955399
+- **Vessel:** 🇨🇳 RUITAIFENG919  ·  **signal:** AIS gap
+- **When (UTC):** 2026-07-18T08:50:43.000Z → 2026-08-04T12:31:04.000Z
+- **Gap:** 411.7 h dark, 72.0 nm offshore
+- **Where:** 9.872, -15.543
 
 ## Why this was flagged
 
 _GFW Events gaps dataset (satellite AIS).._
 
-- went dark 214 nm offshore for 15 h
+- went dark 72 nm offshore for 412 h
 - satellite-confirmed AIS gap (GFW Events)
 
 ## Could be innocent
@@ -31,7 +31,7 @@ Going dark is frequently benign: in open water, where gaps are commonly protecti
 - NOAA Marine Cadastre AIS (marinecadastre.gov/ais (vessel positions)). US public domain.
 - WDPA / WD-OECM (World Database on Protected Areas) (UNEP-WCMC and IUCN (2026), June 2026). Protected Planet Terms of Use (non-commercial, display-only).
 - Marine Regions Exclusive Economic Zones v12 (Flanders Marine Institute (2024), DOI 10.14284/632). CC BY 4.0.
-- **Integrity (SHA-256 of canonical facts):** `97104ea6ae708fbc10dbbb8d8ed042dd48d9c6ba6d0f6e16ef5f076c1c4c972f`
+- **Integrity (SHA-256 of canonical facts):** `96f0692074d7b748f833e7d8a221f3058e124682d01bbe421b933077d79edf04`
 - **Evidence schema:** seavigil-evidence-1.0
 
 _Apparent activity and an inspection lead, not proof of illegality. AIS and SAR evidence have known coverage gaps and spoofing risks; verify against authoritative sources before any enforcement action._
