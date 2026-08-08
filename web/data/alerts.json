@@ -1,6 +1,71 @@
 {
-"generated_at": "2026-08-07T23:49:10Z",
+"generated_at": "2026-08-08T02:22:18Z",
 "alerts": [
+{
+"id": "live_enco_cf80e19f0ea007",
+"first_seen": "2026-08-08T02:22:18Z",
+"type": "encounter",
+"when": "2026-08-04T13:40:00.000Z",
+"eez": "Tunisian Exclusive Economic Zone",
+"flag": "MLT",
+"authorization": "authorization_lapsed",
+"severity_reason": "foreign vessel, authorization lapsed",
+"lat": 36.0128,
+"lon": 10.5637,
+"ship_name": "CRYSTAL STARLIGHT"
+},
+{
+"id": "live_enco_7f4979fab0d163",
+"first_seen": "2026-08-08T02:22:18Z",
+"type": "encounter",
+"when": "2026-08-04T16:10:00.000Z",
+"eez": "Vietnamese Exclusive Economic Zone",
+"flag": "ISL",
+"authorization": "no_record",
+"severity_reason": "foreign vessel, no authorization on record",
+"lat": 8.5386,
+"lon": 109.161,
+"ship_name": "TI_99144_LXN-99%"
+},
+{
+"id": "live_enco_661972eea27fba",
+"first_seen": "2026-08-08T02:22:18Z",
+"type": "encounter",
+"when": "2026-08-04T16:10:00.000Z",
+"eez": "Vietnamese Exclusive Economic Zone",
+"flag": "ISL",
+"authorization": "no_record",
+"severity_reason": "foreign vessel, no authorization on record",
+"lat": 8.5416,
+"lon": 109.1616,
+"ship_name": "TI_99144_LXN-99%"
+},
+{
+"id": "live_enco_798cbb1f8449ca",
+"first_seen": "2026-08-08T02:22:18Z",
+"type": "encounter",
+"when": "2026-08-04T13:30:00.000Z",
+"eez": "Chinese Exclusive Economic Zone",
+"flag": "BRB",
+"authorization": "no_record",
+"severity_reason": "foreign vessel, no authorization on record",
+"lat": 21.8682,
+"lon": 114.2356,
+"ship_name": "QINGDANYU00201"
+},
+{
+"id": "live_enco_38888142128dbd",
+"first_seen": "2026-08-08T02:22:18Z",
+"type": "encounter",
+"when": "2026-08-04T01:10:00.000Z",
+"eez": "Vietnamese Exclusive Economic Zone",
+"flag": "FRA",
+"authorization": "no_record",
+"severity_reason": "foreign vessel, no authorization on record",
+"lat": 9.2461,
+"lon": 109.8247,
+"ship_name": "TIEN DAT(^-^)"
+},
 {
 "id": "live_ais__8923075bb753a4",
 "first_seen": "2026-08-07T13:40:51Z",
@@ -2535,71 +2600,6 @@
 "lat": -3.3851,
 "lon": 43.0932,
 "ship_name": "CHARLIE"
-},
-{
-"id": "live_ais__06be01067d925d",
-"first_seen": "2026-08-01T11:35:18Z",
-"type": "ais_disabling",
-"when": "2026-07-27T06:56:02.000Z",
-"eez": "Mauritanian Exclusive Economic Zone",
-"flag": "ESP",
-"authorization": "authorization_lapsed",
-"severity_reason": "foreign vessel, authorization lapsed",
-"lat": 17.2353,
-"lon": -17.5607,
-"ship_name": "MONTERAIOLA"
-},
-{
-"id": "live_ais__858bc035ef1c7a",
-"first_seen": "2026-08-01T11:35:18Z",
-"type": "ais_disabling",
-"when": "2026-07-27T13:20:03.000Z",
-"eez": "United States Exclusive Economic Zone (Hawaii)",
-"flag": "CAN",
-"authorization": "no_record",
-"severity_reason": "foreign vessel, no authorization on record",
-"lat": 19.7322,
-"lon": -159.1049,
-"ship_name": "CDN-WARSHIP-341-----"
-},
-{
-"id": "live_ais__59de6de50f886f",
-"first_seen": "2026-08-01T11:35:18Z",
-"type": "ais_disabling",
-"when": "2026-07-27T01:16:41.000Z",
-"eez": "United States Exclusive Economic Zone (Hawaii)",
-"flag": "ESP",
-"authorization": "no_record",
-"severity_reason": "foreign vessel, no authorization on record",
-"lat": 19.8562,
-"lon": -158.8769,
-"ship_name": "ESPS NAVY SHIP F101"
-},
-{
-"id": "live_ais__716d418bc20a45",
-"first_seen": "2026-08-01T11:35:18Z",
-"type": "ais_disabling",
-"when": "2026-07-27T13:35:23.000Z",
-"eez": "Brazilian Exclusive Economic Zone",
-"flag": "SGP",
-"authorization": "no_record",
-"severity_reason": "foreign vessel, no authorization on record",
-"lat": -25.5488,
-"lon": -42.8433,
-"ship_name": "EAGLE COLOMBO"
-},
-{
-"id": "live_ais__be1550737435dd",
-"first_seen": "2026-08-01T11:35:18Z",
-"type": "ais_disabling",
-"when": "2026-07-11T05:30:29.000Z",
-"eez": "Ivorian Exclusive Economic Zone",
-"flag": "GHA",
-"authorization": "authorization_lapsed",
-"severity_reason": "foreign vessel, authorization lapsed",
-"lat": 2.8727,
-"lon": -3.9536,
-"ship_name": "PANOFI DISCOVERER"
 }
 ]
 }
