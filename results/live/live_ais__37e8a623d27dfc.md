@@ -3,7 +3,7 @@
 - **MPA:** AIS disabling (going dark)
 - **Severity:** HIGH (foreign vessel, no authorization on record)
 - **EEZ:** Somali Exclusive Economic Zone (Federal Republic of Somalia) -- FOREIGN-flagged vessel
-- **Authorization:** No public authorization record (check coastal state)  ·  IMO 9327140
+- **Authorization:** No public authorization record (check coastal state)  ·  IMO 9160384
 - **Vessel:** 🇵🇦 FLOURISH OCEAN  ·  **signal:** AIS gap
 - **When (UTC):** 2026-07-30T11:47:47.000Z → 2026-08-02T17:25:20.000Z
 - **Gap:** 77.6 h dark, 151.0 nm offshore

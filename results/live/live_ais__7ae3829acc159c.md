@@ -1,9 +1,9 @@
 # Incident `live_ais__7ae3829acc159c`
 
 - **MPA:** AIS disabling (going dark)
-- **Severity:** HIGH (foreign vessel, authorization lapsed)
+- **Severity:** HIGH (foreign vessel, no authorization on record)
 - **EEZ:** Marshallese Exclusive Economic Zone (Marshall Islands) -- FOREIGN-flagged vessel
-- **Authorization:** Authorization lapsed before this date: FFA, IATTC, WCPFC  ·  IMO 9869021
+- **Authorization:** No public authorization record (check coastal state)
 - **Vessel:** 🇹🇼 CYUAN SHUN NO.686  ·  **signal:** AIS gap
 - **When (UTC):** 2026-07-23T00:38:38.000Z → 2026-08-03T14:23:57.000Z
 - **Gap:** 277.8 h dark, 286.0 nm offshore
