@@ -54,6 +54,60 @@
     "evidence_hash": "b505b0a24b262e600ee19e9b5a39167653d45274aaca746e3714e9efecd85c44"
   },
   {
+    "incident_id": "live_enco_19e2f893f8b263",
+    "type": "encounter",
+    "centroid_lon": 49.5635,
+    "centroid_lat": 27.8581,
+    "time_start_utc": "2026-08-04T15:50:00.000Z",
+    "time_end_utc": "2026-08-04T23:50:00.000Z",
+    "vessel_id": "647553073",
+    "ship_name": "ALEXANDER III",
+    "ship_type": "Fishing",
+    "flag": "MDG",
+    "flag_emoji": "\ud83c\uddf2\ud83c\uddec",
+    "gear": "Encounter",
+    "n_positions": 0,
+    "n_fishing_positions": 0,
+    "mean_fishing_proba": null,
+    "max_fishing_proba": null,
+    "_rfmo": [
+      "ACAP",
+      "IOTC",
+      "RECOFI",
+      "IWC"
+    ],
+    "_no_take": false,
+    "mpa_name": "At-sea encounter (transshipment)",
+    "duration_hours": 8.0,
+    "carrier_mmsi": "403778650",
+    "explanation": {
+      "method": "GFW Events encounters dataset (Miller et al. 2018).",
+      "drivers": [
+        "two vessels within range for 8 h",
+        "counterpart: HASSAN ALTASEA",
+        "two-vessel at-sea encounter (GFW Events)"
+      ]
+    },
+    "caveats": [
+      "Co-location can be legitimate (joint operations, safety, shelter).",
+      "Apparent transshipment is inferred from proximity and low speed, not observed.",
+      "An inspection lead from GFW Events, not proof of illegal activity."
+    ],
+    "eez_name": "Saudi Arabian Exclusive Economic Zone",
+    "eez_sovereign": "Saudi Arabia",
+    "eez_iso_sov": "SAU",
+    "eez_foreign": true,
+    "authorization_status": "no_record",
+    "authorization_authorities": [],
+    "registry_iuu_tag": false,
+    "registry_flag": "",
+    "registry_imo": "",
+    "severity": "high",
+    "severity_reason": "foreign vessel, no authorization on record",
+    "evidence_schema": "seavigil-evidence-1.0",
+    "evidence_hash": "a9a10678f83d6744ec83141ea5c4f74f929983a4fb058acb8a3fec935df79e33"
+  },
+  {
     "incident_id": "live_ais__270952c9083332",
     "type": "ais_disabling",
     "centroid_lon": 143.2161,

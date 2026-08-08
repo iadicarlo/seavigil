@@ -1,6 +1,19 @@
 {
-"generated_at": "2026-08-08T21:47:00Z",
+"generated_at": "2026-08-08T22:48:31Z",
 "alerts": [
+{
+"id": "live_enco_19e2f893f8b263",
+"first_seen": "2026-08-08T22:48:31Z",
+"type": "encounter",
+"when": "2026-08-04T15:50:00.000Z",
+"eez": "Saudi Arabian Exclusive Economic Zone",
+"flag": "MDG",
+"authorization": "no_record",
+"severity_reason": "foreign vessel, no authorization on record",
+"lat": 27.8581,
+"lon": 49.5635,
+"ship_name": "ALEXANDER III"
+},
 {
 "id": "live_ais__42d2dd3f6e286b",
 "first_seen": "2026-08-08T13:13:34Z",
@@ -2587,19 +2600,6 @@
 "lat": 8.4984,
 "lon": 107.2578,
 "ship_name": "THANH NAM 8O E24"
-},
-{
-"id": "live_enco_118e42546eae88",
-"first_seen": "2026-08-03T00:14:30Z",
-"type": "encounter",
-"when": "2026-07-29T02:20:00.000Z",
-"eez": "Overlapping claim Senkaku Islands: Taiwan / Japan / China",
-"flag": "CHN",
-"authorization": "no_record",
-"severity_reason": "foreign vessel, no authorization on record",
-"lat": 27.3111,
-"lon": 123.123,
-"ship_name": "MIN HUI YU 00195"
 }
 ]
 }
