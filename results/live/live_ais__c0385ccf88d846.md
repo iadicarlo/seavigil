@@ -3,7 +3,7 @@
 - **MPA:** AIS disabling (going dark)
 - **Severity:** HIGH (foreign vessel, no authorization on record)
 - **EEZ:** Brazilian Exclusive Economic Zone (Brazil) -- FOREIGN-flagged vessel
-- **Authorization:** No public authorization record (check coastal state)
+- **Authorization:** No public authorization record (check coastal state)  ·  IMO 9598256
 - **Vessel:** 🇲🇾 EAGLE PARAIBA  ·  **signal:** AIS gap
 - **When (UTC):** 2026-08-03T20:50:57.000Z → 2026-08-04T16:10:03.000Z
 - **Gap:** 19.3 h dark, 55.0 nm offshore

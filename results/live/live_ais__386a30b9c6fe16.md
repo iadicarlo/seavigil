@@ -1,9 +1,9 @@
 # Incident `live_ais__386a30b9c6fe16`
 
 - **MPA:** AIS disabling (going dark)
-- **Severity:** HIGH (foreign vessel, authorization lapsed)
+- **Severity:** HIGH (foreign vessel, no authorization on record)
 - **EEZ:** Peruvian Exclusive Economic Zone (Peru) -- FOREIGN-flagged vessel
-- **Authorization:** Authorization lapsed before this date: IATTC  ·  IMO 7369663
+- **Authorization:** No public authorization record (check coastal state)
 - **Vessel:** 🇪🇨 DONA CHULE  ·  **signal:** AIS gap
 - **When (UTC):** 2026-07-13T21:33:03.000Z → 2026-08-03T20:52:23.000Z
 - **Gap:** 503.3 h dark, 352.0 nm offshore
