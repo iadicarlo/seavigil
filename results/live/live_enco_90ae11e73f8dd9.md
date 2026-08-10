@@ -1,12 +1,12 @@
 # Incident `live_enco_90ae11e73f8dd9`
 
 - **MPA:** At-sea encounter (transshipment)
-- **Severity:** HIGH (foreign vessel, authorization lapsed)
+- **Severity:** HIGH (foreign vessel, no authorization on record)
 - **EEZ:** Russian Exclusive Economic Zone (Russia) -- FOREIGN-flagged vessel
-- **Authorization:** Authorization lapsed before this date: NPFC, SPRFMO  ·  IMO 8607244
-- **Vessel:** 🇨🇳 HAILI  ·  **signal:** Encounter
+- **Authorization:** No public authorization record (check coastal state)
+- **Vessel:** 🇨🇳 HAI XING  ·  **signal:** Encounter
 - **When (UTC):** 2026-08-06T20:20:00.000Z → 2026-08-06T23:50:00.000Z
-- **Encounter:** 3.5 h with carrier `412200083` (apparent transshipment)
+- **Encounter:** 3.5 h with carrier `412549556` (apparent transshipment)
 - **Where:** 62.285, 177.793
 
 ## Why this was flagged
@@ -14,7 +14,7 @@
 _GFW Events encounters dataset (Miller et al. 2018).._
 
 - two vessels within range for 4 h
-- counterpart: HAI XING
+- counterpart: HAILI
 - two-vessel at-sea encounter (GFW Events)
 
 ## Could be innocent
@@ -31,7 +31,7 @@ Two vessels meeting at sea can be a legitimate transfer, bunkering, or a safety 
 
 - WDPA / WD-OECM (World Database on Protected Areas) (UNEP-WCMC and IUCN (2026), June 2026). Protected Planet Terms of Use (non-commercial, display-only).
 - Marine Regions Exclusive Economic Zones v12 (Flanders Marine Institute (2024), DOI 10.14284/632). CC BY 4.0.
-- **Integrity (SHA-256 of canonical facts):** `eb145058aa110a300192618d126437d158511b46af76567594e4993eeed77f32`
+- **Integrity (SHA-256 of canonical facts):** `f361cf70421f8820e4ed3d430eeee3baf78999c2346d7e2527a20975f4774c25`
 - **Evidence schema:** seavigil-evidence-1.0
 
 _Apparent activity and an inspection lead, not proof of illegality. AIS and SAR evidence have known coverage gaps and spoofing risks; verify against authoritative sources before any enforcement action._
