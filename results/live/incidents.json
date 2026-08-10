@@ -163,6 +163,59 @@
     "evidence_hash": "7f06dbb40218650ee2faf17a7824bac67fe0fd17e24ad010b96c787e6a45f7e4"
   },
   {
+    "incident_id": "live_enco_020cddcce6ff7d",
+    "type": "encounter",
+    "centroid_lon": 177.7556,
+    "centroid_lat": 62.2892,
+    "time_start_utc": "2026-08-05T20:20:00.000Z",
+    "time_end_utc": "2026-08-06T23:50:00.000Z",
+    "vessel_id": "412200083",
+    "ship_name": "HAI XING",
+    "ship_type": "Fishing",
+    "flag": "CHN",
+    "flag_emoji": "\ud83c\udde8\ud83c\uddf3",
+    "gear": "Encounter",
+    "n_positions": 0,
+    "n_fishing_positions": 0,
+    "mean_fishing_proba": null,
+    "max_fishing_proba": null,
+    "_rfmo": [
+      "IWC",
+      "PICES",
+      "ACAP"
+    ],
+    "_no_take": false,
+    "mpa_name": "At-sea encounter (transshipment)",
+    "duration_hours": 27.5,
+    "carrier_mmsi": "273429140",
+    "explanation": {
+      "method": "GFW Events encounters dataset (Miller et al. 2018).",
+      "drivers": [
+        "two vessels within range for 28 h",
+        "counterpart: VASILIY POLESHCHUK",
+        "two-vessel at-sea encounter (GFW Events)"
+      ]
+    },
+    "caveats": [
+      "Co-location can be legitimate (joint operations, safety, shelter).",
+      "Apparent transshipment is inferred from proximity and low speed, not observed.",
+      "An inspection lead from GFW Events, not proof of illegal activity."
+    ],
+    "eez_name": "Russian Exclusive Economic Zone",
+    "eez_sovereign": "Russia",
+    "eez_iso_sov": "RUS",
+    "eez_foreign": true,
+    "authorization_status": "no_record",
+    "authorization_authorities": [],
+    "registry_iuu_tag": false,
+    "registry_flag": "",
+    "registry_imo": "",
+    "severity": "high",
+    "severity_reason": "foreign vessel, no authorization on record",
+    "evidence_schema": "seavigil-evidence-1.0",
+    "evidence_hash": "1e62bb4feb575b306f72be6f608611a0eebd4dc3a61fb9ed3763d4840704e9d3"
+  },
+  {
     "incident_id": "live_enco_79e6e909e7247a",
     "type": "encounter",
     "centroid_lon": 146.0953,
@@ -444,8 +497,8 @@
     "centroid_lat": 19.4881,
     "time_start_utc": "2026-08-06T01:00:00.000Z",
     "time_end_utc": "2026-08-06T23:50:00.000Z",
-    "vessel_id": "412440718",
-    "ship_name": "FU YUAN YU9996",
+    "vessel_id": "412440715",
+    "ship_name": "FU YUAN YU9992",
     "ship_type": "Fishing",
     "flag": "CHN",
     "flag_emoji": "\ud83c\udde8\ud83c\uddf3",
@@ -458,12 +511,12 @@
     "_no_take": false,
     "mpa_name": "At-sea encounter (transshipment)",
     "duration_hours": 22.8,
-    "carrier_mmsi": "412440715",
+    "carrier_mmsi": "412440718",
     "explanation": {
       "method": "GFW Events encounters dataset (Miller et al. 2018).",
       "drivers": [
         "two vessels within range for 23 h",
-        "counterpart: FU YUAN YU9992",
+        "counterpart: FU YUAN YU9996",
         "two-vessel at-sea encounter (GFW Events)"
       ]
     },
@@ -484,7 +537,61 @@
     "severity": "high",
     "severity_reason": "foreign vessel, no authorization on record",
     "evidence_schema": "seavigil-evidence-1.0",
-    "evidence_hash": "402a411c2760ea1cd93759a0d1e5c649ddf89252918bbdecb9239f6b9499b44a"
+    "evidence_hash": "56faab9134f6b0fe1a4e0f00c788a3aeddf8e157b50523561445082448089e43"
+  },
+  {
+    "incident_id": "live_enco_9a004cebcdfc51",
+    "type": "encounter",
+    "centroid_lon": 131.8242,
+    "centroid_lat": 37.258,
+    "time_start_utc": "2026-08-06T20:40:00.000Z",
+    "time_end_utc": "2026-08-06T23:50:00.000Z",
+    "vessel_id": "440132990",
+    "ship_name": "GEUMGWANGHO",
+    "ship_type": "Fishing",
+    "flag": "KOR",
+    "flag_emoji": "\ud83c\uddf0\ud83c\uddf7",
+    "gear": "Encounter",
+    "n_positions": 0,
+    "n_fishing_positions": 0,
+    "mean_fishing_proba": null,
+    "max_fishing_proba": null,
+    "_rfmo": [
+      "IWC",
+      "PICES",
+      "ACAP",
+      "WCPFC"
+    ],
+    "_no_take": false,
+    "mpa_name": "At-sea encounter (transshipment)",
+    "duration_hours": 3.2,
+    "carrier_mmsi": "440150580",
+    "explanation": {
+      "method": "GFW Events encounters dataset (Miller et al. 2018).",
+      "drivers": [
+        "two vessels within range for 3 h",
+        "counterpart: JOYANGHO",
+        "two-vessel at-sea encounter (GFW Events)"
+      ]
+    },
+    "caveats": [
+      "Co-location can be legitimate (joint operations, safety, shelter).",
+      "Apparent transshipment is inferred from proximity and low speed, not observed.",
+      "An inspection lead from GFW Events, not proof of illegal activity."
+    ],
+    "eez_name": "Overlapping claim Liancourt Rocks: Japan / South Korea",
+    "eez_sovereign": "Japan",
+    "eez_iso_sov": "JPN",
+    "eez_foreign": true,
+    "authorization_status": "no_record",
+    "authorization_authorities": [],
+    "registry_iuu_tag": false,
+    "registry_flag": "",
+    "registry_imo": "",
+    "severity": "high",
+    "severity_reason": "foreign vessel, no authorization on record",
+    "evidence_schema": "seavigil-evidence-1.0",
+    "evidence_hash": "327907432b917a9fc3328c1a1f1a4d1646ee1b2091f1c93fc6b5e5b6d0752ad5"
   },
   {
     "incident_id": "live_enco_7cf07bbe3f26ac",
@@ -493,8 +600,8 @@
     "centroid_lat": -12.4236,
     "time_start_utc": "2026-08-06T18:50:00.000Z",
     "time_end_utc": "2026-08-06T23:40:00.000Z",
-    "vessel_id": "546022100",
-    "ship_name": "F/V ULYSSE ONE",
+    "vessel_id": "546022900",
+    "ship_name": "F/V ULYSSE 2",
     "ship_type": "Fishing",
     "flag": "PYF",
     "flag_emoji": "\ud83c\uddf5\ud83c\uddeb",
@@ -504,21 +611,21 @@
     "mean_fishing_proba": null,
     "max_fishing_proba": null,
     "_rfmo": [
-      "IATTC",
       "WCPFC",
+      "SPC",
       "ACAP",
       "IWC",
-      "SPC"
+      "IATTC"
     ],
     "_no_take": false,
     "mpa_name": "At-sea encounter (transshipment)",
     "duration_hours": 4.8,
-    "carrier_mmsi": "546022900",
+    "carrier_mmsi": "546022100",
     "explanation": {
       "method": "GFW Events encounters dataset (Miller et al. 2018).",
       "drivers": [
         "two vessels within range for 5 h",
-        "counterpart: F/V ULYSSE 2",
+        "counterpart: F/V ULYSSE ONE",
         "two-vessel at-sea encounter (GFW Events)"
       ]
     },
@@ -538,11 +645,11 @@
     ],
     "registry_iuu_tag": false,
     "registry_flag": "PYF",
-    "registry_imo": "8589076",
+    "registry_imo": "8589088",
     "severity": "high",
     "severity_reason": "foreign vessel, authorization lapsed",
     "evidence_schema": "seavigil-evidence-1.0",
-    "evidence_hash": "05a4cdf021747b150187827f60dbc032639e13e7a7855ee165f6220c673de7fe"
+    "evidence_hash": "1e012c594ac2eefa1039a8b7d4c3e91708757a370f422ba848e181c739b80025"
   },
   {
     "incident_id": "live_ais__d1dc5b19693efe",
