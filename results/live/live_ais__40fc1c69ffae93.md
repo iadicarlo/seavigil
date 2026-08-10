@@ -1,9 +1,9 @@
 # Incident `live_ais__40fc1c69ffae93`
 
 - **MPA:** AIS disabling (going dark)
-- **Severity:** HIGH (foreign vessel, authorization lapsed)
+- **Severity:** HIGH (foreign vessel, no authorization on record)
 - **EEZ:** Kiribati Exclusive Economic Zone (Phoenix Group) (Kiribati) -- FOREIGN-flagged vessel
-- **Authorization:** Authorization lapsed before this date: FFA, IATTC, WCPFC  ·  IMO 8916360
+- **Authorization:** No public authorization record (check coastal state)
 - **Vessel:** 🇰🇷 PANALOX 502  ·  **signal:** AIS gap
 - **When (UTC):** 2026-08-05T00:32:04.000Z → 2026-08-05T18:35:56.000Z
 - **Gap:** 18.1 h dark, 89.0 nm offshore

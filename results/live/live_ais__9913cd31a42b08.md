@@ -1,9 +1,9 @@
 # Incident `live_ais__9913cd31a42b08`
 
 - **MPA:** AIS disabling (going dark)
-- **Severity:** HIGH (foreign vessel, authorization lapsed)
+- **Severity:** HIGH (foreign vessel, no authorization on record)
 - **EEZ:** Solomon Islands Exclusive Economic Zone (Solomon Islands) -- FOREIGN-flagged vessel
-- **Authorization:** Authorization lapsed before this date: FFA, IOTC, WCPFC  ·  IMO 8525812
+- **Authorization:** No public authorization record (check coastal state)
 - **Vessel:** 🇹🇼 YI SIANG NO.6  ·  **signal:** AIS gap
 - **When (UTC):** 2026-08-01T12:02:51.000Z → 2026-08-05T08:57:39.000Z
 - **Gap:** 92.9 h dark, 98.0 nm offshore
