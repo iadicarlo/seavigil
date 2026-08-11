@@ -1,19 +1,19 @@
-# Incident `live_ais__04e45c3b239a77`
+# Incident `live_ais__8b2142992cebe6`
 
 - **MPA:** AIS disabling (going dark)
 - **Severity:** HIGH (foreign vessel, no authorization on record)
-- **EEZ:** Overlapping claim Western Sahara: Western Sahara / Morocco (Western Sahara) -- FOREIGN-flagged vessel
+- **EEZ:** Sudanese Exclusive Economic Zone (Sudan) -- FOREIGN-flagged vessel
 - **Authorization:** No public authorization record (check coastal state)
-- **Vessel:** 🇸🇻 MONTEFRISA NUEVE  ·  **signal:** AIS gap
-- **When (UTC):** 2026-08-05T06:45:07.000Z → 2026-08-05T19:33:48.000Z
-- **Gap:** 12.8 h dark, 54.0 nm offshore
-- **Where:** 20.420, -18.039
+- **Vessel:** 🇲🇭 TS JAKARTA  ·  **signal:** AIS gap
+- **When (UTC):** 2026-08-07T01:50:03.000Z → 2026-08-07T17:20:13.000Z
+- **Gap:** 15.5 h dark, 55.0 nm offshore
+- **Where:** 18.656, 39.464
 
 ## Why this was flagged
 
 _GFW Events gaps dataset (satellite AIS).._
 
-- went dark 54 nm offshore for 13 h
+- went dark 55 nm offshore for 16 h
 - satellite-confirmed AIS gap (GFW Events)
 
 ## Could be innocent
@@ -31,7 +31,7 @@ Going dark is frequently benign: in open water, where gaps are commonly protecti
 - NOAA Marine Cadastre AIS (marinecadastre.gov/ais (vessel positions)). US public domain.
 - WDPA / WD-OECM (World Database on Protected Areas) (UNEP-WCMC and IUCN (2026), June 2026). Protected Planet Terms of Use (non-commercial, display-only).
 - Marine Regions Exclusive Economic Zones v12 (Flanders Marine Institute (2024), DOI 10.14284/632). CC BY 4.0.
-- **Integrity (SHA-256 of canonical facts):** `54b439bd35e7a8198aa9b560d8856bc8f9d75f42163f5d408443b66ee205fd32`
+- **Integrity (SHA-256 of canonical facts):** `e2cf2f170f484e6c663f728fd939302ee3c085d1a8da20e08e7e4539540486b7`
 - **Evidence schema:** seavigil-evidence-1.0
 
 _Apparent activity and an inspection lead, not proof of illegality. AIS and SAR evidence have known coverage gaps and spoofing risks; verify against authoritative sources before any enforcement action._
