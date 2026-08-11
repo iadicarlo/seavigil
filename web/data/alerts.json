@@ -1,6 +1,71 @@
 {
-"generated_at": "2026-08-10T23:51:50Z",
+"generated_at": "2026-08-11T02:28:28Z",
 "alerts": [
+{
+"id": "live_enco_f6fe29ee562255",
+"first_seen": "2026-08-11T02:28:28Z",
+"type": "encounter",
+"when": "2026-08-07T14:10:00.000Z",
+"eez": "Vietnamese Exclusive Economic Zone",
+"flag": "SGP",
+"authorization": "no_record",
+"severity_reason": "foreign vessel, no authorization on record",
+"lat": 10.5243,
+"lon": 108.9755,
+"ship_name": "81NGOCTHANHE36"
+},
+{
+"id": "live_enco_f139245d62c825",
+"first_seen": "2026-08-11T02:28:28Z",
+"type": "encounter",
+"when": "2026-08-07T14:10:00.000Z",
+"eez": "Vietnamese Exclusive Economic Zone",
+"flag": "SGP",
+"authorization": "no_record",
+"severity_reason": "foreign vessel, no authorization on record",
+"lat": 10.5243,
+"lon": 108.9755,
+"ship_name": "81NGOCTHANHE36"
+},
+{
+"id": "live_enco_3c99ee1563380f",
+"first_seen": "2026-08-11T02:28:28Z",
+"type": "encounter",
+"when": "2026-08-07T14:10:00.000Z",
+"eez": "Tunisian Exclusive Economic Zone",
+"flag": "MLT",
+"authorization": "no_record",
+"severity_reason": "foreign vessel, no authorization on record",
+"lat": 36.011,
+"lon": 10.5634,
+"ship_name": "TA MATTEW"
+},
+{
+"id": "live_enco_a6182648ecbd5a",
+"first_seen": "2026-08-11T02:28:28Z",
+"type": "encounter",
+"when": "2026-08-07T15:30:00.000Z",
+"eez": "Vietnamese Exclusive Economic Zone",
+"flag": "MNG",
+"authorization": "no_record",
+"severity_reason": "foreign vessel, no authorization on record",
+"lat": 12.9507,
+"lon": 109.5318,
+"ship_name": "VUONG43"
+},
+{
+"id": "live_enco_e7f14e1194a2ea",
+"first_seen": "2026-08-11T02:28:28Z",
+"type": "encounter",
+"when": "2026-08-07T15:50:00.000Z",
+"eez": "Chinese Exclusive Economic Zone",
+"flag": "BRB",
+"authorization": "no_record",
+"severity_reason": "foreign vessel, no authorization on record",
+"lat": 21.7312,
+"lon": 113.9325,
+"ship_name": "QINGDANYU00201"
+},
 {
 "id": "live_ais__7135408b43d816",
 "first_seen": "2026-08-10T12:00:10Z",
@@ -2535,71 +2600,6 @@
 "lat": -21.499,
 "lon": 179.828,
 "ship_name": "WANGBIAO-8716  100%"
-},
-{
-"id": "live_ais__f974e7b7853b88",
-"first_seen": "2026-08-05T12:17:32Z",
-"type": "ais_disabling",
-"when": "2026-08-01T10:05:11.000Z",
-"eez": "Australian Exclusive Economic Zone",
-"flag": "ISL",
-"authorization": "no_record",
-"severity_reason": "foreign vessel, no authorization on record",
-"lat": -38.1366,
-"lon": 150.8733,
-"ship_name": "SOUTH SEAS 10-99%"
-},
-{
-"id": "live_ais__edd20a11ac2f8d",
-"first_seen": "2026-08-05T12:17:32Z",
-"type": "ais_disabling",
-"when": "2026-08-01T07:25:49.000Z",
-"eez": "Kiribati Exclusive Economic Zone (Phoenix Group)",
-"flag": "CHN",
-"authorization": "no_record",
-"severity_reason": "foreign vessel, no authorization on record",
-"lat": -5.7822,
-"lon": -170.715,
-"ship_name": "GYY339-02"
-},
-{
-"id": "live_ais__3e79f89a5720fb",
-"first_seen": "2026-08-05T12:17:32Z",
-"type": "ais_disabling",
-"when": "2026-07-31T23:22:13.000Z",
-"eez": "Yemeni Exclusive Economic Zone",
-"flag": "LBR",
-"authorization": "no_record",
-"severity_reason": "foreign vessel, no authorization on record",
-"lat": 13.4144,
-"lon": 50.0157,
-"ship_name": "FPMC C LORD"
-},
-{
-"id": "live_ais__6885c49897850e",
-"first_seen": "2026-08-05T12:17:32Z",
-"type": "ais_disabling",
-"when": "2026-08-01T08:22:44.000Z",
-"eez": "Kiribati Exclusive Economic Zone (Phoenix Group)",
-"flag": "CHN",
-"authorization": "no_record",
-"severity_reason": "foreign vessel, no authorization on record",
-"lat": -5.8655,
-"lon": -173.839,
-"ship_name": "GYY338-02"
-},
-{
-"id": "live_ais__e930d8483f559d",
-"first_seen": "2026-08-05T12:17:32Z",
-"type": "ais_disabling",
-"when": "2026-08-01T06:49:00.000Z",
-"eez": "Fijian Exclusive Economic Zone",
-"flag": "CHN",
-"authorization": "no_record",
-"severity_reason": "foreign vessel, no authorization on record",
-"lat": -20.3243,
-"lon": 179.6126,
-"ship_name": "SEIN 11 N9-83%"
 }
 ]
 }

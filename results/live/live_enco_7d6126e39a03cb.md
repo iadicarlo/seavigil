@@ -5,15 +5,15 @@
 - **EEZ:** Russian Exclusive Economic Zone (Russia) -- FOREIGN-flagged vessel
 - **Authorization:** Authorization lapsed before this date: NPFC, SPRFMO  ·  IMO 8607244
 - **Vessel:** 🇨🇳 HAILI  ·  **signal:** Encounter
-- **When (UTC):** 2026-08-06T20:20:00.000Z → 2026-08-06T23:50:00.000Z
-- **Encounter:** 3.5 h with carrier `273429140` (apparent transshipment)
-- **Where:** 62.285, 177.793
+- **When (UTC):** 2026-08-06T20:20:00.000Z → 2026-08-07T23:50:00.000Z
+- **Encounter:** 27.5 h with carrier `273429140` (apparent transshipment)
+- **Where:** 62.284, 177.798
 
 ## Why this was flagged
 
 _GFW Events encounters dataset (Miller et al. 2018).._
 
-- two vessels within range for 4 h
+- two vessels within range for 28 h
 - counterpart: VASILIY POLESHCHUK
 - two-vessel at-sea encounter (GFW Events)
 
@@ -31,7 +31,7 @@ Two vessels meeting at sea can be a legitimate transfer, bunkering, or a safety 
 
 - WDPA / WD-OECM (World Database on Protected Areas) (UNEP-WCMC and IUCN (2026), June 2026). Protected Planet Terms of Use (non-commercial, display-only).
 - Marine Regions Exclusive Economic Zones v12 (Flanders Marine Institute (2024), DOI 10.14284/632). CC BY 4.0.
-- **Integrity (SHA-256 of canonical facts):** `3dc873c5ba43519111dd9bbf5255b5ce8704e8155381d47dd01a43882d648c6e`
+- **Integrity (SHA-256 of canonical facts):** `3d68c99fb3a98020fdcfda2487a3ac25ce62040396aa8c7a1eb60747e769bcb1`
 - **Evidence schema:** seavigil-evidence-1.0
 
 _Apparent activity and an inspection lead, not proof of illegality. AIS and SAR evidence have known coverage gaps and spoofing risks; verify against authoritative sources before any enforcement action._
