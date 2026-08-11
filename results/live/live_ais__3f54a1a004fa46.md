@@ -1,9 +1,9 @@
 # Incident `live_ais__3f54a1a004fa46`
 
 - **MPA:** AIS disabling (going dark)
-- **Severity:** HIGH (foreign vessel, no authorization on record)
+- **Severity:** HIGH (foreign vessel, authorization lapsed)
 - **EEZ:** Ghanaian Exclusive Economic Zone (Ghana) -- FOREIGN-flagged vessel
-- **Authorization:** No public authorization record (check coastal state)
+- **Authorization:** Authorization lapsed before this date: ICCAT, IOTC, SPRFMO, WCPFC  ·  IMO 9019652
 - **Vessel:** 🇱🇷 ACONCAGUA BAY  ·  **signal:** AIS gap
 - **When (UTC):** 2026-08-05T13:06:18.000Z → 2026-08-06T06:40:43.000Z
 - **Gap:** 17.6 h dark, 124.0 nm offshore

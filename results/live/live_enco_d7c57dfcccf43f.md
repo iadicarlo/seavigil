@@ -3,7 +3,7 @@
 - **MPA:** At-sea encounter (transshipment)
 - **Severity:** HIGH (foreign vessel, no authorization on record)
 - **EEZ:** Overlapping claim Kuril Islands: Japan / Russia (Japan) -- FOREIGN-flagged vessel
-- **Authorization:** No public authorization record (check coastal state)
+- **Authorization:** No public authorization record (check coastal state)  ·  IMO 9053309
 - **Vessel:** 🇷🇺 MYS DATTA  ·  **signal:** Encounter
 - **When (UTC):** 2026-08-06T11:50:00.000Z → 2026-08-07T23:50:00.000Z
 - **Encounter:** 36.0 h with carrier `273358980` (apparent transshipment)

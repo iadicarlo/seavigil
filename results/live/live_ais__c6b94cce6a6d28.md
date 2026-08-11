@@ -3,7 +3,7 @@
 - **MPA:** AIS disabling (going dark)
 - **Severity:** HIGH (foreign vessel, no authorization on record)
 - **EEZ:** Micronesian Exclusive Economic Zone (Micronesia) -- FOREIGN-flagged vessel
-- **Authorization:** No public authorization record (check coastal state)  ·  IMO 9587908
+- **Authorization:** No public authorization record (check coastal state)  ·  IMO 9624976
 - **Vessel:** 🇸🇬 BOGA INDAH  ·  **signal:** AIS gap
 - **When (UTC):** 2026-08-02T15:35:06.000Z → 2026-08-06T18:22:48.000Z
 - **Gap:** 98.8 h dark, 293.0 nm offshore

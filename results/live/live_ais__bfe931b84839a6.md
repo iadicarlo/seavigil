@@ -1,9 +1,9 @@
 # Incident `live_ais__bfe931b84839a6`
 
 - **MPA:** AIS disabling (going dark)
-- **Severity:** HIGH (foreign vessel, no authorization on record)
+- **Severity:** HIGH (foreign vessel, authorization lapsed)
 - **EEZ:** Micronesian Exclusive Economic Zone (Micronesia) -- FOREIGN-flagged vessel
-- **Authorization:** No public authorization record (check coastal state)
+- **Authorization:** Authorization lapsed before this date: FFA, IATTC, WCPFC  ·  IMO 9731133
 - **Vessel:** 🇨🇳 SHENGANGFA17  ·  **signal:** AIS gap
 - **When (UTC):** 2026-08-05T01:04:25.000Z → 2026-08-05T17:26:00.000Z
 - **Gap:** 16.4 h dark, 177.0 nm offshore

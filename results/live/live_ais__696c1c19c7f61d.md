@@ -3,7 +3,7 @@
 - **MPA:** AIS disabling (going dark)
 - **Severity:** HIGH (foreign vessel, no authorization on record)
 - **EEZ:** Yemeni Exclusive Economic Zone (Yemen) -- FOREIGN-flagged vessel
-- **Authorization:** No public authorization record (check coastal state)
+- **Authorization:** No public authorization record (check coastal state)  ·  IMO 8912912
 - **Vessel:** 🇻🇺 OCEAN DARIA  ·  **signal:** AIS gap
 - **When (UTC):** 2026-08-05T10:51:48.000Z → 2026-08-06T06:55:13.000Z
 - **Gap:** 20.1 h dark, 80.0 nm offshore
