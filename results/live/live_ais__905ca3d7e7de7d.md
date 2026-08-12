@@ -1,9 +1,9 @@
 # Incident `live_ais__905ca3d7e7de7d`
 
 - **MPA:** AIS disabling (going dark)
-- **Severity:** HIGH (foreign vessel, no authorization on record)
+- **Severity:** HIGH (foreign vessel, authorization lapsed)
 - **EEZ:** São Toméan Exclusive Economic Zone (Sao Tome and Principe) -- FOREIGN-flagged vessel
-- **Authorization:** No public authorization record (check coastal state)  ·  IMO 8912986
+- **Authorization:** Authorization lapsed before this date: ICCAT, IOTC, WCPFC  ·  IMO 8912986
 - **Vessel:** 🇫🇷 F/V GUEOTEC  ·  **signal:** AIS gap
 - **When (UTC):** 2026-08-05T15:01:07.000Z → 2026-08-07T00:34:47.000Z
 - **Gap:** 33.6 h dark, 96.0 nm offshore
