@@ -1,19 +1,19 @@
-# Incident `live_ais__d0f1924e99d4f8`
+# Incident `live_ais__64e97d31e1b601`
 
 - **MPA:** AIS disabling (going dark)
 - **Severity:** HIGH (foreign vessel, no authorization on record)
-- **EEZ:** Australian Exclusive Economic Zone (Australia) -- FOREIGN-flagged vessel
-- **Authorization:** No public authorization record (check coastal state)
-- **Vessel:** 🇮🇪 GRACIEPLONGLINE8-99%  ·  **signal:** AIS gap
-- **When (UTC):** 2026-08-05T08:15:28.000Z → 2026-08-06T17:14:20.000Z
-- **Gap:** 33.0 h dark, 60.0 nm offshore
-- **Where:** -35.687, 151.803
+- **EEZ:** Cape Verdean Exclusive Economic Zone (Cape Verde) -- FOREIGN-flagged vessel
+- **Authorization:** No public authorization record (check coastal state)  ·  IMO 9449273
+- **Vessel:** 🇭🇰 DIAMOND STAR II  ·  **signal:** AIS gap
+- **When (UTC):** 2026-08-07T14:54:00.000Z → 2026-08-08T03:41:49.000Z
+- **Gap:** 12.8 h dark, 170.0 nm offshore
+- **Where:** 16.296, -20.564
 
 ## Why this was flagged
 
 _GFW Events gaps dataset (satellite AIS).._
 
-- went dark 60 nm offshore for 33 h
+- went dark 170 nm offshore for 13 h
 - satellite-confirmed AIS gap (GFW Events)
 
 ## Could be innocent
@@ -31,7 +31,7 @@ Going dark is frequently benign: in open water, where gaps are commonly protecti
 - NOAA Marine Cadastre AIS (marinecadastre.gov/ais (vessel positions)). US public domain.
 - WDPA / WD-OECM (World Database on Protected Areas) (UNEP-WCMC and IUCN (2026), June 2026). Protected Planet Terms of Use (non-commercial, display-only).
 - Marine Regions Exclusive Economic Zones v12 (Flanders Marine Institute (2024), DOI 10.14284/632). CC BY 4.0.
-- **Integrity (SHA-256 of canonical facts):** `de91f7f53cf0ed2124cd76ecfe3b45513bf517d13426cabb8ad1f2e6765286a8`
+- **Integrity (SHA-256 of canonical facts):** `c47b6a7159747207d32c25e52ad598077b818a77bb547bb4c34fe6c57039693a`
 - **Evidence schema:** seavigil-evidence-1.0
 
 _Apparent activity and an inspection lead, not proof of illegality. AIS and SAR evidence have known coverage gaps and spoofing risks; verify against authoritative sources before any enforcement action._
