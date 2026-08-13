@@ -103,16 +103,13 @@
     "eez_sovereign": "Marshall Islands",
     "eez_iso_sov": "MHL",
     "eez_foreign": true,
-    "authorization_status": "authorization_lapsed",
-    "authorization_authorities": [
-      "FFA",
-      "WCPFC"
-    ],
+    "authorization_status": "no_record",
+    "authorization_authorities": [],
     "registry_iuu_tag": false,
-    "registry_flag": "FSM",
-    "registry_imo": "9887073",
+    "registry_flag": "",
+    "registry_imo": "",
     "severity": "high",
-    "severity_reason": "foreign vessel, authorization lapsed",
+    "severity_reason": "foreign vessel, no authorization on record",
     "evidence_schema": "seavigil-evidence-1.0",
     "evidence_hash": "1bb5706b19a7b78c1f1d6fd985e88e0d0b8b5dac075d6f7510e3b5c7c838ebe5"
   },

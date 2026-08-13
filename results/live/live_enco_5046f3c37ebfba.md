@@ -1,9 +1,9 @@
 # Incident `live_enco_5046f3c37ebfba`
 
 - **MPA:** At-sea encounter (transshipment)
-- **Severity:** HIGH (foreign vessel, authorization lapsed)
+- **Severity:** HIGH (foreign vessel, no authorization on record)
 - **EEZ:** Marshallese Exclusive Economic Zone (Marshall Islands) -- FOREIGN-flagged vessel
-- **Authorization:** Authorization lapsed before this date: FFA, WCPFC  ·  IMO 9887073
+- **Authorization:** No public authorization record (check coastal state)
 - **Vessel:** 🇫🇲 PACIFIC PURSUIT 107  ·  **signal:** Encounter
 - **When (UTC):** 2026-08-09T17:40:00.000Z → 2026-08-09T20:40:00.000Z
 - **Encounter:** 3.0 h with carrier `577639000` (apparent transshipment)
