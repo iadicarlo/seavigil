@@ -157,16 +157,13 @@
     "eez_sovereign": "Tunisia",
     "eez_iso_sov": "TUN",
     "eez_foreign": true,
-    "authorization_status": "authorization_lapsed",
-    "authorization_authorities": [
-      "GFCM",
-      "ICCAT"
-    ],
+    "authorization_status": "no_record",
+    "authorization_authorities": [],
     "registry_iuu_tag": false,
-    "registry_flag": "MLT",
-    "registry_imo": "8412338",
+    "registry_flag": "",
+    "registry_imo": "",
     "severity": "high",
-    "severity_reason": "foreign vessel, authorization lapsed",
+    "severity_reason": "foreign vessel, no authorization on record",
     "evidence_schema": "seavigil-evidence-1.0",
     "evidence_hash": "f4604f7f13341a03d8a2e058913a00eeecb6d88508999b38698fe45ddc67b5ac"
   },
@@ -2508,13 +2505,15 @@
     "eez_sovereign": "Western Sahara",
     "eez_iso_sov": "ESH",
     "eez_foreign": true,
-    "authorization_status": "no_record",
-    "authorization_authorities": [],
+    "authorization_status": "authorization_lapsed",
+    "authorization_authorities": [
+      "ICCAT"
+    ],
     "registry_iuu_tag": false,
-    "registry_flag": "",
-    "registry_imo": "",
+    "registry_flag": "SLV",
+    "registry_imo": "7409176",
     "severity": "high",
-    "severity_reason": "foreign vessel, no authorization on record",
+    "severity_reason": "foreign vessel, authorization lapsed",
     "evidence_schema": "seavigil-evidence-1.0",
     "evidence_hash": "292d1652a88964ae5da7fd855b1da324f074dc7dc8cf59584ff023f6160e10bd"
   },

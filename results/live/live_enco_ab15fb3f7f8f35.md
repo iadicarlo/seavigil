@@ -1,9 +1,9 @@
 # Incident `live_enco_ab15fb3f7f8f35`
 
 - **MPA:** At-sea encounter (transshipment)
-- **Severity:** HIGH (foreign vessel, authorization lapsed)
+- **Severity:** HIGH (foreign vessel, no authorization on record)
 - **EEZ:** Tunisian Exclusive Economic Zone (Tunisia) -- FOREIGN-flagged vessel
-- **Authorization:** Authorization lapsed before this date: GFCM, ICCAT  ·  IMO 8412338
+- **Authorization:** No public authorization record (check coastal state)
 - **Vessel:** 🇲🇹 CRYSTAL STARLIGHT  ·  **signal:** Encounter
 - **When (UTC):** 2026-08-09T12:40:00.000Z → 2026-08-09T20:30:00.000Z
 - **Encounter:** 7.8 h with carrier `215000910` (apparent transshipment)
