@@ -1,6 +1,45 @@
 {
-"generated_at": "2026-08-12T23:59:14Z",
+"generated_at": "2026-08-13T02:48:40Z",
 "alerts": [
+{
+"id": "live_enco_b65a82a026a855",
+"first_seen": "2026-08-13T02:48:40Z",
+"type": "encounter",
+"when": "2026-08-09T16:10:00.000Z",
+"eez": "Kiribati Exclusive Economic Zone (Phoenix Group)",
+"flag": "CHN",
+"authorization": "authorization_lapsed",
+"severity_reason": "foreign vessel, authorization lapsed",
+"lat": -6.4077,
+"lon": -168.9532,
+"ship_name": "GUANGYUANYU333"
+},
+{
+"id": "live_enco_5046f3c37ebfba",
+"first_seen": "2026-08-13T02:48:40Z",
+"type": "encounter",
+"when": "2026-08-09T17:40:00.000Z",
+"eez": "Marshallese Exclusive Economic Zone",
+"flag": "FSM",
+"authorization": "authorization_lapsed",
+"severity_reason": "foreign vessel, authorization lapsed",
+"lat": 5.6703,
+"lon": 174.2806,
+"ship_name": "PACIFIC PURSUIT 107"
+},
+{
+"id": "live_enco_ab15fb3f7f8f35",
+"first_seen": "2026-08-13T02:48:40Z",
+"type": "encounter",
+"when": "2026-08-09T12:40:00.000Z",
+"eez": "Tunisian Exclusive Economic Zone",
+"flag": "MLT",
+"authorization": "authorization_lapsed",
+"severity_reason": "foreign vessel, authorization lapsed",
+"lat": 36.0112,
+"lon": 10.5628,
+"ship_name": "CRYSTAL STARLIGHT"
+},
 {
 "id": "live_ais__92786facf5bb0f",
 "first_seen": "2026-08-12T11:59:47Z",
@@ -2561,45 +2600,6 @@
 "lat": -29.6172,
 "lon": 13.8375,
 "ship_name": "COSCO UNIVERSE"
-},
-{
-"id": "live_ais__80bb955b22bf90",
-"first_seen": "2026-08-07T13:40:51Z",
-"type": "ais_disabling",
-"when": "2026-07-30T07:33:06.000Z",
-"eez": "Fijian Exclusive Economic Zone",
-"flag": "GBR",
-"authorization": "no_record",
-"severity_reason": "foreign vessel, no authorization on record",
-"lat": -17.8062,
-"lon": 176.0686,
-"ship_name": "HSD11101-99%"
-},
-{
-"id": "live_ais__9ce5eaff6ab18c",
-"first_seen": "2026-08-07T13:40:51Z",
-"type": "ais_disabling",
-"when": "2026-08-01T05:20:31.000Z",
-"eez": "Equatorial Guinean Exclusive Economic Zone",
-"flag": "CUW",
-"authorization": "authorization_lapsed",
-"severity_reason": "foreign vessel, authorization lapsed",
-"lat": 0.4598,
-"lon": 4.0427,
-"ship_name": "ARTIKE"
-},
-{
-"id": "live_ais__69292be13450e4",
-"first_seen": "2026-08-07T13:40:51Z",
-"type": "ais_disabling",
-"when": "2026-08-02T05:36:22.000Z",
-"eez": "New Zealand Exclusive Economic Zone (Cook Islands)",
-"flag": "CHN",
-"authorization": "no_record",
-"severity_reason": "foreign vessel, no authorization on record",
-"lat": -8.4334,
-"lon": -167.0599,
-"ship_name": "HUA NAN YU 718"
 }
 ]
 }
