@@ -1,6 +1,19 @@
 {
-"generated_at": "2026-08-13T23:04:00Z",
+"generated_at": "2026-08-14T00:00:26Z",
 "alerts": [
+{
+"id": "live_enco_f95d3ae2a95f84",
+"first_seen": "2026-08-14T00:00:26Z",
+"type": "encounter",
+"when": "2026-08-09T11:10:00.000Z",
+"eez": "Vietnamese Exclusive Economic Zone",
+"flag": "JAM",
+"authorization": "no_record",
+"severity_reason": "foreign vessel, no authorization on record",
+"lat": 10.0123,
+"lon": 104.0215,
+"ship_name": "BAN CHU CAI BAN 54D5"
+},
 {
 "id": "live_ais__d6ce37807c0f81",
 "first_seen": "2026-08-13T12:00:43Z",
@@ -2587,19 +2600,6 @@
 "lat": -6.595,
 "lon": -83.1735,
 "ship_name": "DONA CHULE"
-},
-{
-"id": "live_ais__96703ab9db2e20",
-"first_seen": "2026-08-07T13:40:51Z",
-"type": "ais_disabling",
-"when": "2026-08-02T10:29:37.000Z",
-"eez": "Kiribati Exclusive Economic Zone (Gilbert Islands)",
-"flag": "CHN",
-"authorization": "no_record",
-"severity_reason": "foreign vessel, no authorization on record",
-"lat": 1.762,
-"lon": 175.8198,
-"ship_name": "WANGBIAO-8633  100%"
 }
 ]
 }

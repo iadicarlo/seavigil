@@ -1,37 +1,37 @@
 [
   {
-    "incident_id": "live_enco_b65a82a026a855",
+    "incident_id": "live_enco_f95d3ae2a95f84",
     "type": "encounter",
-    "centroid_lon": -168.9532,
-    "centroid_lat": -6.4077,
-    "time_start_utc": "2026-08-09T16:10:00.000Z",
+    "centroid_lon": 104.0215,
+    "centroid_lat": 10.0123,
+    "time_start_utc": "2026-08-09T11:10:00.000Z",
     "time_end_utc": "2026-08-09T23:50:00.000Z",
-    "vessel_id": "412549562",
-    "ship_name": "GUANGYUANYU333",
+    "vessel_id": "339393939",
+    "ship_name": "BAN CHU CAI BAN 54D5",
     "ship_type": "Fishing",
-    "flag": "CHN",
-    "flag_emoji": "\ud83c\udde8\ud83c\uddf3",
+    "flag": "JAM",
+    "flag_emoji": "\ud83c\uddef\ud83c\uddf2",
     "gear": "Encounter",
     "n_positions": 0,
     "n_fishing_positions": 0,
     "mean_fishing_proba": null,
     "max_fishing_proba": null,
     "_rfmo": [
-      "ACAP",
-      "IWC",
       "WCPFC",
-      "FFA",
-      "SPC"
+      "APFIC",
+      "IWC",
+      "SEAFDEC",
+      "ACAP"
     ],
     "_no_take": false,
     "mpa_name": "At-sea encounter (transshipment)",
-    "duration_hours": 7.7,
-    "carrier_mmsi": "107000259",
+    "duration_hours": 12.7,
+    "carrier_mmsi": "574565128",
     "explanation": {
       "method": "GFW Events encounters dataset (Miller et al. 2018).",
       "drivers": [
-        "two vessels within range for 8 h",
-        "counterpart: 107000259",
+        "two vessels within range for 13 h",
+        "counterpart: GHE LU   48   D5",
         "two-vessel at-sea encounter (GFW Events)"
       ]
     },
@@ -40,23 +40,19 @@
       "Apparent transshipment is inferred from proximity and low speed, not observed.",
       "An inspection lead from GFW Events, not proof of illegal activity."
     ],
-    "eez_name": "Kiribati Exclusive Economic Zone (Phoenix Group)",
-    "eez_sovereign": "Kiribati",
-    "eez_iso_sov": "KIR",
+    "eez_name": "Vietnamese Exclusive Economic Zone",
+    "eez_sovereign": "Vietnam",
+    "eez_iso_sov": "VNM",
     "eez_foreign": true,
-    "authorization_status": "authorization_lapsed",
-    "authorization_authorities": [
-      "FFA",
-      "IATTC",
-      "WCPFC"
-    ],
+    "authorization_status": "no_record",
+    "authorization_authorities": [],
     "registry_iuu_tag": false,
-    "registry_flag": "CHN",
-    "registry_imo": "1016642",
+    "registry_flag": "",
+    "registry_imo": "",
     "severity": "high",
-    "severity_reason": "foreign vessel, authorization lapsed",
+    "severity_reason": "foreign vessel, no authorization on record",
     "evidence_schema": "seavigil-evidence-1.0",
-    "evidence_hash": "5dc23469ca07dc79d983aa6b23fcf7e3fb26a7f0876fd42b9ab011703b9a3825"
+    "evidence_hash": "cef3dad3ecda9363dac7dfbe8088f1e1450af344ed939e5019b178a451196c35"
   },
   {
     "incident_id": "live_ais__d6ce37807c0f81",
