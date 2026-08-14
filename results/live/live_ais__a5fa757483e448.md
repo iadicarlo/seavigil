@@ -1,19 +1,19 @@
-# Incident `live_ais__e84c5e37a0d4fd`
+# Incident `live_ais__a5fa757483e448`
 
 - **MPA:** AIS disabling (going dark)
 - **Severity:** HIGH (foreign vessel, no authorization on record)
-- **EEZ:** Kiribati Exclusive Economic Zone (Phoenix Group) (Kiribati) -- FOREIGN-flagged vessel
-- **Authorization:** No public authorization record (check coastal state)
-- **Vessel:** 🇹🇩 670000015         9V  ·  **signal:** AIS gap
-- **When (UTC):** 2026-08-08T08:59:47.000Z → 2026-08-08T21:56:00.000Z
-- **Gap:** 12.9 h dark, 119.0 nm offshore
-- **Where:** -1.945, -174.366
+- **EEZ:** Colombian Exclusive Economic Zone (Colombia) -- FOREIGN-flagged vessel
+- **Authorization:** No public authorization record (check coastal state)  ·  IMO 9757931
+- **Vessel:** 🇲🇭 IRENE  ·  **signal:** AIS gap
+- **When (UTC):** 2026-08-10T03:04:03.000Z → 2026-08-10T18:59:37.000Z
+- **Gap:** 15.9 h dark, 89.0 nm offshore
+- **Where:** 2.019, -80.528
 
 ## Why this was flagged
 
 _GFW Events gaps dataset (satellite AIS).._
 
-- went dark 119 nm offshore for 13 h
+- went dark 89 nm offshore for 16 h
 - satellite-confirmed AIS gap (GFW Events)
 
 ## Could be innocent
@@ -31,7 +31,7 @@ Going dark is frequently benign: in open water, where gaps are commonly protecti
 - NOAA Marine Cadastre AIS (marinecadastre.gov/ais (vessel positions)). US public domain.
 - WDPA / WD-OECM (World Database on Protected Areas) (UNEP-WCMC and IUCN (2026), June 2026). Protected Planet Terms of Use (non-commercial, display-only).
 - Marine Regions Exclusive Economic Zones v12 (Flanders Marine Institute (2024), DOI 10.14284/632). CC BY 4.0.
-- **Integrity (SHA-256 of canonical facts):** `93f91fc1ad9c4d4635c3a93076c7557745d43eb759749a00df1ec587e1b7e9cf`
+- **Integrity (SHA-256 of canonical facts):** `9aac4576d33aca079d91c58c5f17811fbe10e0f390764e9133bb8b159e6ebd63`
 - **Evidence schema:** seavigil-evidence-1.0
 
 _Apparent activity and an inspection lead, not proof of illegality. AIS and SAR evidence have known coverage gaps and spoofing risks; verify against authoritative sources before any enforcement action._
