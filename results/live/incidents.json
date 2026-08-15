@@ -174,9 +174,9 @@
     "centroid_lat": -7.5137,
     "time_start_utc": "2026-08-11T16:20:00.000Z",
     "time_end_utc": "2026-08-11T23:50:00.000Z",
-    "vessel_id": "412420863",
-    "ship_name": "HAI XING 815",
-    "ship_type": "Fishing",
+    "vessel_id": "412351160",
+    "ship_name": "MING RUN 15",
+    "ship_type": "Carrier",
     "flag": "CHN",
     "flag_emoji": "\ud83c\udde8\ud83c\uddf3",
     "gear": "Encounter",
@@ -185,21 +185,21 @@
     "mean_fishing_proba": null,
     "max_fishing_proba": null,
     "_rfmo": [
-      "SPC",
-      "FFA",
       "IWC",
-      "ACAP",
-      "WCPFC"
+      "FFA",
+      "WCPFC",
+      "SPC",
+      "ACAP"
     ],
     "_no_take": false,
     "mpa_name": "At-sea encounter (transshipment)",
     "duration_hours": 7.5,
-    "carrier_mmsi": "412351160",
+    "carrier_mmsi": "412420863",
     "explanation": {
       "method": "GFW Events encounters dataset (Miller et al. 2018).",
       "drivers": [
         "two vessels within range for 8 h",
-        "counterpart: MING RUN 15",
+        "counterpart: HAI XING 815",
         "two-vessel at-sea encounter (GFW Events)"
       ]
     },
@@ -212,19 +212,15 @@
     "eez_sovereign": "Kiribati",
     "eez_iso_sov": "KIR",
     "eez_foreign": true,
-    "authorization_status": "authorization_lapsed",
-    "authorization_authorities": [
-      "FFA",
-      "IATTC",
-      "WCPFC"
-    ],
+    "authorization_status": "no_record",
+    "authorization_authorities": [],
     "registry_iuu_tag": false,
-    "registry_flag": "CHN",
-    "registry_imo": "9702912",
+    "registry_flag": "",
+    "registry_imo": "",
     "severity": "high",
-    "severity_reason": "foreign vessel, authorization lapsed",
+    "severity_reason": "foreign vessel, no authorization on record",
     "evidence_schema": "seavigil-evidence-1.0",
-    "evidence_hash": "638351992ee83cc0da014061c02179d23c2b34071687bac94325864eb7ca52a8"
+    "evidence_hash": "77836d161c30a2154edc4c7b7b4339c2351d81e305a614dd1d285a090543cec0"
   },
   {
     "incident_id": "live_enco_eecffb8cc05cd0",
