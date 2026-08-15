@@ -278,6 +278,61 @@
     "evidence_hash": "2e828af5607a3484e05c9705981a0cc50baafd0b1272f2a62b3fc2453c136ef6"
   },
   {
+    "incident_id": "live_enco_ccbb2d2d5ba21a",
+    "type": "encounter",
+    "centroid_lon": 108.7957,
+    "centroid_lat": 7.4527,
+    "time_start_utc": "2026-08-10T00:30:00.000Z",
+    "time_end_utc": "2026-08-11T23:10:00.000Z",
+    "vessel_id": "555590621",
+    "ship_name": "21>B5S2",
+    "ship_type": "Fishing",
+    "flag": "PCN",
+    "flag_emoji": "\ud83c\uddf5\ud83c\uddf3",
+    "gear": "Encounter",
+    "n_positions": 0,
+    "n_fishing_positions": 0,
+    "mean_fishing_proba": null,
+    "max_fishing_proba": null,
+    "_rfmo": [
+      "WCPFC",
+      "ACAP",
+      "IWC",
+      "SEAFDEC",
+      "APFIC"
+    ],
+    "_no_take": false,
+    "mpa_name": "At-sea encounter (transshipment)",
+    "duration_hours": 46.7,
+    "carrier_mmsi": "574099994",
+    "explanation": {
+      "method": "GFW Events encounters dataset (Miller et al. 2018).",
+      "drivers": [
+        "two vessels within range for 47 h",
+        "counterpart: QUANG HUY94S2B5 TEO",
+        "two-vessel at-sea encounter (GFW Events)"
+      ]
+    },
+    "caveats": [
+      "Co-location can be legitimate (joint operations, safety, shelter).",
+      "Apparent transshipment is inferred from proximity and low speed, not observed.",
+      "An inspection lead from GFW Events, not proof of illegal activity."
+    ],
+    "eez_name": "Vietnamese Exclusive Economic Zone",
+    "eez_sovereign": "Vietnam",
+    "eez_iso_sov": "VNM",
+    "eez_foreign": true,
+    "authorization_status": "no_record",
+    "authorization_authorities": [],
+    "registry_iuu_tag": false,
+    "registry_flag": "",
+    "registry_imo": "",
+    "severity": "high",
+    "severity_reason": "foreign vessel, no authorization on record",
+    "evidence_schema": "seavigil-evidence-1.0",
+    "evidence_hash": "6679dd1277f843c13415c56c091e8d8257faa602b34a7ef6f35800bbc8a3ff77"
+  },
+  {
     "incident_id": "live_enco_6c124e87dc36a8",
     "type": "encounter",
     "centroid_lon": 173.8731,
@@ -443,6 +498,60 @@
     "severity_reason": "foreign vessel, no authorization on record",
     "evidence_schema": "seavigil-evidence-1.0",
     "evidence_hash": "d9d608382f6e9befa5c2f2a193f56eed5c9bc9224635aadaae215cdcedb128ab"
+  },
+  {
+    "incident_id": "live_enco_d317c803f853df",
+    "type": "encounter",
+    "centroid_lon": 122.7687,
+    "centroid_lat": 26.9046,
+    "time_start_utc": "2026-08-11T12:10:00.000Z",
+    "time_end_utc": "2026-08-11T21:50:00.000Z",
+    "vessel_id": "201601335",
+    "ship_name": "",
+    "ship_type": "Fishing",
+    "flag": "ALB",
+    "flag_emoji": "\ud83c\udde6\ud83c\uddf1",
+    "gear": "Encounter",
+    "n_positions": 0,
+    "n_fishing_positions": 0,
+    "mean_fishing_proba": null,
+    "max_fishing_proba": null,
+    "_rfmo": [
+      "APFIC",
+      "ACAP",
+      "IWC",
+      "WCPFC"
+    ],
+    "_no_take": false,
+    "mpa_name": "At-sea encounter (transshipment)",
+    "duration_hours": 9.7,
+    "carrier_mmsi": "416005193",
+    "explanation": {
+      "method": "GFW Events encounters dataset (Miller et al. 2018).",
+      "drivers": [
+        "two vessels within range for 10 h",
+        "counterpart: YU QING NO.8",
+        "two-vessel at-sea encounter (GFW Events)"
+      ]
+    },
+    "caveats": [
+      "Co-location can be legitimate (joint operations, safety, shelter).",
+      "Apparent transshipment is inferred from proximity and low speed, not observed.",
+      "An inspection lead from GFW Events, not proof of illegal activity."
+    ],
+    "eez_name": "Overlapping claim Senkaku Islands: Taiwan / Japan / China",
+    "eez_sovereign": "Taiwan",
+    "eez_iso_sov": "TWN",
+    "eez_foreign": true,
+    "authorization_status": "no_record",
+    "authorization_authorities": [],
+    "registry_iuu_tag": false,
+    "registry_flag": "",
+    "registry_imo": "",
+    "severity": "high",
+    "severity_reason": "foreign vessel, no authorization on record",
+    "evidence_schema": "seavigil-evidence-1.0",
+    "evidence_hash": "2313653105894a0ce530d4cff71fe7e3f9d65dab511bc245fbfb7a49627002b6"
   },
   {
     "incident_id": "live_enco_3d6c529c52c47d",
