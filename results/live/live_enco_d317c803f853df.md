@@ -1,20 +1,20 @@
-# Incident `live_enco_c3daaf7ca47edf`
+# Incident `live_enco_d317c803f853df`
 
 - **MPA:** At-sea encounter (transshipment)
 - **Severity:** HIGH (foreign vessel, no authorization on record)
-- **EEZ:** Vietnamese Exclusive Economic Zone (Vietnam) -- FOREIGN-flagged vessel
+- **EEZ:** Overlapping claim Senkaku Islands: Taiwan / Japan / China (Taiwan) -- FOREIGN-flagged vessel
 - **Authorization:** No public authorization record (check coastal state)
-- **Vessel:** 🇸🇬 81NGOCTHANHE36  ·  **signal:** Encounter
-- **When (UTC):** 2026-08-10T09:50:00.000Z → 2026-08-10T23:50:00.000Z
-- **Encounter:** 14.0 h with carrier `574180044` (apparent transshipment)
-- **Where:** 10.525, 108.976
+- **Vessel:** 🇦🇱 `201601335`  ·  **signal:** Encounter
+- **When (UTC):** 2026-08-11T12:10:00.000Z → 2026-08-11T21:50:00.000Z
+- **Encounter:** 9.7 h with carrier `416005193` (apparent transshipment)
+- **Where:** 26.905, 122.769
 
 ## Why this was flagged
 
 _GFW Events encounters dataset (Miller et al. 2018).._
 
-- two vessels within range for 14 h
-- counterpart: 574180044
+- two vessels within range for 10 h
+- counterpart: YU QING NO.8
 - two-vessel at-sea encounter (GFW Events)
 
 ## Could be innocent
@@ -31,7 +31,7 @@ Two vessels meeting at sea can be a legitimate transfer, bunkering, or a safety 
 
 - WDPA / WD-OECM (World Database on Protected Areas) (UNEP-WCMC and IUCN (2026), June 2026). Protected Planet Terms of Use (non-commercial, display-only).
 - Marine Regions Exclusive Economic Zones v12 (Flanders Marine Institute (2024), DOI 10.14284/632). CC BY 4.0.
-- **Integrity (SHA-256 of canonical facts):** `a6d62d6411061a653ded39a956a6d5ad3b02d36d19c49f1dcafec3e945151455`
+- **Integrity (SHA-256 of canonical facts):** `2313653105894a0ce530d4cff71fe7e3f9d65dab511bc245fbfb7a49627002b6`
 - **Evidence schema:** seavigil-evidence-1.0
 
 _Apparent activity and an inspection lead, not proof of illegality. AIS and SAR evidence have known coverage gaps and spoofing risks; verify against authoritative sources before any enforcement action._
