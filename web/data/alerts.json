@@ -1,6 +1,19 @@
 {
-"generated_at": "2026-08-16T05:44:22Z",
+"generated_at": "2026-08-16T07:00:36Z",
 "alerts": [
+{
+"id": "live_enco_783fff0411a0c6",
+"first_seen": "2026-08-16T07:00:36Z",
+"type": "encounter",
+"when": "2026-08-12T03:50:00.000Z",
+"eez": "Chinese Exclusive Economic Zone",
+"flag": "TWN",
+"authorization": "no_record",
+"severity_reason": "foreign vessel, no authorization on record",
+"lat": 25.2038,
+"lon": 120.15,
+"ship_name": "YU JIN NO1"
+},
 {
 "id": "live_enco_df20de868084cf",
 "first_seen": "2026-08-16T03:13:45Z",
@@ -2587,19 +2600,6 @@
 "lat": -35.7629,
 "lon": 151.8125,
 "ship_name": "ESBJORN 06-99%"
-},
-{
-"id": "live_ais__4c749afd6f8f19",
-"first_seen": "2026-08-09T10:53:17Z",
-"type": "ais_disabling",
-"when": "2026-08-04T13:14:04.000Z",
-"eez": "New Zealand Exclusive Economic Zone (Cook Islands)",
-"flag": "USA",
-"authorization": "no_record",
-"severity_reason": "foreign vessel, no authorization on record",
-"lat": -18.1401,
-"lon": -164.0513,
-"ship_name": "DEAD RECKONING"
 }
 ]
 }
