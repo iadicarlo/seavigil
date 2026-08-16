@@ -1,6 +1,19 @@
 {
-"generated_at": "2026-08-16T01:58:12Z",
+"generated_at": "2026-08-16T03:13:45Z",
 "alerts": [
+{
+"id": "live_enco_df20de868084cf",
+"first_seen": "2026-08-16T03:13:45Z",
+"type": "encounter",
+"when": "2026-08-12T19:30:00.000Z",
+"eez": "Omani Exclusive Economic Zone",
+"flag": "CHN",
+"authorization": "authorization_lapsed",
+"severity_reason": "foreign vessel, authorization lapsed",
+"lat": 19.4993,
+"lon": 57.7444,
+"ship_name": "HAILI888"
+},
 {
 "id": "live_enco_148745acada727",
 "first_seen": "2026-08-16T01:58:12Z",
@@ -2587,19 +2600,6 @@
 "lat": -18.1401,
 "lon": -164.0513,
 "ship_name": "DEAD RECKONING"
-},
-{
-"id": "live_ais__d799d57b85c427",
-"first_seen": "2026-08-09T10:53:17Z",
-"type": "ais_disabling",
-"when": "2026-08-04T07:48:07.000Z",
-"eez": "Brazilian Exclusive Economic Zone",
-"flag": "PAN",
-"authorization": "no_record",
-"severity_reason": "foreign vessel, no authorization on record",
-"lat": -25.4473,
-"lon": -42.7524,
-"ship_name": "CIDADE DE MARICA"
 }
 ]
 }
