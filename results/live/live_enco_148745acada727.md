@@ -1,9 +1,9 @@
 # Incident `live_enco_148745acada727`
 
 - **MPA:** At-sea encounter (transshipment)
-- **Severity:** HIGH (foreign vessel, no authorization on record)
+- **Severity:** HIGH (foreign vessel, authorization lapsed)
 - **EEZ:** Kiribati Exclusive Economic Zone (Line Group) (Kiribati) -- FOREIGN-flagged vessel
-- **Authorization:** No public authorization record (check coastal state)
+- **Authorization:** Authorization lapsed before this date: FFA, IATTC, WCPFC  ·  IMO 8654194
 - **Vessel:** 🇨🇳 HAIXING717  ·  **signal:** Encounter
 - **When (UTC):** 2026-08-12T16:20:00.000Z → 2026-08-12T23:50:00.000Z
 - **Encounter:** 7.5 h with carrier `412351160` (apparent transshipment)
