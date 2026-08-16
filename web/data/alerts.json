@@ -1,6 +1,32 @@
 {
-"generated_at": "2026-08-15T23:35:09Z",
+"generated_at": "2026-08-16T01:58:12Z",
 "alerts": [
+{
+"id": "live_enco_148745acada727",
+"first_seen": "2026-08-16T01:58:12Z",
+"type": "encounter",
+"when": "2026-08-12T16:20:00.000Z",
+"eez": "Kiribati Exclusive Economic Zone (Line Group)",
+"flag": "CHN",
+"authorization": "no_record",
+"severity_reason": "foreign vessel, no authorization on record",
+"lat": -7.5419,
+"lon": -154.0028,
+"ship_name": "HAIXING717"
+},
+{
+"id": "live_enco_74d0e324c96fd5",
+"first_seen": "2026-08-16T01:58:12Z",
+"type": "encounter",
+"when": "2026-08-12T08:30:00.000Z",
+"eez": "Chinese Exclusive Economic Zone",
+"flag": "ALB",
+"authorization": "no_record",
+"severity_reason": "foreign vessel, no authorization on record",
+"lat": 28.1262,
+"lon": 123.3483,
+"ship_name": "ZHE LING YU 12116"
+},
 {
 "id": "live_enco_1286b9b11dcb40",
 "first_seen": "2026-08-15T16:42:31Z",
@@ -2574,32 +2600,6 @@
 "lat": -25.4473,
 "lon": -42.7524,
 "ship_name": "CIDADE DE MARICA"
-},
-{
-"id": "live_ais__b52f574fbd13eb",
-"first_seen": "2026-08-09T10:53:17Z",
-"type": "ais_disabling",
-"when": "2026-08-04T05:34:42.000Z",
-"eez": "Brazilian Exclusive Economic Zone",
-"flag": "SGP",
-"authorization": "no_record",
-"severity_reason": "foreign vessel, no authorization on record",
-"lat": -24.7812,
-"lon": -42.7223,
-"ship_name": "EAGLE CRATO"
-},
-{
-"id": "live_ais__919cd96e86d907",
-"first_seen": "2026-08-09T10:53:17Z",
-"type": "ais_disabling",
-"when": "2026-08-04T08:26:40.000Z",
-"eez": "Indonesian Exclusive Economic Zone",
-"flag": "LBR",
-"authorization": "no_record",
-"severity_reason": "foreign vessel, no authorization on record",
-"lat": -4.9322,
-"lon": 107.3566,
-"ship_name": "KMTC SHIMIZU"
 }
 ]
 }
