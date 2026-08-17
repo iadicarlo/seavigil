@@ -1,6 +1,71 @@
 {
-"generated_at": "2026-08-16T23:34:27Z",
+"generated_at": "2026-08-17T01:55:40Z",
 "alerts": [
+{
+"id": "live_enco_35c07992776472",
+"first_seen": "2026-08-17T01:55:40Z",
+"type": "encounter",
+"when": "2026-08-13T19:10:00.000Z",
+"eez": "Russian Exclusive Economic Zone",
+"flag": "KOR",
+"authorization": "no_record",
+"severity_reason": "foreign vessel, no authorization on record",
+"lat": 63.4753,
+"lon": 179.5222,
+"ship_name": "JOON SUNG HO"
+},
+{
+"id": "live_enco_1029ba79d266ec",
+"first_seen": "2026-08-17T01:55:40Z",
+"type": "encounter",
+"when": "2026-08-13T05:50:00.000Z",
+"eez": "Omani Exclusive Economic Zone",
+"flag": "CHN",
+"authorization": "no_record",
+"severity_reason": "foreign vessel, no authorization on record",
+"lat": 19.4997,
+"lon": 57.7459,
+"ship_name": "FU YUAN YU9996"
+},
+{
+"id": "live_enco_234d7f336d84ec",
+"first_seen": "2026-08-17T01:55:40Z",
+"type": "encounter",
+"when": "2026-08-13T05:50:00.000Z",
+"eez": "Omani Exclusive Economic Zone",
+"flag": "CHN",
+"authorization": "no_record",
+"severity_reason": "foreign vessel, no authorization on record",
+"lat": 19.4994,
+"lon": 57.7459,
+"ship_name": "HAILI888"
+},
+{
+"id": "live_enco_70f699a083cecf",
+"first_seen": "2026-08-17T01:55:40Z",
+"type": "encounter",
+"when": "2026-08-13T11:40:00.000Z",
+"eez": "Tunisian Exclusive Economic Zone",
+"flag": "MLT",
+"authorization": "authorization_lapsed",
+"severity_reason": "foreign vessel, authorization lapsed",
+"lat": 36.0109,
+"lon": 10.5625,
+"ship_name": "TA MATTEW"
+},
+{
+"id": "live_enco_c43d89f8dccb49",
+"first_seen": "2026-08-17T01:55:40Z",
+"type": "encounter",
+"when": "2026-08-13T14:00:00.000Z",
+"eez": "Overlapping claim: South China Sea",
+"flag": "VNM",
+"authorization": "no_record",
+"severity_reason": "foreign vessel, no authorization on record",
+"lat": 16.4249,
+"lon": 113.2837,
+"ship_name": "NHAT 36"
+},
 {
 "id": "live_ais__3dde3a9e214623",
 "first_seen": "2026-08-16T13:01:49Z",
@@ -2535,71 +2600,6 @@
 "lat": -20.5421,
 "lon": 179.534,
 "ship_name": "SEIN 11 #3-99%"
-},
-{
-"id": "live_ais__e01584fdb0a73b",
-"first_seen": "2026-08-09T10:53:17Z",
-"type": "ais_disabling",
-"when": "2026-08-05T05:42:10.000Z",
-"eez": "Fijian Exclusive Economic Zone",
-"flag": "CHN",
-"authorization": "no_record",
-"severity_reason": "foreign vessel, no authorization on record",
-"lat": -20.4857,
-"lon": 179.6085,
-"ship_name": "SEIN 11 N9-99%"
-},
-{
-"id": "live_ais__9c87033a24ad9d",
-"first_seen": "2026-08-09T10:53:17Z",
-"type": "ais_disabling",
-"when": "2026-08-05T10:10:20.000Z",
-"eez": "Brazilian Exclusive Economic Zone",
-"flag": "BHS",
-"authorization": "no_record",
-"severity_reason": "foreign vessel, no authorization on record",
-"lat": -22.5549,
-"lon": -40.2627,
-"ship_name": "ANGRA DOS REIS"
-},
-{
-"id": "live_ais__7330fedfb57388",
-"first_seen": "2026-08-09T10:53:17Z",
-"type": "ais_disabling",
-"when": "2026-08-05T08:02:25.000Z",
-"eez": "Fijian Exclusive Economic Zone",
-"flag": "CHN",
-"authorization": "no_record",
-"severity_reason": "foreign vessel, no authorization on record",
-"lat": -19.326,
-"lon": 174.4023,
-"ship_name": "WANGBIAO-9547  100%"
-},
-{
-"id": "live_ais__d5cd42001bb967",
-"first_seen": "2026-08-09T10:53:17Z",
-"type": "ais_disabling",
-"when": "2026-08-05T07:26:35.000Z",
-"eez": "Kiribati Exclusive Economic Zone (Phoenix Group)",
-"flag": "CHN",
-"authorization": "no_record",
-"severity_reason": "foreign vessel, no authorization on record",
-"lat": -5.9006,
-"lon": -174.0847,
-"ship_name": "GYY338-02"
-},
-{
-"id": "live_ais__305fe22bf2331b",
-"first_seen": "2026-08-09T10:53:17Z",
-"type": "ais_disabling",
-"when": "2026-08-02T18:52:21.000Z",
-"eez": "Portuguese Exclusive Economic Zone (Madeira)",
-"flag": "ESP",
-"authorization": "no_record",
-"severity_reason": "foreign vessel, no authorization on record",
-"lat": 32.6454,
-"lon": -14.2234,
-"ship_name": "PUERTO DE FIGUERAS"
 }
 ]
 }
