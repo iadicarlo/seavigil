@@ -329,7 +329,7 @@
     "centroid_lat": 16.4249,
     "time_start_utc": "2026-08-13T14:00:00.000Z",
     "time_end_utc": "2026-08-13T22:00:00.000Z",
-    "vessel_id": "574336789",
+    "vessel_id": "574162679",
     "ship_name": "NHAT 36",
     "ship_type": "Fishing",
     "flag": "VNM",
@@ -340,15 +340,15 @@
     "mean_fishing_proba": null,
     "max_fishing_proba": null,
     "_rfmo": [
+      "APFIC",
       "WCPFC",
       "IWC",
-      "APFIC",
       "ACAP"
     ],
     "_no_take": false,
     "mpa_name": "At-sea encounter (transshipment)",
     "duration_hours": 8.0,
-    "carrier_mmsi": "574162679",
+    "carrier_mmsi": "574336789",
     "explanation": {
       "method": "GFW Events encounters dataset (Miller et al. 2018).",
       "drivers": [
@@ -374,7 +374,7 @@
     "severity": "high",
     "severity_reason": "foreign vessel, no authorization on record",
     "evidence_schema": "seavigil-evidence-1.0",
-    "evidence_hash": "b5ad7612dbd6ca966a6eeb4e7379df24705fa779c35a0ef8c665fb6503e5e6ef"
+    "evidence_hash": "65b23bec6f9c9755894c06a534f990b011645dc2da090a324f266e9e1c70cff7"
   },
   {
     "incident_id": "live_ais__3dde3a9e214623",
