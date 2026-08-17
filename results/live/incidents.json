@@ -53,6 +53,60 @@
     "evidence_hash": "c5a6ec1b36f0ca818a7c594adcd4bdd76adf1af0f7d736ad7dee64e8f27d19c0"
   },
   {
+    "incident_id": "live_enco_1bdda300eedd68",
+    "type": "encounter",
+    "centroid_lon": 123.8002,
+    "centroid_lat": 32.6002,
+    "time_start_utc": "2026-08-13T20:00:00.000Z",
+    "time_end_utc": "2026-08-13T23:50:00.000Z",
+    "vessel_id": "212448758",
+    "ship_name": "MINXIAYU01806",
+    "ship_type": "Fishing",
+    "flag": "CYP",
+    "flag_emoji": "\ud83c\udde8\ud83c\uddfe",
+    "gear": "Encounter",
+    "n_positions": 0,
+    "n_fishing_positions": 0,
+    "mean_fishing_proba": null,
+    "max_fishing_proba": null,
+    "_rfmo": [
+      "ACAP",
+      "IWC",
+      "WCPFC",
+      "PICES"
+    ],
+    "_no_take": false,
+    "mpa_name": "At-sea encounter (transshipment)",
+    "duration_hours": 3.8,
+    "carrier_mmsi": "412448758",
+    "explanation": {
+      "method": "GFW Events encounters dataset (Miller et al. 2018).",
+      "drivers": [
+        "two vessels within range for 4 h",
+        "counterpart: MINXIAYU01806",
+        "two-vessel at-sea encounter (GFW Events)"
+      ]
+    },
+    "caveats": [
+      "Co-location can be legitimate (joint operations, safety, shelter).",
+      "Apparent transshipment is inferred from proximity and low speed, not observed.",
+      "An inspection lead from GFW Events, not proof of illegal activity."
+    ],
+    "eez_name": "Chinese Exclusive Economic Zone",
+    "eez_sovereign": "China",
+    "eez_iso_sov": "CHN",
+    "eez_foreign": true,
+    "authorization_status": "no_record",
+    "authorization_authorities": [],
+    "registry_iuu_tag": false,
+    "registry_flag": "",
+    "registry_imo": "",
+    "severity": "high",
+    "severity_reason": "foreign vessel, no authorization on record",
+    "evidence_schema": "seavigil-evidence-1.0",
+    "evidence_hash": "a6073edf516c171fec1d69f6dcddfeddb9a773a3cc0818b4c7ecb2c4db1067db"
+  },
+  {
     "incident_id": "live_enco_df20de868084cf",
     "type": "encounter",
     "centroid_lon": 57.7446,
