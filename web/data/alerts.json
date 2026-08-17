@@ -1,6 +1,19 @@
 {
-"generated_at": "2026-08-17T01:55:40Z",
+"generated_at": "2026-08-17T03:13:47Z",
 "alerts": [
+{
+"id": "live_enco_1bdda300eedd68",
+"first_seen": "2026-08-17T03:13:47Z",
+"type": "encounter",
+"when": "2026-08-13T20:00:00.000Z",
+"eez": "Chinese Exclusive Economic Zone",
+"flag": "CYP",
+"authorization": "no_record",
+"severity_reason": "foreign vessel, no authorization on record",
+"lat": 32.6002,
+"lon": 123.8002,
+"ship_name": "MINXIAYU01806"
+},
 {
 "id": "live_enco_35c07992776472",
 "first_seen": "2026-08-17T01:55:40Z",
@@ -2587,19 +2600,6 @@
 "lat": 21.8136,
 "lon": 114.2609,
 "ship_name": "QINGDANYU00201"
-},
-{
-"id": "live_ais__0b553e8ad78156",
-"first_seen": "2026-08-09T10:53:17Z",
-"type": "ais_disabling",
-"when": "2026-08-05T11:08:38.000Z",
-"eez": "Fijian Exclusive Economic Zone",
-"flag": "HUN",
-"authorization": "no_record",
-"severity_reason": "foreign vessel, no authorization on record",
-"lat": -20.5421,
-"lon": 179.534,
-"ship_name": "SEIN 11 #3-99%"
 }
 ]
 }
