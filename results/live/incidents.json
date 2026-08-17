@@ -275,8 +275,8 @@
     "centroid_lat": 36.0109,
     "time_start_utc": "2026-08-13T11:40:00.000Z",
     "time_end_utc": "2026-08-13T22:30:00.000Z",
-    "vessel_id": "215000910",
-    "ship_name": "TA MATTEW",
+    "vessel_id": "249000017",
+    "ship_name": "CRYSTAL STARLIGHT",
     "ship_type": "Fishing",
     "flag": "MLT",
     "flag_emoji": "\ud83c\uddf2\ud83c\uddf9",
@@ -288,18 +288,18 @@
     "_rfmo": [
       "IWC",
       "GFCM",
-      "ACAP",
-      "ICCAT"
+      "ICCAT",
+      "ACAP"
     ],
     "_no_take": false,
     "mpa_name": "At-sea encounter (transshipment)",
     "duration_hours": 10.8,
-    "carrier_mmsi": "249000017",
+    "carrier_mmsi": "215000910",
     "explanation": {
       "method": "GFW Events encounters dataset (Miller et al. 2018).",
       "drivers": [
         "two vessels within range for 11 h",
-        "counterpart: CRYSTAL STARLIGHT",
+        "counterpart: TA MATTEW",
         "two-vessel at-sea encounter (GFW Events)"
       ]
     },
@@ -312,18 +312,15 @@
     "eez_sovereign": "Tunisia",
     "eez_iso_sov": "TUN",
     "eez_foreign": true,
-    "authorization_status": "authorization_lapsed",
-    "authorization_authorities": [
-      "GFCM",
-      "ICCAT"
-    ],
+    "authorization_status": "no_record",
+    "authorization_authorities": [],
     "registry_iuu_tag": false,
-    "registry_flag": "MLT",
-    "registry_imo": "8537683",
+    "registry_flag": "",
+    "registry_imo": "",
     "severity": "high",
-    "severity_reason": "foreign vessel, authorization lapsed",
+    "severity_reason": "foreign vessel, no authorization on record",
     "evidence_schema": "seavigil-evidence-1.0",
-    "evidence_hash": "40c20c047f6c5b3811f0a4ba04faede22af57b051633b0739026736df4d78875"
+    "evidence_hash": "293766ce9655b2351bd5ea730c87f23b0ba4bfa68e9ad805b47a87a4adb6c271"
   },
   {
     "incident_id": "live_enco_c43d89f8dccb49",
