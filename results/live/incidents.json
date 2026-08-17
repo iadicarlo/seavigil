@@ -1759,59 +1759,5 @@
     "severity_reason": "foreign vessel, no authorization on record",
     "evidence_schema": "seavigil-evidence-1.0",
     "evidence_hash": "a929be22f4e4a31f044e064bf1cb7c06ac0defa83796af9367a6d2db56964f52"
-  },
-  {
-    "incident_id": "live_ais__6de02b9bcc8390",
-    "type": "ais_disabling",
-    "centroid_lon": 10.854,
-    "centroid_lat": -6.1299,
-    "time_start_utc": "2026-08-09T15:17:59.000Z",
-    "time_end_utc": "2026-08-11T13:41:41.000Z",
-    "vessel_id": "477023700",
-    "ship_name": "NEW VICTORY",
-    "ship_type": "Other",
-    "flag": "HKG",
-    "flag_emoji": "\ud83c\udded\ud83c\uddf0",
-    "gear": "AIS gap",
-    "n_positions": 0,
-    "n_fishing_positions": 0,
-    "mean_fishing_proba": null,
-    "max_fishing_proba": null,
-    "_rfmo": [
-      "ICCAT",
-      "ACAP",
-      "IWC"
-    ],
-    "_no_take": false,
-    "mpa_name": "AIS disabling (going dark)",
-    "gap_hours": 46.4,
-    "duration_hours": 46.4,
-    "off_distance_nm": 82.0,
-    "displacement_nm": null,
-    "explanation": {
-      "method": "GFW Events gaps dataset (satellite AIS).",
-      "drivers": [
-        "went dark 82 nm offshore for 46 h",
-        "satellite-confirmed AIS gap (GFW Events)"
-      ]
-    },
-    "caveats": [
-      "AIS gaps can be reception loss, not always intentional disabling.",
-      "The position is where AIS dropped; the path while dark is unknown.",
-      "An inspection lead from GFW Events, not proof of illegal activity."
-    ],
-    "eez_name": "Angolan Exclusive Economic Zone",
-    "eez_sovereign": "Angola",
-    "eez_iso_sov": "AGO",
-    "eez_foreign": true,
-    "authorization_status": "no_record",
-    "authorization_authorities": [],
-    "registry_iuu_tag": false,
-    "registry_flag": "HKG",
-    "registry_imo": "9708502",
-    "severity": "high",
-    "severity_reason": "foreign vessel, no authorization on record",
-    "evidence_schema": "seavigil-evidence-1.0",
-    "evidence_hash": "4c452f31ceb8de4eeb94b1fbafd87e99249ef686661dea184221c85a75bab094"
   }
 ]
