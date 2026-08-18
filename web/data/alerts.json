@@ -1,6 +1,19 @@
 {
-"generated_at": "2026-08-18T03:59:09Z",
+"generated_at": "2026-08-18T04:53:38Z",
 "alerts": [
+{
+"id": "live_enco_6c66664f875f0d",
+"first_seen": "2026-08-18T04:53:38Z",
+"type": "encounter",
+"when": "2026-08-14T14:50:00.000Z",
+"eez": "Tunisian Exclusive Economic Zone",
+"flag": "MLT",
+"authorization": "no_record",
+"severity_reason": "foreign vessel, no authorization on record",
+"lat": 36.0114,
+"lon": 10.5633,
+"ship_name": "TA MATTEW"
+},
 {
 "id": "live_enco_8f2d4bc685d8c6",
 "first_seen": "2026-08-18T03:09:09Z",
@@ -2586,19 +2599,6 @@
 "severity_reason": "foreign vessel, no authorization on record",
 "lat": 23.4183,
 "lon": 119.2189,
-"ship_name": ""
-},
-{
-"id": "live_enco_8b277a34e0965a",
-"first_seen": "2026-08-10T02:35:30Z",
-"type": "encounter",
-"when": "2026-08-06T10:20:00.000Z",
-"eez": "Overlapping claim Taiwan: Taiwan / China",
-"flag": "AND",
-"authorization": "no_record",
-"severity_reason": "foreign vessel, no authorization on record",
-"lat": 23.4158,
-"lon": 119.2188,
 "ship_name": ""
 }
 ]
