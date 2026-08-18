@@ -4,8 +4,8 @@
 
 | id | type | MPA | start (UTC) | score / mean p |
 |---|---|---|---|---:|
-| [live_enco_6c66664f875f0d](live_enco_6c66664f875f0d.md) | AIS fishing | At-sea encounter (transshipment) | 2026-08-14T14:50:00.000Z | - |
 | [live_enco_35c07992776472](live_enco_35c07992776472.md) | AIS fishing | At-sea encounter (transshipment) | 2026-08-13T19:10:00.000Z | - |
+| [live_enco_6c66664f875f0d](live_enco_6c66664f875f0d.md) | AIS fishing | At-sea encounter (transshipment) | 2026-08-14T14:50:00.000Z | - |
 | [live_ais__b5e73f3ed2b762](live_ais__b5e73f3ed2b762.md) | AIS fishing | AIS disabling (going dark) | 2026-08-14T06:11:16.000Z | - |
 | [live_ais__55988a2ab86109](live_ais__55988a2ab86109.md) | AIS fishing | AIS disabling (going dark) | 2026-08-14T06:10:14.000Z | - |
 | [live_ais__562c38043bdb72](live_ais__562c38043bdb72.md) | AIS fishing | AIS disabling (going dark) | 2026-08-09T10:05:46.000Z | - |
