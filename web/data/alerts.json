@@ -1,6 +1,19 @@
 {
-"generated_at": "2026-08-18T19:41:44Z",
+"generated_at": "2026-08-18T20:41:53Z",
 "alerts": [
+{
+"id": "live_enco_a590b556cdd215",
+"first_seen": "2026-08-18T20:41:53Z",
+"type": "encounter",
+"when": "2026-08-14T09:10:00.000Z",
+"eez": "Chinese Exclusive Economic Zone",
+"flag": "ALB",
+"authorization": "no_record",
+"severity_reason": "foreign vessel, no authorization on record",
+"lat": 27.9307,
+"lon": 123.0648,
+"ship_name": "ZHE LING YU 12116"
+},
 {
 "id": "live_ais__e15ea648e64c2b",
 "first_seen": "2026-08-18T13:09:25Z",
@@ -2587,19 +2600,6 @@
 "lat": 36.011,
 "lon": 10.5634,
 "ship_name": "TA MATTEW"
-},
-{
-"id": "live_enco_a6182648ecbd5a",
-"first_seen": "2026-08-11T02:28:28Z",
-"type": "encounter",
-"when": "2026-08-07T15:30:00.000Z",
-"eez": "Vietnamese Exclusive Economic Zone",
-"flag": "MNG",
-"authorization": "no_record",
-"severity_reason": "foreign vessel, no authorization on record",
-"lat": 12.9507,
-"lon": 109.5318,
-"ship_name": "VUONG43"
 }
 ]
 }
