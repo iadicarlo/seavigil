@@ -1,9 +1,9 @@
 # Incident `live_ais__32aa17634c75e9`
 
 - **MPA:** AIS disabling (going dark)
-- **Severity:** HIGH (foreign vessel, authorization lapsed)
+- **Severity:** HIGH (foreign vessel, no authorization on record)
 - **EEZ:** Ecuadorian Exclusive Economic Zone (Galapagos) (Ecuador) -- FOREIGN-flagged vessel
-- **Authorization:** Authorization lapsed before this date: IATTC  ·  IMO 7915917
+- **Authorization:** No public authorization record (check coastal state)
 - **Vessel:** 🇵🇦 DIVA MARIA  ·  **signal:** AIS gap
 - **When (UTC):** 2026-08-06T16:58:08.000Z → 2026-08-12T03:15:17.000Z
 - **Gap:** 130.3 h dark, 89.0 nm offshore

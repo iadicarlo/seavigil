@@ -3,8 +3,8 @@
 - **MPA:** AIS disabling (going dark)
 - **Severity:** HIGH (foreign vessel, no authorization on record)
 - **EEZ:** Brazilian Exclusive Economic Zone (Brazil) -- FOREIGN-flagged vessel
-- **Authorization:** No public authorization record (check coastal state)
-- **Vessel:** 🇵🇦 HERAKLITOS  ·  **signal:** AIS gap
+- **Authorization:** No public authorization record (check coastal state)  ·  IMO 9827968
+- **Vessel:** 🇮🇩 HERAKLITOS  ·  **signal:** AIS gap
 - **When (UTC):** 2026-07-30T13:12:50.000Z → 2026-08-12T00:56:58.000Z
 - **Gap:** 299.7 h dark, 527.0 nm offshore
 - **Where:** -15.510, -37.570
@@ -31,7 +31,7 @@ Going dark is frequently benign: in open water, where gaps are commonly protecti
 - NOAA Marine Cadastre AIS (marinecadastre.gov/ais (vessel positions)). US public domain.
 - WDPA / WD-OECM (World Database on Protected Areas) (UNEP-WCMC and IUCN (2026), June 2026). Protected Planet Terms of Use (non-commercial, display-only).
 - Marine Regions Exclusive Economic Zones v12 (Flanders Marine Institute (2024), DOI 10.14284/632). CC BY 4.0.
-- **Integrity (SHA-256 of canonical facts):** `37ae120f1c177859e703da750c10b9169fbe078172d5af32177336a38b3ac65c`
+- **Integrity (SHA-256 of canonical facts):** `16cd3928296ab89e4bb4bc6d62fcd340f065d1b989464229c37c29ae208d5278`
 - **Evidence schema:** seavigil-evidence-1.0
 
 _Apparent activity and an inspection lead, not proof of illegality. AIS and SAR evidence have known coverage gaps and spoofing risks; verify against authoritative sources before any enforcement action._
