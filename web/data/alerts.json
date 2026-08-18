@@ -1,6 +1,19 @@
 {
-"generated_at": "2026-08-18T01:51:41Z",
+"generated_at": "2026-08-18T03:09:09Z",
 "alerts": [
+{
+"id": "live_enco_8f2d4bc685d8c6",
+"first_seen": "2026-08-18T03:09:09Z",
+"type": "encounter",
+"when": "2026-08-14T16:00:00.000Z",
+"eez": "Kiribati Exclusive Economic Zone (Line Group)",
+"flag": "CHN",
+"authorization": "authorization_lapsed",
+"severity_reason": "foreign vessel, authorization lapsed",
+"lat": -8.4944,
+"lon": -150.7261,
+"ship_name": "HONGYANG8"
+},
 {
 "id": "live_enco_1bdda300eedd68",
 "first_seen": "2026-08-17T03:13:47Z",
@@ -2587,19 +2600,6 @@
 "lat": 23.4158,
 "lon": 119.2188,
 "ship_name": ""
-},
-{
-"id": "live_enco_630134417dde30",
-"first_seen": "2026-08-10T02:35:30Z",
-"type": "encounter",
-"when": "2026-08-06T05:50:00.000Z",
-"eez": "Chinese Exclusive Economic Zone",
-"flag": "BRB",
-"authorization": "no_record",
-"severity_reason": "foreign vessel, no authorization on record",
-"lat": 21.8136,
-"lon": 114.2609,
-"ship_name": "QINGDANYU00201"
 }
 ]
 }

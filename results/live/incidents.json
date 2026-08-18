@@ -1,5 +1,64 @@
 [
   {
+    "incident_id": "live_enco_8f2d4bc685d8c6",
+    "type": "encounter",
+    "centroid_lon": -150.7261,
+    "centroid_lat": -8.4944,
+    "time_start_utc": "2026-08-14T16:00:00.000Z",
+    "time_end_utc": "2026-08-14T23:50:00.000Z",
+    "vessel_id": "412420875",
+    "ship_name": "HONGYANG8",
+    "ship_type": "Fishing",
+    "flag": "CHN",
+    "flag_emoji": "\ud83c\udde8\ud83c\uddf3",
+    "gear": "Encounter",
+    "n_positions": 0,
+    "n_fishing_positions": 0,
+    "mean_fishing_proba": null,
+    "max_fishing_proba": null,
+    "_rfmo": [
+      "SPC",
+      "ACAP",
+      "IWC",
+      "FFA",
+      "WCPFC"
+    ],
+    "_no_take": false,
+    "mpa_name": "At-sea encounter (transshipment)",
+    "duration_hours": 7.8,
+    "carrier_mmsi": "412351160",
+    "explanation": {
+      "method": "GFW Events encounters dataset (Miller et al. 2018).",
+      "drivers": [
+        "two vessels within range for 8 h",
+        "counterpart: MING RUN 15",
+        "two-vessel at-sea encounter (GFW Events)"
+      ]
+    },
+    "caveats": [
+      "Co-location can be legitimate (joint operations, safety, shelter).",
+      "Apparent transshipment is inferred from proximity and low speed, not observed.",
+      "An inspection lead from GFW Events, not proof of illegal activity."
+    ],
+    "eez_name": "Kiribati Exclusive Economic Zone (Line Group)",
+    "eez_sovereign": "Kiribati",
+    "eez_iso_sov": "KIR",
+    "eez_foreign": true,
+    "authorization_status": "authorization_lapsed",
+    "authorization_authorities": [
+      "FFA",
+      "IATTC",
+      "WCPFC"
+    ],
+    "registry_iuu_tag": false,
+    "registry_flag": "CHN",
+    "registry_imo": "8670540",
+    "severity": "high",
+    "severity_reason": "foreign vessel, authorization lapsed",
+    "evidence_schema": "seavigil-evidence-1.0",
+    "evidence_hash": "3d44e67e4bd51c6c0c4f6acf8ed9d2708e17847a97b9a7c28d8fa9f2cfed2277"
+  },
+  {
     "incident_id": "live_ais__3dde3a9e214623",
     "type": "ais_disabling",
     "centroid_lon": 60.1437,
