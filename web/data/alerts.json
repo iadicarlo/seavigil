@@ -1,6 +1,19 @@
 {
-"generated_at": "2026-08-18T23:38:27Z",
+"generated_at": "2026-08-19T01:54:21Z",
 "alerts": [
+{
+"id": "live_enco_7434031da6eda4",
+"first_seen": "2026-08-19T01:54:21Z",
+"type": "encounter",
+"when": "2026-08-15T19:30:00.000Z",
+"eez": "Overlapping claim Senkaku Islands: Taiwan / Japan / China",
+"flag": "CHN",
+"authorization": "no_record",
+"severity_reason": "foreign vessel, no authorization on record",
+"lat": 27.0882,
+"lon": 123.6159,
+"ship_name": "ZHE YONG YU 60655"
+},
 {
 "id": "live_enco_a590b556cdd215",
 "first_seen": "2026-08-18T20:41:53Z",
@@ -2587,19 +2600,6 @@
 "lat": 10.5243,
 "lon": 108.9755,
 "ship_name": "81NGOCTHANHE36"
-},
-{
-"id": "live_enco_3c99ee1563380f",
-"first_seen": "2026-08-11T02:28:28Z",
-"type": "encounter",
-"when": "2026-08-07T14:10:00.000Z",
-"eez": "Tunisian Exclusive Economic Zone",
-"flag": "MLT",
-"authorization": "no_record",
-"severity_reason": "foreign vessel, no authorization on record",
-"lat": 36.011,
-"lon": 10.5634,
-"ship_name": "TA MATTEW"
 }
 ]
 }

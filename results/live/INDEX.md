@@ -1,12 +1,10 @@
 # In-MPA records
 
-47 record(s): 47 AIS fishing incident(s), 0 dark-vessel SAR detection(s).
+45 record(s): 45 AIS fishing incident(s), 0 dark-vessel SAR detection(s).
 
 | id | type | MPA | start (UTC) | score / mean p |
 |---|---|---|---|---:|
-| [live_enco_8f2d4bc685d8c6](live_enco_8f2d4bc685d8c6.md) | AIS fishing | At-sea encounter (transshipment) | 2026-08-14T16:00:00.000Z | - |
-| [live_enco_35c07992776472](live_enco_35c07992776472.md) | AIS fishing | At-sea encounter (transshipment) | 2026-08-13T19:10:00.000Z | - |
-| [live_enco_6c66664f875f0d](live_enco_6c66664f875f0d.md) | AIS fishing | At-sea encounter (transshipment) | 2026-08-14T14:50:00.000Z | - |
+| [live_enco_7434031da6eda4](live_enco_7434031da6eda4.md) | AIS fishing | At-sea encounter (transshipment) | 2026-08-15T19:30:00.000Z | - |
 | [live_ais__b5e73f3ed2b762](live_ais__b5e73f3ed2b762.md) | AIS fishing | AIS disabling (going dark) | 2026-08-14T06:11:16.000Z | - |
 | [live_ais__55988a2ab86109](live_ais__55988a2ab86109.md) | AIS fishing | AIS disabling (going dark) | 2026-08-14T06:10:14.000Z | - |
 | [live_ais__562c38043bdb72](live_ais__562c38043bdb72.md) | AIS fishing | AIS disabling (going dark) | 2026-08-09T10:05:46.000Z | - |
@@ -38,8 +36,8 @@
 | [live_ais__fbeaff356ffcd3](live_ais__fbeaff356ffcd3.md) | AIS fishing | AIS disabling (going dark) | 2026-08-09T03:56:27.000Z | - |
 | [live_ais__b325458f439566](live_ais__b325458f439566.md) | AIS fishing | AIS disabling (going dark) | 2026-08-09T08:32:18.000Z | - |
 | [live_ais__db0761fa8c77be](live_ais__db0761fa8c77be.md) | AIS fishing | AIS disabling (going dark) | 2026-08-09T09:42:07.000Z | - |
-| [live_ais__d271d28010b85e](live_ais__d271d28010b85e.md) | AIS fishing | AIS disabling (going dark) | 2026-08-09T07:08:02.000Z | - |
 | [live_ais__2faed5638eea03](live_ais__2faed5638eea03.md) | AIS fishing | AIS disabling (going dark) | 2026-08-09T04:44:27.000Z | - |
+| [live_ais__d271d28010b85e](live_ais__d271d28010b85e.md) | AIS fishing | AIS disabling (going dark) | 2026-08-09T07:08:02.000Z | - |
 | [live_ais__d827196c9629b0](live_ais__d827196c9629b0.md) | AIS fishing | AIS disabling (going dark) | 2026-08-09T05:55:36.000Z | - |
 | [live_ais__5e7faa1816a77a](live_ais__5e7faa1816a77a.md) | AIS fishing | AIS disabling (going dark) | 2026-08-12T15:21:44.000Z | - |
 | [live_ais__4add10f83401fd](live_ais__4add10f83401fd.md) | AIS fishing | AIS disabling (going dark) | 2026-08-13T07:46:29.000Z | - |

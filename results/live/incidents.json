@@ -1,13 +1,13 @@
 [
   {
-    "incident_id": "live_enco_8f2d4bc685d8c6",
+    "incident_id": "live_enco_7434031da6eda4",
     "type": "encounter",
-    "centroid_lon": -150.7261,
-    "centroid_lat": -8.4944,
-    "time_start_utc": "2026-08-14T16:00:00.000Z",
-    "time_end_utc": "2026-08-14T23:50:00.000Z",
-    "vessel_id": "412420875",
-    "ship_name": "HONGYANG8",
+    "centroid_lon": 123.6159,
+    "centroid_lat": 27.0882,
+    "time_start_utc": "2026-08-15T19:30:00.000Z",
+    "time_end_utc": "2026-08-15T23:50:00.000Z",
+    "vessel_id": "412438044",
+    "ship_name": "ZHE YONG YU 60655",
     "ship_type": "Fishing",
     "flag": "CHN",
     "flag_emoji": "\ud83c\udde8\ud83c\uddf3",
@@ -17,21 +17,20 @@
     "mean_fishing_proba": null,
     "max_fishing_proba": null,
     "_rfmo": [
-      "SPC",
       "ACAP",
       "IWC",
-      "FFA",
-      "WCPFC"
+      "WCPFC",
+      "APFIC"
     ],
     "_no_take": false,
     "mpa_name": "At-sea encounter (transshipment)",
-    "duration_hours": 7.8,
-    "carrier_mmsi": "412351160",
+    "duration_hours": 4.3,
+    "carrier_mmsi": "412437006",
     "explanation": {
       "method": "GFW Events encounters dataset (Miller et al. 2018).",
       "drivers": [
-        "two vessels within range for 8 h",
-        "counterpart: MING RUN 15",
+        "two vessels within range for 4 h",
+        "counterpart: NINGYU458",
         "two-vessel at-sea encounter (GFW Events)"
       ]
     },
@@ -40,66 +39,9 @@
       "Apparent transshipment is inferred from proximity and low speed, not observed.",
       "An inspection lead from GFW Events, not proof of illegal activity."
     ],
-    "eez_name": "Kiribati Exclusive Economic Zone (Line Group)",
-    "eez_sovereign": "Kiribati",
-    "eez_iso_sov": "KIR",
-    "eez_foreign": true,
-    "authorization_status": "authorization_lapsed",
-    "authorization_authorities": [
-      "FFA",
-      "IATTC",
-      "WCPFC"
-    ],
-    "registry_iuu_tag": false,
-    "registry_flag": "CHN",
-    "registry_imo": "8670540",
-    "severity": "high",
-    "severity_reason": "foreign vessel, authorization lapsed",
-    "evidence_schema": "seavigil-evidence-1.0",
-    "evidence_hash": "3d44e67e4bd51c6c0c4f6acf8ed9d2708e17847a97b9a7c28d8fa9f2cfed2277"
-  },
-  {
-    "incident_id": "live_enco_35c07992776472",
-    "type": "encounter",
-    "centroid_lon": 179.5889,
-    "centroid_lat": 63.4693,
-    "time_start_utc": "2026-08-13T19:10:00.000Z",
-    "time_end_utc": "2026-08-14T23:50:00.000Z",
-    "vessel_id": "440581000",
-    "ship_name": "JOON SUNG HO",
-    "ship_type": "Fishing",
-    "flag": "KOR",
-    "flag_emoji": "\ud83c\uddf0\ud83c\uddf7",
-    "gear": "Encounter",
-    "n_positions": 0,
-    "n_fishing_positions": 0,
-    "mean_fishing_proba": null,
-    "max_fishing_proba": null,
-    "_rfmo": [
-      "IWC",
-      "ACAP",
-      "PICES"
-    ],
-    "_no_take": false,
-    "mpa_name": "At-sea encounter (transshipment)",
-    "duration_hours": 28.7,
-    "carrier_mmsi": "273429140",
-    "explanation": {
-      "method": "GFW Events encounters dataset (Miller et al. 2018).",
-      "drivers": [
-        "two vessels within range for 29 h",
-        "counterpart: VASILIY POLESHCHUK",
-        "two-vessel at-sea encounter (GFW Events)"
-      ]
-    },
-    "caveats": [
-      "Co-location can be legitimate (joint operations, safety, shelter).",
-      "Apparent transshipment is inferred from proximity and low speed, not observed.",
-      "An inspection lead from GFW Events, not proof of illegal activity."
-    ],
-    "eez_name": "Russian Exclusive Economic Zone",
-    "eez_sovereign": "Russia",
-    "eez_iso_sov": "RUS",
+    "eez_name": "Overlapping claim Senkaku Islands: Taiwan / Japan / China",
+    "eez_sovereign": "Taiwan",
+    "eez_iso_sov": "TWN",
     "eez_foreign": true,
     "authorization_status": "no_record",
     "authorization_authorities": [],
@@ -109,61 +51,7 @@
     "severity": "high",
     "severity_reason": "foreign vessel, no authorization on record",
     "evidence_schema": "seavigil-evidence-1.0",
-    "evidence_hash": "1516bac48e6b6e72828717dc4bb442c7500e959dff9472be0bc3887cd74866d2"
-  },
-  {
-    "incident_id": "live_enco_6c66664f875f0d",
-    "type": "encounter",
-    "centroid_lon": 10.5633,
-    "centroid_lat": 36.0114,
-    "time_start_utc": "2026-08-14T14:50:00.000Z",
-    "time_end_utc": "2026-08-14T23:50:00.000Z",
-    "vessel_id": "215000910",
-    "ship_name": "TA MATTEW",
-    "ship_type": "Fishing",
-    "flag": "MLT",
-    "flag_emoji": "\ud83c\uddf2\ud83c\uddf9",
-    "gear": "Encounter",
-    "n_positions": 0,
-    "n_fishing_positions": 0,
-    "mean_fishing_proba": null,
-    "max_fishing_proba": null,
-    "_rfmo": [
-      "IWC",
-      "GFCM",
-      "ICCAT",
-      "ACAP"
-    ],
-    "_no_take": false,
-    "mpa_name": "At-sea encounter (transshipment)",
-    "duration_hours": 9.0,
-    "carrier_mmsi": "249000017",
-    "explanation": {
-      "method": "GFW Events encounters dataset (Miller et al. 2018).",
-      "drivers": [
-        "two vessels within range for 9 h",
-        "counterpart: CRYSTAL STARLIGHT",
-        "two-vessel at-sea encounter (GFW Events)"
-      ]
-    },
-    "caveats": [
-      "Co-location can be legitimate (joint operations, safety, shelter).",
-      "Apparent transshipment is inferred from proximity and low speed, not observed.",
-      "An inspection lead from GFW Events, not proof of illegal activity."
-    ],
-    "eez_name": "Tunisian Exclusive Economic Zone",
-    "eez_sovereign": "Tunisia",
-    "eez_iso_sov": "TUN",
-    "eez_foreign": true,
-    "authorization_status": "no_record",
-    "authorization_authorities": [],
-    "registry_iuu_tag": false,
-    "registry_flag": "",
-    "registry_imo": "",
-    "severity": "high",
-    "severity_reason": "foreign vessel, no authorization on record",
-    "evidence_schema": "seavigil-evidence-1.0",
-    "evidence_hash": "d7d52137ffdbe5d53af94d3b77f3e56b75efd76385c24b35b51a982c867e8c68"
+    "evidence_hash": "3e35d846a572a5ee4d1649591e2bc040eeb6451d8ff7e2b4fc04085fcfa13e42"
   },
   {
     "incident_id": "live_ais__b5e73f3ed2b762",
@@ -1897,62 +1785,6 @@
     "evidence_hash": "1787d0c4d46958c60c32b7050b88a2c8ab079875412897152e56dcf799eb6d9a"
   },
   {
-    "incident_id": "live_ais__d271d28010b85e",
-    "type": "ais_disabling",
-    "centroid_lon": 152.1832,
-    "centroid_lat": -37.0493,
-    "time_start_utc": "2026-08-09T07:08:02.000Z",
-    "time_end_utc": "2026-08-13T22:43:34.000Z",
-    "vessel_id": "251101006",
-    "ship_name": "ESBJORN 02-99%",
-    "ship_type": "Gear",
-    "flag": "ISL",
-    "flag_emoji": "\ud83c\uddee\ud83c\uddf8",
-    "gear": "AIS gap",
-    "n_positions": 0,
-    "n_fishing_positions": 0,
-    "mean_fishing_proba": null,
-    "max_fishing_proba": null,
-    "_rfmo": [
-      "ACAP",
-      "WCPFC",
-      "FFA",
-      "IWC",
-      "CCSBT"
-    ],
-    "_no_take": false,
-    "mpa_name": "AIS disabling (going dark)",
-    "gap_hours": 111.6,
-    "duration_hours": 111.6,
-    "off_distance_nm": 68.0,
-    "displacement_nm": null,
-    "explanation": {
-      "method": "GFW Events gaps dataset (satellite AIS).",
-      "drivers": [
-        "went dark 68 nm offshore for 112 h",
-        "satellite-confirmed AIS gap (GFW Events)"
-      ]
-    },
-    "caveats": [
-      "AIS gaps can be reception loss, not always intentional disabling.",
-      "The position is where AIS dropped; the path while dark is unknown.",
-      "An inspection lead from GFW Events, not proof of illegal activity."
-    ],
-    "eez_name": "Australian Exclusive Economic Zone",
-    "eez_sovereign": "Australia",
-    "eez_iso_sov": "AUS",
-    "eez_foreign": true,
-    "authorization_status": "no_record",
-    "authorization_authorities": [],
-    "registry_iuu_tag": false,
-    "registry_flag": "",
-    "registry_imo": "",
-    "severity": "high",
-    "severity_reason": "foreign vessel, no authorization on record",
-    "evidence_schema": "seavigil-evidence-1.0",
-    "evidence_hash": "325f2c2489f17ad50af00a6402de97989959b49576b3b0f33026db0610bc972e"
-  },
-  {
     "incident_id": "live_ais__2faed5638eea03",
     "type": "ais_disabling",
     "centroid_lon": 152.1907,
@@ -2007,6 +1839,62 @@
     "severity_reason": "foreign vessel, no authorization on record",
     "evidence_schema": "seavigil-evidence-1.0",
     "evidence_hash": "11e5db30520e17f2d5e8e4c4cd6f2a820c535b1dd0a9dbb698983bcbedb1f57d"
+  },
+  {
+    "incident_id": "live_ais__d271d28010b85e",
+    "type": "ais_disabling",
+    "centroid_lon": 152.1832,
+    "centroid_lat": -37.0493,
+    "time_start_utc": "2026-08-09T07:08:02.000Z",
+    "time_end_utc": "2026-08-13T22:43:34.000Z",
+    "vessel_id": "251101006",
+    "ship_name": "ESBJORN 02-99%",
+    "ship_type": "Gear",
+    "flag": "ISL",
+    "flag_emoji": "\ud83c\uddee\ud83c\uddf8",
+    "gear": "AIS gap",
+    "n_positions": 0,
+    "n_fishing_positions": 0,
+    "mean_fishing_proba": null,
+    "max_fishing_proba": null,
+    "_rfmo": [
+      "ACAP",
+      "WCPFC",
+      "FFA",
+      "IWC",
+      "CCSBT"
+    ],
+    "_no_take": false,
+    "mpa_name": "AIS disabling (going dark)",
+    "gap_hours": 111.6,
+    "duration_hours": 111.6,
+    "off_distance_nm": 68.0,
+    "displacement_nm": null,
+    "explanation": {
+      "method": "GFW Events gaps dataset (satellite AIS).",
+      "drivers": [
+        "went dark 68 nm offshore for 112 h",
+        "satellite-confirmed AIS gap (GFW Events)"
+      ]
+    },
+    "caveats": [
+      "AIS gaps can be reception loss, not always intentional disabling.",
+      "The position is where AIS dropped; the path while dark is unknown.",
+      "An inspection lead from GFW Events, not proof of illegal activity."
+    ],
+    "eez_name": "Australian Exclusive Economic Zone",
+    "eez_sovereign": "Australia",
+    "eez_iso_sov": "AUS",
+    "eez_foreign": true,
+    "authorization_status": "no_record",
+    "authorization_authorities": [],
+    "registry_iuu_tag": false,
+    "registry_flag": "",
+    "registry_imo": "",
+    "severity": "high",
+    "severity_reason": "foreign vessel, no authorization on record",
+    "evidence_schema": "seavigil-evidence-1.0",
+    "evidence_hash": "325f2c2489f17ad50af00a6402de97989959b49576b3b0f33026db0610bc972e"
   },
   {
     "incident_id": "live_ais__d827196c9629b0",
