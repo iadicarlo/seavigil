@@ -1889,62 +1889,6 @@
     "evidence_hash": "1787d0c4d46958c60c32b7050b88a2c8ab079875412897152e56dcf799eb6d9a"
   },
   {
-    "incident_id": "live_ais__2faed5638eea03",
-    "type": "ais_disabling",
-    "centroid_lon": 152.1907,
-    "centroid_lat": -36.9757,
-    "time_start_utc": "2026-08-09T04:44:27.000Z",
-    "time_end_utc": "2026-08-13T22:43:34.000Z",
-    "vessel_id": "251103507",
-    "ship_name": "ESBJORN 04-99%",
-    "ship_type": "Gear",
-    "flag": "ISL",
-    "flag_emoji": "\ud83c\uddee\ud83c\uddf8",
-    "gear": "AIS gap",
-    "n_positions": 0,
-    "n_fishing_positions": 0,
-    "mean_fishing_proba": null,
-    "max_fishing_proba": null,
-    "_rfmo": [
-      "ACAP",
-      "WCPFC",
-      "FFA",
-      "IWC",
-      "CCSBT"
-    ],
-    "_no_take": false,
-    "mpa_name": "AIS disabling (going dark)",
-    "gap_hours": 114.0,
-    "duration_hours": 114.0,
-    "off_distance_nm": 64.0,
-    "displacement_nm": null,
-    "explanation": {
-      "method": "GFW Events gaps dataset (satellite AIS).",
-      "drivers": [
-        "went dark 64 nm offshore for 114 h",
-        "satellite-confirmed AIS gap (GFW Events)"
-      ]
-    },
-    "caveats": [
-      "AIS gaps can be reception loss, not always intentional disabling.",
-      "The position is where AIS dropped; the path while dark is unknown.",
-      "An inspection lead from GFW Events, not proof of illegal activity."
-    ],
-    "eez_name": "Australian Exclusive Economic Zone",
-    "eez_sovereign": "Australia",
-    "eez_iso_sov": "AUS",
-    "eez_foreign": true,
-    "authorization_status": "no_record",
-    "authorization_authorities": [],
-    "registry_iuu_tag": false,
-    "registry_flag": "",
-    "registry_imo": "",
-    "severity": "high",
-    "severity_reason": "foreign vessel, no authorization on record",
-    "evidence_schema": "seavigil-evidence-1.0",
-    "evidence_hash": "11e5db30520e17f2d5e8e4c4cd6f2a820c535b1dd0a9dbb698983bcbedb1f57d"
-  },
-  {
     "incident_id": "live_ais__d271d28010b85e",
     "type": "ais_disabling",
     "centroid_lon": 152.1832,
@@ -1999,6 +1943,62 @@
     "severity_reason": "foreign vessel, no authorization on record",
     "evidence_schema": "seavigil-evidence-1.0",
     "evidence_hash": "325f2c2489f17ad50af00a6402de97989959b49576b3b0f33026db0610bc972e"
+  },
+  {
+    "incident_id": "live_ais__2faed5638eea03",
+    "type": "ais_disabling",
+    "centroid_lon": 152.1907,
+    "centroid_lat": -36.9757,
+    "time_start_utc": "2026-08-09T04:44:27.000Z",
+    "time_end_utc": "2026-08-13T22:43:34.000Z",
+    "vessel_id": "251103507",
+    "ship_name": "ESBJORN 04-99%",
+    "ship_type": "Gear",
+    "flag": "ISL",
+    "flag_emoji": "\ud83c\uddee\ud83c\uddf8",
+    "gear": "AIS gap",
+    "n_positions": 0,
+    "n_fishing_positions": 0,
+    "mean_fishing_proba": null,
+    "max_fishing_proba": null,
+    "_rfmo": [
+      "ACAP",
+      "WCPFC",
+      "FFA",
+      "IWC",
+      "CCSBT"
+    ],
+    "_no_take": false,
+    "mpa_name": "AIS disabling (going dark)",
+    "gap_hours": 114.0,
+    "duration_hours": 114.0,
+    "off_distance_nm": 64.0,
+    "displacement_nm": null,
+    "explanation": {
+      "method": "GFW Events gaps dataset (satellite AIS).",
+      "drivers": [
+        "went dark 64 nm offshore for 114 h",
+        "satellite-confirmed AIS gap (GFW Events)"
+      ]
+    },
+    "caveats": [
+      "AIS gaps can be reception loss, not always intentional disabling.",
+      "The position is where AIS dropped; the path while dark is unknown.",
+      "An inspection lead from GFW Events, not proof of illegal activity."
+    ],
+    "eez_name": "Australian Exclusive Economic Zone",
+    "eez_sovereign": "Australia",
+    "eez_iso_sov": "AUS",
+    "eez_foreign": true,
+    "authorization_status": "no_record",
+    "authorization_authorities": [],
+    "registry_iuu_tag": false,
+    "registry_flag": "",
+    "registry_imo": "",
+    "severity": "high",
+    "severity_reason": "foreign vessel, no authorization on record",
+    "evidence_schema": "seavigil-evidence-1.0",
+    "evidence_hash": "11e5db30520e17f2d5e8e4c4cd6f2a820c535b1dd0a9dbb698983bcbedb1f57d"
   },
   {
     "incident_id": "live_ais__d827196c9629b0",
