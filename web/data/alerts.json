@@ -1,6 +1,45 @@
 {
-"generated_at": "2026-08-19T01:54:21Z",
+"generated_at": "2026-08-19T03:12:04Z",
 "alerts": [
+{
+"id": "live_enco_1ceec421202f43",
+"first_seen": "2026-08-19T03:12:04Z",
+"type": "encounter",
+"when": "2026-08-15T16:50:00.000Z",
+"eez": "United States Exclusive Economic Zone (Alaska)",
+"flag": "KOR",
+"authorization": "no_record",
+"severity_reason": "foreign vessel, no authorization on record",
+"lat": 57.9329,
+"lon": -153.0304,
+"ship_name": "NO.2 JOCHOH"
+},
+{
+"id": "live_enco_386295470096b7",
+"first_seen": "2026-08-19T03:12:04Z",
+"type": "encounter",
+"when": "2026-08-15T04:20:00.000Z",
+"eez": "Vietnamese Exclusive Economic Zone",
+"flag": "SGP",
+"authorization": "no_record",
+"severity_reason": "foreign vessel, no authorization on record",
+"lat": 10.474,
+"lon": 108.9546,
+"ship_name": "81NGOCTHANHE36"
+},
+{
+"id": "live_enco_4603c70abddc21",
+"first_seen": "2026-08-19T03:12:04Z",
+"type": "encounter",
+"when": "2026-08-15T00:00:00.000Z",
+"eez": "South Korean Exclusive Economic Zone",
+"flag": "CHN",
+"authorization": "no_record",
+"severity_reason": "foreign vessel, no authorization on record",
+"lat": 31.2794,
+"lon": 125.8122,
+"ship_name": "ZHERUIYU12277"
+},
 {
 "id": "live_enco_7434031da6eda4",
 "first_seen": "2026-08-19T01:54:21Z",
@@ -2561,45 +2600,6 @@
 "lat": 3.0723,
 "lon": 6.7048,
 "ship_name": "CAVARLY"
-},
-{
-"id": "live_ais__905ca3d7e7de7d",
-"first_seen": "2026-08-11T11:58:20Z",
-"type": "ais_disabling",
-"when": "2026-08-05T15:01:07.000Z",
-"eez": "S\u00e3o Tom\u00e9an Exclusive Economic Zone",
-"flag": "FRA",
-"authorization": "no_record",
-"severity_reason": "foreign vessel, no authorization on record",
-"lat": 0.206,
-"lon": 4.7551,
-"ship_name": "F/V GUEOTEC"
-},
-{
-"id": "live_enco_f6fe29ee562255",
-"first_seen": "2026-08-11T02:28:28Z",
-"type": "encounter",
-"when": "2026-08-07T14:10:00.000Z",
-"eez": "Vietnamese Exclusive Economic Zone",
-"flag": "SGP",
-"authorization": "no_record",
-"severity_reason": "foreign vessel, no authorization on record",
-"lat": 10.5243,
-"lon": 108.9755,
-"ship_name": "81NGOCTHANHE36"
-},
-{
-"id": "live_enco_f139245d62c825",
-"first_seen": "2026-08-11T02:28:28Z",
-"type": "encounter",
-"when": "2026-08-07T14:10:00.000Z",
-"eez": "Vietnamese Exclusive Economic Zone",
-"flag": "SGP",
-"authorization": "no_record",
-"severity_reason": "foreign vessel, no authorization on record",
-"lat": 10.5243,
-"lon": 108.9755,
-"ship_name": "81NGOCTHANHE36"
 }
 ]
 }
