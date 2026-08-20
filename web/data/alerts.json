@@ -1,6 +1,32 @@
 {
-"generated_at": "2026-08-20T01:52:34Z",
+"generated_at": "2026-08-20T03:10:57Z",
 "alerts": [
+{
+"id": "live_enco_78ff2d6ec67cb6",
+"first_seen": "2026-08-20T03:10:57Z",
+"type": "encounter",
+"when": "2026-08-16T13:20:00.000Z",
+"eez": "Omani Exclusive Economic Zone",
+"flag": "CHN",
+"authorization": "no_record",
+"severity_reason": "foreign vessel, no authorization on record",
+"lat": 19.4762,
+"lon": 57.7282,
+"ship_name": "HAILI888"
+},
+{
+"id": "live_enco_9aaf45772a1281",
+"first_seen": "2026-08-20T03:10:57Z",
+"type": "encounter",
+"when": "2026-08-16T10:50:00.000Z",
+"eez": "Overlapping claim Taiwan: Taiwan / China",
+"flag": "CHN",
+"authorization": "no_record",
+"severity_reason": "foreign vessel, no authorization on record",
+"lat": 25.43,
+"lon": 120.7367,
+"ship_name": "MINSHIYU06266"
+},
 {
 "id": "live_enco_5ba0d8a800687d",
 "first_seen": "2026-08-20T01:52:34Z",
@@ -2574,32 +2600,6 @@
 "lat": 10.0118,
 "lon": 104.02,
 "ship_name": "BAN CHU CAI BAN 54D5"
-},
-{
-"id": "live_enco_97f0d55d2cc28c",
-"first_seen": "2026-08-12T02:45:48Z",
-"type": "encounter",
-"when": "2026-08-08T19:50:00.000Z",
-"eez": "Kiribati Exclusive Economic Zone (Line Group)",
-"flag": "TWN",
-"authorization": "no_record",
-"severity_reason": "foreign vessel, no authorization on record",
-"lat": -0.623,
-"lon": -156.5146,
-"ship_name": "VIVA FAFA707"
-},
-{
-"id": "live_enco_97471b7024cb56",
-"first_seen": "2026-08-12T02:45:48Z",
-"type": "encounter",
-"when": "2026-08-08T13:30:00.000Z",
-"eez": "Tunisian Exclusive Economic Zone",
-"flag": "MLT",
-"authorization": "no_record",
-"severity_reason": "foreign vessel, no authorization on record",
-"lat": 36.0112,
-"lon": 10.5633,
-"ship_name": "TA MATTEW"
 }
 ]
 }
