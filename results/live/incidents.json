@@ -60,8 +60,8 @@
     "centroid_lat": 25.4867,
     "time_start_utc": "2026-08-16T15:30:00.000Z",
     "time_end_utc": "2026-08-16T23:50:00.000Z",
-    "vessel_id": "412458531",
-    "ship_name": "MIN JIN YU 05853",
+    "vessel_id": "412445436",
+    "ship_name": "MINJINYU05899",
     "ship_type": "Fishing",
     "flag": "CHN",
     "flag_emoji": "\ud83c\udde8\ud83c\uddf3",
@@ -71,20 +71,20 @@
     "mean_fishing_proba": null,
     "max_fishing_proba": null,
     "_rfmo": [
-      "ACAP",
+      "IWC",
       "APFIC",
-      "WCPFC",
-      "IWC"
+      "ACAP",
+      "WCPFC"
     ],
     "_no_take": false,
     "mpa_name": "At-sea encounter (transshipment)",
     "duration_hours": 8.3,
-    "carrier_mmsi": "412445436",
+    "carrier_mmsi": "412458531",
     "explanation": {
       "method": "GFW Events encounters dataset (Miller et al. 2018).",
       "drivers": [
         "two vessels within range for 8 h",
-        "counterpart: MINJINYU05899",
+        "counterpart: MIN JIN YU 05853",
         "two-vessel at-sea encounter (GFW Events)"
       ]
     },
@@ -105,7 +105,7 @@
     "severity": "high",
     "severity_reason": "foreign vessel, no authorization on record",
     "evidence_schema": "seavigil-evidence-1.0",
-    "evidence_hash": "732075ead037cf301df48f579eda2c4550b17ff073f435c593bc671158d8df1f"
+    "evidence_hash": "86b727ff851beaf8dd73a312591f6e3fd75c98ba2159dfb6888a100ecd673262"
   },
   {
     "incident_id": "live_enco_f92441a668cc0b",
