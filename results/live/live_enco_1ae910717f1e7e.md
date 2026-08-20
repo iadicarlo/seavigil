@@ -4,9 +4,9 @@
 - **Severity:** HIGH (foreign vessel, no authorization on record)
 - **EEZ:** Overlapping claim Taiwan: Taiwan / China (Taiwan) -- FOREIGN-flagged vessel
 - **Authorization:** No public authorization record (check coastal state)
-- **Vessel:** 🇨🇳 XH  ·  **signal:** Encounter
+- **Vessel:** 🇨🇳 MIN SHI YU 07551  ·  **signal:** Encounter
 - **When (UTC):** 2026-08-16T15:50:00.000Z → 2026-08-16T23:50:00.000Z
-- **Encounter:** 8.0 h with carrier `412452075` (apparent transshipment)
+- **Encounter:** 8.0 h with carrier `413333693` (apparent transshipment)
 - **Where:** 25.457, 120.835
 
 ## Why this was flagged
@@ -14,7 +14,7 @@
 _GFW Events encounters dataset (Miller et al. 2018).._
 
 - two vessels within range for 8 h
-- counterpart: MIN SHI YU 07551
+- counterpart: XH
 - two-vessel at-sea encounter (GFW Events)
 
 ## Could be innocent
@@ -31,7 +31,7 @@ Two vessels meeting at sea can be a legitimate transfer, bunkering, or a safety 
 
 - WDPA / WD-OECM (World Database on Protected Areas) (UNEP-WCMC and IUCN (2026), June 2026). Protected Planet Terms of Use (non-commercial, display-only).
 - Marine Regions Exclusive Economic Zones v12 (Flanders Marine Institute (2024), DOI 10.14284/632). CC BY 4.0.
-- **Integrity (SHA-256 of canonical facts):** `3bfafa8b4548d41b71fa80687446268d47b8e0fb7a617187f8e64b87ca0a54e7`
+- **Integrity (SHA-256 of canonical facts):** `d10c153b2e106fe08a49c4e6c29b8f0d8ee368d2c117b4544ddbe4aa4694a695`
 - **Evidence schema:** seavigil-evidence-1.0
 
 _Apparent activity and an inspection lead, not proof of illegality. AIS and SAR evidence have known coverage gaps and spoofing risks; verify against authoritative sources before any enforcement action._
