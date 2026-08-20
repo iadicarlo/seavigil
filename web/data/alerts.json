@@ -1,6 +1,19 @@
 {
-"generated_at": "2026-08-20T04:54:45Z",
+"generated_at": "2026-08-20T05:47:37Z",
 "alerts": [
+{
+"id": "live_enco_a4d3debdd796cc",
+"first_seen": "2026-08-20T05:47:37Z",
+"type": "encounter",
+"when": "2026-08-16T01:40:00.000Z",
+"eez": "Chinese Exclusive Economic Zone",
+"flag": "ALB",
+"authorization": "no_record",
+"severity_reason": "foreign vessel, no authorization on record",
+"lat": 20.999,
+"lon": 109.4867,
+"ship_name": ""
+},
 {
 "id": "live_enco_78ff2d6ec67cb6",
 "first_seen": "2026-08-20T03:10:57Z",
@@ -2587,19 +2600,6 @@
 "lat": 10.5256,
 "lon": 108.976,
 "ship_name": "81NGOCTHANHE36"
-},
-{
-"id": "live_enco_54eef60c0a983c",
-"first_seen": "2026-08-12T02:45:48Z",
-"type": "encounter",
-"when": "2026-08-08T07:40:00.000Z",
-"eez": "Vietnamese Exclusive Economic Zone",
-"flag": "JAM",
-"authorization": "no_record",
-"severity_reason": "foreign vessel, no authorization on record",
-"lat": 10.0118,
-"lon": 104.02,
-"ship_name": "BAN CHU CAI BAN 54D5"
 }
 ]
 }
