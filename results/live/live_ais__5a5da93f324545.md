@@ -3,7 +3,7 @@
 - **MPA:** AIS disabling (going dark)
 - **Severity:** HIGH (foreign vessel, no authorization on record)
 - **EEZ:** Indonesian Exclusive Economic Zone (Indonesia) -- FOREIGN-flagged vessel
-- **Authorization:** No public authorization record (check coastal state)
+- **Authorization:** No public authorization record (check coastal state)  ·  IMO 9632777
 - **Vessel:** 🇸🇬 KOTA MACHAN  ·  **signal:** AIS gap
 - **When (UTC):** 2026-08-14T16:26:53.000Z → 2026-08-15T07:48:05.000Z
 - **Gap:** 15.4 h dark, 68.0 nm offshore

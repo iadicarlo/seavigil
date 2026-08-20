@@ -3,7 +3,7 @@
 - **MPA:** AIS disabling (going dark)
 - **Severity:** HIGH (foreign vessel, no authorization on record)
 - **EEZ:** Seychellois Exclusive Economic Zone (Seychelles) -- FOREIGN-flagged vessel
-- **Authorization:** No public authorization record (check coastal state)
+- **Authorization:** No public authorization record (check coastal state)  ·  IMO 9835094
 - **Vessel:** 🇶🇦 ALLHUDAD  ·  **signal:** AIS gap
 - **When (UTC):** 2026-08-14T14:56:52.000Z → 2026-08-15T05:08:27.000Z
 - **Gap:** 14.2 h dark, 125.0 nm offshore
