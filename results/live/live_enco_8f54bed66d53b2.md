@@ -1,9 +1,9 @@
 # Incident `live_enco_8f54bed66d53b2`
 
 - **MPA:** At-sea encounter (transshipment)
-- **Severity:** HIGH (foreign vessel, authorization lapsed)
+- **Severity:** HIGH (foreign vessel, no authorization on record)
 - **EEZ:** Tunisian Exclusive Economic Zone (Tunisia) -- FOREIGN-flagged vessel
-- **Authorization:** Authorization lapsed before this date: GFCM, ICCAT  ·  IMO 8537683
+- **Authorization:** No public authorization record (check coastal state)
 - **Vessel:** 🇲🇹 TA MATTEW  ·  **signal:** Encounter
 - **When (UTC):** 2026-08-17T11:50:00.000Z → 2026-08-17T23:50:00.000Z
 - **Encounter:** 12.0 h with carrier `249000017` (apparent transshipment)

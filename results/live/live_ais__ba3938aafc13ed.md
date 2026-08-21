@@ -3,8 +3,8 @@
 - **MPA:** AIS disabling (going dark)
 - **Severity:** HIGH (foreign vessel, no authorization on record)
 - **EEZ:** Seychellois Exclusive Economic Zone (Seychelles) -- FOREIGN-flagged vessel
-- **Authorization:** No public authorization record (check coastal state)  ·  IMO 9364447
-- **Vessel:** 🇭🇰 MINOAN GLORY  ·  **signal:** AIS gap
+- **Authorization:** No public authorization record (check coastal state)
+- **Vessel:** 🇱🇷 MINOAN GLORY  ·  **signal:** AIS gap
 - **When (UTC):** 2026-08-14T19:51:04.000Z → 2026-08-16T05:33:19.000Z
 - **Gap:** 33.7 h dark, 178.0 nm offshore
 - **Where:** -5.726, 49.539
@@ -31,7 +31,7 @@ Going dark is frequently benign: in open water, where gaps are commonly protecti
 - NOAA Marine Cadastre AIS (marinecadastre.gov/ais (vessel positions)). US public domain.
 - WDPA / WD-OECM (World Database on Protected Areas) (UNEP-WCMC and IUCN (2026), June 2026). Protected Planet Terms of Use (non-commercial, display-only).
 - Marine Regions Exclusive Economic Zones v12 (Flanders Marine Institute (2024), DOI 10.14284/632). CC BY 4.0.
-- **Integrity (SHA-256 of canonical facts):** `272d642a2fa3b7bfe219c5d1a915a17ac379631b974d6181e2f375244f7af134`
+- **Integrity (SHA-256 of canonical facts):** `3e16d1d140da0555e5bf9f9a2f8a65a89a3ee129cb7e4b3dff8194c3fd4a603e`
 - **Evidence schema:** seavigil-evidence-1.0
 
 _Apparent activity and an inspection lead, not proof of illegality. AIS and SAR evidence have known coverage gaps and spoofing risks; verify against authoritative sources before any enforcement action._

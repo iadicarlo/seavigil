@@ -3,7 +3,7 @@
 - **MPA:** AIS disabling (going dark)
 - **Severity:** HIGH (foreign vessel, no authorization on record)
 - **EEZ:** Maldivian Exclusive Economic Zone (Maldives) -- FOREIGN-flagged vessel
-- **Authorization:** No public authorization record (check coastal state)
+- **Authorization:** No public authorization record (check coastal state)  ·  IMO 8827765
 - **Vessel:** 🇰🇷 SEIYU  ·  **signal:** AIS gap
 - **When (UTC):** 2026-08-15T06:27:29.000Z → 2026-08-15T18:39:15.000Z
 - **Gap:** 12.2 h dark, 98.0 nm offshore

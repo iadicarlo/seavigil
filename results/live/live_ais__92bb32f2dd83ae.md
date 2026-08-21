@@ -3,7 +3,7 @@
 - **MPA:** AIS disabling (going dark)
 - **Severity:** HIGH (foreign vessel, no authorization on record)
 - **EEZ:** Brazilian Exclusive Economic Zone (Brazil) -- FOREIGN-flagged vessel
-- **Authorization:** No public authorization record (check coastal state)
+- **Authorization:** No public authorization record (check coastal state)  ·  IMO 9598268
 - **Vessel:** 🇲🇾 EAGLE PARANA  ·  **signal:** AIS gap
 - **When (UTC):** 2026-08-15T06:56:39.000Z → 2026-08-16T02:46:39.000Z
 - **Gap:** 19.8 h dark, 59.0 nm offshore

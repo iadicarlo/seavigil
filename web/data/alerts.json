@@ -1,6 +1,19 @@
 {
-"generated_at": "2026-08-21T07:58:31Z",
+"generated_at": "2026-08-21T08:59:06Z",
 "alerts": [
+{
+"id": "live_ais__44c143deaf065c",
+"first_seen": "2026-08-21T08:59:06Z",
+"type": "ais_disabling",
+"when": "2026-08-16T02:10:55.000Z",
+"eez": "Danish Exclusive Economic Zone (Greenland)",
+"flag": "GRL",
+"authorization": "no_record",
+"severity_reason": "foreign vessel, no authorization on record",
+"lat": 70.1902,
+"lon": -57.2171,
+"ship_name": "AKAMALIK"
+},
 {
 "id": "live_enco_3f231f79b3fddb",
 "first_seen": "2026-08-21T03:17:05Z",
@@ -2587,19 +2600,6 @@
 "lat": 2.7114,
 "lon": -1.3801,
 "ship_name": "ACONCAGUA BAY"
-},
-{
-"id": "live_ais__316c496c42ea60",
-"first_seen": "2026-08-13T12:00:43Z",
-"type": "ais_disabling",
-"when": "2026-08-02T21:01:21.000Z",
-"eez": "Yemeni Exclusive Economic Zone",
-"flag": "MLT",
-"authorization": "no_record",
-"severity_reason": "foreign vessel, no authorization on record",
-"lat": 15.7147,
-"lon": 52.4131,
-"ship_name": "SEADUKE"
 }
 ]
 }
