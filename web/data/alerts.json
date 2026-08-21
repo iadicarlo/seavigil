@@ -1,6 +1,45 @@
 {
-"generated_at": "2026-08-20T23:41:46Z",
+"generated_at": "2026-08-21T01:58:28Z",
 "alerts": [
+{
+"id": "live_enco_8f54bed66d53b2",
+"first_seen": "2026-08-21T01:58:28Z",
+"type": "encounter",
+"when": "2026-08-17T11:50:00.000Z",
+"eez": "Tunisian Exclusive Economic Zone",
+"flag": "MLT",
+"authorization": "no_record",
+"severity_reason": "foreign vessel, no authorization on record",
+"lat": 36.0129,
+"lon": 10.5638,
+"ship_name": "CRYSTAL STARLIGHT"
+},
+{
+"id": "live_enco_c765199fc8e547",
+"first_seen": "2026-08-21T01:58:28Z",
+"type": "encounter",
+"when": "2026-08-17T03:30:00.000Z",
+"eez": "Chinese Exclusive Economic Zone",
+"flag": "TWN",
+"authorization": "no_record",
+"severity_reason": "foreign vessel, no authorization on record",
+"lat": 27.4805,
+"lon": 123.1845,
+"ship_name": "ZHI CHENG 168"
+},
+{
+"id": "live_enco_0fba9a90249fe0",
+"first_seen": "2026-08-21T01:58:28Z",
+"type": "encounter",
+"when": "2026-08-16T04:30:00.000Z",
+"eez": "Chinese Exclusive Economic Zone",
+"flag": "TWN",
+"authorization": "authorization_lapsed",
+"severity_reason": "foreign vessel, authorization lapsed",
+"lat": 27.3806,
+"lon": 123.1318,
+"ship_name": "YU CHUN NO.68"
+},
 {
 "id": "live_ais__06eff6d8ece5e1",
 "first_seen": "2026-08-20T13:12:02Z",
@@ -2561,45 +2600,6 @@
 "lat": -6.4077,
 "lon": -168.9532,
 "ship_name": "GUANGYUANYU333"
-},
-{
-"id": "live_enco_5046f3c37ebfba",
-"first_seen": "2026-08-13T02:48:40Z",
-"type": "encounter",
-"when": "2026-08-09T17:40:00.000Z",
-"eez": "Marshallese Exclusive Economic Zone",
-"flag": "FSM",
-"authorization": "authorization_lapsed",
-"severity_reason": "foreign vessel, authorization lapsed",
-"lat": 5.6703,
-"lon": 174.2806,
-"ship_name": "PACIFIC PURSUIT 107"
-},
-{
-"id": "live_enco_ab15fb3f7f8f35",
-"first_seen": "2026-08-13T02:48:40Z",
-"type": "encounter",
-"when": "2026-08-09T12:40:00.000Z",
-"eez": "Tunisian Exclusive Economic Zone",
-"flag": "MLT",
-"authorization": "authorization_lapsed",
-"severity_reason": "foreign vessel, authorization lapsed",
-"lat": 36.0112,
-"lon": 10.5628,
-"ship_name": "CRYSTAL STARLIGHT"
-},
-{
-"id": "live_ais__92786facf5bb0f",
-"first_seen": "2026-08-12T11:59:47Z",
-"type": "ais_disabling",
-"when": "2026-08-08T07:01:48.000Z",
-"eez": "Fijian Exclusive Economic Zone",
-"flag": "CHN",
-"authorization": "no_record",
-"severity_reason": "foreign vessel, no authorization on record",
-"lat": -20.8118,
-"lon": 178.8011,
-"ship_name": "WANGBIAO-9468  100%"
 }
 ]
 }
