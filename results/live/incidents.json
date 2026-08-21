@@ -60,8 +60,8 @@
     "centroid_lat": 36.0129,
     "time_start_utc": "2026-08-17T11:50:00.000Z",
     "time_end_utc": "2026-08-17T23:50:00.000Z",
-    "vessel_id": "249000017",
-    "ship_name": "CRYSTAL STARLIGHT",
+    "vessel_id": "215000910",
+    "ship_name": "TA MATTEW",
     "ship_type": "Fishing",
     "flag": "MLT",
     "flag_emoji": "\ud83c\uddf2\ud83c\uddf9",
@@ -71,20 +71,20 @@
     "mean_fishing_proba": null,
     "max_fishing_proba": null,
     "_rfmo": [
+      "IWC",
       "ACAP",
       "GFCM",
-      "IWC",
       "ICCAT"
     ],
     "_no_take": false,
     "mpa_name": "At-sea encounter (transshipment)",
     "duration_hours": 12.0,
-    "carrier_mmsi": "215000910",
+    "carrier_mmsi": "249000017",
     "explanation": {
       "method": "GFW Events encounters dataset (Miller et al. 2018).",
       "drivers": [
         "two vessels within range for 12 h",
-        "counterpart: TA MATTEW",
+        "counterpart: CRYSTAL STARLIGHT",
         "two-vessel at-sea encounter (GFW Events)"
       ]
     },
@@ -97,25 +97,28 @@
     "eez_sovereign": "Tunisia",
     "eez_iso_sov": "TUN",
     "eez_foreign": true,
-    "authorization_status": "no_record",
-    "authorization_authorities": [],
+    "authorization_status": "authorization_lapsed",
+    "authorization_authorities": [
+      "GFCM",
+      "ICCAT"
+    ],
     "registry_iuu_tag": false,
-    "registry_flag": "",
-    "registry_imo": "",
+    "registry_flag": "MLT",
+    "registry_imo": "8537683",
     "severity": "high",
-    "severity_reason": "foreign vessel, no authorization on record",
+    "severity_reason": "foreign vessel, authorization lapsed",
     "evidence_schema": "seavigil-evidence-1.0",
-    "evidence_hash": "49cb781f681c4714be9b84143009f37aeabde4b2f02ca996e105d7280f5a5760"
+    "evidence_hash": "6d9cb2f4cd416c4d6c65529c37c53a9121c23f524875ae6941096e5f9c0ade19"
   },
   {
-    "incident_id": "live_enco_c765199fc8e547",
+    "incident_id": "live_enco_0fba9a90249fe0",
     "type": "encounter",
-    "centroid_lon": 123.1845,
-    "centroid_lat": 27.4805,
-    "time_start_utc": "2026-08-17T03:30:00.000Z",
+    "centroid_lon": 123.1318,
+    "centroid_lat": 27.3806,
+    "time_start_utc": "2026-08-16T04:30:00.000Z",
     "time_end_utc": "2026-08-17T23:50:00.000Z",
-    "vessel_id": "416063381",
-    "ship_name": "ZHI CHENG 168",
+    "vessel_id": "416004576",
+    "ship_name": "SHIN SHUENN FWU NO.2",
     "ship_type": "Fishing",
     "flag": "TWN",
     "flag_emoji": "\ud83c\uddf9\ud83c\uddfc",
@@ -126,19 +129,19 @@
     "max_fishing_proba": null,
     "_rfmo": [
       "APFIC",
+      "ACAP",
       "WCPFC",
-      "IWC",
-      "ACAP"
+      "IWC"
     ],
     "_no_take": false,
     "mpa_name": "At-sea encounter (transshipment)",
-    "duration_hours": 20.3,
-    "carrier_mmsi": "416001415",
+    "duration_hours": 43.3,
+    "carrier_mmsi": "416003408",
     "explanation": {
       "method": "GFW Events encounters dataset (Miller et al. 2018).",
       "drivers": [
-        "two vessels within range for 20 h",
-        "counterpart: JYH CHERNG 168",
+        "two vessels within range for 43 h",
+        "counterpart: YU CHUN NO.68",
         "two-vessel at-sea encounter (GFW Events)"
       ]
     },
@@ -159,40 +162,40 @@
     "severity": "high",
     "severity_reason": "foreign vessel, no authorization on record",
     "evidence_schema": "seavigil-evidence-1.0",
-    "evidence_hash": "c9954a07a62ff34fcf8b7c84c60474136631717ce414828d5adce8557f7a1b16"
+    "evidence_hash": "3525a77480f65a70f9d670aeb7678b47aa83a91aba8596341570a6836fefe583"
   },
   {
-    "incident_id": "live_enco_0fba9a90249fe0",
+    "incident_id": "live_enco_3f231f79b3fddb",
     "type": "encounter",
-    "centroid_lon": 123.1318,
-    "centroid_lat": 27.3806,
-    "time_start_utc": "2026-08-16T04:30:00.000Z",
+    "centroid_lon": 117.8282,
+    "centroid_lat": 23.6671,
+    "time_start_utc": "2026-08-17T14:50:00.000Z",
     "time_end_utc": "2026-08-17T23:50:00.000Z",
-    "vessel_id": "416003408",
-    "ship_name": "YU CHUN NO.68",
+    "vessel_id": "210400451",
+    "ship_name": "03988",
     "ship_type": "Fishing",
-    "flag": "TWN",
-    "flag_emoji": "\ud83c\uddf9\ud83c\uddfc",
+    "flag": "CYP",
+    "flag_emoji": "\ud83c\udde8\ud83c\uddfe",
     "gear": "Encounter",
     "n_positions": 0,
     "n_fishing_positions": 0,
     "mean_fishing_proba": null,
     "max_fishing_proba": null,
     "_rfmo": [
-      "ACAP",
       "IWC",
       "WCPFC",
+      "ACAP",
       "APFIC"
     ],
     "_no_take": false,
     "mpa_name": "At-sea encounter (transshipment)",
-    "duration_hours": 43.3,
-    "carrier_mmsi": "416004576",
+    "duration_hours": 9.0,
+    "carrier_mmsi": "412446127",
     "explanation": {
       "method": "GFW Events encounters dataset (Miller et al. 2018).",
       "drivers": [
-        "two vessels within range for 43 h",
-        "counterpart: SHIN SHUENN FWU NO.2",
+        "two vessels within range for 9 h",
+        "counterpart: MINDONGYU63050",
         "two-vessel at-sea encounter (GFW Events)"
       ]
     },
@@ -205,18 +208,15 @@
     "eez_sovereign": "China",
     "eez_iso_sov": "CHN",
     "eez_foreign": true,
-    "authorization_status": "authorization_lapsed",
-    "authorization_authorities": [
-      "IOTC",
-      "WCPFC"
-    ],
+    "authorization_status": "no_record",
+    "authorization_authorities": [],
     "registry_iuu_tag": false,
-    "registry_flag": "TWN",
+    "registry_flag": "",
     "registry_imo": "",
     "severity": "high",
-    "severity_reason": "foreign vessel, authorization lapsed",
+    "severity_reason": "foreign vessel, no authorization on record",
     "evidence_schema": "seavigil-evidence-1.0",
-    "evidence_hash": "0bdea0bc9682feda6a7a6c35e046625781722ff488153cff94c141d42d8e4d6c"
+    "evidence_hash": "14c2913db7424b83e6f1ff603f8f7d578857c1329a8df45e2e06c292a41b4ac0"
   },
   {
     "incident_id": "live_ais__06eff6d8ece5e1",

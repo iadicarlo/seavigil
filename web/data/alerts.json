@@ -1,6 +1,19 @@
 {
-"generated_at": "2026-08-21T01:58:28Z",
+"generated_at": "2026-08-21T03:17:05Z",
 "alerts": [
+{
+"id": "live_enco_3f231f79b3fddb",
+"first_seen": "2026-08-21T03:17:05Z",
+"type": "encounter",
+"when": "2026-08-17T14:50:00.000Z",
+"eez": "Chinese Exclusive Economic Zone",
+"flag": "CYP",
+"authorization": "no_record",
+"severity_reason": "foreign vessel, no authorization on record",
+"lat": 23.6671,
+"lon": 117.8282,
+"ship_name": "03988"
+},
 {
 "id": "live_enco_8f54bed66d53b2",
 "first_seen": "2026-08-21T01:58:28Z",
@@ -2587,19 +2600,6 @@
 "lat": 15.7147,
 "lon": 52.4131,
 "ship_name": "SEADUKE"
-},
-{
-"id": "live_enco_b65a82a026a855",
-"first_seen": "2026-08-13T02:48:40Z",
-"type": "encounter",
-"when": "2026-08-09T16:10:00.000Z",
-"eez": "Kiribati Exclusive Economic Zone (Phoenix Group)",
-"flag": "CHN",
-"authorization": "authorization_lapsed",
-"severity_reason": "foreign vessel, authorization lapsed",
-"lat": -6.4077,
-"lon": -168.9532,
-"ship_name": "GUANGYUANYU333"
 }
 ]
 }
