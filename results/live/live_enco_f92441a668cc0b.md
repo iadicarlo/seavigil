@@ -4,9 +4,9 @@
 - **Severity:** HIGH (foreign vessel, no authorization on record)
 - **EEZ:** Omani Exclusive Economic Zone (Oman) -- FOREIGN-flagged vessel
 - **Authorization:** No public authorization record (check coastal state)
-- **Vessel:** 🇨🇳 FU YUAN YU9992  ·  **signal:** Encounter
+- **Vessel:** 🇨🇳 FU YUAN YU9996  ·  **signal:** Encounter
 - **When (UTC):** 2026-08-16T04:20:00.000Z → 2026-08-17T23:50:00.000Z
-- **Encounter:** 43.5 h with carrier `412440718` (apparent transshipment)
+- **Encounter:** 43.5 h with carrier `412440715` (apparent transshipment)
 - **Where:** 19.490, 57.745
 
 ## Why this was flagged
@@ -14,7 +14,7 @@
 _GFW Events encounters dataset (Miller et al. 2018).._
 
 - two vessels within range for 44 h
-- counterpart: FU YUAN YU9996
+- counterpart: FU YUAN YU9992
 - two-vessel at-sea encounter (GFW Events)
 
 ## Could be innocent
@@ -31,7 +31,7 @@ Two vessels meeting at sea can be a legitimate transfer, bunkering, or a safety 
 
 - WDPA / WD-OECM (World Database on Protected Areas) (UNEP-WCMC and IUCN (2026), June 2026). Protected Planet Terms of Use (non-commercial, display-only).
 - Marine Regions Exclusive Economic Zones v12 (Flanders Marine Institute (2024), DOI 10.14284/632). CC BY 4.0.
-- **Integrity (SHA-256 of canonical facts):** `5e8ccb3dc78cccb5a80714b6c418727e5ceafa5ed149b6431c58a2cebd6aa9c2`
+- **Integrity (SHA-256 of canonical facts):** `2ee0ec26b6011c35ea114417bedda86b10a475138529847a37937ec9daa50313`
 - **Evidence schema:** seavigil-evidence-1.0
 
 _Apparent activity and an inspection lead, not proof of illegality. AIS and SAR evidence have known coverage gaps and spoofing risks; verify against authoritative sources before any enforcement action._
