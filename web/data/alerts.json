@@ -1,6 +1,45 @@
 {
-"generated_at": "2026-08-22T03:57:34Z",
+"generated_at": "2026-08-22T04:51:16Z",
 "alerts": [
+{
+"id": "live_enco_149c2f4a7a284d",
+"first_seen": "2026-08-22T04:51:16Z",
+"type": "encounter",
+"when": "2026-08-18T17:00:00.000Z",
+"eez": "Vietnamese Exclusive Economic Zone",
+"flag": "CHN",
+"authorization": "no_record",
+"severity_reason": "foreign vessel, no authorization on record",
+"lat": 18.2938,
+"lon": 106.411,
+"ship_name": "HOA MAI   D27   :"
+},
+{
+"id": "live_enco_155531c22b8bd8",
+"first_seen": "2026-08-22T04:51:16Z",
+"type": "encounter",
+"when": "2026-08-18T09:40:00.000Z",
+"eez": "Chinese Exclusive Economic Zone",
+"flag": "AND",
+"authorization": "no_record",
+"severity_reason": "foreign vessel, no authorization on record",
+"lat": 25.4987,
+"lon": 119.9919,
+"ship_name": ""
+},
+{
+"id": "live_enco_6cc89789f319ba",
+"first_seen": "2026-08-22T04:51:16Z",
+"type": "encounter",
+"when": "2026-08-17T10:30:00.000Z",
+"eez": "Chinese Exclusive Economic Zone",
+"flag": "CYP",
+"authorization": "no_record",
+"severity_reason": "foreign vessel, no authorization on record",
+"lat": 32.4584,
+"lon": 123.3175,
+"ship_name": "MINXIAYU01806"
+},
 {
 "id": "live_enco_c347eeba6a238e",
 "first_seen": "2026-08-22T03:08:20Z",
@@ -2561,45 +2600,6 @@
 "lat": 9.3466,
 "lon": 107.9035,
 "ship_name": "82HYNH-DUONG BAN1SO1"
-},
-{
-"id": "live_enco_adeef04710f627",
-"first_seen": "2026-08-15T01:50:57Z",
-"type": "encounter",
-"when": "2026-08-11T08:20:00.000Z",
-"eez": "Chinese Exclusive Economic Zone",
-"flag": "TWN",
-"authorization": "no_record",
-"severity_reason": "foreign vessel, no authorization on record",
-"lat": 25.9359,
-"lon": 121.1483,
-"ship_name": "XIE XING 168"
-},
-{
-"id": "live_enco_d317c803f853df",
-"first_seen": "2026-08-15T01:50:57Z",
-"type": "encounter",
-"when": "2026-08-11T12:10:00.000Z",
-"eez": "Overlapping claim Senkaku Islands: Taiwan / Japan / China",
-"flag": "ALB",
-"authorization": "no_record",
-"severity_reason": "foreign vessel, no authorization on record",
-"lat": 26.9046,
-"lon": 122.7687,
-"ship_name": ""
-},
-{
-"id": "live_enco_3d6c529c52c47d",
-"first_seen": "2026-08-15T01:50:57Z",
-"type": "encounter",
-"when": "2026-08-11T09:20:00.000Z",
-"eez": "Chinese Exclusive Economic Zone",
-"flag": "TWN",
-"authorization": "no_record",
-"severity_reason": "foreign vessel, no authorization on record",
-"lat": 26.1988,
-"lon": 121.4069,
-"ship_name": "DAH YIH FA 166"
 }
 ]
 }
