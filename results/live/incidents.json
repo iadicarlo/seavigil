@@ -272,6 +272,61 @@
     "evidence_hash": "1e68c8b59daaa99291d33955007bb056f78b455d156ca26d01e88f9eff7d61c1"
   },
   {
+    "incident_id": "live_enco_1dc74cdfae3805",
+    "type": "encounter",
+    "centroid_lon": 111.0831,
+    "centroid_lat": 10.0907,
+    "time_start_utc": "2026-08-18T19:40:00.000Z",
+    "time_end_utc": "2026-08-18T23:10:00.000Z",
+    "vessel_id": "228456789",
+    "ship_name": "TIEN DAT(^-^)",
+    "ship_type": "Fishing",
+    "flag": "FRA",
+    "flag_emoji": "\ud83c\uddeb\ud83c\uddf7",
+    "gear": "Encounter",
+    "n_positions": 0,
+    "n_fishing_positions": 0,
+    "mean_fishing_proba": null,
+    "max_fishing_proba": null,
+    "_rfmo": [
+      "APFIC",
+      "IWC",
+      "ACAP",
+      "SEAFDEC",
+      "WCPFC"
+    ],
+    "_no_take": false,
+    "mpa_name": "At-sea encounter (transshipment)",
+    "duration_hours": 3.5,
+    "carrier_mmsi": "574609139",
+    "explanation": {
+      "method": "GFW Events encounters dataset (Miller et al. 2018).",
+      "drivers": [
+        "two vessels within range for 4 h",
+        "counterpart: THUYET NGA",
+        "two-vessel at-sea encounter (GFW Events)"
+      ]
+    },
+    "caveats": [
+      "Co-location can be legitimate (joint operations, safety, shelter).",
+      "Apparent transshipment is inferred from proximity and low speed, not observed.",
+      "An inspection lead from GFW Events, not proof of illegal activity."
+    ],
+    "eez_name": "Vietnamese Exclusive Economic Zone",
+    "eez_sovereign": "Vietnam",
+    "eez_iso_sov": "VNM",
+    "eez_foreign": true,
+    "authorization_status": "no_record",
+    "authorization_authorities": [],
+    "registry_iuu_tag": false,
+    "registry_flag": "",
+    "registry_imo": "",
+    "severity": "high",
+    "severity_reason": "foreign vessel, no authorization on record",
+    "evidence_schema": "seavigil-evidence-1.0",
+    "evidence_hash": "a9d4a49b30acf4e641f2eb3aeb6a0650e0f569573cc094d2e6bf390f147a4680"
+  },
+  {
     "incident_id": "live_ais__fda002dd983186",
     "type": "ais_disabling",
     "centroid_lon": -173.2629,
@@ -932,6 +987,60 @@
     "evidence_hash": "880236d1008e4f9252cec54f41f258728eae2ab53cbf7fa64b60299ea3ee072c"
   },
   {
+    "incident_id": "live_enco_3d2a558b012319",
+    "type": "encounter",
+    "centroid_lon": 122.8459,
+    "centroid_lat": 26.0346,
+    "time_start_utc": "2026-08-18T14:50:00.000Z",
+    "time_end_utc": "2026-08-18T19:10:00.000Z",
+    "vessel_id": "412452103",
+    "ship_name": "MIN SHI YU 06869",
+    "ship_type": "Fishing",
+    "flag": "CHN",
+    "flag_emoji": "\ud83c\udde8\ud83c\uddf3",
+    "gear": "Encounter",
+    "n_positions": 0,
+    "n_fishing_positions": 0,
+    "mean_fishing_proba": null,
+    "max_fishing_proba": null,
+    "_rfmo": [
+      "IWC",
+      "ACAP",
+      "APFIC",
+      "WCPFC"
+    ],
+    "_no_take": false,
+    "mpa_name": "At-sea encounter (transshipment)",
+    "duration_hours": 4.3,
+    "carrier_mmsi": "200058778",
+    "explanation": {
+      "method": "GFW Events encounters dataset (Miller et al. 2018).",
+      "drivers": [
+        "two vessels within range for 4 h",
+        "counterpart: 200058778",
+        "two-vessel at-sea encounter (GFW Events)"
+      ]
+    },
+    "caveats": [
+      "Co-location can be legitimate (joint operations, safety, shelter).",
+      "Apparent transshipment is inferred from proximity and low speed, not observed.",
+      "An inspection lead from GFW Events, not proof of illegal activity."
+    ],
+    "eez_name": "Overlapping claim Senkaku Islands: Taiwan / Japan / China",
+    "eez_sovereign": "Taiwan",
+    "eez_iso_sov": "TWN",
+    "eez_foreign": true,
+    "authorization_status": "no_record",
+    "authorization_authorities": [],
+    "registry_iuu_tag": false,
+    "registry_flag": "",
+    "registry_imo": "",
+    "severity": "high",
+    "severity_reason": "foreign vessel, no authorization on record",
+    "evidence_schema": "seavigil-evidence-1.0",
+    "evidence_hash": "0e4aa56d23bca91b4fc8f7f43d27f3e08126f41d190edaaefd3c1cdcce5044d8"
+  },
+  {
     "incident_id": "live_enco_52327f12356f15",
     "type": "encounter",
     "centroid_lon": 118.7049,
@@ -984,6 +1093,60 @@
     "severity_reason": "foreign vessel, no authorization on record",
     "evidence_schema": "seavigil-evidence-1.0",
     "evidence_hash": "bf79cedfa412cff27d6c0eac18d98e4a87b2ddcc367a40a7e5778d38943592e5"
+  },
+  {
+    "incident_id": "live_enco_6cc89789f319ba",
+    "type": "encounter",
+    "centroid_lon": 123.3175,
+    "centroid_lat": 32.4584,
+    "time_start_utc": "2026-08-17T10:30:00.000Z",
+    "time_end_utc": "2026-08-18T18:50:00.000Z",
+    "vessel_id": "212448758",
+    "ship_name": "MINXIAYU01806",
+    "ship_type": "Fishing",
+    "flag": "CYP",
+    "flag_emoji": "\ud83c\udde8\ud83c\uddfe",
+    "gear": "Encounter",
+    "n_positions": 0,
+    "n_fishing_positions": 0,
+    "mean_fishing_proba": null,
+    "max_fishing_proba": null,
+    "_rfmo": [
+      "WCPFC",
+      "PICES",
+      "ACAP",
+      "IWC"
+    ],
+    "_no_take": false,
+    "mpa_name": "At-sea encounter (transshipment)",
+    "duration_hours": 32.3,
+    "carrier_mmsi": "412448758",
+    "explanation": {
+      "method": "GFW Events encounters dataset (Miller et al. 2018).",
+      "drivers": [
+        "two vessels within range for 32 h",
+        "counterpart: MINXIAYU01806",
+        "two-vessel at-sea encounter (GFW Events)"
+      ]
+    },
+    "caveats": [
+      "Co-location can be legitimate (joint operations, safety, shelter).",
+      "Apparent transshipment is inferred from proximity and low speed, not observed.",
+      "An inspection lead from GFW Events, not proof of illegal activity."
+    ],
+    "eez_name": "Chinese Exclusive Economic Zone",
+    "eez_sovereign": "China",
+    "eez_iso_sov": "CHN",
+    "eez_foreign": true,
+    "authorization_status": "no_record",
+    "authorization_authorities": [],
+    "registry_iuu_tag": false,
+    "registry_flag": "",
+    "registry_imo": "",
+    "severity": "high",
+    "severity_reason": "foreign vessel, no authorization on record",
+    "evidence_schema": "seavigil-evidence-1.0",
+    "evidence_hash": "7e932f7134d3cbe51025397a880fd5388be02849ca9f0a5e9584f46a07f09e99"
   },
   {
     "incident_id": "live_ais__714d078a18f071",

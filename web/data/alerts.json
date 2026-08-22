@@ -1,6 +1,32 @@
 {
-"generated_at": "2026-08-22T17:37:36Z",
+"generated_at": "2026-08-22T18:49:44Z",
 "alerts": [
+{
+"id": "live_enco_1dc74cdfae3805",
+"first_seen": "2026-08-22T18:49:44Z",
+"type": "encounter",
+"when": "2026-08-18T19:40:00.000Z",
+"eez": "Vietnamese Exclusive Economic Zone",
+"flag": "FRA",
+"authorization": "no_record",
+"severity_reason": "foreign vessel, no authorization on record",
+"lat": 10.0907,
+"lon": 111.0831,
+"ship_name": "TIEN DAT(^-^)"
+},
+{
+"id": "live_enco_3d2a558b012319",
+"first_seen": "2026-08-22T18:49:44Z",
+"type": "encounter",
+"when": "2026-08-18T14:50:00.000Z",
+"eez": "Overlapping claim Senkaku Islands: Taiwan / Japan / China",
+"flag": "CHN",
+"authorization": "no_record",
+"severity_reason": "foreign vessel, no authorization on record",
+"lat": 26.0346,
+"lon": 122.8459,
+"ship_name": "MIN SHI YU 06869"
+},
 {
 "id": "live_ais__fbe61cb47c3296",
 "first_seen": "2026-08-22T11:36:31Z",
@@ -2574,32 +2600,6 @@
 "lat": 19.4993,
 "lon": 57.7444,
 "ship_name": "HAILI888"
-},
-{
-"id": "live_enco_148745acada727",
-"first_seen": "2026-08-16T01:58:12Z",
-"type": "encounter",
-"when": "2026-08-12T16:20:00.000Z",
-"eez": "Kiribati Exclusive Economic Zone (Line Group)",
-"flag": "CHN",
-"authorization": "no_record",
-"severity_reason": "foreign vessel, no authorization on record",
-"lat": -7.5419,
-"lon": -154.0028,
-"ship_name": "HAIXING717"
-},
-{
-"id": "live_enco_74d0e324c96fd5",
-"first_seen": "2026-08-16T01:58:12Z",
-"type": "encounter",
-"when": "2026-08-12T08:30:00.000Z",
-"eez": "Chinese Exclusive Economic Zone",
-"flag": "ALB",
-"authorization": "no_record",
-"severity_reason": "foreign vessel, no authorization on record",
-"lat": 28.1262,
-"lon": 123.3483,
-"ship_name": "ZHE LING YU 12116"
 }
 ]
 }
