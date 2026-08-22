@@ -1,20 +1,20 @@
-# Incident `live_enco_155531c22b8bd8`
+# Incident `live_enco_c7af226f5f3d4e`
 
 - **MPA:** At-sea encounter (transshipment)
 - **Severity:** HIGH (foreign vessel, no authorization on record)
-- **EEZ:** Chinese Exclusive Economic Zone (China) -- FOREIGN-flagged vessel
+- **EEZ:** Vietnamese Exclusive Economic Zone (Vietnam) -- FOREIGN-flagged vessel
 - **Authorization:** No public authorization record (check coastal state)
-- **Vessel:** 🇦🇩 `202409175`  ·  **signal:** Encounter
-- **When (UTC):** 2026-08-18T09:40:00.000Z → 2026-08-18T23:50:00.000Z
-- **Encounter:** 14.2 h with carrier `412482625` (apparent transshipment)
-- **Where:** 25.499, 119.992
+- **Vessel:** 🇸🇬 82HYNH-DUONG BAN1SO1  ·  **signal:** Encounter
+- **When (UTC):** 2026-08-18T13:10:00.000Z → 2026-08-18T18:00:00.000Z
+- **Encounter:** 4.8 h with carrier `1069` (apparent transshipment)
+- **Where:** 9.219, 107.195
 
 ## Why this was flagged
 
 _GFW Events encounters dataset (Miller et al. 2018).._
 
-- two vessels within range for 14 h
-- counterpart: MINSHIYU05165
+- two vessels within range for 5 h
+- counterpart: 69HUYNHDUONG B1 SO1
 - two-vessel at-sea encounter (GFW Events)
 
 ## Could be innocent
@@ -31,7 +31,7 @@ Two vessels meeting at sea can be a legitimate transfer, bunkering, or a safety 
 
 - WDPA / WD-OECM (World Database on Protected Areas) (UNEP-WCMC and IUCN (2026), June 2026). Protected Planet Terms of Use (non-commercial, display-only).
 - Marine Regions Exclusive Economic Zones v12 (Flanders Marine Institute (2024), DOI 10.14284/632). CC BY 4.0.
-- **Integrity (SHA-256 of canonical facts):** `55de88ecab0d7dd0a60716a026cf4745f3d9c34dc8e79b2dcf07cd7f3b1a6c39`
+- **Integrity (SHA-256 of canonical facts):** `9d8531bd13a7fdfce63c286e5f6d6624e807a1eccba828e0a573f2bc9b034c04`
 - **Evidence schema:** seavigil-evidence-1.0
 
 _Apparent activity and an inspection lead, not proof of illegality. AIS and SAR evidence have known coverage gaps and spoofing risks; verify against authoritative sources before any enforcement action._
