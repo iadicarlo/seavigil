@@ -1,9 +1,9 @@
 # Incident `live_ais__6c1657a64d87a5`
 
 - **MPA:** AIS disabling (going dark)
-- **Severity:** HIGH (foreign vessel, no authorization on record)
+- **Severity:** HIGH (foreign vessel, authorization lapsed)
 - **EEZ:** Cape Verdean Exclusive Economic Zone (Cape Verde) -- FOREIGN-flagged vessel
-- **Authorization:** No public authorization record (check coastal state)
+- **Authorization:** Authorization lapsed before this date: ICCAT  ·  IMO 9882009
 - **Vessel:** 🇪🇸 MONTERAIOLA  ·  **signal:** AIS gap
 - **When (UTC):** 2026-08-15T11:49:54.000Z → 2026-08-17T06:02:38.000Z
 - **Gap:** 42.2 h dark, 78.0 nm offshore

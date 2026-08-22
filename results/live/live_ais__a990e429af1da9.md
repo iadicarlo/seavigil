@@ -3,7 +3,7 @@
 - **MPA:** AIS disabling (going dark)
 - **Severity:** HIGH (foreign vessel, no authorization on record)
 - **EEZ:** Brazilian Exclusive Economic Zone (Brazil) -- FOREIGN-flagged vessel
-- **Authorization:** No public authorization record (check coastal state)  ·  IMO 9401910
+- **Authorization:** No public authorization record (check coastal state)
 - **Vessel:** 🇲🇹 YANNIS  ·  **signal:** AIS gap
 - **When (UTC):** 2026-08-14T17:25:31.000Z → 2026-08-17T13:18:26.000Z
 - **Gap:** 67.9 h dark, 135.0 nm offshore

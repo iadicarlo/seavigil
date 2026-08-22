@@ -1,10 +1,10 @@
 # Incident `live_ais__44c143deaf065c`
 
 - **MPA:** AIS disabling (going dark)
-- **Severity:** HIGH (foreign vessel, no authorization on record)
-- **EEZ:** Danish Exclusive Economic Zone (Greenland) (Denmark) -- FOREIGN-flagged vessel
-- **Authorization:** No public authorization record (check coastal state)
-- **Vessel:** 🇬🇱 AKAMALIK  ·  **signal:** AIS gap
+- **Severity:** MEDIUM (foreign vessel, authorization unverified)
+- **EEZ:** Danish Exclusive Economic Zone (Greenland) (Denmark)  (flag matches coastal state)
+- **Authorization:** Domestic flag (own EEZ)  ·  IMO 9228928
+- **Vessel:** 🇩🇰 AKAMALIK  ·  **signal:** AIS gap
 - **When (UTC):** 2026-08-16T02:10:55.000Z → 2026-08-16T18:29:18.000Z
 - **Gap:** 16.3 h dark, 70.0 nm offshore
 - **Where:** 70.190, -57.217
@@ -31,7 +31,7 @@ Going dark is frequently benign: in open water, where gaps are commonly protecti
 - NOAA Marine Cadastre AIS (marinecadastre.gov/ais (vessel positions)). US public domain.
 - WDPA / WD-OECM (World Database on Protected Areas) (UNEP-WCMC and IUCN (2026), June 2026). Protected Planet Terms of Use (non-commercial, display-only).
 - Marine Regions Exclusive Economic Zones v12 (Flanders Marine Institute (2024), DOI 10.14284/632). CC BY 4.0.
-- **Integrity (SHA-256 of canonical facts):** `a512c0dd2c2b68fe2744b8760e9f9cefa482e3692bd39185e9e351009ac52242`
+- **Integrity (SHA-256 of canonical facts):** `e2576ab0f443d0f8624284753f59304870273ce4d774b66c93fcb398e892588b`
 - **Evidence schema:** seavigil-evidence-1.0
 
 _Apparent activity and an inspection lead, not proof of illegality. AIS and SAR evidence have known coverage gaps and spoofing risks; verify against authoritative sources before any enforcement action._

@@ -1,9 +1,9 @@
 # Incident `live_ais__d3ebbe267bfbd4`
 
 - **MPA:** AIS disabling (going dark)
-- **Severity:** HIGH (foreign vessel, no authorization on record)
+- **Severity:** HIGH (foreign vessel, authorization lapsed)
 - **EEZ:** Kiribati Exclusive Economic Zone (Phoenix Group) (Kiribati) -- FOREIGN-flagged vessel
-- **Authorization:** No public authorization record (check coastal state)
+- **Authorization:** Authorization lapsed before this date: FFA, WCPFC  ·  IMO 8924381
 - **Vessel:** 🇨🇳 JIN HUI NO.6  ·  **signal:** AIS gap
 - **When (UTC):** 2026-08-16T12:52:07.000Z → 2026-08-17T02:30:42.000Z
 - **Gap:** 13.6 h dark, 118.0 nm offshore

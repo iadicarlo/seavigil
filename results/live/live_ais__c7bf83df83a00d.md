@@ -3,7 +3,7 @@
 - **MPA:** AIS disabling (going dark)
 - **Severity:** HIGH (foreign vessel, no authorization on record)
 - **EEZ:** Overlapping claim Falkland / Malvinas Islands: United Kingdom / Argentina (United Kingdom) -- FOREIGN-flagged vessel
-- **Authorization:** No public authorization record (check coastal state)
+- **Authorization:** No public authorization record (check coastal state)  ·  IMO 9577604
 - **Vessel:** 🇲🇭 VERITY  ·  **signal:** AIS gap
 - **When (UTC):** 2026-08-16T20:32:40.000Z → 2026-08-17T13:52:45.000Z
 - **Gap:** 17.3 h dark, 73.0 nm offshore
