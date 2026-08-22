@@ -168,8 +168,8 @@
     "centroid_lat": 26.2977,
     "time_start_utc": "2026-08-18T07:40:00.000Z",
     "time_end_utc": "2026-08-18T22:40:00.000Z",
-    "vessel_id": "412812312",
-    "ship_name": "",
+    "vessel_id": "412451798",
+    "ship_name": "MIN SHI YU 07279",
     "ship_type": "Fishing",
     "flag": "CHN",
     "flag_emoji": "\ud83c\udde8\ud83c\uddf3",
@@ -179,20 +179,20 @@
     "mean_fishing_proba": null,
     "max_fishing_proba": null,
     "_rfmo": [
-      "WCPFC",
       "IWC",
+      "APFIC",
       "ACAP",
-      "APFIC"
+      "WCPFC"
     ],
     "_no_take": false,
     "mpa_name": "At-sea encounter (transshipment)",
     "duration_hours": 15.0,
-    "carrier_mmsi": "412451798",
+    "carrier_mmsi": "412812312",
     "explanation": {
       "method": "GFW Events encounters dataset (Miller et al. 2018).",
       "drivers": [
         "two vessels within range for 15 h",
-        "counterpart: MIN SHI YU 07279",
+        "counterpart: 412812312",
         "two-vessel at-sea encounter (GFW Events)"
       ]
     },
@@ -213,7 +213,7 @@
     "severity": "high",
     "severity_reason": "foreign vessel, no authorization on record",
     "evidence_schema": "seavigil-evidence-1.0",
-    "evidence_hash": "184a86b240929bc5300fb6165b0e9fd42c8f02ac503d582cc916a5f352200a3b"
+    "evidence_hash": "18acbfd07753ea17c8054b67d0e66ede90c572d484e69d3f98729fd752a5b8b8"
   },
   {
     "incident_id": "live_enco_9915d12d997418",
@@ -540,37 +540,38 @@
     "evidence_hash": "880236d1008e4f9252cec54f41f258728eae2ab53cbf7fa64b60299ea3ee072c"
   },
   {
-    "incident_id": "live_enco_52327f12356f15",
+    "incident_id": "live_enco_c7af226f5f3d4e",
     "type": "encounter",
-    "centroid_lon": 118.7049,
-    "centroid_lat": 22.5469,
-    "time_start_utc": "2026-08-18T12:00:00.000Z",
-    "time_end_utc": "2026-08-18T18:50:00.000Z",
-    "vessel_id": "412488411",
-    "ship_name": "YUEJIANGCHENGYU68388",
+    "centroid_lon": 107.1948,
+    "centroid_lat": 9.2192,
+    "time_start_utc": "2026-08-18T13:10:00.000Z",
+    "time_end_utc": "2026-08-18T18:00:00.000Z",
+    "vessel_id": "563090782",
+    "ship_name": "82HYNH-DUONG BAN1SO1",
     "ship_type": "Fishing",
-    "flag": "CHN",
-    "flag_emoji": "\ud83c\udde8\ud83c\uddf3",
+    "flag": "SGP",
+    "flag_emoji": "\ud83c\uddf8\ud83c\uddec",
     "gear": "Encounter",
     "n_positions": 0,
     "n_fishing_positions": 0,
     "mean_fishing_proba": null,
     "max_fishing_proba": null,
     "_rfmo": [
-      "WCPFC",
-      "ACAP",
       "APFIC",
+      "ACAP",
+      "SEAFDEC",
+      "WCPFC",
       "IWC"
     ],
     "_no_take": false,
     "mpa_name": "At-sea encounter (transshipment)",
-    "duration_hours": 6.8,
-    "carrier_mmsi": "200019527",
+    "duration_hours": 4.8,
+    "carrier_mmsi": "1069",
     "explanation": {
       "method": "GFW Events encounters dataset (Miller et al. 2018).",
       "drivers": [
-        "two vessels within range for 7 h",
-        "counterpart: YUEYANGXIYU96234",
+        "two vessels within range for 5 h",
+        "counterpart: 69HUYNHDUONG B1 SO1",
         "two-vessel at-sea encounter (GFW Events)"
       ]
     },
@@ -579,9 +580,9 @@
       "Apparent transshipment is inferred from proximity and low speed, not observed.",
       "An inspection lead from GFW Events, not proof of illegal activity."
     ],
-    "eez_name": "Overlapping claim Taiwan: Taiwan / China",
-    "eez_sovereign": "Taiwan",
-    "eez_iso_sov": "TWN",
+    "eez_name": "Vietnamese Exclusive Economic Zone",
+    "eez_sovereign": "Vietnam",
+    "eez_iso_sov": "VNM",
     "eez_foreign": true,
     "authorization_status": "no_record",
     "authorization_authorities": [],
@@ -591,7 +592,7 @@
     "severity": "high",
     "severity_reason": "foreign vessel, no authorization on record",
     "evidence_schema": "seavigil-evidence-1.0",
-    "evidence_hash": "bf79cedfa412cff27d6c0eac18d98e4a87b2ddcc367a40a7e5778d38943592e5"
+    "evidence_hash": "9d8531bd13a7fdfce63c286e5f6d6624e807a1eccba828e0a573f2bc9b034c04"
   },
   {
     "incident_id": "live_ais__68ee4749a5a689",
