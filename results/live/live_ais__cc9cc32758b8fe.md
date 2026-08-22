@@ -1,19 +1,19 @@
-# Incident `live_ais__6289ddf33acee9`
+# Incident `live_ais__cc9cc32758b8fe`
 
 - **MPA:** AIS disabling (going dark)
 - **Severity:** HIGH (foreign vessel, no authorization on record)
-- **EEZ:** Nigerian Exclusive Economic Zone (Nigeria) -- FOREIGN-flagged vessel
-- **Authorization:** No public authorization record (check coastal state)
-- **Vessel:** 🇱🇷 AMARYA  ·  **signal:** AIS gap
-- **When (UTC):** 2026-08-14T20:09:29.000Z → 2026-08-16T20:14:31.000Z
-- **Gap:** 48.1 h dark, 73.0 nm offshore
-- **Where:** 2.196, 3.696
+- **EEZ:** Marshallese Exclusive Economic Zone (Marshall Islands) -- FOREIGN-flagged vessel
+- **Authorization:** No public authorization record (check coastal state)  ·  IMO 8996281
+- **Vessel:** 🇳🇷 OCEAN ENCOUNTER  ·  **signal:** AIS gap
+- **When (UTC):** 2026-08-11T18:55:11.000Z → 2026-08-17T20:46:51.000Z
+- **Gap:** 145.9 h dark, 262.0 nm offshore
+- **Where:** 6.251, 174.165
 
 ## Why this was flagged
 
 _GFW Events gaps dataset (satellite AIS).._
 
-- went dark 73 nm offshore for 48 h
+- went dark 262 nm offshore for 146 h
 - satellite-confirmed AIS gap (GFW Events)
 
 ## Could be innocent
@@ -31,7 +31,7 @@ Going dark is frequently benign: in open water, where gaps are commonly protecti
 - NOAA Marine Cadastre AIS (marinecadastre.gov/ais (vessel positions)). US public domain.
 - WDPA / WD-OECM (World Database on Protected Areas) (UNEP-WCMC and IUCN (2026), June 2026). Protected Planet Terms of Use (non-commercial, display-only).
 - Marine Regions Exclusive Economic Zones v12 (Flanders Marine Institute (2024), DOI 10.14284/632). CC BY 4.0.
-- **Integrity (SHA-256 of canonical facts):** `bf476fb92624df9b3412ce8f0539a77517fe1b649151b580f2237c0628b7ef37`
+- **Integrity (SHA-256 of canonical facts):** `1d995cc2f77a347f3485ce6d120069fd2ecd757f0a13548bcf237a2cddbdaecd`
 - **Evidence schema:** seavigil-evidence-1.0
 
 _Apparent activity and an inspection lead, not proof of illegality. AIS and SAR evidence have known coverage gaps and spoofing risks; verify against authoritative sources before any enforcement action._
