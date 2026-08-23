@@ -1,20 +1,20 @@
-# Incident `live_enco_9915d12d997418`
+# Incident `live_enco_559c0ea86e940e`
 
 - **MPA:** At-sea encounter (transshipment)
 - **Severity:** HIGH (foreign vessel, no authorization on record)
-- **EEZ:** Joint regime area: South Korea / Japan (South Korea) -- FOREIGN-flagged vessel
+- **EEZ:** Overlapping claim Taiwan: Taiwan / China (Taiwan) -- FOREIGN-flagged vessel
 - **Authorization:** No public authorization record (check coastal state)
-- **Vessel:** 🇨🇳 ZHERUIYU01758  ·  **signal:** Encounter
-- **When (UTC):** 2026-08-18T18:40:00.000Z → 2026-08-18T22:10:00.000Z
-- **Encounter:** 3.5 h with carrier `412419404` (apparent transshipment)
-- **Where:** 31.309, 126.501
+- **Vessel:** 🇨🇳 LEEBUU  ·  **signal:** Encounter
+- **When (UTC):** 2026-08-19T04:30:00.000Z → 2026-08-19T23:50:00.000Z
+- **Encounter:** 19.3 h with carrier `412445133` (apparent transshipment)
+- **Where:** 25.868, 121.180
 
 ## Why this was flagged
 
 _GFW Events encounters dataset (Miller et al. 2018).._
 
-- two vessels within range for 4 h
-- counterpart: ZHERUIYU01758
+- two vessels within range for 19 h
+- counterpart: MINJINYU05332
 - two-vessel at-sea encounter (GFW Events)
 
 ## Could be innocent
@@ -31,7 +31,7 @@ Two vessels meeting at sea can be a legitimate transfer, bunkering, or a safety 
 
 - WDPA / WD-OECM (World Database on Protected Areas) (UNEP-WCMC and IUCN (2026), June 2026). Protected Planet Terms of Use (non-commercial, display-only).
 - Marine Regions Exclusive Economic Zones v12 (Flanders Marine Institute (2024), DOI 10.14284/632). CC BY 4.0.
-- **Integrity (SHA-256 of canonical facts):** `0d37d2555a6c6eae6c263eb034f5f401b20e62b8cd68fd1c275b29bf8be1336d`
+- **Integrity (SHA-256 of canonical facts):** `16672f1e99b17ca291e3b907502a8b8a8af4617423f4a92c1a437ba735862943`
 - **Evidence schema:** seavigil-evidence-1.0
 
 _Apparent activity and an inspection lead, not proof of illegality. AIS and SAR evidence have known coverage gaps and spoofing risks; verify against authoritative sources before any enforcement action._
