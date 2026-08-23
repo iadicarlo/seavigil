@@ -1,52 +1,6 @@
 [
   {
     "type": "ais_spoofing",
-    "incident_id": "live_spoof_312561000.0",
-    "mpa_name": "AIS spoofing",
-    "severity": "medium",
-    "severity_reason": "impossible-speed position jumps",
-    "vessel_id": "312561000.0",
-    "ship_name": "NS STAR",
-    "flag": "BZ",
-    "ship_type": "Fishing",
-    "gear": "AIS anomaly",
-    "time_start_utc": "2026-08-22T18:54:00Z",
-    "time_end_utc": "2026-08-23T02:24:16Z",
-    "duration_hours": 7.5,
-    "n_positions": 30,
-    "n_fishing_positions": 0,
-    "mean_fishing_proba": null,
-    "max_fishing_proba": null,
-    "centroid_lat": -12.040360000000002,
-    "centroid_lon": -77.0449725,
-    "anomaly_count": 12,
-    "max_implied_speed_kn": 18542.0,
-    "spread_nm": 164.0,
-    "explanation": {
-      "method": "AIS position-anomaly analysis (impossible-speed jumps and same-instant conflicts)",
-      "drivers": [
-        "12 physically impossible movements for one MMSI",
-        "fastest implied speed 18,542 kn (a vessel cannot move this fast)",
-        "positions span 164 nm"
-      ]
-    },
-    "caveats": [
-      "Suspected AIS spoofing or MMSI conflict, not proven and not necessarily illegal.",
-      "Could also be a faulty GPS/transceiver or a transcription error in the feed.",
-      "Flagged only on a sustained pattern (several anomalies), not a single bad fix.",
-      "An inspection lead: confirm the vessel identity against authoritative records."
-    ],
-    "flag_emoji": "\ud83c\udde7\ud83c\uddff",
-    "_no_take": false,
-    "_rfmo": [],
-    "authorization_status": "unverifiable",
-    "authorization_authorities": [],
-    "registry_iuu_tag": false,
-    "evidence_schema": "seavigil-evidence-1.0",
-    "evidence_hash": "af70346243d072edd7527d7787acdd746c55033e1195d4998e228e69f4fbac02"
-  },
-  {
-    "type": "ais_spoofing",
     "incident_id": "live_spoof_319151100.0",
     "mpa_name": "AIS spoofing",
     "severity": "medium",
@@ -56,15 +10,15 @@
     "flag": "KY",
     "ship_type": "Fishing",
     "gear": "AIS anomaly",
-    "time_start_utc": "2026-08-22T19:22:38Z",
+    "time_start_utc": "2026-08-22T20:44:20Z",
     "time_end_utc": "2026-08-23T01:58:17Z",
-    "duration_hours": 6.6,
-    "n_positions": 17,
+    "duration_hours": 5.2,
+    "n_positions": 16,
     "n_fishing_positions": 0,
     "mean_fishing_proba": null,
     "max_fishing_proba": null,
-    "centroid_lat": -12.035051666666668,
-    "centroid_lon": -77.04734833333333,
+    "centroid_lat": -12.034858333333334,
+    "centroid_lon": -77.04884083333334,
     "anomaly_count": 5,
     "max_implied_speed_kn": 545.0,
     "spread_nm": 13.0,
@@ -89,7 +43,7 @@
     "authorization_authorities": [],
     "registry_iuu_tag": false,
     "evidence_schema": "seavigil-evidence-1.0",
-    "evidence_hash": "eeabc818da067764339cec1828e40cc48f576d76724ab3ca8085d074d91ecfc4"
+    "evidence_hash": "241b936637ea1ffb5b8024b49c442e98f7603e3c720aef83a83d66115dd0c21b"
   },
   {
     "type": "ais_spoofing",
@@ -514,60 +468,6 @@
     "severity_reason": "foreign vessel, no authorization on record",
     "evidence_schema": "seavigil-evidence-1.0",
     "evidence_hash": "0405347d5f05f052fb17d15568b2a119dffec4501a65792d0525ceb5d6d0f6ac"
-  },
-  {
-    "incident_id": "live_enco_52ef5459eda48e",
-    "type": "encounter",
-    "centroid_lon": 122.8906,
-    "centroid_lat": 28.4291,
-    "time_start_utc": "2026-08-19T12:30:00.000Z",
-    "time_end_utc": "2026-08-19T23:50:00.000Z",
-    "vessel_id": "201900000",
-    "ship_name": "ZHELINGYU23 69",
-    "ship_type": "Fishing",
-    "flag": "ALB",
-    "flag_emoji": "\ud83c\udde6\ud83c\uddf1",
-    "gear": "Encounter",
-    "n_positions": 0,
-    "n_fishing_positions": 0,
-    "mean_fishing_proba": null,
-    "max_fishing_proba": null,
-    "_rfmo": [
-      "WCPFC",
-      "ACAP",
-      "IWC",
-      "APFIC"
-    ],
-    "_no_take": false,
-    "mpa_name": "At-sea encounter (transshipment)",
-    "duration_hours": 11.3,
-    "carrier_mmsi": "412416609",
-    "explanation": {
-      "method": "GFW Events encounters dataset (Miller et al. 2018).",
-      "drivers": [
-        "two vessels within range for 11 h",
-        "counterpart: ZHELINGYU23869",
-        "two-vessel at-sea encounter (GFW Events)"
-      ]
-    },
-    "caveats": [
-      "Co-location can be legitimate (joint operations, safety, shelter).",
-      "Apparent transshipment is inferred from proximity and low speed, not observed.",
-      "An inspection lead from GFW Events, not proof of illegal activity."
-    ],
-    "eez_name": "Chinese Exclusive Economic Zone",
-    "eez_sovereign": "China",
-    "eez_iso_sov": "CHN",
-    "eez_foreign": true,
-    "authorization_status": "no_record",
-    "authorization_authorities": [],
-    "registry_iuu_tag": false,
-    "registry_flag": "",
-    "registry_imo": "",
-    "severity": "high",
-    "severity_reason": "foreign vessel, no authorization on record",
-    "evidence_schema": "seavigil-evidence-1.0",
-    "evidence_hash": "6cba669dd8fcc612b581112acdfabdfec6e5d08f9e9036ae5602406336c7bba0"
   },
   {
     "incident_id": "live_enco_92e69531b78280",
