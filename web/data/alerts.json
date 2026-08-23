@@ -1,6 +1,19 @@
 {
-"generated_at": "2026-08-23T04:05:05Z",
+"generated_at": "2026-08-23T04:52:59Z",
 "alerts": [
+{
+"id": "live_enco_553ed68f553291",
+"first_seen": "2026-08-23T04:52:59Z",
+"type": "encounter",
+"when": "2026-08-18T16:50:00.000Z",
+"eez": "Chinese Exclusive Economic Zone",
+"flag": "CYP",
+"authorization": "no_record",
+"severity_reason": "foreign vessel, no authorization on record",
+"lat": 23.6719,
+"lon": 117.8732,
+"ship_name": "03988"
+},
 {
 "id": "live_enco_4cab4809428498",
 "first_seen": "2026-08-23T02:00:21Z",
@@ -2587,19 +2600,6 @@
 "lat": 36.0114,
 "lon": 10.5633,
 "ship_name": "TA MATTEW"
-},
-{
-"id": "live_enco_8f2d4bc685d8c6",
-"first_seen": "2026-08-18T03:09:09Z",
-"type": "encounter",
-"when": "2026-08-14T16:00:00.000Z",
-"eez": "Kiribati Exclusive Economic Zone (Line Group)",
-"flag": "CHN",
-"authorization": "authorization_lapsed",
-"severity_reason": "foreign vessel, authorization lapsed",
-"lat": -8.4944,
-"lon": -150.7261,
-"ship_name": "HONGYANG8"
 }
 ]
 }
