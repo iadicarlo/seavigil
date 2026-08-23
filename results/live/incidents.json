@@ -1,52 +1,6 @@
 [
   {
     "type": "ais_spoofing",
-    "incident_id": "live_spoof_319151100.0",
-    "mpa_name": "AIS spoofing",
-    "severity": "medium",
-    "severity_reason": "impossible-speed position jumps",
-    "vessel_id": "319151100.0",
-    "ship_name": "BURRI",
-    "flag": "KY",
-    "ship_type": "Fishing",
-    "gear": "AIS anomaly",
-    "time_start_utc": "2026-08-22T22:32:57Z",
-    "time_end_utc": "2026-08-23T01:58:17Z",
-    "duration_hours": 3.4,
-    "n_positions": 15,
-    "n_fishing_positions": 0,
-    "mean_fishing_proba": null,
-    "max_fishing_proba": null,
-    "centroid_lat": -12.035051666666668,
-    "centroid_lon": -77.05033333333334,
-    "anomaly_count": 5,
-    "max_implied_speed_kn": 545.0,
-    "spread_nm": 13.0,
-    "explanation": {
-      "method": "AIS position-anomaly analysis (impossible-speed jumps and same-instant conflicts)",
-      "drivers": [
-        "5 physically impossible movements for one MMSI",
-        "fastest implied speed 545 kn (a vessel cannot move this fast)",
-        "positions span 13 nm"
-      ]
-    },
-    "caveats": [
-      "Suspected AIS spoofing or MMSI conflict, not proven and not necessarily illegal.",
-      "Could also be a faulty GPS/transceiver or a transcription error in the feed.",
-      "Flagged only on a sustained pattern (several anomalies), not a single bad fix.",
-      "An inspection lead: confirm the vessel identity against authoritative records."
-    ],
-    "flag_emoji": "\ud83c\uddf0\ud83c\uddfe",
-    "_no_take": false,
-    "_rfmo": [],
-    "authorization_status": "unverifiable",
-    "authorization_authorities": [],
-    "registry_iuu_tag": false,
-    "evidence_schema": "seavigil-evidence-1.0",
-    "evidence_hash": "cdadce663fb4a8b935568cbbe9f2d122fbaeacdf7399dfd2b5e1a1d5dd091920"
-  },
-  {
-    "type": "ais_spoofing",
     "incident_id": "live_spoof_341698001.0",
     "mpa_name": "AIS spoofing",
     "severity": "medium",
@@ -56,24 +10,24 @@
     "flag": "KN",
     "ship_type": "Fishing",
     "gear": "AIS anomaly",
-    "time_start_utc": "2026-08-22T22:31:37Z",
-    "time_end_utc": "2026-08-23T22:19:28Z",
-    "duration_hours": 23.8,
+    "time_start_utc": "2026-08-23T01:58:10Z",
+    "time_end_utc": "2026-08-23T23:08:06Z",
+    "duration_hours": 21.2,
     "n_positions": 31,
     "n_fishing_positions": 0,
     "mean_fishing_proba": null,
     "max_fishing_proba": null,
-    "centroid_lat": -12.039498333333334,
-    "centroid_lon": -77.04485,
-    "anomaly_count": 5,
-    "max_implied_speed_kn": 3343.0,
-    "spread_nm": 100.0,
+    "centroid_lat": -12.042813333333331,
+    "centroid_lon": -77.04733166666666,
+    "anomaly_count": 4,
+    "max_implied_speed_kn": 2483.0,
+    "spread_nm": 36.0,
     "explanation": {
       "method": "AIS position-anomaly analysis (impossible-speed jumps and same-instant conflicts)",
       "drivers": [
-        "5 physically impossible movements for one MMSI",
-        "fastest implied speed 3,343 kn (a vessel cannot move this fast)",
-        "positions span 100 nm"
+        "4 physically impossible movements for one MMSI",
+        "fastest implied speed 2,483 kn (a vessel cannot move this fast)",
+        "positions span 36 nm"
       ]
     },
     "caveats": [
@@ -89,7 +43,7 @@
     "authorization_authorities": [],
     "registry_iuu_tag": false,
     "evidence_schema": "seavigil-evidence-1.0",
-    "evidence_hash": "1d896f06c5ef41cca8a4c4f8f520936c316a6b362d1cf2b503d73b4dda9eac35"
+    "evidence_hash": "b6579c0cf982399e30992653c5708ab04ebbbdccab167e5b37fb88024efce5f7"
   },
   {
     "type": "ais_spoofing",
@@ -102,14 +56,14 @@
     "flag": "LR",
     "ship_type": "Fishing",
     "gear": "AIS anomaly",
-    "time_start_utc": "2026-08-22T22:38:14Z",
+    "time_start_utc": "2026-08-23T01:57:06Z",
     "time_end_utc": "2026-08-23T21:17:53Z",
-    "duration_hours": 22.7,
-    "n_positions": 21,
+    "duration_hours": 19.3,
+    "n_positions": 19,
     "n_fishing_positions": 0,
     "mean_fishing_proba": null,
     "max_fishing_proba": null,
-    "centroid_lat": -12.043818333333332,
+    "centroid_lat": -12.043631666666666,
     "centroid_lon": -77.051305,
     "anomaly_count": 6,
     "max_implied_speed_kn": 3453.0,
@@ -135,7 +89,7 @@
     "authorization_authorities": [],
     "registry_iuu_tag": false,
     "evidence_schema": "seavigil-evidence-1.0",
-    "evidence_hash": "942a6b513ee080829e5b3c83d25de2a75a439617c15d0c34064dbcb2747afdac"
+    "evidence_hash": "ae3dd00a3693c8c5947902c7eb35671aeef0a87414ecae0b2505ae6040b743ca"
   },
   {
     "incident_id": "live_ais__172ed87cf44c34",
