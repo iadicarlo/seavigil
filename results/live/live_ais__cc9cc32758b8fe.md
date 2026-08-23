@@ -1,9 +1,9 @@
 # Incident `live_ais__cc9cc32758b8fe`
 
 - **MPA:** AIS disabling (going dark)
-- **Severity:** HIGH (foreign vessel, no authorization on record)
+- **Severity:** HIGH (foreign vessel, authorization lapsed)
 - **EEZ:** Marshallese Exclusive Economic Zone (Marshall Islands) -- FOREIGN-flagged vessel
-- **Authorization:** No public authorization record (check coastal state)  ·  IMO 8996281
+- **Authorization:** Authorization lapsed before this date: FFA, WCPFC  ·  IMO 8996281
 - **Vessel:** 🇳🇷 OCEAN ENCOUNTER  ·  **signal:** AIS gap
 - **When (UTC):** 2026-08-11T18:55:11.000Z → 2026-08-17T20:46:51.000Z
 - **Gap:** 145.9 h dark, 262.0 nm offshore

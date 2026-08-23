@@ -1,9 +1,9 @@
 # Incident `live_ais__0cc09504d4c86d`
 
 - **MPA:** AIS disabling (going dark)
-- **Severity:** HIGH (foreign vessel, authorization lapsed)
+- **Severity:** HIGH (foreign vessel, no authorization on record)
 - **EEZ:** Papua New Guinean Exclusive Economic Zone (Papua New Guinea) -- FOREIGN-flagged vessel
-- **Authorization:** Authorization lapsed before this date: FFA, IATTC, WCPFC  ·  IMO 9634749
+- **Authorization:** No public authorization record (check coastal state)
 - **Vessel:** 🇯🇵 MIYAMARU NO.18  ·  **signal:** AIS gap
 - **When (UTC):** 2026-08-15T18:43:06.000Z → 2026-08-18T06:22:54.000Z
 - **Gap:** 59.7 h dark, 102.0 nm offshore

@@ -2472,17 +2472,13 @@
     "eez_sovereign": "Papua New Guinea",
     "eez_iso_sov": "PNG",
     "eez_foreign": true,
-    "authorization_status": "authorization_lapsed",
-    "authorization_authorities": [
-      "FFA",
-      "IATTC",
-      "WCPFC"
-    ],
+    "authorization_status": "no_record",
+    "authorization_authorities": [],
     "registry_iuu_tag": false,
-    "registry_flag": "JPN",
-    "registry_imo": "9634749",
+    "registry_flag": "",
+    "registry_imo": "",
     "severity": "high",
-    "severity_reason": "foreign vessel, authorization lapsed",
+    "severity_reason": "foreign vessel, no authorization on record",
     "evidence_schema": "seavigil-evidence-1.0",
     "evidence_hash": "1251da4b07f1787f9576f1f30642208f7f992688339fdd5b861d257ba5debf27"
   },
@@ -3035,13 +3031,16 @@
     "eez_sovereign": "Marshall Islands",
     "eez_iso_sov": "MHL",
     "eez_foreign": true,
-    "authorization_status": "no_record",
-    "authorization_authorities": [],
+    "authorization_status": "authorization_lapsed",
+    "authorization_authorities": [
+      "FFA",
+      "WCPFC"
+    ],
     "registry_iuu_tag": false,
     "registry_flag": "NRU",
     "registry_imo": "8996281",
     "severity": "high",
-    "severity_reason": "foreign vessel, no authorization on record",
+    "severity_reason": "foreign vessel, authorization lapsed",
     "evidence_schema": "seavigil-evidence-1.0",
     "evidence_hash": "1d995cc2f77a347f3485ce6d120069fd2ecd757f0a13548bcf237a2cddbdaecd"
   },
