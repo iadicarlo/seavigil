@@ -10,15 +10,15 @@
     "flag": "KY",
     "ship_type": "Fishing",
     "gear": "AIS anomaly",
-    "time_start_utc": "2026-08-22T20:44:20Z",
+    "time_start_utc": "2026-08-22T22:32:57Z",
     "time_end_utc": "2026-08-23T01:58:17Z",
-    "duration_hours": 5.2,
-    "n_positions": 16,
+    "duration_hours": 3.4,
+    "n_positions": 15,
     "n_fishing_positions": 0,
     "mean_fishing_proba": null,
     "max_fishing_proba": null,
-    "centroid_lat": -12.034858333333334,
-    "centroid_lon": -77.04884083333334,
+    "centroid_lat": -12.035051666666668,
+    "centroid_lon": -77.05033333333334,
     "anomaly_count": 5,
     "max_implied_speed_kn": 545.0,
     "spread_nm": 13.0,
@@ -43,7 +43,7 @@
     "authorization_authorities": [],
     "registry_iuu_tag": false,
     "evidence_schema": "seavigil-evidence-1.0",
-    "evidence_hash": "241b936637ea1ffb5b8024b49c442e98f7603e3c720aef83a83d66115dd0c21b"
+    "evidence_hash": "cdadce663fb4a8b935568cbbe9f2d122fbaeacdf7399dfd2b5e1a1d5dd091920"
   },
   {
     "type": "ais_spoofing",
@@ -56,24 +56,24 @@
     "flag": "KN",
     "ship_type": "Fishing",
     "gear": "AIS anomaly",
-    "time_start_utc": "2026-08-22T20:46:25Z",
-    "time_end_utc": "2026-08-23T02:17:19Z",
-    "duration_hours": 5.5,
-    "n_positions": 26,
+    "time_start_utc": "2026-08-22T22:31:37Z",
+    "time_end_utc": "2026-08-23T21:19:33Z",
+    "duration_hours": 22.8,
+    "n_positions": 27,
     "n_fishing_positions": 0,
     "mean_fishing_proba": null,
     "max_fishing_proba": null,
-    "centroid_lat": -12.038055833333333,
-    "centroid_lon": -77.04484583333333,
-    "anomaly_count": 4,
+    "centroid_lat": -12.039316666666668,
+    "centroid_lon": -77.04484166666666,
+    "anomaly_count": 5,
     "max_implied_speed_kn": 3343.0,
-    "spread_nm": 95.0,
+    "spread_nm": 100.0,
     "explanation": {
       "method": "AIS position-anomaly analysis (impossible-speed jumps and same-instant conflicts)",
       "drivers": [
-        "4 physically impossible movements for one MMSI",
+        "5 physically impossible movements for one MMSI",
         "fastest implied speed 3,343 kn (a vessel cannot move this fast)",
-        "positions span 95 nm"
+        "positions span 100 nm"
       ]
     },
     "caveats": [
@@ -89,7 +89,7 @@
     "authorization_authorities": [],
     "registry_iuu_tag": false,
     "evidence_schema": "seavigil-evidence-1.0",
-    "evidence_hash": "81de455f2d889469c2f586f6fcefbeb50b45dd105c9cdd54f79d09c794950ca7"
+    "evidence_hash": "370037fb97c9c845d5c4585f4caa3731c9e44331f2f07ac7e67699d798bec7f0"
   },
   {
     "type": "ais_spoofing",
@@ -103,14 +103,14 @@
     "ship_type": "Fishing",
     "gear": "AIS anomaly",
     "time_start_utc": "2026-08-22T22:38:14Z",
-    "time_end_utc": "2026-08-23T03:47:43Z",
-    "duration_hours": 5.2,
-    "n_positions": 20,
+    "time_end_utc": "2026-08-23T21:17:53Z",
+    "duration_hours": 22.7,
+    "n_positions": 21,
     "n_fishing_positions": 0,
     "mean_fishing_proba": null,
     "max_fishing_proba": null,
-    "centroid_lat": -12.044706666666666,
-    "centroid_lon": -77.05055333333333,
+    "centroid_lat": -12.043818333333332,
+    "centroid_lon": -77.051305,
     "anomaly_count": 6,
     "max_implied_speed_kn": 3453.0,
     "spread_nm": 86.0,
@@ -135,7 +135,7 @@
     "authorization_authorities": [],
     "registry_iuu_tag": false,
     "evidence_schema": "seavigil-evidence-1.0",
-    "evidence_hash": "4c1bda16ff8fef32fe041859c803d4e6eb24ee960cc0f5168a71a72a18148bd1"
+    "evidence_hash": "942a6b513ee080829e5b3c83d25de2a75a439617c15d0c34064dbcb2747afdac"
   },
   {
     "incident_id": "live_ais__172ed87cf44c34",
@@ -468,6 +468,60 @@
     "severity_reason": "foreign vessel, no authorization on record",
     "evidence_schema": "seavigil-evidence-1.0",
     "evidence_hash": "0405347d5f05f052fb17d15568b2a119dffec4501a65792d0525ceb5d6d0f6ac"
+  },
+  {
+    "incident_id": "live_enco_52ef5459eda48e",
+    "type": "encounter",
+    "centroid_lon": 122.8906,
+    "centroid_lat": 28.4291,
+    "time_start_utc": "2026-08-19T12:30:00.000Z",
+    "time_end_utc": "2026-08-19T23:50:00.000Z",
+    "vessel_id": "201900000",
+    "ship_name": "ZHELINGYU23 69",
+    "ship_type": "Fishing",
+    "flag": "ALB",
+    "flag_emoji": "\ud83c\udde6\ud83c\uddf1",
+    "gear": "Encounter",
+    "n_positions": 0,
+    "n_fishing_positions": 0,
+    "mean_fishing_proba": null,
+    "max_fishing_proba": null,
+    "_rfmo": [
+      "WCPFC",
+      "ACAP",
+      "IWC",
+      "APFIC"
+    ],
+    "_no_take": false,
+    "mpa_name": "At-sea encounter (transshipment)",
+    "duration_hours": 11.3,
+    "carrier_mmsi": "412416609",
+    "explanation": {
+      "method": "GFW Events encounters dataset (Miller et al. 2018).",
+      "drivers": [
+        "two vessels within range for 11 h",
+        "counterpart: ZHELINGYU23869",
+        "two-vessel at-sea encounter (GFW Events)"
+      ]
+    },
+    "caveats": [
+      "Co-location can be legitimate (joint operations, safety, shelter).",
+      "Apparent transshipment is inferred from proximity and low speed, not observed.",
+      "An inspection lead from GFW Events, not proof of illegal activity."
+    ],
+    "eez_name": "Chinese Exclusive Economic Zone",
+    "eez_sovereign": "China",
+    "eez_iso_sov": "CHN",
+    "eez_foreign": true,
+    "authorization_status": "no_record",
+    "authorization_authorities": [],
+    "registry_iuu_tag": false,
+    "registry_flag": "",
+    "registry_imo": "",
+    "severity": "high",
+    "severity_reason": "foreign vessel, no authorization on record",
+    "evidence_schema": "seavigil-evidence-1.0",
+    "evidence_hash": "6cba669dd8fcc612b581112acdfabdfec6e5d08f9e9036ae5602406336c7bba0"
   },
   {
     "incident_id": "live_enco_92e69531b78280",
