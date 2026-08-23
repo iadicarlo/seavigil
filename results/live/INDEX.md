@@ -4,7 +4,7 @@
 
 | id | type | MPA | start (UTC) | score / mean p |
 |---|---|---|---|---:|
-| [live_spoof_312561000.0](live_spoof_312561000.0.md) | AIS fishing | AIS spoofing | 2026-08-22T16:45:16Z | - |
+| [live_spoof_312561000.0](live_spoof_312561000.0.md) | AIS fishing | AIS spoofing | 2026-08-22T18:54:00Z | - |
 | [live_spoof_319151100.0](live_spoof_319151100.0.md) | AIS fishing | AIS spoofing | 2026-08-22T19:22:38Z | - |
 | [live_spoof_341698001.0](live_spoof_341698001.0.md) | AIS fishing | AIS spoofing | 2026-08-22T20:46:25Z | - |
 | [live_spoof_636014337.0](live_spoof_636014337.0.md) | AIS fishing | AIS spoofing | 2026-08-22T22:38:14Z | - |
