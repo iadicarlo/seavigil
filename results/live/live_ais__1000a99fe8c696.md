@@ -1,19 +1,19 @@
-# Incident `live_ais__bdaea1867d4e54`
+# Incident `live_ais__1000a99fe8c696`
 
 - **MPA:** AIS disabling (going dark)
-- **Severity:** MEDIUM (foreign vessel, authorization unverified)
-- **EEZ:** Kiribati Exclusive Economic Zone (Phoenix Group) (Kiribati) -- FOREIGN-flagged vessel
-- **Authorization:** No vessel identity; authorization not checkable
-- **Vessel:** 🇳🇮 SYY35-0002-01%  ·  **signal:** AIS gap
-- **When (UTC):** 2026-08-17T14:37:46.000Z → 2026-08-18T05:43:46.000Z
-- **Gap:** 15.1 h dark, 71.0 nm offshore
-- **Where:** -4.882, -169.104
+- **Severity:** HIGH (foreign vessel, no authorization on record)
+- **EEZ:** Palauan Exclusive Economic Zone (Palau) -- FOREIGN-flagged vessel
+- **Authorization:** No public authorization record (check coastal state)
+- **Vessel:** 🇭🇰 HC PROGRESS  ·  **signal:** AIS gap
+- **When (UTC):** 2026-08-13T13:27:23.000Z → 2026-08-19T03:41:19.000Z
+- **Gap:** 134.2 h dark, 53.0 nm offshore
+- **Where:** 5.791, 136.112
 
 ## Why this was flagged
 
 _GFW Events gaps dataset (satellite AIS).._
 
-- went dark 71 nm offshore for 15 h
+- went dark 53 nm offshore for 134 h
 - satellite-confirmed AIS gap (GFW Events)
 
 ## Could be innocent
@@ -31,7 +31,7 @@ Going dark is frequently benign: in open water, where gaps are commonly protecti
 - NOAA Marine Cadastre AIS (marinecadastre.gov/ais (vessel positions)). US public domain.
 - WDPA / WD-OECM (World Database on Protected Areas) (UNEP-WCMC and IUCN (2026), June 2026). Protected Planet Terms of Use (non-commercial, display-only).
 - Marine Regions Exclusive Economic Zones v12 (Flanders Marine Institute (2024), DOI 10.14284/632). CC BY 4.0.
-- **Integrity (SHA-256 of canonical facts):** `9480425aef1ef95a99362c280f07ad95bddf1fab4e3fa68c6552dd90230addd6`
+- **Integrity (SHA-256 of canonical facts):** `49a3cb759e82d9016c29276d298576fcb26a346442368f44fe378d2591e46200`
 - **Evidence schema:** seavigil-evidence-1.0
 
 _Apparent activity and an inspection lead, not proof of illegality. AIS and SAR evidence have known coverage gaps and spoofing risks; verify against authoritative sources before any enforcement action._

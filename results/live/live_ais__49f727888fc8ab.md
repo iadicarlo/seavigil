@@ -1,19 +1,19 @@
-# Incident `live_ais__41df5908815647`
+# Incident `live_ais__49f727888fc8ab`
 
 - **MPA:** AIS disabling (going dark)
 - **Severity:** HIGH (foreign vessel, no authorization on record)
-- **EEZ:** Brazilian Exclusive Economic Zone (Brazil) -- FOREIGN-flagged vessel
-- **Authorization:** No public authorization record (check coastal state)
-- **Vessel:** 🇸🇬 EAGLE PASSOS  ·  **signal:** AIS gap
-- **When (UTC):** 2026-08-17T21:40:25.000Z → 2026-08-18T17:40:36.000Z
-- **Gap:** 20.0 h dark, 147.0 nm offshore
-- **Where:** -25.496, -42.784
+- **EEZ:** Mexican Exclusive Economic Zone (Mexico) -- FOREIGN-flagged vessel
+- **Authorization:** No public authorization record (check coastal state)  ·  IMO 9792199
+- **Vessel:** 🇬🇷 NEAPOLIS  ·  **signal:** AIS gap
+- **When (UTC):** 2026-08-19T06:05:05.000Z → 2026-08-19T19:11:49.000Z
+- **Gap:** 13.1 h dark, 107.0 nm offshore
+- **Where:** 20.191, -108.837
 
 ## Why this was flagged
 
 _GFW Events gaps dataset (satellite AIS).._
 
-- went dark 147 nm offshore for 20 h
+- went dark 107 nm offshore for 13 h
 - satellite-confirmed AIS gap (GFW Events)
 
 ## Could be innocent
@@ -31,7 +31,7 @@ Going dark is frequently benign: in open water, where gaps are commonly protecti
 - NOAA Marine Cadastre AIS (marinecadastre.gov/ais (vessel positions)). US public domain.
 - WDPA / WD-OECM (World Database on Protected Areas) (UNEP-WCMC and IUCN (2026), June 2026). Protected Planet Terms of Use (non-commercial, display-only).
 - Marine Regions Exclusive Economic Zones v12 (Flanders Marine Institute (2024), DOI 10.14284/632). CC BY 4.0.
-- **Integrity (SHA-256 of canonical facts):** `e6e481323e65a290196cb2f7bbe37c3217cc0d8fda56b5ea6112273aa50cfaa3`
+- **Integrity (SHA-256 of canonical facts):** `90782b29230fcee5afc62da294fa3557d8bc4a232b4bc09405d3b3c47204ee29`
 - **Evidence schema:** seavigil-evidence-1.0
 
 _Apparent activity and an inspection lead, not proof of illegality. AIS and SAR evidence have known coverage gaps and spoofing risks; verify against authoritative sources before any enforcement action._
