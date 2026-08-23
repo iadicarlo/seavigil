@@ -1,6 +1,32 @@
 {
-"generated_at": "2026-08-23T04:52:59Z",
+"generated_at": "2026-08-23T05:46:26Z",
 "alerts": [
+{
+"id": "live_enco_b4c309573bd5bb",
+"first_seen": "2026-08-23T05:46:26Z",
+"type": "encounter",
+"when": "2026-08-19T08:20:00.000Z",
+"eez": "Chinese Exclusive Economic Zone",
+"flag": "TWN",
+"authorization": "no_record",
+"severity_reason": "foreign vessel, no authorization on record",
+"lat": 27.016,
+"lon": 121.8806,
+"ship_name": "11"
+},
+{
+"id": "live_enco_a0ba93fdf7a686",
+"first_seen": "2026-08-23T05:46:26Z",
+"type": "encounter",
+"when": "2026-08-19T04:50:00.000Z",
+"eez": "Overlapping claim Taiwan: Taiwan / China",
+"flag": "CHN",
+"authorization": "no_record",
+"severity_reason": "foreign vessel, no authorization on record",
+"lat": 25.7519,
+"lon": 121.0916,
+"ship_name": "MIN HUI YU 00262"
+},
 {
 "id": "live_enco_553ed68f553291",
 "first_seen": "2026-08-23T04:52:59Z",
@@ -2574,32 +2600,6 @@
 "lat": 53.051,
 "lon": 174.6122,
 "ship_name": "KM JAKARTA"
-},
-{
-"id": "live_ais__22d31b7d2ad91a",
-"first_seen": "2026-08-18T11:42:41Z",
-"type": "ais_disabling",
-"when": "2026-08-05T15:25:42.000Z",
-"eez": "Venezuelan Exclusive Economic Zone",
-"flag": "PAN",
-"authorization": "no_record",
-"severity_reason": "foreign vessel, no authorization on record",
-"lat": 15.0169,
-"lon": -64.9655,
-"ship_name": "NADESHIKO GAS"
-},
-{
-"id": "live_enco_6c66664f875f0d",
-"first_seen": "2026-08-18T04:53:38Z",
-"type": "encounter",
-"when": "2026-08-14T14:50:00.000Z",
-"eez": "Tunisian Exclusive Economic Zone",
-"flag": "MLT",
-"authorization": "no_record",
-"severity_reason": "foreign vessel, no authorization on record",
-"lat": 36.0114,
-"lon": 10.5633,
-"ship_name": "TA MATTEW"
 }
 ]
 }
