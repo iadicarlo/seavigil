@@ -614,8 +614,8 @@
     "centroid_lat": 19.4766,
     "time_start_utc": "2026-08-20T00:20:00.000Z",
     "time_end_utc": "2026-08-20T22:20:00.000Z",
-    "vessel_id": "412549124",
-    "ship_name": "HAILI888",
+    "vessel_id": "412421064",
+    "ship_name": "HAILI618",
     "ship_type": "Fishing",
     "flag": "CHN",
     "flag_emoji": "\ud83c\udde8\ud83c\uddf3",
@@ -628,12 +628,12 @@
     "_no_take": false,
     "mpa_name": "At-sea encounter (transshipment)",
     "duration_hours": 22.0,
-    "carrier_mmsi": "412421064",
+    "carrier_mmsi": "412549124",
     "explanation": {
       "method": "GFW Events encounters dataset (Miller et al. 2018).",
       "drivers": [
         "two vessels within range for 22 h",
-        "counterpart: HAILI618",
+        "counterpart: HAILI888",
         "two-vessel at-sea encounter (GFW Events)"
       ]
     },
@@ -646,15 +646,17 @@
     "eez_sovereign": "Oman",
     "eez_iso_sov": "OMN",
     "eez_foreign": true,
-    "authorization_status": "no_record",
-    "authorization_authorities": [],
+    "authorization_status": "authorization_lapsed",
+    "authorization_authorities": [
+      "NPFC"
+    ],
     "registry_iuu_tag": false,
-    "registry_flag": "",
-    "registry_imo": "",
+    "registry_flag": "CHN",
+    "registry_imo": "8785826",
     "severity": "high",
-    "severity_reason": "foreign vessel, no authorization on record",
+    "severity_reason": "foreign vessel, authorization lapsed",
     "evidence_schema": "seavigil-evidence-1.0",
-    "evidence_hash": "8e982c0d3433bddaca53c1ab3176e9d7f82ae4b55f0c0890ed5e8e6e5413400c"
+    "evidence_hash": "1f7bd1effa8dde01a71cd05843217172a57ad39207e7b74c9f9974ba693c2da5"
   },
   {
     "incident_id": "live_ais__0cf217140d0ffa",
@@ -711,65 +713,6 @@
     "severity_reason": "foreign vessel, no authorization on record",
     "evidence_schema": "seavigil-evidence-1.0",
     "evidence_hash": "738b20112b51d0628aeae84986816f1d357b99bd2f9531532dfd0a42f4d9671a"
-  },
-  {
-    "incident_id": "live_enco_ac5b3428d48cf1",
-    "type": "encounter",
-    "centroid_lon": 22.7869,
-    "centroid_lat": 72.2799,
-    "time_start_utc": "2026-08-20T10:30:00.000Z",
-    "time_end_utc": "2026-08-20T21:50:00.000Z",
-    "vessel_id": "273522400",
-    "ship_name": "ZAKHAR SOROKIN",
-    "ship_type": "Fishing",
-    "flag": "RUS",
-    "flag_emoji": "\ud83c\uddf7\ud83c\uddfa",
-    "gear": "Encounter",
-    "n_positions": 0,
-    "n_fishing_positions": 0,
-    "mean_fishing_proba": null,
-    "max_fishing_proba": null,
-    "_rfmo": [
-      "NEAFC",
-      "ACAP",
-      "NASCO",
-      "NAMMCO",
-      "ICES",
-      "IWC"
-    ],
-    "_no_take": false,
-    "mpa_name": "At-sea encounter (transshipment)",
-    "duration_hours": 11.3,
-    "carrier_mmsi": "273218630",
-    "explanation": {
-      "method": "GFW Events encounters dataset (Miller et al. 2018).",
-      "drivers": [
-        "two vessels within range for 11 h",
-        "counterpart: GOGLAND REEFER",
-        "two-vessel at-sea encounter (GFW Events)"
-      ]
-    },
-    "caveats": [
-      "Co-location can be legitimate (joint operations, safety, shelter).",
-      "Apparent transshipment is inferred from proximity and low speed, not observed.",
-      "An inspection lead from GFW Events, not proof of illegal activity."
-    ],
-    "eez_name": "Norwegian Exclusive Economic Zone",
-    "eez_sovereign": "Norway",
-    "eez_iso_sov": "NOR",
-    "eez_foreign": true,
-    "authorization_status": "authorization_lapsed",
-    "authorization_authorities": [
-      "ICCAT",
-      "NEAFC"
-    ],
-    "registry_iuu_tag": false,
-    "registry_flag": "RUS",
-    "registry_imo": "8607256",
-    "severity": "high",
-    "severity_reason": "foreign vessel, authorization lapsed",
-    "evidence_schema": "seavigil-evidence-1.0",
-    "evidence_hash": "275bf9f75924fcae66d34613cf9db8d0310b6ee859846439c647401238fd1272"
   },
   {
     "incident_id": "live_enco_dd7c9f3d1c39ca",
@@ -878,6 +821,120 @@
     "severity_reason": "foreign vessel, no authorization on record",
     "evidence_schema": "seavigil-evidence-1.0",
     "evidence_hash": "8582e1417d9e158b0dd7f4bbe4b69ce3b77872d61eca99031c16a7f3a992821e"
+  },
+  {
+    "incident_id": "live_enco_4dee9779f3cf81",
+    "type": "encounter",
+    "centroid_lon": 108.9271,
+    "centroid_lat": 10.3186,
+    "time_start_utc": "2026-08-20T10:20:00.000Z",
+    "time_end_utc": "2026-08-20T21:50:00.000Z",
+    "vessel_id": "563560277",
+    "ship_name": "81NGOCTHANHE36",
+    "ship_type": "Fishing",
+    "flag": "SGP",
+    "flag_emoji": "\ud83c\uddf8\ud83c\uddec",
+    "gear": "Encounter",
+    "n_positions": 0,
+    "n_fishing_positions": 0,
+    "mean_fishing_proba": null,
+    "max_fishing_proba": null,
+    "_rfmo": [
+      "APFIC",
+      "ACAP",
+      "IWC",
+      "WCPFC",
+      "SEAFDEC"
+    ],
+    "_no_take": false,
+    "mpa_name": "At-sea encounter (transshipment)",
+    "duration_hours": 11.5,
+    "carrier_mmsi": "574562655",
+    "explanation": {
+      "method": "GFW Events encounters dataset (Miller et al. 2018).",
+      "drivers": [
+        "two vessels within range for 12 h",
+        "counterpart: NGOC THANH 82 E36",
+        "two-vessel at-sea encounter (GFW Events)"
+      ]
+    },
+    "caveats": [
+      "Co-location can be legitimate (joint operations, safety, shelter).",
+      "Apparent transshipment is inferred from proximity and low speed, not observed.",
+      "An inspection lead from GFW Events, not proof of illegal activity."
+    ],
+    "eez_name": "Vietnamese Exclusive Economic Zone",
+    "eez_sovereign": "Vietnam",
+    "eez_iso_sov": "VNM",
+    "eez_foreign": true,
+    "authorization_status": "no_record",
+    "authorization_authorities": [],
+    "registry_iuu_tag": false,
+    "registry_flag": "",
+    "registry_imo": "",
+    "severity": "high",
+    "severity_reason": "foreign vessel, no authorization on record",
+    "evidence_schema": "seavigil-evidence-1.0",
+    "evidence_hash": "e89d42ab0da0e12e29e96b422cad5d7363f82923e5eb73eee2c08530305ee643"
+  },
+  {
+    "incident_id": "live_enco_ac5b3428d48cf1",
+    "type": "encounter",
+    "centroid_lon": 22.7869,
+    "centroid_lat": 72.2799,
+    "time_start_utc": "2026-08-20T10:30:00.000Z",
+    "time_end_utc": "2026-08-20T21:50:00.000Z",
+    "vessel_id": "273522400",
+    "ship_name": "ZAKHAR SOROKIN",
+    "ship_type": "Fishing",
+    "flag": "RUS",
+    "flag_emoji": "\ud83c\uddf7\ud83c\uddfa",
+    "gear": "Encounter",
+    "n_positions": 0,
+    "n_fishing_positions": 0,
+    "mean_fishing_proba": null,
+    "max_fishing_proba": null,
+    "_rfmo": [
+      "NEAFC",
+      "ACAP",
+      "NASCO",
+      "NAMMCO",
+      "ICES",
+      "IWC"
+    ],
+    "_no_take": false,
+    "mpa_name": "At-sea encounter (transshipment)",
+    "duration_hours": 11.3,
+    "carrier_mmsi": "273218630",
+    "explanation": {
+      "method": "GFW Events encounters dataset (Miller et al. 2018).",
+      "drivers": [
+        "two vessels within range for 11 h",
+        "counterpart: GOGLAND REEFER",
+        "two-vessel at-sea encounter (GFW Events)"
+      ]
+    },
+    "caveats": [
+      "Co-location can be legitimate (joint operations, safety, shelter).",
+      "Apparent transshipment is inferred from proximity and low speed, not observed.",
+      "An inspection lead from GFW Events, not proof of illegal activity."
+    ],
+    "eez_name": "Norwegian Exclusive Economic Zone",
+    "eez_sovereign": "Norway",
+    "eez_iso_sov": "NOR",
+    "eez_foreign": true,
+    "authorization_status": "authorization_lapsed",
+    "authorization_authorities": [
+      "ICCAT",
+      "NEAFC"
+    ],
+    "registry_iuu_tag": false,
+    "registry_flag": "RUS",
+    "registry_imo": "8607256",
+    "severity": "high",
+    "severity_reason": "foreign vessel, authorization lapsed",
+    "evidence_schema": "seavigil-evidence-1.0",
+    "evidence_hash": "275bf9f75924fcae66d34613cf9db8d0310b6ee859846439c647401238fd1272"
   },
   {
     "incident_id": "live_ais__ecfb5efd16f2c7",
@@ -1049,64 +1106,6 @@
     "evidence_hash": "d5647ec0cf9a0a168e6a993c673e81331c764ad61cc4c528701fb8c293e3ff09"
   },
   {
-    "incident_id": "live_enco_4c9b39d5d2e03d",
-    "type": "encounter",
-    "centroid_lon": 22.7197,
-    "centroid_lat": 72.2717,
-    "time_start_utc": "2026-08-20T10:30:00.000Z",
-    "time_end_utc": "2026-08-20T20:10:00.000Z",
-    "vessel_id": "273529800",
-    "ship_name": "BORIS SYROMYATNIKOV",
-    "ship_type": "Fishing",
-    "flag": "RUS",
-    "flag_emoji": "\ud83c\uddf7\ud83c\uddfa",
-    "gear": "Encounter",
-    "n_positions": 0,
-    "n_fishing_positions": 0,
-    "mean_fishing_proba": null,
-    "max_fishing_proba": null,
-    "_rfmo": [
-      "NASCO",
-      "ICES",
-      "NEAFC",
-      "ACAP",
-      "IWC",
-      "NAMMCO"
-    ],
-    "_no_take": false,
-    "mpa_name": "At-sea encounter (transshipment)",
-    "duration_hours": 9.7,
-    "carrier_mmsi": "273218630",
-    "explanation": {
-      "method": "GFW Events encounters dataset (Miller et al. 2018).",
-      "drivers": [
-        "two vessels within range for 10 h",
-        "counterpart: GOGLAND REEFER",
-        "two-vessel at-sea encounter (GFW Events)"
-      ]
-    },
-    "caveats": [
-      "Co-location can be legitimate (joint operations, safety, shelter).",
-      "Apparent transshipment is inferred from proximity and low speed, not observed.",
-      "An inspection lead from GFW Events, not proof of illegal activity."
-    ],
-    "eez_name": "Norwegian Exclusive Economic Zone",
-    "eez_sovereign": "Norway",
-    "eez_iso_sov": "NOR",
-    "eez_foreign": true,
-    "authorization_status": "authorization_lapsed",
-    "authorization_authorities": [
-      "NEAFC"
-    ],
-    "registry_iuu_tag": false,
-    "registry_flag": "RUS",
-    "registry_imo": "8607414",
-    "severity": "high",
-    "severity_reason": "foreign vessel, authorization lapsed",
-    "evidence_schema": "seavigil-evidence-1.0",
-    "evidence_hash": "c8946bd174f2244e72257d88480afa55db42e3209dd8cb6fd01536bb6cd606fb"
-  },
-  {
     "incident_id": "live_enco_767ee9039124f3",
     "type": "encounter",
     "centroid_lon": 22.7267,
@@ -1219,6 +1218,64 @@
     "evidence_hash": "e7fe4fa9670c87db1b894e8bbeac5f9a54e4a680a6a81a3ff3d5bb3e4754d78f"
   },
   {
+    "incident_id": "live_enco_4c9b39d5d2e03d",
+    "type": "encounter",
+    "centroid_lon": 22.7197,
+    "centroid_lat": 72.2717,
+    "time_start_utc": "2026-08-20T10:30:00.000Z",
+    "time_end_utc": "2026-08-20T20:10:00.000Z",
+    "vessel_id": "273529800",
+    "ship_name": "BORIS SYROMYATNIKOV",
+    "ship_type": "Fishing",
+    "flag": "RUS",
+    "flag_emoji": "\ud83c\uddf7\ud83c\uddfa",
+    "gear": "Encounter",
+    "n_positions": 0,
+    "n_fishing_positions": 0,
+    "mean_fishing_proba": null,
+    "max_fishing_proba": null,
+    "_rfmo": [
+      "NASCO",
+      "ICES",
+      "NEAFC",
+      "ACAP",
+      "IWC",
+      "NAMMCO"
+    ],
+    "_no_take": false,
+    "mpa_name": "At-sea encounter (transshipment)",
+    "duration_hours": 9.7,
+    "carrier_mmsi": "273218630",
+    "explanation": {
+      "method": "GFW Events encounters dataset (Miller et al. 2018).",
+      "drivers": [
+        "two vessels within range for 10 h",
+        "counterpart: GOGLAND REEFER",
+        "two-vessel at-sea encounter (GFW Events)"
+      ]
+    },
+    "caveats": [
+      "Co-location can be legitimate (joint operations, safety, shelter).",
+      "Apparent transshipment is inferred from proximity and low speed, not observed.",
+      "An inspection lead from GFW Events, not proof of illegal activity."
+    ],
+    "eez_name": "Norwegian Exclusive Economic Zone",
+    "eez_sovereign": "Norway",
+    "eez_iso_sov": "NOR",
+    "eez_foreign": true,
+    "authorization_status": "authorization_lapsed",
+    "authorization_authorities": [
+      "NEAFC"
+    ],
+    "registry_iuu_tag": false,
+    "registry_flag": "RUS",
+    "registry_imo": "8607414",
+    "severity": "high",
+    "severity_reason": "foreign vessel, authorization lapsed",
+    "evidence_schema": "seavigil-evidence-1.0",
+    "evidence_hash": "c8946bd174f2244e72257d88480afa55db42e3209dd8cb6fd01536bb6cd606fb"
+  },
+  {
     "incident_id": "live_ais__42477af260e355",
     "type": "ais_disabling",
     "centroid_lon": -155.5518,
@@ -1273,61 +1330,6 @@
     "severity_reason": "foreign vessel, no authorization on record",
     "evidence_schema": "seavigil-evidence-1.0",
     "evidence_hash": "fb65e48fb66e0c0a070a6fdd911cb036acb41607ee1b6c7862eaf51874b13330"
-  },
-  {
-    "incident_id": "live_enco_cf968ef274a6f2",
-    "type": "encounter",
-    "centroid_lon": 113.043,
-    "centroid_lat": 6.7948,
-    "time_start_utc": "2026-08-20T15:40:00.000Z",
-    "time_end_utc": "2026-08-20T19:00:00.000Z",
-    "vessel_id": "412535958",
-    "ship_name": "SHENNAN1868",
-    "ship_type": "Fishing",
-    "flag": "CHN",
-    "flag_emoji": "\ud83c\udde8\ud83c\uddf3",
-    "gear": "Encounter",
-    "n_positions": 0,
-    "n_fishing_positions": 0,
-    "mean_fishing_proba": null,
-    "max_fishing_proba": null,
-    "_rfmo": [
-      "IWC",
-      "WCPFC",
-      "APFIC",
-      "SEAFDEC",
-      "ACAP"
-    ],
-    "_no_take": false,
-    "mpa_name": "At-sea encounter (transshipment)",
-    "duration_hours": 3.3,
-    "carrier_mmsi": "600938813",
-    "explanation": {
-      "method": "GFW Events encounters dataset (Miller et al. 2018).",
-      "drivers": [
-        "two vessels within range for 3 h",
-        "counterpart: 1",
-        "two-vessel at-sea encounter (GFW Events)"
-      ]
-    },
-    "caveats": [
-      "Co-location can be legitimate (joint operations, safety, shelter).",
-      "Apparent transshipment is inferred from proximity and low speed, not observed.",
-      "An inspection lead from GFW Events, not proof of illegal activity."
-    ],
-    "eez_name": "Bruneian Exclusive Economic Zone",
-    "eez_sovereign": "Brunei",
-    "eez_iso_sov": "BRN",
-    "eez_foreign": true,
-    "authorization_status": "no_record",
-    "authorization_authorities": [],
-    "registry_iuu_tag": false,
-    "registry_flag": "",
-    "registry_imo": "",
-    "severity": "high",
-    "severity_reason": "foreign vessel, no authorization on record",
-    "evidence_schema": "seavigil-evidence-1.0",
-    "evidence_hash": "8b1b8eaa82bdd3b626e0bb9e67bc69a389d4d506c620e57828d9e352b227bea9"
   },
   {
     "incident_id": "live_ais__b778d5eb1e3d86",

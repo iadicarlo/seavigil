@@ -1,6 +1,19 @@
 {
-"generated_at": "2026-08-24T17:47:47Z",
+"generated_at": "2026-08-24T19:00:59Z",
 "alerts": [
+{
+"id": "live_enco_4dee9779f3cf81",
+"first_seen": "2026-08-24T19:00:59Z",
+"type": "encounter",
+"when": "2026-08-20T10:20:00.000Z",
+"eez": "Vietnamese Exclusive Economic Zone",
+"flag": "SGP",
+"authorization": "no_record",
+"severity_reason": "foreign vessel, no authorization on record",
+"lat": 10.3186,
+"lon": 108.9271,
+"ship_name": "81NGOCTHANHE36"
+},
 {
 "id": "live_ais__9584915abbf23f",
 "first_seen": "2026-08-24T13:14:29Z",
@@ -2587,19 +2600,6 @@
 "lat": -38.3117,
 "lon": 150.9917,
 "ship_name": "SOUTH SEAS 07-99%"
-},
-{
-"id": "live_ais__d7b1f2713c1118",
-"first_seen": "2026-08-19T13:10:33Z",
-"type": "ais_disabling",
-"when": "2026-08-15T07:47:40.000Z",
-"eez": "Australian Exclusive Economic Zone",
-"flag": "ISL",
-"authorization": "no_record",
-"severity_reason": "foreign vessel, no authorization on record",
-"lat": -38.2955,
-"lon": 151.0182,
-"ship_name": "SOUTH SEAS 06-99%"
 }
 ]
 }
