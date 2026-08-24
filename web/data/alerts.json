@@ -1,6 +1,32 @@
 {
-"generated_at": "2026-08-24T19:46:04Z",
+"generated_at": "2026-08-24T20:49:27Z",
 "alerts": [
+{
+"id": "live_enco_dcd1f1a65879df",
+"first_seen": "2026-08-24T20:49:27Z",
+"type": "encounter",
+"when": "2026-08-20T13:30:00.000Z",
+"eez": "Overlapping claim Taiwan: Taiwan / China",
+"flag": "CHN",
+"authorization": "no_record",
+"severity_reason": "foreign vessel, no authorization on record",
+"lat": 25.5977,
+"lon": 120.9172,
+"ship_name": "MINSHIYU06266"
+},
+{
+"id": "live_enco_5f8989e0d9f5c4",
+"first_seen": "2026-08-24T20:49:27Z",
+"type": "encounter",
+"when": "2026-08-20T06:00:00.000Z",
+"eez": "Chinese Exclusive Economic Zone",
+"flag": "ALB",
+"authorization": "no_record",
+"severity_reason": "foreign vessel, no authorization on record",
+"lat": 32.3221,
+"lon": 123.4863,
+"ship_name": "ZHELINGYU00728"
+},
 {
 "id": "live_enco_4dee9779f3cf81",
 "first_seen": "2026-08-24T19:00:59Z",
@@ -2574,32 +2600,6 @@
 "lat": -9.4292,
 "lon": -164.6437,
 "ship_name": "RONGDAYANG8-5  100%"
-},
-{
-"id": "live_ais__eafb1f91f5d16f",
-"first_seen": "2026-08-19T13:10:33Z",
-"type": "ais_disabling",
-"when": "2026-08-15T09:05:18.000Z",
-"eez": "Australian Exclusive Economic Zone",
-"flag": "ISL",
-"authorization": "no_record",
-"severity_reason": "foreign vessel, no authorization on record",
-"lat": -38.3237,
-"lon": 150.9864,
-"ship_name": "SOUTH SEAS 08-99%"
-},
-{
-"id": "live_ais__1a37a03d69c69f",
-"first_seen": "2026-08-19T13:10:33Z",
-"type": "ais_disabling",
-"when": "2026-08-15T08:32:18.000Z",
-"eez": "Australian Exclusive Economic Zone",
-"flag": "ISL",
-"authorization": "no_record",
-"severity_reason": "foreign vessel, no authorization on record",
-"lat": -38.3117,
-"lon": 150.9917,
-"ship_name": "SOUTH SEAS 07-99%"
 }
 ]
 }
