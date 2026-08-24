@@ -3,7 +3,7 @@
 - **MPA:** AIS disabling (going dark)
 - **Severity:** HIGH (foreign vessel, no authorization on record)
 - **EEZ:** Chilean Exclusive Economic Zone (Chile) -- FOREIGN-flagged vessel
-- **Authorization:** No public authorization record (check coastal state)  ·  IMO 9486594
+- **Authorization:** No public authorization record (check coastal state)
 - **Vessel:** 🇲🇭 PARITY  ·  **signal:** AIS gap
 - **When (UTC):** 2026-08-17T11:16:37.000Z → 2026-08-19T19:22:48.000Z
 - **Gap:** 56.1 h dark, 87.0 nm offshore

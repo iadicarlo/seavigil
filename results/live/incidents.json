@@ -422,15 +422,13 @@
     "eez_sovereign": "Oman",
     "eez_iso_sov": "OMN",
     "eez_foreign": true,
-    "authorization_status": "authorization_lapsed",
-    "authorization_authorities": [
-      "NPFC"
-    ],
+    "authorization_status": "no_record",
+    "authorization_authorities": [],
     "registry_iuu_tag": false,
-    "registry_flag": "CHN",
-    "registry_imo": "8786818",
+    "registry_flag": "",
+    "registry_imo": "",
     "severity": "high",
-    "severity_reason": "foreign vessel, authorization lapsed",
+    "severity_reason": "foreign vessel, no authorization on record",
     "evidence_schema": "seavigil-evidence-1.0",
     "evidence_hash": "8e982c0d3433bddaca53c1ab3176e9d7f82ae4b55f0c0890ed5e8e6e5413400c"
   },
@@ -710,64 +708,6 @@
     "evidence_hash": "eeb5624c1df248da9daf42cca8477516c3db6da511735dbdfd22fe8b4274e853"
   },
   {
-    "incident_id": "live_enco_4c9b39d5d2e03d",
-    "type": "encounter",
-    "centroid_lon": 22.7197,
-    "centroid_lat": 72.2717,
-    "time_start_utc": "2026-08-20T10:30:00.000Z",
-    "time_end_utc": "2026-08-20T20:10:00.000Z",
-    "vessel_id": "273529800",
-    "ship_name": "BORIS SYROMYATNIKOV",
-    "ship_type": "Fishing",
-    "flag": "RUS",
-    "flag_emoji": "\ud83c\uddf7\ud83c\uddfa",
-    "gear": "Encounter",
-    "n_positions": 0,
-    "n_fishing_positions": 0,
-    "mean_fishing_proba": null,
-    "max_fishing_proba": null,
-    "_rfmo": [
-      "NASCO",
-      "ICES",
-      "NEAFC",
-      "ACAP",
-      "IWC",
-      "NAMMCO"
-    ],
-    "_no_take": false,
-    "mpa_name": "At-sea encounter (transshipment)",
-    "duration_hours": 9.7,
-    "carrier_mmsi": "273218630",
-    "explanation": {
-      "method": "GFW Events encounters dataset (Miller et al. 2018).",
-      "drivers": [
-        "two vessels within range for 10 h",
-        "counterpart: GOGLAND REEFER",
-        "two-vessel at-sea encounter (GFW Events)"
-      ]
-    },
-    "caveats": [
-      "Co-location can be legitimate (joint operations, safety, shelter).",
-      "Apparent transshipment is inferred from proximity and low speed, not observed.",
-      "An inspection lead from GFW Events, not proof of illegal activity."
-    ],
-    "eez_name": "Norwegian Exclusive Economic Zone",
-    "eez_sovereign": "Norway",
-    "eez_iso_sov": "NOR",
-    "eez_foreign": true,
-    "authorization_status": "authorization_lapsed",
-    "authorization_authorities": [
-      "NEAFC"
-    ],
-    "registry_iuu_tag": false,
-    "registry_flag": "RUS",
-    "registry_imo": "8607414",
-    "severity": "high",
-    "severity_reason": "foreign vessel, authorization lapsed",
-    "evidence_schema": "seavigil-evidence-1.0",
-    "evidence_hash": "c8946bd174f2244e72257d88480afa55db42e3209dd8cb6fd01536bb6cd606fb"
-  },
-  {
     "incident_id": "live_enco_767ee9039124f3",
     "type": "encounter",
     "centroid_lon": 22.7267,
@@ -878,6 +818,64 @@
     "severity_reason": "foreign vessel, no authorization on record",
     "evidence_schema": "seavigil-evidence-1.0",
     "evidence_hash": "e7fe4fa9670c87db1b894e8bbeac5f9a54e4a680a6a81a3ff3d5bb3e4754d78f"
+  },
+  {
+    "incident_id": "live_enco_4c9b39d5d2e03d",
+    "type": "encounter",
+    "centroid_lon": 22.7197,
+    "centroid_lat": 72.2717,
+    "time_start_utc": "2026-08-20T10:30:00.000Z",
+    "time_end_utc": "2026-08-20T20:10:00.000Z",
+    "vessel_id": "273529800",
+    "ship_name": "BORIS SYROMYATNIKOV",
+    "ship_type": "Fishing",
+    "flag": "RUS",
+    "flag_emoji": "\ud83c\uddf7\ud83c\uddfa",
+    "gear": "Encounter",
+    "n_positions": 0,
+    "n_fishing_positions": 0,
+    "mean_fishing_proba": null,
+    "max_fishing_proba": null,
+    "_rfmo": [
+      "NASCO",
+      "ICES",
+      "NEAFC",
+      "ACAP",
+      "IWC",
+      "NAMMCO"
+    ],
+    "_no_take": false,
+    "mpa_name": "At-sea encounter (transshipment)",
+    "duration_hours": 9.7,
+    "carrier_mmsi": "273218630",
+    "explanation": {
+      "method": "GFW Events encounters dataset (Miller et al. 2018).",
+      "drivers": [
+        "two vessels within range for 10 h",
+        "counterpart: GOGLAND REEFER",
+        "two-vessel at-sea encounter (GFW Events)"
+      ]
+    },
+    "caveats": [
+      "Co-location can be legitimate (joint operations, safety, shelter).",
+      "Apparent transshipment is inferred from proximity and low speed, not observed.",
+      "An inspection lead from GFW Events, not proof of illegal activity."
+    ],
+    "eez_name": "Norwegian Exclusive Economic Zone",
+    "eez_sovereign": "Norway",
+    "eez_iso_sov": "NOR",
+    "eez_foreign": true,
+    "authorization_status": "authorization_lapsed",
+    "authorization_authorities": [
+      "NEAFC"
+    ],
+    "registry_iuu_tag": false,
+    "registry_flag": "RUS",
+    "registry_imo": "8607414",
+    "severity": "high",
+    "severity_reason": "foreign vessel, authorization lapsed",
+    "evidence_schema": "seavigil-evidence-1.0",
+    "evidence_hash": "c8946bd174f2244e72257d88480afa55db42e3209dd8cb6fd01536bb6cd606fb"
   },
   {
     "incident_id": "live_enco_cf968ef274a6f2",
@@ -1654,8 +1652,8 @@
     "authorization_status": "no_record",
     "authorization_authorities": [],
     "registry_iuu_tag": false,
-    "registry_flag": "MHL",
-    "registry_imo": "9486594",
+    "registry_flag": "",
+    "registry_imo": "",
     "severity": "high",
     "severity_reason": "foreign vessel, no authorization on record",
     "evidence_schema": "seavigil-evidence-1.0",
@@ -2875,8 +2873,8 @@
     "authorization_status": "no_record",
     "authorization_authorities": [],
     "registry_iuu_tag": false,
-    "registry_flag": "",
-    "registry_imo": "",
+    "registry_flag": "GRC",
+    "registry_imo": "9785237",
     "severity": "high",
     "severity_reason": "foreign vessel, no authorization on record",
     "evidence_schema": "seavigil-evidence-1.0",
