@@ -1,6 +1,19 @@
 {
-"generated_at": "2026-08-25T03:13:26Z",
+"generated_at": "2026-08-25T04:02:29Z",
 "alerts": [
+{
+"id": "live_enco_016bcb5339c76a",
+"first_seen": "2026-08-25T04:02:29Z",
+"type": "encounter",
+"when": "2026-08-21T15:40:00.000Z",
+"eez": "Cambodian Exclusive Economic Zone",
+"flag": "VNM",
+"authorization": "no_record",
+"severity_reason": "foreign vessel, no authorization on record",
+"lat": 10.4962,
+"lon": 103.5691,
+"ship_name": "LUOI GHE >68>  18F"
+},
 {
 "id": "live_enco_7bb2aed2cd06e4",
 "first_seen": "2026-08-25T01:53:19Z",
@@ -2587,19 +2600,6 @@
 "lat": 70.1943,
 "lon": -57.374,
 "ship_name": "NATAARNAQ"
-},
-{
-"id": "live_ais__5db2a7ac62347b",
-"first_seen": "2026-08-20T11:44:15Z",
-"type": "ais_disabling",
-"when": "2026-08-14T16:23:31.000Z",
-"eez": "British Exclusive Economic Zone (Bermuda)",
-"flag": "VCT",
-"authorization": "no_record",
-"severity_reason": "foreign vessel, no authorization on record",
-"lat": 34.6779,
-"lon": -63.3281,
-"ship_name": "TROPIC HOPE"
 }
 ]
 }
