@@ -1,6 +1,19 @@
 {
-"generated_at": "2026-08-25T07:09:35Z",
+"generated_at": "2026-08-25T07:59:46Z",
 "alerts": [
+{
+"id": "live_enco_73d9f05491c520",
+"first_seen": "2026-08-25T07:59:46Z",
+"type": "encounter",
+"when": "2026-08-21T07:40:00.000Z",
+"eez": "Overlapping claim Taiwan: Taiwan / China",
+"flag": "CHN",
+"authorization": "no_record",
+"severity_reason": "foreign vessel, no authorization on record",
+"lat": 25.8152,
+"lon": 121.1389,
+"ship_name": "MINHUIYU01576"
+},
 {
 "id": "live_enco_016bcb5339c76a",
 "first_seen": "2026-08-25T04:02:29Z",
@@ -2587,19 +2600,6 @@
 "lat": -7.2341,
 "lon": -178.6276,
 "ship_name": "636-2  100%"
-},
-{
-"id": "live_ais__32eef14ac0935e",
-"first_seen": "2026-08-20T13:12:02Z",
-"type": "ais_disabling",
-"when": "2026-08-16T00:48:15.000Z",
-"eez": "Danish Exclusive Economic Zone (Greenland)",
-"flag": "GRL",
-"authorization": "no_record",
-"severity_reason": "foreign vessel, no authorization on record",
-"lat": 70.1943,
-"lon": -57.374,
-"ship_name": "NATAARNAQ"
 }
 ]
 }
