@@ -1,6 +1,19 @@
 {
-"generated_at": "2026-08-25T19:46:41Z",
+"generated_at": "2026-08-25T20:47:28Z",
 "alerts": [
+{
+"id": "live_enco_c6ce1633b2bb45",
+"first_seen": "2026-08-25T20:47:28Z",
+"type": "encounter",
+"when": "2026-08-21T18:20:00.000Z",
+"eez": "Vietnamese Exclusive Economic Zone",
+"flag": "SOM",
+"authorization": "no_record",
+"severity_reason": "foreign vessel, no authorization on record",
+"lat": 21.1401,
+"lon": 107.5406,
+"ship_name": "LUOINOI  D18 G0I 02"
+},
 {
 "id": "live_ais__f9da96cfe42b38",
 "first_seen": "2026-08-25T13:12:41Z",
@@ -2587,19 +2600,6 @@
 "lat": -8.0098,
 "lon": -154.5132,
 "ship_name": "SYY40-2024-04-91%"
-},
-{
-"id": "live_ais__23eabd9dd408e2",
-"first_seen": "2026-08-21T11:43:44Z",
-"type": "ais_disabling",
-"when": "2026-08-16T19:32:08.000Z",
-"eez": "Angolan Exclusive Economic Zone",
-"flag": "MHL",
-"authorization": "no_record",
-"severity_reason": "foreign vessel, no authorization on record",
-"lat": -7.6735,
-"lon": 11.7812,
-"ship_name": "SEAWAYS TRITON"
 }
 ]
 }
