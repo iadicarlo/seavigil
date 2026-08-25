@@ -1,20 +1,20 @@
-# Incident `live_enco_767ee9039124f3`
+# Incident `live_enco_c5812aaedf7e05`
 
 - **MPA:** At-sea encounter (transshipment)
 - **Severity:** HIGH (foreign vessel, authorization lapsed)
-- **EEZ:** Norwegian Exclusive Economic Zone (Norway) -- FOREIGN-flagged vessel
-- **Authorization:** Authorization lapsed before this date: NEAFC  ·  IMO 8607414
-- **Vessel:** 🇷🇺 BORIS SYROMYATNIKOV  ·  **signal:** Encounter
-- **When (UTC):** 2026-08-20T10:40:00.000Z → 2026-08-20T20:10:00.000Z
-- **Encounter:** 9.5 h with carrier `273522400` (apparent transshipment)
-- **Where:** 72.272, 22.727
+- **EEZ:** Russian Exclusive Economic Zone (Russia) -- FOREIGN-flagged vessel
+- **Authorization:** Authorization lapsed before this date: NPFC  ·  IMO 8821527
+- **Vessel:** 🇰🇷 81CHUNGYONG  ·  **signal:** Encounter
+- **When (UTC):** 2026-08-21T13:20:00.000Z → 2026-08-21T23:50:00.000Z
+- **Encounter:** 10.5 h with carrier `273423060` (apparent transshipment)
+- **Where:** 62.315, 177.721
 
 ## Why this was flagged
 
 _GFW Events encounters dataset (Miller et al. 2018).._
 
 - two vessels within range for 10 h
-- counterpart: ZAKHAR SOROKIN
+- counterpart: ORIENTAL DISCOVERER
 - two-vessel at-sea encounter (GFW Events)
 
 ## Could be innocent
@@ -31,7 +31,7 @@ Two vessels meeting at sea can be a legitimate transfer, bunkering, or a safety 
 
 - WDPA / WD-OECM (World Database on Protected Areas) (UNEP-WCMC and IUCN (2026), June 2026). Protected Planet Terms of Use (non-commercial, display-only).
 - Marine Regions Exclusive Economic Zones v12 (Flanders Marine Institute (2024), DOI 10.14284/632). CC BY 4.0.
-- **Integrity (SHA-256 of canonical facts):** `4f401130ad78e9ca1b4b78b25ac939d59315c602240e49d8a372016705fc7ae3`
+- **Integrity (SHA-256 of canonical facts):** `5e4c66bcd76461dea202db2de9ff6211c7adb6c00db351204f206b58ce8d2cbf`
 - **Evidence schema:** seavigil-evidence-1.0
 
 _Apparent activity and an inspection lead, not proof of illegality. AIS and SAR evidence have known coverage gaps and spoofing risks; verify against authoritative sources before any enforcement action._
