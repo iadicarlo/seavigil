@@ -771,61 +771,6 @@
     "evidence_hash": "66bcb274f71345b9742a34bc60d727574a6c86a486aef8985ad1e82082331c1a"
   },
   {
-    "incident_id": "live_enco_016bcb5339c76a",
-    "type": "encounter",
-    "centroid_lon": 103.5691,
-    "centroid_lat": 10.4962,
-    "time_start_utc": "2026-08-21T15:40:00.000Z",
-    "time_end_utc": "2026-08-21T20:40:00.000Z",
-    "vessel_id": "574182848",
-    "ship_name": "LUOI GHE >68>  18F",
-    "ship_type": "Fishing",
-    "flag": "VNM",
-    "flag_emoji": "\ud83c\uddfb\ud83c\uddf3",
-    "gear": "Encounter",
-    "n_positions": 0,
-    "n_fishing_positions": 0,
-    "mean_fishing_proba": null,
-    "max_fishing_proba": null,
-    "_rfmo": [
-      "SEAFDEC",
-      "ACAP",
-      "APFIC",
-      "IWC",
-      "WCPFC"
-    ],
-    "_no_take": false,
-    "mpa_name": "At-sea encounter (transshipment)",
-    "duration_hours": 5.0,
-    "carrier_mmsi": "514184040",
-    "explanation": {
-      "method": "GFW Events encounters dataset (Miller et al. 2018).",
-      "drivers": [
-        "two vessels within range for 5 h",
-        "counterpart: HG11 F0979728999",
-        "two-vessel at-sea encounter (GFW Events)"
-      ]
-    },
-    "caveats": [
-      "Co-location can be legitimate (joint operations, safety, shelter).",
-      "Apparent transshipment is inferred from proximity and low speed, not observed.",
-      "An inspection lead from GFW Events, not proof of illegal activity."
-    ],
-    "eez_name": "Cambodian Exclusive Economic Zone",
-    "eez_sovereign": "Cambodia",
-    "eez_iso_sov": "KHM",
-    "eez_foreign": true,
-    "authorization_status": "no_record",
-    "authorization_authorities": [],
-    "registry_iuu_tag": false,
-    "registry_flag": "",
-    "registry_imo": "",
-    "severity": "high",
-    "severity_reason": "foreign vessel, no authorization on record",
-    "evidence_schema": "seavigil-evidence-1.0",
-    "evidence_hash": "e56e88c48a456d7d526296feffbcbac5b05927072aa0c18319ce1709ecf1c114"
-  },
-  {
     "incident_id": "live_enco_2a8f37b94205ab",
     "type": "encounter",
     "centroid_lon": 106.2605,
