@@ -1145,6 +1145,60 @@
     "evidence_hash": "c329f5521d4bc5b7a537997f437f747e3ec4082bbabdde91d1d503d5905c2d4e"
   },
   {
+    "incident_id": "live_enco_62a0afea834f51",
+    "type": "encounter",
+    "centroid_lon": 120.8672,
+    "centroid_lat": 25.5601,
+    "time_start_utc": "2026-08-20T13:30:00.000Z",
+    "time_end_utc": "2026-08-21T16:20:00.000Z",
+    "vessel_id": "412451702",
+    "ship_name": "MIN HUI YU 00262",
+    "ship_type": "Fishing",
+    "flag": "CHN",
+    "flag_emoji": "\ud83c\udde8\ud83c\uddf3",
+    "gear": "Encounter",
+    "n_positions": 0,
+    "n_fishing_positions": 0,
+    "mean_fishing_proba": null,
+    "max_fishing_proba": null,
+    "_rfmo": [
+      "IWC",
+      "APFIC",
+      "WCPFC",
+      "ACAP"
+    ],
+    "_no_take": false,
+    "mpa_name": "At-sea encounter (transshipment)",
+    "duration_hours": 26.8,
+    "carrier_mmsi": "290000045",
+    "explanation": {
+      "method": "GFW Events encounters dataset (Miller et al. 2018).",
+      "drivers": [
+        "two vessels within range for 27 h",
+        "counterpart: YONG FENG 2",
+        "two-vessel at-sea encounter (GFW Events)"
+      ]
+    },
+    "caveats": [
+      "Co-location can be legitimate (joint operations, safety, shelter).",
+      "Apparent transshipment is inferred from proximity and low speed, not observed.",
+      "An inspection lead from GFW Events, not proof of illegal activity."
+    ],
+    "eez_name": "Overlapping claim Taiwan: Taiwan / China",
+    "eez_sovereign": "Taiwan",
+    "eez_iso_sov": "TWN",
+    "eez_foreign": true,
+    "authorization_status": "no_record",
+    "authorization_authorities": [],
+    "registry_iuu_tag": false,
+    "registry_flag": "",
+    "registry_imo": "",
+    "severity": "high",
+    "severity_reason": "foreign vessel, no authorization on record",
+    "evidence_schema": "seavigil-evidence-1.0",
+    "evidence_hash": "adc575dcfdd2374cee354157f1f26bf9a697a28d4f503cf9ee89b0f29c40a1e0"
+  },
+  {
     "incident_id": "live_enco_7087b66e411f17",
     "type": "encounter",
     "centroid_lon": 112.654,
