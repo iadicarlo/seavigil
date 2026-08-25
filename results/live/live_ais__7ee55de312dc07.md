@@ -3,7 +3,7 @@
 - **MPA:** AIS disabling (going dark)
 - **Severity:** HIGH (foreign vessel, no authorization on record)
 - **EEZ:** French Exclusive Economic Zone (French Polynesia) (France) -- FOREIGN-flagged vessel
-- **Authorization:** No public authorization record (check coastal state)  ·  IMO 1007914
+- **Authorization:** No public authorization record (check coastal state)
 - **Vessel:** 🇰🇾 PLAN B  ·  **signal:** AIS gap
 - **When (UTC):** 2026-08-19T02:40:55.000Z → 2026-08-19T19:32:12.000Z
 - **Gap:** 16.9 h dark, 52.0 nm offshore

@@ -1,9 +1,9 @@
 # Incident `live_enco_742e5f90ab64ad`
 
 - **MPA:** At-sea encounter (transshipment)
-- **Severity:** HIGH (foreign vessel, authorization lapsed)
+- **Severity:** HIGH (foreign vessel, no authorization on record)
 - **EEZ:** Greek Exclusive Economic Zone (Greece) -- FOREIGN-flagged vessel
-- **Authorization:** Authorization lapsed before this date: GFCM
+- **Authorization:** No public authorization record (check coastal state)
 - **Vessel:** 🇹🇷 KAYRA HASAN REIS 1  ·  **signal:** Encounter
 - **When (UTC):** 2026-08-21T19:00:00.000Z → 2026-08-21T23:50:00.000Z
 - **Encounter:** 4.8 h with carrier `271043668` (apparent transshipment)
