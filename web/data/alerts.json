@@ -1,6 +1,19 @@
 {
-"generated_at": "2026-08-26T19:19:25Z",
+"generated_at": "2026-08-26T23:36:08Z",
 "alerts": [
+{
+"id": "live_enco_7720f5d1daf372",
+"first_seen": "2026-08-26T23:36:08Z",
+"type": "encounter",
+"when": "2026-08-22T05:10:00.000Z",
+"eez": "Vietnamese Exclusive Economic Zone",
+"flag": "MCO",
+"authorization": "no_record",
+"severity_reason": "foreign vessel, no authorization on record",
+"lat": 8.909,
+"lon": 107.1735,
+"ship_name": "THANH NAM 8O E24"
+},
 {
 "id": "live_ais__5dc2920e82b6cc",
 "first_seen": "2026-08-26T11:46:21Z",
@@ -2587,19 +2600,6 @@
 "lat": 18.2938,
 "lon": 106.411,
 "ship_name": "HOA MAI   D27   :"
-},
-{
-"id": "live_enco_155531c22b8bd8",
-"first_seen": "2026-08-22T04:51:16Z",
-"type": "encounter",
-"when": "2026-08-18T09:40:00.000Z",
-"eez": "Chinese Exclusive Economic Zone",
-"flag": "AND",
-"authorization": "no_record",
-"severity_reason": "foreign vessel, no authorization on record",
-"lat": 25.4987,
-"lon": 119.9919,
-"ship_name": ""
 }
 ]
 }

@@ -775,31 +775,31 @@
     "centroid_lat": 30.0939,
     "time_start_utc": "2026-08-22T04:30:00.000Z",
     "time_end_utc": "2026-08-22T20:20:00.000Z",
-    "vessel_id": "412445539",
-    "ship_name": "MINLIANYU64117",
+    "vessel_id": "231060005",
+    "ship_name": "23106-5-",
     "ship_type": "Fishing",
-    "flag": "CHN",
-    "flag_emoji": "\ud83c\udde8\ud83c\uddf3",
+    "flag": "FRO",
+    "flag_emoji": "\ud83c\uddeb\ud83c\uddf4",
     "gear": "Encounter",
     "n_positions": 0,
     "n_fishing_positions": 0,
     "mean_fishing_proba": null,
     "max_fishing_proba": null,
     "_rfmo": [
-      "PICES",
       "WCPFC",
-      "ACAP",
-      "IWC"
+      "IWC",
+      "PICES",
+      "ACAP"
     ],
     "_no_take": false,
     "mpa_name": "At-sea encounter (transshipment)",
     "duration_hours": 15.8,
-    "carrier_mmsi": "231060005",
+    "carrier_mmsi": "412445539",
     "explanation": {
       "method": "GFW Events encounters dataset (Miller et al. 2018).",
       "drivers": [
         "two vessels within range for 16 h",
-        "counterpart: 23106-5-",
+        "counterpart: MINLIANYU64117",
         "two-vessel at-sea encounter (GFW Events)"
       ]
     },
@@ -820,7 +820,7 @@
     "severity": "high",
     "severity_reason": "foreign vessel, no authorization on record",
     "evidence_schema": "seavigil-evidence-1.0",
-    "evidence_hash": "dd625a1dcf0239d887381af742718b30054edf83c16698bc29c9f171631b132d"
+    "evidence_hash": "9c04a3395c8445cea7f6a6b7388786ca9658f4c742db4faa6695e1af61c1864f"
   },
   {
     "incident_id": "live_enco_560aa6ed0ca8e4",
@@ -1263,37 +1263,38 @@
     "evidence_hash": "2226d85cfeaa5aa195aa6ed64bf74a2b8668f3a5c579f94870f7e2b549eb084c"
   },
   {
-    "incident_id": "live_enco_b8efc824c2604d",
+    "incident_id": "live_enco_7720f5d1daf372",
     "type": "encounter",
-    "centroid_lon": 126.305,
-    "centroid_lat": 31.3582,
-    "time_start_utc": "2026-08-22T10:20:00.000Z",
-    "time_end_utc": "2026-08-22T16:40:00.000Z",
-    "vessel_id": "412423718",
-    "ship_name": "ZHE PU YU 21186",
+    "centroid_lon": 107.1735,
+    "centroid_lat": 8.909,
+    "time_start_utc": "2026-08-22T05:10:00.000Z",
+    "time_end_utc": "2026-08-22T16:50:00.000Z",
+    "vessel_id": "254085130",
+    "ship_name": "THANH NAM 8O E24",
     "ship_type": "Fishing",
-    "flag": "CHN",
-    "flag_emoji": "\ud83c\udde8\ud83c\uddf3",
+    "flag": "MCO",
+    "flag_emoji": "\ud83c\uddf2\ud83c\udde8",
     "gear": "Encounter",
     "n_positions": 0,
     "n_fishing_positions": 0,
     "mean_fishing_proba": null,
     "max_fishing_proba": null,
     "_rfmo": [
+      "WCPFC",
       "ACAP",
-      "PICES",
-      "IWC",
-      "WCPFC"
+      "SEAFDEC",
+      "APFIC",
+      "IWC"
     ],
     "_no_take": false,
     "mpa_name": "At-sea encounter (transshipment)",
-    "duration_hours": 6.3,
-    "carrier_mmsi": "435108527",
+    "duration_hours": 11.7,
+    "carrier_mmsi": "574125732",
     "explanation": {
       "method": "GFW Events encounters dataset (Miller et al. 2018).",
       "drivers": [
-        "two vessels within range for 6 h",
-        "counterpart: ANMEK8527",
+        "two vessels within range for 12 h",
+        "counterpart: THANH NAM-6666(E24)",
         "two-vessel at-sea encounter (GFW Events)"
       ]
     },
@@ -1302,9 +1303,9 @@
       "Apparent transshipment is inferred from proximity and low speed, not observed.",
       "An inspection lead from GFW Events, not proof of illegal activity."
     ],
-    "eez_name": "South Korean Exclusive Economic Zone",
-    "eez_sovereign": "South Korea",
-    "eez_iso_sov": "KOR",
+    "eez_name": "Vietnamese Exclusive Economic Zone",
+    "eez_sovereign": "Vietnam",
+    "eez_iso_sov": "VNM",
     "eez_foreign": true,
     "authorization_status": "no_record",
     "authorization_authorities": [],
@@ -1314,7 +1315,7 @@
     "severity": "high",
     "severity_reason": "foreign vessel, no authorization on record",
     "evidence_schema": "seavigil-evidence-1.0",
-    "evidence_hash": "cbab1b6615e4b0db636d50c6deed96190039a0594dc41315146a3c4efb405c75"
+    "evidence_hash": "60b6162a543d4f8f9147d99fa4b413f8b71a19a7daa39491f9417730d821bd6a"
   },
   {
     "incident_id": "live_enco_7be4f592bddbdf",
