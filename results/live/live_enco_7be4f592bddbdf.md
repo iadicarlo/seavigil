@@ -1,20 +1,20 @@
-# Incident `live_enco_9dabc1ed993bdc`
+# Incident `live_enco_7be4f592bddbdf`
 
 - **MPA:** At-sea encounter (transshipment)
 - **Severity:** HIGH (foreign vessel, no authorization on record)
-- **EEZ:** Bruneian Exclusive Economic Zone (Brunei) -- FOREIGN-flagged vessel
+- **EEZ:** Papua New Guinean Exclusive Economic Zone (Papua New Guinea) -- FOREIGN-flagged vessel
 - **Authorization:** No public authorization record (check coastal state)
-- **Vessel:** 🇨🇳 QIONG LE YU 11227  ·  **signal:** Encounter
-- **When (UTC):** 2026-08-21T09:50:00.000Z → 2026-08-21T13:50:00.000Z
-- **Encounter:** 4.0 h with carrier `412535295` (apparent transshipment)
-- **Where:** 6.630, 112.656
+- **Vessel:** 🇵🇭 QUEEN JINA 101  ·  **signal:** Encounter
+- **When (UTC):** 2026-08-22T12:20:00.000Z → 2026-08-22T16:30:00.000Z
+- **Encounter:** 4.2 h with carrier `373311000` (apparent transshipment)
+- **Where:** 0.803, 143.695
 
 ## Why this was flagged
 
 _GFW Events encounters dataset (Miller et al. 2018).._
 
 - two vessels within range for 4 h
-- counterpart: SHEN NAN 1869
+- counterpart: NEW HARMONY
 - two-vessel at-sea encounter (GFW Events)
 
 ## Could be innocent
@@ -31,7 +31,7 @@ Two vessels meeting at sea can be a legitimate transfer, bunkering, or a safety 
 
 - WDPA / WD-OECM (World Database on Protected Areas) (UNEP-WCMC and IUCN (2026), June 2026). Protected Planet Terms of Use (non-commercial, display-only).
 - Marine Regions Exclusive Economic Zones v12 (Flanders Marine Institute (2024), DOI 10.14284/632). CC BY 4.0.
-- **Integrity (SHA-256 of canonical facts):** `1f7cb2ad8759cb696df9f63da0337b0fe0b689941ffe4cf2938080170dd9ebd2`
+- **Integrity (SHA-256 of canonical facts):** `71b0cd685e8086d83f79ccaee28d47009123cdba822c90c0777293a69ecc9c45`
 - **Evidence schema:** seavigil-evidence-1.0
 
 _Apparent activity and an inspection lead, not proof of illegality. AIS and SAR evidence have known coverage gaps and spoofing risks; verify against authoritative sources before any enforcement action._
