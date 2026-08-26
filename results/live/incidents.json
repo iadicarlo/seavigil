@@ -103,37 +103,37 @@
     "evidence_hash": "825a8e8bf9217476881c8ee1cbdf4fa69034c86c42d8e260a0976f0ad6f6ce60"
   },
   {
-    "incident_id": "live_enco_075ea76c95d7ae",
+    "incident_id": "live_enco_90cc4ccdd61692",
     "type": "encounter",
-    "centroid_lon": 123.1733,
-    "centroid_lat": 29.751,
-    "time_start_utc": "2026-08-22T18:30:00.000Z",
-    "time_end_utc": "2026-08-22T23:10:00.000Z",
-    "vessel_id": "202103221",
-    "ship_name": "03221",
+    "centroid_lon": 122.6696,
+    "centroid_lat": 27.9835,
+    "time_start_utc": "2026-08-22T01:30:00.000Z",
+    "time_end_utc": "2026-08-22T23:50:00.000Z",
+    "vessel_id": "201712309",
+    "ship_name": "999",
     "ship_type": "Fishing",
-    "flag": "AND",
-    "flag_emoji": "\ud83c\udde6\ud83c\udde9",
+    "flag": "ALB",
+    "flag_emoji": "\ud83c\udde6\ud83c\uddf1",
     "gear": "Encounter",
     "n_positions": 0,
     "n_fishing_positions": 0,
     "mean_fishing_proba": null,
     "max_fishing_proba": null,
     "_rfmo": [
-      "APFIC",
       "WCPFC",
       "IWC",
+      "APFIC",
       "ACAP"
     ],
     "_no_take": false,
     "mpa_name": "At-sea encounter (transshipment)",
-    "duration_hours": 4.7,
-    "carrier_mmsi": "412422661",
+    "duration_hours": 22.3,
+    "carrier_mmsi": "412416389",
     "explanation": {
       "method": "GFW Events encounters dataset (Miller et al. 2018).",
       "drivers": [
-        "two vessels within range for 5 h",
-        "counterpart: ZHEPUYU33221",
+        "two vessels within range for 22 h",
+        "counterpart: 28999",
         "two-vessel at-sea encounter (GFW Events)"
       ]
     },
@@ -154,7 +154,7 @@
     "severity": "high",
     "severity_reason": "foreign vessel, no authorization on record",
     "evidence_schema": "seavigil-evidence-1.0",
-    "evidence_hash": "893e98607ad4435cdc54290c6db0575935c5bcfacc591157e3df2d21e75ff689"
+    "evidence_hash": "6d9e5ebd4ac98a75a54a779537cc52d9297395a991119dd7a9a2984fdb574afe"
   },
   {
     "incident_id": "live_enco_3ba2c0947a4ab4",
@@ -692,13 +692,17 @@
     "eez_sovereign": "Papua New Guinea",
     "eez_iso_sov": "PNG",
     "eez_foreign": true,
-    "authorization_status": "no_record",
-    "authorization_authorities": [],
+    "authorization_status": "authorization_lapsed",
+    "authorization_authorities": [
+      "FFA",
+      "IOTC",
+      "WCPFC"
+    ],
     "registry_iuu_tag": false,
-    "registry_flag": "",
-    "registry_imo": "",
+    "registry_flag": "PHL",
+    "registry_imo": "9016545",
     "severity": "high",
-    "severity_reason": "foreign vessel, no authorization on record",
+    "severity_reason": "foreign vessel, authorization lapsed",
     "evidence_schema": "seavigil-evidence-1.0",
     "evidence_hash": "71b0cd685e8086d83f79ccaee28d47009123cdba822c90c0777293a69ecc9c45"
   },
@@ -2584,13 +2588,16 @@
     "eez_sovereign": "Marshall Islands",
     "eez_iso_sov": "MHL",
     "eez_foreign": true,
-    "authorization_status": "no_record",
-    "authorization_authorities": [],
+    "authorization_status": "authorization_lapsed",
+    "authorization_authorities": [
+      "FFA",
+      "WCPFC"
+    ],
     "registry_iuu_tag": false,
-    "registry_flag": "",
-    "registry_imo": "",
+    "registry_flag": "NRU",
+    "registry_imo": "9217357",
     "severity": "high",
-    "severity_reason": "foreign vessel, no authorization on record",
+    "severity_reason": "foreign vessel, authorization lapsed",
     "evidence_schema": "seavigil-evidence-1.0",
     "evidence_hash": "b377433075daa6072792ba766e383cf04c024f6b67dc3700ad2346446c0f53c3"
   },

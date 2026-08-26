@@ -1,6 +1,19 @@
 {
-"generated_at": "2026-08-26T08:00:49Z",
+"generated_at": "2026-08-26T09:03:47Z",
 "alerts": [
+{
+"id": "live_enco_90cc4ccdd61692",
+"first_seen": "2026-08-26T09:03:47Z",
+"type": "encounter",
+"when": "2026-08-22T01:30:00.000Z",
+"eez": "Chinese Exclusive Economic Zone",
+"flag": "ALB",
+"authorization": "no_record",
+"severity_reason": "foreign vessel, no authorization on record",
+"lat": 27.9835,
+"lon": 122.6696,
+"ship_name": "999"
+},
 {
 "id": "live_enco_8f0b1f17dca238",
 "first_seen": "2026-08-26T01:59:17Z",
@@ -2587,19 +2600,6 @@
 "lat": 19.0929,
 "lon": 39.4682,
 "ship_name": "EUCALYPTUS"
-},
-{
-"id": "live_ais__a990e429af1da9",
-"first_seen": "2026-08-21T13:11:58Z",
-"type": "ais_disabling",
-"when": "2026-08-14T17:25:31.000Z",
-"eez": "Brazilian Exclusive Economic Zone",
-"flag": "MLT",
-"authorization": "no_record",
-"severity_reason": "foreign vessel, no authorization on record",
-"lat": -14.7782,
-"lon": -35.4681,
-"ship_name": "YANNIS"
 }
 ]
 }

@@ -1,9 +1,9 @@
 # Incident `live_enco_7be4f592bddbdf`
 
 - **MPA:** At-sea encounter (transshipment)
-- **Severity:** HIGH (foreign vessel, no authorization on record)
+- **Severity:** HIGH (foreign vessel, authorization lapsed)
 - **EEZ:** Papua New Guinean Exclusive Economic Zone (Papua New Guinea) -- FOREIGN-flagged vessel
-- **Authorization:** No public authorization record (check coastal state)
+- **Authorization:** Authorization lapsed before this date: FFA, IOTC, WCPFC  ·  IMO 9016545
 - **Vessel:** 🇵🇭 QUEEN JINA 101  ·  **signal:** Encounter
 - **When (UTC):** 2026-08-22T12:20:00.000Z → 2026-08-22T16:30:00.000Z
 - **Encounter:** 4.2 h with carrier `373311000` (apparent transshipment)
