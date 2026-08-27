@@ -1,19 +1,20 @@
-# Incident `live_enco_08f34c44b3d33a`
+# Incident `live_enco_62f90c6d6f93d3`
 
 - **MPA:** At-sea encounter (transshipment)
-- **Severity:** HIGH (inside a no-take reserve)
-- **Authorization:** Authorization lapsed before this date: CCSBT, SPRFMO  ·  IMO 9100750
-- **Vessel:** 🇳🇿 F.V. OCEAN PIONEER  ·  **signal:** Encounter
-- **When (UTC):** 2026-08-22T21:20:00.000Z → 2026-08-23T23:50:00.000Z
-- **Encounter:** 26.5 h with carrier `512002236` (apparent transshipment)
-- **Where:** -50.813, 166.076
+- **Severity:** HIGH (foreign vessel, no authorization on record)
+- **EEZ:** Vietnamese Exclusive Economic Zone (Vietnam) -- FOREIGN-flagged vessel
+- **Authorization:** No public authorization record (check coastal state)
+- **Vessel:** 🇸🇬 81NGOCTHANHE36  ·  **signal:** Encounter
+- **When (UTC):** 2026-08-23T10:30:00.000Z → 2026-08-23T23:50:00.000Z
+- **Encounter:** 13.3 h with carrier `574777903` (apparent transshipment)
+- **Where:** 10.526, 108.971
 
 ## Why this was flagged
 
 _GFW Events encounters dataset (Miller et al. 2018).._
 
-- two vessels within range for 26 h
-- counterpart: ALBATROSS II
+- two vessels within range for 13 h
+- counterpart: 7 BO A5
 - two-vessel at-sea encounter (GFW Events)
 
 ## Could be innocent
@@ -30,7 +31,7 @@ Two vessels meeting at sea can be a legitimate transfer, bunkering, or a safety 
 
 - WDPA / WD-OECM (World Database on Protected Areas) (UNEP-WCMC and IUCN (2026), June 2026). Protected Planet Terms of Use (non-commercial, display-only).
 - Marine Regions Exclusive Economic Zones v12 (Flanders Marine Institute (2024), DOI 10.14284/632). CC BY 4.0.
-- **Integrity (SHA-256 of canonical facts):** `32272067f62692d93cae52d50a4a7631c67c7dab9995daa880366477246da612`
+- **Integrity (SHA-256 of canonical facts):** `2f2baec137b05680e31a81d5fc695d07e22360742be0d9dbb549c6bcd9da2353`
 - **Evidence schema:** seavigil-evidence-1.0
 
 _Apparent activity and an inspection lead, not proof of illegality. AIS and SAR evidence have known coverage gaps and spoofing risks; verify against authoritative sources before any enforcement action._
