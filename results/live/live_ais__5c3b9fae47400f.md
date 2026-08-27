@@ -3,7 +3,7 @@
 - **MPA:** AIS disabling (going dark)
 - **Severity:** HIGH (foreign vessel, no authorization on record)
 - **EEZ:** Overlapping claim: Egypt / Libya (Egypt) -- FOREIGN-flagged vessel
-- **Authorization:** No public authorization record (check coastal state)
+- **Authorization:** No public authorization record (check coastal state)  ·  IMO 9437842
 - **Vessel:** 🇵🇦 SKYLINE S  ·  **signal:** AIS gap
 - **When (UTC):** 2026-08-21T14:42:04.000Z → 2026-08-22T06:00:52.000Z
 - **Gap:** 15.3 h dark, 85.0 nm offshore

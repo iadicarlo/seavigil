@@ -1,20 +1,19 @@
-# Incident `live_enco_e7766204fb441b`
+# Incident `live_enco_08f34c44b3d33a`
 
 - **MPA:** At-sea encounter (transshipment)
-- **Severity:** HIGH (foreign vessel, no authorization on record)
-- **EEZ:** Chinese Exclusive Economic Zone (China) -- FOREIGN-flagged vessel
-- **Authorization:** No public authorization record (check coastal state)
-- **Vessel:** 🇨🇾 03988  ·  **signal:** Encounter
-- **When (UTC):** 2026-08-22T06:50:00.000Z → 2026-08-22T23:50:00.000Z
-- **Encounter:** 17.0 h with carrier `412446127` (apparent transshipment)
-- **Where:** 23.673, 117.907
+- **Severity:** HIGH (inside a no-take reserve)
+- **Authorization:** Authorization lapsed before this date: CCSBT  ·  IMO 8409111
+- **Vessel:** 🇳🇿 ALBATROSS II  ·  **signal:** Encounter
+- **When (UTC):** 2026-08-22T21:20:00.000Z → 2026-08-23T23:50:00.000Z
+- **Encounter:** 26.5 h with carrier `512392000` (apparent transshipment)
+- **Where:** -50.813, 166.076
 
 ## Why this was flagged
 
 _GFW Events encounters dataset (Miller et al. 2018).._
 
-- two vessels within range for 17 h
-- counterpart: MINDONGYU63050
+- two vessels within range for 26 h
+- counterpart: F.V. OCEAN PIONEER
 - two-vessel at-sea encounter (GFW Events)
 
 ## Could be innocent
@@ -31,7 +30,7 @@ Two vessels meeting at sea can be a legitimate transfer, bunkering, or a safety 
 
 - WDPA / WD-OECM (World Database on Protected Areas) (UNEP-WCMC and IUCN (2026), June 2026). Protected Planet Terms of Use (non-commercial, display-only).
 - Marine Regions Exclusive Economic Zones v12 (Flanders Marine Institute (2024), DOI 10.14284/632). CC BY 4.0.
-- **Integrity (SHA-256 of canonical facts):** `825a8e8bf9217476881c8ee1cbdf4fa69034c86c42d8e260a0976f0ad6f6ce60`
+- **Integrity (SHA-256 of canonical facts):** `b351936718117535d42102fe81a4ed0a446ab5846455e48ff9d7959c790ba13d`
 - **Evidence schema:** seavigil-evidence-1.0
 
 _Apparent activity and an inspection lead, not proof of illegality. AIS and SAR evidence have known coverage gaps and spoofing risks; verify against authoritative sources before any enforcement action._
