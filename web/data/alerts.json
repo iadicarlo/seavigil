@@ -1,6 +1,71 @@
 {
-"generated_at": "2026-08-27T20:32:43Z",
+"generated_at": "2026-08-28T05:25:48Z",
 "alerts": [
+{
+"id": "live_enco_4e4e6edc5354ef",
+"first_seen": "2026-08-28T05:25:48Z",
+"type": "encounter",
+"when": "2026-08-24T03:20:00.000Z",
+"eez": "Chinese Exclusive Economic Zone",
+"flag": "CYP",
+"authorization": "no_record",
+"severity_reason": "foreign vessel, no authorization on record",
+"lat": 31.6681,
+"lon": 124.3638,
+"ship_name": "MINXIAYU01806"
+},
+{
+"id": "live_enco_f88a93a8225e6a",
+"first_seen": "2026-08-28T05:25:48Z",
+"type": "encounter",
+"when": "2026-08-24T13:00:00.000Z",
+"eez": "South Korean Exclusive Economic Zone",
+"flag": "CHN",
+"authorization": "no_record",
+"severity_reason": "foreign vessel, no authorization on record",
+"lat": 32.4469,
+"lon": 124.3856,
+"ship_name": "ZHE LIN YU 21928"
+},
+{
+"id": "live_enco_87ce9766d069b0",
+"first_seen": "2026-08-28T05:25:48Z",
+"type": "encounter",
+"when": "2026-08-24T06:20:00.000Z",
+"eez": "Vietnamese Exclusive Economic Zone",
+"flag": "SGP",
+"authorization": "no_record",
+"severity_reason": "foreign vessel, no authorization on record",
+"lat": 10.5255,
+"lon": 108.9701,
+"ship_name": "81NGOCTHANHE36"
+},
+{
+"id": "live_enco_a607f72dc3360a",
+"first_seen": "2026-08-28T05:25:48Z",
+"type": "encounter",
+"when": "2026-08-24T05:00:00.000Z",
+"eez": "Chinese Exclusive Economic Zone",
+"flag": "CYP",
+"authorization": "no_record",
+"severity_reason": "foreign vessel, no authorization on record",
+"lat": 23.6719,
+"lon": 117.907,
+"ship_name": "03988"
+},
+{
+"id": "live_enco_94a683d3870a10",
+"first_seen": "2026-08-28T05:25:48Z",
+"type": "encounter",
+"when": "2026-08-24T18:20:00.000Z",
+"eez": "Chinese Exclusive Economic Zone",
+"flag": "NOR",
+"authorization": "no_record",
+"severity_reason": "foreign vessel, no authorization on record",
+"lat": 31.3802,
+"lon": 123.9769,
+"ship_name": "ZHESANYU88858-22-"
+},
 {
 "id": "live_enco_62f90c6d6f93d3",
 "first_seen": "2026-08-27T20:32:43Z",
@@ -2535,71 +2600,6 @@
 "lat": 23.6719,
 "lon": 117.8732,
 "ship_name": "03988"
-},
-{
-"id": "live_enco_4cab4809428498",
-"first_seen": "2026-08-23T02:00:21Z",
-"type": "encounter",
-"when": "2026-08-19T07:20:00.000Z",
-"eez": "Chinese Exclusive Economic Zone",
-"flag": "ASM",
-"authorization": "no_record",
-"severity_reason": "foreign vessel, no authorization on record",
-"lat": 27.9655,
-"lon": 122.4831,
-"ship_name": "ZHELINGYU26820"
-},
-{
-"id": "live_enco_833ff1065dfad8",
-"first_seen": "2026-08-23T02:00:21Z",
-"type": "encounter",
-"when": "2026-08-19T20:50:00.000Z",
-"eez": "Kiribati Exclusive Economic Zone (Phoenix Group)",
-"flag": "MHL",
-"authorization": "authorization_lapsed",
-"severity_reason": "foreign vessel, authorization lapsed",
-"lat": 0.0289,
-"lon": -171.6872,
-"ship_name": "LOMALO"
-},
-{
-"id": "live_enco_ea744a0a5298f9",
-"first_seen": "2026-08-23T02:00:21Z",
-"type": "encounter",
-"when": "2026-08-19T20:30:00.000Z",
-"eez": "Sierra Leonean Exclusive Economic Zone",
-"flag": "CHN",
-"authorization": "no_record",
-"severity_reason": "foreign vessel, no authorization on record",
-"lat": 8.5078,
-"lon": -13.5936,
-"ship_name": "YUANYU709"
-},
-{
-"id": "live_enco_559c0ea86e940e",
-"first_seen": "2026-08-23T02:00:21Z",
-"type": "encounter",
-"when": "2026-08-19T04:30:00.000Z",
-"eez": "Overlapping claim Taiwan: Taiwan / China",
-"flag": "CHN",
-"authorization": "no_record",
-"severity_reason": "foreign vessel, no authorization on record",
-"lat": 25.8683,
-"lon": 121.1799,
-"ship_name": "LEEBUU"
-},
-{
-"id": "live_enco_fb2dda92164f0f",
-"first_seen": "2026-08-23T02:00:21Z",
-"type": "encounter",
-"when": "2026-08-19T20:10:00.000Z",
-"eez": "Sierra Leonean Exclusive Economic Zone",
-"flag": "CHN",
-"authorization": "no_record",
-"severity_reason": "foreign vessel, no authorization on record",
-"lat": 8.5079,
-"lon": -13.5935,
-"ship_name": "YUANYU709"
 }
 ]
 }
