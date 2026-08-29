@@ -1,9 +1,9 @@
 # Incident `live_ais__bc4c78f63bc21b`
 
 - **MPA:** AIS disabling (going dark)
-- **Severity:** HIGH (foreign vessel, no authorization on record)
+- **Severity:** HIGH (foreign vessel, authorization lapsed)
 - **EEZ:** Papua New Guinean Exclusive Economic Zone (Papua New Guinea) -- FOREIGN-flagged vessel
-- **Authorization:** No public authorization record (check coastal state)  ·  IMO 9086734
+- **Authorization:** Authorization lapsed before this date: FFA, IOTC, WCPFC  ·  IMO 9960071
 - **Vessel:** 🇯🇵 FUKUICHIMARU NO81  ·  **signal:** AIS gap
 - **When (UTC):** 2026-08-23T03:10:43.000Z → 2026-08-24T00:01:39.000Z
 - **Gap:** 20.8 h dark, 165.0 nm offshore

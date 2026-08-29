@@ -1,9 +1,9 @@
 # Incident `live_enco_8976dedcd356f9`
 
 - **MPA:** At-sea encounter (transshipment)
-- **Severity:** HIGH (foreign vessel, authorization lapsed)
+- **Severity:** HIGH (foreign vessel, no authorization on record)
 - **EEZ:** Russian Exclusive Economic Zone (Russia) -- FOREIGN-flagged vessel
-- **Authorization:** Authorization lapsed before this date: NPFC, SPRFMO  ·  IMO 8724339
+- **Authorization:** No public authorization record (check coastal state)
 - **Vessel:** 🇨🇳 HAI XING  ·  **signal:** Encounter
 - **When (UTC):** 2026-08-25T00:10:00.000Z → 2026-08-25T23:50:00.000Z
 - **Encounter:** 23.7 h with carrier `273219590` (apparent transshipment)
