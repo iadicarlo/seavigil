@@ -1,6 +1,58 @@
 {
-"generated_at": "2026-08-28T18:44:47Z",
+"generated_at": "2026-08-29T02:13:12Z",
 "alerts": [
+{
+"id": "live_enco_8976dedcd356f9",
+"first_seen": "2026-08-29T02:13:12Z",
+"type": "encounter",
+"when": "2026-08-25T00:10:00.000Z",
+"eez": "Russian Exclusive Economic Zone",
+"flag": "CHN",
+"authorization": "authorization_lapsed",
+"severity_reason": "foreign vessel, authorization lapsed",
+"lat": 62.3142,
+"lon": 177.5345,
+"ship_name": "HAI XING"
+},
+{
+"id": "live_enco_5895f8bc6749e4",
+"first_seen": "2026-08-29T02:13:12Z",
+"type": "encounter",
+"when": "2026-08-25T09:20:00.000Z",
+"eez": "Vietnamese Exclusive Economic Zone",
+"flag": "PCN",
+"authorization": "no_record",
+"severity_reason": "foreign vessel, no authorization on record",
+"lat": 7.0087,
+"lon": 107.9855,
+"ship_name": "21>B5S2"
+},
+{
+"id": "live_enco_a260aa8ac84e4d",
+"first_seen": "2026-08-29T02:13:12Z",
+"type": "encounter",
+"when": "2026-08-25T08:20:00.000Z",
+"eez": "South Korean Exclusive Economic Zone",
+"flag": "CHN",
+"authorization": "no_record",
+"severity_reason": "foreign vessel, no authorization on record",
+"lat": 32.2362,
+"lon": 124.416,
+"ship_name": "ZHELINYU21848"
+},
+{
+"id": "live_enco_e598b4fd607971",
+"first_seen": "2026-08-29T02:13:12Z",
+"type": "encounter",
+"when": "2026-08-25T16:20:00.000Z",
+"eez": "South Korean Exclusive Economic Zone",
+"flag": "CHN",
+"authorization": "no_record",
+"severity_reason": "foreign vessel, no authorization on record",
+"lat": 32.1798,
+"lon": 124.534,
+"ship_name": "MINFUDINGYU05112"
+},
 {
 "id": "live_ais__3ae7a136c9cfe5",
 "first_seen": "2026-08-28T18:44:47Z",
@@ -2548,58 +2600,6 @@
 "lat": -38.4176,
 "lon": 151.7808,
 "ship_name": "ESBJORN 02-99%"
-},
-{
-"id": "live_ais__c67d8baa871e78",
-"first_seen": "2026-08-23T11:36:19Z",
-"type": "ais_disabling",
-"when": "2026-08-17T11:07:26.000Z",
-"eez": "Australian Exclusive Economic Zone",
-"flag": "ISL",
-"authorization": "no_record",
-"severity_reason": "foreign vessel, no authorization on record",
-"lat": -38.4267,
-"lon": 151.7793,
-"ship_name": "ESBJORN 06-99%"
-},
-{
-"id": "live_ais__3caa252cd3f92e",
-"first_seen": "2026-08-23T11:36:19Z",
-"type": "ais_disabling",
-"when": "2026-08-17T08:26:39.000Z",
-"eez": "Australian Exclusive Economic Zone",
-"flag": "ISL",
-"authorization": "no_record",
-"severity_reason": "foreign vessel, no authorization on record",
-"lat": -38.4947,
-"lon": 151.759,
-"ship_name": "ESBJORN 10-99%"
-},
-{
-"id": "live_ais__7ee55de312dc07",
-"first_seen": "2026-08-23T11:36:19Z",
-"type": "ais_disabling",
-"when": "2026-08-19T02:40:55.000Z",
-"eez": "French Exclusive Economic Zone (French Polynesia)",
-"flag": "CYM",
-"authorization": "no_record",
-"severity_reason": "foreign vessel, no authorization on record",
-"lat": -16.5701,
-"lon": -147.1067,
-"ship_name": "PLAN B"
-},
-{
-"id": "live_ais__a9521dd89d224a",
-"first_seen": "2026-08-23T11:36:19Z",
-"type": "ais_disabling",
-"when": "2026-08-17T11:16:37.000Z",
-"eez": "Chilean Exclusive Economic Zone",
-"flag": "MHL",
-"authorization": "no_record",
-"severity_reason": "foreign vessel, no authorization on record",
-"lat": -47.3912,
-"lon": -76.1658,
-"ship_name": "PARITY"
 }
 ]
 }
