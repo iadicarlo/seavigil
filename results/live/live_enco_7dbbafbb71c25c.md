@@ -3,7 +3,7 @@
 - **MPA:** At-sea encounter (transshipment)
 - **Severity:** HIGH (foreign vessel, no authorization on record)
 - **EEZ:** Overlapping claim Kuril Islands: Japan / Russia (Japan) -- FOREIGN-flagged vessel
-- **Authorization:** No public authorization record (check coastal state)
+- **Authorization:** No public authorization record (check coastal state)  ·  IMO 9053270
 - **Vessel:** 🇷🇺 MYS LEVENORNA  ·  **signal:** Encounter
 - **When (UTC):** 2026-08-26T08:00:00.000Z → 2026-08-26T23:50:00.000Z
 - **Encounter:** 15.8 h with carrier `273384930` (apparent transshipment)
