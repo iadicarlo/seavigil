@@ -610,8 +610,8 @@
     "centroid_lat": 70.0073,
     "time_start_utc": "2026-08-26T18:20:00.000Z",
     "time_end_utc": "2026-08-26T23:00:00.000Z",
-    "vessel_id": "331701000",
-    "ship_name": "LYKKE BOHM",
+    "vessel_id": "331220000",
+    "ship_name": "JULIA NADUK",
     "ship_type": "Fishing",
     "flag": "GRL",
     "flag_emoji": "\ud83c\uddec\ud83c\uddf1",
@@ -624,12 +624,12 @@
     "_no_take": false,
     "mpa_name": "At-sea encounter (transshipment)",
     "duration_hours": 4.7,
-    "carrier_mmsi": "331220000",
+    "carrier_mmsi": "331701000",
     "explanation": {
       "method": "GFW Events encounters dataset (Miller et al. 2018).",
       "drivers": [
         "two vessels within range for 5 h",
-        "counterpart: JULIA NADUK",
+        "counterpart: LYKKE BOHM",
         "two-vessel at-sea encounter (GFW Events)"
       ]
     },
@@ -645,12 +645,12 @@
     "authorization_status": "no_record",
     "authorization_authorities": [],
     "registry_iuu_tag": false,
-    "registry_flag": "",
+    "registry_flag": "GRL",
     "registry_imo": "",
     "severity": "high",
     "severity_reason": "foreign vessel, no authorization on record",
     "evidence_schema": "seavigil-evidence-1.0",
-    "evidence_hash": "ccbd46981fdfd77a8a523d335c8f8e2e38232f4e64f57c97a8adbe4fdc9d4419"
+    "evidence_hash": "638f1b7318a97ec257ab38907874b7fcacaaa38f92a80c3413575eba4e1bd7ac"
   },
   {
     "incident_id": "live_enco_5ae10f12133d6e",
