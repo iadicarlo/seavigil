@@ -1,0 +1,40 @@
+# Dark-vessel detection `s1sar__scene_0000`
+
+- **MPA:** Sentinel-1 SAR detection
+- **Severity:** LOW (SAR-detected vessel (broadcasting unverified))
+- **EEZ:** Peruvian Exclusive Economic Zone (Peru)
+- **Authorization:** No vessel identity; authorization not checkable
+- **Vessel:** (SAR detection -- no AIS identity)  ·  **source:** Sentinel-1 SAR (our detection)
+- **When (UTC):** 
+- **Length:** 181 m  ·  **broadcasting AIS:** no (dark)  ·  **GFW fishing-score:** 0.00
+- **Where:** -11.844, -77.421
+
+## Why this was flagged
+
+_Sentinel-1 SAR, Allen Institute open detector (Apache-2.0), run on demand by SeaVigil.._
+
+- Sentinel-1 SAR detection, confidence 0.99
+- length 181 m (industrial scale)
+- classified non-fishing vessel (p=0.00)
+- heading about 112 deg at 7 kn
+
+## Could be innocent
+
+A radar contact with no AIS may be a vessel not required to broadcast, sea clutter, or fixed infrastructure; treat as a lead to confirm.
+
+## Caveats
+
+- A SAR detection is a radar blip: it has a position and a size, not an identity.
+- Length, heading and the fishing-vessel class are model estimates, not ground truth.
+- Dark means no AIS broadcast matched at the acquisition time; without an AIS feed the broadcasting status is unverified, not assumed.
+- An inspection lead, not proof of illegal activity.
+
+## Provenance & integrity
+
+- Global Fishing Watch Sentinel-1 SAR vessel detections (Paolo et al., Nature 2024). CC BY-NC 4.0 (non-commercial).
+- WDPA / WD-OECM (World Database on Protected Areas) (UNEP-WCMC and IUCN (2026), June 2026). Protected Planet Terms of Use (non-commercial, display-only).
+- Marine Regions Exclusive Economic Zones v12 (Flanders Marine Institute (2024), DOI 10.14284/632). CC BY 4.0.
+- **Integrity (SHA-256 of canonical facts):** `d3d0fb06b0fec17d626c6f95ec4ce9d13a4907776f1cdb37010980ad37c95c78`
+- **Evidence schema:** seavigil-evidence-1.0
+
+_Apparent activity and an inspection lead, not proof of illegality. AIS and SAR evidence have known coverage gaps and spoofing risks; verify against authoritative sources before any enforcement action._
