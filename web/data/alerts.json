@@ -1,6 +1,45 @@
 {
-"generated_at": "2026-08-30T17:31:10Z",
+"generated_at": "2026-08-30T21:08:44Z",
 "alerts": [
+{
+"id": "live_enco_a26e9cc1b8faab",
+"first_seen": "2026-08-30T21:08:44Z",
+"type": "encounter",
+"when": "2026-08-26T20:00:00.000Z",
+"eez": "Vietnamese Exclusive Economic Zone",
+"flag": "USA",
+"authorization": "no_record",
+"severity_reason": "foreign vessel, no authorization on record",
+"lat": 10.0123,
+"lon": 104.0179,
+"ship_name": "THU@SON@85@D5"
+},
+{
+"id": "live_enco_f3c34052a049f1",
+"first_seen": "2026-08-30T21:08:44Z",
+"type": "encounter",
+"when": "2026-08-26T00:00:00.000Z",
+"eez": "Chinese Exclusive Economic Zone",
+"flag": "COD",
+"authorization": "no_record",
+"severity_reason": "foreign vessel, no authorization on record",
+"lat": 21.7419,
+"lon": 114.5187,
+"ship_name": ""
+},
+{
+"id": "live_enco_b2867260f7bc22",
+"first_seen": "2026-08-30T21:08:44Z",
+"type": "encounter",
+"when": "2026-08-26T02:10:00.000Z",
+"eez": "Chinese Exclusive Economic Zone",
+"flag": "CYP",
+"authorization": "no_record",
+"severity_reason": "foreign vessel, no authorization on record",
+"lat": 32.0892,
+"lon": 124.0443,
+"ship_name": "MINXIAYU01806"
+},
 {
 "id": "live_ais__a2bdb7ce0c5a2b",
 "first_seen": "2026-08-30T12:55:34Z",
@@ -2561,45 +2600,6 @@
 "lat": 19.0777,
 "lon": 106.3829,
 "ship_name": "HOA MAI   D27   :"
-},
-{
-"id": "live_enco_2a8f37b94205ab",
-"first_seen": "2026-08-25T01:53:19Z",
-"type": "encounter",
-"when": "2026-08-21T13:40:00.000Z",
-"eez": "Vietnamese Exclusive Economic Zone",
-"flag": "LBN",
-"authorization": "no_record",
-"severity_reason": "foreign vessel, no authorization on record",
-"lat": 19.348,
-"lon": 106.2605,
-"ship_name": "HUNG VAN   01    C12"
-},
-{
-"id": "live_enco_76a21caa492b06",
-"first_seen": "2026-08-25T01:53:19Z",
-"type": "encounter",
-"when": "2026-08-21T09:20:00.000Z",
-"eez": "Overlapping claim Taiwan: Taiwan / China",
-"flag": "CHN",
-"authorization": "no_record",
-"severity_reason": "foreign vessel, no authorization on record",
-"lat": 25.387,
-"lon": 120.6352,
-"ship_name": "MINSHIYU06918"
-},
-{
-"id": "live_enco_5695fbe4c97dbc",
-"first_seen": "2026-08-25T01:53:19Z",
-"type": "encounter",
-"when": "2026-08-21T13:40:00.000Z",
-"eez": "Vietnamese Exclusive Economic Zone",
-"flag": "LBN",
-"authorization": "no_record",
-"severity_reason": "foreign vessel, no authorization on record",
-"lat": 19.3478,
-"lon": 106.2604,
-"ship_name": "HUNG VAN   01    C12"
 }
 ]
 }

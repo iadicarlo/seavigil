@@ -1,20 +1,20 @@
-# Incident `live_enco_67fc3c554742b0`
+# Incident `live_enco_a26e9cc1b8faab`
 
 - **MPA:** At-sea encounter (transshipment)
 - **Severity:** HIGH (foreign vessel, no authorization on record)
-- **EEZ:** South Korean Exclusive Economic Zone (South Korea) -- FOREIGN-flagged vessel
+- **EEZ:** Vietnamese Exclusive Economic Zone (Vietnam) -- FOREIGN-flagged vessel
 - **Authorization:** No public authorization record (check coastal state)
-- **Vessel:** 🇸🇴 ZHEXIANGYU60037  ·  **signal:** Encounter
-- **When (UTC):** 2026-08-26T14:30:00.000Z → 2026-08-26T23:50:00.000Z
-- **Encounter:** 9.3 h with carrier `412441671` (apparent transshipment)
-- **Where:** 32.574, 124.323
+- **Vessel:** 🇺🇸 THU@SON@85@D5  ·  **signal:** Encounter
+- **When (UTC):** 2026-08-26T20:00:00.000Z → 2026-08-26T23:50:00.000Z
+- **Encounter:** 3.8 h with carrier `574568898` (apparent transshipment)
+- **Where:** 10.012, 104.018
 
 ## Why this was flagged
 
 _GFW Events encounters dataset (Miller et al. 2018).._
 
-- two vessels within range for 9 h
-- counterpart: MINXIAYU01535
+- two vessels within range for 4 h
+- counterpart: TAU TAI 9 XUYEN
 - two-vessel at-sea encounter (GFW Events)
 
 ## Could be innocent
@@ -31,7 +31,7 @@ Two vessels meeting at sea can be a legitimate transfer, bunkering, or a safety 
 
 - WDPA / WD-OECM (World Database on Protected Areas) (UNEP-WCMC and IUCN (2026), June 2026). Protected Planet Terms of Use (non-commercial, display-only).
 - Marine Regions Exclusive Economic Zones v12 (Flanders Marine Institute (2024), DOI 10.14284/632). CC BY 4.0.
-- **Integrity (SHA-256 of canonical facts):** `c3ef09a4ccc9f7d805f69e166722298c95fec76199be78e1c25ff9600a14e81d`
+- **Integrity (SHA-256 of canonical facts):** `93b9cd24005395218a091af6a88f4891ce7ca121355ddf55c6265021b360aae2`
 - **Evidence schema:** seavigil-evidence-1.0
 
 _Apparent activity and an inspection lead, not proof of illegality. AIS and SAR evidence have known coverage gaps and spoofing risks; verify against authoritative sources before any enforcement action._
