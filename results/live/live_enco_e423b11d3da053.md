@@ -1,9 +1,9 @@
 # Incident `live_enco_e423b11d3da053`
 
 - **MPA:** At-sea encounter (transshipment)
-- **Severity:** HIGH (foreign vessel, no authorization on record)
+- **Severity:** HIGH (foreign vessel, authorization lapsed)
 - **EEZ:** Norwegian Exclusive Economic Zone (Norway) -- FOREIGN-flagged vessel
-- **Authorization:** No public authorization record (check coastal state)
+- **Authorization:** Authorization lapsed before this date: NEAFC  ·  IMO 8607414
 - **Vessel:** 🇷🇺 BORIS SYROMYATNIKOV  ·  **signal:** Encounter
 - **When (UTC):** 2026-08-26T08:20:00.000Z → 2026-08-27T23:40:00.000Z
 - **Encounter:** 39.3 h with carrier `257900000` (apparent transshipment)

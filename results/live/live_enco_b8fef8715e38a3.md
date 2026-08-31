@@ -1,9 +1,9 @@
 # Incident `live_enco_b8fef8715e38a3`
 
 - **MPA:** At-sea encounter (transshipment)
-- **Severity:** HIGH (foreign vessel, no authorization on record)
+- **Severity:** HIGH (foreign vessel, authorization lapsed)
 - **EEZ:** South Korean Exclusive Economic Zone (South Korea) -- FOREIGN-flagged vessel
-- **Authorization:** No public authorization record (check coastal state)
+- **Authorization:** Authorization lapsed before this date: NPFC  ·  IMO 9929168
 - **Vessel:** 🇨🇳 MINXIAYU09866  ·  **signal:** Encounter
 - **When (UTC):** 2026-08-27T00:00:00.000Z → 2026-08-27T23:50:00.000Z
 - **Encounter:** 23.8 h with carrier `900009866` (apparent transshipment)

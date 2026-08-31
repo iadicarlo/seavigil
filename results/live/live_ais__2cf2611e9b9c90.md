@@ -1,19 +1,19 @@
-# Incident `live_ais__9b571ceb5cedf5`
+# Incident `live_ais__2cf2611e9b9c90`
 
 - **MPA:** AIS disabling (going dark)
 - **Severity:** HIGH (foreign vessel, no authorization on record)
-- **EEZ:** Micronesian Exclusive Economic Zone (Micronesia) -- FOREIGN-flagged vessel
-- **Authorization:** No public authorization record (check coastal state)
-- **Vessel:** 🇸🇲 NETFISH268-02-99%  ·  **signal:** AIS gap
-- **When (UTC):** 2026-08-19T20:23:54.000Z → 2026-08-26T15:32:27.000Z
-- **Gap:** 163.1 h dark, 228.0 nm offshore
-- **Where:** 5.363, 159.785
+- **EEZ:** Overlapping claim Navassa Island: United States / Haiti / Jamaica (Haiti) -- FOREIGN-flagged vessel
+- **Authorization:** No public authorization record (check coastal state)  ·  IMO 9552367
+- **Vessel:** 🇲🇭 KP ALBATROSS  ·  **signal:** AIS gap
+- **When (UTC):** 2026-08-26T21:14:03.000Z → 2026-08-27T12:59:56.000Z
+- **Gap:** 15.8 h dark, 63.0 nm offshore
+- **Where:** 17.776, -75.121
 
 ## Why this was flagged
 
 _GFW Events gaps dataset (satellite AIS).._
 
-- went dark 228 nm offshore for 163 h
+- went dark 63 nm offshore for 16 h
 - satellite-confirmed AIS gap (GFW Events)
 
 ## Could be innocent
@@ -31,7 +31,7 @@ Going dark is frequently benign: in open water, where gaps are commonly protecti
 - NOAA Marine Cadastre AIS (marinecadastre.gov/ais (vessel positions)). US public domain.
 - WDPA / WD-OECM (World Database on Protected Areas) (UNEP-WCMC and IUCN (2026), June 2026). Protected Planet Terms of Use (non-commercial, display-only).
 - Marine Regions Exclusive Economic Zones v12 (Flanders Marine Institute (2024), DOI 10.14284/632). CC BY 4.0.
-- **Integrity (SHA-256 of canonical facts):** `9e433f566dcb47dfe7e784c695f4339122c6f2ab848c17df6cb74dc3ba422cf6`
+- **Integrity (SHA-256 of canonical facts):** `3af0b89713ace9d088c368442445c94872e7a9318b8c9d3be8346c66f48d108d`
 - **Evidence schema:** seavigil-evidence-1.0
 
 _Apparent activity and an inspection lead, not proof of illegality. AIS and SAR evidence have known coverage gaps and spoofing risks; verify against authoritative sources before any enforcement action._
