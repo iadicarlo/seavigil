@@ -439,60 +439,6 @@
     "evidence_hash": "015c4ce99d33aae51809050b64d786b2caf0407f91a7e3544cce404fa0b81f3a"
   },
   {
-    "incident_id": "live_enco_ab665573464eae",
-    "type": "encounter",
-    "centroid_lon": 117.8858,
-    "centroid_lat": 23.6716,
-    "time_start_utc": "2026-08-28T07:40:00.000Z",
-    "time_end_utc": "2026-08-28T21:40:00.000Z",
-    "vessel_id": "210400451",
-    "ship_name": "03988",
-    "ship_type": "Fishing",
-    "flag": "CYP",
-    "flag_emoji": "\ud83c\udde8\ud83c\uddfe",
-    "gear": "Encounter",
-    "n_positions": 0,
-    "n_fishing_positions": 0,
-    "mean_fishing_proba": null,
-    "max_fishing_proba": null,
-    "_rfmo": [
-      "WCPFC",
-      "APFIC",
-      "IWC",
-      "ACAP"
-    ],
-    "_no_take": false,
-    "mpa_name": "At-sea encounter (transshipment)",
-    "duration_hours": 14.0,
-    "carrier_mmsi": "412446127",
-    "explanation": {
-      "method": "GFW Events encounters dataset (Miller et al. 2018).",
-      "drivers": [
-        "two vessels within range for 14 h",
-        "counterpart: MINDONGYU63050",
-        "two-vessel at-sea encounter (GFW Events)"
-      ]
-    },
-    "caveats": [
-      "Co-location can be legitimate (joint operations, safety, shelter).",
-      "Apparent transshipment is inferred from proximity and low speed, not observed.",
-      "An inspection lead from GFW Events, not proof of illegal activity."
-    ],
-    "eez_name": "Chinese Exclusive Economic Zone",
-    "eez_sovereign": "China",
-    "eez_iso_sov": "CHN",
-    "eez_foreign": true,
-    "authorization_status": "no_record",
-    "authorization_authorities": [],
-    "registry_iuu_tag": false,
-    "registry_flag": "",
-    "registry_imo": "",
-    "severity": "high",
-    "severity_reason": "foreign vessel, no authorization on record",
-    "evidence_schema": "seavigil-evidence-1.0",
-    "evidence_hash": "5a1262d947fecad4ca35883de242c39906f97425c47a33ea846eb4b9fc4fad98"
-  },
-  {
     "incident_id": "live_enco_33f375fbc41f41",
     "type": "encounter",
     "centroid_lon": 124.6601,
