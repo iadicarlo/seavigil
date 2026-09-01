@@ -1,26 +1,25 @@
-# Incident `phoenix_islands_protected_area__drifting_longlines_251022003811177_0004`
+# Incident `papahanaumokuakea_marine_national_monument__drifting_longlines_263392518194890_0000`
 
-- **MPA:** Phoenix Islands Protected Area
+- **MPA:** Papahānaumokuākea Marine National Monument
 - **Severity:** HIGH (strict no-take reserve)  ·  boundary sample-approx-2024
-- **EEZ:** Kiribati Exclusive Economic Zone (Phoenix Group) (Kiribati)
-- **Vessel:** `drifting_longlines_251022003811177`  ·  **gear:** drifting_longlines
-- **When (UTC):** 2014-12-04T17:12:23Z → 2014-12-05T02:13:13Z (9.014 h)
-- **Apparent fishing:** 109 of 354 in-MPA positions; mean p=0.75, max p=0.92
-- **Where:** -3.627, -171.022 (centroid)
-- **Track:** 354 positions, (-4.043, -171.982) → (-3.536, -170.912)
+- **Vessel:** `drifting_longlines_263392518194890`  ·  **gear:** drifting_longlines
+- **When (UTC):** 2014-09-30T21:54:30Z → 2014-09-30T21:54:30Z (0.0 h)
+- **Apparent fishing:** 1 of 42 in-MPA positions; mean p=0.53, max p=0.53
+- **Where:** 28.225, -163.434 (centroid)
+- **Track:** 42 positions, (26.179, -163.897) → (28.225, -163.434)
 - **Vs. speed baseline:** the trivial rule (speed < 10.7 kn) also flags 100% of these positions; the rule agrees on this slow visit, but globally the model beats the speed rule by a wide margin (PR-AUC 0.93 vs 0.40), rejecting slow non-fishing transits and catching fast working passes.
 
 ## Why this was flagged
 
-_mean per-position SHAP (fishing class) over the incident's fishing positions (sampled 50 of 109)._
+_mean per-position SHAP (fishing class) over the incident's fishing positions._
 
 | feature | mean value | mean SHAP |
 |---|---:|---:|
-| `speed_roll_mean` | 4.846 | +0.130 |
-| `speed` | 4.624 | +0.124 |
-| `speed_roll_std` | 0.584 | +0.025 |
-| `distance_from_port` | 118144.550 | -0.022 |
-| `hour_cos` | 0.932 | -0.014 |
+| `distance_from_shore` | 592259.875 | +0.118 |
+| `speed_roll_mean` | 10.100 | -0.105 |
+| `speed` | 10.100 | -0.094 |
+| `distance_from_port` | 626661.562 | +0.087 |
+| `speed_roll_std` | 0.245 | +0.036 |
 
 ## Could be innocent
 
@@ -39,7 +38,7 @@ Apparent-fishing movement can also be slow transit or drifting; the model reject
 - WDPA / WD-OECM (World Database on Protected Areas) (UNEP-WCMC and IUCN (2026), June 2026). Protected Planet Terms of Use (non-commercial, display-only).
 - Marine Regions Exclusive Economic Zones v12 (Flanders Marine Institute (2024), DOI 10.14284/632). CC BY 4.0.
 - **Model confidence:** Fishing probabilities are well-calibrated (Brier 0.0915 on 408,194 held-out positions from vessels not seen in training); read the score as a probability.
-- **Integrity (SHA-256 of canonical facts):** `48bc24c5684b2f775360bcfa1d8ca023efd2308bd79f812f0e224df777027685`
+- **Integrity (SHA-256 of canonical facts):** `84f51bd875a69a0a8d6d88c6ff512b24f97b33913496ebea215450d85d42723d`
 - **Evidence schema:** seavigil-evidence-1.0
 
 _Apparent activity and an inspection lead, not proof of illegality. AIS and SAR evidence have known coverage gaps and spoofing risks; verify against authoritative sources before any enforcement action._

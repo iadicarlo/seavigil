@@ -16,11 +16,11 @@ _mean per-position SHAP (fishing class) over the incident's fishing positions (s
 
 | feature | mean value | mean SHAP |
 |---|---:|---:|
-| `speed_roll_mean` | 5.368 | +0.134 |
-| `speed` | 5.388 | +0.117 |
-| `distance_from_shore` | 76615.002 | +0.081 |
-| `speed_roll_std` | 0.470 | +0.032 |
-| `distance_from_port` | 175494.784 | -0.008 |
+| `speed_roll_mean` | 5.368 | +0.135 |
+| `speed` | 5.388 | +0.114 |
+| `distance_from_shore` | 76615.002 | +0.082 |
+| `speed_roll_std` | 0.470 | +0.033 |
+| `distance_from_port` | 175494.784 | -0.009 |
 
 ## Could be innocent
 
@@ -39,7 +39,7 @@ Apparent-fishing movement can also be slow transit or drifting; the model reject
 - WDPA / WD-OECM (World Database on Protected Areas) (UNEP-WCMC and IUCN (2026), June 2026). Protected Planet Terms of Use (non-commercial, display-only).
 - Marine Regions Exclusive Economic Zones v12 (Flanders Marine Institute (2024), DOI 10.14284/632). CC BY 4.0.
 - **Model confidence:** Fishing probabilities are well-calibrated (Brier 0.0915 on 408,194 held-out positions from vessels not seen in training); read the score as a probability.
-- **Integrity (SHA-256 of canonical facts):** `158f296e4ca282f442b01cea8f2f3884155b5b96bec281bfe23e7ec3580ef98e`
+- **Integrity (SHA-256 of canonical facts):** `013698f2c7eea56017447b3fc06a1fb090fe2bf5d9577564f95606d8015f2876`
 - **Evidence schema:** seavigil-evidence-1.0
 
 _Apparent activity and an inspection lead, not proof of illegality. AIS and SAR evidence have known coverage gaps and spoofing risks; verify against authoritative sources before any enforcement action._

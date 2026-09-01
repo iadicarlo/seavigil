@@ -5,22 +5,22 @@
 - **EEZ:** Kiribati Exclusive Economic Zone (Phoenix Group) (Kiribati)
 - **Vessel:** `drifting_longlines_251022003811177`  ·  **gear:** drifting_longlines
 - **When (UTC):** 2014-12-07T21:40:47Z → 2014-12-07T23:24:48Z (1.734 h)
-- **Apparent fishing:** 80 of 82 in-MPA positions; mean p=0.68, max p=0.82
-- **Where:** -3.322, -170.413 (centroid)
+- **Apparent fishing:** 79 of 82 in-MPA positions; mean p=0.68, max p=0.83
+- **Where:** -3.322, -170.412 (centroid)
 - **Track:** 82 positions, (-3.294, -170.292) → (-3.342, -170.506)
 - **Vs. speed baseline:** the trivial rule (speed < 10.7 kn) also flags 100% of these positions; the rule agrees on this slow visit, but globally the model beats the speed rule by a wide margin (PR-AUC 0.93 vs 0.40), rejecting slow non-fishing transits and catching fast working passes.
 
 ## Why this was flagged
 
-_mean per-position SHAP (fishing class) over the incident's fishing positions (sampled 50 of 80)._
+_mean per-position SHAP (fishing class) over the incident's fishing positions (sampled 50 of 79)._
 
 | feature | mean value | mean SHAP |
 |---|---:|---:|
-| `hour_cos` | 0.923 | +0.071 |
-| `hour_sin` | -0.350 | +0.041 |
-| `distance_from_port` | 155192.217 | +0.035 |
-| `distance_from_shore` | 55894.819 | +0.030 |
-| `speed_roll_std` | 0.322 | +0.018 |
+| `hour_cos` | 0.926 | +0.071 |
+| `hour_sin` | -0.341 | +0.041 |
+| `distance_from_port` | 154754.615 | +0.037 |
+| `distance_from_shore` | 55539.928 | +0.028 |
+| `speed_roll_std` | 0.307 | +0.018 |
 
 ## Could be innocent
 
@@ -39,7 +39,7 @@ Apparent-fishing movement can also be slow transit or drifting; the model reject
 - WDPA / WD-OECM (World Database on Protected Areas) (UNEP-WCMC and IUCN (2026), June 2026). Protected Planet Terms of Use (non-commercial, display-only).
 - Marine Regions Exclusive Economic Zones v12 (Flanders Marine Institute (2024), DOI 10.14284/632). CC BY 4.0.
 - **Model confidence:** Fishing probabilities are well-calibrated (Brier 0.0915 on 408,194 held-out positions from vessels not seen in training); read the score as a probability.
-- **Integrity (SHA-256 of canonical facts):** `2511a2e115811f8ee788268d069fb3cd08e915a8fbf98ae3c6389f9df27431e4`
+- **Integrity (SHA-256 of canonical facts):** `34bd7ef6ebb4627803c84aabb30703ed7ec6e302856a542d50a237acc1b4869c`
 - **Evidence schema:** seavigil-evidence-1.0
 
 _Apparent activity and an inspection lead, not proof of illegality. AIS and SAR evidence have known coverage gaps and spoofing risks; verify against authoritative sources before any enforcement action._

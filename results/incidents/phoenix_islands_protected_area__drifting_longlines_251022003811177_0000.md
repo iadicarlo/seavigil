@@ -5,22 +5,22 @@
 - **EEZ:** Kiribati Exclusive Economic Zone (Phoenix Group) (Kiribati)
 - **Vessel:** `drifting_longlines_251022003811177`  ·  **gear:** drifting_longlines
 - **When (UTC):** 2014-11-27T23:44:50Z → 2014-12-02T02:30:47Z (98.766 h)
-- **Apparent fishing:** 973 of 1150 in-MPA positions; mean p=0.87, max p=1.00
+- **Apparent fishing:** 972 of 1150 in-MPA positions; mean p=0.87, max p=1.00
 - **Where:** -2.540, -172.558 (centroid)
 - **Track:** 1150 positions, (-2.108, -171.095) → (-3.024, -174.594)
 - **Vs. speed baseline:** the trivial rule (speed < 10.7 kn) also flags 100% of these positions; the rule agrees on this slow visit, but globally the model beats the speed rule by a wide margin (PR-AUC 0.93 vs 0.40), rejecting slow non-fishing transits and catching fast working passes.
 
 ## Why this was flagged
 
-_mean per-position SHAP (fishing class) over the incident's fishing positions (sampled 50 of 973)._
+_mean per-position SHAP (fishing class) over the incident's fishing positions (sampled 50 of 972)._
 
 | feature | mean value | mean SHAP |
 |---|---:|---:|
 | `speed_roll_mean` | 4.712 | +0.132 |
-| `speed` | 4.756 | +0.118 |
-| `distance_from_shore` | 73100.393 | +0.074 |
-| `speed_roll_std` | 0.503 | +0.033 |
-| `distance_from_port` | 148613.929 | +0.006 |
+| `speed` | 4.772 | +0.114 |
+| `distance_from_shore` | 73042.650 | +0.074 |
+| `speed_roll_std` | 0.510 | +0.035 |
+| `distance_from_port` | 146581.942 | +0.006 |
 
 ## Could be innocent
 
@@ -39,7 +39,7 @@ Apparent-fishing movement can also be slow transit or drifting; the model reject
 - WDPA / WD-OECM (World Database on Protected Areas) (UNEP-WCMC and IUCN (2026), June 2026). Protected Planet Terms of Use (non-commercial, display-only).
 - Marine Regions Exclusive Economic Zones v12 (Flanders Marine Institute (2024), DOI 10.14284/632). CC BY 4.0.
 - **Model confidence:** Fishing probabilities are well-calibrated (Brier 0.0915 on 408,194 held-out positions from vessels not seen in training); read the score as a probability.
-- **Integrity (SHA-256 of canonical facts):** `a082543567b118e77fd21a7230a8a32c5b89d3bacda7564059aa441ba2a0fbf4`
+- **Integrity (SHA-256 of canonical facts):** `511483a826aa8bd52ae94536786fa80014f13ddc814e10c64e8c6ead17ccfece`
 - **Evidence schema:** seavigil-evidence-1.0
 
 _Apparent activity and an inspection lead, not proof of illegality. AIS and SAR evidence have known coverage gaps and spoofing risks; verify against authoritative sources before any enforcement action._

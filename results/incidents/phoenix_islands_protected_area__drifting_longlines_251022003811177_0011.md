@@ -4,23 +4,23 @@
 - **Severity:** HIGH (strict no-take reserve)  ·  boundary sample-approx-2024
 - **EEZ:** Kiribati Exclusive Economic Zone (Phoenix Group) (Kiribati)
 - **Vessel:** `drifting_longlines_251022003811177`  ·  **gear:** drifting_longlines
-- **When (UTC):** 2014-12-13T19:04:29Z → 2014-12-13T19:04:29Z (0.0 h)
-- **Apparent fishing:** 1 of 8 in-MPA positions; mean p=0.50, max p=0.50
-- **Where:** -3.375, -170.445 (centroid)
-- **Track:** 8 positions, (-3.375, -170.445) → (-3.374, -170.437)
+- **When (UTC):** 2014-12-14T06:56:25Z → 2014-12-14T11:43:42Z (4.788 h)
+- **Apparent fishing:** 160 of 160 in-MPA positions; mean p=0.92, max p=0.98
+- **Where:** -3.471, -170.251 (centroid)
+- **Track:** 160 positions, (-3.390, -170.300) → (-3.614, -170.232)
 - **Vs. speed baseline:** the trivial rule (speed < 10.7 kn) also flags 100% of these positions; the rule agrees on this slow visit, but globally the model beats the speed rule by a wide margin (PR-AUC 0.93 vs 0.40), rejecting slow non-fishing transits and catching fast working passes.
 
 ## Why this was flagged
 
-_mean per-position SHAP (fishing class) over the incident's fishing positions._
+_mean per-position SHAP (fishing class) over the incident's fishing positions (sampled 50 of 160)._
 
 | feature | mean value | mean SHAP |
 |---|---:|---:|
-| `speed_roll_mean` | 6.540 | +0.074 |
-| `speed` | 7.200 | -0.053 |
-| `distance_from_port` | 153625.656 | -0.021 |
-| `distance_from_shore` | 47800.500 | -0.018 |
-| `hour_cos` | 0.276 | +0.018 |
+| `speed_roll_mean` | 3.237 | +0.183 |
+| `speed` | 3.270 | +0.160 |
+| `distance_from_shore` | 57698.559 | +0.057 |
+| `speed_roll_std` | 0.571 | +0.033 |
+| `distance_from_port` | 179125.385 | -0.019 |
 
 ## Could be innocent
 
@@ -39,7 +39,7 @@ Apparent-fishing movement can also be slow transit or drifting; the model reject
 - WDPA / WD-OECM (World Database on Protected Areas) (UNEP-WCMC and IUCN (2026), June 2026). Protected Planet Terms of Use (non-commercial, display-only).
 - Marine Regions Exclusive Economic Zones v12 (Flanders Marine Institute (2024), DOI 10.14284/632). CC BY 4.0.
 - **Model confidence:** Fishing probabilities are well-calibrated (Brier 0.0915 on 408,194 held-out positions from vessels not seen in training); read the score as a probability.
-- **Integrity (SHA-256 of canonical facts):** `7a61a25324875adf78b7a29f18ccbd3aed0a5f04e026fcbf8aeb3c5369b41d69`
+- **Integrity (SHA-256 of canonical facts):** `7d8078abefa430ea7e41dfcfa27d6fb1ee010997bfc5537ff29b1e11eea3e000`
 - **Evidence schema:** seavigil-evidence-1.0
 
 _Apparent activity and an inspection lead, not proof of illegality. AIS and SAR evidence have known coverage gaps and spoofing risks; verify against authoritative sources before any enforcement action._
