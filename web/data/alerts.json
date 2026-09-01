@@ -1,6 +1,32 @@
 {
-"generated_at": "2026-09-01T14:55:29Z",
+"generated_at": "2026-09-01T18:33:11Z",
 "alerts": [
+{
+"id": "live_enco_88a7df22612555",
+"first_seen": "2026-09-01T18:33:11Z",
+"type": "encounter",
+"when": "2026-08-28T19:00:00.000Z",
+"eez": "South Korean Exclusive Economic Zone",
+"flag": "CHN",
+"authorization": "no_record",
+"severity_reason": "foreign vessel, no authorization on record",
+"lat": 32.3731,
+"lon": 124.6011,
+"ship_name": "MINFUDINGYU01198"
+},
+{
+"id": "live_enco_f0a21996117a21",
+"first_seen": "2026-09-01T18:33:11Z",
+"type": "encounter",
+"when": "2026-08-28T05:10:00.000Z",
+"eez": "Vietnamese Exclusive Economic Zone",
+"flag": "PCN",
+"authorization": "no_record",
+"severity_reason": "foreign vessel, no authorization on record",
+"lat": 6.9252,
+"lon": 107.9223,
+"ship_name": "21>B5S2"
+},
 {
 "id": "live_ais__1b0f114c160385",
 "first_seen": "2026-09-01T14:55:29Z",
@@ -2574,32 +2600,6 @@
 "lat": -2.4647,
 "lon": -170.9709,
 "ship_name": "670000019         7V"
-},
-{
-"id": "live_ais__4bb66bdc952150",
-"first_seen": "2026-08-26T11:46:21Z",
-"type": "ais_disabling",
-"when": "2026-08-22T06:33:16.000Z",
-"eez": "Kiribati Exclusive Economic Zone (Phoenix Group)",
-"flag": "CHN",
-"authorization": "no_record",
-"severity_reason": "foreign vessel, no authorization on record",
-"lat": -2.1989,
-"lon": -169.524,
-"ship_name": "SYY31-2024-05-99%"
-},
-{
-"id": "live_ais__8ab88897b91f8d",
-"first_seen": "2026-08-26T11:46:21Z",
-"type": "ais_disabling",
-"when": "2026-08-22T08:04:33.000Z",
-"eez": "Kiribati Exclusive Economic Zone (Phoenix Group)",
-"flag": "CHN",
-"authorization": "no_record",
-"severity_reason": "foreign vessel, no authorization on record",
-"lat": -2.3645,
-"lon": -172.8872,
-"ship_name": "GYY338-02"
 }
 ]
 }
