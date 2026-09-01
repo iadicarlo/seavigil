@@ -4,9 +4,9 @@
 - **Severity:** HIGH (foreign vessel, no authorization on record)
 - **EEZ:** Overlapping claim: South China Sea (China) -- FOREIGN-flagged vessel
 - **Authorization:** No public authorization record (check coastal state)
-- **Vessel:** 🇻🇳 LHANHDAT=LU0I=CHUON  ·  **signal:** Encounter
+- **Vessel:** 🇻🇳 TAU 110  ·  **signal:** Encounter
 - **When (UTC):** 2026-08-28T09:40:00.000Z → 2026-08-28T21:00:00.000Z
-- **Encounter:** 11.3 h with carrier `574093356` (apparent transshipment)
+- **Encounter:** 11.3 h with carrier `574109999` (apparent transshipment)
 - **Where:** 13.568, 113.960
 
 ## Why this was flagged
@@ -14,7 +14,7 @@
 _GFW Events encounters dataset (Miller et al. 2018).._
 
 - two vessels within range for 11 h
-- counterpart: TAU 110
+- counterpart: LHANHDAT=LU0I=CHUON
 - two-vessel at-sea encounter (GFW Events)
 
 ## Could be innocent
@@ -31,7 +31,7 @@ Two vessels meeting at sea can be a legitimate transfer, bunkering, or a safety 
 
 - WDPA / WD-OECM (World Database on Protected Areas) (UNEP-WCMC and IUCN (2026), June 2026). Protected Planet Terms of Use (non-commercial, display-only).
 - Marine Regions Exclusive Economic Zones v12 (Flanders Marine Institute (2024), DOI 10.14284/632). CC BY 4.0.
-- **Integrity (SHA-256 of canonical facts):** `a484ff338281d5453878e36675a0057507271b17459cb950860c2436ddbfd649`
+- **Integrity (SHA-256 of canonical facts):** `6f74be71fa058b1fd7b77642977516e7d128e956156c4259959693d17751157e`
 - **Evidence schema:** seavigil-evidence-1.0
 
 _Apparent activity and an inspection lead, not proof of illegality. AIS and SAR evidence have known coverage gaps and spoofing risks; verify against authoritative sources before any enforcement action._

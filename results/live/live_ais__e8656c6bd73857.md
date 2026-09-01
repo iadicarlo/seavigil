@@ -1,9 +1,9 @@
 # Incident `live_ais__e8656c6bd73857`
 
 - **MPA:** AIS disabling (going dark)
-- **Severity:** HIGH (foreign vessel, no authorization on record)
+- **Severity:** HIGH (foreign vessel, authorization lapsed)
 - **EEZ:** Fijian Exclusive Economic Zone (Fiji) -- FOREIGN-flagged vessel
-- **Authorization:** No public authorization record (check coastal state)
+- **Authorization:** Authorization lapsed before this date: FFA, WCPFC  ·  IMO 8653619
 - **Vessel:** 🇨🇳 ZHONGSHUI 811  ·  **signal:** AIS gap
 - **When (UTC):** 2026-08-24T15:06:19.000Z → 2026-08-27T09:17:59.000Z
 - **Gap:** 66.2 h dark, 224.0 nm offshore

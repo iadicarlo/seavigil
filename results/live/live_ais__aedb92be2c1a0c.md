@@ -1,9 +1,9 @@
 # Incident `live_ais__aedb92be2c1a0c`
 
 - **MPA:** AIS disabling (going dark)
-- **Severity:** HIGH (foreign vessel, no authorization on record)
+- **Severity:** HIGH (foreign vessel, authorization lapsed)
 - **EEZ:** Mauritanian Exclusive Economic Zone (Mauritania) -- FOREIGN-flagged vessel
-- **Authorization:** No public authorization record (check coastal state)
+- **Authorization:** Authorization lapsed before this date: ICCAT  ·  IMO 7409176
 - **Vessel:** 🇸🇻 MONTEFRISA NUEVE  ·  **signal:** AIS gap
 - **When (UTC):** 2026-08-26T08:23:28.000Z → 2026-08-27T20:06:33.000Z
 - **Gap:** 35.7 h dark, 140.0 nm offshore
