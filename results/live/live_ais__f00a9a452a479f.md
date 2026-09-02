@@ -1,19 +1,19 @@
-# Incident `live_ais__6e3312734b2039`
+# Incident `live_ais__f00a9a452a479f`
 
 - **MPA:** AIS disabling (going dark)
 - **Severity:** HIGH (foreign vessel, no authorization on record)
-- **EEZ:** French Exclusive Economic Zone (Juan de Nova Island) (France) -- FOREIGN-flagged vessel
+- **EEZ:** Australian Exclusive Economic Zone (Australia) -- FOREIGN-flagged vessel
 - **Authorization:** No public authorization record (check coastal state)
-- **Vessel:** 🇱🇷 THASSOS WARRIOR  ·  **signal:** AIS gap
-- **When (UTC):** 2026-08-26T07:34:03.000Z → 2026-08-28T06:14:52.000Z
-- **Gap:** 46.7 h dark, 69.0 nm offshore
-- **Where:** -17.209, 42.454
+- **Vessel:** 🇩🇪 ANTARI  ·  **signal:** AIS gap
+- **When (UTC):** 2026-08-25T08:56:37.000Z → 2026-08-29T23:27:39.000Z
+- **Gap:** 110.5 h dark, 256.0 nm offshore
+- **Where:** -24.409, 157.401
 
 ## Why this was flagged
 
 _GFW Events gaps dataset (satellite AIS).._
 
-- went dark 69 nm offshore for 47 h
+- went dark 256 nm offshore for 111 h
 - satellite-confirmed AIS gap (GFW Events)
 
 ## Could be innocent
@@ -31,7 +31,7 @@ Going dark is frequently benign: in open water, where gaps are commonly protecti
 - NOAA Marine Cadastre AIS (marinecadastre.gov/ais (vessel positions)). US public domain.
 - WDPA / WD-OECM (World Database on Protected Areas) (UNEP-WCMC and IUCN (2026), June 2026). Protected Planet Terms of Use (non-commercial, display-only).
 - Marine Regions Exclusive Economic Zones v12 (Flanders Marine Institute (2024), DOI 10.14284/632). CC BY 4.0.
-- **Integrity (SHA-256 of canonical facts):** `6d6947882a9de55632d17edd74bcb5f9e17e63289c70f7577ed52149a3993dcb`
+- **Integrity (SHA-256 of canonical facts):** `fb1efb094ceea183ecdc42e5c1a21aa34c74b39f50ee1a8c4732488fb3cb4578`
 - **Evidence schema:** seavigil-evidence-1.0
 
 _Apparent activity and an inspection lead, not proof of illegality. AIS and SAR evidence have known coverage gaps and spoofing risks; verify against authoritative sources before any enforcement action._
