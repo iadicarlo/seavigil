@@ -1,6 +1,19 @@
 {
-"generated_at": "2026-09-02T00:16:31Z",
+"generated_at": "2026-09-02T04:44:44Z",
 "alerts": [
+{
+"id": "live_enco_cf65e1fc8c7fd0",
+"first_seen": "2026-09-02T04:44:44Z",
+"type": "encounter",
+"when": "2026-08-29T01:40:00.000Z",
+"eez": "Chinese Exclusive Economic Zone",
+"flag": "CYP",
+"authorization": "no_record",
+"severity_reason": "foreign vessel, no authorization on record",
+"lat": 23.6781,
+"lon": 117.8802,
+"ship_name": "03988"
+},
 {
 "id": "live_enco_88089b21d3a335",
 "first_seen": "2026-09-02T00:16:31Z",
@@ -2587,19 +2600,6 @@
 "lat": 31.61,
 "lon": 122.9407,
 "ship_name": "ZHELINYU12983"
-},
-{
-"id": "live_enco_08f34c44b3d33a",
-"first_seen": "2026-08-27T09:52:15Z",
-"type": "encounter",
-"when": "2026-08-22T21:20:00.000Z",
-"eez": "",
-"flag": "NZL",
-"authorization": "authorization_lapsed",
-"severity_reason": "inside a no-take reserve",
-"lat": -50.8132,
-"lon": 166.0756,
-"ship_name": "ALBATROSS II"
 }
 ]
 }
