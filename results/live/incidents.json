@@ -1,5 +1,59 @@
 [
   {
+    "incident_id": "live_enco_e293aeecae8a6e",
+    "type": "encounter",
+    "centroid_lon": 57.7598,
+    "centroid_lat": 19.5071,
+    "time_start_utc": "2026-08-29T00:00:00.000Z",
+    "time_end_utc": "2026-08-29T23:50:00.000Z",
+    "vessel_id": "412440718",
+    "ship_name": "FU YUAN YU9996",
+    "ship_type": "Fishing",
+    "flag": "CHN",
+    "flag_emoji": "\ud83c\udde8\ud83c\uddf3",
+    "gear": "Encounter",
+    "n_positions": 0,
+    "n_fishing_positions": 0,
+    "mean_fishing_proba": null,
+    "max_fishing_proba": null,
+    "_rfmo": [
+      "RECOFI",
+      "IWC",
+      "ACAP",
+      "IOTC"
+    ],
+    "_no_take": false,
+    "mpa_name": "At-sea encounter (transshipment)",
+    "duration_hours": 23.8,
+    "carrier_mmsi": "412440715",
+    "explanation": {
+      "method": "GFW Events encounters dataset (Miller et al. 2018).",
+      "drivers": [
+        "two vessels within range for 24 h",
+        "counterpart: FU YUAN YU9992",
+        "two-vessel at-sea encounter (GFW Events)"
+      ]
+    },
+    "caveats": [
+      "Co-location can be legitimate (joint operations, safety, shelter).",
+      "Apparent transshipment is inferred from proximity and low speed, not observed.",
+      "An inspection lead from GFW Events, not proof of illegal activity."
+    ],
+    "eez_name": "Omani Exclusive Economic Zone",
+    "eez_sovereign": "Oman",
+    "eez_iso_sov": "OMN",
+    "eez_foreign": true,
+    "authorization_status": "no_record",
+    "authorization_authorities": [],
+    "registry_iuu_tag": false,
+    "registry_flag": "",
+    "registry_imo": "",
+    "severity": "high",
+    "severity_reason": "foreign vessel, no authorization on record",
+    "evidence_schema": "seavigil-evidence-1.0",
+    "evidence_hash": "e11df1f652d70956f44d01d8e3924630c2a637fcd3dd5328618f2d94d64ecf9c"
+  },
+  {
     "incident_id": "live_enco_88089b21d3a335",
     "type": "encounter",
     "centroid_lon": 179.4344,
@@ -105,60 +159,6 @@
     "severity_reason": "foreign vessel, no authorization on record",
     "evidence_schema": "seavigil-evidence-1.0",
     "evidence_hash": "7a90704d2005e1d27635e7cbcbeae6a59a7c26f35e8fe55ac40932181ef471b0"
-  },
-  {
-    "incident_id": "live_enco_e293aeecae8a6e",
-    "type": "encounter",
-    "centroid_lon": 57.7598,
-    "centroid_lat": 19.5071,
-    "time_start_utc": "2026-08-29T00:00:00.000Z",
-    "time_end_utc": "2026-08-29T23:50:00.000Z",
-    "vessel_id": "412440718",
-    "ship_name": "FU YUAN YU9996",
-    "ship_type": "Fishing",
-    "flag": "CHN",
-    "flag_emoji": "\ud83c\udde8\ud83c\uddf3",
-    "gear": "Encounter",
-    "n_positions": 0,
-    "n_fishing_positions": 0,
-    "mean_fishing_proba": null,
-    "max_fishing_proba": null,
-    "_rfmo": [
-      "RECOFI",
-      "IWC",
-      "ACAP",
-      "IOTC"
-    ],
-    "_no_take": false,
-    "mpa_name": "At-sea encounter (transshipment)",
-    "duration_hours": 23.8,
-    "carrier_mmsi": "412440715",
-    "explanation": {
-      "method": "GFW Events encounters dataset (Miller et al. 2018).",
-      "drivers": [
-        "two vessels within range for 24 h",
-        "counterpart: FU YUAN YU9992",
-        "two-vessel at-sea encounter (GFW Events)"
-      ]
-    },
-    "caveats": [
-      "Co-location can be legitimate (joint operations, safety, shelter).",
-      "Apparent transshipment is inferred from proximity and low speed, not observed.",
-      "An inspection lead from GFW Events, not proof of illegal activity."
-    ],
-    "eez_name": "Omani Exclusive Economic Zone",
-    "eez_sovereign": "Oman",
-    "eez_iso_sov": "OMN",
-    "eez_foreign": true,
-    "authorization_status": "no_record",
-    "authorization_authorities": [],
-    "registry_iuu_tag": false,
-    "registry_flag": "",
-    "registry_imo": "",
-    "severity": "high",
-    "severity_reason": "foreign vessel, no authorization on record",
-    "evidence_schema": "seavigil-evidence-1.0",
-    "evidence_hash": "e11df1f652d70956f44d01d8e3924630c2a637fcd3dd5328618f2d94d64ecf9c"
   },
   {
     "incident_id": "live_ais__bdc5f1908762dd",
