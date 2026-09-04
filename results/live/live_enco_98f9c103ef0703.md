@@ -1,20 +1,20 @@
-# Incident `live_enco_bac54e7480cdef`
+# Incident `live_enco_98f9c103ef0703`
 
 - **MPA:** At-sea encounter (transshipment)
 - **Severity:** HIGH (foreign vessel, no authorization on record)
-- **EEZ:** Bruneian Exclusive Economic Zone (Brunei) -- FOREIGN-flagged vessel
+- **EEZ:** Overlapping claim Taiwan: Taiwan / China (Taiwan) -- FOREIGN-flagged vessel
 - **Authorization:** No public authorization record (check coastal state)
-- **Vessel:** 🇨🇳 QIONG LIN YU 60017  ·  **signal:** Encounter
-- **When (UTC):** 2026-08-30T19:30:00.000Z → 2026-08-30T22:40:00.000Z
-- **Encounter:** 3.2 h with carrier `412520251` (apparent transshipment)
-- **Where:** 6.634, 112.677
+- **Vessel:** 🇨🇳 MINSHIYU03899  ·  **signal:** Encounter
+- **When (UTC):** 2026-08-31T14:50:00.000Z → 2026-08-31T22:50:00.000Z
+- **Encounter:** 8.0 h with carrier `415198897` (apparent transshipment)
+- **Where:** 22.405, 118.941
 
 ## Why this was flagged
 
 _GFW Events encounters dataset (Miller et al. 2018).._
 
-- two vessels within range for 3 h
-- counterpart: QIONG LIN YU 60018
+- two vessels within range for 8 h
+- counterpart: MI  L
 - two-vessel at-sea encounter (GFW Events)
 
 ## Could be innocent
@@ -31,7 +31,7 @@ Two vessels meeting at sea can be a legitimate transfer, bunkering, or a safety 
 
 - WDPA / WD-OECM (World Database on Protected Areas) (UNEP-WCMC and IUCN (2026), June 2026). Protected Planet Terms of Use (non-commercial, display-only).
 - Marine Regions Exclusive Economic Zones v12 (Flanders Marine Institute (2024), DOI 10.14284/632). CC BY 4.0.
-- **Integrity (SHA-256 of canonical facts):** `23458587e3bab50ee078ee77a5d61c6bfdfccbc9ba1db95f16076200029651df`
+- **Integrity (SHA-256 of canonical facts):** `c2f79869a260f37357051d7e446e78ae640e3872d30fe849fc7d1a6d44334342`
 - **Evidence schema:** seavigil-evidence-1.0
 
 _Apparent activity and an inspection lead, not proof of illegality. AIS and SAR evidence have known coverage gaps and spoofing risks; verify against authoritative sources before any enforcement action._
