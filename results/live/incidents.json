@@ -437,6 +437,60 @@
     "evidence_hash": "a8b37cbeb5678deae960269cbd94473d987f4c0eb05600465380d78941c65e86"
   },
   {
+    "incident_id": "live_enco_4a00e539b21b71",
+    "type": "encounter",
+    "centroid_lon": 121.8516,
+    "centroid_lat": 26.9282,
+    "time_start_utc": "2026-08-31T04:20:00.000Z",
+    "time_end_utc": "2026-08-31T21:30:00.000Z",
+    "vessel_id": "613211056",
+    "ship_name": "",
+    "ship_type": "Fishing",
+    "flag": "CMR",
+    "flag_emoji": "\ud83c\udde8\ud83c\uddf2",
+    "gear": "Encounter",
+    "n_positions": 0,
+    "n_fishing_positions": 0,
+    "mean_fishing_proba": null,
+    "max_fishing_proba": null,
+    "_rfmo": [
+      "IWC",
+      "APFIC",
+      "WCPFC",
+      "ACAP"
+    ],
+    "_no_take": false,
+    "mpa_name": "At-sea encounter (transshipment)",
+    "duration_hours": 17.2,
+    "carrier_mmsi": "412418782",
+    "explanation": {
+      "method": "GFW Events encounters dataset (Miller et al. 2018).",
+      "drivers": [
+        "two vessels within range for 17 h",
+        "counterpart: ZHELINGYU26901",
+        "two-vessel at-sea encounter (GFW Events)"
+      ]
+    },
+    "caveats": [
+      "Co-location can be legitimate (joint operations, safety, shelter).",
+      "Apparent transshipment is inferred from proximity and low speed, not observed.",
+      "An inspection lead from GFW Events, not proof of illegal activity."
+    ],
+    "eez_name": "Chinese Exclusive Economic Zone",
+    "eez_sovereign": "China",
+    "eez_iso_sov": "CHN",
+    "eez_foreign": true,
+    "authorization_status": "no_record",
+    "authorization_authorities": [],
+    "registry_iuu_tag": false,
+    "registry_flag": "",
+    "registry_imo": "",
+    "severity": "high",
+    "severity_reason": "foreign vessel, no authorization on record",
+    "evidence_schema": "seavigil-evidence-1.0",
+    "evidence_hash": "315800114999e28344558f2e35274af03b88a5ac5e8a430d385e4717b117304f"
+  },
+  {
     "incident_id": "live_ais__85906046718bca",
     "type": "ais_disabling",
     "centroid_lon": -163.1941,

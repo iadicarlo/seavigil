@@ -1,6 +1,19 @@
 {
-"generated_at": "2026-09-04T11:20:55Z",
+"generated_at": "2026-09-04T16:23:22Z",
 "alerts": [
+{
+"id": "live_enco_4a00e539b21b71",
+"first_seen": "2026-09-04T16:23:22Z",
+"type": "encounter",
+"when": "2026-08-31T04:20:00.000Z",
+"eez": "Chinese Exclusive Economic Zone",
+"flag": "CMR",
+"authorization": "no_record",
+"severity_reason": "foreign vessel, no authorization on record",
+"lat": 26.9282,
+"lon": 121.8516,
+"ship_name": ""
+},
 {
 "id": "live_ais__b95634a5b52b62",
 "first_seen": "2026-09-04T11:20:55Z",
@@ -2587,19 +2600,6 @@
 "lat": -17.9782,
 "lon": 117.9528,
 "ship_name": "LAKE DESPINA"
-},
-{
-"id": "live_ais__bf678d287d2a01",
-"first_seen": "2026-08-30T12:55:34Z",
-"type": "ais_disabling",
-"when": "2026-08-25T19:41:44.000Z",
-"eez": "Sudanese Exclusive Economic Zone",
-"flag": "PRT",
-"authorization": "no_record",
-"severity_reason": "foreign vessel, no authorization on record",
-"lat": 18.9957,
-"lon": 39.2413,
-"ship_name": "MONTESTENA"
 }
 ]
 }
