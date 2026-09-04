@@ -108,8 +108,8 @@
     "centroid_lat": 32.7588,
     "time_start_utc": "2026-08-31T02:40:00.000Z",
     "time_end_utc": "2026-08-31T23:40:00.000Z",
-    "vessel_id": "412021666",
-    "ship_name": "ZHELINGYU21666",
+    "vessel_id": "412449725",
+    "ship_name": "MINFUDINGYU04111",
     "ship_type": "Fishing",
     "flag": "CHN",
     "flag_emoji": "\ud83c\udde8\ud83c\uddf3",
@@ -119,20 +119,20 @@
     "mean_fishing_proba": null,
     "max_fishing_proba": null,
     "_rfmo": [
-      "ACAP",
-      "WCPFC",
+      "IWC",
       "PICES",
-      "IWC"
+      "WCPFC",
+      "ACAP"
     ],
     "_no_take": false,
     "mpa_name": "At-sea encounter (transshipment)",
     "duration_hours": 21.0,
-    "carrier_mmsi": "412449725",
+    "carrier_mmsi": "412021666",
     "explanation": {
       "method": "GFW Events encounters dataset (Miller et al. 2018).",
       "drivers": [
         "two vessels within range for 21 h",
-        "counterpart: MINFUDINGYU04111",
+        "counterpart: ZHELINGYU21666",
         "two-vessel at-sea encounter (GFW Events)"
       ]
     },
@@ -153,7 +153,7 @@
     "severity": "high",
     "severity_reason": "foreign vessel, no authorization on record",
     "evidence_schema": "seavigil-evidence-1.0",
-    "evidence_hash": "80f87314d5800815d0fe746ae92a3671deef6db636d3ee2a31fd940750887a5a"
+    "evidence_hash": "f6097a345bc9ce0128ac8a8b9822e0f4fb4b0fcd79d6f2c0773858841b8377e4"
   },
   {
     "incident_id": "live_enco_98f9c103ef0703",
