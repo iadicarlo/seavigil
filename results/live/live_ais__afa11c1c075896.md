@@ -1,19 +1,19 @@
-# Incident `live_ais__6af98d859b0a13`
+# Incident `live_ais__afa11c1c075896`
 
 - **MPA:** AIS disabling (going dark)
 - **Severity:** HIGH (foreign vessel, no authorization on record)
-- **EEZ:** Australian Exclusive Economic Zone (Australia) -- FOREIGN-flagged vessel
-- **Authorization:** No public authorization record (check coastal state)
-- **Vessel:** 🇮🇸 SOUTH SEAS 08-99%  ·  **signal:** AIS gap
-- **When (UTC):** 2026-08-28T19:00:23.000Z → 2026-08-30T07:57:34.000Z
-- **Gap:** 37.0 h dark, 58.0 nm offshore
-- **Where:** -37.026, 150.950
+- **EEZ:** Brazilian Exclusive Economic Zone (Brazil) -- FOREIGN-flagged vessel
+- **Authorization:** No public authorization record (check coastal state)  ·  IMO 9637715
+- **Vessel:** 🇧🇸 SERTANEJO SPIRIT  ·  **signal:** AIS gap
+- **When (UTC):** 2026-08-30T18:32:10.000Z → 2026-08-31T13:23:21.000Z
+- **Gap:** 18.9 h dark, 103.0 nm offshore
+- **Where:** -24.685, -42.386
 
 ## Why this was flagged
 
 _GFW Events gaps dataset (satellite AIS).._
 
-- went dark 58 nm offshore for 37 h
+- went dark 103 nm offshore for 19 h
 - satellite-confirmed AIS gap (GFW Events)
 
 ## Could be innocent
@@ -31,7 +31,7 @@ Going dark is frequently benign: in open water, where gaps are commonly protecti
 - NOAA Marine Cadastre AIS (marinecadastre.gov/ais (vessel positions)). US public domain.
 - WDPA / WD-OECM (World Database on Protected Areas) (UNEP-WCMC and IUCN (2026), June 2026). Protected Planet Terms of Use (non-commercial, display-only).
 - Marine Regions Exclusive Economic Zones v12 (Flanders Marine Institute (2024), DOI 10.14284/632). CC BY 4.0.
-- **Integrity (SHA-256 of canonical facts):** `00e622a6097eef4c9fec3a5c4f4489cbee9ef51f836fe205c7985de9d9683b1d`
+- **Integrity (SHA-256 of canonical facts):** `b912c7b4270715c2e4d2cb761ebde535d8b11e72e32fec83c3d2d900afd4f706`
 - **Evidence schema:** seavigil-evidence-1.0
 
 _Apparent activity and an inspection lead, not proof of illegality. AIS and SAR evidence have known coverage gaps and spoofing risks; verify against authoritative sources before any enforcement action._

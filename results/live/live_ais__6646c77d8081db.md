@@ -3,7 +3,7 @@
 - **MPA:** AIS disabling (going dark)
 - **Severity:** HIGH (foreign vessel, no authorization on record)
 - **EEZ:** Australian Exclusive Economic Zone (Australia) -- FOREIGN-flagged vessel
-- **Authorization:** No public authorization record (check coastal state)  ·  IMO 9566203
+- **Authorization:** No public authorization record (check coastal state)
 - **Vessel:** 🇵🇦 GOLDEN CHIE  ·  **signal:** AIS gap
 - **When (UTC):** 2026-08-28T14:15:31.000Z → 2026-08-30T21:44:19.000Z
 - **Gap:** 55.5 h dark, 126.0 nm offshore
