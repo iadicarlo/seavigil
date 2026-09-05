@@ -47,33 +47,33 @@
   },
   {
     "type": "ais_spoofing",
-    "incident_id": "live_spoof_477023200.0",
+    "incident_id": "live_spoof_538003048.0",
     "mpa_name": "AIS spoofing",
     "severity": "medium",
     "severity_reason": "impossible-speed position jumps",
-    "vessel_id": "477023200.0",
-    "ship_name": "NING YUE HAI",
-    "flag": "HK",
+    "vessel_id": "538003048.0",
+    "ship_name": "ASIA STAR",
+    "flag": "MH",
     "ship_type": "Fishing",
     "gear": "AIS anomaly",
-    "time_start_utc": "2026-09-04T17:36:26Z",
-    "time_end_utc": "2026-09-04T18:15:44Z",
-    "duration_hours": 0.7,
-    "n_positions": 19,
+    "time_start_utc": "2026-09-04T23:33:26Z",
+    "time_end_utc": "2026-09-05T19:40:27Z",
+    "duration_hours": 20.1,
+    "n_positions": 14,
     "n_fishing_positions": 0,
     "mean_fishing_proba": null,
     "max_fishing_proba": null,
-    "centroid_lat": -12.037811666666666,
-    "centroid_lon": -77.05106500000001,
+    "centroid_lat": -12.0383775,
+    "centroid_lon": -77.05057333333333,
     "anomaly_count": 4,
-    "max_implied_speed_kn": 1306.0,
-    "spread_nm": 38.0,
+    "max_implied_speed_kn": 1986.0,
+    "spread_nm": 83.0,
     "explanation": {
       "method": "AIS position-anomaly analysis (impossible-speed jumps and same-instant conflicts)",
       "drivers": [
         "4 physically impossible movements for one MMSI",
-        "fastest implied speed 1,306 kn (a vessel cannot move this fast)",
-        "positions span 38 nm"
+        "fastest implied speed 1,986 kn (a vessel cannot move this fast)",
+        "positions span 83 nm"
       ]
     },
     "caveats": [
@@ -82,14 +82,106 @@
       "Flagged only on a sustained pattern (several anomalies), not a single bad fix.",
       "An inspection lead: confirm the vessel identity against authoritative records."
     ],
-    "flag_emoji": "\ud83c\udded\ud83c\uddf0",
+    "flag_emoji": "\ud83c\uddf2\ud83c\udded",
     "_no_take": false,
     "_rfmo": [],
     "authorization_status": "unverifiable",
     "authorization_authorities": [],
     "registry_iuu_tag": false,
     "evidence_schema": "seavigil-evidence-1.0",
-    "evidence_hash": "0ff495ac62202e4027386a8c98850dfbc43beec3543c690c54f1ec062dbe2b6f"
+    "evidence_hash": "6a27070899099017cdd624edd81eb934d41a903c720cfa1bf8b1f80f6fa113ab"
+  },
+  {
+    "type": "ais_spoofing",
+    "incident_id": "live_spoof_636012379.0",
+    "mpa_name": "AIS spoofing",
+    "severity": "medium",
+    "severity_reason": "impossible-speed position jumps",
+    "vessel_id": "636012379.0",
+    "ship_name": "HASSI MESSAOUD 2",
+    "flag": "LR",
+    "ship_type": "Fishing",
+    "gear": "AIS anomaly",
+    "time_start_utc": "2026-09-05T18:59:34Z",
+    "time_end_utc": "2026-09-05T19:40:40Z",
+    "duration_hours": 0.7,
+    "n_positions": 16,
+    "n_fishing_positions": 0,
+    "mean_fishing_proba": null,
+    "max_fishing_proba": null,
+    "centroid_lat": -12.035664999999998,
+    "centroid_lon": -77.04845916666666,
+    "anomaly_count": 4,
+    "max_implied_speed_kn": 715.0,
+    "spread_nm": 33.0,
+    "explanation": {
+      "method": "AIS position-anomaly analysis (impossible-speed jumps and same-instant conflicts)",
+      "drivers": [
+        "4 physically impossible movements for one MMSI",
+        "fastest implied speed 715 kn (a vessel cannot move this fast)",
+        "positions span 33 nm"
+      ]
+    },
+    "caveats": [
+      "Suspected AIS spoofing or MMSI conflict, not proven and not necessarily illegal.",
+      "Could also be a faulty GPS/transceiver or a transcription error in the feed.",
+      "Flagged only on a sustained pattern (several anomalies), not a single bad fix.",
+      "An inspection lead: confirm the vessel identity against authoritative records."
+    ],
+    "flag_emoji": "\ud83c\uddf1\ud83c\uddf7",
+    "_no_take": false,
+    "_rfmo": [],
+    "authorization_status": "unverifiable",
+    "authorization_authorities": [],
+    "registry_iuu_tag": false,
+    "evidence_schema": "seavigil-evidence-1.0",
+    "evidence_hash": "b073a2e61d6918de1efcce296ab941265e79cfd65534e54641d9eae64770c738"
+  },
+  {
+    "type": "ais_spoofing",
+    "incident_id": "live_spoof_667002373.0",
+    "mpa_name": "AIS spoofing",
+    "severity": "medium",
+    "severity_reason": "impossible-speed position jumps",
+    "vessel_id": "667002373.0",
+    "ship_name": "ANUNNAKI",
+    "flag": "SL",
+    "ship_type": "Fishing",
+    "gear": "AIS anomaly",
+    "time_start_utc": "2026-09-05T18:57:44Z",
+    "time_end_utc": "2026-09-05T19:40:57Z",
+    "duration_hours": 0.7,
+    "n_positions": 20,
+    "n_fishing_positions": 0,
+    "mean_fishing_proba": null,
+    "max_fishing_proba": null,
+    "centroid_lat": -12.044328333333333,
+    "centroid_lon": -77.04419333333334,
+    "anomaly_count": 9,
+    "max_implied_speed_kn": 7983.0,
+    "spread_nm": 184.0,
+    "explanation": {
+      "method": "AIS position-anomaly analysis (impossible-speed jumps and same-instant conflicts)",
+      "drivers": [
+        "9 physically impossible movements for one MMSI",
+        "fastest implied speed 7,983 kn (a vessel cannot move this fast)",
+        "positions span 184 nm"
+      ]
+    },
+    "caveats": [
+      "Suspected AIS spoofing or MMSI conflict, not proven and not necessarily illegal.",
+      "Could also be a faulty GPS/transceiver or a transcription error in the feed.",
+      "Flagged only on a sustained pattern (several anomalies), not a single bad fix.",
+      "An inspection lead: confirm the vessel identity against authoritative records."
+    ],
+    "flag_emoji": "\ud83c\uddf8\ud83c\uddf1",
+    "_no_take": false,
+    "_rfmo": [],
+    "authorization_status": "unverifiable",
+    "authorization_authorities": [],
+    "registry_iuu_tag": false,
+    "evidence_schema": "seavigil-evidence-1.0",
+    "evidence_hash": "77e86a3dc2808472248e7aee669670f461b927d86cca9cd19071e1a168052468"
   },
   {
     "incident_id": "live_enco_12b3e954dfc2c7",
@@ -157,8 +249,8 @@
     "centroid_lat": 6.6286,
     "time_start_utc": "2026-09-01T20:40:00.000Z",
     "time_end_utc": "2026-09-01T23:50:00.000Z",
-    "vessel_id": "412236368",
-    "ship_name": "HONGHAI",
+    "vessel_id": "412535295",
+    "ship_name": "SHEN NAN 1869",
     "ship_type": "Fishing",
     "flag": "CHN",
     "flag_emoji": "\ud83c\udde8\ud83c\uddf3",
@@ -170,19 +262,19 @@
     "_rfmo": [
       "SEAFDEC",
       "APFIC",
-      "ACAP",
       "IWC",
+      "ACAP",
       "WCPFC"
     ],
     "_no_take": false,
     "mpa_name": "At-sea encounter (transshipment)",
     "duration_hours": 3.2,
-    "carrier_mmsi": "412535295",
+    "carrier_mmsi": "412236368",
     "explanation": {
       "method": "GFW Events encounters dataset (Miller et al. 2018).",
       "drivers": [
         "two vessels within range for 3 h",
-        "counterpart: SHEN NAN 1869",
+        "counterpart: HONGHAI",
         "two-vessel at-sea encounter (GFW Events)"
       ]
     },
@@ -203,7 +295,62 @@
     "severity": "high",
     "severity_reason": "foreign vessel, no authorization on record",
     "evidence_schema": "seavigil-evidence-1.0",
-    "evidence_hash": "51dba0fb26aeeb2d0455ba119c932da2dd0bca24ba2ca1f934ad54750892d24f"
+    "evidence_hash": "6c95e6d1220606387df814ce8a6b14ac9a99cd936be7648e2e89f3ed407dfe94"
+  },
+  {
+    "incident_id": "live_enco_4758972edca477",
+    "type": "encounter",
+    "centroid_lon": 107.5891,
+    "centroid_lat": 7.4953,
+    "time_start_utc": "2026-09-01T12:00:00.000Z",
+    "time_end_utc": "2026-09-01T23:40:00.000Z",
+    "vessel_id": "555590621",
+    "ship_name": "21>B5S2",
+    "ship_type": "Fishing",
+    "flag": "PCN",
+    "flag_emoji": "\ud83c\uddf5\ud83c\uddf3",
+    "gear": "Encounter",
+    "n_positions": 0,
+    "n_fishing_positions": 0,
+    "mean_fishing_proba": null,
+    "max_fishing_proba": null,
+    "_rfmo": [
+      "ACAP",
+      "WCPFC",
+      "APFIC",
+      "SEAFDEC",
+      "IWC"
+    ],
+    "_no_take": false,
+    "mpa_name": "At-sea encounter (transshipment)",
+    "duration_hours": 11.7,
+    "carrier_mmsi": "574099994",
+    "explanation": {
+      "method": "GFW Events encounters dataset (Miller et al. 2018).",
+      "drivers": [
+        "two vessels within range for 12 h",
+        "counterpart: QUANG HUY94S2B5 TEO",
+        "two-vessel at-sea encounter (GFW Events)"
+      ]
+    },
+    "caveats": [
+      "Co-location can be legitimate (joint operations, safety, shelter).",
+      "Apparent transshipment is inferred from proximity and low speed, not observed.",
+      "An inspection lead from GFW Events, not proof of illegal activity."
+    ],
+    "eez_name": "Vietnamese Exclusive Economic Zone",
+    "eez_sovereign": "Vietnam",
+    "eez_iso_sov": "VNM",
+    "eez_foreign": true,
+    "authorization_status": "no_record",
+    "authorization_authorities": [],
+    "registry_iuu_tag": false,
+    "registry_flag": "",
+    "registry_imo": "",
+    "severity": "high",
+    "severity_reason": "foreign vessel, no authorization on record",
+    "evidence_schema": "seavigil-evidence-1.0",
+    "evidence_hash": "45592c09846a7a12b1fc24d5bfd2fb61597247e4236a28bb5c2dba9c17ccbf04"
   },
   {
     "incident_id": "live_ais__504bf03486d81c",
