@@ -57,13 +57,13 @@
     "ship_type": "Fishing",
     "gear": "AIS anomaly",
     "time_start_utc": "2026-09-04T23:33:26Z",
-    "time_end_utc": "2026-09-05T19:40:27Z",
-    "duration_hours": 20.1,
-    "n_positions": 14,
+    "time_end_utc": "2026-09-05T21:21:38Z",
+    "duration_hours": 21.8,
+    "n_positions": 24,
     "n_fishing_positions": 0,
     "mean_fishing_proba": null,
     "max_fishing_proba": null,
-    "centroid_lat": -12.0383775,
+    "centroid_lat": -12.037924166666667,
     "centroid_lon": -77.05057333333333,
     "anomaly_count": 4,
     "max_implied_speed_kn": 1986.0,
@@ -89,7 +89,7 @@
     "authorization_authorities": [],
     "registry_iuu_tag": false,
     "evidence_schema": "seavigil-evidence-1.0",
-    "evidence_hash": "6a27070899099017cdd624edd81eb934d41a903c720cfa1bf8b1f80f6fa113ab"
+    "evidence_hash": "b75c351573d99771f64c7e18f864d4df364684417468dc71bf8a7d902a37ff69"
   },
   {
     "type": "ais_spoofing",
@@ -249,8 +249,8 @@
     "centroid_lat": 6.6286,
     "time_start_utc": "2026-09-01T20:40:00.000Z",
     "time_end_utc": "2026-09-01T23:50:00.000Z",
-    "vessel_id": "412535295",
-    "ship_name": "SHEN NAN 1869",
+    "vessel_id": "412236368",
+    "ship_name": "HONGHAI",
     "ship_type": "Fishing",
     "flag": "CHN",
     "flag_emoji": "\ud83c\udde8\ud83c\uddf3",
@@ -262,19 +262,19 @@
     "_rfmo": [
       "SEAFDEC",
       "APFIC",
-      "IWC",
       "ACAP",
+      "IWC",
       "WCPFC"
     ],
     "_no_take": false,
     "mpa_name": "At-sea encounter (transshipment)",
     "duration_hours": 3.2,
-    "carrier_mmsi": "412236368",
+    "carrier_mmsi": "412535295",
     "explanation": {
       "method": "GFW Events encounters dataset (Miller et al. 2018).",
       "drivers": [
         "two vessels within range for 3 h",
-        "counterpart: HONGHAI",
+        "counterpart: SHEN NAN 1869",
         "two-vessel at-sea encounter (GFW Events)"
       ]
     },
@@ -295,7 +295,7 @@
     "severity": "high",
     "severity_reason": "foreign vessel, no authorization on record",
     "evidence_schema": "seavigil-evidence-1.0",
-    "evidence_hash": "6c95e6d1220606387df814ce8a6b14ac9a99cd936be7648e2e89f3ed407dfe94"
+    "evidence_hash": "51dba0fb26aeeb2d0455ba119c932da2dd0bca24ba2ca1f934ad54750892d24f"
   },
   {
     "incident_id": "live_enco_4758972edca477",
