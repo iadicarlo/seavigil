@@ -1,6 +1,52 @@
 [
   {
     "type": "ais_spoofing",
+    "incident_id": "live_spoof_248389000.0",
+    "mpa_name": "AIS spoofing",
+    "severity": "medium",
+    "severity_reason": "impossible-speed position jumps",
+    "vessel_id": "248389000.0",
+    "ship_name": "ECOGENIUS",
+    "flag": "MT",
+    "ship_type": "Fishing",
+    "gear": "AIS anomaly",
+    "time_start_utc": "2026-09-04T23:07:16Z",
+    "time_end_utc": "2026-09-05T01:08:16Z",
+    "duration_hours": 2.0,
+    "n_positions": 25,
+    "n_fishing_positions": 0,
+    "mean_fishing_proba": null,
+    "max_fishing_proba": null,
+    "centroid_lat": -12.037178333333332,
+    "centroid_lon": -77.05077,
+    "anomaly_count": 4,
+    "max_implied_speed_kn": 1588.0,
+    "spread_nm": 55.0,
+    "explanation": {
+      "method": "AIS position-anomaly analysis (impossible-speed jumps and same-instant conflicts)",
+      "drivers": [
+        "4 physically impossible movements for one MMSI",
+        "fastest implied speed 1,588 kn (a vessel cannot move this fast)",
+        "positions span 55 nm"
+      ]
+    },
+    "caveats": [
+      "Suspected AIS spoofing or MMSI conflict, not proven and not necessarily illegal.",
+      "Could also be a faulty GPS/transceiver or a transcription error in the feed.",
+      "Flagged only on a sustained pattern (several anomalies), not a single bad fix.",
+      "An inspection lead: confirm the vessel identity against authoritative records."
+    ],
+    "flag_emoji": "\ud83c\uddf2\ud83c\uddf9",
+    "_no_take": false,
+    "_rfmo": [],
+    "authorization_status": "unverifiable",
+    "authorization_authorities": [],
+    "registry_iuu_tag": false,
+    "evidence_schema": "seavigil-evidence-1.0",
+    "evidence_hash": "ae2c0930413fb69656d6929fda15b3cf7d73b950ba69254d6d2b312ed44a2b6c"
+  },
+  {
+    "type": "ais_spoofing",
     "incident_id": "live_spoof_477023200.0",
     "mpa_name": "AIS spoofing",
     "severity": "medium",
