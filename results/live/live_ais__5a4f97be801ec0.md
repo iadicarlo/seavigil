@@ -3,7 +3,7 @@
 - **MPA:** AIS disabling (going dark)
 - **Severity:** HIGH (foreign vessel, no authorization on record)
 - **EEZ:** Portuguese Exclusive Economic Zone (Azores) (Portugal) -- FOREIGN-flagged vessel
-- **Authorization:** No public authorization record (check coastal state)
+- **Authorization:** No public authorization record (check coastal state)  ·  IMO 9578957
 - **Vessel:** 🇺🇸 LIBERTY POWER  ·  **signal:** AIS gap
 - **When (UTC):** 2026-08-30T08:53:05.000Z → 2026-08-31T07:45:52.000Z
 - **Gap:** 22.9 h dark, 72.0 nm offshore

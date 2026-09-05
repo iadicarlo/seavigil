@@ -1,9 +1,9 @@
 # Incident `live_ais__10eff0cdd46c10`
 
 - **MPA:** AIS disabling (going dark)
-- **Severity:** HIGH (foreign vessel, no authorization on record)
+- **Severity:** HIGH (foreign vessel, authorization lapsed)
 - **EEZ:** Irish Exclusive Economic Zone (Ireland) -- FOREIGN-flagged vessel
-- **Authorization:** No public authorization record (check coastal state)
+- **Authorization:** Authorization lapsed before this date: NOR  ·  IMO 9867815
 - **Vessel:** 🇫🇷 ASTRID  ·  **signal:** AIS gap
 - **When (UTC):** 2026-08-29T23:02:09.000Z → 2026-08-31T02:08:09.000Z
 - **Gap:** 27.1 h dark, 98.0 nm offshore
