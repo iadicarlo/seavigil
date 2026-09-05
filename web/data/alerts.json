@@ -1,6 +1,45 @@
 {
-"generated_at": "2026-09-04T22:21:59Z",
+"generated_at": "2026-09-05T00:58:48Z",
 "alerts": [
+{
+"id": "live_enco_12b3e954dfc2c7",
+"first_seen": "2026-09-05T00:58:48Z",
+"type": "encounter",
+"when": "2026-09-01T08:40:00.000Z",
+"eez": "Norwegian Exclusive Economic Zone",
+"flag": "RUS",
+"authorization": "authorization_lapsed",
+"severity_reason": "foreign vessel, authorization lapsed",
+"lat": 72.0865,
+"lon": 17.4228,
+"ship_name": "BALTIYSKAYA KOSA"
+},
+{
+"id": "live_enco_d5d7ce8b643750",
+"first_seen": "2026-09-05T00:58:48Z",
+"type": "encounter",
+"when": "2026-09-01T20:40:00.000Z",
+"eez": "Bruneian Exclusive Economic Zone",
+"flag": "CHN",
+"authorization": "no_record",
+"severity_reason": "foreign vessel, no authorization on record",
+"lat": 6.6286,
+"lon": 112.6541,
+"ship_name": "SHEN NAN 1869"
+},
+{
+"id": "live_enco_4758972edca477",
+"first_seen": "2026-09-05T00:58:48Z",
+"type": "encounter",
+"when": "2026-09-01T12:00:00.000Z",
+"eez": "Vietnamese Exclusive Economic Zone",
+"flag": "PCN",
+"authorization": "no_record",
+"severity_reason": "foreign vessel, no authorization on record",
+"lat": 7.4953,
+"lon": 107.5891,
+"ship_name": "21>B5S2"
+},
 {
 "id": "live_enco_4a00e539b21b71",
 "first_seen": "2026-09-04T16:23:22Z",
@@ -2561,45 +2600,6 @@
 "lat": -10.0278,
 "lon": -178.6427,
 "ship_name": "LU RONG YUAN YU 138"
-},
-{
-"id": "live_ais__6504771e06d13f",
-"first_seen": "2026-08-30T12:55:34Z",
-"type": "ais_disabling",
-"when": "2026-08-25T17:57:20.000Z",
-"eez": "Brazilian Exclusive Economic Zone",
-"flag": "SGP",
-"authorization": "no_record",
-"severity_reason": "foreign vessel, no authorization on record",
-"lat": -25.5985,
-"lon": -42.8197,
-"ship_name": "EAGLE PASSOS"
-},
-{
-"id": "live_ais__556e5711d71e11",
-"first_seen": "2026-08-30T12:55:34Z",
-"type": "ais_disabling",
-"when": "2026-08-14T14:24:23.000Z",
-"eez": "British Exclusive Economic Zone (Tristan da Cunha)",
-"flag": "MHL",
-"authorization": "no_record",
-"severity_reason": "foreign vessel, no authorization on record",
-"lat": -36.5424,
-"lon": -12.6734,
-"ship_name": "IVS MAGPIE"
-},
-{
-"id": "live_ais__69abab10c85382",
-"first_seen": "2026-08-30T12:55:34Z",
-"type": "ais_disabling",
-"when": "2026-08-25T19:41:20.000Z",
-"eez": "Australian Exclusive Economic Zone",
-"flag": "CYP",
-"authorization": "no_record",
-"severity_reason": "foreign vessel, no authorization on record",
-"lat": -17.9782,
-"lon": 117.9528,
-"ship_name": "LAKE DESPINA"
 }
 ]
 }
