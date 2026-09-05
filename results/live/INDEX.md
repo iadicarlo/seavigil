@@ -5,8 +5,8 @@
 | id | type | MPA | start (UTC) | score / mean p |
 |---|---|---|---|---:|
 | [live_spoof_248389000.0](live_spoof_248389000.0.md) | AIS fishing | AIS spoofing | 2026-09-04T23:07:16Z | - |
-| [live_spoof_477023200.0](live_spoof_477023200.0.md) | AIS fishing | AIS spoofing | 2026-09-04T13:45:44Z | - |
-| [live_enco_12b3e954dfc2c7](live_enco_12b3e954dfc2c7.md) | AIS fishing | At-sea encounter (transshipment) | 2026-09-01T08:40:00.000Z | - |
+| [live_spoof_477023200.0](live_spoof_477023200.0.md) | AIS fishing | AIS spoofing | 2026-09-04T17:36:26Z | - |
+| [live_enco_20a7d1c5edbcd2](live_enco_20a7d1c5edbcd2.md) | AIS fishing | At-sea encounter (transshipment) | 2026-09-01T19:00:00.000Z | - |
 | [live_enco_d5d7ce8b643750](live_enco_d5d7ce8b643750.md) | AIS fishing | At-sea encounter (transshipment) | 2026-09-01T20:40:00.000Z | - |
 | [live_enco_4758972edca477](live_enco_4758972edca477.md) | AIS fishing | At-sea encounter (transshipment) | 2026-09-01T12:00:00.000Z | - |
 | [live_ais__504bf03486d81c](live_ais__504bf03486d81c.md) | AIS fishing | AIS disabling (going dark) | 2026-08-30T05:44:48.000Z | - |
