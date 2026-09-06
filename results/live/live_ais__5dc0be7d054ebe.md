@@ -1,9 +1,9 @@
 # Incident `live_ais__5dc0be7d054ebe`
 
 - **MPA:** AIS disabling (going dark)
-- **Severity:** HIGH (foreign vessel, no authorization on record)
+- **Severity:** HIGH (foreign vessel, authorization lapsed)
 - **EEZ:** Papua New Guinean Exclusive Economic Zone (Papua New Guinea) -- FOREIGN-flagged vessel
-- **Authorization:** No public authorization record (check coastal state)
+- **Authorization:** Authorization lapsed before this date: FFA, WCPFC  ·  IMO 9066306
 - **Vessel:** 🇯🇵 SHOKIMARU NO.36  ·  **signal:** AIS gap
 - **When (UTC):** 2026-08-17T18:09:59.000Z → 2026-08-31T17:10:23.000Z
 - **Gap:** 335.0 h dark, 177.0 nm offshore

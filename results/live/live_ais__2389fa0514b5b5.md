@@ -3,7 +3,7 @@
 - **MPA:** AIS disabling (going dark)
 - **Severity:** HIGH (foreign vessel, no authorization on record)
 - **EEZ:** Indonesian Exclusive Economic Zone (Indonesia) -- FOREIGN-flagged vessel
-- **Authorization:** No public authorization record (check coastal state)  ·  IMO 9367607
+- **Authorization:** No public authorization record (check coastal state)
 - **Vessel:** 🇸🇬 CANOPUS LEADER  ·  **signal:** AIS gap
 - **When (UTC):** 2026-08-31T12:17:04.000Z → 2026-09-01T00:53:28.000Z
 - **Gap:** 12.6 h dark, 66.0 nm offshore
