@@ -1,6 +1,19 @@
 {
-"generated_at": "2026-09-06T01:00:27Z",
+"generated_at": "2026-09-06T05:58:57Z",
 "alerts": [
+{
+"id": "live_enco_bf219c0f1689cb",
+"first_seen": "2026-09-06T05:58:57Z",
+"type": "encounter",
+"when": "2026-09-02T15:20:00.000Z",
+"eez": "Chinese Exclusive Economic Zone",
+"flag": "QAT",
+"authorization": "no_record",
+"severity_reason": "foreign vessel, no authorization on record",
+"lat": 36.0688,
+"lon": 120.9325,
+"ship_name": "LUCHENGYU60293-31"
+},
 {
 "id": "live_enco_6d5bfd1d7486a1",
 "first_seen": "2026-09-06T01:00:27Z",
@@ -2587,19 +2600,6 @@
 "lat": 18.696,
 "lon": -18.1358,
 "ship_name": "MONTEFRISA NUEVE"
-},
-{
-"id": "live_ais__53c1176001cbfd",
-"first_seen": "2026-08-31T13:55:16Z",
-"type": "ais_disabling",
-"when": "2026-08-23T22:30:12.000Z",
-"eez": "Micronesian Exclusive Economic Zone",
-"flag": "SLB",
-"authorization": "no_record",
-"severity_reason": "foreign vessel, no authorization on record",
-"lat": 7.5418,
-"lon": 158.5789,
-"ship_name": "BUOY-0658%"
 }
 ]
 }
