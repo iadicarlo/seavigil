@@ -1,19 +1,19 @@
-# Incident `live_ais__cdfb638d220f31`
+# Incident `live_ais__b66dab5d1f215c`
 
 - **MPA:** AIS disabling (going dark)
 - **Severity:** HIGH (foreign vessel, no authorization on record)
-- **EEZ:** Brazilian Exclusive Economic Zone (Brazil) -- FOREIGN-flagged vessel
-- **Authorization:** No public authorization record (check coastal state)  ·  IMO 9765158
-- **Vessel:** 🇲🇹 LISBOA  ·  **signal:** AIS gap
-- **When (UTC):** 2026-08-30T17:35:46.000Z → 2026-08-31T13:55:40.000Z
-- **Gap:** 20.3 h dark, 156.0 nm offshore
-- **Where:** -25.665, -42.861
+- **EEZ:** Tongan Exclusive Economic Zone (Tonga) -- FOREIGN-flagged vessel
+- **Authorization:** No public authorization record (check coastal state)
+- **Vessel:** 🇨🇭 MELODY  ·  **signal:** AIS gap
+- **When (UTC):** 2026-09-01T09:23:09.000Z → 2026-09-02T00:41:32.000Z
+- **Gap:** 15.3 h dark, 76.0 nm offshore
+- **Where:** -18.660, -171.931
 
 ## Why this was flagged
 
 _GFW Events gaps dataset (satellite AIS).._
 
-- went dark 156 nm offshore for 20 h
+- went dark 76 nm offshore for 15 h
 - satellite-confirmed AIS gap (GFW Events)
 
 ## Could be innocent
@@ -31,7 +31,7 @@ Going dark is frequently benign: in open water, where gaps are commonly protecti
 - NOAA Marine Cadastre AIS (marinecadastre.gov/ais (vessel positions)). US public domain.
 - WDPA / WD-OECM (World Database on Protected Areas) (UNEP-WCMC and IUCN (2026), June 2026). Protected Planet Terms of Use (non-commercial, display-only).
 - Marine Regions Exclusive Economic Zones v12 (Flanders Marine Institute (2024), DOI 10.14284/632). CC BY 4.0.
-- **Integrity (SHA-256 of canonical facts):** `825ffd6643700952435264b4eb8ae337f32209b01ca5c0b76fabac1063d2e7e5`
+- **Integrity (SHA-256 of canonical facts):** `4b7e35d5080304a492baa24e05983a0cd422b5ccc660fcafe064d7dc1b0b5725`
 - **Evidence schema:** seavigil-evidence-1.0
 
 _Apparent activity and an inspection lead, not proof of illegality. AIS and SAR evidence have known coverage gaps and spoofing risks; verify against authoritative sources before any enforcement action._
