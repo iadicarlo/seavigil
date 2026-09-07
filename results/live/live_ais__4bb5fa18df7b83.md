@@ -3,7 +3,7 @@
 - **MPA:** AIS disabling (going dark)
 - **Severity:** HIGH (foreign vessel, no authorization on record)
 - **EEZ:** Brazilian Exclusive Economic Zone (Brazil) -- FOREIGN-flagged vessel
-- **Authorization:** No public authorization record (check coastal state)
+- **Authorization:** No public authorization record (check coastal state)  ·  IMO 9492000
 - **Vessel:** 🇧🇸 ANGRA DOS REIS  ·  **signal:** AIS gap
 - **When (UTC):** 2026-09-01T19:05:45.000Z → 2026-09-02T07:41:46.000Z
 - **Gap:** 12.6 h dark, 60.0 nm offshore
