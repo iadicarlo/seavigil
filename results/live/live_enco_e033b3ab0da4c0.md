@@ -1,20 +1,20 @@
-# Incident `live_enco_651f7342ed5812`
+# Incident `live_enco_e033b3ab0da4c0`
 
 - **MPA:** At-sea encounter (transshipment)
 - **Severity:** HIGH (foreign vessel, no authorization on record)
-- **EEZ:** Vietnamese Exclusive Economic Zone (Vietnam) -- FOREIGN-flagged vessel
+- **EEZ:** Chinese Exclusive Economic Zone (China) -- FOREIGN-flagged vessel
 - **Authorization:** No public authorization record (check coastal state)
-- **Vessel:** 🇵🇳 21>B5S2  ·  **signal:** Encounter
-- **When (UTC):** 2026-09-02T06:20:00.000Z → 2026-09-02T22:20:00.000Z
-- **Encounter:** 16.0 h with carrier `574099994` (apparent transshipment)
-- **Where:** 7.550, 107.803
+- **Vessel:** 🇳🇴 ZHESANYU88858-28-  ·  **signal:** Encounter
+- **When (UTC):** 2026-09-03T00:10:00.000Z → 2026-09-03T22:00:00.000Z
+- **Encounter:** 21.8 h with carrier `258885827` (apparent transshipment)
+- **Where:** 31.297, 124.010
 
 ## Why this was flagged
 
 _GFW Events encounters dataset (Miller et al. 2018).._
 
-- two vessels within range for 16 h
-- counterpart: QUANG HUY94S2B5 TEO
+- two vessels within range for 22 h
+- counterpart: ZHESANYU88858-27-
 - two-vessel at-sea encounter (GFW Events)
 
 ## Could be innocent
@@ -31,7 +31,7 @@ Two vessels meeting at sea can be a legitimate transfer, bunkering, or a safety 
 
 - WDPA / WD-OECM (World Database on Protected Areas) (UNEP-WCMC and IUCN (2026), June 2026). Protected Planet Terms of Use (non-commercial, display-only).
 - Marine Regions Exclusive Economic Zones v12 (Flanders Marine Institute (2024), DOI 10.14284/632). CC BY 4.0.
-- **Integrity (SHA-256 of canonical facts):** `aa13c54483b86ba28ab6b6de421670361d1bdd7e90889f856119db3513f3a802`
+- **Integrity (SHA-256 of canonical facts):** `2091a25763a1d9c647ad42ef9ccab67d22bedbfb871af1fee17c1415de8fa7f9`
 - **Evidence schema:** seavigil-evidence-1.0
 
 _Apparent activity and an inspection lead, not proof of illegality. AIS and SAR evidence have known coverage gaps and spoofing risks; verify against authoritative sources before any enforcement action._
