@@ -1,6 +1,19 @@
 {
-"generated_at": "2026-09-07T16:28:46Z",
+"generated_at": "2026-09-07T20:35:43Z",
 "alerts": [
+{
+"id": "live_enco_a1fa9946d03b60",
+"first_seen": "2026-09-07T20:35:43Z",
+"type": "encounter",
+"when": "2026-09-03T20:50:00.000Z",
+"eez": "South Korean Exclusive Economic Zone",
+"flag": "CHN",
+"authorization": "no_record",
+"severity_reason": "foreign vessel, no authorization on record",
+"lat": 32.7473,
+"lon": 123.9883,
+"ship_name": "ZHEXIANGYU12001"
+},
 {
 "id": "live_ais__750642b4948291",
 "first_seen": "2026-09-07T16:28:46Z",
@@ -2587,19 +2600,6 @@
 "lat": 12.3001,
 "lon": -23.2469,
 "ship_name": "CAPE GULL"
-},
-{
-"id": "live_ais__b5372a8f8b1a9b",
-"first_seen": "2026-09-02T14:31:03Z",
-"type": "ais_disabling",
-"when": "2026-08-28T12:25:08.000Z",
-"eez": "Mauritanian Exclusive Economic Zone",
-"flag": "CPV",
-"authorization": "no_record",
-"severity_reason": "foreign vessel, no authorization on record",
-"lat": 20.449,
-"lon": -17.2992,
-"ship_name": "PONTA BICUDA"
 }
 ]
 }
