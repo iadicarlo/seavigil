@@ -3,7 +3,7 @@
 - **MPA:** AIS disabling (going dark)
 - **Severity:** HIGH (foreign vessel, no authorization on record)
 - **EEZ:** Japanese Exclusive Economic Zone (Japan) -- FOREIGN-flagged vessel
-- **Authorization:** No public authorization record (check coastal state)
+- **Authorization:** No public authorization record (check coastal state)  ·  IMO 9538907
 - **Vessel:** 🇺🇸 SLNC YORK  ·  **signal:** AIS gap
 - **When (UTC):** 2026-08-26T12:49:51.000Z → 2026-09-03T05:20:49.000Z
 - **Gap:** 184.5 h dark, 230.0 nm offshore

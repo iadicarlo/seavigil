@@ -3,7 +3,7 @@
 - **MPA:** AIS disabling (going dark)
 - **Severity:** HIGH (foreign vessel, no authorization on record)
 - **EEZ:** Madagascan Exclusive Economic Zone (Madagascar) -- FOREIGN-flagged vessel
-- **Authorization:** No public authorization record (check coastal state)  ·  IMO 9103130
+- **Authorization:** No public authorization record (check coastal state)
 - **Vessel:** 🇳🇴 STAR HARMONIA  ·  **signal:** AIS gap
 - **When (UTC):** 2026-09-03T04:21:28.000Z → 2026-09-03T19:49:23.000Z
 - **Gap:** 15.5 h dark, 94.0 nm offshore

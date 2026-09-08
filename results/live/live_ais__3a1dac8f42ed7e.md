@@ -3,7 +3,7 @@
 - **MPA:** AIS disabling (going dark)
 - **Severity:** HIGH (foreign vessel, no authorization on record)
 - **EEZ:** British Exclusive Economic Zone (Tristan da Cunha) (United Kingdom) -- FOREIGN-flagged vessel
-- **Authorization:** No public authorization record (check coastal state)  ·  IMO 9322061
+- **Authorization:** No public authorization record (check coastal state)
 - **Vessel:** 🇲🇹 CMA CGM THORIUM  ·  **signal:** AIS gap
 - **When (UTC):** 2026-08-26T16:28:07.000Z → 2026-09-03T03:03:30.000Z
 - **Gap:** 178.6 h dark, 231.0 nm offshore
