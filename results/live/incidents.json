@@ -1194,6 +1194,60 @@
     "evidence_hash": "a29692d77f913e986b7b248a93a1c8de8d63b8505f53dd979cc456c8273e1259"
   },
   {
+    "incident_id": "live_enco_97a17311a18a3f",
+    "type": "encounter",
+    "centroid_lon": 120.9743,
+    "centroid_lat": 26.0166,
+    "time_start_utc": "2026-09-04T10:10:00.000Z",
+    "time_end_utc": "2026-09-04T22:00:00.000Z",
+    "vessel_id": "416001469",
+    "ship_name": "SHIN YUH YU 6",
+    "ship_type": "Fishing",
+    "flag": "TWN",
+    "flag_emoji": "\ud83c\uddf9\ud83c\uddfc",
+    "gear": "Encounter",
+    "n_positions": 0,
+    "n_fishing_positions": 0,
+    "mean_fishing_proba": null,
+    "max_fishing_proba": null,
+    "_rfmo": [
+      "WCPFC",
+      "IWC",
+      "APFIC",
+      "ACAP"
+    ],
+    "_no_take": false,
+    "mpa_name": "At-sea encounter (transshipment)",
+    "duration_hours": 11.8,
+    "carrier_mmsi": "700123123",
+    "explanation": {
+      "method": "GFW Events encounters dataset (Miller et al. 2018).",
+      "drivers": [
+        "two vessels within range for 12 h",
+        "counterpart: 700123123",
+        "two-vessel at-sea encounter (GFW Events)"
+      ]
+    },
+    "caveats": [
+      "Co-location can be legitimate (joint operations, safety, shelter).",
+      "Apparent transshipment is inferred from proximity and low speed, not observed.",
+      "An inspection lead from GFW Events, not proof of illegal activity."
+    ],
+    "eez_name": "Chinese Exclusive Economic Zone",
+    "eez_sovereign": "China",
+    "eez_iso_sov": "CHN",
+    "eez_foreign": true,
+    "authorization_status": "no_record",
+    "authorization_authorities": [],
+    "registry_iuu_tag": false,
+    "registry_flag": "",
+    "registry_imo": "",
+    "severity": "high",
+    "severity_reason": "foreign vessel, no authorization on record",
+    "evidence_schema": "seavigil-evidence-1.0",
+    "evidence_hash": "63cf3a902bdcab7502c1a1cfd19d6e9d9239ba048adb2acdc8575e46299b508b"
+  },
+  {
     "incident_id": "live_enco_1b0887de66d7af",
     "type": "encounter",
     "centroid_lon": 111.5318,
@@ -1795,6 +1849,60 @@
     "severity_reason": "foreign vessel, no authorization on record",
     "evidence_schema": "seavigil-evidence-1.0",
     "evidence_hash": "6932726d7a6eb1b2a62711c160bd3d6919552d3627f7637c358be58ba01207e0"
+  },
+  {
+    "incident_id": "live_enco_17d4308696dbf2",
+    "type": "encounter",
+    "centroid_lon": 115.1236,
+    "centroid_lat": 22.3632,
+    "time_start_utc": "2026-09-04T03:00:00.000Z",
+    "time_end_utc": "2026-09-04T15:40:00.000Z",
+    "vessel_id": "419904123",
+    "ship_name": "269",
+    "ship_type": "Fishing",
+    "flag": "IND",
+    "flag_emoji": "\ud83c\uddee\ud83c\uddf3",
+    "gear": "Encounter",
+    "n_positions": 0,
+    "n_fishing_positions": 0,
+    "mean_fishing_proba": null,
+    "max_fishing_proba": null,
+    "_rfmo": [
+      "IWC",
+      "APFIC",
+      "WCPFC",
+      "ACAP"
+    ],
+    "_no_take": false,
+    "mpa_name": "At-sea encounter (transshipment)",
+    "duration_hours": 12.7,
+    "carrier_mmsi": "412462127",
+    "explanation": {
+      "method": "GFW Events encounters dataset (Miller et al. 2018).",
+      "drivers": [
+        "two vessels within range for 13 h",
+        "counterpart: YUEHONGYU30268",
+        "two-vessel at-sea encounter (GFW Events)"
+      ]
+    },
+    "caveats": [
+      "Co-location can be legitimate (joint operations, safety, shelter).",
+      "Apparent transshipment is inferred from proximity and low speed, not observed.",
+      "An inspection lead from GFW Events, not proof of illegal activity."
+    ],
+    "eez_name": "Chinese Exclusive Economic Zone",
+    "eez_sovereign": "China",
+    "eez_iso_sov": "CHN",
+    "eez_foreign": true,
+    "authorization_status": "no_record",
+    "authorization_authorities": [],
+    "registry_iuu_tag": false,
+    "registry_flag": "",
+    "registry_imo": "",
+    "severity": "high",
+    "severity_reason": "foreign vessel, no authorization on record",
+    "evidence_schema": "seavigil-evidence-1.0",
+    "evidence_hash": "649df78111f12b863f13b0cdb1df3723f49ca1e0b418e62f96b3c653a3efe215"
   },
   {
     "incident_id": "live_enco_fc314b29005e7f",
@@ -4299,118 +4407,5 @@
     "severity_reason": "foreign vessel, no authorization on record",
     "evidence_schema": "seavigil-evidence-1.0",
     "evidence_hash": "5dc071033bba63ec7cd89325be7e1a5ba5f589adf33ca242b0232bd5d4f31fd3"
-  },
-  {
-    "incident_id": "live_ais__e079a5c77c63dc",
-    "type": "ais_disabling",
-    "centroid_lon": -17.9065,
-    "centroid_lat": 20.4353,
-    "time_start_utc": "2026-09-02T19:04:00.000Z",
-    "time_end_utc": "2026-09-03T17:50:51.000Z",
-    "vessel_id": "629009462",
-    "ship_name": "SEI WHALE",
-    "ship_type": "Fishing",
-    "flag": "CMR",
-    "flag_emoji": "\ud83c\uddec\ud83c\uddf2",
-    "gear": "AIS gap",
-    "n_positions": 0,
-    "n_fishing_positions": 0,
-    "mean_fishing_proba": null,
-    "max_fishing_proba": null,
-    "_rfmo": [
-      "ICCAT",
-      "ACAP",
-      "NAMMCO",
-      "IWC",
-      "SRFC"
-    ],
-    "_no_take": false,
-    "mpa_name": "AIS disabling (going dark)",
-    "gap_hours": 22.8,
-    "duration_hours": 22.8,
-    "off_distance_nm": 51.0,
-    "displacement_nm": null,
-    "explanation": {
-      "method": "GFW Events gaps dataset (satellite AIS).",
-      "drivers": [
-        "went dark 51 nm offshore for 23 h",
-        "satellite-confirmed AIS gap (GFW Events)"
-      ]
-    },
-    "caveats": [
-      "AIS gaps can be reception loss, not always intentional disabling.",
-      "The position is where AIS dropped; the path while dark is unknown.",
-      "An inspection lead from GFW Events, not proof of illegal activity."
-    ],
-    "eez_name": "Overlapping claim Western Sahara: Western Sahara / Morocco",
-    "eez_sovereign": "Western Sahara",
-    "eez_iso_sov": "ESH",
-    "eez_foreign": true,
-    "authorization_status": "authorization_lapsed",
-    "authorization_authorities": [
-      "ICCAT"
-    ],
-    "registry_iuu_tag": false,
-    "registry_flag": "CMR",
-    "registry_imo": "7703950",
-    "severity": "high",
-    "severity_reason": "foreign vessel, authorization lapsed",
-    "evidence_schema": "seavigil-evidence-1.0",
-    "evidence_hash": "313651c4a9796021a6c353b14397430b777de48a8975d06881782a94127d016c"
-  },
-  {
-    "incident_id": "live_ais__241cbb9effcccb",
-    "type": "ais_disabling",
-    "centroid_lon": 40.2443,
-    "centroid_lat": -19.1146,
-    "time_start_utc": "2026-09-03T02:52:16.000Z",
-    "time_end_utc": "2026-09-03T16:28:17.000Z",
-    "vessel_id": "636020445",
-    "ship_name": "CHRISTIANNA",
-    "ship_type": "Cargo",
-    "flag": "LBR",
-    "flag_emoji": "\ud83c\uddf1\ud83c\uddf7",
-    "gear": "AIS gap",
-    "n_positions": 0,
-    "n_fishing_positions": 0,
-    "mean_fishing_proba": null,
-    "max_fishing_proba": null,
-    "_rfmo": [
-      "ACAP",
-      "IOTC",
-      "SWIOFC",
-      "IWC"
-    ],
-    "_no_take": false,
-    "mpa_name": "AIS disabling (going dark)",
-    "gap_hours": 13.6,
-    "duration_hours": 13.6,
-    "off_distance_nm": 112.0,
-    "displacement_nm": null,
-    "explanation": {
-      "method": "GFW Events gaps dataset (satellite AIS).",
-      "drivers": [
-        "went dark 112 nm offshore for 14 h",
-        "satellite-confirmed AIS gap (GFW Events)"
-      ]
-    },
-    "caveats": [
-      "AIS gaps can be reception loss, not always intentional disabling.",
-      "The position is where AIS dropped; the path while dark is unknown.",
-      "An inspection lead from GFW Events, not proof of illegal activity."
-    ],
-    "eez_name": "Mozambican Exclusive Economic Zone",
-    "eez_sovereign": "Mozambique",
-    "eez_iso_sov": "MOZ",
-    "eez_foreign": true,
-    "authorization_status": "no_record",
-    "authorization_authorities": [],
-    "registry_iuu_tag": false,
-    "registry_flag": "",
-    "registry_imo": "",
-    "severity": "high",
-    "severity_reason": "foreign vessel, no authorization on record",
-    "evidence_schema": "seavigil-evidence-1.0",
-    "evidence_hash": "0ec18a3476324fe6f318e1a6004170f90e007f8f82e6e22f18872d33ad9c3740"
   }
 ]
