@@ -1,6 +1,6 @@
 # In-MPA records
 
-1296 record(s): 0 AIS fishing incident(s), 1296 dark-vessel SAR detection(s).
+1250 record(s): 0 AIS fishing incident(s), 1250 dark-vessel SAR detection(s).
 
 | id | type | MPA | start (UTC) | score / mean p |
 |---|---|---|---|---:|
@@ -1254,49 +1254,3 @@
 | [s1sar__20260826_0099](s1sar__20260826_0099.md) | dark SAR | Sentinel-1 SAR detection | 2026-08-26T19:07:42Z | 0.10 |
 | [s1sar__20260826_0100](s1sar__20260826_0100.md) | dark SAR | Sentinel-1 SAR detection | 2026-08-26T19:07:42Z | 0.01 |
 | [s1sar__20260826_0103](s1sar__20260826_0103.md) | dark SAR | Sentinel-1 SAR detection | 2026-08-26T19:07:42Z | 0.23 |
-| [s1sar__20260825_0000](s1sar__20260825_0000.md) | dark SAR | Sentinel-1 SAR detection | 2026-08-25T19:20:36Z | 0.93 |
-| [s1sar__20260825_0001](s1sar__20260825_0001.md) | dark SAR | Sentinel-1 SAR detection | 2026-08-25T19:20:36Z | 0.00 |
-| [s1sar__20260825_0002](s1sar__20260825_0002.md) | dark SAR | Sentinel-1 SAR detection | 2026-08-25T19:20:36Z | 0.00 |
-| [s1sar__20260825_0003](s1sar__20260825_0003.md) | dark SAR | Sentinel-1 SAR detection | 2026-08-25T19:20:36Z | 0.00 |
-| [s1sar__20260825_0004](s1sar__20260825_0004.md) | dark SAR | Sentinel-1 SAR detection | 2026-08-25T19:20:36Z | 0.00 |
-| [s1sar__20260825_0005](s1sar__20260825_0005.md) | dark SAR | Sentinel-1 SAR detection | 2026-08-25T19:20:36Z | 0.00 |
-| [s1sar__20260825_0006](s1sar__20260825_0006.md) | dark SAR | Sentinel-1 SAR detection | 2026-08-25T19:20:36Z | 0.00 |
-| [s1sar__20260825_0027](s1sar__20260825_0027.md) | dark SAR | Sentinel-1 SAR detection | 2026-08-25T19:20:36Z | 0.00 |
-| [s1sar__20260825_0028](s1sar__20260825_0028.md) | dark SAR | Sentinel-1 SAR detection | 2026-08-25T19:20:36Z | 0.00 |
-| [s1sar__20260825_0029](s1sar__20260825_0029.md) | dark SAR | Sentinel-1 SAR detection | 2026-08-25T19:20:36Z | 0.81 |
-| [s1sar__20260825_0030](s1sar__20260825_0030.md) | dark SAR | Sentinel-1 SAR detection | 2026-08-25T19:20:36Z | 0.01 |
-| [s1sar__20260825_0031](s1sar__20260825_0031.md) | dark SAR | Sentinel-1 SAR detection | 2026-08-25T19:20:36Z | 0.00 |
-| [s1sar__20260825_0032](s1sar__20260825_0032.md) | dark SAR | Sentinel-1 SAR detection | 2026-08-25T19:20:36Z | 0.00 |
-| [s1sar__20260825_0033](s1sar__20260825_0033.md) | dark SAR | Sentinel-1 SAR detection | 2026-08-25T19:20:36Z | 0.00 |
-| [s1sar__20260825_0034](s1sar__20260825_0034.md) | dark SAR | Sentinel-1 SAR detection | 2026-08-25T19:20:36Z | 0.00 |
-| [s1sar__20260825_0035](s1sar__20260825_0035.md) | dark SAR | Sentinel-1 SAR detection | 2026-08-25T19:20:36Z | 0.00 |
-| [s1sar__20260825_0036](s1sar__20260825_0036.md) | dark SAR | Sentinel-1 SAR detection | 2026-08-25T19:20:36Z | 0.00 |
-| [s1sar__20260825_0037](s1sar__20260825_0037.md) | dark SAR | Sentinel-1 SAR detection | 2026-08-25T19:20:36Z | 0.00 |
-| [s1sar__20260825_0038](s1sar__20260825_0038.md) | dark SAR | Sentinel-1 SAR detection | 2026-08-25T19:20:36Z | 0.00 |
-| [s1sar__20260825_0039](s1sar__20260825_0039.md) | dark SAR | Sentinel-1 SAR detection | 2026-08-25T19:20:36Z | 0.00 |
-| [s1sar__20260825_0040](s1sar__20260825_0040.md) | dark SAR | Sentinel-1 SAR detection | 2026-08-25T19:20:36Z | 0.00 |
-| [s1sar__20260825_0041](s1sar__20260825_0041.md) | dark SAR | Sentinel-1 SAR detection | 2026-08-25T19:20:36Z | 0.00 |
-| [s1sar__20260825_0042](s1sar__20260825_0042.md) | dark SAR | Sentinel-1 SAR detection | 2026-08-25T19:20:36Z | 0.00 |
-| [s1sar__20260825_0043](s1sar__20260825_0043.md) | dark SAR | Sentinel-1 SAR detection | 2026-08-25T19:20:36Z | 0.00 |
-| [s1sar__20260825_0044](s1sar__20260825_0044.md) | dark SAR | Sentinel-1 SAR detection | 2026-08-25T19:20:36Z | 0.00 |
-| [s1sar__20260825_0045](s1sar__20260825_0045.md) | dark SAR | Sentinel-1 SAR detection | 2026-08-25T19:20:36Z | 0.00 |
-| [s1sar__20260825_0046](s1sar__20260825_0046.md) | dark SAR | Sentinel-1 SAR detection | 2026-08-25T19:20:36Z | 0.00 |
-| [s1sar__20260825_0047](s1sar__20260825_0047.md) | dark SAR | Sentinel-1 SAR detection | 2026-08-25T19:20:36Z | 0.00 |
-| [s1sar__20260825_0048](s1sar__20260825_0048.md) | dark SAR | Sentinel-1 SAR detection | 2026-08-25T19:20:36Z | 0.00 |
-| [s1sar__20260825_0049](s1sar__20260825_0049.md) | dark SAR | Sentinel-1 SAR detection | 2026-08-25T19:20:36Z | 0.00 |
-| [s1sar__20260825_0050](s1sar__20260825_0050.md) | dark SAR | Sentinel-1 SAR detection | 2026-08-25T19:20:36Z | 0.95 |
-| [s1sar__20260825_0054](s1sar__20260825_0054.md) | dark SAR | Sentinel-1 SAR detection | 2026-08-25T19:20:36Z | 0.97 |
-| [s1sar__20260825_0055](s1sar__20260825_0055.md) | dark SAR | Sentinel-1 SAR detection | 2026-08-25T19:20:36Z | 0.94 |
-| [s1sar__20260825_0056](s1sar__20260825_0056.md) | dark SAR | Sentinel-1 SAR detection | 2026-08-25T19:20:36Z | 0.94 |
-| [s1sar__20260825_0057](s1sar__20260825_0057.md) | dark SAR | Sentinel-1 SAR detection | 2026-08-25T19:20:36Z | 0.96 |
-| [s1sar__20260825_0058](s1sar__20260825_0058.md) | dark SAR | Sentinel-1 SAR detection | 2026-08-25T19:20:36Z | 0.92 |
-| [s1sar__20260825_0059](s1sar__20260825_0059.md) | dark SAR | Sentinel-1 SAR detection | 2026-08-25T19:20:36Z | 0.93 |
-| [s1sar__20260825_0060](s1sar__20260825_0060.md) | dark SAR | Sentinel-1 SAR detection | 2026-08-25T19:20:36Z | 0.95 |
-| [s1sar__20260825_0061](s1sar__20260825_0061.md) | dark SAR | Sentinel-1 SAR detection | 2026-08-25T19:20:36Z | 0.96 |
-| [s1sar__20260825_0062](s1sar__20260825_0062.md) | dark SAR | Sentinel-1 SAR detection | 2026-08-25T19:20:36Z | 0.00 |
-| [s1sar__20260825_0063](s1sar__20260825_0063.md) | dark SAR | Sentinel-1 SAR detection | 2026-08-25T19:20:36Z | 0.00 |
-| [s1sar__20260825_0064](s1sar__20260825_0064.md) | dark SAR | Sentinel-1 SAR detection | 2026-08-25T19:20:36Z | 0.00 |
-| [s1sar__20260825_0065](s1sar__20260825_0065.md) | dark SAR | Sentinel-1 SAR detection | 2026-08-25T19:20:36Z | 0.09 |
-| [s1sar__20260825_0067](s1sar__20260825_0067.md) | dark SAR | Sentinel-1 SAR detection | 2026-08-25T19:20:36Z | 0.95 |
-| [s1sar__20260825_0068](s1sar__20260825_0068.md) | dark SAR | Sentinel-1 SAR detection | 2026-08-25T19:20:36Z | 0.73 |
-| [s1sar__20260825_0069](s1sar__20260825_0069.md) | dark SAR | Sentinel-1 SAR detection | 2026-08-25T19:20:36Z | 0.10 |
