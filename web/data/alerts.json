@@ -1,6 +1,19 @@
 {
-"generated_at": "2026-09-09T04:52:33Z",
+"generated_at": "2026-09-09T09:48:48Z",
 "alerts": [
+{
+"id": "live_enco_dfbcf3219ee0cb",
+"first_seen": "2026-09-09T09:48:48Z",
+"type": "encounter",
+"when": "2026-09-05T14:10:00.000Z",
+"eez": "Chinese Exclusive Economic Zone",
+"flag": "CYP",
+"authorization": "no_record",
+"severity_reason": "foreign vessel, no authorization on record",
+"lat": 32.1001,
+"lon": 122.7618,
+"ship_name": "MINXIAYU01806"
+},
 {
 "id": "live_enco_787ef03782fdb5",
 "first_seen": "2026-09-09T04:52:33Z",
@@ -2587,19 +2600,6 @@
 "lat": 72.0865,
 "lon": 17.4228,
 "ship_name": "BALTIYSKAYA KOSA"
-},
-{
-"id": "live_enco_d5d7ce8b643750",
-"first_seen": "2026-09-05T00:58:48Z",
-"type": "encounter",
-"when": "2026-09-01T20:40:00.000Z",
-"eez": "Bruneian Exclusive Economic Zone",
-"flag": "CHN",
-"authorization": "no_record",
-"severity_reason": "foreign vessel, no authorization on record",
-"lat": 6.6286,
-"lon": 112.6541,
-"ship_name": "SHEN NAN 1869"
 }
 ]
 }

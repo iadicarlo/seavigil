@@ -1,9 +1,9 @@
 # Incident `live_ais__888088ebad7a95`
 
 - **MPA:** AIS disabling (going dark)
-- **Severity:** HIGH (foreign vessel, authorization lapsed)
+- **Severity:** HIGH (foreign vessel, no authorization on record)
 - **EEZ:** Sierra Leonean Exclusive Economic Zone (Sierra Leone) -- FOREIGN-flagged vessel
-- **Authorization:** Authorization lapsed before this date: ICCAT, IOTC, WCPFC  ·  IMO 8906456
+- **Authorization:** No public authorization record (check coastal state)
 - **Vessel:** 🇪🇸 ZUBEROA  ·  **signal:** AIS gap
 - **When (UTC):** 2026-08-27T20:06:22.000Z → 2026-09-03T19:07:12.000Z
 - **Gap:** 167.0 h dark, 69.0 nm offshore

@@ -3,7 +3,7 @@
 - **MPA:** AIS disabling (going dark)
 - **Severity:** HIGH (foreign vessel, no authorization on record)
 - **EEZ:** Spanish Exclusive Economic Zone (Spain) -- FOREIGN-flagged vessel
-- **Authorization:** No public authorization record (check coastal state)  ·  IMO 9463633
+- **Authorization:** No public authorization record (check coastal state)
 - **Vessel:** 🇳🇱 ZWERVER I  ·  **signal:** AIS gap
 - **When (UTC):** 2026-09-03T16:54:19.000Z → 2026-09-04T07:57:27.000Z
 - **Gap:** 15.1 h dark, 157.0 nm offshore

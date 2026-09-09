@@ -1,9 +1,9 @@
 # Incident `live_ais__7be789b6573a98`
 
 - **MPA:** AIS disabling (going dark)
-- **Severity:** HIGH (foreign vessel, no authorization on record)
+- **Severity:** HIGH (foreign vessel, authorization lapsed)
 - **EEZ:** Seychellois Exclusive Economic Zone (Seychelles) -- FOREIGN-flagged vessel
-- **Authorization:** No public authorization record (check coastal state)
+- **Authorization:** Authorization lapsed before this date: ICCAT, IOTC, WCPFC  ·  IMO 9128520
 - **Vessel:** 🇫🇷 AVEL VAD  ·  **signal:** AIS gap
 - **When (UTC):** 2026-08-25T01:11:13.000Z → 2026-09-04T14:13:41.000Z
 - **Gap:** 253.0 h dark, 86.0 nm offshore

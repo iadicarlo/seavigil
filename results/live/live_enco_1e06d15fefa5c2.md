@@ -1,9 +1,9 @@
 # Incident `live_enco_1e06d15fefa5c2`
 
 - **MPA:** At-sea encounter (transshipment)
-- **Severity:** HIGH (foreign vessel, no authorization on record)
+- **Severity:** HIGH (foreign vessel, authorization lapsed)
 - **EEZ:** Omani Exclusive Economic Zone (Oman) -- FOREIGN-flagged vessel
-- **Authorization:** No public authorization record (check coastal state)
+- **Authorization:** Authorization lapsed before this date: NPFC  ·  IMO 8785826
 - **Vessel:** 🇨🇳 HAILI618  ·  **signal:** Encounter
 - **When (UTC):** 2026-09-05T09:30:00.000Z → 2026-09-05T18:50:00.000Z
 - **Encounter:** 9.3 h with carrier `412549124` (apparent transshipment)

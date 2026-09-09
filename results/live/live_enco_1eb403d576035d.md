@@ -1,9 +1,9 @@
 # Incident `live_enco_1eb403d576035d`
 
 - **MPA:** At-sea encounter (transshipment)
-- **Severity:** HIGH (foreign vessel, no authorization on record)
+- **Severity:** HIGH (foreign vessel, authorization lapsed)
 - **EEZ:** United States Exclusive Economic Zone (Alaska) (United States) -- FOREIGN-flagged vessel
-- **Authorization:** No public authorization record (check coastal state)  ·  IMO 9218832
+- **Authorization:** Authorization lapsed before this date: FFA, ICCAT, IOTC, NPFC, SPRFMO, WCPFC  ·  IMO 9698343
 - **Vessel:** 🇰🇷 NO.2 JOCHOH  ·  **signal:** Encounter
 - **When (UTC):** 2026-09-05T00:00:00.000Z → 2026-09-05T14:30:00.000Z
 - **Encounter:** 14.5 h with carrier `303303000` (apparent transshipment)
