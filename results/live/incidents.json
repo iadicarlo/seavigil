@@ -1610,7 +1610,7 @@
     "centroid_lat": 27.104,
     "time_start_utc": "2026-09-04T10:10:00.000Z",
     "time_end_utc": "2026-09-05T15:10:00.000Z",
-    "vessel_id": "412414563",
+    "vessel_id": "412424563",
     "ship_name": "ZHECANGYU03303",
     "ship_type": "Fishing",
     "flag": "CHN",
@@ -1621,15 +1621,15 @@
     "mean_fishing_proba": null,
     "max_fishing_proba": null,
     "_rfmo": [
-      "WCPFC",
+      "IWC",
       "APFIC",
-      "ACAP",
-      "IWC"
+      "WCPFC",
+      "ACAP"
     ],
     "_no_take": false,
     "mpa_name": "At-sea encounter (transshipment)",
     "duration_hours": 29.0,
-    "carrier_mmsi": "412424563",
+    "carrier_mmsi": "412414563",
     "explanation": {
       "method": "GFW Events encounters dataset (Miller et al. 2018).",
       "drivers": [
@@ -1655,7 +1655,7 @@
     "severity": "high",
     "severity_reason": "foreign vessel, no authorization on record",
     "evidence_schema": "seavigil-evidence-1.0",
-    "evidence_hash": "ba854a9bc3d277b506e88fc9b2ab4489cdb524720934138786ebd36996172948"
+    "evidence_hash": "c5559be41d681f36979b4541b38d217ea12d0f3d713a4a46bea4ba682e32d967"
   },
   {
     "incident_id": "live_enco_4e9c00a7cfe09e",
@@ -1664,8 +1664,8 @@
     "centroid_lat": 27.0553,
     "time_start_utc": "2026-09-04T10:20:00.000Z",
     "time_end_utc": "2026-09-05T15:00:00.000Z",
-    "vessel_id": "412432766",
-    "ship_name": "ZHECANGYU06555",
+    "vessel_id": "412432564",
+    "ship_name": "ZHELONGGANGYU05828",
     "ship_type": "Fishing",
     "flag": "CHN",
     "flag_emoji": "\ud83c\udde8\ud83c\uddf3",
@@ -1675,20 +1675,20 @@
     "mean_fishing_proba": null,
     "max_fishing_proba": null,
     "_rfmo": [
+      "WCPFC",
       "APFIC",
       "IWC",
-      "WCPFC",
       "ACAP"
     ],
     "_no_take": false,
     "mpa_name": "At-sea encounter (transshipment)",
     "duration_hours": 28.7,
-    "carrier_mmsi": "412432564",
+    "carrier_mmsi": "412432766",
     "explanation": {
       "method": "GFW Events encounters dataset (Miller et al. 2018).",
       "drivers": [
         "two vessels within range for 29 h",
-        "counterpart: ZHELONGGANGYU05828",
+        "counterpart: ZHECANGYU06555",
         "two-vessel at-sea encounter (GFW Events)"
       ]
     },
@@ -1709,7 +1709,7 @@
     "severity": "high",
     "severity_reason": "foreign vessel, no authorization on record",
     "evidence_schema": "seavigil-evidence-1.0",
-    "evidence_hash": "9798e42e17397023004c90a00c47a39b8685c798619f06f553cff18a017dcbc3"
+    "evidence_hash": "252e0236432ed0a44c0e73ad383ba6989e845b3552f92f2d732af5d659406a0b"
   },
   {
     "incident_id": "live_enco_383d37f578bb23",
