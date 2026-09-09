@@ -1,6 +1,32 @@
 {
-"generated_at": "2026-09-09T00:16:57Z",
+"generated_at": "2026-09-09T04:52:33Z",
 "alerts": [
+{
+"id": "live_enco_787ef03782fdb5",
+"first_seen": "2026-09-09T04:52:33Z",
+"type": "encounter",
+"when": "2026-09-05T07:20:00.000Z",
+"eez": "Vietnamese Exclusive Economic Zone",
+"flag": "ISL",
+"authorization": "no_record",
+"severity_reason": "foreign vessel, no authorization on record",
+"lat": 8.4277,
+"lon": 108.9974,
+"ship_name": "TI_99144_LXN-88%"
+},
+{
+"id": "live_enco_23a3d8c786a307",
+"first_seen": "2026-09-09T04:52:33Z",
+"type": "encounter",
+"when": "2026-09-04T21:40:00.000Z",
+"eez": "Chinese Exclusive Economic Zone",
+"flag": "TWN",
+"authorization": "no_record",
+"severity_reason": "foreign vessel, no authorization on record",
+"lat": 27.475,
+"lon": 123.2129,
+"ship_name": "11"
+},
 {
 "id": "live_enco_af66baab7e61cc",
 "first_seen": "2026-09-09T00:16:57Z",
@@ -2574,32 +2600,6 @@
 "lat": 6.6286,
 "lon": 112.6541,
 "ship_name": "SHEN NAN 1869"
-},
-{
-"id": "live_enco_4758972edca477",
-"first_seen": "2026-09-05T00:58:48Z",
-"type": "encounter",
-"when": "2026-09-01T12:00:00.000Z",
-"eez": "Vietnamese Exclusive Economic Zone",
-"flag": "PCN",
-"authorization": "no_record",
-"severity_reason": "foreign vessel, no authorization on record",
-"lat": 7.4953,
-"lon": 107.5891,
-"ship_name": "21>B5S2"
-},
-{
-"id": "live_enco_4a00e539b21b71",
-"first_seen": "2026-09-04T16:23:22Z",
-"type": "encounter",
-"when": "2026-08-31T04:20:00.000Z",
-"eez": "Chinese Exclusive Economic Zone",
-"flag": "CMR",
-"authorization": "no_record",
-"severity_reason": "foreign vessel, no authorization on record",
-"lat": 26.9282,
-"lon": 121.8516,
-"ship_name": ""
 }
 ]
 }
