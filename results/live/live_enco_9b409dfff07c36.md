@@ -1,20 +1,20 @@
-# Incident `live_enco_07294e6c1d41a1`
+# Incident `live_enco_9b409dfff07c36`
 
 - **MPA:** At-sea encounter (transshipment)
-- **Severity:** HIGH (foreign vessel, authorization lapsed)
-- **EEZ:** Omani Exclusive Economic Zone (Oman) -- FOREIGN-flagged vessel
-- **Authorization:** Authorization lapsed before this date: NPFC  ·  IMO 8786818
-- **Vessel:** 🇨🇳 HAILI888  ·  **signal:** Encounter
-- **When (UTC):** 2026-09-04T03:20:00.000Z → 2026-09-05T21:20:00.000Z
-- **Encounter:** 42.0 h with carrier `271073634` (apparent transshipment)
-- **Where:** 19.480, 57.730
+- **Severity:** HIGH (foreign vessel, no authorization on record)
+- **EEZ:** Chinese Exclusive Economic Zone (China) -- FOREIGN-flagged vessel
+- **Authorization:** No public authorization record (check coastal state)
+- **Vessel:** 🇵🇦 TENGDA13389  ·  **signal:** Encounter
+- **When (UTC):** 2026-09-06T02:00:00.000Z → 2026-09-06T23:10:00.000Z
+- **Encounter:** 21.2 h with carrier `412465904` (apparent transshipment)
+- **Where:** 22.239, 115.264
 
 ## Why this was flagged
 
 _GFW Events encounters dataset (Miller et al. 2018).._
 
-- two vessels within range for 42 h
-- counterpart: KAZIM KOBYA
+- two vessels within range for 21 h
+- counterpart: YUE NAN AO YU 13389
 - two-vessel at-sea encounter (GFW Events)
 
 ## Could be innocent
@@ -31,7 +31,7 @@ Two vessels meeting at sea can be a legitimate transfer, bunkering, or a safety 
 
 - WDPA / WD-OECM (World Database on Protected Areas) (UNEP-WCMC and IUCN (2026), June 2026). Protected Planet Terms of Use (non-commercial, display-only).
 - Marine Regions Exclusive Economic Zones v12 (Flanders Marine Institute (2024), DOI 10.14284/632). CC BY 4.0.
-- **Integrity (SHA-256 of canonical facts):** `f29c21041c58ce9bb1be64f3c747dc375eb570f0f812087ee9bc3abd8693b599`
+- **Integrity (SHA-256 of canonical facts):** `95f7e419d9ad692a8e4c0fa95b69bf5ace481da369adf04c185c9e83251d00a3`
 - **Evidence schema:** seavigil-evidence-1.0
 
 _Apparent activity and an inspection lead, not proof of illegality. AIS and SAR evidence have known coverage gaps and spoofing risks; verify against authoritative sources before any enforcement action._
