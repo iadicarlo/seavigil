@@ -1,19 +1,19 @@
-# Incident `live_ais__21ad5f04d5a0eb`
+# Incident `live_ais__170dbece2b810a`
 
 - **MPA:** AIS disabling (going dark)
 - **Severity:** HIGH (foreign vessel, no authorization on record)
-- **EEZ:** Fijian Exclusive Economic Zone (Fiji) -- FOREIGN-flagged vessel
-- **Authorization:** No public authorization record (check coastal state)
-- **Vessel:** 🇺🇸 DRAGONFLY  ·  **signal:** AIS gap
-- **When (UTC):** 2026-09-02T01:14:27.000Z → 2026-09-04T22:05:40.000Z
-- **Gap:** 68.9 h dark, 167.0 nm offshore
-- **Where:** -23.654, -178.895
+- **EEZ:** Madagascan Exclusive Economic Zone (Madagascar) -- FOREIGN-flagged vessel
+- **Authorization:** No public authorization record (check coastal state)  ·  IMO 9677337
+- **Vessel:** 🇨🇳 TAN ZHOU LUN  ·  **signal:** AIS gap
+- **When (UTC):** 2026-09-05T09:23:39.000Z → 2026-09-06T20:28:43.000Z
+- **Gap:** 35.1 h dark, 73.0 nm offshore
+- **Where:** -11.659, 49.532
 
 ## Why this was flagged
 
 _GFW Events gaps dataset (satellite AIS).._
 
-- went dark 167 nm offshore for 69 h
+- went dark 73 nm offshore for 35 h
 - satellite-confirmed AIS gap (GFW Events)
 
 ## Could be innocent
@@ -31,7 +31,7 @@ Going dark is frequently benign: in open water, where gaps are commonly protecti
 - NOAA Marine Cadastre AIS (marinecadastre.gov/ais (vessel positions)). US public domain.
 - WDPA / WD-OECM (World Database on Protected Areas) (UNEP-WCMC and IUCN (2026), June 2026). Protected Planet Terms of Use (non-commercial, display-only).
 - Marine Regions Exclusive Economic Zones v12 (Flanders Marine Institute (2024), DOI 10.14284/632). CC BY 4.0.
-- **Integrity (SHA-256 of canonical facts):** `a29692d77f913e986b7b248a93a1c8de8d63b8505f53dd979cc456c8273e1259`
+- **Integrity (SHA-256 of canonical facts):** `53c0ecf4543c2e22f3eda6d82d288ca4b1a9d79df4802a4c6470721fe2f0a450`
 - **Evidence schema:** seavigil-evidence-1.0
 
 _Apparent activity and an inspection lead, not proof of illegality. AIS and SAR evidence have known coverage gaps and spoofing risks; verify against authoritative sources before any enforcement action._
