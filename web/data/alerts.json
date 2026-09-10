@@ -1,6 +1,19 @@
 {
-"generated_at": "2026-09-10T00:16:40Z",
+"generated_at": "2026-09-10T04:53:39Z",
 "alerts": [
+{
+"id": "live_enco_527eba0b8f5f51",
+"first_seen": "2026-09-10T04:53:39Z",
+"type": "encounter",
+"when": "2026-09-06T05:20:00.000Z",
+"eez": "Overlapping claim Taiwan: Taiwan / China",
+"flag": "SOM",
+"authorization": "no_record",
+"severity_reason": "foreign vessel, no authorization on record",
+"lat": 23.4529,
+"lon": 119.4124,
+"ship_name": "BEN CHI"
+},
 {
 "id": "live_enco_29e1568f536265",
 "first_seen": "2026-09-10T00:16:40Z",
@@ -2587,19 +2600,6 @@
 "lat": 38.6165,
 "lon": 121.1036,
 "ship_name": "65066"
-},
-{
-"id": "live_enco_20a7d1c5edbcd2",
-"first_seen": "2026-09-05T16:50:11Z",
-"type": "encounter",
-"when": "2026-09-01T19:00:00.000Z",
-"eez": "Chinese Exclusive Economic Zone",
-"flag": "CMR",
-"authorization": "no_record",
-"severity_reason": "foreign vessel, no authorization on record",
-"lat": 26.9037,
-"lon": 121.8598,
-"ship_name": ""
 }
 ]
 }

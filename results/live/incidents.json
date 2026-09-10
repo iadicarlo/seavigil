@@ -6,8 +6,8 @@
     "centroid_lat": 36.7819,
     "time_start_utc": "2026-09-06T09:20:00.000Z",
     "time_end_utc": "2026-09-06T23:50:00.000Z",
-    "vessel_id": "412208191",
-    "ship_name": "LIAOPUYU25273",
+    "vessel_id": "412208192",
+    "ship_name": "LIAOPUYU25275",
     "ship_type": "Fishing",
     "flag": "CHN",
     "flag_emoji": "\ud83c\udde8\ud83c\uddf3",
@@ -17,20 +17,20 @@
     "mean_fishing_proba": null,
     "max_fishing_proba": null,
     "_rfmo": [
-      "WCPFC",
-      "PICES",
       "IWC",
-      "ACAP"
+      "WCPFC",
+      "ACAP",
+      "PICES"
     ],
     "_no_take": false,
     "mpa_name": "At-sea encounter (transshipment)",
     "duration_hours": 14.5,
-    "carrier_mmsi": "412208192",
+    "carrier_mmsi": "412208191",
     "explanation": {
       "method": "GFW Events encounters dataset (Miller et al. 2018).",
       "drivers": [
         "two vessels within range for 14 h",
-        "counterpart: LIAOPUYU25275",
+        "counterpart: LIAOPUYU25273",
         "two-vessel at-sea encounter (GFW Events)"
       ]
     },
@@ -51,7 +51,7 @@
     "severity": "high",
     "severity_reason": "foreign vessel, no authorization on record",
     "evidence_schema": "seavigil-evidence-1.0",
-    "evidence_hash": "b6db6674488784a28f4a745bf9a26ad162bf0a87d0f5b01dd20025ac20433a56"
+    "evidence_hash": "a07c478cd4255c91bcbec9968740b8262b47f03e01f5fb0b2a4c538504e6f586"
   },
   {
     "incident_id": "live_enco_af5b7bef795d89",
@@ -279,11 +279,11 @@
     "centroid_lat": 19.4792,
     "time_start_utc": "2026-09-05T11:40:00.000Z",
     "time_end_utc": "2026-09-06T23:50:00.000Z",
-    "vessel_id": "271073640",
-    "ship_name": "AKGUN VEDAT",
+    "vessel_id": "412421064",
+    "ship_name": "HAILI618",
     "ship_type": "Fishing",
-    "flag": "TUR",
-    "flag_emoji": "\ud83c\uddf9\ud83c\uddf7",
+    "flag": "CHN",
+    "flag_emoji": "\ud83c\udde8\ud83c\uddf3",
     "gear": "Encounter",
     "n_positions": 0,
     "n_fishing_positions": 0,
@@ -293,12 +293,12 @@
     "_no_take": false,
     "mpa_name": "At-sea encounter (transshipment)",
     "duration_hours": 36.2,
-    "carrier_mmsi": "412421064",
+    "carrier_mmsi": "271073640",
     "explanation": {
       "method": "GFW Events encounters dataset (Miller et al. 2018).",
       "drivers": [
         "two vessels within range for 36 h",
-        "counterpart: HAILI618",
+        "counterpart: AKGUN VEDAT",
         "two-vessel at-sea encounter (GFW Events)"
       ]
     },
@@ -313,15 +313,15 @@
     "eez_foreign": true,
     "authorization_status": "authorization_lapsed",
     "authorization_authorities": [
-      "GFCM"
+      "NPFC"
     ],
     "registry_iuu_tag": false,
-    "registry_flag": "TUR",
-    "registry_imo": "9956496",
+    "registry_flag": "CHN",
+    "registry_imo": "8785826",
     "severity": "high",
     "severity_reason": "foreign vessel, authorization lapsed",
     "evidence_schema": "seavigil-evidence-1.0",
-    "evidence_hash": "48bdb1060fc5174a275892c578494326832fcb7d83e266a501fecbd871f199ae"
+    "evidence_hash": "7196169b2e1f8a338aafa223548c39e4b534749a33c6f9fa401ee3d1aa2789db"
   },
   {
     "incident_id": "live_enco_f7f8957a756c7c",
@@ -590,61 +590,6 @@
     "severity_reason": "foreign vessel, no authorization on record",
     "evidence_schema": "seavigil-evidence-1.0",
     "evidence_hash": "0ed44f473078d7b3e5491b5e971e3d137062aee011c8eee8484e68e17f14e971"
-  },
-  {
-    "incident_id": "live_enco_35445192244041",
-    "type": "encounter",
-    "centroid_lon": 109.064,
-    "centroid_lat": 8.6589,
-    "time_start_utc": "2026-09-06T18:20:00.000Z",
-    "time_end_utc": "2026-09-06T23:30:00.000Z",
-    "vessel_id": "251100998",
-    "ship_name": "TI_99144_LXN-88%",
-    "ship_type": "Fishing",
-    "flag": "ISL",
-    "flag_emoji": "\ud83c\uddee\ud83c\uddf8",
-    "gear": "Encounter",
-    "n_positions": 0,
-    "n_fishing_positions": 0,
-    "mean_fishing_proba": null,
-    "max_fishing_proba": null,
-    "_rfmo": [
-      "APFIC",
-      "IWC",
-      "WCPFC",
-      "SEAFDEC",
-      "ACAP"
-    ],
-    "_no_take": false,
-    "mpa_name": "At-sea encounter (transshipment)",
-    "duration_hours": 5.2,
-    "carrier_mmsi": "547999144",
-    "explanation": {
-      "method": "GFW Events encounters dataset (Miller et al. 2018).",
-      "drivers": [
-        "two vessels within range for 5 h",
-        "counterpart: TI99144",
-        "two-vessel at-sea encounter (GFW Events)"
-      ]
-    },
-    "caveats": [
-      "Co-location can be legitimate (joint operations, safety, shelter).",
-      "Apparent transshipment is inferred from proximity and low speed, not observed.",
-      "An inspection lead from GFW Events, not proof of illegal activity."
-    ],
-    "eez_name": "Vietnamese Exclusive Economic Zone",
-    "eez_sovereign": "Vietnam",
-    "eez_iso_sov": "VNM",
-    "eez_foreign": true,
-    "authorization_status": "no_record",
-    "authorization_authorities": [],
-    "registry_iuu_tag": false,
-    "registry_flag": "",
-    "registry_imo": "",
-    "severity": "high",
-    "severity_reason": "foreign vessel, no authorization on record",
-    "evidence_schema": "seavigil-evidence-1.0",
-    "evidence_hash": "8b36a78bc62c525674c9ad252d9ffa8d297efcfac5ccd3123c3f98831bb44ddb"
   },
   {
     "incident_id": "live_enco_55d65c7415556b",
@@ -1067,6 +1012,60 @@
     "severity_reason": "foreign vessel, no authorization on record",
     "evidence_schema": "seavigil-evidence-1.0",
     "evidence_hash": "b07248181b68c16701764cc249afebf24ce8f3eb8bee63bf8bff3b7e35364dd5"
+  },
+  {
+    "incident_id": "live_enco_527eba0b8f5f51",
+    "type": "encounter",
+    "centroid_lon": 119.4124,
+    "centroid_lat": 23.4529,
+    "time_start_utc": "2026-09-06T05:20:00.000Z",
+    "time_end_utc": "2026-09-06T21:40:00.000Z",
+    "vessel_id": "666888999",
+    "ship_name": "BEN CHI",
+    "ship_type": "Fishing",
+    "flag": "SOM",
+    "flag_emoji": "\ud83c\uddf8\ud83c\uddf4",
+    "gear": "Encounter",
+    "n_positions": 0,
+    "n_fishing_positions": 0,
+    "mean_fishing_proba": null,
+    "max_fishing_proba": null,
+    "_rfmo": [
+      "WCPFC",
+      "ACAP",
+      "APFIC",
+      "IWC"
+    ],
+    "_no_take": false,
+    "mpa_name": "At-sea encounter (transshipment)",
+    "duration_hours": 16.3,
+    "carrier_mmsi": "222456789",
+    "explanation": {
+      "method": "GFW Events encounters dataset (Miller et al. 2018).",
+      "drivers": [
+        "two vessels within range for 16 h",
+        "counterpart: 222456789",
+        "two-vessel at-sea encounter (GFW Events)"
+      ]
+    },
+    "caveats": [
+      "Co-location can be legitimate (joint operations, safety, shelter).",
+      "Apparent transshipment is inferred from proximity and low speed, not observed.",
+      "An inspection lead from GFW Events, not proof of illegal activity."
+    ],
+    "eez_name": "Overlapping claim Taiwan: Taiwan / China",
+    "eez_sovereign": "Taiwan",
+    "eez_iso_sov": "TWN",
+    "eez_foreign": true,
+    "authorization_status": "no_record",
+    "authorization_authorities": [],
+    "registry_iuu_tag": false,
+    "registry_flag": "",
+    "registry_imo": "",
+    "severity": "high",
+    "severity_reason": "foreign vessel, no authorization on record",
+    "evidence_schema": "seavigil-evidence-1.0",
+    "evidence_hash": "6394c9389b4bfe1650cf1e0e21abf830b453be7910b68b310b5833417768a103"
   },
   {
     "incident_id": "live_enco_061a5100a21df7",
