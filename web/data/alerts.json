@@ -1,6 +1,19 @@
 {
-"generated_at": "2026-09-11T00:12:22Z",
+"generated_at": "2026-09-11T04:43:59Z",
 "alerts": [
+{
+"id": "live_enco_a5e413ad977c55",
+"first_seen": "2026-09-11T04:43:59Z",
+"type": "encounter",
+"when": "2026-09-07T12:20:00.000Z",
+"eez": "Overlapping claim Taiwan: Taiwan / China",
+"flag": "CHN",
+"authorization": "no_record",
+"severity_reason": "foreign vessel, no authorization on record",
+"lat": 22.8016,
+"lon": 118.939,
+"ship_name": "MIN DONG YU61718"
+},
 {
 "id": "live_enco_fafe561ed2c767",
 "first_seen": "2026-09-11T00:12:22Z",
@@ -2587,19 +2600,6 @@
 "lat": 31.2894,
 "lon": 124.1386,
 "ship_name": "ZHESANYU88858-22-"
-},
-{
-"id": "live_enco_9d5b5c17b0c8e8",
-"first_seen": "2026-09-06T01:00:27Z",
-"type": "encounter",
-"when": "2026-09-02T04:30:00.000Z",
-"eez": "Chinese Exclusive Economic Zone",
-"flag": "NOR",
-"authorization": "no_record",
-"severity_reason": "foreign vessel, no authorization on record",
-"lat": 31.2881,
-"lon": 124.1609,
-"ship_name": "ZHESANYU88858-27-"
 }
 ]
 }

@@ -1,5 +1,97 @@
 [
   {
+    "type": "ais_spoofing",
+    "incident_id": "live_spoof_511101394.0",
+    "mpa_name": "AIS spoofing",
+    "severity": "medium",
+    "severity_reason": "impossible-speed position jumps",
+    "vessel_id": "511101394.0",
+    "ship_name": "DOGANBEY",
+    "flag": "PW",
+    "ship_type": "Fishing",
+    "gear": "AIS anomaly",
+    "time_start_utc": "2026-09-10T21:30:40Z",
+    "time_end_utc": "2026-09-11T00:37:56Z",
+    "duration_hours": 3.1,
+    "n_positions": 36,
+    "n_fishing_positions": 0,
+    "mean_fishing_proba": null,
+    "max_fishing_proba": null,
+    "centroid_lat": -12.044863333333332,
+    "centroid_lon": -77.05445166666667,
+    "anomaly_count": 5,
+    "max_implied_speed_kn": 1570.0,
+    "spread_nm": 31.0,
+    "explanation": {
+      "method": "AIS position-anomaly analysis (impossible-speed jumps and same-instant conflicts)",
+      "drivers": [
+        "5 physically impossible movements for one MMSI",
+        "fastest implied speed 1,570 kn (a vessel cannot move this fast)",
+        "positions span 31 nm"
+      ]
+    },
+    "caveats": [
+      "Suspected AIS spoofing or MMSI conflict, not proven and not necessarily illegal.",
+      "Could also be a faulty GPS/transceiver or a transcription error in the feed.",
+      "Flagged only on a sustained pattern (several anomalies), not a single bad fix.",
+      "An inspection lead: confirm the vessel identity against authoritative records."
+    ],
+    "flag_emoji": "\ud83c\uddf5\ud83c\uddfc",
+    "_no_take": false,
+    "_rfmo": [],
+    "authorization_status": "unverifiable",
+    "authorization_authorities": [],
+    "registry_iuu_tag": false,
+    "evidence_schema": "seavigil-evidence-1.0",
+    "evidence_hash": "273ba4bc0b130510148a70adaab226f2bb811a81a0b088744bd263265cb378ee"
+  },
+  {
+    "type": "ais_spoofing",
+    "incident_id": "live_spoof_511101933.0",
+    "mpa_name": "AIS spoofing",
+    "severity": "medium",
+    "severity_reason": "impossible-speed position jumps",
+    "vessel_id": "511101933.0",
+    "ship_name": "FERTILE",
+    "flag": "PW",
+    "ship_type": "Fishing",
+    "gear": "AIS anomaly",
+    "time_start_utc": "2026-09-11T00:00:40Z",
+    "time_end_utc": "2026-09-11T00:28:34Z",
+    "duration_hours": 0.5,
+    "n_positions": 13,
+    "n_fishing_positions": 0,
+    "mean_fishing_proba": null,
+    "max_fishing_proba": null,
+    "centroid_lat": -12.046983333333332,
+    "centroid_lon": -77.05689666666667,
+    "anomaly_count": 8,
+    "max_implied_speed_kn": 2818.0,
+    "spread_nm": 88.0,
+    "explanation": {
+      "method": "AIS position-anomaly analysis (impossible-speed jumps and same-instant conflicts)",
+      "drivers": [
+        "8 physically impossible movements for one MMSI",
+        "fastest implied speed 2,818 kn (a vessel cannot move this fast)",
+        "positions span 88 nm"
+      ]
+    },
+    "caveats": [
+      "Suspected AIS spoofing or MMSI conflict, not proven and not necessarily illegal.",
+      "Could also be a faulty GPS/transceiver or a transcription error in the feed.",
+      "Flagged only on a sustained pattern (several anomalies), not a single bad fix.",
+      "An inspection lead: confirm the vessel identity against authoritative records."
+    ],
+    "flag_emoji": "\ud83c\uddf5\ud83c\uddfc",
+    "_no_take": false,
+    "_rfmo": [],
+    "authorization_status": "unverifiable",
+    "authorization_authorities": [],
+    "registry_iuu_tag": false,
+    "evidence_schema": "seavigil-evidence-1.0",
+    "evidence_hash": "01008eb641e2d18457716a592c2eee669dc3241de59c3b9e738b8297ae2c452e"
+  },
+  {
     "incident_id": "live_enco_f9090bee0e070f",
     "type": "encounter",
     "centroid_lon": 16.324,
@@ -54,6 +146,60 @@
     "severity_reason": "foreign vessel, no authorization on record",
     "evidence_schema": "seavigil-evidence-1.0",
     "evidence_hash": "3f8a2117a8294d2846f97d96ba1750e23de58283eecbfdc109cd91d00d304080"
+  },
+  {
+    "incident_id": "live_enco_a5e413ad977c55",
+    "type": "encounter",
+    "centroid_lon": 118.939,
+    "centroid_lat": 22.8016,
+    "time_start_utc": "2026-09-07T12:20:00.000Z",
+    "time_end_utc": "2026-09-07T22:40:00.000Z",
+    "vessel_id": "412445816",
+    "ship_name": "MIN DONG YU61718",
+    "ship_type": "Fishing",
+    "flag": "CHN",
+    "flag_emoji": "\ud83c\udde8\ud83c\uddf3",
+    "gear": "Encounter",
+    "n_positions": 0,
+    "n_fishing_positions": 0,
+    "mean_fishing_proba": null,
+    "max_fishing_proba": null,
+    "_rfmo": [
+      "APFIC",
+      "ACAP",
+      "WCPFC",
+      "IWC"
+    ],
+    "_no_take": false,
+    "mpa_name": "At-sea encounter (transshipment)",
+    "duration_hours": 10.3,
+    "carrier_mmsi": "600061718",
+    "explanation": {
+      "method": "GFW Events encounters dataset (Miller et al. 2018).",
+      "drivers": [
+        "two vessels within range for 10 h",
+        "counterpart: 01718",
+        "two-vessel at-sea encounter (GFW Events)"
+      ]
+    },
+    "caveats": [
+      "Co-location can be legitimate (joint operations, safety, shelter).",
+      "Apparent transshipment is inferred from proximity and low speed, not observed.",
+      "An inspection lead from GFW Events, not proof of illegal activity."
+    ],
+    "eez_name": "Overlapping claim Taiwan: Taiwan / China",
+    "eez_sovereign": "Taiwan",
+    "eez_iso_sov": "TWN",
+    "eez_foreign": true,
+    "authorization_status": "no_record",
+    "authorization_authorities": [],
+    "registry_iuu_tag": false,
+    "registry_flag": "",
+    "registry_imo": "",
+    "severity": "high",
+    "severity_reason": "foreign vessel, no authorization on record",
+    "evidence_schema": "seavigil-evidence-1.0",
+    "evidence_hash": "3e06744ce926694dbf467a98a32e303c2c7162207b46cbb07f234616abe45e14"
   },
   {
     "incident_id": "live_enco_f7f8957a756c7c",
