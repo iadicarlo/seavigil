@@ -3,7 +3,7 @@
 - **MPA:** AIS disabling (going dark)
 - **Severity:** HIGH (foreign vessel, no authorization on record)
 - **EEZ:** Madagascan Exclusive Economic Zone (Madagascar) -- FOREIGN-flagged vessel
-- **Authorization:** No public authorization record (check coastal state)  ·  IMO 9677337
+- **Authorization:** No public authorization record (check coastal state)
 - **Vessel:** 🇨🇳 TAN ZHOU LUN  ·  **signal:** AIS gap
 - **When (UTC):** 2026-09-05T09:23:39.000Z → 2026-09-06T20:28:43.000Z
 - **Gap:** 35.1 h dark, 73.0 nm offshore

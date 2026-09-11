@@ -3,7 +3,7 @@
 - **MPA:** AIS disabling (going dark)
 - **Severity:** HIGH (foreign vessel, no authorization on record)
 - **EEZ:** Argentinian Exclusive Economic Zone (Argentina) -- FOREIGN-flagged vessel
-- **Authorization:** No public authorization record (check coastal state)  ·  IMO 9144639
+- **Authorization:** No public authorization record (check coastal state)
 - **Vessel:** 🇺🇾 PLAYA MALVIN  ·  **signal:** AIS gap
 - **When (UTC):** 2026-09-04T21:05:15.000Z → 2026-09-06T08:00:35.000Z
 - **Gap:** 34.9 h dark, 117.0 nm offshore
