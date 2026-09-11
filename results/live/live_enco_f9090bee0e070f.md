@@ -5,15 +5,15 @@
 - **EEZ:** Norwegian Exclusive Economic Zone (Norway) -- FOREIGN-flagged vessel
 - **Authorization:** No public authorization record (check coastal state)
 - **Vessel:** 🇷🇺 YANTARNYY  ·  **signal:** Encounter
-- **When (UTC):** 2026-09-06T12:10:00.000Z → 2026-09-06T23:50:00.000Z
-- **Encounter:** 11.7 h with carrier `257312000` (apparent transshipment)
-- **Where:** 72.001, 16.757
+- **When (UTC):** 2026-09-06T12:10:00.000Z → 2026-09-07T23:50:00.000Z
+- **Encounter:** 35.7 h with carrier `257312000` (apparent transshipment)
+- **Where:** 71.924, 16.324
 
 ## Why this was flagged
 
 _GFW Events encounters dataset (Miller et al. 2018).._
 
-- two vessels within range for 12 h
+- two vessels within range for 36 h
 - counterpart: SILVER BIRD
 - two-vessel at-sea encounter (GFW Events)
 
@@ -31,7 +31,7 @@ Two vessels meeting at sea can be a legitimate transfer, bunkering, or a safety 
 
 - WDPA / WD-OECM (World Database on Protected Areas) (UNEP-WCMC and IUCN (2026), June 2026). Protected Planet Terms of Use (non-commercial, display-only).
 - Marine Regions Exclusive Economic Zones v12 (Flanders Marine Institute (2024), DOI 10.14284/632). CC BY 4.0.
-- **Integrity (SHA-256 of canonical facts):** `8c49996ca5c789ca3ef868adfbbfdca5d56ebfac65c76cfa7ee28f4c81eae6f9`
+- **Integrity (SHA-256 of canonical facts):** `3f8a2117a8294d2846f97d96ba1750e23de58283eecbfdc109cd91d00d304080`
 - **Evidence schema:** seavigil-evidence-1.0
 
 _Apparent activity and an inspection lead, not proof of illegality. AIS and SAR evidence have known coverage gaps and spoofing risks; verify against authoritative sources before any enforcement action._

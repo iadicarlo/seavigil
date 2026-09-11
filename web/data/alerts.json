@@ -1,6 +1,32 @@
 {
-"generated_at": "2026-09-10T21:39:30Z",
+"generated_at": "2026-09-11T00:12:22Z",
 "alerts": [
+{
+"id": "live_enco_fafe561ed2c767",
+"first_seen": "2026-09-11T00:12:22Z",
+"type": "encounter",
+"when": "2026-09-07T16:50:00.000Z",
+"eez": "South Korean Exclusive Economic Zone",
+"flag": "CHN",
+"authorization": "no_record",
+"severity_reason": "foreign vessel, no authorization on record",
+"lat": 31.9184,
+"lon": 125.7816,
+"ship_name": "ZHE PU YU 23303"
+},
+{
+"id": "live_enco_aef6be3aeffb8d",
+"first_seen": "2026-09-11T00:12:22Z",
+"type": "encounter",
+"when": "2026-09-07T05:10:00.000Z",
+"eez": "South Korean Exclusive Economic Zone",
+"flag": "CHN",
+"authorization": "no_record",
+"severity_reason": "foreign vessel, no authorization on record",
+"lat": 31.807,
+"lon": 125.7701,
+"ship_name": "ZHEPUYU21101"
+},
 {
 "id": "live_enco_ef164e7dd45a82",
 "first_seen": "2026-09-10T18:30:12Z",
@@ -2574,32 +2600,6 @@
 "lat": 31.2881,
 "lon": 124.1609,
 "ship_name": "ZHESANYU88858-27-"
-},
-{
-"id": "live_enco_a8ba0e50dac574",
-"first_seen": "2026-09-06T01:00:27Z",
-"type": "encounter",
-"when": "2026-09-02T03:40:00.000Z",
-"eez": "Chinese Exclusive Economic Zone",
-"flag": "NOR",
-"authorization": "no_record",
-"severity_reason": "foreign vessel, no authorization on record",
-"lat": 31.2865,
-"lon": 124.1392,
-"ship_name": "ZHESANYU88858-24-"
-},
-{
-"id": "live_enco_29f6c8995ab755",
-"first_seen": "2026-09-06T01:00:27Z",
-"type": "encounter",
-"when": "2026-09-02T00:40:00.000Z",
-"eez": "Chinese Exclusive Economic Zone",
-"flag": "SHN",
-"authorization": "no_record",
-"severity_reason": "foreign vessel, no authorization on record",
-"lat": 38.7823,
-"lon": 120.1105,
-"ship_name": "1"
 }
 ]
 }
