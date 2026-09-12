@@ -1,6 +1,6 @@
 # In-MPA records
 
-29 record(s): 29 AIS fishing incident(s), 0 dark-vessel SAR detection(s).
+31 record(s): 31 AIS fishing incident(s), 0 dark-vessel SAR detection(s).
 
 | id | type | MPA | start (UTC) | score / mean p |
 |---|---|---|---|---:|
@@ -8,11 +8,13 @@
 | [live_enco_9daae251c707a6](live_enco_9daae251c707a6.md) | AIS fishing | At-sea encounter (transshipment) | 2026-09-08T01:10:00.000Z | - |
 | [live_enco_a7963d6b9a7d0c](live_enco_a7963d6b9a7d0c.md) | AIS fishing | At-sea encounter (transshipment) | 2026-09-08T01:10:00.000Z | - |
 | [live_enco_ed73083f959308](live_enco_ed73083f959308.md) | AIS fishing | At-sea encounter (transshipment) | 2026-09-08T03:30:00.000Z | - |
+| [live_enco_4d4aceb86a26cc](live_enco_4d4aceb86a26cc.md) | AIS fishing | At-sea encounter (transshipment) | 2026-09-08T03:00:00.000Z | - |
 | [live_enco_1c5395e26d7077](live_enco_1c5395e26d7077.md) | AIS fishing | At-sea encounter (transshipment) | 2026-09-08T16:40:00.000Z | - |
 | [live_enco_e1851977a7da4a](live_enco_e1851977a7da4a.md) | AIS fishing | At-sea encounter (transshipment) | 2026-09-08T03:00:00.000Z | - |
 | [live_enco_203577ad6cb716](live_enco_203577ad6cb716.md) | AIS fishing | At-sea encounter (transshipment) | 2026-09-08T19:30:00.000Z | - |
 | [live_ais__159b94ac26bc7d](live_ais__159b94ac26bc7d.md) | AIS fishing | AIS disabling (going dark) | 2026-09-08T04:01:24.000Z | - |
 | [live_ais__cdc255becf8126](live_ais__cdc255becf8126.md) | AIS fishing | AIS disabling (going dark) | 2026-09-08T09:27:37.000Z | - |
+| [live_enco_267f6f9133a542](live_enco_267f6f9133a542.md) | AIS fishing | At-sea encounter (transshipment) | 2026-09-08T04:00:00.000Z | - |
 | [live_ais__d743531ae64d2c](live_ais__d743531ae64d2c.md) | AIS fishing | AIS disabling (going dark) | 2026-09-07T22:59:50.000Z | - |
 | [live_ais__4d68d259ef61cd](live_ais__4d68d259ef61cd.md) | AIS fishing | AIS disabling (going dark) | 2026-09-08T09:21:40.000Z | - |
 | [live_ais__ab125a5bff139a](live_ais__ab125a5bff139a.md) | AIS fishing | AIS disabling (going dark) | 2026-09-07T20:13:39.000Z | - |
