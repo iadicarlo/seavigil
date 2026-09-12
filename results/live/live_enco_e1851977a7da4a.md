@@ -1,20 +1,20 @@
-# Incident `live_enco_f9090bee0e070f`
+# Incident `live_enco_e1851977a7da4a`
 
 - **MPA:** At-sea encounter (transshipment)
-- **Severity:** HIGH (foreign vessel, authorization lapsed)
-- **EEZ:** Norwegian Exclusive Economic Zone (Norway) -- FOREIGN-flagged vessel
-- **Authorization:** Authorization lapsed before this date: NEAFC  ·  IMO 8607232
-- **Vessel:** 🇷🇺 YANTARNYY  ·  **signal:** Encounter
-- **When (UTC):** 2026-09-06T12:10:00.000Z → 2026-09-07T23:50:00.000Z
-- **Encounter:** 35.7 h with carrier `257312000` (apparent transshipment)
-- **Where:** 71.924, 16.324
+- **Severity:** HIGH (foreign vessel, no authorization on record)
+- **EEZ:** Chinese Exclusive Economic Zone (China) -- FOREIGN-flagged vessel
+- **Authorization:** No public authorization record (check coastal state)
+- **Vessel:** 🇦🇱 ZHELINGYU00728  ·  **signal:** Encounter
+- **When (UTC):** 2026-09-08T03:00:00.000Z → 2026-09-08T23:30:00.000Z
+- **Encounter:** 20.5 h with carrier `109988728` (apparent transshipment)
+- **Where:** 31.873, 123.903
 
 ## Why this was flagged
 
 _GFW Events encounters dataset (Miller et al. 2018).._
 
-- two vessels within range for 36 h
-- counterpart: SILVER BIRD
+- two vessels within range for 20 h
+- counterpart: 00728
 - two-vessel at-sea encounter (GFW Events)
 
 ## Could be innocent
@@ -31,7 +31,7 @@ Two vessels meeting at sea can be a legitimate transfer, bunkering, or a safety 
 
 - WDPA / WD-OECM (World Database on Protected Areas) (UNEP-WCMC and IUCN (2026), June 2026). Protected Planet Terms of Use (non-commercial, display-only).
 - Marine Regions Exclusive Economic Zones v12 (Flanders Marine Institute (2024), DOI 10.14284/632). CC BY 4.0.
-- **Integrity (SHA-256 of canonical facts):** `3f8a2117a8294d2846f97d96ba1750e23de58283eecbfdc109cd91d00d304080`
+- **Integrity (SHA-256 of canonical facts):** `3680ef523cccf35dc58d123c1dac59dec568117233c41dbcb691715e926f740e`
 - **Evidence schema:** seavigil-evidence-1.0
 
 _Apparent activity and an inspection lead, not proof of illegality. AIS and SAR evidence have known coverage gaps and spoofing risks; verify against authoritative sources before any enforcement action._
