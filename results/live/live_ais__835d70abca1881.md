@@ -3,7 +3,7 @@
 - **MPA:** AIS disabling (going dark)
 - **Severity:** HIGH (foreign vessel, no authorization on record)
 - **EEZ:** Papua New Guinean Exclusive Economic Zone (Papua New Guinea) -- FOREIGN-flagged vessel
-- **Authorization:** No public authorization record (check coastal state)
+- **Authorization:** No public authorization record (check coastal state)  ·  IMO 9431604
 - **Vessel:** 🇳🇱 O.T. IDEAAL  ·  **signal:** AIS gap
 - **When (UTC):** 2026-09-07T00:24:09.000Z → 2026-09-07T12:30:15.000Z
 - **Gap:** 12.1 h dark, 71.0 nm offshore

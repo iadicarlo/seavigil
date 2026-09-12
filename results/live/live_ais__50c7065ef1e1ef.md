@@ -3,7 +3,7 @@
 - **MPA:** AIS disabling (going dark)
 - **Severity:** HIGH (foreign vessel, no authorization on record)
 - **EEZ:** Brazilian Exclusive Economic Zone (Brazil) -- FOREIGN-flagged vessel
-- **Authorization:** No public authorization record (check coastal state)
+- **Authorization:** No public authorization record (check coastal state)  ·  IMO 9079080
 - **Vessel:** 🇲🇹 ATHENS 04  ·  **signal:** AIS gap
 - **When (UTC):** 2026-09-06T20:12:37.000Z → 2026-09-07T10:57:46.000Z
 - **Gap:** 14.8 h dark, 65.0 nm offshore
