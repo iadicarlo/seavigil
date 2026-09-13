@@ -1,6 +1,19 @@
 {
-"generated_at": "2026-09-13T01:02:28Z",
+"generated_at": "2026-09-13T06:12:44Z",
 "alerts": [
+{
+"id": "live_enco_75fa2d619ed1bd",
+"first_seen": "2026-09-13T06:12:44Z",
+"type": "encounter",
+"when": "2026-09-09T06:20:00.000Z",
+"eez": "Chinese Exclusive Economic Zone",
+"flag": "CYP",
+"authorization": "no_record",
+"severity_reason": "foreign vessel, no authorization on record",
+"lat": 31.5341,
+"lon": 122.7536,
+"ship_name": "MINXIAYU01806"
+},
 {
 "id": "live_enco_74c360a8c92404",
 "first_seen": "2026-09-13T01:02:28Z",
@@ -2587,19 +2600,6 @@
 "lat": -21.973,
 "lon": -39.8271,
 "ship_name": "SAO SEBASTIAO"
-},
-{
-"id": "live_ais__b4c680e9740911",
-"first_seen": "2026-09-07T16:28:46Z",
-"type": "ais_disabling",
-"when": "2026-09-02T13:54:43.000Z",
-"eez": "Japanese Exclusive Economic Zone",
-"flag": "HKG",
-"authorization": "no_record",
-"severity_reason": "foreign vessel, no authorization on record",
-"lat": 21.9976,
-"lon": 139.7347,
-"ship_name": "CEMTEX EMINENCE"
 }
 ]
 }
