@@ -1,19 +1,19 @@
-# Incident `live_ais__15f01622532699`
+# Incident `live_ais__a1c477ea68270b`
 
 - **MPA:** AIS disabling (going dark)
 - **Severity:** HIGH (foreign vessel, no authorization on record)
-- **EEZ:** Fijian Exclusive Economic Zone (Fiji) -- FOREIGN-flagged vessel
-- **Authorization:** No public authorization record (check coastal state)
-- **Vessel:** 🇭🇺 SEIN 11 #2-99%  ·  **signal:** AIS gap
-- **When (UTC):** 2026-09-02T13:21:28.000Z → 2026-09-07T19:41:27.000Z
-- **Gap:** 126.3 h dark, 53.0 nm offshore
-- **Where:** -19.639, 178.798
+- **EEZ:** Brazilian Exclusive Economic Zone (Brazil) -- FOREIGN-flagged vessel
+- **Authorization:** No public authorization record (check coastal state)  ·  IMO 9492139
+- **Vessel:** 🇧🇸 SAO LUIZ  ·  **signal:** AIS gap
+- **When (UTC):** 2026-09-08T17:54:09.000Z → 2026-09-09T11:17:47.000Z
+- **Gap:** 17.4 h dark, 58.0 nm offshore
+- **Where:** -22.560, -40.128
 
 ## Why this was flagged
 
 _GFW Events gaps dataset (satellite AIS).._
 
-- went dark 53 nm offshore for 126 h
+- went dark 58 nm offshore for 17 h
 - satellite-confirmed AIS gap (GFW Events)
 
 ## Could be innocent
@@ -31,7 +31,7 @@ Going dark is frequently benign: in open water, where gaps are commonly protecti
 - NOAA Marine Cadastre AIS (marinecadastre.gov/ais (vessel positions)). US public domain.
 - WDPA / WD-OECM (World Database on Protected Areas) (UNEP-WCMC and IUCN (2026), June 2026). Protected Planet Terms of Use (non-commercial, display-only).
 - Marine Regions Exclusive Economic Zones v12 (Flanders Marine Institute (2024), DOI 10.14284/632). CC BY 4.0.
-- **Integrity (SHA-256 of canonical facts):** `ad399cd3424cc3a6a78f5332a00c464cbe1e043634b17d4a57c4944145f8a36b`
+- **Integrity (SHA-256 of canonical facts):** `818a72f37c3732339981a0b2007348aeda3f7f94798d80499c1354a52d0e01c8`
 - **Evidence schema:** seavigil-evidence-1.0
 
 _Apparent activity and an inspection lead, not proof of illegality. AIS and SAR evidence have known coverage gaps and spoofing risks; verify against authoritative sources before any enforcement action._

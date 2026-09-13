@@ -1,19 +1,19 @@
-# Incident `live_ais__a414cba02a3dfe`
+# Incident `live_ais__3c31940cafc1c6`
 
 - **MPA:** AIS disabling (going dark)
 - **Severity:** HIGH (foreign vessel, no authorization on record)
-- **EEZ:** Brazilian Exclusive Economic Zone (Brazil) -- FOREIGN-flagged vessel
-- **Authorization:** No public authorization record (check coastal state)  ·  IMO 8806852
-- **Vessel:** 🇵🇦 OPHELIA  ·  **signal:** AIS gap
-- **When (UTC):** 2026-09-07T20:38:30.000Z → 2026-09-08T08:48:14.000Z
-- **Gap:** 12.2 h dark, 185.0 nm offshore
-- **Where:** -2.037, -35.515
+- **EEZ:** Kiribati Exclusive Economic Zone (Phoenix Group) (Kiribati) -- FOREIGN-flagged vessel
+- **Authorization:** No public authorization record (check coastal state)
+- **Vessel:** 🇨🇳 SYY31-2023-01  ·  **signal:** AIS gap
+- **When (UTC):** 2026-09-08T22:40:40.000Z → 2026-09-09T20:48:16.000Z
+- **Gap:** 22.1 h dark, 50.0 nm offshore
+- **Where:** -2.312, -170.862
 
 ## Why this was flagged
 
 _GFW Events gaps dataset (satellite AIS).._
 
-- went dark 185 nm offshore for 12 h
+- went dark 50 nm offshore for 22 h
 - satellite-confirmed AIS gap (GFW Events)
 
 ## Could be innocent
@@ -31,7 +31,7 @@ Going dark is frequently benign: in open water, where gaps are commonly protecti
 - NOAA Marine Cadastre AIS (marinecadastre.gov/ais (vessel positions)). US public domain.
 - WDPA / WD-OECM (World Database on Protected Areas) (UNEP-WCMC and IUCN (2026), June 2026). Protected Planet Terms of Use (non-commercial, display-only).
 - Marine Regions Exclusive Economic Zones v12 (Flanders Marine Institute (2024), DOI 10.14284/632). CC BY 4.0.
-- **Integrity (SHA-256 of canonical facts):** `b6f5bebe3f0578f0a918adaa7f06a5ca5c630b63d3b358d5ceb36ea446e3e207`
+- **Integrity (SHA-256 of canonical facts):** `a8864c8359bf37fc498ba7035d11bd50f5e13a232b6b41696d121526a8669895`
 - **Evidence schema:** seavigil-evidence-1.0
 
 _Apparent activity and an inspection lead, not proof of illegality. AIS and SAR evidence have known coverage gaps and spoofing risks; verify against authoritative sources before any enforcement action._

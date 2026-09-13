@@ -1,19 +1,19 @@
-# Incident `live_ais__ee8812fc00fd48`
+# Incident `live_ais__300c72f3a5b8fd`
 
 - **MPA:** AIS disabling (going dark)
 - **Severity:** HIGH (foreign vessel, no authorization on record)
-- **EEZ:** Kiribati Exclusive Economic Zone (Line Group) (Kiribati) -- FOREIGN-flagged vessel
-- **Authorization:** No public authorization record (check coastal state)
-- **Vessel:** 🇨🇳 SYY35-2023-03  ·  **signal:** AIS gap
-- **When (UTC):** 2026-09-07T05:35:54.000Z → 2026-09-07T21:20:28.000Z
-- **Gap:** 15.7 h dark, 109.0 nm offshore
-- **Where:** -10.883, -153.352
+- **EEZ:** French Exclusive Economic Zone (Juan de Nova Island) (France) -- FOREIGN-flagged vessel
+- **Authorization:** No public authorization record (check coastal state)  ·  IMO 9677337
+- **Vessel:** 🇨🇳 TAN ZHOU LUN  ·  **signal:** AIS gap
+- **When (UTC):** 2026-09-07T23:21:01.000Z → 2026-09-09T00:53:44.000Z
+- **Gap:** 25.5 h dark, 64.0 nm offshore
+- **Where:** -17.494, 42.114
 
 ## Why this was flagged
 
 _GFW Events gaps dataset (satellite AIS).._
 
-- went dark 109 nm offshore for 16 h
+- went dark 64 nm offshore for 26 h
 - satellite-confirmed AIS gap (GFW Events)
 
 ## Could be innocent
@@ -31,7 +31,7 @@ Going dark is frequently benign: in open water, where gaps are commonly protecti
 - NOAA Marine Cadastre AIS (marinecadastre.gov/ais (vessel positions)). US public domain.
 - WDPA / WD-OECM (World Database on Protected Areas) (UNEP-WCMC and IUCN (2026), June 2026). Protected Planet Terms of Use (non-commercial, display-only).
 - Marine Regions Exclusive Economic Zones v12 (Flanders Marine Institute (2024), DOI 10.14284/632). CC BY 4.0.
-- **Integrity (SHA-256 of canonical facts):** `71cbb299144628696fd0b265f108dd49976e694ded47b23f2f3519ee79f0fcc2`
+- **Integrity (SHA-256 of canonical facts):** `f9cba9cd0ac89b4617d7ba1b456e9ac45904010ed0c5783410d62aa8fcac5fb4`
 - **Evidence schema:** seavigil-evidence-1.0
 
 _Apparent activity and an inspection lead, not proof of illegality. AIS and SAR evidence have known coverage gaps and spoofing risks; verify against authoritative sources before any enforcement action._
