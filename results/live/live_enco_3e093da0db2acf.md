@@ -1,20 +1,20 @@
-# Incident `live_enco_ed73083f959308`
+# Incident `live_enco_3e093da0db2acf`
 
 - **MPA:** At-sea encounter (transshipment)
 - **Severity:** HIGH (foreign vessel, no authorization on record)
-- **EEZ:** South Korean Exclusive Economic Zone (South Korea) -- FOREIGN-flagged vessel
+- **EEZ:** Overlapping claim Taiwan: Taiwan / China (Taiwan) -- FOREIGN-flagged vessel
 - **Authorization:** No public authorization record (check coastal state)
-- **Vessel:** 🇨🇳 LUWEIJINGYU51296  ·  **signal:** Encounter
-- **When (UTC):** 2026-09-08T03:30:00.000Z → 2026-09-08T23:50:00.000Z
-- **Encounter:** 20.3 h with carrier `412860197` (apparent transshipment)
-- **Where:** 37.505, 123.787
+- **Vessel:** 🇨🇳 YEI.HUI.LAI.YU.43568  ·  **signal:** Encounter
+- **When (UTC):** 2026-09-09T07:40:00.000Z → 2026-09-09T22:40:00.000Z
+- **Encounter:** 15.0 h with carrier `412450686` (apparent transshipment)
+- **Where:** 25.765, 122.621
 
 ## Why this was flagged
 
 _GFW Events encounters dataset (Miller et al. 2018).._
 
-- two vessels within range for 20 h
-- counterpart: LU WEI JING YU51296
+- two vessels within range for 15 h
+- counterpart: MINSHIYU07186
 - two-vessel at-sea encounter (GFW Events)
 
 ## Could be innocent
@@ -31,7 +31,7 @@ Two vessels meeting at sea can be a legitimate transfer, bunkering, or a safety 
 
 - WDPA / WD-OECM (World Database on Protected Areas) (UNEP-WCMC and IUCN (2026), June 2026). Protected Planet Terms of Use (non-commercial, display-only).
 - Marine Regions Exclusive Economic Zones v12 (Flanders Marine Institute (2024), DOI 10.14284/632). CC BY 4.0.
-- **Integrity (SHA-256 of canonical facts):** `4206fe2837fe108e59c2e1ec973c119bd3ddafb633c8daa20c956d907551d346`
+- **Integrity (SHA-256 of canonical facts):** `26b9830d9c51b26e1af85aa38236049b86e551ffdfffa81fbff5c10248806818`
 - **Evidence schema:** seavigil-evidence-1.0
 
 _Apparent activity and an inspection lead, not proof of illegality. AIS and SAR evidence have known coverage gaps and spoofing risks; verify against authoritative sources before any enforcement action._
