@@ -3,7 +3,7 @@
 - **MPA:** AIS disabling (going dark)
 - **Severity:** HIGH (foreign vessel, no authorization on record)
 - **EEZ:** Brazilian Exclusive Economic Zone (Brazil) -- FOREIGN-flagged vessel
-- **Authorization:** No public authorization record (check coastal state)  ·  IMO 8112433
+- **Authorization:** No public authorization record (check coastal state)  ·  IMO 8806852
 - **Vessel:** 🇵🇦 OPHELIA  ·  **signal:** AIS gap
 - **When (UTC):** 2026-09-07T20:38:30.000Z → 2026-09-08T08:48:14.000Z
 - **Gap:** 12.2 h dark, 185.0 nm offshore

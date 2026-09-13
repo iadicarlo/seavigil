@@ -3,7 +3,7 @@
 - **MPA:** At-sea encounter (transshipment)
 - **Severity:** HIGH (foreign vessel, no authorization on record)
 - **EEZ:** Norwegian Exclusive Economic Zone (Norway) -- FOREIGN-flagged vessel
-- **Authorization:** No public authorization record (check coastal state)  ·  IMO 8919726
+- **Authorization:** No public authorization record (check coastal state)
 - **Vessel:** 🇬🇧 FV  BUDDING ROSE  ·  **signal:** Encounter
 - **When (UTC):** 2026-09-09T18:20:00.000Z → 2026-09-09T22:30:00.000Z
 - **Encounter:** 4.2 h with carrier `235001050` (apparent transshipment)
