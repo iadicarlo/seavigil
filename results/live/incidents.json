@@ -10,23 +10,23 @@
     "flag": "LR",
     "ship_type": "Fishing",
     "gear": "AIS anomaly",
-    "time_start_utc": "2026-09-13T00:52:42Z",
+    "time_start_utc": "2026-09-13T05:54:45Z",
     "time_end_utc": "2026-09-13T12:14:09Z",
-    "duration_hours": 11.4,
-    "n_positions": 37,
+    "duration_hours": 6.3,
+    "n_positions": 31,
     "n_fishing_positions": 0,
     "mean_fishing_proba": null,
     "max_fishing_proba": null,
-    "centroid_lat": -23.850475,
-    "centroid_lon": 151.33046166666665,
-    "anomaly_count": 6,
-    "max_implied_speed_kn": 663.0,
+    "centroid_lat": -23.85510333333333,
+    "centroid_lon": 151.33418833333332,
+    "anomaly_count": 4,
+    "max_implied_speed_kn": 389.0,
     "spread_nm": 16.0,
     "explanation": {
       "method": "AIS position-anomaly analysis (impossible-speed jumps and same-instant conflicts)",
       "drivers": [
-        "6 physically impossible movements for one MMSI",
-        "fastest implied speed 663 kn (a vessel cannot move this fast)",
+        "4 physically impossible movements for one MMSI",
+        "fastest implied speed 389 kn (a vessel cannot move this fast)",
         "positions span 16 nm"
       ]
     },
@@ -47,7 +47,7 @@
     "authorization_authorities": [],
     "registry_iuu_tag": false,
     "evidence_schema": "seavigil-evidence-1.0",
-    "evidence_hash": "4a41fc5fb1aa8ad54a0ac1a52da02f3529f85b93f86f1c067ccafab40d4dd2bc"
+    "evidence_hash": "501ccf992104a4bdb53bab0a0f7a5a0941c0a28273073508434b6f8863fa1417"
   },
   {
     "incident_id": "live_enco_87c4eb78863d78",

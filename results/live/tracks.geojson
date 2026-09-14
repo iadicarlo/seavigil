@@ -1,1 +1,1 @@
-{"type": "FeatureCollection", "features": [{"type": "Feature", "geometry": {"type": "LineString", "coordinates": [[151.23878166666665, -23.815416666666668], [151.50115499999998, -23.78197]]}, "properties": {"id": "live_spoof_636024205.0", "kind": "ais_spoofing"}}]}
+{"type": "FeatureCollection", "features": [{"type": "Feature", "geometry": {"type": "LineString", "coordinates": [[151.23878166666665, -23.815416666666668], [151.49718166666668, -23.777985]]}, "properties": {"id": "live_spoof_636024205.0", "kind": "ais_spoofing"}}]}
