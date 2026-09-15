@@ -1,9 +1,9 @@
 # Incident `live_enco_9964f1ffe6045d`
 
 - **MPA:** At-sea encounter (transshipment)
-- **Severity:** HIGH (foreign vessel, no authorization on record)
+- **Severity:** HIGH (foreign vessel, authorization lapsed)
 - **EEZ:** Greek Exclusive Economic Zone (Greece) -- FOREIGN-flagged vessel
-- **Authorization:** No public authorization record (check coastal state)
+- **Authorization:** Authorization lapsed before this date: GFCM, ICCAT  ·  IMO 8593041
 - **Vessel:** 🇹🇷 YAGIZ BALIKCILIK  ·  **signal:** Encounter
 - **When (UTC):** 2026-09-11T17:40:00.000Z → 2026-09-11T23:10:00.000Z
 - **Encounter:** 5.5 h with carrier `271072419` (apparent transshipment)

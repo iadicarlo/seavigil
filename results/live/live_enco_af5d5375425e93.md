@@ -4,9 +4,9 @@
 - **Severity:** HIGH (foreign vessel, no authorization on record)
 - **EEZ:** Sierra Leonean Exclusive Economic Zone (Sierra Leone) -- FOREIGN-flagged vessel
 - **Authorization:** No public authorization record (check coastal state)
-- **Vessel:** 🇨🇳 HAI FENG 896  ·  **signal:** Encounter
+- **Vessel:** 🇨🇳 YUANYU717  ·  **signal:** Encounter
 - **When (UTC):** 2026-09-11T18:20:00.000Z → 2026-09-11T23:50:00.000Z
-- **Encounter:** 5.5 h with carrier `412549428` (apparent transshipment)
+- **Encounter:** 5.5 h with carrier `412300004` (apparent transshipment)
 - **Where:** 8.254, -13.464
 
 ## Why this was flagged
@@ -14,7 +14,7 @@
 _GFW Events encounters dataset (Miller et al. 2018).._
 
 - two vessels within range for 6 h
-- counterpart: YUANYU717
+- counterpart: HAI FENG 896
 - two-vessel at-sea encounter (GFW Events)
 
 ## Could be innocent
@@ -31,7 +31,7 @@ Two vessels meeting at sea can be a legitimate transfer, bunkering, or a safety 
 
 - WDPA / WD-OECM (World Database on Protected Areas) (UNEP-WCMC and IUCN (2026), June 2026). Protected Planet Terms of Use (non-commercial, display-only).
 - Marine Regions Exclusive Economic Zones v12 (Flanders Marine Institute (2024), DOI 10.14284/632). CC BY 4.0.
-- **Integrity (SHA-256 of canonical facts):** `8c7dd3f2dc8e4e85dab953ae1ba4dc7f2d148baa136f15290237cece111e7f15`
+- **Integrity (SHA-256 of canonical facts):** `fb488fe1aac2bb08182609a3564c76265bf4e225b53b14873c07153e993120cc`
 - **Evidence schema:** seavigil-evidence-1.0
 
 _Apparent activity and an inspection lead, not proof of illegality. AIS and SAR evidence have known coverage gaps and spoofing risks; verify against authoritative sources before any enforcement action._
