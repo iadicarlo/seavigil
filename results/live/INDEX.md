@@ -1,25 +1,38 @@
 # In-MPA records
 
-43 record(s): 43 AIS fishing incident(s), 0 dark-vessel SAR detection(s).
+56 record(s): 56 AIS fishing incident(s), 0 dark-vessel SAR detection(s).
 
 | id | type | MPA | start (UTC) | score / mean p |
 |---|---|---|---|---:|
-| [live_enco_87c4eb78863d78](live_enco_87c4eb78863d78.md) | AIS fishing | At-sea encounter (transshipment) | 2026-09-10T04:30:00.000Z | - |
-| [live_enco_fc512b22faa584](live_enco_fc512b22faa584.md) | AIS fishing | At-sea encounter (transshipment) | 2026-09-10T19:20:00.000Z | - |
-| [live_enco_7adf5a2079e4e3](live_enco_7adf5a2079e4e3.md) | AIS fishing | At-sea encounter (transshipment) | 2026-09-10T00:00:00.000Z | - |
+| [live_enco_be85cd31b1208d](live_enco_be85cd31b1208d.md) | AIS fishing | At-sea encounter (transshipment) | 2026-09-10T20:20:00.000Z | - |
+| [live_enco_06383ad230a989](live_enco_06383ad230a989.md) | AIS fishing | At-sea encounter (transshipment) | 2026-09-11T18:20:00.000Z | - |
+| [live_enco_611456b1be9ed8](live_enco_611456b1be9ed8.md) | AIS fishing | At-sea encounter (transshipment) | 2026-09-11T16:30:00.000Z | - |
+| [live_enco_4d8340b4d01a55](live_enco_4d8340b4d01a55.md) | AIS fishing | At-sea encounter (transshipment) | 2026-09-11T02:50:00.000Z | - |
+| [live_enco_78f53b37d78dfd](live_enco_78f53b37d78dfd.md) | AIS fishing | At-sea encounter (transshipment) | 2026-09-11T08:40:00.000Z | - |
+| [live_enco_19d23b89d1a58f](live_enco_19d23b89d1a58f.md) | AIS fishing | At-sea encounter (transshipment) | 2026-09-11T00:00:00.000Z | - |
+| [live_enco_a5b0750368e6d3](live_enco_a5b0750368e6d3.md) | AIS fishing | At-sea encounter (transshipment) | 2026-09-11T20:20:00.000Z | - |
+| [live_enco_af5d5375425e93](live_enco_af5d5375425e93.md) | AIS fishing | At-sea encounter (transshipment) | 2026-09-11T18:20:00.000Z | - |
+| [live_enco_ac13df4d00749f](live_enco_ac13df4d00749f.md) | AIS fishing | At-sea encounter (transshipment) | 2026-09-11T07:00:00.000Z | - |
+| [live_enco_39a853a9b6764e](live_enco_39a853a9b6764e.md) | AIS fishing | At-sea encounter (transshipment) | 2026-09-11T08:50:00.000Z | - |
+| [live_enco_3388d053fad0d4](live_enco_3388d053fad0d4.md) | AIS fishing | At-sea encounter (transshipment) | 2026-09-11T17:20:00.000Z | - |
+| [live_enco_08e05c4080ed67](live_enco_08e05c4080ed67.md) | AIS fishing | At-sea encounter (transshipment) | 2026-09-11T04:40:00.000Z | - |
+| [live_enco_b42e0ebf103b01](live_enco_b42e0ebf103b01.md) | AIS fishing | At-sea encounter (transshipment) | 2026-09-11T10:00:00.000Z | - |
+| [live_enco_800e6afc797d4d](live_enco_800e6afc797d4d.md) | AIS fishing | At-sea encounter (transshipment) | 2026-09-11T18:30:00.000Z | - |
+| [live_enco_0b20ec18327dcc](live_enco_0b20ec18327dcc.md) | AIS fishing | At-sea encounter (transshipment) | 2026-09-11T11:10:00.000Z | - |
+| [live_enco_87174c93f142b2](live_enco_87174c93f142b2.md) | AIS fishing | At-sea encounter (transshipment) | 2026-09-11T11:10:00.000Z | - |
+| [live_enco_5565e02036d563](live_enco_5565e02036d563.md) | AIS fishing | At-sea encounter (transshipment) | 2026-09-11T02:50:00.000Z | - |
+| [live_enco_0c3b3fb4bbd02d](live_enco_0c3b3fb4bbd02d.md) | AIS fishing | At-sea encounter (transshipment) | 2026-09-11T18:10:00.000Z | - |
+| [live_enco_aaeead35cf8914](live_enco_aaeead35cf8914.md) | AIS fishing | At-sea encounter (transshipment) | 2026-09-11T06:00:00.000Z | - |
+| [live_enco_9964f1ffe6045d](live_enco_9964f1ffe6045d.md) | AIS fishing | At-sea encounter (transshipment) | 2026-09-11T17:40:00.000Z | - |
+| [live_enco_ffac7f1b1f17ac](live_enco_ffac7f1b1f17ac.md) | AIS fishing | At-sea encounter (transshipment) | 2026-09-11T03:00:00.000Z | - |
+| [live_enco_c24ce0d9a300b1](live_enco_c24ce0d9a300b1.md) | AIS fishing | At-sea encounter (transshipment) | 2026-09-11T18:30:00.000Z | - |
+| [live_enco_8eb11c787955cb](live_enco_8eb11c787955cb.md) | AIS fishing | At-sea encounter (transshipment) | 2026-09-11T03:00:00.000Z | - |
+| [live_enco_07dd11802d23bc](live_enco_07dd11802d23bc.md) | AIS fishing | At-sea encounter (transshipment) | 2026-09-11T09:10:00.000Z | - |
 | [live_ais__c21c5a3a26b394](live_ais__c21c5a3a26b394.md) | AIS fishing | AIS disabling (going dark) | 2026-09-07T06:01:41.000Z | - |
 | [live_ais__fe92bfe76921b3](live_ais__fe92bfe76921b3.md) | AIS fishing | AIS disabling (going dark) | 2026-09-10T08:58:05.000Z | - |
-| [live_enco_870d28ca809d8c](live_enco_870d28ca809d8c.md) | AIS fishing | At-sea encounter (transshipment) | 2026-09-10T20:30:00.000Z | - |
-| [live_enco_977140348bd4f8](live_enco_977140348bd4f8.md) | AIS fishing | At-sea encounter (transshipment) | 2026-09-10T00:10:00.000Z | - |
-| [live_enco_483e644f41351d](live_enco_483e644f41351d.md) | AIS fishing | At-sea encounter (transshipment) | 2026-09-10T09:40:00.000Z | - |
-| [live_enco_a7c3dffd809c26](live_enco_a7c3dffd809c26.md) | AIS fishing | At-sea encounter (transshipment) | 2026-09-10T11:30:00.000Z | - |
 | [live_ais__d38a088d5589cd](live_ais__d38a088d5589cd.md) | AIS fishing | AIS disabling (going dark) | 2026-09-10T06:10:03.000Z | - |
-| [live_enco_560e557fc6f836](live_enco_560e557fc6f836.md) | AIS fishing | At-sea encounter (transshipment) | 2026-09-10T19:40:00.000Z | - |
-| [live_enco_bcb403b16d5b6d](live_enco_bcb403b16d5b6d.md) | AIS fishing | At-sea encounter (transshipment) | 2026-09-10T03:20:00.000Z | - |
 | [live_ais__f55c9452c38ab8](live_ais__f55c9452c38ab8.md) | AIS fishing | AIS disabling (going dark) | 2026-09-10T07:16:32.000Z | - |
 | [live_ais__b143f19fa9616d](live_ais__b143f19fa9616d.md) | AIS fishing | AIS disabling (going dark) | 2026-09-10T07:47:02.000Z | - |
-| [live_enco_ed351dddc13288](live_enco_ed351dddc13288.md) | AIS fishing | At-sea encounter (transshipment) | 2026-09-10T17:20:00.000Z | - |
-| [live_enco_cf89fede69a8c2](live_enco_cf89fede69a8c2.md) | AIS fishing | At-sea encounter (transshipment) | 2026-09-10T03:20:00.000Z | - |
 | [live_ais__083e1f48e15cf9](live_ais__083e1f48e15cf9.md) | AIS fishing | AIS disabling (going dark) | 2026-09-10T06:04:18.000Z | - |
 | [live_ais__195a812d199bf9](live_ais__195a812d199bf9.md) | AIS fishing | AIS disabling (going dark) | 2026-09-10T07:21:08.000Z | - |
 | [live_ais__187282cdd97859](live_ais__187282cdd97859.md) | AIS fishing | AIS disabling (going dark) | 2026-08-29T20:15:07.000Z | - |
