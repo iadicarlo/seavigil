@@ -1,20 +1,20 @@
-# Incident `live_enco_c0bf26a245ae2c`
+# Incident `live_enco_19d23b89d1a58f`
 
 - **MPA:** At-sea encounter (transshipment)
 - **Severity:** HIGH (foreign vessel, no authorization on record)
-- **EEZ:** Vietnamese Exclusive Economic Zone (Vietnam) -- FOREIGN-flagged vessel
+- **EEZ:** South Korean Exclusive Economic Zone (South Korea) -- FOREIGN-flagged vessel
 - **Authorization:** No public authorization record (check coastal state)
-- **Vessel:** 🇺🇸 T97:B  19  ·  **signal:** Encounter
-- **When (UTC):** 2026-09-11T08:50:00.000Z → 2026-09-11T23:50:00.000Z
-- **Encounter:** 15.0 h with carrier `574560282` (apparent transshipment)
-- **Where:** 20.116, 107.699
+- **Vessel:** 🇨🇳 ZHEXIANGYU13088  ·  **signal:** Encounter
+- **When (UTC):** 2026-09-11T00:00:00.000Z → 2026-09-11T23:50:00.000Z
+- **Encounter:** 23.8 h with carrier `200058666` (apparent transshipment)
+- **Where:** 31.827, 125.716
 
 ## Why this was flagged
 
 _GFW Events encounters dataset (Miller et al. 2018).._
 
-- two vessels within range for 15 h
-- counterpart: LUOI-NOI:57A 2
+- two vessels within range for 24 h
+- counterpart: ZHEXIANGYU13088
 - two-vessel at-sea encounter (GFW Events)
 
 ## Could be innocent
@@ -31,7 +31,7 @@ Two vessels meeting at sea can be a legitimate transfer, bunkering, or a safety 
 
 - WDPA / WD-OECM (World Database on Protected Areas) (UNEP-WCMC and IUCN (2026), June 2026). Protected Planet Terms of Use (non-commercial, display-only).
 - Marine Regions Exclusive Economic Zones v12 (Flanders Marine Institute (2024), DOI 10.14284/632). CC BY 4.0.
-- **Integrity (SHA-256 of canonical facts):** `6782512c20287260e0cc4f29eeba5efd17c90b5b069e3a4b6b5effd25a6d8971`
+- **Integrity (SHA-256 of canonical facts):** `813dfbfd55ed1da559c08dc4886719f10b13655572cfbacc9c5ad535b2c83b84`
 - **Evidence schema:** seavigil-evidence-1.0
 
 _Apparent activity and an inspection lead, not proof of illegality. AIS and SAR evidence have known coverage gaps and spoofing risks; verify against authoritative sources before any enforcement action._
