@@ -1,6 +1,19 @@
 {
-"generated_at": "2026-09-15T01:30:18Z",
+"generated_at": "2026-09-15T07:47:06Z",
 "alerts": [
+{
+"id": "live_enco_ec6c831c185b71",
+"first_seen": "2026-09-15T07:47:06Z",
+"type": "encounter",
+"when": "2026-09-11T08:50:00.000Z",
+"eez": "Vietnamese Exclusive Economic Zone",
+"flag": "USA",
+"authorization": "no_record",
+"severity_reason": "foreign vessel, no authorization on record",
+"lat": 20.1165,
+"lon": 107.6993,
+"ship_name": "T97:B  19"
+},
 {
 "id": "live_enco_be85cd31b1208d",
 "first_seen": "2026-09-15T01:30:18Z",
@@ -2587,19 +2600,6 @@
 "lat": -6.3125,
 "lon": 11.1573,
 "ship_name": "UGO 3005"
-},
-{
-"id": "live_ais__19130db4a22033",
-"first_seen": "2026-09-08T14:33:59Z",
-"type": "ais_disabling",
-"when": "2026-09-03T20:52:06.000Z",
-"eez": "Brazilian Exclusive Economic Zone",
-"flag": "NOR",
-"authorization": "no_record",
-"severity_reason": "foreign vessel, no authorization on record",
-"lat": -25.2312,
-"lon": -42.5727,
-"ship_name": "ANNA KNUTSEN"
 }
 ]
 }
