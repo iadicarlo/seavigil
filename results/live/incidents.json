@@ -334,8 +334,8 @@
     "centroid_lat": 47.3786,
     "time_start_utc": "2026-09-12T16:50:00.000Z",
     "time_end_utc": "2026-09-12T23:50:00.000Z",
-    "vessel_id": "250500277",
-    "ship_name": "LUI BOYA 3",
+    "vessel_id": "250500275",
+    "ship_name": "LUI BOYA 1",
     "ship_type": "Fishing",
     "flag": "IRL",
     "flag_emoji": "\ud83c\uddee\ud83c\uddea",
@@ -345,23 +345,23 @@
     "mean_fishing_proba": null,
     "max_fishing_proba": null,
     "_rfmo": [
-      "ACAP",
-      "ICCAT",
       "NASCO",
-      "NEAFC",
-      "IWC",
       "ICES",
-      "NAMMCO"
+      "NEAFC",
+      "NAMMCO",
+      "ACAP",
+      "IWC",
+      "ICCAT"
     ],
     "_no_take": false,
     "mpa_name": "At-sea encounter (transshipment)",
     "duration_hours": 7.0,
-    "carrier_mmsi": "250500275",
+    "carrier_mmsi": "250500277",
     "explanation": {
       "method": "GFW Events encounters dataset (Miller et al. 2018).",
       "drivers": [
         "two vessels within range for 7 h",
-        "counterpart: LUI BOYA 1",
+        "counterpart: LUI BOYA 3",
         "two-vessel at-sea encounter (GFW Events)"
       ]
     },
@@ -382,7 +382,7 @@
     "severity": "high",
     "severity_reason": "foreign vessel, no authorization on record",
     "evidence_schema": "seavigil-evidence-1.0",
-    "evidence_hash": "04417c0dd5b95ef27e6769060addfd7dbd0bf03ab4b1dd6205cf756d9a4d6f1b"
+    "evidence_hash": "000ec2f7bcb25c12eface0f0412e8bdede70e4284eda263abb980f37427139d1"
   },
   {
     "incident_id": "live_enco_934988f7e7c5c2",
