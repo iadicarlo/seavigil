@@ -1,6 +1,19 @@
 {
-"generated_at": "2026-09-16T00:23:20Z",
+"generated_at": "2026-09-16T06:04:00Z",
 "alerts": [
+{
+"id": "live_enco_e73609fe00bd2a",
+"first_seen": "2026-09-16T06:04:00Z",
+"type": "encounter",
+"when": "2026-09-12T11:30:00.000Z",
+"eez": "Vietnamese Exclusive Economic Zone",
+"flag": "MNG",
+"authorization": "no_record",
+"severity_reason": "foreign vessel, no authorization on record",
+"lat": 10.5922,
+"lon": 109.0055,
+"ship_name": "VUONG43"
+},
 {
 "id": "live_enco_7508e375117b28",
 "first_seen": "2026-09-16T00:23:20Z",
@@ -2587,19 +2600,6 @@
 "lat": 36.9697,
 "lon": 124.2636,
 "ship_name": "LUWENYU67520"
-},
-{
-"id": "live_enco_1199aa127d1c3f",
-"first_seen": "2026-09-10T00:16:40Z",
-"type": "encounter",
-"when": "2026-09-06T14:30:00.000Z",
-"eez": "Overlapping claim Senkaku Islands: Taiwan / Japan / China",
-"flag": "CHN",
-"authorization": "no_record",
-"severity_reason": "foreign vessel, no authorization on record",
-"lat": 27.0953,
-"lon": 123.3005,
-"ship_name": "ZHEPUYU61136"
 }
 ]
 }
