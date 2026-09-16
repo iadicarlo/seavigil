@@ -1,20 +1,20 @@
-# Incident `live_enco_aaeead35cf8914`
+# Incident `live_enco_45858c92dbfbd6`
 
 - **MPA:** At-sea encounter (transshipment)
 - **Severity:** HIGH (foreign vessel, no authorization on record)
-- **EEZ:** Estonian Exclusive Economic Zone (Estonia) -- FOREIGN-flagged vessel
+- **EEZ:** Chinese Exclusive Economic Zone (China) -- FOREIGN-flagged vessel
 - **Authorization:** No public authorization record (check coastal state)
-- **Vessel:** 🇫🇮 MENHADEN  ·  **signal:** Encounter
-- **When (UTC):** 2026-09-11T06:00:00.000Z → 2026-09-11T23:10:00.000Z
-- **Encounter:** 17.2 h with carrier `230035000` (apparent transshipment)
-- **Where:** 59.506, 23.384
+- **Vessel:** 🇦🇱 ZHE LING YU 12116  ·  **signal:** Encounter
+- **When (UTC):** 2026-09-12T08:30:00.000Z → 2026-09-12T18:20:00.000Z
+- **Encounter:** 9.8 h with carrier `412417048` (apparent transshipment)
+- **Where:** 28.114, 123.357
 
 ## Why this was flagged
 
 _GFW Events encounters dataset (Miller et al. 2018).._
 
-- two vessels within range for 17 h
-- counterpart: BALTIK
+- two vessels within range for 10 h
+- counterpart: ZHELINGYU12116
 - two-vessel at-sea encounter (GFW Events)
 
 ## Could be innocent
@@ -31,7 +31,7 @@ Two vessels meeting at sea can be a legitimate transfer, bunkering, or a safety 
 
 - WDPA / WD-OECM (World Database on Protected Areas) (UNEP-WCMC and IUCN (2026), June 2026). Protected Planet Terms of Use (non-commercial, display-only).
 - Marine Regions Exclusive Economic Zones v12 (Flanders Marine Institute (2024), DOI 10.14284/632). CC BY 4.0.
-- **Integrity (SHA-256 of canonical facts):** `6829c354987764823df8628b2c12d38002479d654f372246929e1364ad9bbfc4`
+- **Integrity (SHA-256 of canonical facts):** `c3016f31c92dda8e3eabd2f72c772182a9a2a0b5b4952fc6eb7f845169c50052`
 - **Evidence schema:** seavigil-evidence-1.0
 
 _Apparent activity and an inspection lead, not proof of illegality. AIS and SAR evidence have known coverage gaps and spoofing risks; verify against authoritative sources before any enforcement action._

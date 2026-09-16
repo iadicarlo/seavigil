@@ -1,20 +1,20 @@
-# Incident `live_enco_af5d5375425e93`
+# Incident `live_enco_46c552bd880d63`
 
 - **MPA:** At-sea encounter (transshipment)
 - **Severity:** HIGH (foreign vessel, no authorization on record)
-- **EEZ:** Sierra Leonean Exclusive Economic Zone (Sierra Leone) -- FOREIGN-flagged vessel
+- **EEZ:** Overlapping claim Taiwan: Taiwan / China (Taiwan) -- FOREIGN-flagged vessel
 - **Authorization:** No public authorization record (check coastal state)
-- **Vessel:** 🇨🇳 YUANYU717  ·  **signal:** Encounter
-- **When (UTC):** 2026-09-11T18:20:00.000Z → 2026-09-11T23:50:00.000Z
-- **Encounter:** 5.5 h with carrier `412300004` (apparent transshipment)
-- **Where:** 8.254, -13.464
+- **Vessel:** 🇨🇳 07719  ·  **signal:** Encounter
+- **When (UTC):** 2026-09-11T06:40:00.000Z → 2026-09-12T21:00:00.000Z
+- **Encounter:** 38.3 h with carrier `688899999` (apparent transshipment)
+- **Where:** 25.741, 122.612
 
 ## Why this was flagged
 
 _GFW Events encounters dataset (Miller et al. 2018).._
 
-- two vessels within range for 6 h
-- counterpart: HAI FENG 896
+- two vessels within range for 38 h
+- counterpart: 688899999
 - two-vessel at-sea encounter (GFW Events)
 
 ## Could be innocent
@@ -31,7 +31,7 @@ Two vessels meeting at sea can be a legitimate transfer, bunkering, or a safety 
 
 - WDPA / WD-OECM (World Database on Protected Areas) (UNEP-WCMC and IUCN (2026), June 2026). Protected Planet Terms of Use (non-commercial, display-only).
 - Marine Regions Exclusive Economic Zones v12 (Flanders Marine Institute (2024), DOI 10.14284/632). CC BY 4.0.
-- **Integrity (SHA-256 of canonical facts):** `fb488fe1aac2bb08182609a3564c76265bf4e225b53b14873c07153e993120cc`
+- **Integrity (SHA-256 of canonical facts):** `fa28172fc19c806436fbf832a9196175bea465109f498294afca47029d471f01`
 - **Evidence schema:** seavigil-evidence-1.0
 
 _Apparent activity and an inspection lead, not proof of illegality. AIS and SAR evidence have known coverage gaps and spoofing risks; verify against authoritative sources before any enforcement action._

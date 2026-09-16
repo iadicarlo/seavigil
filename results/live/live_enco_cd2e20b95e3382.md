@@ -1,20 +1,20 @@
-# Incident `live_enco_611456b1be9ed8`
+# Incident `live_enco_cd2e20b95e3382`
 
 - **MPA:** At-sea encounter (transshipment)
 - **Severity:** HIGH (foreign vessel, no authorization on record)
-- **EEZ:** Japanese Exclusive Economic Zone (Japan) -- FOREIGN-flagged vessel
+- **EEZ:** Chinese Exclusive Economic Zone (China) -- FOREIGN-flagged vessel
 - **Authorization:** No public authorization record (check coastal state)
-- **Vessel:** 🇨🇳 ZHEPUYU68509  ·  **signal:** Encounter
-- **When (UTC):** 2026-09-11T16:30:00.000Z → 2026-09-11T23:50:00.000Z
-- **Encounter:** 7.3 h with carrier `412420707` (apparent transshipment)
-- **Where:** 28.310, 125.757
+- **Vessel:** 🇳🇴 ZHESANYU88858-20-  ·  **signal:** Encounter
+- **When (UTC):** 2026-09-12T09:10:00.000Z → 2026-09-12T19:50:00.000Z
+- **Encounter:** 10.7 h with carrier `258885821` (apparent transshipment)
+- **Where:** 31.310, 124.011
 
 ## Why this was flagged
 
 _GFW Events encounters dataset (Miller et al. 2018).._
 
-- two vessels within range for 7 h
-- counterpart: ZHEPUYU68509
+- two vessels within range for 11 h
+- counterpart: ZHESANYU88858-21-
 - two-vessel at-sea encounter (GFW Events)
 
 ## Could be innocent
@@ -31,7 +31,7 @@ Two vessels meeting at sea can be a legitimate transfer, bunkering, or a safety 
 
 - WDPA / WD-OECM (World Database on Protected Areas) (UNEP-WCMC and IUCN (2026), June 2026). Protected Planet Terms of Use (non-commercial, display-only).
 - Marine Regions Exclusive Economic Zones v12 (Flanders Marine Institute (2024), DOI 10.14284/632). CC BY 4.0.
-- **Integrity (SHA-256 of canonical facts):** `5b34b2eda13cc4e968614a397b0c66a2a469d0e5d5734c4b85e0da1e498fa34a`
+- **Integrity (SHA-256 of canonical facts):** `13dde664fa2b30a4a20809764a678f8817871b10497b00d29bcbc5bb12568bb6`
 - **Evidence schema:** seavigil-evidence-1.0
 
 _Apparent activity and an inspection lead, not proof of illegality. AIS and SAR evidence have known coverage gaps and spoofing risks; verify against authoritative sources before any enforcement action._
