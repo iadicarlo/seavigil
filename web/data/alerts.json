@@ -1,6 +1,45 @@
 {
-"generated_at": "2026-09-16T06:04:00Z",
+"generated_at": "2026-09-16T11:38:27Z",
 "alerts": [
+{
+"id": "live_enco_83b136886b4d3a",
+"first_seen": "2026-09-16T11:38:27Z",
+"type": "encounter",
+"when": "2026-09-12T08:40:00.000Z",
+"eez": "Uruguayan Exclusive Economic Zone",
+"flag": "ARG",
+"authorization": "no_record",
+"severity_reason": "foreign vessel, no authorization on record",
+"lat": -34.9355,
+"lon": -55.9276,
+"ship_name": "JUPITER"
+},
+{
+"id": "live_enco_942e61ef9fcbfe",
+"first_seen": "2026-09-16T11:38:27Z",
+"type": "encounter",
+"when": "2026-09-12T04:10:00.000Z",
+"eez": "South Korean Exclusive Economic Zone",
+"flag": "CHN",
+"authorization": "no_record",
+"severity_reason": "foreign vessel, no authorization on record",
+"lat": 34.1229,
+"lon": 123.6946,
+"ship_name": "ZHEDAIYU10126"
+},
+{
+"id": "live_enco_1caebd3a4ea047",
+"first_seen": "2026-09-16T11:38:27Z",
+"type": "encounter",
+"when": "2026-09-12T08:40:00.000Z",
+"eez": "Uruguayan Exclusive Economic Zone",
+"flag": "ARG",
+"authorization": "no_record",
+"severity_reason": "foreign vessel, no authorization on record",
+"lat": -34.9349,
+"lon": -55.9273,
+"ship_name": "JUPITER"
+},
 {
 "id": "live_enco_e73609fe00bd2a",
 "first_seen": "2026-09-16T06:04:00Z",
@@ -2561,45 +2600,6 @@
 "lat": 36.4653,
 "lon": 124.2453,
 "ship_name": "LURONGYU55369"
-},
-{
-"id": "live_enco_e730c7af7dca8f",
-"first_seen": "2026-09-10T00:16:40Z",
-"type": "encounter",
-"when": "2026-09-06T00:00:00.000Z",
-"eez": "Vietnamese Exclusive Economic Zone",
-"flag": "CHN",
-"authorization": "no_record",
-"severity_reason": "foreign vessel, no authorization on record",
-"lat": 13.5448,
-"lon": 111.855,
-"ship_name": "GUIHEYU81098"
-},
-{
-"id": "live_enco_35445192244041",
-"first_seen": "2026-09-10T00:16:40Z",
-"type": "encounter",
-"when": "2026-09-06T18:20:00.000Z",
-"eez": "Vietnamese Exclusive Economic Zone",
-"flag": "ISL",
-"authorization": "no_record",
-"severity_reason": "foreign vessel, no authorization on record",
-"lat": 8.6589,
-"lon": 109.064,
-"ship_name": "TI_99144_LXN-88%"
-},
-{
-"id": "live_enco_55d65c7415556b",
-"first_seen": "2026-09-10T00:16:40Z",
-"type": "encounter",
-"when": "2026-09-06T18:00:00.000Z",
-"eez": "South Korean Exclusive Economic Zone",
-"flag": "CHN",
-"authorization": "no_record",
-"severity_reason": "foreign vessel, no authorization on record",
-"lat": 36.9697,
-"lon": 124.2636,
-"ship_name": "LUWENYU67520"
 }
 ]
 }

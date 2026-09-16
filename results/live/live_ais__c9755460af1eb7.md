@@ -3,7 +3,7 @@
 - **MPA:** AIS disabling (going dark)
 - **Severity:** HIGH (foreign vessel, no authorization on record)
 - **EEZ:** Papua New Guinean Exclusive Economic Zone (Papua New Guinea) -- FOREIGN-flagged vessel
-- **Authorization:** No public authorization record (check coastal state)
+- **Authorization:** No public authorization record (check coastal state)  ·  IMO 9329552
 - **Vessel:** 🇭🇰 OOCL TEXAS  ·  **signal:** AIS gap
 - **When (UTC):** 2026-09-10T13:03:30.000Z → 2026-09-11T01:35:42.000Z
 - **Gap:** 12.5 h dark, 112.0 nm offshore

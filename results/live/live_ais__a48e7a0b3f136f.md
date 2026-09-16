@@ -3,7 +3,7 @@
 - **MPA:** AIS disabling (going dark)
 - **Severity:** HIGH (foreign vessel, no authorization on record)
 - **EEZ:** Yemeni Exclusive Economic Zone (Yemen) -- FOREIGN-flagged vessel
-- **Authorization:** No public authorization record (check coastal state)  ·  IMO 9294850
+- **Authorization:** No public authorization record (check coastal state)
 - **Vessel:** 🇸🇬 WAN HAI 502  ·  **signal:** AIS gap
 - **When (UTC):** 2026-09-08T09:30:18.000Z → 2026-09-11T15:47:14.000Z
 - **Gap:** 78.3 h dark, 445.0 nm offshore

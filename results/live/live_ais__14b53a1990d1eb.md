@@ -1,9 +1,9 @@
 # Incident `live_ais__14b53a1990d1eb`
 
 - **MPA:** AIS disabling (going dark)
-- **Severity:** HIGH (foreign vessel, authorization lapsed)
+- **Severity:** HIGH (foreign vessel, no authorization on record)
 - **EEZ:** Kiribati Exclusive Economic Zone (Phoenix Group) (Kiribati) -- FOREIGN-flagged vessel
-- **Authorization:** Authorization lapsed before this date: FFA, IATTC, WCPFC  ·  IMO 9699646
+- **Authorization:** No public authorization record (check coastal state)
 - **Vessel:** 🇨🇳 LURONGYUANYU758  ·  **signal:** AIS gap
 - **When (UTC):** 2026-09-10T16:03:39.000Z → 2026-09-11T05:40:53.000Z
 - **Gap:** 13.6 h dark, 154.0 nm offshore

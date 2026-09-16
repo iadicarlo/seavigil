@@ -3,7 +3,7 @@
 - **MPA:** AIS disabling (going dark)
 - **Severity:** HIGH (foreign vessel, no authorization on record)
 - **EEZ:** Australian Exclusive Economic Zone (Australia) -- FOREIGN-flagged vessel
-- **Authorization:** No public authorization record (check coastal state)  ·  IMO 9038749
+- **Authorization:** No public authorization record (check coastal state)
 - **Vessel:** 🇵🇦 JAL TARA  ·  **signal:** AIS gap
 - **When (UTC):** 2026-09-11T08:53:30.000Z → 2026-09-11T20:53:30.000Z
 - **Gap:** 12.0 h dark, 96.0 nm offshore

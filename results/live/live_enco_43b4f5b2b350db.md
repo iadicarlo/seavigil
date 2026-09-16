@@ -1,9 +1,9 @@
 # Incident `live_enco_43b4f5b2b350db`
 
 - **MPA:** At-sea encounter (transshipment)
-- **Severity:** HIGH (foreign vessel, authorization lapsed)
+- **Severity:** HIGH (foreign vessel, no authorization on record)
 - **EEZ:** Omani Exclusive Economic Zone (Oman) -- FOREIGN-flagged vessel
-- **Authorization:** Authorization lapsed before this date: GFCM, ICCAT  ·  IMO 9956343
+- **Authorization:** No public authorization record (check coastal state)
 - **Vessel:** 🇹🇷 KAZIM KOBYA  ·  **signal:** Encounter
 - **When (UTC):** 2026-09-12T03:10:00.000Z → 2026-09-12T23:50:00.000Z
 - **Encounter:** 20.7 h with carrier `412549124` (apparent transshipment)
