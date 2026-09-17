@@ -1,9 +1,9 @@
 # Incident `live_ais__fa51e4dcc1e3b2`
 
 - **MPA:** AIS disabling (going dark)
-- **Severity:** HIGH (foreign vessel, authorization lapsed)
+- **Severity:** HIGH (foreign vessel, no authorization on record)
 - **EEZ:** Cape Verdean Exclusive Economic Zone (Cape Verde) -- FOREIGN-flagged vessel
-- **Authorization:** Authorization lapsed before this date: ICCAT, IOTC  ·  IMO 9719800
+- **Authorization:** No public authorization record (check coastal state)
 - **Vessel:** 🇧🇿 PLAYA DE LAGA  ·  **signal:** AIS gap
 - **When (UTC):** 2026-09-11T22:12:30.000Z → 2026-09-12T17:58:42.000Z
 - **Gap:** 19.8 h dark, 117.0 nm offshore

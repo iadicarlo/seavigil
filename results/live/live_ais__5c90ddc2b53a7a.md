@@ -1,9 +1,9 @@
 # Incident `live_ais__5c90ddc2b53a7a`
 
 - **MPA:** AIS disabling (going dark)
-- **Severity:** HIGH (foreign vessel, authorization lapsed)
+- **Severity:** HIGH (foreign vessel, no authorization on record)
 - **EEZ:** Papua New Guinean Exclusive Economic Zone (Papua New Guinea) -- FOREIGN-flagged vessel
-- **Authorization:** Authorization lapsed before this date: FFA, WCPFC  ·  IMO 9108946
+- **Authorization:** No public authorization record (check coastal state)
 - **Vessel:** 🇵🇭 BELINDA  ·  **signal:** AIS gap
 - **When (UTC):** 2026-09-01T09:49:37.000Z → 2026-09-12T20:13:11.000Z
 - **Gap:** 274.4 h dark, 50.0 nm offshore

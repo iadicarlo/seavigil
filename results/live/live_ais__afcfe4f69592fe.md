@@ -1,9 +1,9 @@
 # Incident `live_ais__afcfe4f69592fe`
 
 - **MPA:** AIS disabling (going dark)
-- **Severity:** HIGH (foreign vessel, authorization lapsed)
+- **Severity:** HIGH (foreign vessel, no authorization on record)
 - **EEZ:** Fijian Exclusive Economic Zone (Fiji) -- FOREIGN-flagged vessel
-- **Authorization:** Authorization lapsed before this date: FFA, WCPFC  ·  IMO 8749119
+- **Authorization:** No public authorization record (check coastal state)
 - **Vessel:** 🇨🇳 ZHONG RONG 15  ·  **signal:** AIS gap
 - **When (UTC):** 2026-09-12T13:08:39.000Z → 2026-09-13T16:34:53.000Z
 - **Gap:** 27.4 h dark, 188.0 nm offshore

@@ -1,9 +1,9 @@
 # Incident `live_ais__fe3a47821b9c36`
 
 - **MPA:** AIS disabling (going dark)
-- **Severity:** MEDIUM (foreign vessel, authorization unverified)
+- **Severity:** HIGH (foreign vessel, no authorization on record)
 - **EEZ:** Yemeni Exclusive Economic Zone (Yemen) -- FOREIGN-flagged vessel
-- **Authorization:** No vessel identity; authorization not checkable
+- **Authorization:** No public authorization record (check coastal state)
 - **Vessel:** 🇮🇳 ALFAIZENOORESULEMANI  ·  **signal:** AIS gap
 - **When (UTC):** 2026-09-01T14:56:00.000Z → 2026-09-13T00:59:09.000Z
 - **Gap:** 274.1 h dark, 55.0 nm offshore
@@ -31,7 +31,7 @@ Going dark is frequently benign: in open water, where gaps are commonly protecti
 - NOAA Marine Cadastre AIS (marinecadastre.gov/ais (vessel positions)). US public domain.
 - WDPA / WD-OECM (World Database on Protected Areas) (UNEP-WCMC and IUCN (2026), June 2026). Protected Planet Terms of Use (non-commercial, display-only).
 - Marine Regions Exclusive Economic Zones v12 (Flanders Marine Institute (2024), DOI 10.14284/632). CC BY 4.0.
-- **Integrity (SHA-256 of canonical facts):** `22455596e6de114c3a1ba731a0de22216605e590d7e934efefd79fb9fa90098c`
+- **Integrity (SHA-256 of canonical facts):** `064723ebdf60856e2dbe89d292ed527d525bfbceb43d2eacac455c9964a0f041`
 - **Evidence schema:** seavigil-evidence-1.0
 
 _Apparent activity and an inspection lead, not proof of illegality. AIS and SAR evidence have known coverage gaps and spoofing risks; verify against authoritative sources before any enforcement action._

@@ -1,9 +1,9 @@
 # Incident `live_ais__c23bb26afc47fa`
 
 - **MPA:** AIS disabling (going dark)
-- **Severity:** HIGH (foreign vessel, no authorization on record)
+- **Severity:** HIGH (foreign vessel, authorization lapsed)
 - **EEZ:** Seychellois Exclusive Economic Zone (Seychelles) -- FOREIGN-flagged vessel
-- **Authorization:** No public authorization record (check coastal state)
+- **Authorization:** Authorization lapsed before this date: ICCAT, IOTC, WCPFC  ·  IMO 9684548
 - **Vessel:** 🇪🇸 PLAYA DE RIS  ·  **signal:** AIS gap
 - **When (UTC):** 2026-08-24T16:07:51.000Z → 2026-09-13T05:55:27.000Z
 - **Gap:** 469.8 h dark, 225.0 nm offshore

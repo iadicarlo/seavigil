@@ -1,9 +1,9 @@
 # Incident `live_ais__7ba8b0d7c0a3b6`
 
 - **MPA:** AIS disabling (going dark)
-- **Severity:** MEDIUM (foreign vessel, authorization unverified)
+- **Severity:** HIGH (foreign vessel, no authorization on record)
 - **EEZ:** Brazilian Exclusive Economic Zone (Brazil) -- FOREIGN-flagged vessel
-- **Authorization:** No vessel identity; authorization not checkable
+- **Authorization:** No public authorization record (check coastal state)
 - **Vessel:** 🇱🇷 DANAE  ·  **signal:** AIS gap
 - **When (UTC):** 2026-09-12T06:55:29.000Z → 2026-09-13T03:14:58.000Z
 - **Gap:** 20.3 h dark, 63.0 nm offshore
@@ -31,7 +31,7 @@ Going dark is frequently benign: in open water, where gaps are commonly protecti
 - NOAA Marine Cadastre AIS (marinecadastre.gov/ais (vessel positions)). US public domain.
 - WDPA / WD-OECM (World Database on Protected Areas) (UNEP-WCMC and IUCN (2026), June 2026). Protected Planet Terms of Use (non-commercial, display-only).
 - Marine Regions Exclusive Economic Zones v12 (Flanders Marine Institute (2024), DOI 10.14284/632). CC BY 4.0.
-- **Integrity (SHA-256 of canonical facts):** `40847f133240963354451d43a01dbdcabdd6fdee235f1d67924171e453718e4e`
+- **Integrity (SHA-256 of canonical facts):** `650b80df21d7a344b19fe70d58056e6b2b5f2375be98aec503afa24c1d71dc77`
 - **Evidence schema:** seavigil-evidence-1.0
 
 _Apparent activity and an inspection lead, not proof of illegality. AIS and SAR evidence have known coverage gaps and spoofing risks; verify against authoritative sources before any enforcement action._

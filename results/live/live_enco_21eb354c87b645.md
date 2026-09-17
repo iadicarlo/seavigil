@@ -1,9 +1,9 @@
 # Incident `live_enco_21eb354c87b645`
 
 - **MPA:** At-sea encounter (transshipment)
-- **Severity:** MEDIUM (foreign vessel, authorization unverified)
+- **Severity:** HIGH (foreign vessel, no authorization on record)
 - **EEZ:** South Korean Exclusive Economic Zone (South Korea) -- FOREIGN-flagged vessel
-- **Authorization:** No vessel identity; authorization not checkable
+- **Authorization:** No public authorization record (check coastal state)
 - **Vessel:** 🇨🇳 LIAOZHUANGYU75678  ·  **signal:** Encounter
 - **When (UTC):** 2026-09-12T07:10:00.000Z → 2026-09-13T22:20:00.000Z
 - **Encounter:** 39.2 h with carrier `412215152` (apparent transshipment)
@@ -31,7 +31,7 @@ Two vessels meeting at sea can be a legitimate transfer, bunkering, or a safety 
 
 - WDPA / WD-OECM (World Database on Protected Areas) (UNEP-WCMC and IUCN (2026), June 2026). Protected Planet Terms of Use (non-commercial, display-only).
 - Marine Regions Exclusive Economic Zones v12 (Flanders Marine Institute (2024), DOI 10.14284/632). CC BY 4.0.
-- **Integrity (SHA-256 of canonical facts):** `a16b0426b89325335b798d36b8dd0c813f1cdbb3e6e27ee8e081a01699f6a2f4`
+- **Integrity (SHA-256 of canonical facts):** `24112e32c6d2cfbd08d8217759a76136a4298e3f8d6d305998d2347e83428efe`
 - **Evidence schema:** seavigil-evidence-1.0
 
 _Apparent activity and an inspection lead, not proof of illegality. AIS and SAR evidence have known coverage gaps and spoofing risks; verify against authoritative sources before any enforcement action._

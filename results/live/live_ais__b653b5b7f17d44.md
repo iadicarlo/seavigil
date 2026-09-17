@@ -1,9 +1,9 @@
 # Incident `live_ais__b653b5b7f17d44`
 
 - **MPA:** AIS disabling (going dark)
-- **Severity:** MEDIUM (foreign vessel, authorization unverified)
+- **Severity:** HIGH (foreign vessel, no authorization on record)
 - **EEZ:** New Zealand Exclusive Economic Zone (Cook Islands) (New Zealand) -- FOREIGN-flagged vessel
-- **Authorization:** No vessel identity; authorization not checkable
+- **Authorization:** No public authorization record (check coastal state)
 - **Vessel:** 🇨🇳 RONGDAYANG8-5  100%  ·  **signal:** AIS gap
 - **When (UTC):** 2026-09-12T07:23:45.000Z → 2026-09-12T23:16:49.000Z
 - **Gap:** 15.9 h dark, 140.0 nm offshore
@@ -31,7 +31,7 @@ Going dark is frequently benign: in open water, where gaps are commonly protecti
 - NOAA Marine Cadastre AIS (marinecadastre.gov/ais (vessel positions)). US public domain.
 - WDPA / WD-OECM (World Database on Protected Areas) (UNEP-WCMC and IUCN (2026), June 2026). Protected Planet Terms of Use (non-commercial, display-only).
 - Marine Regions Exclusive Economic Zones v12 (Flanders Marine Institute (2024), DOI 10.14284/632). CC BY 4.0.
-- **Integrity (SHA-256 of canonical facts):** `55f4baf9ea56910555d329bc8190c581dccb1bba962c7145205470d5879dc2e7`
+- **Integrity (SHA-256 of canonical facts):** `e41185e27c5d050be08b9957585305fd18e73d98a1c0bc8125ca44d0bd8fa814`
 - **Evidence schema:** seavigil-evidence-1.0
 
 _Apparent activity and an inspection lead, not proof of illegality. AIS and SAR evidence have known coverage gaps and spoofing risks; verify against authoritative sources before any enforcement action._
