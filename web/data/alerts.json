@@ -1,6 +1,71 @@
 {
-"generated_at": "2026-09-17T07:42:33Z",
+"generated_at": "2026-09-17T13:30:07Z",
 "alerts": [
+{
+"id": "live_ais__afcfe4f69592fe",
+"first_seen": "2026-09-17T13:30:07Z",
+"type": "ais_disabling",
+"when": "2026-09-12T13:08:39.000Z",
+"eez": "Fijian Exclusive Economic Zone",
+"flag": "CHN",
+"authorization": "authorization_lapsed",
+"severity_reason": "foreign vessel, authorization lapsed",
+"lat": -20.1891,
+"lon": 176.1276,
+"ship_name": "ZHONG RONG 15"
+},
+{
+"id": "live_ais__dfdc75f0e094ca",
+"first_seen": "2026-09-17T13:30:07Z",
+"type": "ais_disabling",
+"when": "2026-09-11T14:24:22.000Z",
+"eez": "Nigerian Exclusive Economic Zone",
+"flag": "MHL",
+"authorization": "no_record",
+"severity_reason": "foreign vessel, no authorization on record",
+"lat": 3.123,
+"lon": 5.6343,
+"ship_name": "SEA FORTUNE"
+},
+{
+"id": "live_ais__c23bb26afc47fa",
+"first_seen": "2026-09-17T13:30:07Z",
+"type": "ais_disabling",
+"when": "2026-08-24T16:07:51.000Z",
+"eez": "Seychellois Exclusive Economic Zone",
+"flag": "ESP",
+"authorization": "no_record",
+"severity_reason": "foreign vessel, no authorization on record",
+"lat": -2.0769,
+"lon": 54.8936,
+"ship_name": "PLAYA DE RIS"
+},
+{
+"id": "live_ais__f2ab4d08eb9610",
+"first_seen": "2026-09-17T13:30:07Z",
+"type": "ais_disabling",
+"when": "2026-09-12T13:37:13.000Z",
+"eez": "Brazilian Exclusive Economic Zone",
+"flag": "PAN",
+"authorization": "no_record",
+"severity_reason": "foreign vessel, no authorization on record",
+"lat": -25.4478,
+"lon": -42.7529,
+"ship_name": "CIDADE DE MARICA"
+},
+{
+"id": "live_ais__e0173e5840d2c7",
+"first_seen": "2026-09-17T13:30:07Z",
+"type": "ais_disabling",
+"when": "2026-09-12T11:06:44.000Z",
+"eez": "Brazilian Exclusive Economic Zone",
+"flag": "PAN",
+"authorization": "no_record",
+"severity_reason": "foreign vessel, no authorization on record",
+"lat": -17.8512,
+"lon": -37.1065,
+"ship_name": "ZHENG HENG"
+},
 {
 "id": "live_enco_e8d3a4d9db6d0f",
 "first_seen": "2026-09-17T01:27:51Z",
@@ -2535,71 +2600,6 @@
 "lat": -3.373,
 "lon": -169.8885,
 "ship_name": "SYY32-2023-03"
-},
-{
-"id": "live_ais__f827202b52656f",
-"first_seen": "2026-09-12T14:09:59Z",
-"type": "ais_disabling",
-"when": "2026-09-07T23:11:41.000Z",
-"eez": "Sudanese Exclusive Economic Zone",
-"flag": "SGP",
-"authorization": "no_record",
-"severity_reason": "foreign vessel, no authorization on record",
-"lat": 18.9112,
-"lon": 39.0203,
-"ship_name": "KOTA CEMPAKA"
-},
-{
-"id": "live_ais__9e0a7e8932f234",
-"first_seen": "2026-09-12T14:09:59Z",
-"type": "ais_disabling",
-"when": "2026-09-06T06:38:36.000Z",
-"eez": "Liberian Exclusive Economic Zone",
-"flag": "KOR",
-"authorization": "no_record",
-"severity_reason": "foreign vessel, no authorization on record",
-"lat": 5.079,
-"lon": -12.2566,
-"ship_name": "HL SINES"
-},
-{
-"id": "live_ais__a414cba02a3dfe",
-"first_seen": "2026-09-12T14:09:59Z",
-"type": "ais_disabling",
-"when": "2026-09-07T20:38:30.000Z",
-"eez": "Brazilian Exclusive Economic Zone",
-"flag": "PAN",
-"authorization": "no_record",
-"severity_reason": "foreign vessel, no authorization on record",
-"lat": -2.0372,
-"lon": -35.5149,
-"ship_name": "OPHELIA"
-},
-{
-"id": "live_ais__d27d8d3d65827d",
-"first_seen": "2026-09-12T14:09:59Z",
-"type": "ais_disabling",
-"when": "2026-09-04T09:19:52.000Z",
-"eez": "Maldivian Exclusive Economic Zone",
-"flag": "MHL",
-"authorization": "no_record",
-"severity_reason": "foreign vessel, no authorization on record",
-"lat": 0.8782,
-"lon": 76.6744,
-"ship_name": "YASA JUPITER"
-},
-{
-"id": "live_ais__409d644bedf0d4",
-"first_seen": "2026-09-12T14:09:59Z",
-"type": "ais_disabling",
-"when": "2026-09-06T17:37:29.000Z",
-"eez": "Mauritian Exclusive Economic Zone (Chagos Archipelago)",
-"flag": "SGP",
-"authorization": "no_record",
-"severity_reason": "foreign vessel, no authorization on record",
-"lat": -8.5313,
-"lon": 71.2977,
-"ship_name": "ALS FIDES"
 }
 ]
 }
