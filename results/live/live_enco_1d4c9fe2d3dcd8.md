@@ -1,9 +1,9 @@
 # Incident `live_enco_1d4c9fe2d3dcd8`
 
 - **MPA:** At-sea encounter (transshipment)
-- **Severity:** HIGH (foreign vessel, no authorization on record)
+- **Severity:** HIGH (foreign vessel, authorization lapsed)
 - **EEZ:** Kiribati Exclusive Economic Zone (Line Group) (Kiribati) -- FOREIGN-flagged vessel
-- **Authorization:** No public authorization record (check coastal state)
+- **Authorization:** Authorization lapsed before this date: FFA, IATTC, WCPFC  ·  IMO 9875745
 - **Vessel:** 🇨🇳 GUANGYUANYU336  ·  **signal:** Encounter
 - **When (UTC):** 2026-09-13T10:50:00.000Z → 2026-09-13T16:00:00.000Z
 - **Encounter:** 5.2 h with carrier `412336004` (apparent transshipment)

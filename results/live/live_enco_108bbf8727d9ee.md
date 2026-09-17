@@ -1,9 +1,9 @@
 # Incident `live_enco_108bbf8727d9ee`
 
 - **MPA:** At-sea encounter (transshipment)
-- **Severity:** HIGH (foreign vessel, no authorization on record)
+- **Severity:** HIGH (foreign vessel, authorization lapsed)
 - **EEZ:** Kiribati Exclusive Economic Zone (Phoenix Group) (Kiribati) -- FOREIGN-flagged vessel
-- **Authorization:** No public authorization record (check coastal state)
+- **Authorization:** Authorization lapsed before this date: FFA, IATTC, WCPFC  ·  IMO 9691888
 - **Vessel:** 🇨🇳 LURONGYUANYU57  ·  **signal:** Encounter
 - **When (UTC):** 2026-09-12T11:30:00.000Z → 2026-09-13T21:20:00.000Z
 - **Encounter:** 33.8 h with carrier `585911041` (apparent transshipment)

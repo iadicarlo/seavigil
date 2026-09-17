@@ -1,9 +1,9 @@
 # Incident `live_enco_8dff52ef3b8a78`
 
 - **MPA:** At-sea encounter (transshipment)
-- **Severity:** HIGH (foreign vessel, authorization lapsed)
+- **Severity:** HIGH (foreign vessel, no authorization on record)
 - **EEZ:** Irish Exclusive Economic Zone (Ireland) -- FOREIGN-flagged vessel
-- **Authorization:** Authorization lapsed before this date: NEAFC  ·  IMO 9362683
+- **Authorization:** No public authorization record (check coastal state)
 - **Vessel:** 🇪🇸 PUNTA CANDIEIRA  ·  **signal:** Encounter
 - **When (UTC):** 2026-09-12T00:00:00.000Z → 2026-09-12T03:00:00.000Z
 - **Encounter:** 3.0 h with carrier `250500235` (apparent transshipment)

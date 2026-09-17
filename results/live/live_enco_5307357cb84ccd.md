@@ -3,7 +3,7 @@
 - **MPA:** At-sea encounter (transshipment)
 - **Severity:** HIGH (foreign vessel, authorization lapsed)
 - **EEZ:** Omani Exclusive Economic Zone (Oman) -- FOREIGN-flagged vessel
-- **Authorization:** Authorization lapsed before this date: GFCM, ICCAT  ·  IMO 9864411
+- **Authorization:** Authorization lapsed before this date: GFCM
 - **Vessel:** 🇹🇷 AKGUN KARDESLER  ·  **signal:** Encounter
 - **When (UTC):** 2026-09-11T03:00:00.000Z → 2026-09-11T19:40:00.000Z
 - **Encounter:** 16.7 h with carrier `412549124` (apparent transshipment)
