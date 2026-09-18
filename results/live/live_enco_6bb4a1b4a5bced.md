@@ -1,20 +1,20 @@
-# Incident `live_enco_1b2622a2ebd9af`
+# Incident `live_enco_6bb4a1b4a5bced`
 
 - **MPA:** At-sea encounter (transshipment)
 - **Severity:** HIGH (foreign vessel, no authorization on record)
-- **EEZ:** Overlapping claim Senkaku Islands: Taiwan / Japan / China (Taiwan) -- FOREIGN-flagged vessel
+- **EEZ:** South Korean Exclusive Economic Zone (South Korea) -- FOREIGN-flagged vessel
 - **Authorization:** No public authorization record (check coastal state)
-- **Vessel:** 🇦🇱 `201601335`  ·  **signal:** Encounter
-- **When (UTC):** 2026-09-13T15:00:00.000Z → 2026-09-13T18:50:00.000Z
-- **Encounter:** 3.8 h with carrier `416005193` (apparent transshipment)
-- **Where:** 26.837, 123.485
+- **Vessel:** 🇨🇳 MINFUDINGYU04262  ·  **signal:** Encounter
+- **When (UTC):** 2026-09-14T13:20:00.000Z → 2026-09-14T21:50:00.000Z
+- **Encounter:** 8.5 h with carrier `412450328` (apparent transshipment)
+- **Where:** 31.949, 125.372
 
 ## Why this was flagged
 
 _GFW Events encounters dataset (Miller et al. 2018).._
 
-- two vessels within range for 4 h
-- counterpart: YU QING NO.8
+- two vessels within range for 8 h
+- counterpart: 412450328
 - two-vessel at-sea encounter (GFW Events)
 
 ## Could be innocent
@@ -31,7 +31,7 @@ Two vessels meeting at sea can be a legitimate transfer, bunkering, or a safety 
 
 - WDPA / WD-OECM (World Database on Protected Areas) (UNEP-WCMC and IUCN (2026), June 2026). Protected Planet Terms of Use (non-commercial, display-only).
 - Marine Regions Exclusive Economic Zones v12 (Flanders Marine Institute (2024), DOI 10.14284/632). CC BY 4.0.
-- **Integrity (SHA-256 of canonical facts):** `e2a5407ab0b71d7cf02888cc69fdb756cede9c13026d425f8d9438b73ab26ecf`
+- **Integrity (SHA-256 of canonical facts):** `813dbe71d616088e54eb2557aa7cc2b9979a84fd9495c2098bf942f7a6a296bd`
 - **Evidence schema:** seavigil-evidence-1.0
 
 _Apparent activity and an inspection lead, not proof of illegality. AIS and SAR evidence have known coverage gaps and spoofing risks; verify against authoritative sources before any enforcement action._

@@ -1,20 +1,20 @@
-# Incident `live_enco_ab8cdff2c19123`
+# Incident `live_enco_b178aeb03d783f`
 
 - **MPA:** At-sea encounter (transshipment)
 - **Severity:** HIGH (foreign vessel, no authorization on record)
-- **EEZ:** South Korean Exclusive Economic Zone (South Korea) -- FOREIGN-flagged vessel
+- **EEZ:** North Korean Exclusive Economic Zone (North Korea) -- FOREIGN-flagged vessel
 - **Authorization:** No public authorization record (check coastal state)
-- **Vessel:** 🇨🇳 JICAOYU03666  ·  **signal:** Encounter
-- **When (UTC):** 2026-09-13T00:00:00.000Z → 2026-09-13T23:50:00.000Z
-- **Encounter:** 23.8 h with carrier `412303987` (apparent transshipment)
-- **Where:** 35.727, 124.118
+- **Vessel:** 🇰🇷 202 CHEONG HAE  ·  **signal:** Encounter
+- **When (UTC):** 2026-09-14T12:20:00.000Z → 2026-09-14T22:40:00.000Z
+- **Encounter:** 10.3 h with carrier `440043290` (apparent transshipment)
+- **Where:** 37.192, 124.942
 
 ## Why this was flagged
 
 _GFW Events encounters dataset (Miller et al. 2018).._
 
-- two vessels within range for 24 h
-- counterpart: CGDMJTPTW0
+- two vessels within range for 10 h
+- counterpart: 201 CHEONG HAE
 - two-vessel at-sea encounter (GFW Events)
 
 ## Could be innocent
@@ -31,7 +31,7 @@ Two vessels meeting at sea can be a legitimate transfer, bunkering, or a safety 
 
 - WDPA / WD-OECM (World Database on Protected Areas) (UNEP-WCMC and IUCN (2026), June 2026). Protected Planet Terms of Use (non-commercial, display-only).
 - Marine Regions Exclusive Economic Zones v12 (Flanders Marine Institute (2024), DOI 10.14284/632). CC BY 4.0.
-- **Integrity (SHA-256 of canonical facts):** `d08a7d56b19917aabbbdafe97be9d99a9b8da408810abb7e89a4968b4112cc30`
+- **Integrity (SHA-256 of canonical facts):** `45380b13f4bffdcc297ab18e46782c65f5d9fce2aa9ff5d7e8e35c6623d5c73e`
 - **Evidence schema:** seavigil-evidence-1.0
 
 _Apparent activity and an inspection lead, not proof of illegality. AIS and SAR evidence have known coverage gaps and spoofing risks; verify against authoritative sources before any enforcement action._
