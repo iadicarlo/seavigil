@@ -1,6 +1,19 @@
 {
-"generated_at": "2026-09-19T01:11:51Z",
+"generated_at": "2026-09-19T05:55:36Z",
 "alerts": [
+{
+"id": "live_enco_1b7516355b996c",
+"first_seen": "2026-09-19T05:55:36Z",
+"type": "encounter",
+"when": "2026-09-15T08:10:00.000Z",
+"eez": "South Korean Exclusive Economic Zone",
+"flag": "CHN",
+"authorization": "no_record",
+"severity_reason": "foreign vessel, no authorization on record",
+"lat": 32.097,
+"lon": 124.9353,
+"ship_name": "ZHE LIN YU 21559"
+},
 {
 "id": "live_enco_ecd94082deaf7b",
 "first_seen": "2026-09-19T01:11:51Z",
@@ -2587,19 +2600,6 @@
 "lat": -20.4345,
 "lon": 178.8757,
 "ship_name": "WANGBIAO-8654  100%"
-},
-{
-"id": "live_ais__f55c9452c38ab8",
-"first_seen": "2026-09-14T14:06:05Z",
-"type": "ais_disabling",
-"when": "2026-09-10T07:16:32.000Z",
-"eez": "Papua New Guinean Exclusive Economic Zone",
-"flag": "IRL",
-"authorization": "no_record",
-"severity_reason": "foreign vessel, no authorization on record",
-"lat": -10.3279,
-"lon": 140.5041,
-"ship_name": "KAITAKI"
 }
 ]
 }
