@@ -3,7 +3,7 @@
 - **MPA:** AIS disabling (going dark)
 - **Severity:** HIGH (foreign vessel, no authorization on record)
 - **EEZ:** Japanese Exclusive Economic Zone (Japan) -- FOREIGN-flagged vessel
-- **Authorization:** No public authorization record (check coastal state)  ·  IMO 9578684
+- **Authorization:** No public authorization record (check coastal state)
 - **Vessel:** 🇵🇦 CAPE VALENCIA  ·  **signal:** AIS gap
 - **When (UTC):** 2026-09-13T20:46:45.000Z → 2026-09-14T09:17:56.000Z
 - **Gap:** 12.5 h dark, 200.0 nm offshore
