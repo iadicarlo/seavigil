@@ -4,7 +4,7 @@
 - **Severity:** MEDIUM (foreign vessel, authorization unverified)
 - **EEZ:** Kiribati Exclusive Economic Zone (Line Group) (Kiribati) -- FOREIGN-flagged vessel
 - **Authorization:** No vessel identity; authorization not checkable
-- **Vessel:** 🇹🇫 AB5-1-93%  ·  **signal:** AIS gap
+- **Vessel:** 🇹🇫 AB5-1-92%  ·  **signal:** AIS gap
 - **When (UTC):** 2026-09-14T01:21:37.000Z → 2026-09-14T22:59:57.000Z
 - **Gap:** 21.6 h dark, 176.0 nm offshore
 - **Where:** -1.087, -154.735
