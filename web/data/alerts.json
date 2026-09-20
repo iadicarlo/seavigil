@@ -1,6 +1,19 @@
 {
-"generated_at": "2026-09-20T01:11:52Z",
+"generated_at": "2026-09-20T06:19:55Z",
 "alerts": [
+{
+"id": "live_enco_bac5385343cada",
+"first_seen": "2026-09-20T06:19:55Z",
+"type": "encounter",
+"when": "2026-09-16T03:10:00.000Z",
+"eez": "Omani Exclusive Economic Zone",
+"flag": "TUR",
+"authorization": "authorization_lapsed",
+"severity_reason": "foreign vessel, authorization lapsed",
+"lat": 19.4811,
+"lon": 57.731,
+"ship_name": "AKGUN KARDESLER"
+},
 {
 "id": "live_enco_673f062d86bab1",
 "first_seen": "2026-09-20T01:11:52Z",
@@ -2587,19 +2600,6 @@
 "lat": 31.8268,
 "lon": 125.7158,
 "ship_name": "ZHEXIANGYU13088"
-},
-{
-"id": "live_enco_a5b0750368e6d3",
-"first_seen": "2026-09-15T01:30:18Z",
-"type": "encounter",
-"when": "2026-09-11T20:20:00.000Z",
-"eez": "Danish Exclusive Economic Zone (Greenland)",
-"flag": "GRL",
-"authorization": "no_record",
-"severity_reason": "foreign vessel, no authorization on record",
-"lat": 64.8048,
-"lon": -52.1773,
-"ship_name": "BELLA K"
 }
 ]
 }
