@@ -3,7 +3,7 @@
 - **MPA:** AIS disabling (going dark)
 - **Severity:** HIGH (foreign vessel, no authorization on record)
 - **EEZ:** Senegalese Exclusive Economic Zone (Senegal) -- FOREIGN-flagged vessel
-- **Authorization:** No public authorization record (check coastal state)
+- **Authorization:** No public authorization record (check coastal state)  ·  IMO 9475698
 - **Vessel:** 🇬🇷 SPEED  ·  **signal:** AIS gap
 - **When (UTC):** 2026-09-14T06:36:03.000Z → 2026-09-15T20:15:44.000Z
 - **Gap:** 37.7 h dark, 124.0 nm offshore

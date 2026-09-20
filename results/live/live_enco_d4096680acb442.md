@@ -1,9 +1,9 @@
 # Incident `live_enco_d4096680acb442`
 
 - **MPA:** At-sea encounter (transshipment)
-- **Severity:** HIGH (foreign vessel, no authorization on record)
+- **Severity:** HIGH (foreign vessel, authorization lapsed)
 - **EEZ:** Omani Exclusive Economic Zone (Oman) -- FOREIGN-flagged vessel
-- **Authorization:** No public authorization record (check coastal state)
+- **Authorization:** Authorization lapsed before this date: NPFC  ·  IMO 8555465
 - **Vessel:** 🇨🇳 FU YUAN YU 816  ·  **signal:** Encounter
 - **When (UTC):** 2026-09-15T12:00:00.000Z → 2026-09-16T23:50:00.000Z
 - **Encounter:** 35.8 h with carrier `412440508` (apparent transshipment)
