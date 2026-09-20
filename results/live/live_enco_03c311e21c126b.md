@@ -1,20 +1,20 @@
-# Incident `live_enco_eb2ab0c6ec9ff9`
+# Incident `live_enco_03c311e21c126b`
 
 - **MPA:** At-sea encounter (transshipment)
 - **Severity:** HIGH (foreign vessel, no authorization on record)
-- **EEZ:** Chinese Exclusive Economic Zone (China) -- FOREIGN-flagged vessel
+- **EEZ:** South Korean Exclusive Economic Zone (South Korea) -- FOREIGN-flagged vessel
 - **Authorization:** No public authorization record (check coastal state)
-- **Vessel:** 🇨🇾 MINXIAYU01355  ·  **signal:** Encounter
-- **When (UTC):** 2026-09-15T06:50:00.000Z → 2026-09-15T23:50:00.000Z
-- **Encounter:** 17.0 h with carrier `412445404` (apparent transshipment)
-- **Where:** 30.950, 123.324
+- **Vessel:** 🇨🇳 LUWENYU67519  ·  **signal:** Encounter
+- **When (UTC):** 2026-09-16T18:00:00.000Z → 2026-09-16T23:20:00.000Z
+- **Encounter:** 5.3 h with carrier `412335315` (apparent transshipment)
+- **Where:** 37.323, 123.869
 
 ## Why this was flagged
 
 _GFW Events encounters dataset (Miller et al. 2018).._
 
-- two vessels within range for 17 h
-- counterpart: MINXIAYU01355
+- two vessels within range for 5 h
+- counterpart: LUWENYU67582
 - two-vessel at-sea encounter (GFW Events)
 
 ## Could be innocent
@@ -31,7 +31,7 @@ Two vessels meeting at sea can be a legitimate transfer, bunkering, or a safety 
 
 - WDPA / WD-OECM (World Database on Protected Areas) (UNEP-WCMC and IUCN (2026), June 2026). Protected Planet Terms of Use (non-commercial, display-only).
 - Marine Regions Exclusive Economic Zones v12 (Flanders Marine Institute (2024), DOI 10.14284/632). CC BY 4.0.
-- **Integrity (SHA-256 of canonical facts):** `0b20b5a9c4e3caa1865619e46b24cc35d440500e59c71a0f128935865a967361`
+- **Integrity (SHA-256 of canonical facts):** `56c7dbbeb15247a42671a04e5a389bb1e81b70298dc3950c489e7a966b1ef5dd`
 - **Evidence schema:** seavigil-evidence-1.0
 
 _Apparent activity and an inspection lead, not proof of illegality. AIS and SAR evidence have known coverage gaps and spoofing risks; verify against authoritative sources before any enforcement action._
