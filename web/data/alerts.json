@@ -1,6 +1,19 @@
 {
-"generated_at": "2026-09-21T01:08:23Z",
+"generated_at": "2026-09-21T06:23:42Z",
 "alerts": [
+{
+"id": "live_enco_9ca587844aab19",
+"first_seen": "2026-09-21T06:23:42Z",
+"type": "encounter",
+"when": "2026-09-17T09:50:00.000Z",
+"eez": "Chinese Exclusive Economic Zone",
+"flag": "CYP",
+"authorization": "no_record",
+"severity_reason": "foreign vessel, no authorization on record",
+"lat": 23.4306,
+"lon": 117.4195,
+"ship_name": "03988"
+},
 {
 "id": "live_enco_31b8bfbcfbabff",
 "first_seen": "2026-09-21T01:08:23Z",
@@ -2587,19 +2600,6 @@
 "lat": -25.496,
 "lon": -42.7827,
 "ship_name": "EAGLE CRATO"
-},
-{
-"id": "live_ais__c84eb5008f7376",
-"first_seen": "2026-09-16T17:00:01Z",
-"type": "ais_disabling",
-"when": "2026-09-05T06:30:33.000Z",
-"eez": "Canadian Exclusive Economic Zone",
-"flag": "LBR",
-"authorization": "no_record",
-"severity_reason": "foreign vessel, no authorization on record",
-"lat": 40.7215,
-"lon": -63.3418,
-"ship_name": "DONINGTON"
 }
 ]
 }
