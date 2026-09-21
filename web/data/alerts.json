@@ -1,6 +1,19 @@
 {
-"generated_at": "2026-09-21T06:23:42Z",
+"generated_at": "2026-09-21T14:12:27Z",
 "alerts": [
+{
+"id": "live_enco_21cdc4fbac58f8",
+"first_seen": "2026-09-21T14:12:27Z",
+"type": "encounter",
+"when": "2026-09-17T07:00:00.000Z",
+"eez": "Overlapping claim Senkaku Islands: Taiwan / Japan / China",
+"flag": "CHN",
+"authorization": "no_record",
+"severity_reason": "foreign vessel, no authorization on record",
+"lat": 26.7569,
+"lon": 124.2288,
+"ship_name": "MINSHIYU08682"
+},
 {
 "id": "live_enco_9ca587844aab19",
 "first_seen": "2026-09-21T06:23:42Z",
@@ -2587,19 +2600,6 @@
 "lat": -36.5756,
 "lon": 152.0391,
 "ship_name": "SOUTH SEAS 09-99%"
-},
-{
-"id": "live_ais__8ea610eb9c9667",
-"first_seen": "2026-09-16T17:00:01Z",
-"type": "ais_disabling",
-"when": "2026-09-11T10:49:12.000Z",
-"eez": "Brazilian Exclusive Economic Zone",
-"flag": "SGP",
-"authorization": "no_record",
-"severity_reason": "foreign vessel, no authorization on record",
-"lat": -25.496,
-"lon": -42.7827,
-"ship_name": "EAGLE CRATO"
 }
 ]
 }

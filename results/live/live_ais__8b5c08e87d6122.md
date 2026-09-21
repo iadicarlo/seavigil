@@ -3,7 +3,7 @@
 - **MPA:** AIS disabling (going dark)
 - **Severity:** HIGH (foreign vessel, no authorization on record)
 - **EEZ:** Mexican Exclusive Economic Zone (Mexico) -- FOREIGN-flagged vessel
-- **Authorization:** No public authorization record (check coastal state)
+- **Authorization:** No public authorization record (check coastal state)  ·  IMO 9357303
 - **Vessel:** 🇧🇸 GRACEFUL LEADER  ·  **signal:** AIS gap
 - **When (UTC):** 2026-09-16T00:35:03.000Z → 2026-09-16T14:13:21.000Z
 - **Gap:** 13.6 h dark, 60.0 nm offshore

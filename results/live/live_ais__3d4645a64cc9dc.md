@@ -3,7 +3,7 @@
 - **MPA:** AIS disabling (going dark)
 - **Severity:** HIGH (foreign vessel, no authorization on record)
 - **EEZ:** Cuban Exclusive Economic Zone (Cuba) -- FOREIGN-flagged vessel
-- **Authorization:** No public authorization record (check coastal state)  ·  IMO 8025288
+- **Authorization:** No public authorization record (check coastal state)
 - **Vessel:** 🇨🇾 VASSOS  ·  **signal:** AIS gap
 - **When (UTC):** 2026-09-15T16:42:18.000Z → 2026-09-16T06:46:05.000Z
 - **Gap:** 14.1 h dark, 105.0 nm offshore

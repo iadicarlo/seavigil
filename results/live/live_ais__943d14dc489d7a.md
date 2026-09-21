@@ -3,7 +3,7 @@
 - **MPA:** AIS disabling (going dark)
 - **Severity:** HIGH (foreign vessel, no authorization on record)
 - **EEZ:** Indonesian Exclusive Economic Zone (Indonesia) -- FOREIGN-flagged vessel
-- **Authorization:** No public authorization record (check coastal state)  ·  IMO 9516533
+- **Authorization:** No public authorization record (check coastal state)
 - **Vessel:** 🇵🇦 JIN DA HAI  ·  **signal:** AIS gap
 - **When (UTC):** 2026-09-15T02:11:34.000Z → 2026-09-16T10:47:17.000Z
 - **Gap:** 32.6 h dark, 65.0 nm offshore

@@ -3,7 +3,7 @@
 - **MPA:** AIS disabling (going dark)
 - **Severity:** HIGH (foreign vessel, no authorization on record)
 - **EEZ:** Indonesian Exclusive Economic Zone (Indonesia) -- FOREIGN-flagged vessel
-- **Authorization:** No public authorization record (check coastal state)
+- **Authorization:** No public authorization record (check coastal state)  ·  IMO 9514212
 - **Vessel:** 🇵🇦 CAPE HARMONY  ·  **signal:** AIS gap
 - **When (UTC):** 2026-09-15T01:37:02.000Z → 2026-09-16T01:25:06.000Z
 - **Gap:** 23.8 h dark, 151.0 nm offshore
