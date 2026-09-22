@@ -99,15 +99,13 @@
     "eez_sovereign": "Norway",
     "eez_iso_sov": "NOR",
     "eez_foreign": true,
-    "authorization_status": "authorization_lapsed",
-    "authorization_authorities": [
-      "NEAFC"
-    ],
+    "authorization_status": "no_record",
+    "authorization_authorities": [],
     "registry_iuu_tag": false,
-    "registry_flag": "RUS",
-    "registry_imo": "8908131",
+    "registry_flag": "",
+    "registry_imo": "",
     "severity": "high",
-    "severity_reason": "foreign vessel, authorization lapsed",
+    "severity_reason": "foreign vessel, no authorization on record",
     "evidence_schema": "seavigil-evidence-1.0",
     "evidence_hash": "b56c78ce8712ea01ccb531818ce86828a9d960ef828e16eb6a15616cfe8a7c9d"
   },
@@ -226,8 +224,8 @@
     "centroid_lat": 35.6846,
     "time_start_utc": "2026-09-18T08:50:00.000Z",
     "time_end_utc": "2026-09-18T23:50:00.000Z",
-    "vessel_id": "412223036",
-    "ship_name": "LIAOYINGYU36057",
+    "vessel_id": "412223037",
+    "ship_name": "LIAOYINGYU36058",
     "ship_type": "Fishing",
     "flag": "CHN",
     "flag_emoji": "\ud83c\udde8\ud83c\uddf3",
@@ -237,20 +235,20 @@
     "mean_fishing_proba": null,
     "max_fishing_proba": null,
     "_rfmo": [
+      "ACAP",
       "PICES",
       "WCPFC",
-      "ACAP",
       "IWC"
     ],
     "_no_take": false,
     "mpa_name": "At-sea encounter (transshipment)",
     "duration_hours": 15.0,
-    "carrier_mmsi": "412223037",
+    "carrier_mmsi": "412223036",
     "explanation": {
       "method": "GFW Events encounters dataset (Miller et al. 2018).",
       "drivers": [
         "two vessels within range for 15 h",
-        "counterpart: LIAOYINGYU36058",
+        "counterpart: LIAOYINGYU36057",
         "two-vessel at-sea encounter (GFW Events)"
       ]
     },
@@ -271,7 +269,7 @@
     "severity": "high",
     "severity_reason": "foreign vessel, no authorization on record",
     "evidence_schema": "seavigil-evidence-1.0",
-    "evidence_hash": "5d720476f52bf52c25b3f1667c73978be77b146bc925aab342bd7bb04dd278d3"
+    "evidence_hash": "21f405d4a8064897cf6b16014f606a4fd25db6be9d28af1a86562d5cf157d7bb"
   },
   {
     "incident_id": "live_enco_2d18f9af3b008e",
@@ -391,9 +389,9 @@
     "centroid_lat": 43.8072,
     "time_start_utc": "2026-09-18T01:20:00.000Z",
     "time_end_utc": "2026-09-18T23:50:00.000Z",
-    "vessel_id": "273358980",
-    "ship_name": "CAPTAIN MOKEEV",
-    "ship_type": "Carrier",
+    "vessel_id": "273899000",
+    "ship_name": "MYS DOKUCHAEVA",
+    "ship_type": "Fishing",
     "flag": "RUS",
     "flag_emoji": "\ud83c\uddf7\ud83c\uddfa",
     "gear": "Encounter",
@@ -402,20 +400,20 @@
     "mean_fishing_proba": null,
     "max_fishing_proba": null,
     "_rfmo": [
-      "IWC",
       "PICES",
-      "ACAP",
-      "WCPFC"
+      "IWC",
+      "WCPFC",
+      "ACAP"
     ],
     "_no_take": false,
     "mpa_name": "At-sea encounter (transshipment)",
     "duration_hours": 22.5,
-    "carrier_mmsi": "273899000",
+    "carrier_mmsi": "273358980",
     "explanation": {
       "method": "GFW Events encounters dataset (Miller et al. 2018).",
       "drivers": [
         "two vessels within range for 22 h",
-        "counterpart: MYS DOKUCHAEVA",
+        "counterpart: CAPTAIN MOKEEV",
         "two-vessel at-sea encounter (GFW Events)"
       ]
     },
@@ -431,12 +429,12 @@
     "authorization_status": "no_record",
     "authorization_authorities": [],
     "registry_iuu_tag": false,
-    "registry_flag": "RUS",
-    "registry_imo": "9081667",
+    "registry_flag": "",
+    "registry_imo": "",
     "severity": "high",
     "severity_reason": "foreign vessel, no authorization on record",
     "evidence_schema": "seavigil-evidence-1.0",
-    "evidence_hash": "6b083164a96023daaffabf5adcd25117f2ab75f22b0f344596451581f0bc5133"
+    "evidence_hash": "9db4bbd7bb4621aab77e7d4d08bab116737bc76c0e7f08179f04b99ff0247496"
   },
   {
     "incident_id": "live_enco_75ac1f9239d24b",
@@ -929,57 +927,6 @@
     "evidence_hash": "c24f2bcd353ff4e54361397199cc395f5ea2e9ef37b59d46c7a6bba25cc438f1"
   },
   {
-    "incident_id": "live_enco_1f67b4ea4c9499",
-    "type": "encounter",
-    "centroid_lon": 57.7302,
-    "centroid_lat": 19.4801,
-    "time_start_utc": "2026-09-17T00:40:00.000Z",
-    "time_end_utc": "2026-09-18T22:00:00.000Z",
-    "vessel_id": "271072244",
-    "ship_name": "YUSUF REIS BLKCLK A",
-    "ship_type": "Fishing",
-    "flag": "TUR",
-    "flag_emoji": "\ud83c\uddf9\ud83c\uddf7",
-    "gear": "Encounter",
-    "n_positions": 0,
-    "n_fishing_positions": 0,
-    "mean_fishing_proba": null,
-    "max_fishing_proba": null,
-    "_rfmo": [],
-    "_no_take": false,
-    "mpa_name": "At-sea encounter (transshipment)",
-    "duration_hours": 45.3,
-    "carrier_mmsi": "271072796",
-    "explanation": {
-      "method": "GFW Events encounters dataset (Miller et al. 2018).",
-      "drivers": [
-        "two vessels within range for 45 h",
-        "counterpart: TIRYAKILER",
-        "two-vessel at-sea encounter (GFW Events)"
-      ]
-    },
-    "caveats": [
-      "Co-location can be legitimate (joint operations, safety, shelter).",
-      "Apparent transshipment is inferred from proximity and low speed, not observed.",
-      "An inspection lead from GFW Events, not proof of illegal activity."
-    ],
-    "eez_name": "Omani Exclusive Economic Zone",
-    "eez_sovereign": "Oman",
-    "eez_iso_sov": "OMN",
-    "eez_foreign": true,
-    "authorization_status": "authorization_lapsed",
-    "authorization_authorities": [
-      "GFCM"
-    ],
-    "registry_iuu_tag": false,
-    "registry_flag": "TUR",
-    "registry_imo": "8530790",
-    "severity": "high",
-    "severity_reason": "foreign vessel, authorization lapsed",
-    "evidence_schema": "seavigil-evidence-1.0",
-    "evidence_hash": "a07c2bcf7dbdcf27c1e85cf4c9fa13c2c9be911ce11bb4ef3aef12266bef954d"
-  },
-  {
     "incident_id": "live_enco_dcd1d6d1819144",
     "type": "encounter",
     "centroid_lon": 57.7299,
@@ -1029,6 +976,57 @@
     "severity_reason": "foreign vessel, authorization lapsed",
     "evidence_schema": "seavigil-evidence-1.0",
     "evidence_hash": "3826ed5e99ee6da38975709526388800ac5e19c1d707e296c872b102a4da3a01"
+  },
+  {
+    "incident_id": "live_enco_1f67b4ea4c9499",
+    "type": "encounter",
+    "centroid_lon": 57.7302,
+    "centroid_lat": 19.4801,
+    "time_start_utc": "2026-09-17T00:40:00.000Z",
+    "time_end_utc": "2026-09-18T22:00:00.000Z",
+    "vessel_id": "271072244",
+    "ship_name": "YUSUF REIS BLKCLK A",
+    "ship_type": "Fishing",
+    "flag": "TUR",
+    "flag_emoji": "\ud83c\uddf9\ud83c\uddf7",
+    "gear": "Encounter",
+    "n_positions": 0,
+    "n_fishing_positions": 0,
+    "mean_fishing_proba": null,
+    "max_fishing_proba": null,
+    "_rfmo": [],
+    "_no_take": false,
+    "mpa_name": "At-sea encounter (transshipment)",
+    "duration_hours": 45.3,
+    "carrier_mmsi": "271072796",
+    "explanation": {
+      "method": "GFW Events encounters dataset (Miller et al. 2018).",
+      "drivers": [
+        "two vessels within range for 45 h",
+        "counterpart: TIRYAKILER",
+        "two-vessel at-sea encounter (GFW Events)"
+      ]
+    },
+    "caveats": [
+      "Co-location can be legitimate (joint operations, safety, shelter).",
+      "Apparent transshipment is inferred from proximity and low speed, not observed.",
+      "An inspection lead from GFW Events, not proof of illegal activity."
+    ],
+    "eez_name": "Omani Exclusive Economic Zone",
+    "eez_sovereign": "Oman",
+    "eez_iso_sov": "OMN",
+    "eez_foreign": true,
+    "authorization_status": "authorization_lapsed",
+    "authorization_authorities": [
+      "GFCM"
+    ],
+    "registry_iuu_tag": false,
+    "registry_flag": "TUR",
+    "registry_imo": "8530790",
+    "severity": "high",
+    "severity_reason": "foreign vessel, authorization lapsed",
+    "evidence_schema": "seavigil-evidence-1.0",
+    "evidence_hash": "a07c2bcf7dbdcf27c1e85cf4c9fa13c2c9be911ce11bb4ef3aef12266bef954d"
   },
   {
     "incident_id": "live_enco_f65656c4afc54c",
@@ -2347,8 +2345,8 @@
     "authorization_status": "no_record",
     "authorization_authorities": [],
     "registry_iuu_tag": false,
-    "registry_flag": "",
-    "registry_imo": "",
+    "registry_flag": "CYP",
+    "registry_imo": "8025288",
     "severity": "high",
     "severity_reason": "foreign vessel, no authorization on record",
     "evidence_schema": "seavigil-evidence-1.0",
@@ -2517,8 +2515,8 @@
     "authorization_status": "no_record",
     "authorization_authorities": [],
     "registry_iuu_tag": false,
-    "registry_flag": "",
-    "registry_imo": "",
+    "registry_flag": "CYP",
+    "registry_imo": "9692703",
     "severity": "high",
     "severity_reason": "foreign vessel, no authorization on record",
     "evidence_schema": "seavigil-evidence-1.0",
@@ -2629,8 +2627,8 @@
     "authorization_status": "no_record",
     "authorization_authorities": [],
     "registry_iuu_tag": false,
-    "registry_flag": "GRC",
-    "registry_imo": "9475698",
+    "registry_flag": "",
+    "registry_imo": "",
     "severity": "high",
     "severity_reason": "foreign vessel, no authorization on record",
     "evidence_schema": "seavigil-evidence-1.0",
