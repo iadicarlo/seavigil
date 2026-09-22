@@ -1,19 +1,19 @@
-# Incident `live_ais__807b897903190f`
+# Incident `live_ais__6b56ab1b434233`
 
 - **MPA:** AIS disabling (going dark)
 - **Severity:** HIGH (foreign vessel, no authorization on record)
-- **EEZ:** Brazilian Exclusive Economic Zone (Brazil) -- FOREIGN-flagged vessel
-- **Authorization:** No public authorization record (check coastal state)
-- **Vessel:** 🇸🇬 EAGLE CANOAS  ·  **signal:** AIS gap
-- **When (UTC):** 2026-09-15T17:11:08.000Z → 2026-09-16T07:38:28.000Z
-- **Gap:** 14.5 h dark, 149.0 nm offshore
-- **Where:** -25.540, -42.839
+- **EEZ:** Saudi Arabian Exclusive Economic Zone (Saudi Arabia) -- FOREIGN-flagged vessel
+- **Authorization:** No public authorization record (check coastal state)  ·  IMO 8520226
+- **Vessel:** 🇲🇹 ELKA ASTIR  ·  **signal:** AIS gap
+- **When (UTC):** 2026-09-07T00:04:36.000Z → 2026-09-18T11:52:42.000Z
+- **Gap:** 275.8 h dark, 65.0 nm offshore
+- **Where:** 20.899, 38.675
 
 ## Why this was flagged
 
 _GFW Events gaps dataset (satellite AIS).._
 
-- went dark 149 nm offshore for 14 h
+- went dark 65 nm offshore for 276 h
 - satellite-confirmed AIS gap (GFW Events)
 
 ## Could be innocent
@@ -31,7 +31,7 @@ Going dark is frequently benign: in open water, where gaps are commonly protecti
 - NOAA Marine Cadastre AIS (marinecadastre.gov/ais (vessel positions)). US public domain.
 - WDPA / WD-OECM (World Database on Protected Areas) (UNEP-WCMC and IUCN (2026), June 2026). Protected Planet Terms of Use (non-commercial, display-only).
 - Marine Regions Exclusive Economic Zones v12 (Flanders Marine Institute (2024), DOI 10.14284/632). CC BY 4.0.
-- **Integrity (SHA-256 of canonical facts):** `401d30d43492f7f44486e1ff22a1b542053a2732de9dd65e8f46e5acae3a8655`
+- **Integrity (SHA-256 of canonical facts):** `3556a8e2b8414ae75352a608ae6b1f394cb2fc659f7998714ab9913d8a51d2c8`
 - **Evidence schema:** seavigil-evidence-1.0
 
 _Apparent activity and an inspection lead, not proof of illegality. AIS and SAR evidence have known coverage gaps and spoofing risks; verify against authoritative sources before any enforcement action._

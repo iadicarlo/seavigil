@@ -1,19 +1,19 @@
-# Incident `live_ais__3d4645a64cc9dc`
+# Incident `live_ais__4ceaf2d82931c2`
 
 - **MPA:** AIS disabling (going dark)
 - **Severity:** HIGH (foreign vessel, no authorization on record)
-- **EEZ:** Cuban Exclusive Economic Zone (Cuba) -- FOREIGN-flagged vessel
-- **Authorization:** No public authorization record (check coastal state)  ·  IMO 8025288
-- **Vessel:** 🇨🇾 VASSOS  ·  **signal:** AIS gap
-- **When (UTC):** 2026-09-15T16:42:18.000Z → 2026-09-16T06:46:05.000Z
-- **Gap:** 14.1 h dark, 105.0 nm offshore
-- **Where:** 24.704, -85.691
+- **EEZ:** Yemeni Exclusive Economic Zone (Yemen) -- FOREIGN-flagged vessel
+- **Authorization:** No public authorization record (check coastal state)
+- **Vessel:** 🇸🇬 KOTA ORKID  ·  **signal:** AIS gap
+- **When (UTC):** 2026-09-18T05:19:51.000Z → 2026-09-18T22:54:53.000Z
+- **Gap:** 17.6 h dark, 51.0 nm offshore
+- **Where:** 12.618, 57.382
 
 ## Why this was flagged
 
 _GFW Events gaps dataset (satellite AIS).._
 
-- went dark 105 nm offshore for 14 h
+- went dark 51 nm offshore for 18 h
 - satellite-confirmed AIS gap (GFW Events)
 
 ## Could be innocent
@@ -31,7 +31,7 @@ Going dark is frequently benign: in open water, where gaps are commonly protecti
 - NOAA Marine Cadastre AIS (marinecadastre.gov/ais (vessel positions)). US public domain.
 - WDPA / WD-OECM (World Database on Protected Areas) (UNEP-WCMC and IUCN (2026), June 2026). Protected Planet Terms of Use (non-commercial, display-only).
 - Marine Regions Exclusive Economic Zones v12 (Flanders Marine Institute (2024), DOI 10.14284/632). CC BY 4.0.
-- **Integrity (SHA-256 of canonical facts):** `ba0580168b224e61b1956bd512e5f5ef99fef5a18dd90a2dc417dc260f5ebbbc`
+- **Integrity (SHA-256 of canonical facts):** `b66a384942f9c07dccf74092d1b2dbe2f342931fb7d5136917d2ccf72a980014`
 - **Evidence schema:** seavigil-evidence-1.0
 
 _Apparent activity and an inspection lead, not proof of illegality. AIS and SAR evidence have known coverage gaps and spoofing risks; verify against authoritative sources before any enforcement action._
