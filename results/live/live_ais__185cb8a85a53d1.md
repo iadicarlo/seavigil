@@ -1,19 +1,19 @@
-# Incident `live_ais__46da83d5ed6367`
+# Incident `live_ais__185cb8a85a53d1`
 
 - **MPA:** AIS disabling (going dark)
-- **Severity:** HIGH (foreign vessel, no authorization on record)
-- **EEZ:** Somali Exclusive Economic Zone (Federal Republic of Somalia) -- FOREIGN-flagged vessel
-- **Authorization:** No public authorization record (check coastal state)
-- **Vessel:** 🇮🇳 M.S.V NOORE AL AMINA  ·  **signal:** AIS gap
-- **When (UTC):** 2026-09-13T13:15:24.000Z → 2026-09-18T10:36:42.000Z
-- **Gap:** 117.4 h dark, 80.0 nm offshore
-- **Where:** 12.321, 48.597
+- **Severity:** HIGH (foreign vessel, authorization lapsed)
+- **EEZ:** Brazilian Exclusive Economic Zone (Brazil) -- FOREIGN-flagged vessel
+- **Authorization:** Authorization lapsed before this date: ICCAT  ·  IMO 2723802
+- **Vessel:** 🇵🇦 CHUNG KUO NO. 287  ·  **signal:** AIS gap
+- **When (UTC):** 2026-09-14T00:15:50.000Z → 2026-09-19T13:09:47.000Z
+- **Gap:** 132.9 h dark, 404.0 nm offshore
+- **Where:** 6.759, -49.557
 
 ## Why this was flagged
 
 _GFW Events gaps dataset (satellite AIS).._
 
-- went dark 80 nm offshore for 117 h
+- went dark 404 nm offshore for 133 h
 - satellite-confirmed AIS gap (GFW Events)
 
 ## Could be innocent
@@ -31,7 +31,7 @@ Going dark is frequently benign: in open water, where gaps are commonly protecti
 - NOAA Marine Cadastre AIS (marinecadastre.gov/ais (vessel positions)). US public domain.
 - WDPA / WD-OECM (World Database on Protected Areas) (UNEP-WCMC and IUCN (2026), June 2026). Protected Planet Terms of Use (non-commercial, display-only).
 - Marine Regions Exclusive Economic Zones v12 (Flanders Marine Institute (2024), DOI 10.14284/632). CC BY 4.0.
-- **Integrity (SHA-256 of canonical facts):** `5dffe48f4cef0da223620822483712dc59225840c2aef128b936baf2f4c9c584`
+- **Integrity (SHA-256 of canonical facts):** `6ddf26e40f6d06194500ad43f3f0eb8bcf9319932ea2b01614557058ae50cafe`
 - **Evidence schema:** seavigil-evidence-1.0
 
 _Apparent activity and an inspection lead, not proof of illegality. AIS and SAR evidence have known coverage gaps and spoofing risks; verify against authoritative sources before any enforcement action._
