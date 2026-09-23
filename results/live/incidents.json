@@ -1028,8 +1028,8 @@
     "centroid_lat": 32.0073,
     "time_start_utc": "2026-09-19T02:40:00.000Z",
     "time_end_utc": "2026-09-19T21:30:00.000Z",
-    "vessel_id": "412416578",
-    "ship_name": "ZHELINGYU56093",
+    "vessel_id": "413085655",
+    "ship_name": "66666",
     "ship_type": "Fishing",
     "flag": "CHN",
     "flag_emoji": "\ud83c\udde8\ud83c\uddf3",
@@ -1039,20 +1039,20 @@
     "mean_fishing_proba": null,
     "max_fishing_proba": null,
     "_rfmo": [
+      "PICES",
       "ACAP",
       "WCPFC",
-      "PICES",
       "IWC"
     ],
     "_no_take": false,
     "mpa_name": "At-sea encounter (transshipment)",
     "duration_hours": 18.8,
-    "carrier_mmsi": "413085655",
+    "carrier_mmsi": "412416578",
     "explanation": {
       "method": "GFW Events encounters dataset (Miller et al. 2018).",
       "drivers": [
         "two vessels within range for 19 h",
-        "counterpart: 66666",
+        "counterpart: ZHELINGYU56093",
         "two-vessel at-sea encounter (GFW Events)"
       ]
     },
@@ -1073,7 +1073,7 @@
     "severity": "high",
     "severity_reason": "foreign vessel, no authorization on record",
     "evidence_schema": "seavigil-evidence-1.0",
-    "evidence_hash": "f716b43bc4220c7e37b086d5ac76da624f565f941716eb177d2588ed8ab8929b"
+    "evidence_hash": "372291989ebb178105f28712c138b2f688f89eed552b72f3913c595315c4eaf6"
   },
   {
     "incident_id": "live_enco_6aae712eb89f6b",
@@ -1082,8 +1082,8 @@
     "centroid_lat": 26.2301,
     "time_start_utc": "2026-09-19T03:10:00.000Z",
     "time_end_utc": "2026-09-19T21:10:00.000Z",
-    "vessel_id": "412458531",
-    "ship_name": "MIN JIN YU 05853",
+    "vessel_id": "412400011",
+    "ship_name": "",
     "ship_type": "Fishing",
     "flag": "CHN",
     "flag_emoji": "\ud83c\udde8\ud83c\uddf3",
@@ -1093,20 +1093,20 @@
     "mean_fishing_proba": null,
     "max_fishing_proba": null,
     "_rfmo": [
+      "WCPFC",
       "APFIC",
       "IWC",
-      "WCPFC",
       "ACAP"
     ],
     "_no_take": false,
     "mpa_name": "At-sea encounter (transshipment)",
     "duration_hours": 18.0,
-    "carrier_mmsi": "412400011",
+    "carrier_mmsi": "412458531",
     "explanation": {
       "method": "GFW Events encounters dataset (Miller et al. 2018).",
       "drivers": [
         "two vessels within range for 18 h",
-        "counterpart: 412400011",
+        "counterpart: MIN JIN YU 05853",
         "two-vessel at-sea encounter (GFW Events)"
       ]
     },
@@ -1127,7 +1127,7 @@
     "severity": "high",
     "severity_reason": "foreign vessel, no authorization on record",
     "evidence_schema": "seavigil-evidence-1.0",
-    "evidence_hash": "c06913a9ff2bb51eaa7f222be2a3de1ae035414b231c9956ea6a3b91cb10c19f"
+    "evidence_hash": "230ed7c65c4cdc1f1835ef300de8c88242d1158f44ff1549c535df6b5c530d9c"
   },
   {
     "incident_id": "live_ais__6aa73173f03f82",
