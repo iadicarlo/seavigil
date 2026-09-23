@@ -1,6 +1,19 @@
 {
-"generated_at": "2026-09-23T00:36:31Z",
+"generated_at": "2026-09-23T06:00:10Z",
 "alerts": [
+{
+"id": "live_enco_20f1186c2277e2",
+"first_seen": "2026-09-23T06:00:10Z",
+"type": "encounter",
+"when": "2026-09-19T09:10:00.000Z",
+"eez": "South Korean Exclusive Economic Zone",
+"flag": "CHN",
+"authorization": "no_record",
+"severity_reason": "foreign vessel, no authorization on record",
+"lat": 31.9193,
+"lon": 125.714,
+"ship_name": "MINFUDINGYU06172"
+},
 {
 "id": "live_enco_150825707d2f3e",
 "first_seen": "2026-09-23T00:36:31Z",
@@ -2587,19 +2600,6 @@
 "lat": 31.9493,
 "lon": 125.3719,
 "ship_name": "MINFUDINGYU04262"
-},
-{
-"id": "live_enco_fcc7c639b500c7",
-"first_seen": "2026-09-17T18:16:18Z",
-"type": "encounter",
-"when": "2026-09-13T05:20:00.000Z",
-"eez": "Joint regime area: South Korea / Japan",
-"flag": "CHN",
-"authorization": "no_record",
-"severity_reason": "foreign vessel, no authorization on record",
-"lat": 31.4607,
-"lon": 126.846,
-"ship_name": "ZHEDINGYU14199"
 }
 ]
 }
