@@ -1,9 +1,17 @@
 # In-MPA records
 
-1548 record(s): 0 AIS fishing incident(s), 1548 dark-vessel SAR detection(s).
+1489 record(s): 0 AIS fishing incident(s), 1489 dark-vessel SAR detection(s).
 
 | id | type | MPA | start (UTC) | score / mean p |
 |---|---|---|---|---:|
+| [s1sar__scene_0013](s1sar__scene_0013.md) | dark SAR | Sentinel-1 SAR detection |  | 0.98 |
+| [s1sar__scene_0018](s1sar__scene_0018.md) | dark SAR | Sentinel-1 SAR detection |  | 0.01 |
+| [s1sar__scene_0023](s1sar__scene_0023.md) | dark SAR | Sentinel-1 SAR detection |  | 0.00 |
+| [s1sar__scene_0135](s1sar__scene_0135.md) | dark SAR | Sentinel-1 SAR detection |  | 0.02 |
+| [s1sar__scene_0143](s1sar__scene_0143.md) | dark SAR | Sentinel-1 SAR detection |  | 0.97 |
+| [s1sar__scene_0158](s1sar__scene_0158.md) | dark SAR | Sentinel-1 SAR detection |  | 0.97 |
+| [s1sar__scene_0162](s1sar__scene_0162.md) | dark SAR | Sentinel-1 SAR detection |  | 0.01 |
+| [s1sar__scene_0163](s1sar__scene_0163.md) | dark SAR | Sentinel-1 SAR detection |  | 0.97 |
 | [s1sar__20260921_0013](s1sar__20260921_0013.md) | dark SAR | Sentinel-1 SAR detection | 2026-09-21T10:38:53Z | 0.97 |
 | [s1sar__20260921_0014](s1sar__20260921_0014.md) | dark SAR | Sentinel-1 SAR detection | 2026-09-21T10:38:53Z | 0.97 |
 | [s1sar__20260921_0019](s1sar__20260921_0019.md) | dark SAR | Sentinel-1 SAR detection | 2026-09-21T10:38:53Z | 0.96 |
@@ -1479,73 +1487,6 @@
 | [s1sar__20260909_0362](s1sar__20260909_0362.md) | dark SAR | Sentinel-1 SAR detection | 2026-09-09T21:55:30Z | 0.18 |
 | [s1sar__20260909_0363](s1sar__20260909_0363.md) | dark SAR | Sentinel-1 SAR detection | 2026-09-09T21:55:30Z | 0.97 |
 | [s1sar__20260909_0364](s1sar__20260909_0364.md) | dark SAR | Sentinel-1 SAR detection | 2026-09-09T21:55:30Z | 0.91 |
-| [s1sar__20260907_0010](s1sar__20260907_0010.md) | dark SAR | Sentinel-1 SAR detection | 2026-09-07T19:07:42Z | 0.91 |
-| [s1sar__20260907_0011](s1sar__20260907_0011.md) | dark SAR | Sentinel-1 SAR detection | 2026-09-07T19:07:42Z | 0.00 |
-| [s1sar__20260907_0012](s1sar__20260907_0012.md) | dark SAR | Sentinel-1 SAR detection | 2026-09-07T19:07:42Z | 0.01 |
-| [s1sar__20260907_0013](s1sar__20260907_0013.md) | dark SAR | Sentinel-1 SAR detection | 2026-09-07T19:07:42Z | 0.01 |
-| [s1sar__20260907_0014](s1sar__20260907_0014.md) | dark SAR | Sentinel-1 SAR detection | 2026-09-07T19:07:42Z | 0.97 |
-| [s1sar__20260907_0015](s1sar__20260907_0015.md) | dark SAR | Sentinel-1 SAR detection | 2026-09-07T19:07:42Z | 0.00 |
-| [s1sar__20260907_0020](s1sar__20260907_0020.md) | dark SAR | Sentinel-1 SAR detection | 2026-09-07T19:07:42Z | 0.66 |
-| [s1sar__20260907_0021](s1sar__20260907_0021.md) | dark SAR | Sentinel-1 SAR detection | 2026-09-07T19:07:42Z | 0.01 |
-| [s1sar__20260907_0022](s1sar__20260907_0022.md) | dark SAR | Sentinel-1 SAR detection | 2026-09-07T19:07:42Z | 0.96 |
-| [s1sar__20260907_0023](s1sar__20260907_0023.md) | dark SAR | Sentinel-1 SAR detection | 2026-09-07T19:07:42Z | 0.65 |
-| [s1sar__20260907_0024](s1sar__20260907_0024.md) | dark SAR | Sentinel-1 SAR detection | 2026-09-07T19:07:42Z | 0.02 |
-| [s1sar__20260907_0025](s1sar__20260907_0025.md) | dark SAR | Sentinel-1 SAR detection | 2026-09-07T19:07:42Z | 0.15 |
-| [s1sar__20260907_0026](s1sar__20260907_0026.md) | dark SAR | Sentinel-1 SAR detection | 2026-09-07T19:07:42Z | 0.80 |
-| [s1sar__20260907_0027](s1sar__20260907_0027.md) | dark SAR | Sentinel-1 SAR detection | 2026-09-07T19:07:42Z | 0.84 |
-| [s1sar__20260907_0028](s1sar__20260907_0028.md) | dark SAR | Sentinel-1 SAR detection | 2026-09-07T19:07:42Z | 0.76 |
-| [s1sar__20260907_0029](s1sar__20260907_0029.md) | dark SAR | Sentinel-1 SAR detection | 2026-09-07T19:07:42Z | 0.21 |
-| [s1sar__20260907_0030](s1sar__20260907_0030.md) | dark SAR | Sentinel-1 SAR detection | 2026-09-07T19:07:42Z | 0.02 |
-| [s1sar__20260907_0031](s1sar__20260907_0031.md) | dark SAR | Sentinel-1 SAR detection | 2026-09-07T19:07:42Z | 0.02 |
-| [s1sar__20260907_0032](s1sar__20260907_0032.md) | dark SAR | Sentinel-1 SAR detection | 2026-09-07T19:07:42Z | 0.09 |
-| [s1sar__20260907_0033](s1sar__20260907_0033.md) | dark SAR | Sentinel-1 SAR detection | 2026-09-07T19:07:42Z | 0.01 |
-| [s1sar__20260907_0034](s1sar__20260907_0034.md) | dark SAR | Sentinel-1 SAR detection | 2026-09-07T19:07:42Z | 0.40 |
-| [s1sar__20260907_0035](s1sar__20260907_0035.md) | dark SAR | Sentinel-1 SAR detection | 2026-09-07T19:07:42Z | 0.50 |
-| [s1sar__20260907_0036](s1sar__20260907_0036.md) | dark SAR | Sentinel-1 SAR detection | 2026-09-07T19:07:42Z | 0.32 |
-| [s1sar__20260907_0039](s1sar__20260907_0039.md) | dark SAR | Sentinel-1 SAR detection | 2026-09-07T19:07:42Z | 0.09 |
-| [s1sar__20260907_0042](s1sar__20260907_0042.md) | dark SAR | Sentinel-1 SAR detection | 2026-09-07T19:07:42Z | 0.86 |
-| [s1sar__20260907_0044](s1sar__20260907_0044.md) | dark SAR | Sentinel-1 SAR detection | 2026-09-07T19:07:42Z | 0.77 |
-| [s1sar__20260907_0045](s1sar__20260907_0045.md) | dark SAR | Sentinel-1 SAR detection | 2026-09-07T19:07:42Z | 0.00 |
-| [s1sar__20260907_0046](s1sar__20260907_0046.md) | dark SAR | Sentinel-1 SAR detection | 2026-09-07T19:07:42Z | 0.92 |
-| [s1sar__20260907_0047](s1sar__20260907_0047.md) | dark SAR | Sentinel-1 SAR detection | 2026-09-07T19:07:42Z | 0.73 |
-| [s1sar__20260907_0048](s1sar__20260907_0048.md) | dark SAR | Sentinel-1 SAR detection | 2026-09-07T19:07:42Z | 0.02 |
-| [s1sar__20260907_0049](s1sar__20260907_0049.md) | dark SAR | Sentinel-1 SAR detection | 2026-09-07T19:07:42Z | 0.04 |
-| [s1sar__20260907_0050](s1sar__20260907_0050.md) | dark SAR | Sentinel-1 SAR detection | 2026-09-07T19:07:42Z | 0.14 |
-| [s1sar__20260907_0051](s1sar__20260907_0051.md) | dark SAR | Sentinel-1 SAR detection | 2026-09-07T19:07:42Z | 0.00 |
-| [s1sar__20260907_0052](s1sar__20260907_0052.md) | dark SAR | Sentinel-1 SAR detection | 2026-09-07T19:07:42Z | 0.10 |
-| [s1sar__20260907_0053](s1sar__20260907_0053.md) | dark SAR | Sentinel-1 SAR detection | 2026-09-07T19:07:42Z | 0.00 |
-| [s1sar__20260907_0054](s1sar__20260907_0054.md) | dark SAR | Sentinel-1 SAR detection | 2026-09-07T19:07:42Z | 0.00 |
-| [s1sar__20260907_0055](s1sar__20260907_0055.md) | dark SAR | Sentinel-1 SAR detection | 2026-09-07T19:07:42Z | 0.79 |
-| [s1sar__20260907_0056](s1sar__20260907_0056.md) | dark SAR | Sentinel-1 SAR detection | 2026-09-07T19:07:42Z | 0.00 |
-| [s1sar__20260907_0057](s1sar__20260907_0057.md) | dark SAR | Sentinel-1 SAR detection | 2026-09-07T19:07:42Z | 0.09 |
-| [s1sar__20260907_0058](s1sar__20260907_0058.md) | dark SAR | Sentinel-1 SAR detection | 2026-09-07T19:07:42Z | 0.94 |
-| [s1sar__20260907_0059](s1sar__20260907_0059.md) | dark SAR | Sentinel-1 SAR detection | 2026-09-07T19:07:42Z | 0.78 |
-| [s1sar__20260907_0060](s1sar__20260907_0060.md) | dark SAR | Sentinel-1 SAR detection | 2026-09-07T19:07:42Z | 0.95 |
-| [s1sar__20260907_0061](s1sar__20260907_0061.md) | dark SAR | Sentinel-1 SAR detection | 2026-09-07T19:07:42Z | 0.80 |
-| [s1sar__20260907_0062](s1sar__20260907_0062.md) | dark SAR | Sentinel-1 SAR detection | 2026-09-07T19:07:42Z | 0.02 |
-| [s1sar__20260907_0063](s1sar__20260907_0063.md) | dark SAR | Sentinel-1 SAR detection | 2026-09-07T19:07:42Z | 0.16 |
-| [s1sar__20260907_0064](s1sar__20260907_0064.md) | dark SAR | Sentinel-1 SAR detection | 2026-09-07T19:07:42Z | 0.03 |
-| [s1sar__20260907_0065](s1sar__20260907_0065.md) | dark SAR | Sentinel-1 SAR detection | 2026-09-07T19:07:42Z | 0.93 |
-| [s1sar__20260907_0068](s1sar__20260907_0068.md) | dark SAR | Sentinel-1 SAR detection | 2026-09-07T19:07:42Z | 0.00 |
-| [s1sar__20260907_0069](s1sar__20260907_0069.md) | dark SAR | Sentinel-1 SAR detection | 2026-09-07T19:07:42Z | 0.00 |
-| [s1sar__20260907_0070](s1sar__20260907_0070.md) | dark SAR | Sentinel-1 SAR detection | 2026-09-07T19:07:42Z | 0.00 |
-| [s1sar__20260907_0071](s1sar__20260907_0071.md) | dark SAR | Sentinel-1 SAR detection | 2026-09-07T19:07:42Z | 0.00 |
-| [s1sar__20260907_0072](s1sar__20260907_0072.md) | dark SAR | Sentinel-1 SAR detection | 2026-09-07T19:07:42Z | 0.00 |
-| [s1sar__20260907_0073](s1sar__20260907_0073.md) | dark SAR | Sentinel-1 SAR detection | 2026-09-07T19:07:42Z | 0.00 |
-| [s1sar__20260907_0074](s1sar__20260907_0074.md) | dark SAR | Sentinel-1 SAR detection | 2026-09-07T19:07:42Z | 0.00 |
-| [s1sar__20260907_0075](s1sar__20260907_0075.md) | dark SAR | Sentinel-1 SAR detection | 2026-09-07T19:07:42Z | 0.08 |
-| [s1sar__20260907_0076](s1sar__20260907_0076.md) | dark SAR | Sentinel-1 SAR detection | 2026-09-07T19:07:42Z | 0.05 |
-| [s1sar__20260907_0077](s1sar__20260907_0077.md) | dark SAR | Sentinel-1 SAR detection | 2026-09-07T19:07:42Z | 0.00 |
-| [s1sar__20260907_0079](s1sar__20260907_0079.md) | dark SAR | Sentinel-1 SAR detection | 2026-09-07T19:07:42Z | 0.00 |
-| [s1sar__20260907_0080](s1sar__20260907_0080.md) | dark SAR | Sentinel-1 SAR detection | 2026-09-07T19:07:42Z | 0.86 |
-| [s1sar__20260907_0081](s1sar__20260907_0081.md) | dark SAR | Sentinel-1 SAR detection | 2026-09-07T19:07:42Z | 0.00 |
-| [s1sar__20260907_0082](s1sar__20260907_0082.md) | dark SAR | Sentinel-1 SAR detection | 2026-09-07T19:07:42Z | 0.00 |
-| [s1sar__20260907_0083](s1sar__20260907_0083.md) | dark SAR | Sentinel-1 SAR detection | 2026-09-07T19:07:42Z | 0.00 |
-| [s1sar__20260907_0084](s1sar__20260907_0084.md) | dark SAR | Sentinel-1 SAR detection | 2026-09-07T19:07:42Z | 0.00 |
-| [s1sar__20260907_0085](s1sar__20260907_0085.md) | dark SAR | Sentinel-1 SAR detection | 2026-09-07T19:07:42Z | 0.96 |
-| [s1sar__20260907_0086](s1sar__20260907_0086.md) | dark SAR | Sentinel-1 SAR detection | 2026-09-07T19:07:42Z | 0.01 |
-| [s1sar__20260907_0087](s1sar__20260907_0087.md) | dark SAR | Sentinel-1 SAR detection | 2026-09-07T19:07:42Z | 0.19 |
-| [s1sar__20260907_0089](s1sar__20260907_0089.md) | dark SAR | Sentinel-1 SAR detection | 2026-09-07T19:07:42Z | 0.12 |
 | [s1sar__scene_0000](s1sar__scene_0000.md) | dark SAR | Sentinel-1 SAR detection |  | 0.00 |
 | [s1sar__scene_0014](s1sar__scene_0014.md) | dark SAR | Sentinel-1 SAR detection |  | 0.01 |
 | [s1sar__scene_0103](s1sar__scene_0103.md) | dark SAR | Sentinel-1 SAR detection |  | 0.00 |

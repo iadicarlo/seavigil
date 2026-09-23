@@ -1,23 +1,22 @@
-# Dark-vessel detection `s1sar__20260907_0020`
+# Dark-vessel detection `s1sar__scene_0143`
 
 - **MPA:** Sentinel-1 SAR detection
-- **Severity:** LOW (SAR-detected vessel (broadcasting unverified))
-- **EEZ:** Guinean Exclusive Economic Zone (Guinea)
+- **Severity:** MEDIUM (fishing-type vessel underway (broadcasting unverified))
+- **EEZ:** Peruvian Exclusive Economic Zone (Peru)
 - **Authorization:** No vessel identity; authorization not checkable
 - **Vessel:** (SAR detection -- no AIS identity)  ·  **source:** Sentinel-1 SAR (our detection)
-- **When (UTC):** 2026-09-07T19:07:42Z
-- **Length:** 39 m  ·  **broadcasting AIS:** no (dark)  ·  **GFW fishing-score:** 0.66
-- **Where:** 9.529, -13.849
+- **When (UTC):** 
+- **Length:** 25 m  ·  **broadcasting AIS:** no (dark)  ·  **GFW fishing-score:** 0.97
+- **Where:** -12.108, -77.170
 
 ## Why this was flagged
 
 _Sentinel-1 SAR, Allen Institute open detector (Apache-2.0), run on demand by SeaVigil.._
 
-- Sentinel-1 SAR detection, confidence 1.00
-- length 39 m (industrial scale)
-- classified fishing vessel (p=0.66)
-- heading about 0 deg at 0 kn
-- near-stationary at acquisition (likely at anchor)
+- Sentinel-1 SAR detection, confidence 0.92
+- length 25 m (industrial scale)
+- classified fishing vessel (p=0.97)
+- heading about 338 deg at 3 kn
 
 ## Could be innocent
 
@@ -35,7 +34,7 @@ A radar contact with no AIS may be a vessel not required to broadcast, sea clutt
 - Global Fishing Watch Sentinel-1 SAR vessel detections (Paolo et al., Nature 2024). CC BY-NC 4.0 (non-commercial).
 - WDPA / WD-OECM (World Database on Protected Areas) (UNEP-WCMC and IUCN (2026), June 2026). Protected Planet Terms of Use (non-commercial, display-only).
 - Marine Regions Exclusive Economic Zones v12 (Flanders Marine Institute (2024), DOI 10.14284/632). CC BY 4.0.
-- **Integrity (SHA-256 of canonical facts):** `783f98e8d62acaa1e05082114f140d319bb490a4c8b4ccaafebad32511e18b79`
+- **Integrity (SHA-256 of canonical facts):** `79ae7ee68588303e0a5d352e616f63852a66cb7f24c315756b2c4ef21972fbba`
 - **Evidence schema:** seavigil-evidence-1.0
 
 _Apparent activity and an inspection lead, not proof of illegality. AIS and SAR evidence have known coverage gaps and spoofing risks; verify against authoritative sources before any enforcement action._

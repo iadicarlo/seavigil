@@ -1,22 +1,22 @@
-# Dark-vessel detection `s1sar__20260907_0075`
+# Dark-vessel detection `s1sar__scene_0018`
 
 - **MPA:** Sentinel-1 SAR detection
 - **Severity:** LOW (SAR-detected vessel (broadcasting unverified))
-- **EEZ:** Guinean Exclusive Economic Zone (Guinea)
+- **EEZ:** Peruvian Exclusive Economic Zone (Peru)
 - **Authorization:** No vessel identity; authorization not checkable
 - **Vessel:** (SAR detection -- no AIS identity)  ·  **source:** Sentinel-1 SAR (our detection)
-- **When (UTC):** 2026-09-07T19:07:42Z
-- **Length:** 117 m  ·  **broadcasting AIS:** no (dark)  ·  **GFW fishing-score:** 0.08
-- **Where:** 9.335, -13.686
+- **When (UTC):** 
+- **Length:** 153 m  ·  **broadcasting AIS:** no (dark)  ·  **GFW fishing-score:** 0.01
+- **Where:** -12.004, -77.224
 
 ## Why this was flagged
 
 _Sentinel-1 SAR, Allen Institute open detector (Apache-2.0), run on demand by SeaVigil.._
 
 - Sentinel-1 SAR detection, confidence 0.99
-- length 117 m (industrial scale)
-- classified non-fishing vessel (p=0.08)
-- heading about 315 deg at 0 kn
+- length 153 m (industrial scale)
+- classified non-fishing vessel (p=0.01)
+- heading about 158 deg at 0 kn
 - near-stationary at acquisition (likely at anchor)
 
 ## Could be innocent
@@ -35,7 +35,7 @@ A radar contact with no AIS may be a vessel not required to broadcast, sea clutt
 - Global Fishing Watch Sentinel-1 SAR vessel detections (Paolo et al., Nature 2024). CC BY-NC 4.0 (non-commercial).
 - WDPA / WD-OECM (World Database on Protected Areas) (UNEP-WCMC and IUCN (2026), June 2026). Protected Planet Terms of Use (non-commercial, display-only).
 - Marine Regions Exclusive Economic Zones v12 (Flanders Marine Institute (2024), DOI 10.14284/632). CC BY 4.0.
-- **Integrity (SHA-256 of canonical facts):** `869cb9df0e410b41c0d4481cdf80453c0d4023429ac9eb048bdf447fe034065c`
+- **Integrity (SHA-256 of canonical facts):** `291f4fdaf66b6ffd5de947886a9d9b16c17deae229f8a821d12c7bf104daf085`
 - **Evidence schema:** seavigil-evidence-1.0
 
 _Apparent activity and an inspection lead, not proof of illegality. AIS and SAR evidence have known coverage gaps and spoofing risks; verify against authoritative sources before any enforcement action._
