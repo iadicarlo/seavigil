@@ -3,7 +3,7 @@
 - **MPA:** AIS disabling (going dark)
 - **Severity:** HIGH (foreign vessel, no authorization on record)
 - **EEZ:** Saudi Arabian Exclusive Economic Zone (Saudi Arabia) -- FOREIGN-flagged vessel
-- **Authorization:** No public authorization record (check coastal state)  ·  IMO 8520226
+- **Authorization:** No public authorization record (check coastal state)
 - **Vessel:** 🇲🇹 ELKA ASTIR  ·  **signal:** AIS gap
 - **When (UTC):** 2026-09-07T00:04:36.000Z → 2026-09-18T11:52:42.000Z
 - **Gap:** 275.8 h dark, 65.0 nm offshore

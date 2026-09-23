@@ -1,9 +1,9 @@
 # Incident `live_enco_7bb77f3dc99364`
 
 - **MPA:** At-sea encounter (transshipment)
-- **Severity:** HIGH (foreign vessel, no authorization on record)
+- **Severity:** HIGH (foreign vessel, authorization lapsed)
 - **EEZ:** Omani Exclusive Economic Zone (Oman) -- FOREIGN-flagged vessel
-- **Authorization:** No public authorization record (check coastal state)
+- **Authorization:** Authorization lapsed before this date: GFCM  ·  IMO 8774657
 - **Vessel:** 🇹🇷 AVCI RECEBINA 3  ·  **signal:** Encounter
 - **When (UTC):** 2026-09-19T09:50:00.000Z → 2026-09-19T23:50:00.000Z
 - **Encounter:** 14.0 h with carrier `271072796` (apparent transshipment)

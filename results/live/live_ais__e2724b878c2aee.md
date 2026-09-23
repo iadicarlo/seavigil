@@ -3,7 +3,7 @@
 - **MPA:** AIS disabling (going dark)
 - **Severity:** HIGH (foreign vessel, no authorization on record)
 - **EEZ:** Congolese (Democratic Republic of) Exclusive Economic Zone (Democratic Republic of the Congo) -- FOREIGN-flagged vessel
-- **Authorization:** No public authorization record (check coastal state)
+- **Authorization:** No public authorization record (check coastal state)  ·  IMO 9425801
 - **Vessel:** 🇵🇦 UGO 3005  ·  **signal:** AIS gap
 - **When (UTC):** 2026-09-18T06:31:31.000Z → 2026-09-18T22:30:05.000Z
 - **Gap:** 16.0 h dark, 70.0 nm offshore
