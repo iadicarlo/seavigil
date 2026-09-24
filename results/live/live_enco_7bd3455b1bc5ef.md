@@ -4,9 +4,9 @@
 - **Severity:** HIGH (foreign vessel, no authorization on record)
 - **EEZ:** Overlapping claim Senkaku Islands: Taiwan / Japan / China (Taiwan) -- FOREIGN-flagged vessel
 - **Authorization:** No public authorization record (check coastal state)
-- **Vessel:** 🇨🇳 MIN SHI YU 05277  ·  **signal:** Encounter
+- **Vessel:** 🇨🇳 MINSHIYU05225  ·  **signal:** Encounter
 - **When (UTC):** 2026-09-20T12:40:00.000Z → 2026-09-20T16:10:00.000Z
-- **Encounter:** 3.5 h with carrier `412451756` (apparent transshipment)
+- **Encounter:** 3.5 h with carrier `412452884` (apparent transshipment)
 - **Where:** 26.750, 124.675
 
 ## Why this was flagged
@@ -14,7 +14,7 @@
 _GFW Events encounters dataset (Miller et al. 2018).._
 
 - two vessels within range for 4 h
-- counterpart: MINSHIYU05225
+- counterpart: MIN SHI YU 05277
 - two-vessel at-sea encounter (GFW Events)
 
 ## Could be innocent
@@ -31,7 +31,7 @@ Two vessels meeting at sea can be a legitimate transfer, bunkering, or a safety 
 
 - WDPA / WD-OECM (World Database on Protected Areas) (UNEP-WCMC and IUCN (2026), June 2026). Protected Planet Terms of Use (non-commercial, display-only).
 - Marine Regions Exclusive Economic Zones v12 (Flanders Marine Institute (2024), DOI 10.14284/632). CC BY 4.0.
-- **Integrity (SHA-256 of canonical facts):** `427a73c7690122baaed080a4fa698d31a2f0afe8c3f46ac21003ecee238589d4`
+- **Integrity (SHA-256 of canonical facts):** `18ef648e2d0eac3f3717162736cc70b6ceb4f24b5839acda236a6fad9a58c771`
 - **Evidence schema:** seavigil-evidence-1.0
 
 _Apparent activity and an inspection lead, not proof of illegality. AIS and SAR evidence have known coverage gaps and spoofing risks; verify against authoritative sources before any enforcement action._

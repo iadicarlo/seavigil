@@ -3,7 +3,7 @@
 - **MPA:** AIS disabling (going dark)
 - **Severity:** HIGH (foreign vessel, no authorization on record)
 - **EEZ:** Indonesian Exclusive Economic Zone (Indonesia) -- FOREIGN-flagged vessel
-- **Authorization:** No public authorization record (check coastal state)
+- **Authorization:** No public authorization record (check coastal state)  ·  IMO 9446611
 - **Vessel:** 🇵🇦 ORANGE TIGER  ·  **signal:** AIS gap
 - **When (UTC):** 2026-09-18T04:47:46.000Z → 2026-09-19T02:45:34.000Z
 - **Gap:** 22.0 h dark, 94.0 nm offshore

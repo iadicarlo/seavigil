@@ -3,7 +3,7 @@
 - **MPA:** AIS disabling (going dark)
 - **Severity:** HIGH (foreign vessel, no authorization on record)
 - **EEZ:** Indonesian Exclusive Economic Zone (Indonesia) -- FOREIGN-flagged vessel
-- **Authorization:** No public authorization record (check coastal state)
+- **Authorization:** No public authorization record (check coastal state)  ·  IMO 9558086
 - **Vessel:** 🇨🇳 YUAN XIN HAI  ·  **signal:** AIS gap
 - **When (UTC):** 2026-09-18T07:31:16.000Z → 2026-09-19T06:21:57.000Z
 - **Gap:** 22.8 h dark, 144.0 nm offshore

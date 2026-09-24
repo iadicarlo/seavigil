@@ -1,6 +1,32 @@
 {
-"generated_at": "2026-09-24T04:54:54Z",
+"generated_at": "2026-09-24T10:03:37Z",
 "alerts": [
+{
+"id": "live_enco_4dde334bd15a55",
+"first_seen": "2026-09-24T10:03:37Z",
+"type": "encounter",
+"when": "2026-09-20T09:40:00.000Z",
+"eez": "Vietnamese Exclusive Economic Zone",
+"flag": "MNG",
+"authorization": "no_record",
+"severity_reason": "foreign vessel, no authorization on record",
+"lat": 10.2951,
+"lon": 108.9659,
+"ship_name": "VUONG43"
+},
+{
+"id": "live_enco_e13f13a87c9243",
+"first_seen": "2026-09-24T10:03:37Z",
+"type": "encounter",
+"when": "2026-09-20T10:30:00.000Z",
+"eez": "Chinese Exclusive Economic Zone",
+"flag": "TWN",
+"authorization": "no_record",
+"severity_reason": "foreign vessel, no authorization on record",
+"lat": 26.2086,
+"lon": 120.9768,
+"ship_name": "SHIN JYI FA  NO.2"
+},
 {
 "id": "live_enco_5c70507d8b77da",
 "first_seen": "2026-09-24T04:54:54Z",
@@ -2574,32 +2600,6 @@
 "lat": 7.7826,
 "lon": -57.4549,
 "ship_name": "VIMAR I"
-},
-{
-"id": "live_ais__807b897903190f",
-"first_seen": "2026-09-20T12:24:26Z",
-"type": "ais_disabling",
-"when": "2026-09-15T17:11:08.000Z",
-"eez": "Brazilian Exclusive Economic Zone",
-"flag": "SGP",
-"authorization": "no_record",
-"severity_reason": "foreign vessel, no authorization on record",
-"lat": -25.5399,
-"lon": -42.8394,
-"ship_name": "EAGLE CANOAS"
-},
-{
-"id": "live_ais__3d4645a64cc9dc",
-"first_seen": "2026-09-20T12:24:26Z",
-"type": "ais_disabling",
-"when": "2026-09-15T16:42:18.000Z",
-"eez": "Cuban Exclusive Economic Zone",
-"flag": "CYP",
-"authorization": "no_record",
-"severity_reason": "foreign vessel, no authorization on record",
-"lat": 24.7045,
-"lon": -85.6907,
-"ship_name": "VASSOS"
 }
 ]
 }

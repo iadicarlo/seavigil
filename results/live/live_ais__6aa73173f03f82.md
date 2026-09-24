@@ -1,9 +1,9 @@
 # Incident `live_ais__6aa73173f03f82`
 
 - **MPA:** AIS disabling (going dark)
-- **Severity:** HIGH (foreign vessel, no authorization on record)
+- **Severity:** HIGH (foreign vessel, authorization lapsed)
 - **EEZ:** Mexican Exclusive Economic Zone (Mexico) -- FOREIGN-flagged vessel
-- **Authorization:** No public authorization record (check coastal state)
+- **Authorization:** Authorization lapsed before this date: IATTC
 - **Vessel:** 🇺🇸 INTREPID  ·  **signal:** AIS gap
 - **When (UTC):** 2026-09-14T16:34:10.000Z → 2026-09-19T20:59:06.000Z
 - **Gap:** 124.4 h dark, 125.0 nm offshore
