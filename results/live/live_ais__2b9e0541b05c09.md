@@ -1,19 +1,19 @@
-# Incident `live_ais__1af89adfda2c17`
+# Incident `live_ais__2b9e0541b05c09`
 
 - **MPA:** AIS disabling (going dark)
 - **Severity:** HIGH (foreign vessel, no authorization on record)
-- **EEZ:** Yemeni Exclusive Economic Zone (Yemen) -- FOREIGN-flagged vessel
-- **Authorization:** No public authorization record (check coastal state)  ·  IMO 9328728
-- **Vessel:** 🇵🇦 SEA HELLINIS  ·  **signal:** AIS gap
-- **When (UTC):** 2026-09-18T02:17:30.000Z → 2026-09-19T01:01:07.000Z
-- **Gap:** 22.7 h dark, 97.0 nm offshore
-- **Where:** 13.509, 52.695
+- **EEZ:** Mexican Exclusive Economic Zone (Mexico) -- FOREIGN-flagged vessel
+- **Authorization:** No public authorization record (check coastal state)
+- **Vessel:** 🇸🇬 MTM AMAZON  ·  **signal:** AIS gap
+- **When (UTC):** 2026-09-20T06:33:10.000Z → 2026-09-20T18:44:49.000Z
+- **Gap:** 12.2 h dark, 184.0 nm offshore
+- **Where:** 23.764, -94.371
 
 ## Why this was flagged
 
 _GFW Events gaps dataset (satellite AIS).._
 
-- went dark 97 nm offshore for 23 h
+- went dark 184 nm offshore for 12 h
 - satellite-confirmed AIS gap (GFW Events)
 
 ## Could be innocent
@@ -31,7 +31,7 @@ Going dark is frequently benign: in open water, where gaps are commonly protecti
 - NOAA Marine Cadastre AIS (marinecadastre.gov/ais (vessel positions)). US public domain.
 - WDPA / WD-OECM (World Database on Protected Areas) (UNEP-WCMC and IUCN (2026), June 2026). Protected Planet Terms of Use (non-commercial, display-only).
 - Marine Regions Exclusive Economic Zones v12 (Flanders Marine Institute (2024), DOI 10.14284/632). CC BY 4.0.
-- **Integrity (SHA-256 of canonical facts):** `5f6e78ca82bd4f5309bbde95c2cc73408ac91860f8b51b09f957f081b8a89ab5`
+- **Integrity (SHA-256 of canonical facts):** `823990e3357b6124ba96e34da27b30d8a7cfbace7f94063a40d6b1ad7fe7d5cd`
 - **Evidence schema:** seavigil-evidence-1.0
 
 _Apparent activity and an inspection lead, not proof of illegality. AIS and SAR evidence have known coverage gaps and spoofing risks; verify against authoritative sources before any enforcement action._
