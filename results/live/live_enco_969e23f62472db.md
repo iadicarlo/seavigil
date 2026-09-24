@@ -1,20 +1,20 @@
-# Incident `live_enco_4ab4febb1d2125`
+# Incident `live_enco_969e23f62472db`
 
 - **MPA:** At-sea encounter (transshipment)
 - **Severity:** HIGH (foreign vessel, no authorization on record)
-- **EEZ:** South Korean Exclusive Economic Zone (South Korea) -- FOREIGN-flagged vessel
+- **EEZ:** Vietnamese Exclusive Economic Zone (Vietnam) -- FOREIGN-flagged vessel
 - **Authorization:** No public authorization record (check coastal state)
-- **Vessel:** 🇨🇳 LIAODACHANGYU15401  ·  **signal:** Encounter
-- **When (UTC):** 2026-09-17T21:20:00.000Z → 2026-09-19T20:50:00.000Z
-- **Encounter:** 47.5 h with carrier `412203222` (apparent transshipment)
-- **Where:** 37.605, 123.691
+- **Vessel:** 🇼🇫 LUOI B10 402  ·  **signal:** Encounter
+- **When (UTC):** 2026-09-20T10:20:00.000Z → 2026-09-20T17:10:00.000Z
+- **Encounter:** 6.8 h with carrier `574568592` (apparent transshipment)
+- **Where:** 19.299, 105.935
 
 ## Why this was flagged
 
 _GFW Events encounters dataset (Miller et al. 2018).._
 
-- two vessels within range for 48 h
-- counterpart: LIAODACHANGYU15402
+- two vessels within range for 7 h
+- counterpart: TAU LU0I 162+B10
 - two-vessel at-sea encounter (GFW Events)
 
 ## Could be innocent
@@ -31,7 +31,7 @@ Two vessels meeting at sea can be a legitimate transfer, bunkering, or a safety 
 
 - WDPA / WD-OECM (World Database on Protected Areas) (UNEP-WCMC and IUCN (2026), June 2026). Protected Planet Terms of Use (non-commercial, display-only).
 - Marine Regions Exclusive Economic Zones v12 (Flanders Marine Institute (2024), DOI 10.14284/632). CC BY 4.0.
-- **Integrity (SHA-256 of canonical facts):** `4224243047f8c7fbaa83bfe42106f89122f8bffac6f044232ec03c6bd5eb18a5`
+- **Integrity (SHA-256 of canonical facts):** `0c9e3826ec908b93ca822d0b204ef5401499fea308578f55bc056f59c060e734`
 - **Evidence schema:** seavigil-evidence-1.0
 
 _Apparent activity and an inspection lead, not proof of illegality. AIS and SAR evidence have known coverage gaps and spoofing risks; verify against authoritative sources before any enforcement action._

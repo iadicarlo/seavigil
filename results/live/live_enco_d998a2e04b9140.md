@@ -1,20 +1,20 @@
-# Incident `live_enco_3edb66f898072d`
+# Incident `live_enco_d998a2e04b9140`
 
 - **MPA:** At-sea encounter (transshipment)
 - **Severity:** HIGH (foreign vessel, no authorization on record)
-- **EEZ:** Overlapping claim Senkaku Islands: Taiwan / Japan / China (Taiwan) -- FOREIGN-flagged vessel
+- **EEZ:** Omani Exclusive Economic Zone (Oman) -- FOREIGN-flagged vessel
 - **Authorization:** No public authorization record (check coastal state)
-- **Vessel:** 🇨🇳 MINFUDINGYU01668  ·  **signal:** Encounter
-- **When (UTC):** 2026-09-19T14:20:00.000Z → 2026-09-19T18:50:00.000Z
-- **Encounter:** 4.5 h with carrier `412444091` (apparent transshipment)
-- **Where:** 26.414, 122.948
+- **Vessel:** 🇹🇷 YUSUF REIS BLKCLK A  ·  **signal:** Encounter
+- **When (UTC):** 2026-09-20T04:10:00.000Z → 2026-09-20T19:30:00.000Z
+- **Encounter:** 15.3 h with carrier `271073423` (apparent transshipment)
+- **Where:** 19.479, 57.730
 
 ## Why this was flagged
 
 _GFW Events encounters dataset (Miller et al. 2018).._
 
-- two vessels within range for 4 h
-- counterpart: MINFUDINGYU01928
+- two vessels within range for 15 h
+- counterpart: CAN KUL 1
 - two-vessel at-sea encounter (GFW Events)
 
 ## Could be innocent
@@ -31,7 +31,7 @@ Two vessels meeting at sea can be a legitimate transfer, bunkering, or a safety 
 
 - WDPA / WD-OECM (World Database on Protected Areas) (UNEP-WCMC and IUCN (2026), June 2026). Protected Planet Terms of Use (non-commercial, display-only).
 - Marine Regions Exclusive Economic Zones v12 (Flanders Marine Institute (2024), DOI 10.14284/632). CC BY 4.0.
-- **Integrity (SHA-256 of canonical facts):** `87be0659fcccf5d046cef32d2f029f181b19c54c2a0bbe467bd1a77d68332865`
+- **Integrity (SHA-256 of canonical facts):** `9967b06ab64609eaa59ac0b847266ee886b29f61300c5adb1eec042dc5736add`
 - **Evidence schema:** seavigil-evidence-1.0
 
 _Apparent activity and an inspection lead, not proof of illegality. AIS and SAR evidence have known coverage gaps and spoofing risks; verify against authoritative sources before any enforcement action._
