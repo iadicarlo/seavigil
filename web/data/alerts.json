@@ -1,6 +1,45 @@
 {
-"generated_at": "2026-09-26T01:35:53Z",
+"generated_at": "2026-09-26T07:45:21Z",
 "alerts": [
+{
+"id": "live_enco_04bb4797a01409",
+"first_seen": "2026-09-26T07:45:21Z",
+"type": "encounter",
+"when": "2026-09-22T10:30:00.000Z",
+"eez": "Vietnamese Exclusive Economic Zone",
+"flag": "WLF",
+"authorization": "no_record",
+"severity_reason": "foreign vessel, no authorization on record",
+"lat": 19.2946,
+"lon": 105.9176,
+"ship_name": "LUOI B10 402"
+},
+{
+"id": "live_enco_b4895a7c09f7ff",
+"first_seen": "2026-09-26T07:45:21Z",
+"type": "encounter",
+"when": "2026-09-22T11:50:00.000Z",
+"eez": "Vietnamese Exclusive Economic Zone",
+"flag": "SOM",
+"authorization": "no_record",
+"severity_reason": "foreign vessel, no authorization on record",
+"lat": 19.2619,
+"lon": 107.1032,
+"ship_name": "TAU 56-A2"
+},
+{
+"id": "live_enco_4f21b44b054b9c",
+"first_seen": "2026-09-26T07:45:21Z",
+"type": "encounter",
+"when": "2026-09-21T09:10:00.000Z",
+"eez": "Overlapping claim Taiwan: Taiwan / China",
+"flag": "CHN",
+"authorization": "no_record",
+"severity_reason": "foreign vessel, no authorization on record",
+"lat": 25.8279,
+"lon": 121.0982,
+"ship_name": "MINSHIYU06396"
+},
 {
 "id": "live_enco_13d839263f4599",
 "first_seen": "2026-09-26T01:35:53Z",
@@ -2561,45 +2600,6 @@
 "lat": 38.5718,
 "lon": 120.5092,
 "ship_name": "666666"
-},
-{
-"id": "live_enco_a5cbc9c9e70892",
-"first_seen": "2026-09-23T00:36:31Z",
-"type": "encounter",
-"when": "2026-09-19T00:00:00.000Z",
-"eez": "South Korean Exclusive Economic Zone",
-"flag": "CHN",
-"authorization": "no_record",
-"severity_reason": "foreign vessel, no authorization on record",
-"lat": 37.5265,
-"lon": 123.7492,
-"ship_name": "LUWENYU53196"
-},
-{
-"id": "live_enco_c5a4626cf40a6e",
-"first_seen": "2026-09-23T00:36:31Z",
-"type": "encounter",
-"when": "2026-09-19T03:40:00.000Z",
-"eez": "South Korean Exclusive Economic Zone",
-"flag": "CHN",
-"authorization": "no_record",
-"severity_reason": "foreign vessel, no authorization on record",
-"lat": 37.5118,
-"lon": 123.732,
-"ship_name": "LUWENYU67549"
-},
-{
-"id": "live_enco_81273d70a84b72",
-"first_seen": "2026-09-23T00:36:31Z",
-"type": "encounter",
-"when": "2026-09-19T15:40:00.000Z",
-"eez": "Chinese Exclusive Economic Zone",
-"flag": "SHN",
-"authorization": "no_record",
-"severity_reason": "foreign vessel, no authorization on record",
-"lat": 21.4086,
-"lon": 115.3452,
-"ship_name": "QIONGYANGYU12056"
 }
 ]
 }
