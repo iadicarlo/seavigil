@@ -1,6 +1,6 @@
 # In-MPA records
 
-68 record(s): 68 AIS fishing incident(s), 0 dark-vessel SAR detection(s).
+67 record(s): 67 AIS fishing incident(s), 0 dark-vessel SAR detection(s).
 
 | id | type | MPA | start (UTC) | score / mean p |
 |---|---|---|---|---:|
@@ -41,11 +41,10 @@
 | [live_enco_ef2ea3b57ba332](live_enco_ef2ea3b57ba332.md) | AIS fishing | At-sea encounter (transshipment) | 2026-09-22T06:20:00.000Z | - |
 | [live_enco_345b41f8e1a292](live_enco_345b41f8e1a292.md) | AIS fishing | At-sea encounter (transshipment) | 2026-09-21T19:30:00.000Z | - |
 | [live_enco_6221bb438f4d36](live_enco_6221bb438f4d36.md) | AIS fishing | At-sea encounter (transshipment) | 2026-09-22T10:40:00.000Z | - |
-| [live_enco_04bb4797a01409](live_enco_04bb4797a01409.md) | AIS fishing | At-sea encounter (transshipment) | 2026-09-22T10:30:00.000Z | - |
-| [live_enco_b4895a7c09f7ff](live_enco_b4895a7c09f7ff.md) | AIS fishing | At-sea encounter (transshipment) | 2026-09-22T11:50:00.000Z | - |
+| [live_enco_5c3ae86ab3345c](live_enco_5c3ae86ab3345c.md) | AIS fishing | At-sea encounter (transshipment) | 2026-09-22T10:10:00.000Z | - |
+| [live_enco_981dcce381badd](live_enco_981dcce381badd.md) | AIS fishing | At-sea encounter (transshipment) | 2026-09-22T10:50:00.000Z | - |
 | [live_enco_2e256d4f38d299](live_enco_2e256d4f38d299.md) | AIS fishing | At-sea encounter (transshipment) | 2026-09-22T12:00:00.000Z | - |
 | [live_enco_3b2fd2caf9a1d5](live_enco_3b2fd2caf9a1d5.md) | AIS fishing | At-sea encounter (transshipment) | 2026-09-22T12:00:00.000Z | - |
-| [live_enco_4f21b44b054b9c](live_enco_4f21b44b054b9c.md) | AIS fishing | At-sea encounter (transshipment) | 2026-09-21T09:10:00.000Z | - |
 | [live_ais__b6640b9ad31c71](live_ais__b6640b9ad31c71.md) | AIS fishing | AIS disabling (going dark) | 2026-09-21T05:10:28.000Z | - |
 | [live_ais__1a5983be54997e](live_ais__1a5983be54997e.md) | AIS fishing | AIS disabling (going dark) | 2026-09-20T16:04:19.000Z | - |
 | [live_ais__92e80224891f6e](live_ais__92e80224891f6e.md) | AIS fishing | AIS disabling (going dark) | 2026-09-19T02:45:30.000Z | - |
