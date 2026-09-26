@@ -1,9 +1,9 @@
 # Incident `live_enco_ef2ea3b57ba332`
 
 - **MPA:** At-sea encounter (transshipment)
-- **Severity:** HIGH (foreign vessel, authorization lapsed)
+- **Severity:** HIGH (foreign vessel, no authorization on record)
 - **EEZ:** Samoan Exclusive Economic Zone (Samoa) -- FOREIGN-flagged vessel
-- **Authorization:** Authorization lapsed before this date: IOTC, WCPFC  ·  IMO 8780979
+- **Authorization:** No public authorization record (check coastal state)
 - **Vessel:** 🇹🇼 SHIN JAAN SHIN NO.7  ·  **signal:** Encounter
 - **When (UTC):** 2026-09-22T06:20:00.000Z → 2026-09-22T17:30:00.000Z
 - **Encounter:** 11.2 h with carrier `416002548` (apparent transshipment)

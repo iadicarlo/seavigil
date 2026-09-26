@@ -3,7 +3,7 @@
 - **MPA:** At-sea encounter (transshipment)
 - **Severity:** HIGH (foreign vessel, no authorization on record)
 - **EEZ:** Kiribati Exclusive Economic Zone (Line Group) (Kiribati) -- FOREIGN-flagged vessel
-- **Authorization:** No public authorization record (check coastal state)  ·  IMO 9931032
+- **Authorization:** No public authorization record (check coastal state)
 - **Vessel:** 🇨🇳 JIN FENG 5  ·  **signal:** Encounter
 - **When (UTC):** 2026-09-22T16:10:00.000Z → 2026-09-22T19:30:00.000Z
 - **Encounter:** 3.3 h with carrier `352585000` (apparent transshipment)
