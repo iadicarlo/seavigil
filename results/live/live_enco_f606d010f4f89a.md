@@ -1,9 +1,9 @@
 # Incident `live_enco_f606d010f4f89a`
 
 - **MPA:** At-sea encounter (transshipment)
-- **Severity:** HIGH (foreign vessel, no authorization on record)
+- **Severity:** HIGH (foreign vessel, authorization lapsed)
 - **EEZ:** Kiribati Exclusive Economic Zone (Line Group) (Kiribati) -- FOREIGN-flagged vessel
-- **Authorization:** No public authorization record (check coastal state)
+- **Authorization:** Authorization lapsed before this date: FFA, IATTC, IOTC, WCPFC  ·  IMO 8652732
 - **Vessel:** 🇨🇳 JINSHENG8  ·  **signal:** Encounter
 - **When (UTC):** 2026-09-23T16:20:00.000Z → 2026-09-23T23:50:00.000Z
 - **Encounter:** 7.5 h with carrier `413312990` (apparent transshipment)
