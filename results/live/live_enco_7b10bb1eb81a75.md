@@ -1,20 +1,20 @@
-# Incident `live_enco_5b24046e1a330b`
+# Incident `live_enco_7b10bb1eb81a75`
 
 - **MPA:** At-sea encounter (transshipment)
-- **Severity:** HIGH (foreign vessel, authorization lapsed)
+- **Severity:** HIGH (foreign vessel, no authorization on record)
 - **EEZ:** Omani Exclusive Economic Zone (Oman) -- FOREIGN-flagged vessel
-- **Authorization:** Authorization lapsed before this date: GFCM, ICCAT  ·  IMO 9864411
-- **Vessel:** 🇹🇷 AKGUN KARDESLER  ·  **signal:** Encounter
-- **When (UTC):** 2026-09-23T00:00:00.000Z → 2026-09-23T20:50:00.000Z
-- **Encounter:** 20.8 h with carrier `271072046` (apparent transshipment)
-- **Where:** 19.481, 57.730
+- **Authorization:** No public authorization record (check coastal state)
+- **Vessel:** 🇨🇳 LURONGYUANYU231  ·  **signal:** Encounter
+- **When (UTC):** 2026-09-24T15:50:00.000Z → 2026-09-24T23:50:00.000Z
+- **Encounter:** 8.0 h with carrier `412549274` (apparent transshipment)
+- **Where:** 19.497, 57.733
 
 ## Why this was flagged
 
 _GFW Events encounters dataset (Miller et al. 2018).._
 
-- two vessels within range for 21 h
-- counterpart: AVCI RECEBINA - 3
+- two vessels within range for 8 h
+- counterpart: LURONGYUANYU232
 - two-vessel at-sea encounter (GFW Events)
 
 ## Could be innocent
@@ -31,7 +31,7 @@ Two vessels meeting at sea can be a legitimate transfer, bunkering, or a safety 
 
 - WDPA / WD-OECM (World Database on Protected Areas) (UNEP-WCMC and IUCN (2026), June 2026). Protected Planet Terms of Use (non-commercial, display-only).
 - Marine Regions Exclusive Economic Zones v12 (Flanders Marine Institute (2024), DOI 10.14284/632). CC BY 4.0.
-- **Integrity (SHA-256 of canonical facts):** `8c09ebcf40bebc49fa64875d99dec1b0eee0b208244d809d3b48e41c858a7310`
+- **Integrity (SHA-256 of canonical facts):** `eedc71ac137b8849f076f4b1ddaa1b1e9ad0f46bb58876e922abb79a52a258e9`
 - **Evidence schema:** seavigil-evidence-1.0
 
 _Apparent activity and an inspection lead, not proof of illegality. AIS and SAR evidence have known coverage gaps and spoofing risks; verify against authoritative sources before any enforcement action._

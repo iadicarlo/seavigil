@@ -1,20 +1,20 @@
-# Incident `live_enco_1f1b36ae215009`
+# Incident `live_enco_5adc06f821e3a2`
 
 - **MPA:** At-sea encounter (transshipment)
 - **Severity:** HIGH (foreign vessel, no authorization on record)
-- **EEZ:** Vietnamese Exclusive Economic Zone (Vietnam) -- FOREIGN-flagged vessel
+- **EEZ:** Chinese Exclusive Economic Zone (China) -- FOREIGN-flagged vessel
 - **Authorization:** No public authorization record (check coastal state)
-- **Vessel:** 🇵🇳 21>B5S2  ·  **signal:** Encounter
-- **When (UTC):** 2026-09-22T14:10:00.000Z → 2026-09-23T16:00:00.000Z
-- **Encounter:** 25.8 h with carrier `574099994` (apparent transshipment)
-- **Where:** 7.036, 108.129
+- **Vessel:** 🇦🇩 LIAOSUIYU35222  ·  **signal:** Encounter
+- **When (UTC):** 2026-09-24T03:00:00.000Z → 2026-09-24T22:20:00.000Z
+- **Encounter:** 19.3 h with carrier `412213069` (apparent transshipment)
+- **Where:** 37.829, 123.298
 
 ## Why this was flagged
 
 _GFW Events encounters dataset (Miller et al. 2018).._
 
-- two vessels within range for 26 h
-- counterpart: QUANG HUY94S2B5 TEO
+- two vessels within range for 19 h
+- counterpart: LIAOSUIYU35222
 - two-vessel at-sea encounter (GFW Events)
 
 ## Could be innocent
@@ -31,7 +31,7 @@ Two vessels meeting at sea can be a legitimate transfer, bunkering, or a safety 
 
 - WDPA / WD-OECM (World Database on Protected Areas) (UNEP-WCMC and IUCN (2026), June 2026). Protected Planet Terms of Use (non-commercial, display-only).
 - Marine Regions Exclusive Economic Zones v12 (Flanders Marine Institute (2024), DOI 10.14284/632). CC BY 4.0.
-- **Integrity (SHA-256 of canonical facts):** `af4d0d4b86513e4b4c500173807d6de090d4d3e040372a3c5bb2eba6fc838f89`
+- **Integrity (SHA-256 of canonical facts):** `ca70b1b4ee785b12f09445ae198d2f7225bed7d7794b11bb118c87736820f204`
 - **Evidence schema:** seavigil-evidence-1.0
 
 _Apparent activity and an inspection lead, not proof of illegality. AIS and SAR evidence have known coverage gaps and spoofing risks; verify against authoritative sources before any enforcement action._
