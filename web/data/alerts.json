@@ -1,6 +1,19 @@
 {
-"generated_at": "2026-09-28T15:31:05Z",
+"generated_at": "2026-09-28T22:03:20Z",
 "alerts": [
+{
+"id": "live_enco_6011d4dab2e427",
+"first_seen": "2026-09-28T22:03:20Z",
+"type": "encounter",
+"when": "2026-09-24T18:40:00.000Z",
+"eez": "Vietnamese Exclusive Economic Zone",
+"flag": "CHN",
+"authorization": "no_record",
+"severity_reason": "foreign vessel, no authorization on record",
+"lat": 13.9206,
+"lon": 112.5351,
+"ship_name": "YUEMAOBINYU42212"
+},
 {
 "id": "live_enco_09cc00f66086bc",
 "first_seen": "2026-09-28T15:31:05Z",
@@ -2587,19 +2600,6 @@
 "lat": 24.6561,
 "lon": 127.8618,
 "ship_name": "BARCELONA KNUTSEN"
-},
-{
-"id": "live_ais__00a23e09f404c5",
-"first_seen": "2026-09-24T15:08:43Z",
-"type": "ais_disabling",
-"when": "2026-09-19T18:26:25.000Z",
-"eez": "Brazilian Exclusive Economic Zone",
-"flag": "MYS",
-"authorization": "no_record",
-"severity_reason": "foreign vessel, no authorization on record",
-"lat": -26.4704,
-"lon": -46.5313,
-"ship_name": "EAGLE CAMPOS"
 }
 ]
 }
