@@ -3,10 +3,10 @@
 - **MPA:** At-sea encounter (transshipment)
 - **Severity:** HIGH (foreign vessel, authorization lapsed)
 - **EEZ:** Kiribati Exclusive Economic Zone (Line Group) (Kiribati) -- FOREIGN-flagged vessel
-- **Authorization:** Authorization lapsed before this date: FFA, WCPFC  ·  IMO 9946283
-- **Vessel:** 🇨🇳 HENG HONG 5  ·  **signal:** Encounter
+- **Authorization:** Authorization lapsed before this date: FFA, IATTC, IOTC, WCPFC  ·  IMO 9931032
+- **Vessel:** 🇨🇳 JIN FENG 5  ·  **signal:** Encounter
 - **When (UTC):** 2026-09-24T15:50:00.000Z → 2026-09-24T23:50:00.000Z
-- **Encounter:** 8.0 h with carrier `412549294` (apparent transshipment)
+- **Encounter:** 8.0 h with carrier `413312990` (apparent transshipment)
 - **Where:** -6.438, -153.545
 
 ## Why this was flagged
@@ -14,7 +14,7 @@
 _GFW Events encounters dataset (Miller et al. 2018).._
 
 - two vessels within range for 8 h
-- counterpart: JIN FENG 5
+- counterpart: HENG HONG 5
 - two-vessel at-sea encounter (GFW Events)
 
 ## Could be innocent
@@ -31,7 +31,7 @@ Two vessels meeting at sea can be a legitimate transfer, bunkering, or a safety 
 
 - WDPA / WD-OECM (World Database on Protected Areas) (UNEP-WCMC and IUCN (2026), June 2026). Protected Planet Terms of Use (non-commercial, display-only).
 - Marine Regions Exclusive Economic Zones v12 (Flanders Marine Institute (2024), DOI 10.14284/632). CC BY 4.0.
-- **Integrity (SHA-256 of canonical facts):** `1b579314ef3be54b1e3e74140da184524215d0eb8b496060425f537ae05ccca1`
+- **Integrity (SHA-256 of canonical facts):** `99744b89611150e73a16ea98f13f6dbb315783355404a028ebb3ad5c15d865f3`
 - **Evidence schema:** seavigil-evidence-1.0
 
 _Apparent activity and an inspection lead, not proof of illegality. AIS and SAR evidence have known coverage gaps and spoofing risks; verify against authoritative sources before any enforcement action._
