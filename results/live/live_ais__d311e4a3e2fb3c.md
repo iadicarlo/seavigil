@@ -3,7 +3,7 @@
 - **MPA:** AIS disabling (going dark)
 - **Severity:** HIGH (foreign vessel, no authorization on record)
 - **EEZ:** Portuguese Exclusive Economic Zone (Azores) (Portugal) -- FOREIGN-flagged vessel
-- **Authorization:** No public authorization record (check coastal state)
+- **Authorization:** No public authorization record (check coastal state)  ·  IMO 9595917
 - **Vessel:** 🇲🇭 FEDERAL SUTTON  ·  **signal:** AIS gap
 - **When (UTC):** 2026-09-23T03:39:30.000Z → 2026-09-25T15:09:31.000Z
 - **Gap:** 59.5 h dark, 200.0 nm offshore

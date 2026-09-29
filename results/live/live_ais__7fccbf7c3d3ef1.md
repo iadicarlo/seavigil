@@ -3,7 +3,7 @@
 - **MPA:** AIS disabling (going dark)
 - **Severity:** HIGH (foreign vessel, no authorization on record)
 - **EEZ:** Philippine Exclusive Economic Zone (Philippines) -- FOREIGN-flagged vessel
-- **Authorization:** No public authorization record (check coastal state)  ·  IMO 9204439
+- **Authorization:** No public authorization record (check coastal state)  ·  IMO 9132662
 - **Vessel:** 🇵🇦 GREEN CLARITY  ·  **signal:** AIS gap
 - **When (UTC):** 2026-09-25T02:28:25.000Z → 2026-09-25T18:06:20.000Z
 - **Gap:** 15.6 h dark, 74.0 nm offshore

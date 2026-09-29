@@ -3,7 +3,7 @@
 - **MPA:** AIS disabling (going dark)
 - **Severity:** HIGH (foreign vessel, no authorization on record)
 - **EEZ:** Philippine Exclusive Economic Zone (Philippines) -- FOREIGN-flagged vessel
-- **Authorization:** No public authorization record (check coastal state)
+- **Authorization:** No public authorization record (check coastal state)  ·  IMO 9598787
 - **Vessel:** 🇲🇹 IOLCOS COMMANDER  ·  **signal:** AIS gap
 - **When (UTC):** 2026-09-24T21:21:54.000Z → 2026-09-25T10:58:37.000Z
 - **Gap:** 13.6 h dark, 50.0 nm offshore
