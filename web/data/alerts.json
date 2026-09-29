@@ -1,6 +1,58 @@
 {
-"generated_at": "2026-09-29T01:59:31Z",
+"generated_at": "2026-09-29T08:33:55Z",
 "alerts": [
+{
+"id": "live_enco_e13017a42c4e8d",
+"first_seen": "2026-09-29T08:33:55Z",
+"type": "encounter",
+"when": "2026-09-25T16:30:00.000Z",
+"eez": "French Exclusive Economic Zone",
+"flag": "IRL",
+"authorization": "no_record",
+"severity_reason": "foreign vessel, no authorization on record",
+"lat": 47.5185,
+"lon": -4.4059,
+"ship_name": "LUI BOYA 3"
+},
+{
+"id": "live_enco_3618bde16bc72a",
+"first_seen": "2026-09-29T08:33:55Z",
+"type": "encounter",
+"when": "2026-09-25T13:50:00.000Z",
+"eez": "Omani Exclusive Economic Zone",
+"flag": "TUR",
+"authorization": "no_record",
+"severity_reason": "foreign vessel, no authorization on record",
+"lat": 19.4805,
+"lon": 57.7299,
+"ship_name": "TIRYAKILER"
+},
+{
+"id": "live_enco_7181010dfd9824",
+"first_seen": "2026-09-29T08:33:55Z",
+"type": "encounter",
+"when": "2026-09-25T13:30:00.000Z",
+"eez": "Joint regime area: South Korea / Japan",
+"flag": "CHN",
+"authorization": "no_record",
+"severity_reason": "foreign vessel, no authorization on record",
+"lat": 31.5628,
+"lon": 127.035,
+"ship_name": "ZHE PU YU 68893"
+},
+{
+"id": "live_enco_d79d4f20a3c400",
+"first_seen": "2026-09-29T08:33:55Z",
+"type": "encounter",
+"when": "2026-09-25T06:20:00.000Z",
+"eez": "Chinese Exclusive Economic Zone",
+"flag": "QAT",
+"authorization": "no_record",
+"severity_reason": "foreign vessel, no authorization on record",
+"lat": 36.0217,
+"lon": 120.855,
+"ship_name": "LUCHENGYU60293-33"
+},
 {
 "id": "live_enco_ee03edf3e722c0",
 "first_seen": "2026-09-29T01:59:31Z",
@@ -2548,58 +2600,6 @@
 "lat": 25.9494,
 "lon": 121.0819,
 "ship_name": "JU JIN NO OOOOONO  6"
-},
-{
-"id": "live_enco_8628cc64eba2e7",
-"first_seen": "2026-09-25T01:32:36Z",
-"type": "encounter",
-"when": "2026-09-21T09:30:00.000Z",
-"eez": "Overlapping claim Taiwan: Taiwan / China",
-"flag": "CHN",
-"authorization": "no_record",
-"severity_reason": "foreign vessel, no authorization on record",
-"lat": 25.8521,
-"lon": 121.2207,
-"ship_name": "MIN SHI YU 07277"
-},
-{
-"id": "live_enco_371678340a6397",
-"first_seen": "2026-09-25T01:32:36Z",
-"type": "encounter",
-"when": "2026-09-21T04:30:00.000Z",
-"eez": "Chinese Exclusive Economic Zone",
-"flag": "TWN",
-"authorization": "no_record",
-"severity_reason": "foreign vessel, no authorization on record",
-"lat": 26.6971,
-"lon": 121.6525,
-"ship_name": "8"
-},
-{
-"id": "live_enco_5269a34f37a166",
-"first_seen": "2026-09-25T01:32:36Z",
-"type": "encounter",
-"when": "2026-09-21T01:40:00.000Z",
-"eez": "Overlapping claim Taiwan: Taiwan / China",
-"flag": "CHN",
-"authorization": "no_record",
-"severity_reason": "foreign vessel, no authorization on record",
-"lat": 25.5536,
-"lon": 120.9408,
-"ship_name": "MINSHIYU06228"
-},
-{
-"id": "live_enco_3932b9fb518965",
-"first_seen": "2026-09-25T01:32:36Z",
-"type": "encounter",
-"when": "2026-09-21T05:00:00.000Z",
-"eez": "Overlapping claim Taiwan: Taiwan / China",
-"flag": "CHN",
-"authorization": "no_record",
-"severity_reason": "foreign vessel, no authorization on record",
-"lat": 25.8365,
-"lon": 121.1422,
-"ship_name": "MIN SHI YU 07728"
 }
 ]
 }
