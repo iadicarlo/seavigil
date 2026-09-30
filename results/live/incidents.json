@@ -6,31 +6,31 @@
     "centroid_lat": 23.3152,
     "time_start_utc": "2026-09-26T06:40:00.000Z",
     "time_end_utc": "2026-09-26T23:50:00.000Z",
-    "vessel_id": "608679072",
-    "ship_name": "MINDONGYU61168",
+    "vessel_id": "412446092",
+    "ship_name": "MIN DONG YU 61168",
     "ship_type": "Fishing",
-    "flag": "SHN",
-    "flag_emoji": "\ud83c\uddf8\ud83c\udded",
+    "flag": "CHN",
+    "flag_emoji": "\ud83c\udde8\ud83c\uddf3",
     "gear": "Encounter",
     "n_positions": 0,
     "n_fishing_positions": 0,
     "mean_fishing_proba": null,
     "max_fishing_proba": null,
     "_rfmo": [
-      "ACAP",
       "IWC",
+      "ACAP",
       "WCPFC",
       "APFIC"
     ],
     "_no_take": false,
     "mpa_name": "At-sea encounter (transshipment)",
     "duration_hours": 17.2,
-    "carrier_mmsi": "412446092",
+    "carrier_mmsi": "608679072",
     "explanation": {
       "method": "GFW Events encounters dataset (Miller et al. 2018).",
       "drivers": [
         "two vessels within range for 17 h",
-        "counterpart: MIN DONG YU 61168",
+        "counterpart: MINDONGYU61168",
         "two-vessel at-sea encounter (GFW Events)"
       ]
     },
@@ -51,7 +51,7 @@
     "severity": "high",
     "severity_reason": "foreign vessel, no authorization on record",
     "evidence_schema": "seavigil-evidence-1.0",
-    "evidence_hash": "3f7a3f7c494fc6a0396f05a6fa2ff8fffffb3d44455d2a5629759316bd3faffa"
+    "evidence_hash": "6e328f4c5e1bbe5ddc7e1ec88be7f6f05a47fd63709440442857d0cdf118f3ea"
   },
   {
     "incident_id": "live_enco_3618bde16bc72a",
@@ -268,8 +268,8 @@
     "centroid_lat": 19.4802,
     "time_start_utc": "2026-09-26T15:10:00.000Z",
     "time_end_utc": "2026-09-26T23:50:00.000Z",
-    "vessel_id": "271072244",
-    "ship_name": "YUSUF REIS BLKCLK A",
+    "vessel_id": "271073288",
+    "ship_name": "AKGUN KARDESLER",
     "ship_type": "Fishing",
     "flag": "TUR",
     "flag_emoji": "\ud83c\uddf9\ud83c\uddf7",
@@ -282,12 +282,12 @@
     "_no_take": false,
     "mpa_name": "At-sea encounter (transshipment)",
     "duration_hours": 8.7,
-    "carrier_mmsi": "271073288",
+    "carrier_mmsi": "271072244",
     "explanation": {
       "method": "GFW Events encounters dataset (Miller et al. 2018).",
       "drivers": [
         "two vessels within range for 9 h",
-        "counterpart: AKGUN KARDESLER",
+        "counterpart: YUSUF REIS BLKCLK A",
         "two-vessel at-sea encounter (GFW Events)"
       ]
     },
@@ -310,7 +310,7 @@
     "severity": "high",
     "severity_reason": "foreign vessel, authorization lapsed",
     "evidence_schema": "seavigil-evidence-1.0",
-    "evidence_hash": "3b72bad2b4a074ddf2d38937b5a6e7b2821d86de77c0e989e7f3751309cd6524"
+    "evidence_hash": "54a9b24ff19ee57b75a66cea8481e705121a0dbc9aa65f4d13637018df55cb17"
   },
   {
     "incident_id": "live_enco_eea138fa6c8a22",
@@ -414,6 +414,55 @@
     "severity_reason": "foreign vessel, no authorization on record",
     "evidence_schema": "seavigil-evidence-1.0",
     "evidence_hash": "97152f89c6510fb93c4b43fd481f8d0e7975603ee6ff3b64f08b20ad9160964a"
+  },
+  {
+    "incident_id": "live_enco_45c2389d54307b",
+    "type": "encounter",
+    "centroid_lon": 57.7276,
+    "centroid_lat": 19.4775,
+    "time_start_utc": "2026-09-25T13:50:00.000Z",
+    "time_end_utc": "2026-09-26T23:50:00.000Z",
+    "vessel_id": "271073423",
+    "ship_name": "CAN KUL 1",
+    "ship_type": "Fishing",
+    "flag": "TUR",
+    "flag_emoji": "\ud83c\uddf9\ud83c\uddf7",
+    "gear": "Encounter",
+    "n_positions": 0,
+    "n_fishing_positions": 0,
+    "mean_fishing_proba": null,
+    "max_fishing_proba": null,
+    "_rfmo": [],
+    "_no_take": false,
+    "mpa_name": "At-sea encounter (transshipment)",
+    "duration_hours": 34.0,
+    "carrier_mmsi": "461000291",
+    "explanation": {
+      "method": "GFW Events encounters dataset (Miller et al. 2018).",
+      "drivers": [
+        "two vessels within range for 34 h",
+        "counterpart: AL MALAH",
+        "two-vessel at-sea encounter (GFW Events)"
+      ]
+    },
+    "caveats": [
+      "Co-location can be legitimate (joint operations, safety, shelter).",
+      "Apparent transshipment is inferred from proximity and low speed, not observed.",
+      "An inspection lead from GFW Events, not proof of illegal activity."
+    ],
+    "eez_name": "Omani Exclusive Economic Zone",
+    "eez_sovereign": "Oman",
+    "eez_iso_sov": "OMN",
+    "eez_foreign": true,
+    "authorization_status": "no_record",
+    "authorization_authorities": [],
+    "registry_iuu_tag": false,
+    "registry_flag": "",
+    "registry_imo": "",
+    "severity": "high",
+    "severity_reason": "foreign vessel, no authorization on record",
+    "evidence_schema": "seavigil-evidence-1.0",
+    "evidence_hash": "55fc7f1117f0ae4c08ddeeaf25fd8c92c923a468b9a8248e945ec0b7a556d7d6"
   },
   {
     "incident_id": "live_enco_d47ac61ea651f0",
