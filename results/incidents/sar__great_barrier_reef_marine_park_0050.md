@@ -4,9 +4,9 @@
 - **Severity:** LOW (multi-use protected area)  ·  boundary sample-approx-2024
 - **EEZ:** Australian Exclusive Economic Zone (Australia)
 - **Vessel:** (dark -- no AIS identity)  ·  **source:** SAR (dark)
-- **When (UTC):** 2024-01-01T08:29:59Z
+- **When (UTC):** 2024-03-06T19:29:20Z
 - **Length:** n/a  ·  **broadcasting AIS:** no (dark)  ·  **GFW fishing-score:** n/a (Portal-only)
-- **Where:** -23.880, 151.490
+- **Where:** -21.190, 149.590
 
 ## Why this was flagged
 
@@ -33,7 +33,7 @@ A radar contact with no AIS may be a vessel not required to broadcast, sea clutt
 - Global Fishing Watch Sentinel-1 SAR vessel detections (Paolo et al., Nature 2024). CC BY-NC 4.0 (non-commercial).
 - WDPA / WD-OECM (World Database on Protected Areas) (UNEP-WCMC and IUCN (2026), June 2026). Protected Planet Terms of Use (non-commercial, display-only).
 - Marine Regions Exclusive Economic Zones v12 (Flanders Marine Institute (2024), DOI 10.14284/632). CC BY 4.0.
-- **Integrity (SHA-256 of canonical facts):** `9dcf22123cc74ce4f570777fb4241ea201a2db1bfb31e29c0cdcf84c9a483ff7`
+- **Integrity (SHA-256 of canonical facts):** `ba35a22eec1231fc6c0252aa46b5a58f1ee1f7a8d1999bdb583875e3aa53dfa6`
 - **Evidence schema:** seavigil-evidence-1.0
 
 _Apparent activity and an inspection lead, not proof of illegality. AIS and SAR evidence have known coverage gaps and spoofing risks; verify against authoritative sources before any enforcement action._

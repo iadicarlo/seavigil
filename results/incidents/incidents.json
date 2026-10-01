@@ -605,7 +605,7 @@
     "n_positions": 96,
     "n_fishing_positions": 96,
     "mean_fishing_proba": 0.9492752921076333,
-    "max_fishing_proba": 0.9884856792327654,
+    "max_fishing_proba": 0.9884856792327652,
     "centroid_lat": -3.4834526081729167,
     "centroid_lon": -171.0584630966271,
     "mpa_iucn_cat": "II",
@@ -670,7 +670,7 @@
     "duration_hours": 15.561,
     "n_positions": 312,
     "n_fishing_positions": 308,
-    "mean_fishing_proba": 0.8415714001174628,
+    "mean_fishing_proba": 0.8415714001174626,
     "max_fishing_proba": 0.9890146754681917,
     "centroid_lat": -3.3527291525441556,
     "centroid_lon": -170.62585107382176,
@@ -723,7 +723,7 @@
     "eez_iso_sov": "KIR",
     "eez_foreign": null,
     "evidence_schema": "seavigil-evidence-1.0",
-    "evidence_hash": "ae240619ed1cdf4180a9321b6b38a849d4cf624a8a571be07ff80eaca7e645e9"
+    "evidence_hash": "6cb2221a9d988bb9cfb521035480c1c44b7b32d1e2a24aa4ea5c6348eb0c8b7d"
   },
   {
     "incident_id": "phoenix_islands_protected_area__drifting_longlines_251022003811177_0008",
@@ -736,7 +736,7 @@
     "duration_hours": 3.678,
     "n_positions": 172,
     "n_fishing_positions": 171,
-    "mean_fishing_proba": 0.9039801362754368,
+    "mean_fishing_proba": 0.9039801362754367,
     "max_fishing_proba": 0.9754697948853709,
     "centroid_lat": -3.3793253745251457,
     "centroid_lon": -170.7581784432357,
@@ -789,7 +789,7 @@
     "eez_iso_sov": "KIR",
     "eez_foreign": null,
     "evidence_schema": "seavigil-evidence-1.0",
-    "evidence_hash": "da2d272f46cd2aaac39a7d6d1aaf7dc4a4978e727ca1b50d14f4c91afe6f168c"
+    "evidence_hash": "9e6830fe4c776dc37170779b8adc60af535ed1df1f5a4063fbaab7d63278aa02"
   },
   {
     "incident_id": "phoenix_islands_protected_area__drifting_longlines_251022003811177_0009",
@@ -1590,7 +1590,7 @@
     "duration_hours": 6.449,
     "n_positions": 66,
     "n_fishing_positions": 30,
-    "mean_fishing_proba": 0.6972459984981504,
+    "mean_fishing_proba": 0.6972459984981502,
     "max_fishing_proba": 0.9104746969390111,
     "centroid_lat": -3.371568131449999,
     "centroid_lon": -172.77184956867669,
@@ -1643,7 +1643,7 @@
     "eez_iso_sov": "KIR",
     "eez_foreign": null,
     "evidence_schema": "seavigil-evidence-1.0",
-    "evidence_hash": "c07c85df4a4ee0c82af39b3f02be412327b2b14265f120ed1d216ca0f8c46041"
+    "evidence_hash": "1e988ec0877a1aa9cfff943e4468789ffbad30e9fa97a163d3895f04b618dcb0"
   },
   {
     "type": "dark_vessel_sar",
@@ -2440,6 +2440,52 @@
     "vessel_id": "(dark -- no AIS identity)",
     "gear": "SAR (dark)",
     "flag": null,
+    "time_start_utc": "2024-02-23T19:28:52Z",
+    "time_end_utc": "2024-02-23T19:28:52Z",
+    "duration_hours": 0.0,
+    "n_positions": 1,
+    "n_fishing_positions": 1,
+    "mean_fishing_proba": null,
+    "max_fishing_proba": null,
+    "centroid_lat": -21.2,
+    "centroid_lon": 149.4499969482422,
+    "length_m": null,
+    "matched_to_ais": false,
+    "explanation": {
+      "method": "SAR detection attributes (no AIS track or identity; not SHAP-explainable)",
+      "drivers": [
+        "inside MPA: Great Barrier Reef Marine Park",
+        "not broadcasting AIS (dark vessel)",
+        "satellite detections in window: 3"
+      ]
+    },
+    "caveats": [
+      "Dark vessel: detected by satellite SAR but not broadcasting AIS.",
+      "Not SHAP-explainable -- a SAR detection has no movement track to attribute.",
+      "length_m and fishing_score are GFW model estimates from imagery, not ground truth.",
+      "MPA boundary may be approximate; verify against official WDPA limits.",
+      "An inspection lead, not courtroom evidence."
+    ],
+    "eez_name": "Australian Exclusive Economic Zone",
+    "eez_sovereign": "Australia",
+    "eez_iso_sov": "AUS",
+    "eez_foreign": null,
+    "evidence_schema": "seavigil-evidence-1.0",
+    "evidence_hash": "d14007c2a8fcc4a1051c42461a6716430c1e7125b98afbe92f68c95470ecf693"
+  },
+  {
+    "type": "dark_vessel_sar",
+    "incident_id": "sar__great_barrier_reef_marine_park_0018",
+    "mpa_name": "Great Barrier Reef Marine Park",
+    "wdpa_id": null,
+    "mpa_iucn_cat": "VI",
+    "mpa_no_take": "None",
+    "mpa_version": "sample-approx-2024",
+    "severity": "low",
+    "severity_reason": "multi-use protected area",
+    "vessel_id": "(dark -- no AIS identity)",
+    "gear": "SAR (dark)",
+    "flag": null,
     "time_start_utc": "2024-01-01T08:29:59Z",
     "time_end_utc": "2024-01-01T08:29:59Z",
     "duration_hours": 0.0,
@@ -2471,11 +2517,11 @@
     "eez_iso_sov": "AUS",
     "eez_foreign": null,
     "evidence_schema": "seavigil-evidence-1.0",
-    "evidence_hash": "00453c75db9b537c170356e28880e72ea6908ab5c629ff0e186b46ff66daefba"
+    "evidence_hash": "1a5d22d06cf0d251fb23c6d4ef29cf12805e3f85f5532d5bf55c8d283fca9cf4"
   },
   {
     "type": "dark_vessel_sar",
-    "incident_id": "sar__great_barrier_reef_marine_park_0018",
+    "incident_id": "sar__great_barrier_reef_marine_park_0019",
     "mpa_name": "Great Barrier Reef Marine Park",
     "wdpa_id": null,
     "mpa_iucn_cat": "VI",
@@ -2517,11 +2563,11 @@
     "eez_iso_sov": "AUS",
     "eez_foreign": null,
     "evidence_schema": "seavigil-evidence-1.0",
-    "evidence_hash": "8ac43c79b5440bbeff8d5e30939e5de3a8491cfebdff8788363f49e86f1633fa"
+    "evidence_hash": "58ab89fac19fede3d433668f1bb36d0d5f70df5388e1d82ca929bfb9a21dc44c"
   },
   {
     "type": "dark_vessel_sar",
-    "incident_id": "sar__great_barrier_reef_marine_park_0019",
+    "incident_id": "sar__great_barrier_reef_marine_park_0020",
     "mpa_name": "Great Barrier Reef Marine Park",
     "wdpa_id": null,
     "mpa_iucn_cat": "VI",
@@ -2563,11 +2609,11 @@
     "eez_iso_sov": "AUS",
     "eez_foreign": null,
     "evidence_schema": "seavigil-evidence-1.0",
-    "evidence_hash": "a81be350e2d5cbd2ea60ec5b2198009529b0f2eb1d42b2d4144d67f6301f5be0"
+    "evidence_hash": "b1aa65ea07cc136ea045a2dcef0c798100f7694abc7b21ca19d729268d385343"
   },
   {
     "type": "dark_vessel_sar",
-    "incident_id": "sar__great_barrier_reef_marine_park_0020",
+    "incident_id": "sar__great_barrier_reef_marine_park_0021",
     "mpa_name": "Great Barrier Reef Marine Park",
     "wdpa_id": null,
     "mpa_iucn_cat": "VI",
@@ -2609,11 +2655,11 @@
     "eez_iso_sov": "AUS",
     "eez_foreign": null,
     "evidence_schema": "seavigil-evidence-1.0",
-    "evidence_hash": "11a90b1469ce349fc1d97b647ca8a7ccc49a50b770f5f312fa96eef1c6e6143c"
+    "evidence_hash": "c4a50a2ec894383be682f582f8cbd9eb86813897684f7052517b916514ad125c"
   },
   {
     "type": "dark_vessel_sar",
-    "incident_id": "sar__great_barrier_reef_marine_park_0021",
+    "incident_id": "sar__great_barrier_reef_marine_park_0022",
     "mpa_name": "Great Barrier Reef Marine Park",
     "wdpa_id": null,
     "mpa_iucn_cat": "VI",
@@ -2655,11 +2701,11 @@
     "eez_iso_sov": "AUS",
     "eez_foreign": null,
     "evidence_schema": "seavigil-evidence-1.0",
-    "evidence_hash": "ee09509706a6db57f75bc0f09da7ae2ad9b3e26b5e8dcfda3e66ecc8b06c299a"
+    "evidence_hash": "2d0cc8f6932923ba96ed261c429541fe6d6af7391840ba667bee3ea0d2941f31"
   },
   {
     "type": "dark_vessel_sar",
-    "incident_id": "sar__great_barrier_reef_marine_park_0022",
+    "incident_id": "sar__great_barrier_reef_marine_park_0023",
     "mpa_name": "Great Barrier Reef Marine Park",
     "wdpa_id": null,
     "mpa_iucn_cat": "VI",
@@ -2701,11 +2747,11 @@
     "eez_iso_sov": "AUS",
     "eez_foreign": null,
     "evidence_schema": "seavigil-evidence-1.0",
-    "evidence_hash": "3af2c6afe6ca493eceedea0562fe9ea305a1e4c729fd1c51aecb865bb75eb6f6"
+    "evidence_hash": "fe7bb33410335635846648f65b466e400381e84a9c0217416b13eaef937a7e30"
   },
   {
     "type": "dark_vessel_sar",
-    "incident_id": "sar__great_barrier_reef_marine_park_0023",
+    "incident_id": "sar__great_barrier_reef_marine_park_0024",
     "mpa_name": "Great Barrier Reef Marine Park",
     "wdpa_id": null,
     "mpa_iucn_cat": "VI",
@@ -2747,11 +2793,11 @@
     "eez_iso_sov": "AUS",
     "eez_foreign": null,
     "evidence_schema": "seavigil-evidence-1.0",
-    "evidence_hash": "e6425054ccb9709678b866ac0e35072c576cac3f214c7df9c58bc83066b8a978"
+    "evidence_hash": "f3b90579b67803049eed98f7783c2bdd5eecde1fb8a2df547ee2274cc01605ca"
   },
   {
     "type": "dark_vessel_sar",
-    "incident_id": "sar__great_barrier_reef_marine_park_0024",
+    "incident_id": "sar__great_barrier_reef_marine_park_0025",
     "mpa_name": "Great Barrier Reef Marine Park",
     "wdpa_id": null,
     "mpa_iucn_cat": "VI",
@@ -2793,7 +2839,7 @@
     "eez_iso_sov": "AUS",
     "eez_foreign": null,
     "evidence_schema": "seavigil-evidence-1.0",
-    "evidence_hash": "67a76c186ccf644ce16a28b974ec9040bc4f3662ddf8051499bd7a6216fc18fb"
+    "evidence_hash": "5e11ce27581581b5a9a5fbb86495890f4d30695829729f1e1edb1ade4caf7190"
   },
   {
     "type": "dark_vessel_sar",
@@ -2981,7 +3027,7 @@
   },
   {
     "type": "dark_vessel_sar",
-    "incident_id": "sar__great_barrier_reef_marine_park_0025",
+    "incident_id": "sar__great_barrier_reef_marine_park_0026",
     "mpa_name": "Great Barrier Reef Marine Park",
     "wdpa_id": null,
     "mpa_iucn_cat": "VI",
@@ -3023,11 +3069,11 @@
     "eez_iso_sov": "AUS",
     "eez_foreign": null,
     "evidence_schema": "seavigil-evidence-1.0",
-    "evidence_hash": "ee4fa44347fd95375c5119c0d083f35d496060fdb23a56bcbd73b7333284e222"
+    "evidence_hash": "ff1e027152e8d753cc097c6ded6c640954814c530530113f3d82b43db239f027"
   },
   {
     "type": "dark_vessel_sar",
-    "incident_id": "sar__great_barrier_reef_marine_park_0026",
+    "incident_id": "sar__great_barrier_reef_marine_park_0027",
     "mpa_name": "Great Barrier Reef Marine Park",
     "wdpa_id": null,
     "mpa_iucn_cat": "VI",
@@ -3069,11 +3115,11 @@
     "eez_iso_sov": "AUS",
     "eez_foreign": null,
     "evidence_schema": "seavigil-evidence-1.0",
-    "evidence_hash": "7f72636d5798d9d8e5c12d343dffa9cdc5d0e31cfd9609afb57681f55065bec0"
+    "evidence_hash": "7f0c5becdf854a7dc506b1860a10c05f6432a81802b9ae018c123566b29a1e0e"
   },
   {
     "type": "dark_vessel_sar",
-    "incident_id": "sar__great_barrier_reef_marine_park_0027",
+    "incident_id": "sar__great_barrier_reef_marine_park_0028",
     "mpa_name": "Great Barrier Reef Marine Park",
     "wdpa_id": null,
     "mpa_iucn_cat": "VI",
@@ -3115,11 +3161,11 @@
     "eez_iso_sov": "AUS",
     "eez_foreign": null,
     "evidence_schema": "seavigil-evidence-1.0",
-    "evidence_hash": "b2d6792f24544ffdfa2cba3b25074ad1b335bd7cbdeb50d39c333a9f128c8f36"
+    "evidence_hash": "4a46c823286450649b8a6e59077934cb92a97887ee6294208492353470fcfb59"
   },
   {
     "type": "dark_vessel_sar",
-    "incident_id": "sar__great_barrier_reef_marine_park_0028",
+    "incident_id": "sar__great_barrier_reef_marine_park_0029",
     "mpa_name": "Great Barrier Reef Marine Park",
     "wdpa_id": null,
     "mpa_iucn_cat": "VI",
@@ -3161,11 +3207,11 @@
     "eez_iso_sov": "AUS",
     "eez_foreign": null,
     "evidence_schema": "seavigil-evidence-1.0",
-    "evidence_hash": "8318e640787688fdaeeb4e2369f7d27d4bf209c3b44868550048d374250bea76"
+    "evidence_hash": "b24e14f56272561acafc37e79ac0396d98e632440038b78626ac72ef7582e822"
   },
   {
     "type": "dark_vessel_sar",
-    "incident_id": "sar__great_barrier_reef_marine_park_0029",
+    "incident_id": "sar__great_barrier_reef_marine_park_0030",
     "mpa_name": "Great Barrier Reef Marine Park",
     "wdpa_id": null,
     "mpa_iucn_cat": "VI",
@@ -3207,11 +3253,11 @@
     "eez_iso_sov": "AUS",
     "eez_foreign": null,
     "evidence_schema": "seavigil-evidence-1.0",
-    "evidence_hash": "f126e895a5a6658ede4d5a716e5302a9e55cbdda5cb0f4368040399a3b9ccd7f"
+    "evidence_hash": "16318af53e03adedd06fbc35f09b6b76d900c282176f63e560dd91df678b1290"
   },
   {
     "type": "dark_vessel_sar",
-    "incident_id": "sar__great_barrier_reef_marine_park_0030",
+    "incident_id": "sar__great_barrier_reef_marine_park_0031",
     "mpa_name": "Great Barrier Reef Marine Park",
     "wdpa_id": null,
     "mpa_iucn_cat": "VI",
@@ -3253,11 +3299,11 @@
     "eez_iso_sov": "AUS",
     "eez_foreign": null,
     "evidence_schema": "seavigil-evidence-1.0",
-    "evidence_hash": "3e2168e672703eb99154ead97fbdc62c3406d95a29becc84fdf932b550c236e9"
+    "evidence_hash": "4f842e51526f2f87a41818f80d0776b072d36e02adb0312e5f6f16cdc11de20e"
   },
   {
     "type": "dark_vessel_sar",
-    "incident_id": "sar__great_barrier_reef_marine_park_0031",
+    "incident_id": "sar__great_barrier_reef_marine_park_0032",
     "mpa_name": "Great Barrier Reef Marine Park",
     "wdpa_id": null,
     "mpa_iucn_cat": "VI",
@@ -3299,11 +3345,11 @@
     "eez_iso_sov": "AUS",
     "eez_foreign": null,
     "evidence_schema": "seavigil-evidence-1.0",
-    "evidence_hash": "5da2cef791e2669a8d76a7cc975d49001a1a5bbee8a7b968bed365d0e7fb2323"
+    "evidence_hash": "521c70d829867efa2858832f5ca0216e443076907276e9522108b469799d8435"
   },
   {
     "type": "dark_vessel_sar",
-    "incident_id": "sar__great_barrier_reef_marine_park_0032",
+    "incident_id": "sar__great_barrier_reef_marine_park_0033",
     "mpa_name": "Great Barrier Reef Marine Park",
     "wdpa_id": null,
     "mpa_iucn_cat": "VI",
@@ -3345,11 +3391,11 @@
     "eez_iso_sov": "AUS",
     "eez_foreign": null,
     "evidence_schema": "seavigil-evidence-1.0",
-    "evidence_hash": "0f218925cead638be7dc724bf8482d8df7573004422570c02d064151c56b266d"
+    "evidence_hash": "c379f23b2b60b81cde949404a9fe2bc685179ce9936122f17a27122b0bbed3d2"
   },
   {
     "type": "dark_vessel_sar",
-    "incident_id": "sar__great_barrier_reef_marine_park_0033",
+    "incident_id": "sar__great_barrier_reef_marine_park_0034",
     "mpa_name": "Great Barrier Reef Marine Park",
     "wdpa_id": null,
     "mpa_iucn_cat": "VI",
@@ -3391,11 +3437,11 @@
     "eez_iso_sov": "AUS",
     "eez_foreign": null,
     "evidence_schema": "seavigil-evidence-1.0",
-    "evidence_hash": "24547bcfa44ee47829710d12f0b24df09c7a17b6106ec07301ac5b07f271a067"
+    "evidence_hash": "d5f0a6abced1f1a5c00b1a5605da33cabfbfa8ed2c49db82b4e001a80889fc2f"
   },
   {
     "type": "dark_vessel_sar",
-    "incident_id": "sar__great_barrier_reef_marine_park_0034",
+    "incident_id": "sar__great_barrier_reef_marine_park_0035",
     "mpa_name": "Great Barrier Reef Marine Park",
     "wdpa_id": null,
     "mpa_iucn_cat": "VI",
@@ -3437,11 +3483,11 @@
     "eez_iso_sov": "AUS",
     "eez_foreign": null,
     "evidence_schema": "seavigil-evidence-1.0",
-    "evidence_hash": "9fa2eb90c46ae753192c870592aa918a4c9942987083f2d68cfc7ea8e942ea77"
+    "evidence_hash": "cde35cc7ffc6b66def76b79614b113773ad215adffb2621c9e9b6b1515bda524"
   },
   {
     "type": "dark_vessel_sar",
-    "incident_id": "sar__great_barrier_reef_marine_park_0035",
+    "incident_id": "sar__great_barrier_reef_marine_park_0036",
     "mpa_name": "Great Barrier Reef Marine Park",
     "wdpa_id": null,
     "mpa_iucn_cat": "VI",
@@ -3483,11 +3529,11 @@
     "eez_iso_sov": "AUS",
     "eez_foreign": null,
     "evidence_schema": "seavigil-evidence-1.0",
-    "evidence_hash": "7a5a8e0d3ec31597d2796c28dea1dae62d86cc6fc189b4fba6ca2428a1ffd1c7"
+    "evidence_hash": "ad4693a6e3c58c6addcb3e3517bae85071fcf67d4d992ae3e05077948b3000c1"
   },
   {
     "type": "dark_vessel_sar",
-    "incident_id": "sar__great_barrier_reef_marine_park_0036",
+    "incident_id": "sar__great_barrier_reef_marine_park_0037",
     "mpa_name": "Great Barrier Reef Marine Park",
     "wdpa_id": null,
     "mpa_iucn_cat": "VI",
@@ -3529,11 +3575,11 @@
     "eez_iso_sov": "AUS",
     "eez_foreign": null,
     "evidence_schema": "seavigil-evidence-1.0",
-    "evidence_hash": "816d763f6efed5c420a9b0b4c7de3e7cd59fa23ac343c55d56ca25101e468fe1"
+    "evidence_hash": "0880c9fe2538001638c69674c7913b01151a23c5a6d6a1530a57880f87d996fb"
   },
   {
     "type": "dark_vessel_sar",
-    "incident_id": "sar__great_barrier_reef_marine_park_0037",
+    "incident_id": "sar__great_barrier_reef_marine_park_0038",
     "mpa_name": "Great Barrier Reef Marine Park",
     "wdpa_id": null,
     "mpa_iucn_cat": "VI",
@@ -3575,11 +3621,11 @@
     "eez_iso_sov": "AUS",
     "eez_foreign": null,
     "evidence_schema": "seavigil-evidence-1.0",
-    "evidence_hash": "19bd4c583872e733ce0e9b6bf69b16dfd74327412f08af6128a3859b40fdd048"
+    "evidence_hash": "962cab9117c95b5699157e69109cf12b345ad0285f1529d6b13d5d27bf06d41a"
   },
   {
     "type": "dark_vessel_sar",
-    "incident_id": "sar__great_barrier_reef_marine_park_0038",
+    "incident_id": "sar__great_barrier_reef_marine_park_0039",
     "mpa_name": "Great Barrier Reef Marine Park",
     "wdpa_id": null,
     "mpa_iucn_cat": "VI",
@@ -3621,11 +3667,11 @@
     "eez_iso_sov": "AUS",
     "eez_foreign": null,
     "evidence_schema": "seavigil-evidence-1.0",
-    "evidence_hash": "09e61a454df71bd4b7964d859ff9c969a84e842e5be1332c9b6eed45f00ad8ba"
+    "evidence_hash": "61d649524e1f9c57fd4da9071dfc41d26b3aac49ff5092537853e137bf38a2cf"
   },
   {
     "type": "dark_vessel_sar",
-    "incident_id": "sar__great_barrier_reef_marine_park_0039",
+    "incident_id": "sar__great_barrier_reef_marine_park_0040",
     "mpa_name": "Great Barrier Reef Marine Park",
     "wdpa_id": null,
     "mpa_iucn_cat": "VI",
@@ -3667,11 +3713,11 @@
     "eez_iso_sov": "AUS",
     "eez_foreign": null,
     "evidence_schema": "seavigil-evidence-1.0",
-    "evidence_hash": "0011a7c0f030a53786f71f81d1c7b7147b07dbcddda0083e8bad061503e17a46"
+    "evidence_hash": "1dd839825dc343c12c7fbfe36495e1e11bb088df1e69dfdf1335763e8a19f0af"
   },
   {
     "type": "dark_vessel_sar",
-    "incident_id": "sar__great_barrier_reef_marine_park_0040",
+    "incident_id": "sar__great_barrier_reef_marine_park_0041",
     "mpa_name": "Great Barrier Reef Marine Park",
     "wdpa_id": null,
     "mpa_iucn_cat": "VI",
@@ -3713,11 +3759,11 @@
     "eez_iso_sov": "AUS",
     "eez_foreign": null,
     "evidence_schema": "seavigil-evidence-1.0",
-    "evidence_hash": "4b0997ee9ccdf74aa68b31ad93a09a5a650be05d13f403faa20dde5874d6b8c6"
+    "evidence_hash": "b6f454d3fe19ad5147bc4d8e59ee70e7b86836678366d6692b809e2772f53aac"
   },
   {
     "type": "dark_vessel_sar",
-    "incident_id": "sar__great_barrier_reef_marine_park_0041",
+    "incident_id": "sar__great_barrier_reef_marine_park_0042",
     "mpa_name": "Great Barrier Reef Marine Park",
     "wdpa_id": null,
     "mpa_iucn_cat": "VI",
@@ -3759,11 +3805,11 @@
     "eez_iso_sov": "AUS",
     "eez_foreign": null,
     "evidence_schema": "seavigil-evidence-1.0",
-    "evidence_hash": "59872a299e2bf209a056ffbfa9c4bbbfc2dd411dc3b9e13360e7bf9d521a6d1c"
+    "evidence_hash": "6ddd44092d1a905c5b374f718e92a8436d72e65761a21159d91e3e01f58ca9d8"
   },
   {
     "type": "dark_vessel_sar",
-    "incident_id": "sar__great_barrier_reef_marine_park_0042",
+    "incident_id": "sar__great_barrier_reef_marine_park_0043",
     "mpa_name": "Great Barrier Reef Marine Park",
     "wdpa_id": null,
     "mpa_iucn_cat": "VI",
@@ -3805,11 +3851,11 @@
     "eez_iso_sov": "AUS",
     "eez_foreign": null,
     "evidence_schema": "seavigil-evidence-1.0",
-    "evidence_hash": "f7845e8b3726b230e1732a1c8acad25e796f1d0a99249c27a8d78afef658e6fb"
+    "evidence_hash": "5601e232b0f1c249a9c325235d2832b3b2002d25133d36fdacd84b61dfc28bb7"
   },
   {
     "type": "dark_vessel_sar",
-    "incident_id": "sar__great_barrier_reef_marine_park_0043",
+    "incident_id": "sar__great_barrier_reef_marine_park_0044",
     "mpa_name": "Great Barrier Reef Marine Park",
     "wdpa_id": null,
     "mpa_iucn_cat": "VI",
@@ -3851,11 +3897,11 @@
     "eez_iso_sov": "AUS",
     "eez_foreign": null,
     "evidence_schema": "seavigil-evidence-1.0",
-    "evidence_hash": "347c4147cbbf6483a1cdb90261a0dc9c2e684759a57240ffd65795f91d873908"
+    "evidence_hash": "edf7be68e048043f04ac0797c1dc04b86f52290b2f3a9323c6bb249e8cc9bc5d"
   },
   {
     "type": "dark_vessel_sar",
-    "incident_id": "sar__great_barrier_reef_marine_park_0044",
+    "incident_id": "sar__great_barrier_reef_marine_park_0045",
     "mpa_name": "Great Barrier Reef Marine Park",
     "wdpa_id": null,
     "mpa_iucn_cat": "VI",
@@ -3897,11 +3943,11 @@
     "eez_iso_sov": "AUS",
     "eez_foreign": null,
     "evidence_schema": "seavigil-evidence-1.0",
-    "evidence_hash": "bb35c4cd70d79e192376a76f5510397857e30fea035456fd7a801ad133676ff3"
+    "evidence_hash": "be59c21c6a967f7c08e4532f4613d4335213bc56ee272c1060a726f5cb6c7555"
   },
   {
     "type": "dark_vessel_sar",
-    "incident_id": "sar__great_barrier_reef_marine_park_0045",
+    "incident_id": "sar__great_barrier_reef_marine_park_0046",
     "mpa_name": "Great Barrier Reef Marine Park",
     "wdpa_id": null,
     "mpa_iucn_cat": "VI",
@@ -3943,11 +3989,11 @@
     "eez_iso_sov": "AUS",
     "eez_foreign": null,
     "evidence_schema": "seavigil-evidence-1.0",
-    "evidence_hash": "c6cf0c1cb92f1acefe9a292c84b37f388f2ce914027847dc8e0521a04dfbaf78"
+    "evidence_hash": "475a0622c665c35e95223af0a3792784fbfa2ba6515bc36d584645cfd21855ca"
   },
   {
     "type": "dark_vessel_sar",
-    "incident_id": "sar__great_barrier_reef_marine_park_0046",
+    "incident_id": "sar__great_barrier_reef_marine_park_0047",
     "mpa_name": "Great Barrier Reef Marine Park",
     "wdpa_id": null,
     "mpa_iucn_cat": "VI",
@@ -3989,11 +4035,11 @@
     "eez_iso_sov": "AUS",
     "eez_foreign": null,
     "evidence_schema": "seavigil-evidence-1.0",
-    "evidence_hash": "10170ed97ecc362b1b1b55aec307d93449c76ee5eba2576e778f9071dde6d989"
+    "evidence_hash": "81f93674bed774f8052e0946be659aafc3f401545f4ad1922ea31bd369c0ea37"
   },
   {
     "type": "dark_vessel_sar",
-    "incident_id": "sar__great_barrier_reef_marine_park_0047",
+    "incident_id": "sar__great_barrier_reef_marine_park_0048",
     "mpa_name": "Great Barrier Reef Marine Park",
     "wdpa_id": null,
     "mpa_iucn_cat": "VI",
@@ -4035,11 +4081,11 @@
     "eez_iso_sov": "AUS",
     "eez_foreign": null,
     "evidence_schema": "seavigil-evidence-1.0",
-    "evidence_hash": "8b0df56e3407e2623ab26456beb1bb73d7e93c46401db523c21de1a4f0654705"
+    "evidence_hash": "9aa13d79c60d4047aac2b33143b467b608f25627a48c451a2fbfca0b29e0fb89"
   },
   {
     "type": "dark_vessel_sar",
-    "incident_id": "sar__great_barrier_reef_marine_park_0048",
+    "incident_id": "sar__great_barrier_reef_marine_park_0049",
     "mpa_name": "Great Barrier Reef Marine Park",
     "wdpa_id": null,
     "mpa_iucn_cat": "VI",
@@ -4081,11 +4127,57 @@
     "eez_iso_sov": "AUS",
     "eez_foreign": null,
     "evidence_schema": "seavigil-evidence-1.0",
-    "evidence_hash": "4513e06e209fe2a7ae50c0b766f4ab39837ddd9003504ad4f761b343f93790a5"
+    "evidence_hash": "70608d4a82338dc0b3fd963b47d42093c68c9d8b7ffc8763fdb5973e88269601"
   },
   {
     "type": "dark_vessel_sar",
-    "incident_id": "sar__great_barrier_reef_marine_park_0049",
+    "incident_id": "sar__great_barrier_reef_marine_park_0050",
+    "mpa_name": "Great Barrier Reef Marine Park",
+    "wdpa_id": null,
+    "mpa_iucn_cat": "VI",
+    "mpa_no_take": "None",
+    "mpa_version": "sample-approx-2024",
+    "severity": "low",
+    "severity_reason": "multi-use protected area",
+    "vessel_id": "(dark -- no AIS identity)",
+    "gear": "SAR (dark)",
+    "flag": null,
+    "time_start_utc": "2024-03-06T19:29:20Z",
+    "time_end_utc": "2024-03-06T19:29:20Z",
+    "duration_hours": 0.0,
+    "n_positions": 1,
+    "n_fishing_positions": 1,
+    "mean_fishing_proba": null,
+    "max_fishing_proba": null,
+    "centroid_lat": -21.19,
+    "centroid_lon": 149.58999633789062,
+    "length_m": null,
+    "matched_to_ais": false,
+    "explanation": {
+      "method": "SAR detection attributes (no AIS track or identity; not SHAP-explainable)",
+      "drivers": [
+        "inside MPA: Great Barrier Reef Marine Park",
+        "not broadcasting AIS (dark vessel)",
+        "satellite detections in window: 2"
+      ]
+    },
+    "caveats": [
+      "Dark vessel: detected by satellite SAR but not broadcasting AIS.",
+      "Not SHAP-explainable -- a SAR detection has no movement track to attribute.",
+      "length_m and fishing_score are GFW model estimates from imagery, not ground truth.",
+      "MPA boundary may be approximate; verify against official WDPA limits.",
+      "An inspection lead, not courtroom evidence."
+    ],
+    "eez_name": "Australian Exclusive Economic Zone",
+    "eez_sovereign": "Australia",
+    "eez_iso_sov": "AUS",
+    "eez_foreign": null,
+    "evidence_schema": "seavigil-evidence-1.0",
+    "evidence_hash": "ba35a22eec1231fc6c0252aa46b5a58f1ee1f7a8d1999bdb583875e3aa53dfa6"
+  },
+  {
+    "type": "dark_vessel_sar",
+    "incident_id": "sar__great_barrier_reef_marine_park_0051",
     "mpa_name": "Great Barrier Reef Marine Park",
     "wdpa_id": null,
     "mpa_iucn_cat": "VI",
@@ -4127,11 +4219,11 @@
     "eez_iso_sov": "AUS",
     "eez_foreign": null,
     "evidence_schema": "seavigil-evidence-1.0",
-    "evidence_hash": "f4ee0f5d63e0b1b64cfd677be0e524f33936408be4a6ff759cb8acbe448b18ae"
+    "evidence_hash": "52d4e331ed7e5b6ec01bd8a1343f0b33fc210f11ea060c409e4536bb54f938ab"
   },
   {
     "type": "dark_vessel_sar",
-    "incident_id": "sar__great_barrier_reef_marine_park_0050",
+    "incident_id": "sar__great_barrier_reef_marine_park_0052",
     "mpa_name": "Great Barrier Reef Marine Park",
     "wdpa_id": null,
     "mpa_iucn_cat": "VI",
@@ -4173,11 +4265,11 @@
     "eez_iso_sov": "AUS",
     "eez_foreign": null,
     "evidence_schema": "seavigil-evidence-1.0",
-    "evidence_hash": "9dcf22123cc74ce4f570777fb4241ea201a2db1bfb31e29c0cdcf84c9a483ff7"
+    "evidence_hash": "0369ec227cce927fdf63ec013bad8a48735470ab30161ba3d5d0586ca2bc4961"
   },
   {
     "type": "dark_vessel_sar",
-    "incident_id": "sar__great_barrier_reef_marine_park_0051",
+    "incident_id": "sar__great_barrier_reef_marine_park_0053",
     "mpa_name": "Great Barrier Reef Marine Park",
     "wdpa_id": null,
     "mpa_iucn_cat": "VI",
@@ -4219,11 +4311,11 @@
     "eez_iso_sov": "AUS",
     "eez_foreign": null,
     "evidence_schema": "seavigil-evidence-1.0",
-    "evidence_hash": "1427ac96e29ddaf229f8e12036eaa88ccac1a0d1d183ed4d484a29ea9cc9c7a4"
+    "evidence_hash": "d53cccfb24f46e189b6aa48ce9eeca60239a945bb3dc2f158dc9e8a20ba79353"
   },
   {
     "type": "dark_vessel_sar",
-    "incident_id": "sar__great_barrier_reef_marine_park_0052",
+    "incident_id": "sar__great_barrier_reef_marine_park_0054",
     "mpa_name": "Great Barrier Reef Marine Park",
     "wdpa_id": null,
     "mpa_iucn_cat": "VI",
@@ -4265,11 +4357,11 @@
     "eez_iso_sov": "AUS",
     "eez_foreign": null,
     "evidence_schema": "seavigil-evidence-1.0",
-    "evidence_hash": "823dc413b6861942c36f6f6fb6ddb7f9cd0d65ae60addd37eb50c6f97e0cfbab"
+    "evidence_hash": "06b5f8ea808375e674448d2d86cb63256290491b269486730ff99256eea14817"
   },
   {
     "type": "dark_vessel_sar",
-    "incident_id": "sar__great_barrier_reef_marine_park_0053",
+    "incident_id": "sar__great_barrier_reef_marine_park_0055",
     "mpa_name": "Great Barrier Reef Marine Park",
     "wdpa_id": null,
     "mpa_iucn_cat": "VI",
@@ -4311,11 +4403,11 @@
     "eez_iso_sov": "AUS",
     "eez_foreign": null,
     "evidence_schema": "seavigil-evidence-1.0",
-    "evidence_hash": "4e03e5878429ecd25cb4f03517e141621109aa954b6b922fbe02ad7a21dbee2a"
+    "evidence_hash": "7d62e9f01fdedb79932457668bee4c8c1e2af82572fdcc9af6413196d50c8cc6"
   },
   {
     "type": "dark_vessel_sar",
-    "incident_id": "sar__great_barrier_reef_marine_park_0054",
+    "incident_id": "sar__great_barrier_reef_marine_park_0056",
     "mpa_name": "Great Barrier Reef Marine Park",
     "wdpa_id": null,
     "mpa_iucn_cat": "VI",
@@ -4357,11 +4449,11 @@
     "eez_iso_sov": "AUS",
     "eez_foreign": null,
     "evidence_schema": "seavigil-evidence-1.0",
-    "evidence_hash": "822ecc7d6be85a265dc64b2be64307489867798b27eb11233ad36aae90e58094"
+    "evidence_hash": "1d799abb12893be342d0094102d0a4fc481d1e43aa61d6df7385afdc7e80e607"
   },
   {
     "type": "dark_vessel_sar",
-    "incident_id": "sar__great_barrier_reef_marine_park_0055",
+    "incident_id": "sar__great_barrier_reef_marine_park_0057",
     "mpa_name": "Great Barrier Reef Marine Park",
     "wdpa_id": null,
     "mpa_iucn_cat": "VI",
@@ -4403,11 +4495,11 @@
     "eez_iso_sov": "AUS",
     "eez_foreign": null,
     "evidence_schema": "seavigil-evidence-1.0",
-    "evidence_hash": "531977a12276153d546de1a0a43292869807abb1c703344fe21c90bf672647d2"
+    "evidence_hash": "d7f127d8525ef40c2fe1ef57ec6bab9354691d0dd72f1626fbc9c6792891e81a"
   },
   {
     "type": "dark_vessel_sar",
-    "incident_id": "sar__great_barrier_reef_marine_park_0056",
+    "incident_id": "sar__great_barrier_reef_marine_park_0058",
     "mpa_name": "Great Barrier Reef Marine Park",
     "wdpa_id": null,
     "mpa_iucn_cat": "VI",
@@ -4449,11 +4541,11 @@
     "eez_iso_sov": "AUS",
     "eez_foreign": null,
     "evidence_schema": "seavigil-evidence-1.0",
-    "evidence_hash": "19901eef742a0e8acc8f874209a460b55355670cf9aa17b20a5549cd9a2688f6"
+    "evidence_hash": "a2af31acc1ff8cab150f562c9b39a4ac87c0a3075eba2467993ba3e2c64f6bda"
   },
   {
     "type": "dark_vessel_sar",
-    "incident_id": "sar__great_barrier_reef_marine_park_0057",
+    "incident_id": "sar__great_barrier_reef_marine_park_0059",
     "mpa_name": "Great Barrier Reef Marine Park",
     "wdpa_id": null,
     "mpa_iucn_cat": "VI",
@@ -4495,11 +4587,11 @@
     "eez_iso_sov": "AUS",
     "eez_foreign": null,
     "evidence_schema": "seavigil-evidence-1.0",
-    "evidence_hash": "9a09ead023c5dec6e9e2fe5e23e2691863dd476ff1c5673376d12e13a90db714"
+    "evidence_hash": "9184cd0b12adbaf55f8a7b0152091b09ae88e22bf19835d3ece2074845333fcf"
   },
   {
     "type": "dark_vessel_sar",
-    "incident_id": "sar__great_barrier_reef_marine_park_0058",
+    "incident_id": "sar__great_barrier_reef_marine_park_0060",
     "mpa_name": "Great Barrier Reef Marine Park",
     "wdpa_id": null,
     "mpa_iucn_cat": "VI",
@@ -4541,11 +4633,11 @@
     "eez_iso_sov": "AUS",
     "eez_foreign": null,
     "evidence_schema": "seavigil-evidence-1.0",
-    "evidence_hash": "5fe1e14cc68498b5bf59c1e2ea3914fba70f7815031e224d29cad67d29556be0"
+    "evidence_hash": "7c846bb3ca10979ac4a5b175218cac16b1c84de47fae3d9b69aa52f4c96867d7"
   },
   {
     "type": "dark_vessel_sar",
-    "incident_id": "sar__great_barrier_reef_marine_park_0059",
+    "incident_id": "sar__great_barrier_reef_marine_park_0061",
     "mpa_name": "Great Barrier Reef Marine Park",
     "wdpa_id": null,
     "mpa_iucn_cat": "VI",
@@ -4587,11 +4679,11 @@
     "eez_iso_sov": "AUS",
     "eez_foreign": null,
     "evidence_schema": "seavigil-evidence-1.0",
-    "evidence_hash": "4b544df9f4b0fdc2b7863b9fbe6a12dd19139ea822a3e114d307907d0c8893cc"
+    "evidence_hash": "8300a95366981b7dd5ca20d20ab32eda8640b1c95feaeaa5fed94e53f60d063d"
   },
   {
     "type": "dark_vessel_sar",
-    "incident_id": "sar__great_barrier_reef_marine_park_0060",
+    "incident_id": "sar__great_barrier_reef_marine_park_0062",
     "mpa_name": "Great Barrier Reef Marine Park",
     "wdpa_id": null,
     "mpa_iucn_cat": "VI",
@@ -4633,11 +4725,11 @@
     "eez_iso_sov": "AUS",
     "eez_foreign": null,
     "evidence_schema": "seavigil-evidence-1.0",
-    "evidence_hash": "2fc630ee460deef394b5c12e3a4ddbcdb379c06c4201c6b0f523ec8904e784d4"
+    "evidence_hash": "e6f51c775d4c4153ec6a07882d6bb85a25a9b248ba90027b5536d1ffdd57a3cf"
   },
   {
     "type": "dark_vessel_sar",
-    "incident_id": "sar__great_barrier_reef_marine_park_0061",
+    "incident_id": "sar__great_barrier_reef_marine_park_0063",
     "mpa_name": "Great Barrier Reef Marine Park",
     "wdpa_id": null,
     "mpa_iucn_cat": "VI",
@@ -4679,11 +4771,11 @@
     "eez_iso_sov": "AUS",
     "eez_foreign": null,
     "evidence_schema": "seavigil-evidence-1.0",
-    "evidence_hash": "099abe0752338b4d262c2f4b53019689c87eda9a5eea1f0a6bdaf1736b74d2b5"
+    "evidence_hash": "1a332c38f60029e3b5911c5b27a2b8daca65a294631c53b0b87b3b5631b71ea1"
   },
   {
     "type": "dark_vessel_sar",
-    "incident_id": "sar__great_barrier_reef_marine_park_0062",
+    "incident_id": "sar__great_barrier_reef_marine_park_0064",
     "mpa_name": "Great Barrier Reef Marine Park",
     "wdpa_id": null,
     "mpa_iucn_cat": "VI",
@@ -4725,11 +4817,57 @@
     "eez_iso_sov": "AUS",
     "eez_foreign": null,
     "evidence_schema": "seavigil-evidence-1.0",
-    "evidence_hash": "ec30f38b438aa9df1f71ea2a78a426b947e1c734a4bee2bf0db5b091fba6be7f"
+    "evidence_hash": "822cb1152eac6381777c2f5be1aac10790e6e077cadbccd1f09e6cd4545f30fb"
   },
   {
     "type": "dark_vessel_sar",
-    "incident_id": "sar__great_barrier_reef_marine_park_0063",
+    "incident_id": "sar__great_barrier_reef_marine_park_0065",
+    "mpa_name": "Great Barrier Reef Marine Park",
+    "wdpa_id": null,
+    "mpa_iucn_cat": "VI",
+    "mpa_no_take": "None",
+    "mpa_version": "sample-approx-2024",
+    "severity": "low",
+    "severity_reason": "multi-use protected area",
+    "vessel_id": "(dark -- no AIS identity)",
+    "gear": "SAR (dark)",
+    "flag": null,
+    "time_start_utc": "2024-12-14T19:21:45Z",
+    "time_end_utc": "2024-12-14T19:21:45Z",
+    "duration_hours": 0.0,
+    "n_positions": 1,
+    "n_fishing_positions": 1,
+    "mean_fishing_proba": null,
+    "max_fishing_proba": null,
+    "centroid_lat": -23.83,
+    "centroid_lon": 151.52000427246094,
+    "length_m": null,
+    "matched_to_ais": false,
+    "explanation": {
+      "method": "SAR detection attributes (no AIS track or identity; not SHAP-explainable)",
+      "drivers": [
+        "inside MPA: Great Barrier Reef Marine Park",
+        "not broadcasting AIS (dark vessel)",
+        "satellite detections in window: 2"
+      ]
+    },
+    "caveats": [
+      "Dark vessel: detected by satellite SAR but not broadcasting AIS.",
+      "Not SHAP-explainable -- a SAR detection has no movement track to attribute.",
+      "length_m and fishing_score are GFW model estimates from imagery, not ground truth.",
+      "MPA boundary may be approximate; verify against official WDPA limits.",
+      "An inspection lead, not courtroom evidence."
+    ],
+    "eez_name": "Australian Exclusive Economic Zone",
+    "eez_sovereign": "Australia",
+    "eez_iso_sov": "AUS",
+    "eez_foreign": null,
+    "evidence_schema": "seavigil-evidence-1.0",
+    "evidence_hash": "f82745e48dae2bdb5b5a9fa2ebf40dd224e8d76216a3490d51e50253e431a653"
+  },
+  {
+    "type": "dark_vessel_sar",
+    "incident_id": "sar__great_barrier_reef_marine_park_0066",
     "mpa_name": "Great Barrier Reef Marine Park",
     "wdpa_id": null,
     "mpa_iucn_cat": "VI",
@@ -4771,11 +4909,57 @@
     "eez_iso_sov": "AUS",
     "eez_foreign": null,
     "evidence_schema": "seavigil-evidence-1.0",
-    "evidence_hash": "1d1cc06d3d20ddc7b8979d116aaee713a451024677406f419f116a3db12594bd"
+    "evidence_hash": "7253ca9724fc4732a66dd36bfc9e687722b29677dfba49ef79ba53b0464b7c38"
   },
   {
     "type": "dark_vessel_sar",
-    "incident_id": "sar__great_barrier_reef_marine_park_0064",
+    "incident_id": "sar__great_barrier_reef_marine_park_0067",
+    "mpa_name": "Great Barrier Reef Marine Park",
+    "wdpa_id": null,
+    "mpa_iucn_cat": "VI",
+    "mpa_no_take": "None",
+    "mpa_version": "sample-approx-2024",
+    "severity": "low",
+    "severity_reason": "multi-use protected area",
+    "vessel_id": "(dark -- no AIS identity)",
+    "gear": "SAR (dark)",
+    "flag": null,
+    "time_start_utc": "2024-04-06T19:21:48Z",
+    "time_end_utc": "2024-04-06T19:21:48Z",
+    "duration_hours": 0.0,
+    "n_positions": 1,
+    "n_fishing_positions": 1,
+    "mean_fishing_proba": null,
+    "max_fishing_proba": null,
+    "centroid_lat": -23.9,
+    "centroid_lon": 151.61000061035156,
+    "length_m": null,
+    "matched_to_ais": false,
+    "explanation": {
+      "method": "SAR detection attributes (no AIS track or identity; not SHAP-explainable)",
+      "drivers": [
+        "inside MPA: Great Barrier Reef Marine Park",
+        "not broadcasting AIS (dark vessel)",
+        "satellite detections in window: 2"
+      ]
+    },
+    "caveats": [
+      "Dark vessel: detected by satellite SAR but not broadcasting AIS.",
+      "Not SHAP-explainable -- a SAR detection has no movement track to attribute.",
+      "length_m and fishing_score are GFW model estimates from imagery, not ground truth.",
+      "MPA boundary may be approximate; verify against official WDPA limits.",
+      "An inspection lead, not courtroom evidence."
+    ],
+    "eez_name": "Australian Exclusive Economic Zone",
+    "eez_sovereign": "Australia",
+    "eez_iso_sov": "AUS",
+    "eez_foreign": null,
+    "evidence_schema": "seavigil-evidence-1.0",
+    "evidence_hash": "2c939fb2c9f497b6842031fbfe26c2eacab7dbca3b9a208e220100c1d86bfaa0"
+  },
+  {
+    "type": "dark_vessel_sar",
+    "incident_id": "sar__great_barrier_reef_marine_park_0068",
     "mpa_name": "Great Barrier Reef Marine Park",
     "wdpa_id": null,
     "mpa_iucn_cat": "VI",
@@ -4817,11 +5001,11 @@
     "eez_iso_sov": "AUS",
     "eez_foreign": null,
     "evidence_schema": "seavigil-evidence-1.0",
-    "evidence_hash": "e256242d766be27f20fa85006b29213d282e172ef78f5cd5f538170865b35305"
+    "evidence_hash": "41296922ffbb50fa8427f5ebab5c4a46195b38c8423ca0370e73ba5efb56051b"
   },
   {
     "type": "dark_vessel_sar",
-    "incident_id": "sar__great_barrier_reef_marine_park_0065",
+    "incident_id": "sar__great_barrier_reef_marine_park_0069",
     "mpa_name": "Great Barrier Reef Marine Park",
     "wdpa_id": null,
     "mpa_iucn_cat": "VI",
@@ -4863,11 +5047,11 @@
     "eez_iso_sov": "AUS",
     "eez_foreign": null,
     "evidence_schema": "seavigil-evidence-1.0",
-    "evidence_hash": "9e9643b7ed45f9d0e75370bb86248cf65a6bb0c186df05bbcf8c413535b862f6"
+    "evidence_hash": "0c52424db2c545f2f8263170fa84684f56339e77c7e8fb93c325227a7474739c"
   },
   {
     "type": "dark_vessel_sar",
-    "incident_id": "sar__great_barrier_reef_marine_park_0066",
+    "incident_id": "sar__great_barrier_reef_marine_park_0070",
     "mpa_name": "Great Barrier Reef Marine Park",
     "wdpa_id": null,
     "mpa_iucn_cat": "VI",
@@ -4909,11 +5093,11 @@
     "eez_iso_sov": "AUS",
     "eez_foreign": null,
     "evidence_schema": "seavigil-evidence-1.0",
-    "evidence_hash": "05d06796679874dbac3399f9852f1f5e2c929277e4e866b40141d4b4e6b41108"
+    "evidence_hash": "df92dfbfbb1350729439f69c95ef1f7963fda3b7121dcf2efbac0beef9872a4b"
   },
   {
     "type": "dark_vessel_sar",
-    "incident_id": "sar__great_barrier_reef_marine_park_0067",
+    "incident_id": "sar__great_barrier_reef_marine_park_0071",
     "mpa_name": "Great Barrier Reef Marine Park",
     "wdpa_id": null,
     "mpa_iucn_cat": "VI",
@@ -4955,11 +5139,11 @@
     "eez_iso_sov": "AUS",
     "eez_foreign": null,
     "evidence_schema": "seavigil-evidence-1.0",
-    "evidence_hash": "e6546513805fb86016521cd15ec92918c524cb9bf1a6c4a3c8421cd36291583d"
+    "evidence_hash": "b26345116bb13e19f7d4df71525ad4e8ead12963a182e37dab0f317aad949fcc"
   },
   {
     "type": "dark_vessel_sar",
-    "incident_id": "sar__great_barrier_reef_marine_park_0068",
+    "incident_id": "sar__great_barrier_reef_marine_park_0072",
     "mpa_name": "Great Barrier Reef Marine Park",
     "wdpa_id": null,
     "mpa_iucn_cat": "VI",
@@ -5001,11 +5185,11 @@
     "eez_iso_sov": "AUS",
     "eez_foreign": null,
     "evidence_schema": "seavigil-evidence-1.0",
-    "evidence_hash": "8e6ff73a73a5a3d31c47aee1680337dd7dfe43e02ef6668c90acc889cd94f6a1"
+    "evidence_hash": "ab4a8de3a77cea28994a37fe879dd8e9abfa1845dc4016fec07147f18e71810b"
   },
   {
     "type": "dark_vessel_sar",
-    "incident_id": "sar__great_barrier_reef_marine_park_0069",
+    "incident_id": "sar__great_barrier_reef_marine_park_0073",
     "mpa_name": "Great Barrier Reef Marine Park",
     "wdpa_id": null,
     "mpa_iucn_cat": "VI",
@@ -5047,11 +5231,11 @@
     "eez_iso_sov": "AUS",
     "eez_foreign": null,
     "evidence_schema": "seavigil-evidence-1.0",
-    "evidence_hash": "0b7e7e0c4df7dbcfbda58502808686bc9cc3cf81407365d351f3d92345eaa6a8"
+    "evidence_hash": "f86ee8ea1a6fc1cb00702e8f713a6b9482dcfe84889272415d6eec565b18bd75"
   },
   {
     "type": "dark_vessel_sar",
-    "incident_id": "sar__great_barrier_reef_marine_park_0070",
+    "incident_id": "sar__great_barrier_reef_marine_park_0074",
     "mpa_name": "Great Barrier Reef Marine Park",
     "wdpa_id": null,
     "mpa_iucn_cat": "VI",
@@ -5093,11 +5277,11 @@
     "eez_iso_sov": "AUS",
     "eez_foreign": null,
     "evidence_schema": "seavigil-evidence-1.0",
-    "evidence_hash": "aecde36a602eccb01af12cc5c7bd6d20872c4ceb8e7b77403f5d7594259dc7ea"
+    "evidence_hash": "ec06c77bdeb9d779ba64321d454395bc9a221179cdc18ecf63b94f4c508c6c45"
   },
   {
     "type": "dark_vessel_sar",
-    "incident_id": "sar__great_barrier_reef_marine_park_0071",
+    "incident_id": "sar__great_barrier_reef_marine_park_0075",
     "mpa_name": "Great Barrier Reef Marine Park",
     "wdpa_id": null,
     "mpa_iucn_cat": "VI",
@@ -5139,11 +5323,11 @@
     "eez_iso_sov": "AUS",
     "eez_foreign": null,
     "evidence_schema": "seavigil-evidence-1.0",
-    "evidence_hash": "0039255d28584c3dbc61376f4b727576356acfca1aa8adad187f02e3ed05c0cd"
+    "evidence_hash": "63667f2c65692e6815ead79a4046a1245664cbb468f2724cb9bb14bca0298db0"
   },
   {
     "type": "dark_vessel_sar",
-    "incident_id": "sar__great_barrier_reef_marine_park_0072",
+    "incident_id": "sar__great_barrier_reef_marine_park_0076",
     "mpa_name": "Great Barrier Reef Marine Park",
     "wdpa_id": null,
     "mpa_iucn_cat": "VI",
@@ -5185,11 +5369,11 @@
     "eez_iso_sov": "AUS",
     "eez_foreign": null,
     "evidence_schema": "seavigil-evidence-1.0",
-    "evidence_hash": "f9a312626e08376918a7698e42314ded85910a34ff8260380eb53f77499359db"
+    "evidence_hash": "68636b9f64ac26f8a2e1fdd2d1a30b5db7ae87338f175d29d5de51255957c3cb"
   },
   {
     "type": "dark_vessel_sar",
-    "incident_id": "sar__great_barrier_reef_marine_park_0073",
+    "incident_id": "sar__great_barrier_reef_marine_park_0077",
     "mpa_name": "Great Barrier Reef Marine Park",
     "wdpa_id": null,
     "mpa_iucn_cat": "VI",
@@ -5231,11 +5415,11 @@
     "eez_iso_sov": "AUS",
     "eez_foreign": null,
     "evidence_schema": "seavigil-evidence-1.0",
-    "evidence_hash": "d17bc8a949cbd2a480c84795adda272a683784da8f292e2d921f9f2ce0e7f929"
+    "evidence_hash": "a19a7d0b9f00f26b66cf6c54372761da0ef1127fe1893d5ba1f606dded9c0d63"
   },
   {
     "type": "dark_vessel_sar",
-    "incident_id": "sar__great_barrier_reef_marine_park_0074",
+    "incident_id": "sar__great_barrier_reef_marine_park_0078",
     "mpa_name": "Great Barrier Reef Marine Park",
     "wdpa_id": null,
     "mpa_iucn_cat": "VI",
@@ -5277,11 +5461,57 @@
     "eez_iso_sov": "AUS",
     "eez_foreign": null,
     "evidence_schema": "seavigil-evidence-1.0",
-    "evidence_hash": "c9de20cee8a86db1f4842342d63a6a79e5367adf561388f8cf3ad1dc5d52a68b"
+    "evidence_hash": "a39d99e7ea63e4f94d57bfc03c3ce19ecb1e358d0cc30f342a3e8b61d937b2f1"
   },
   {
     "type": "dark_vessel_sar",
-    "incident_id": "sar__great_barrier_reef_marine_park_0075",
+    "incident_id": "sar__great_barrier_reef_marine_park_0079",
+    "mpa_name": "Great Barrier Reef Marine Park",
+    "wdpa_id": null,
+    "mpa_iucn_cat": "VI",
+    "mpa_no_take": "None",
+    "mpa_version": "sample-approx-2024",
+    "severity": "low",
+    "severity_reason": "multi-use protected area",
+    "vessel_id": "(dark -- no AIS identity)",
+    "gear": "SAR (dark)",
+    "flag": null,
+    "time_start_utc": "2024-02-06T19:21:47Z",
+    "time_end_utc": "2024-02-06T19:21:47Z",
+    "duration_hours": 0.0,
+    "n_positions": 1,
+    "n_fishing_positions": 1,
+    "mean_fishing_proba": null,
+    "max_fishing_proba": null,
+    "centroid_lat": -23.85,
+    "centroid_lon": 151.4600067138672,
+    "length_m": null,
+    "matched_to_ais": false,
+    "explanation": {
+      "method": "SAR detection attributes (no AIS track or identity; not SHAP-explainable)",
+      "drivers": [
+        "inside MPA: Great Barrier Reef Marine Park",
+        "not broadcasting AIS (dark vessel)",
+        "satellite detections in window: 2"
+      ]
+    },
+    "caveats": [
+      "Dark vessel: detected by satellite SAR but not broadcasting AIS.",
+      "Not SHAP-explainable -- a SAR detection has no movement track to attribute.",
+      "length_m and fishing_score are GFW model estimates from imagery, not ground truth.",
+      "MPA boundary may be approximate; verify against official WDPA limits.",
+      "An inspection lead, not courtroom evidence."
+    ],
+    "eez_name": "Australian Exclusive Economic Zone",
+    "eez_sovereign": "Australia",
+    "eez_iso_sov": "AUS",
+    "eez_foreign": null,
+    "evidence_schema": "seavigil-evidence-1.0",
+    "evidence_hash": "b2f107096e6562c023c50d3054c35643027e0ebeff652a1e908375ffd1e094e7"
+  },
+  {
+    "type": "dark_vessel_sar",
+    "incident_id": "sar__great_barrier_reef_marine_park_0080",
     "mpa_name": "Great Barrier Reef Marine Park",
     "wdpa_id": null,
     "mpa_iucn_cat": "VI",
@@ -5323,11 +5553,11 @@
     "eez_iso_sov": "AUS",
     "eez_foreign": null,
     "evidence_schema": "seavigil-evidence-1.0",
-    "evidence_hash": "0a28cbb8a8d2d359dd1f494a96a8fa5fbc5dac255418df36d0a04b20ad9d1f1a"
+    "evidence_hash": "0d6fe76bc6139397b9a399572009489f9a0fc5fcf59044e4cfb2b97e71ccd7ed"
   },
   {
     "type": "dark_vessel_sar",
-    "incident_id": "sar__great_barrier_reef_marine_park_0076",
+    "incident_id": "sar__great_barrier_reef_marine_park_0081",
     "mpa_name": "Great Barrier Reef Marine Park",
     "wdpa_id": null,
     "mpa_iucn_cat": "VI",
@@ -5369,11 +5599,11 @@
     "eez_iso_sov": "AUS",
     "eez_foreign": null,
     "evidence_schema": "seavigil-evidence-1.0",
-    "evidence_hash": "f6880cdc6a82f196ce7551e7cc2afe15f7bae9ac3c0e997c4ef55d4fd545268a"
+    "evidence_hash": "92b407b57a1465aa7bcc5b508f7aa149b1a41b44a1bd082c4de9091524a8baf9"
   },
   {
     "type": "dark_vessel_sar",
-    "incident_id": "sar__great_barrier_reef_marine_park_0077",
+    "incident_id": "sar__great_barrier_reef_marine_park_0082",
     "mpa_name": "Great Barrier Reef Marine Park",
     "wdpa_id": null,
     "mpa_iucn_cat": "VI",
@@ -5415,11 +5645,11 @@
     "eez_iso_sov": "AUS",
     "eez_foreign": null,
     "evidence_schema": "seavigil-evidence-1.0",
-    "evidence_hash": "db21e288413d5736a18604be335767efc611f64d5aafef8280b4244e158be6fd"
+    "evidence_hash": "ff06f9302869ba7b813f6ca38c1e8c4cded0915c1d4d8657439d82db9665b354"
   },
   {
     "type": "dark_vessel_sar",
-    "incident_id": "sar__great_barrier_reef_marine_park_0078",
+    "incident_id": "sar__great_barrier_reef_marine_park_0083",
     "mpa_name": "Great Barrier Reef Marine Park",
     "wdpa_id": null,
     "mpa_iucn_cat": "VI",
@@ -5461,11 +5691,11 @@
     "eez_iso_sov": "AUS",
     "eez_foreign": null,
     "evidence_schema": "seavigil-evidence-1.0",
-    "evidence_hash": "e2bbb9bb9a6ab9d5b0288e520bd195ce5aa82323171941ef4af5b6be52cb94d3"
+    "evidence_hash": "233ec5f26f2d9e518f0d0d83f65041a831c214b7e8e3eba84280dc7c728e8d8a"
   },
   {
     "type": "dark_vessel_sar",
-    "incident_id": "sar__great_barrier_reef_marine_park_0079",
+    "incident_id": "sar__great_barrier_reef_marine_park_0084",
     "mpa_name": "Great Barrier Reef Marine Park",
     "wdpa_id": null,
     "mpa_iucn_cat": "VI",
@@ -5507,11 +5737,11 @@
     "eez_iso_sov": "AUS",
     "eez_foreign": null,
     "evidence_schema": "seavigil-evidence-1.0",
-    "evidence_hash": "a89e5dfc3bbf3d90adfbb379e3f904d862ad3eea9ffbca3b8de003d3d24b7df7"
+    "evidence_hash": "e3ea1dcf4e9637ad000110053a08f8e107e4c94a6358a3dbebca860f38d75c31"
   },
   {
     "type": "dark_vessel_sar",
-    "incident_id": "sar__great_barrier_reef_marine_park_0080",
+    "incident_id": "sar__great_barrier_reef_marine_park_0085",
     "mpa_name": "Great Barrier Reef Marine Park",
     "wdpa_id": null,
     "mpa_iucn_cat": "VI",
@@ -5553,7 +5783,7 @@
     "eez_iso_sov": "AUS",
     "eez_foreign": null,
     "evidence_schema": "seavigil-evidence-1.0",
-    "evidence_hash": "a6841e1dd3f215e6574ed47c206c4ae486e0a28878635355a8439f30b2ee8b14"
+    "evidence_hash": "0864b5cb42f829a0591edced96667b732a73ee5cd49d5d0e76bcec88f9a52425"
   },
   {
     "type": "dark_vessel_sar",
@@ -8179,7 +8409,7 @@
   },
   {
     "type": "dark_vessel_sar",
-    "incident_id": "sar__great_barrier_reef_marine_park_0081",
+    "incident_id": "sar__great_barrier_reef_marine_park_0086",
     "mpa_name": "Great Barrier Reef Marine Park",
     "wdpa_id": null,
     "mpa_iucn_cat": "VI",
@@ -8221,11 +8451,57 @@
     "eez_iso_sov": "AUS",
     "eez_foreign": null,
     "evidence_schema": "seavigil-evidence-1.0",
-    "evidence_hash": "657067cdb2ac4ce11a5b3b09724cea8cdb26b838384fa07dbb224e12e51502df"
+    "evidence_hash": "e10a3823f4796bf17643086d6a70324f519b47a138998935e7347058d736f7ca"
   },
   {
     "type": "dark_vessel_sar",
-    "incident_id": "sar__great_barrier_reef_marine_park_0082",
+    "incident_id": "sar__great_barrier_reef_marine_park_0087",
+    "mpa_name": "Great Barrier Reef Marine Park",
+    "wdpa_id": null,
+    "mpa_iucn_cat": "VI",
+    "mpa_no_take": "None",
+    "mpa_version": "sample-approx-2024",
+    "severity": "low",
+    "severity_reason": "multi-use protected area",
+    "vessel_id": "(dark -- no AIS identity)",
+    "gear": "SAR (dark)",
+    "flag": null,
+    "time_start_utc": "2024-05-01T20:00:15Z",
+    "time_end_utc": "2024-05-01T20:00:15Z",
+    "duration_hours": 0.0,
+    "n_positions": 1,
+    "n_fishing_positions": 1,
+    "mean_fishing_proba": null,
+    "max_fishing_proba": null,
+    "centroid_lat": -14.31,
+    "centroid_lon": 144.6699981689453,
+    "length_m": null,
+    "matched_to_ais": false,
+    "explanation": {
+      "method": "SAR detection attributes (no AIS track or identity; not SHAP-explainable)",
+      "drivers": [
+        "inside MPA: Great Barrier Reef Marine Park",
+        "not broadcasting AIS (dark vessel)",
+        "satellite detections in window: 1"
+      ]
+    },
+    "caveats": [
+      "Dark vessel: detected by satellite SAR but not broadcasting AIS.",
+      "Not SHAP-explainable -- a SAR detection has no movement track to attribute.",
+      "length_m and fishing_score are GFW model estimates from imagery, not ground truth.",
+      "MPA boundary may be approximate; verify against official WDPA limits.",
+      "An inspection lead, not courtroom evidence."
+    ],
+    "eez_name": "Australian Exclusive Economic Zone",
+    "eez_sovereign": "Australia",
+    "eez_iso_sov": "AUS",
+    "eez_foreign": null,
+    "evidence_schema": "seavigil-evidence-1.0",
+    "evidence_hash": "914d7b18a3f7a295a07e023cf0b0ccf0ce09abea2939e353b552c9e86943d190"
+  },
+  {
+    "type": "dark_vessel_sar",
+    "incident_id": "sar__great_barrier_reef_marine_park_0088",
     "mpa_name": "Great Barrier Reef Marine Park",
     "wdpa_id": null,
     "mpa_iucn_cat": "VI",
@@ -8267,282 +8543,6 @@
     "eez_iso_sov": "AUS",
     "eez_foreign": null,
     "evidence_schema": "seavigil-evidence-1.0",
-    "evidence_hash": "f05e872196c5328bfc8c93e7751bab5b63a4f0c861f8e8a7822e344a8c0b9dad"
-  },
-  {
-    "type": "dark_vessel_sar",
-    "incident_id": "sar__great_barrier_reef_marine_park_0083",
-    "mpa_name": "Great Barrier Reef Marine Park",
-    "wdpa_id": null,
-    "mpa_iucn_cat": "VI",
-    "mpa_no_take": "None",
-    "mpa_version": "sample-approx-2024",
-    "severity": "low",
-    "severity_reason": "multi-use protected area",
-    "vessel_id": "(dark -- no AIS identity)",
-    "gear": "SAR (dark)",
-    "flag": null,
-    "time_start_utc": "2024-01-01T08:29:59Z",
-    "time_end_utc": "2024-01-01T08:29:59Z",
-    "duration_hours": 0.0,
-    "n_positions": 1,
-    "n_fishing_positions": 1,
-    "mean_fishing_proba": null,
-    "max_fishing_proba": null,
-    "centroid_lat": -20.83,
-    "centroid_lon": 150.25,
-    "length_m": null,
-    "matched_to_ais": false,
-    "explanation": {
-      "method": "SAR detection attributes (no AIS track or identity; not SHAP-explainable)",
-      "drivers": [
-        "inside MPA: Great Barrier Reef Marine Park",
-        "not broadcasting AIS (dark vessel)",
-        "satellite detections in window: 1"
-      ]
-    },
-    "caveats": [
-      "Dark vessel: detected by satellite SAR but not broadcasting AIS.",
-      "Not SHAP-explainable -- a SAR detection has no movement track to attribute.",
-      "length_m and fishing_score are GFW model estimates from imagery, not ground truth.",
-      "MPA boundary may be approximate; verify against official WDPA limits.",
-      "An inspection lead, not courtroom evidence."
-    ],
-    "eez_name": "Australian Exclusive Economic Zone",
-    "eez_sovereign": "Australia",
-    "eez_iso_sov": "AUS",
-    "eez_foreign": null,
-    "evidence_schema": "seavigil-evidence-1.0",
-    "evidence_hash": "f676e31d95570e77b412b335d34ea796be99bcaa94dcd45f6b1426fc007243ce"
-  },
-  {
-    "type": "dark_vessel_sar",
-    "incident_id": "sar__great_barrier_reef_marine_park_0084",
-    "mpa_name": "Great Barrier Reef Marine Park",
-    "wdpa_id": null,
-    "mpa_iucn_cat": "VI",
-    "mpa_no_take": "None",
-    "mpa_version": "sample-approx-2024",
-    "severity": "low",
-    "severity_reason": "multi-use protected area",
-    "vessel_id": "(dark -- no AIS identity)",
-    "gear": "SAR (dark)",
-    "flag": null,
-    "time_start_utc": "2024-01-01T08:29:59Z",
-    "time_end_utc": "2024-01-01T08:29:59Z",
-    "duration_hours": 0.0,
-    "n_positions": 1,
-    "n_fishing_positions": 1,
-    "mean_fishing_proba": null,
-    "max_fishing_proba": null,
-    "centroid_lat": -18.91,
-    "centroid_lon": 147.22000122070312,
-    "length_m": null,
-    "matched_to_ais": false,
-    "explanation": {
-      "method": "SAR detection attributes (no AIS track or identity; not SHAP-explainable)",
-      "drivers": [
-        "inside MPA: Great Barrier Reef Marine Park",
-        "not broadcasting AIS (dark vessel)",
-        "satellite detections in window: 1"
-      ]
-    },
-    "caveats": [
-      "Dark vessel: detected by satellite SAR but not broadcasting AIS.",
-      "Not SHAP-explainable -- a SAR detection has no movement track to attribute.",
-      "length_m and fishing_score are GFW model estimates from imagery, not ground truth.",
-      "MPA boundary may be approximate; verify against official WDPA limits.",
-      "An inspection lead, not courtroom evidence."
-    ],
-    "eez_name": "Australian Exclusive Economic Zone",
-    "eez_sovereign": "Australia",
-    "eez_iso_sov": "AUS",
-    "eez_foreign": null,
-    "evidence_schema": "seavigil-evidence-1.0",
-    "evidence_hash": "a37ab3067701d13fd6fea5cc16eba6fee8d96f86735ec3788cd7cbd2d402aa48"
-  },
-  {
-    "type": "dark_vessel_sar",
-    "incident_id": "sar__great_barrier_reef_marine_park_0085",
-    "mpa_name": "Great Barrier Reef Marine Park",
-    "wdpa_id": null,
-    "mpa_iucn_cat": "VI",
-    "mpa_no_take": "None",
-    "mpa_version": "sample-approx-2024",
-    "severity": "low",
-    "severity_reason": "multi-use protected area",
-    "vessel_id": "(dark -- no AIS identity)",
-    "gear": "SAR (dark)",
-    "flag": null,
-    "time_start_utc": "2024-01-01T08:29:59Z",
-    "time_end_utc": "2024-01-01T08:29:59Z",
-    "duration_hours": 0.0,
-    "n_positions": 1,
-    "n_fishing_positions": 1,
-    "mean_fishing_proba": null,
-    "max_fishing_proba": null,
-    "centroid_lat": -15.44,
-    "centroid_lon": 145.3300018310547,
-    "length_m": null,
-    "matched_to_ais": false,
-    "explanation": {
-      "method": "SAR detection attributes (no AIS track or identity; not SHAP-explainable)",
-      "drivers": [
-        "inside MPA: Great Barrier Reef Marine Park",
-        "not broadcasting AIS (dark vessel)",
-        "satellite detections in window: 1"
-      ]
-    },
-    "caveats": [
-      "Dark vessel: detected by satellite SAR but not broadcasting AIS.",
-      "Not SHAP-explainable -- a SAR detection has no movement track to attribute.",
-      "length_m and fishing_score are GFW model estimates from imagery, not ground truth.",
-      "MPA boundary may be approximate; verify against official WDPA limits.",
-      "An inspection lead, not courtroom evidence."
-    ],
-    "eez_name": "Australian Exclusive Economic Zone",
-    "eez_sovereign": "Australia",
-    "eez_iso_sov": "AUS",
-    "eez_foreign": null,
-    "evidence_schema": "seavigil-evidence-1.0",
-    "evidence_hash": "023d032e30e059233b3fdf455a6db611bd924d7f1b8ec04e144a7deb805844ed"
-  },
-  {
-    "type": "dark_vessel_sar",
-    "incident_id": "sar__great_barrier_reef_marine_park_0086",
-    "mpa_name": "Great Barrier Reef Marine Park",
-    "wdpa_id": null,
-    "mpa_iucn_cat": "VI",
-    "mpa_no_take": "None",
-    "mpa_version": "sample-approx-2024",
-    "severity": "low",
-    "severity_reason": "multi-use protected area",
-    "vessel_id": "(dark -- no AIS identity)",
-    "gear": "SAR (dark)",
-    "flag": null,
-    "time_start_utc": "2024-01-01T08:29:59Z",
-    "time_end_utc": "2024-01-01T08:29:59Z",
-    "duration_hours": 0.0,
-    "n_positions": 1,
-    "n_fishing_positions": 1,
-    "mean_fishing_proba": null,
-    "max_fishing_proba": null,
-    "centroid_lat": -18.88,
-    "centroid_lon": 147.4499969482422,
-    "length_m": null,
-    "matched_to_ais": false,
-    "explanation": {
-      "method": "SAR detection attributes (no AIS track or identity; not SHAP-explainable)",
-      "drivers": [
-        "inside MPA: Great Barrier Reef Marine Park",
-        "not broadcasting AIS (dark vessel)",
-        "satellite detections in window: 1"
-      ]
-    },
-    "caveats": [
-      "Dark vessel: detected by satellite SAR but not broadcasting AIS.",
-      "Not SHAP-explainable -- a SAR detection has no movement track to attribute.",
-      "length_m and fishing_score are GFW model estimates from imagery, not ground truth.",
-      "MPA boundary may be approximate; verify against official WDPA limits.",
-      "An inspection lead, not courtroom evidence."
-    ],
-    "eez_name": "Australian Exclusive Economic Zone",
-    "eez_sovereign": "Australia",
-    "eez_iso_sov": "AUS",
-    "eez_foreign": null,
-    "evidence_schema": "seavigil-evidence-1.0",
-    "evidence_hash": "c863c0a6d6eeba60d3d3712612e963ae7863eca8d6f8825066cb7f402ba833a0"
-  },
-  {
-    "type": "dark_vessel_sar",
-    "incident_id": "sar__great_barrier_reef_marine_park_0087",
-    "mpa_name": "Great Barrier Reef Marine Park",
-    "wdpa_id": null,
-    "mpa_iucn_cat": "VI",
-    "mpa_no_take": "None",
-    "mpa_version": "sample-approx-2024",
-    "severity": "low",
-    "severity_reason": "multi-use protected area",
-    "vessel_id": "(dark -- no AIS identity)",
-    "gear": "SAR (dark)",
-    "flag": null,
-    "time_start_utc": "2024-01-01T08:29:59Z",
-    "time_end_utc": "2024-01-01T08:29:59Z",
-    "duration_hours": 0.0,
-    "n_positions": 1,
-    "n_fishing_positions": 1,
-    "mean_fishing_proba": null,
-    "max_fishing_proba": null,
-    "centroid_lat": -10.87,
-    "centroid_lon": 148.66000366210938,
-    "length_m": null,
-    "matched_to_ais": false,
-    "explanation": {
-      "method": "SAR detection attributes (no AIS track or identity; not SHAP-explainable)",
-      "drivers": [
-        "inside MPA: Great Barrier Reef Marine Park",
-        "not broadcasting AIS (dark vessel)",
-        "satellite detections in window: 1"
-      ]
-    },
-    "caveats": [
-      "Dark vessel: detected by satellite SAR but not broadcasting AIS.",
-      "Not SHAP-explainable -- a SAR detection has no movement track to attribute.",
-      "length_m and fishing_score are GFW model estimates from imagery, not ground truth.",
-      "MPA boundary may be approximate; verify against official WDPA limits.",
-      "An inspection lead, not courtroom evidence."
-    ],
-    "eez_name": "Papua New Guinean Exclusive Economic Zone",
-    "eez_sovereign": "Papua New Guinea",
-    "eez_iso_sov": "PNG",
-    "eez_foreign": null,
-    "evidence_schema": "seavigil-evidence-1.0",
-    "evidence_hash": "074b01d6cfbb86456bea11f7901a4054176ea6302215271748ddf2f8c1b7e5ed"
-  },
-  {
-    "type": "dark_vessel_sar",
-    "incident_id": "sar__great_barrier_reef_marine_park_0088",
-    "mpa_name": "Great Barrier Reef Marine Park",
-    "wdpa_id": null,
-    "mpa_iucn_cat": "VI",
-    "mpa_no_take": "None",
-    "mpa_version": "sample-approx-2024",
-    "severity": "low",
-    "severity_reason": "multi-use protected area",
-    "vessel_id": "(dark -- no AIS identity)",
-    "gear": "SAR (dark)",
-    "flag": null,
-    "time_start_utc": "2024-01-01T08:29:59Z",
-    "time_end_utc": "2024-01-01T08:29:59Z",
-    "duration_hours": 0.0,
-    "n_positions": 1,
-    "n_fishing_positions": 1,
-    "mean_fishing_proba": null,
-    "max_fishing_proba": null,
-    "centroid_lat": -11.64,
-    "centroid_lon": 143.02000427246094,
-    "length_m": null,
-    "matched_to_ais": false,
-    "explanation": {
-      "method": "SAR detection attributes (no AIS track or identity; not SHAP-explainable)",
-      "drivers": [
-        "inside MPA: Great Barrier Reef Marine Park",
-        "not broadcasting AIS (dark vessel)",
-        "satellite detections in window: 1"
-      ]
-    },
-    "caveats": [
-      "Dark vessel: detected by satellite SAR but not broadcasting AIS.",
-      "Not SHAP-explainable -- a SAR detection has no movement track to attribute.",
-      "length_m and fishing_score are GFW model estimates from imagery, not ground truth.",
-      "MPA boundary may be approximate; verify against official WDPA limits.",
-      "An inspection lead, not courtroom evidence."
-    ],
-    "eez_name": "Australian Exclusive Economic Zone",
-    "eez_sovereign": "Australia",
-    "eez_iso_sov": "AUS",
-    "eez_foreign": null,
-    "evidence_schema": "seavigil-evidence-1.0",
-    "evidence_hash": "f70f012fec7ff40b8fdb6ca1d0444829df11b004e976e8b970f05eb52f75b313"
+    "evidence_hash": "747c69337ddec4f743053f14e04732b50ce2d7acffb067738e48d33066ee1c05"
   }
 ]

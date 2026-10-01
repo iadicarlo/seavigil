@@ -39,7 +39,7 @@ Apparent-fishing movement can also be slow transit or drifting; the model reject
 - WDPA / WD-OECM (World Database on Protected Areas) (UNEP-WCMC and IUCN (2026), June 2026). Protected Planet Terms of Use (non-commercial, display-only).
 - Marine Regions Exclusive Economic Zones v12 (Flanders Marine Institute (2024), DOI 10.14284/632). CC BY 4.0.
 - **Model confidence:** Fishing probabilities are well-calibrated (Brier 0.0915 on 408,194 held-out positions from vessels not seen in training); read the score as a probability.
-- **Integrity (SHA-256 of canonical facts):** `ae240619ed1cdf4180a9321b6b38a849d4cf624a8a571be07ff80eaca7e645e9`
+- **Integrity (SHA-256 of canonical facts):** `6cb2221a9d988bb9cfb521035480c1c44b7b32d1e2a24aa4ea5c6348eb0c8b7d`
 - **Evidence schema:** seavigil-evidence-1.0
 
 _Apparent activity and an inspection lead, not proof of illegality. AIS and SAR evidence have known coverage gaps and spoofing risks; verify against authoritative sources before any enforcement action._

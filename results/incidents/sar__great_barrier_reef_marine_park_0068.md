@@ -6,7 +6,7 @@
 - **Vessel:** (dark -- no AIS identity)  ·  **source:** SAR (dark)
 - **When (UTC):** 2024-01-01T08:29:59Z
 - **Length:** n/a  ·  **broadcasting AIS:** no (dark)  ·  **GFW fishing-score:** n/a (Portal-only)
-- **Where:** -21.210, 149.590
+- **Where:** -24.050, 152.330
 
 ## Why this was flagged
 
@@ -33,7 +33,7 @@ A radar contact with no AIS may be a vessel not required to broadcast, sea clutt
 - Global Fishing Watch Sentinel-1 SAR vessel detections (Paolo et al., Nature 2024). CC BY-NC 4.0 (non-commercial).
 - WDPA / WD-OECM (World Database on Protected Areas) (UNEP-WCMC and IUCN (2026), June 2026). Protected Planet Terms of Use (non-commercial, display-only).
 - Marine Regions Exclusive Economic Zones v12 (Flanders Marine Institute (2024), DOI 10.14284/632). CC BY 4.0.
-- **Integrity (SHA-256 of canonical facts):** `8e6ff73a73a5a3d31c47aee1680337dd7dfe43e02ef6668c90acc889cd94f6a1`
+- **Integrity (SHA-256 of canonical facts):** `41296922ffbb50fa8427f5ebab5c4a46195b38c8423ca0370e73ba5efb56051b`
 - **Evidence schema:** seavigil-evidence-1.0
 
 _Apparent activity and an inspection lead, not proof of illegality. AIS and SAR evidence have known coverage gaps and spoofing risks; verify against authoritative sources before any enforcement action._
