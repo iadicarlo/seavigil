@@ -5,15 +5,15 @@
 - **EEZ:** Omani Exclusive Economic Zone (Oman) -- FOREIGN-flagged vessel
 - **Authorization:** No public authorization record (check coastal state)
 - **Vessel:** 🇹🇷 TIRYAKILER  ·  **signal:** Encounter
-- **When (UTC):** 2026-09-26T15:00:00.000Z → 2026-09-26T23:50:00.000Z
-- **Encounter:** 8.8 h with carrier `271072244` (apparent transshipment)
+- **When (UTC):** 2026-09-26T15:00:00.000Z → 2026-09-27T23:50:00.000Z
+- **Encounter:** 32.8 h with carrier `271072244` (apparent transshipment)
 - **Where:** 19.480, 57.730
 
 ## Why this was flagged
 
 _GFW Events encounters dataset (Miller et al. 2018).._
 
-- two vessels within range for 9 h
+- two vessels within range for 33 h
 - counterpart: YUSUF REIS BLKCLK A
 - two-vessel at-sea encounter (GFW Events)
 
@@ -31,7 +31,7 @@ Two vessels meeting at sea can be a legitimate transfer, bunkering, or a safety 
 
 - WDPA / WD-OECM (World Database on Protected Areas) (UNEP-WCMC and IUCN (2026), June 2026). Protected Planet Terms of Use (non-commercial, display-only).
 - Marine Regions Exclusive Economic Zones v12 (Flanders Marine Institute (2024), DOI 10.14284/632). CC BY 4.0.
-- **Integrity (SHA-256 of canonical facts):** `3b5ad19f2d29a0104f21bc25c03fc1d32c71c8e89642bab8d57bfa89c6b31f64`
+- **Integrity (SHA-256 of canonical facts):** `fc789d692bf565a8c0124a63fdf3751870c958924a9e6a49446799f5393c0e35`
 - **Evidence schema:** seavigil-evidence-1.0
 
 _Apparent activity and an inspection lead, not proof of illegality. AIS and SAR evidence have known coverage gaps and spoofing risks; verify against authoritative sources before any enforcement action._
