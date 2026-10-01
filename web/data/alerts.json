@@ -1,6 +1,19 @@
 {
-"generated_at": "2026-10-01T13:20:20Z",
+"generated_at": "2026-10-01T19:33:14Z",
 "alerts": [
+{
+"id": "live_enco_53820c874a554a",
+"first_seen": "2026-10-01T19:33:14Z",
+"type": "encounter",
+"when": "2026-09-27T17:10:00.000Z",
+"eez": "Chinese Exclusive Economic Zone",
+"flag": "CYP",
+"authorization": "no_record",
+"severity_reason": "foreign vessel, no authorization on record",
+"lat": 23.4306,
+"lon": 117.4219,
+"ship_name": "03988"
+},
 {
 "id": "live_ais__56f01ffbaaa525",
 "first_seen": "2026-10-01T13:20:20Z",
@@ -2587,19 +2600,6 @@
 "lat": 19.4808,
 "lon": 57.73,
 "ship_name": "AKGUN KARDESLER"
-},
-{
-"id": "live_enco_299a45e2cba705",
-"first_seen": "2026-09-27T01:29:16Z",
-"type": "encounter",
-"when": "2026-09-23T13:20:00.000Z",
-"eez": "Omani Exclusive Economic Zone",
-"flag": "TUR",
-"authorization": "no_record",
-"severity_reason": "foreign vessel, no authorization on record",
-"lat": 19.4801,
-"lon": 57.7296,
-"ship_name": "AVCI RECEBINA - 3"
 }
 ]
 }
