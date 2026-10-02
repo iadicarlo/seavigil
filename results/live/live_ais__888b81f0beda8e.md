@@ -1,19 +1,19 @@
-# Incident `live_ais__ec1638bdb5433f`
+# Incident `live_ais__888b81f0beda8e`
 
 - **MPA:** AIS disabling (going dark)
 - **Severity:** HIGH (foreign vessel, no authorization on record)
-- **EEZ:** Brazilian Exclusive Economic Zone (Brazil) -- FOREIGN-flagged vessel
-- **Authorization:** No public authorization record (check coastal state)
-- **Vessel:** 🇸🇬 EAGLE CRATO  ·  **signal:** AIS gap
-- **When (UTC):** 2026-09-25T20:44:46.000Z → 2026-09-26T16:05:58.000Z
-- **Gap:** 19.4 h dark, 100.0 nm offshore
-- **Where:** -24.654, -42.516
+- **EEZ:** Overlapping claim Western Sahara: Western Sahara / Morocco (Western Sahara) -- FOREIGN-flagged vessel
+- **Authorization:** No public authorization record (check coastal state)  ·  IMO 9419747
+- **Vessel:** 🇵🇦 DONG A METIS  ·  **signal:** AIS gap
+- **When (UTC):** 2026-09-27T12:55:33.000Z → 2026-09-28T15:43:01.000Z
+- **Gap:** 26.8 h dark, 67.0 nm offshore
+- **Where:** 24.982, -16.628
 
 ## Why this was flagged
 
 _GFW Events gaps dataset (satellite AIS).._
 
-- went dark 100 nm offshore for 19 h
+- went dark 67 nm offshore for 27 h
 - satellite-confirmed AIS gap (GFW Events)
 
 ## Could be innocent
@@ -31,7 +31,7 @@ Going dark is frequently benign: in open water, where gaps are commonly protecti
 - NOAA Marine Cadastre AIS (marinecadastre.gov/ais (vessel positions)). US public domain.
 - WDPA / WD-OECM (World Database on Protected Areas) (UNEP-WCMC and IUCN (2026), June 2026). Protected Planet Terms of Use (non-commercial, display-only).
 - Marine Regions Exclusive Economic Zones v12 (Flanders Marine Institute (2024), DOI 10.14284/632). CC BY 4.0.
-- **Integrity (SHA-256 of canonical facts):** `9863cad9d765a3ef2471df4ba3b4be234740eb38aa1455e06ad69e2e581d7a98`
+- **Integrity (SHA-256 of canonical facts):** `828b33640df989db65d16b635fe7aacd0b4c7b15be49757659b3d50f3a0db6e6`
 - **Evidence schema:** seavigil-evidence-1.0
 
 _Apparent activity and an inspection lead, not proof of illegality. AIS and SAR evidence have known coverage gaps and spoofing risks; verify against authoritative sources before any enforcement action._

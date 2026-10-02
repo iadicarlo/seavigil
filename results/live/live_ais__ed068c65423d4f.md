@@ -4,7 +4,7 @@
 - **Severity:** MEDIUM (foreign vessel, authorization unverified)
 - **EEZ:** Kiribati Exclusive Economic Zone (Phoenix Group) (Kiribati) -- FOREIGN-flagged vessel
 - **Authorization:** No vessel identity; authorization not checkable
-- **Vessel:** 🇧🇲 `310003`  ·  **signal:** AIS gap
+- **Vessel:** 🇧🇲 SYY31-003-70%  ·  **signal:** AIS gap
 - **When (UTC):** 2026-09-27T09:26:00.000Z → 2026-09-27T21:39:07.000Z
 - **Gap:** 12.2 h dark, 57.0 nm offshore
 - **Where:** -2.751, -174.223

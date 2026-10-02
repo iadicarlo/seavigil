@@ -3,7 +3,7 @@
 - **MPA:** AIS disabling (going dark)
 - **Severity:** HIGH (foreign vessel, no authorization on record)
 - **EEZ:** Micronesian Exclusive Economic Zone (Micronesia) -- FOREIGN-flagged vessel
-- **Authorization:** No public authorization record (check coastal state)
+- **Authorization:** No public authorization record (check coastal state)  ·  IMO 9086734
 - **Vessel:** 🇯🇵 FUKUICHIMARU NO81  ·  **signal:** AIS gap
 - **When (UTC):** 2026-09-10T23:01:58.000Z → 2026-09-27T21:51:41.000Z
 - **Gap:** 406.8 h dark, 134.0 nm offshore
