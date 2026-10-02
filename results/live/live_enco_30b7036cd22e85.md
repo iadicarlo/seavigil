@@ -1,20 +1,20 @@
-# Incident `live_enco_9521883ede9e67`
+# Incident `live_enco_30b7036cd22e85`
 
 - **MPA:** At-sea encounter (transshipment)
 - **Severity:** MEDIUM (foreign vessel, authorization unverified)
 - **EEZ:** Russian Exclusive Economic Zone (Russia)  (flag matches coastal state)
 - **Authorization:** Domestic flag (own EEZ)  ·  IMO 7388310
 - **Vessel:** 🇷🇺 NO.99 OYANG  ·  **signal:** Encounter
-- **When (UTC):** 2026-09-28T15:50:00.000Z → 2026-09-28T23:50:00.000Z
-- **Encounter:** 8.0 h with carrier `273353060` (apparent transshipment)
-- **Where:** 63.472, 179.597
+- **When (UTC):** 2026-09-28T11:20:00.000Z → 2026-09-28T23:50:00.000Z
+- **Encounter:** 12.5 h with carrier `273512400` (apparent transshipment)
+- **Where:** 63.458, 179.606
 
 ## Why this was flagged
 
 _GFW Events encounters dataset (Miller et al. 2018).._
 
-- two vessels within range for 8 h
-- counterpart: CAROLINA 77
+- two vessels within range for 12 h
+- counterpart: TAMBOV
 - two-vessel at-sea encounter (GFW Events)
 
 ## Could be innocent
@@ -31,7 +31,7 @@ Two vessels meeting at sea can be a legitimate transfer, bunkering, or a safety 
 
 - WDPA / WD-OECM (World Database on Protected Areas) (UNEP-WCMC and IUCN (2026), June 2026). Protected Planet Terms of Use (non-commercial, display-only).
 - Marine Regions Exclusive Economic Zones v12 (Flanders Marine Institute (2024), DOI 10.14284/632). CC BY 4.0.
-- **Integrity (SHA-256 of canonical facts):** `ca652e1b7de4728e363b1f3e2b76ef5db99f1603f68a5e15fb64c6066e0c4e40`
+- **Integrity (SHA-256 of canonical facts):** `5d46abf9fdebc6cb68cc8d181a6494eb3346aa56cf2c04d903f0db8a8f9f8fb6`
 - **Evidence schema:** seavigil-evidence-1.0
 
 _Apparent activity and an inspection lead, not proof of illegality. AIS and SAR evidence have known coverage gaps and spoofing risks; verify against authoritative sources before any enforcement action._
