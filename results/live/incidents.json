@@ -1380,60 +1380,6 @@
     "evidence_hash": "c6a2da16de79f8ebd6a5f935ffae1dcc3a44463a32729969436668fb31bf32ea"
   },
   {
-    "incident_id": "live_enco_01f89607ee9df2",
-    "type": "encounter",
-    "centroid_lon": 123.6029,
-    "centroid_lat": 34.6094,
-    "time_start_utc": "2026-09-29T09:50:00.000Z",
-    "time_end_utc": "2026-09-29T20:20:00.000Z",
-    "vessel_id": "412426258",
-    "ship_name": "ZHE DAI YU 15389",
-    "ship_type": "Fishing",
-    "flag": "CHN",
-    "flag_emoji": "\ud83c\udde8\ud83c\uddf3",
-    "gear": "Encounter",
-    "n_positions": 0,
-    "n_fishing_positions": 0,
-    "mean_fishing_proba": null,
-    "max_fishing_proba": null,
-    "_rfmo": [
-      "PICES",
-      "WCPFC",
-      "IWC",
-      "ACAP"
-    ],
-    "_no_take": false,
-    "mpa_name": "At-sea encounter (transshipment)",
-    "duration_hours": 10.5,
-    "carrier_mmsi": "412425384",
-    "explanation": {
-      "method": "GFW Events encounters dataset (Miller et al. 2018).",
-      "drivers": [
-        "two vessels within range for 10 h",
-        "counterpart: ZHEDAIYU15389",
-        "two-vessel at-sea encounter (GFW Events)"
-      ]
-    },
-    "caveats": [
-      "Co-location can be legitimate (joint operations, safety, shelter).",
-      "Apparent transshipment is inferred from proximity and low speed, not observed.",
-      "An inspection lead from GFW Events, not proof of illegal activity."
-    ],
-    "eez_name": "South Korean Exclusive Economic Zone",
-    "eez_sovereign": "South Korea",
-    "eez_iso_sov": "KOR",
-    "eez_foreign": true,
-    "authorization_status": "no_record",
-    "authorization_authorities": [],
-    "registry_iuu_tag": false,
-    "registry_flag": "",
-    "registry_imo": "",
-    "severity": "high",
-    "severity_reason": "foreign vessel, no authorization on record",
-    "evidence_schema": "seavigil-evidence-1.0",
-    "evidence_hash": "a4e8ef67d1879ae70ba5857bf26cfc9cf0925364ff3f0921ec9aea984c4ce055"
-  },
-  {
     "incident_id": "live_enco_734335f01df20a",
     "type": "encounter",
     "centroid_lon": 124.6691,
@@ -1486,6 +1432,60 @@
     "severity_reason": "foreign vessel, no authorization on record",
     "evidence_schema": "seavigil-evidence-1.0",
     "evidence_hash": "56fbbb77252ff96eea8899c9145696ce31c1a09f9368ea47a80af7ad733b422b"
+  },
+  {
+    "incident_id": "live_enco_01f89607ee9df2",
+    "type": "encounter",
+    "centroid_lon": 123.6029,
+    "centroid_lat": 34.6094,
+    "time_start_utc": "2026-09-29T09:50:00.000Z",
+    "time_end_utc": "2026-09-29T20:20:00.000Z",
+    "vessel_id": "412425384",
+    "ship_name": "ZHEDAIYU15389",
+    "ship_type": "Fishing",
+    "flag": "CHN",
+    "flag_emoji": "\ud83c\udde8\ud83c\uddf3",
+    "gear": "Encounter",
+    "n_positions": 0,
+    "n_fishing_positions": 0,
+    "mean_fishing_proba": null,
+    "max_fishing_proba": null,
+    "_rfmo": [
+      "IWC",
+      "PICES",
+      "WCPFC",
+      "ACAP"
+    ],
+    "_no_take": false,
+    "mpa_name": "At-sea encounter (transshipment)",
+    "duration_hours": 10.5,
+    "carrier_mmsi": "412426258",
+    "explanation": {
+      "method": "GFW Events encounters dataset (Miller et al. 2018).",
+      "drivers": [
+        "two vessels within range for 10 h",
+        "counterpart: ZHE DAI YU 15389",
+        "two-vessel at-sea encounter (GFW Events)"
+      ]
+    },
+    "caveats": [
+      "Co-location can be legitimate (joint operations, safety, shelter).",
+      "Apparent transshipment is inferred from proximity and low speed, not observed.",
+      "An inspection lead from GFW Events, not proof of illegal activity."
+    ],
+    "eez_name": "South Korean Exclusive Economic Zone",
+    "eez_sovereign": "South Korea",
+    "eez_iso_sov": "KOR",
+    "eez_foreign": true,
+    "authorization_status": "no_record",
+    "authorization_authorities": [],
+    "registry_iuu_tag": false,
+    "registry_flag": "",
+    "registry_imo": "",
+    "severity": "high",
+    "severity_reason": "foreign vessel, no authorization on record",
+    "evidence_schema": "seavigil-evidence-1.0",
+    "evidence_hash": "cf96913526fce33bfda1833253a0bfaf9b096d9968673d8aad784dff7c7a83dc"
   },
   {
     "incident_id": "live_enco_5b8fcc899d8fbe",
