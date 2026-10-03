@@ -1,9 +1,9 @@
 # Incident `live_enco_6012c462e971ee`
 
 - **MPA:** At-sea encounter (transshipment)
-- **Severity:** HIGH (foreign vessel, authorization lapsed)
+- **Severity:** HIGH (foreign vessel, no authorization on record)
 - **EEZ:** Omani Exclusive Economic Zone (Oman) -- FOREIGN-flagged vessel
-- **Authorization:** Authorization lapsed before this date: GFCM
+- **Authorization:** No public authorization record (check coastal state)
 - **Vessel:** 🇹🇷 YUSUF REIS BLKCLK A  ·  **signal:** Encounter
 - **When (UTC):** 2026-09-29T12:30:00.000Z → 2026-09-29T23:50:00.000Z
 - **Encounter:** 11.3 h with carrier `271073423` (apparent transshipment)

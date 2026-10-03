@@ -1,9 +1,9 @@
 # Incident `live_enco_b7b93be80d0cc1`
 
 - **MPA:** At-sea encounter (transshipment)
-- **Severity:** HIGH (foreign vessel, no authorization on record)
+- **Severity:** HIGH (foreign vessel, authorization lapsed)
 - **EEZ:** Omani Exclusive Economic Zone (Oman) -- FOREIGN-flagged vessel
-- **Authorization:** No public authorization record (check coastal state)
+- **Authorization:** Authorization lapsed before this date: GFCM  ·  IMO 8547676
 - **Vessel:** 🇹🇷 TIRYAKILER  ·  **signal:** Encounter
 - **When (UTC):** 2026-09-29T11:40:00.000Z → 2026-09-29T23:50:00.000Z
 - **Encounter:** 12.2 h with carrier `461000291` (apparent transshipment)
