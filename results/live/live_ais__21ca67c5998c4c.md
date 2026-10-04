@@ -1,19 +1,19 @@
-# Incident `live_ais__56770360e53eb8`
+# Incident `live_ais__21ca67c5998c4c`
 
 - **MPA:** AIS disabling (going dark)
-- **Severity:** HIGH (foreign vessel, no authorization on record)
-- **EEZ:** Guyanese Exclusive Economic Zone (Guyana) -- FOREIGN-flagged vessel
-- **Authorization:** No public authorization record (check coastal state)
-- **Vessel:** 🇻🇪 VIMAR I  ·  **signal:** AIS gap
-- **When (UTC):** 2026-09-28T21:31:55.000Z → 2026-09-29T09:37:42.000Z
-- **Gap:** 12.1 h dark, 56.0 nm offshore
-- **Where:** 7.053, -56.857
+- **Severity:** HIGH (foreign vessel, authorization lapsed)
+- **EEZ:** Vanuatuan Exclusive Economic Zone (Vanuatu) -- FOREIGN-flagged vessel
+- **Authorization:** Authorization lapsed before this date: FFA, WCPFC  ·  IMO 9910040
+- **Vessel:** 🇨🇳 ZHONG SHUI 797  ·  **signal:** AIS gap
+- **When (UTC):** 2026-09-20T17:36:16.000Z → 2026-09-30T12:34:24.000Z
+- **Gap:** 235.0 h dark, 57.0 nm offshore
+- **Where:** -13.645, 166.807
 
 ## Why this was flagged
 
 _GFW Events gaps dataset (satellite AIS).._
 
-- went dark 56 nm offshore for 12 h
+- went dark 57 nm offshore for 235 h
 - satellite-confirmed AIS gap (GFW Events)
 
 ## Could be innocent
@@ -31,7 +31,7 @@ Going dark is frequently benign: in open water, where gaps are commonly protecti
 - NOAA Marine Cadastre AIS (marinecadastre.gov/ais (vessel positions)). US public domain.
 - WDPA / WD-OECM (World Database on Protected Areas) (UNEP-WCMC and IUCN (2026), June 2026). Protected Planet Terms of Use (non-commercial, display-only).
 - Marine Regions Exclusive Economic Zones v12 (Flanders Marine Institute (2024), DOI 10.14284/632). CC BY 4.0.
-- **Integrity (SHA-256 of canonical facts):** `96e3120be7be46ec00629adf905cf011f9de9208111e77bc33842f6386af8c23`
+- **Integrity (SHA-256 of canonical facts):** `f921361d6f24935c29b34ce9733d2674e108e2ee2961fc360f5089cea88c9198`
 - **Evidence schema:** seavigil-evidence-1.0
 
 _Apparent activity and an inspection lead, not proof of illegality. AIS and SAR evidence have known coverage gaps and spoofing risks; verify against authoritative sources before any enforcement action._
