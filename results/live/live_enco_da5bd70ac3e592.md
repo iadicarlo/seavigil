@@ -1,12 +1,12 @@
 # Incident `live_enco_da5bd70ac3e592`
 
 - **MPA:** At-sea encounter (transshipment)
-- **Severity:** HIGH (foreign vessel, no authorization on record)
+- **Severity:** HIGH (foreign vessel, authorization lapsed)
 - **EEZ:** French Exclusive Economic Zone (French Polynesia) (France) -- FOREIGN-flagged vessel
-- **Authorization:** No public authorization record (check coastal state)
-- **Vessel:** 🇨🇳 HAI XING 716  ·  **signal:** Encounter
+- **Authorization:** Authorization lapsed before this date: FFA, IATTC, WCPFC  ·  IMO 8654209
+- **Vessel:** 🇨🇳 HAI XING 718  ·  **signal:** Encounter
 - **When (UTC):** 2026-10-01T16:20:00.000Z → 2026-10-01T23:50:00.000Z
-- **Encounter:** 7.5 h with carrier `412420436` (apparent transshipment)
+- **Encounter:** 7.5 h with carrier `412420434` (apparent transshipment)
 - **Where:** -14.426, -152.787
 
 ## Why this was flagged
@@ -14,7 +14,7 @@
 _GFW Events encounters dataset (Miller et al. 2018).._
 
 - two vessels within range for 8 h
-- counterpart: HAI XING 718
+- counterpart: HAI XING 716
 - two-vessel at-sea encounter (GFW Events)
 
 ## Could be innocent
@@ -31,7 +31,7 @@ Two vessels meeting at sea can be a legitimate transfer, bunkering, or a safety 
 
 - WDPA / WD-OECM (World Database on Protected Areas) (UNEP-WCMC and IUCN (2026), June 2026). Protected Planet Terms of Use (non-commercial, display-only).
 - Marine Regions Exclusive Economic Zones v12 (Flanders Marine Institute (2024), DOI 10.14284/632). CC BY 4.0.
-- **Integrity (SHA-256 of canonical facts):** `1d8adde39da6c243bfa367164f7f4bb8a062a213ac161389da33acab5c5d0ae7`
+- **Integrity (SHA-256 of canonical facts):** `ff86a5a558928b741bbd32a8549ea8156b25e65bc2bbce541604f768a14dab7f`
 - **Evidence schema:** seavigil-evidence-1.0
 
 _Apparent activity and an inspection lead, not proof of illegality. AIS and SAR evidence have known coverage gaps and spoofing risks; verify against authoritative sources before any enforcement action._
