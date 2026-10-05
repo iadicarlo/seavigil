@@ -1,6 +1,32 @@
 {
-"generated_at": "2026-10-05T00:57:37Z",
+"generated_at": "2026-10-05T07:05:34Z",
 "alerts": [
+{
+"id": "live_enco_523217308825d5",
+"first_seen": "2026-10-05T07:05:34Z",
+"type": "encounter",
+"when": "2026-10-01T12:30:00.000Z",
+"eez": "Chinese Exclusive Economic Zone",
+"flag": "CYP",
+"authorization": "no_record",
+"severity_reason": "foreign vessel, no authorization on record",
+"lat": 23.4153,
+"lon": 117.4198,
+"ship_name": "03988"
+},
+{
+"id": "live_enco_5798384d5aa366",
+"first_seen": "2026-10-05T07:05:34Z",
+"type": "encounter",
+"when": "2026-10-01T14:40:00.000Z",
+"eez": "Overlapping claim Taiwan: Taiwan / China",
+"flag": "KOR",
+"authorization": "no_record",
+"severity_reason": "foreign vessel, no authorization on record",
+"lat": 23.3857,
+"lon": 121.5819,
+"ship_name": "CT3-4412-15 70%"
+},
 {
 "id": "live_enco_f35ea9d082abbe",
 "first_seen": "2026-10-05T00:57:37Z",
@@ -2574,32 +2600,6 @@
 "lat": -34.312,
 "lon": 152.332,
 "ship_name": "KAYBEANNA 6-99%"
-},
-{
-"id": "live_ais__f24cba301df351",
-"first_seen": "2026-10-01T13:20:20Z",
-"type": "ais_disabling",
-"when": "2026-09-23T01:29:02.000Z",
-"eez": "Australian Exclusive Economic Zone",
-"flag": "IRL",
-"authorization": "no_record",
-"severity_reason": "foreign vessel, no authorization on record",
-"lat": -34.3213,
-"lon": 152.3084,
-"ship_name": "KAYBEANNA 2-99%"
-},
-{
-"id": "live_ais__675b1d0e68456c",
-"first_seen": "2026-10-01T13:20:20Z",
-"type": "ais_disabling",
-"when": "2026-09-26T06:57:01.000Z",
-"eez": "Fijian Exclusive Economic Zone",
-"flag": "CHN",
-"authorization": "no_record",
-"severity_reason": "foreign vessel, no authorization on record",
-"lat": -22.8255,
-"lon": 175.0235,
-"ship_name": "WANGBIAO-9547  86%"
 }
 ]
 }
