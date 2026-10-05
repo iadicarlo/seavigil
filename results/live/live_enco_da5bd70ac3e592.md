@@ -1,9 +1,9 @@
 # Incident `live_enco_da5bd70ac3e592`
 
 - **MPA:** At-sea encounter (transshipment)
-- **Severity:** HIGH (foreign vessel, authorization lapsed)
+- **Severity:** HIGH (foreign vessel, no authorization on record)
 - **EEZ:** French Exclusive Economic Zone (French Polynesia) (France) -- FOREIGN-flagged vessel
-- **Authorization:** Authorization lapsed before this date: FFA, IATTC, WCPFC  ·  IMO 8654182
+- **Authorization:** No public authorization record (check coastal state)
 - **Vessel:** 🇨🇳 HAI XING 716  ·  **signal:** Encounter
 - **When (UTC):** 2026-10-01T16:20:00.000Z → 2026-10-01T23:50:00.000Z
 - **Encounter:** 7.5 h with carrier `412420436` (apparent transshipment)

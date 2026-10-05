@@ -1,9 +1,9 @@
 # Incident `live_enco_604fce4e537832`
 
 - **MPA:** At-sea encounter (transshipment)
-- **Severity:** HIGH (foreign vessel, authorization lapsed)
+- **Severity:** HIGH (foreign vessel, no authorization on record)
 - **EEZ:** Chinese Exclusive Economic Zone (China) -- FOREIGN-flagged vessel
-- **Authorization:** Authorization lapsed before this date: FFA, IATTC, ICCAT, WCPFC  ·  IMO 8652770
+- **Authorization:** No public authorization record (check coastal state)
 - **Vessel:** 🇹🇼 8  ·  **signal:** Encounter
 - **When (UTC):** 2026-10-01T02:20:00.000Z → 2026-10-01T21:30:00.000Z
 - **Encounter:** 19.2 h with carrier `416004026` (apparent transshipment)
