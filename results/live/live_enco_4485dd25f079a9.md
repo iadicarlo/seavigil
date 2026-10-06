@@ -1,20 +1,20 @@
-# Incident `live_enco_e49f3b62df4cc3`
+# Incident `live_enco_4485dd25f079a9`
 
 - **MPA:** At-sea encounter (transshipment)
 - **Severity:** HIGH (foreign vessel, no authorization on record)
-- **EEZ:** South Korean Exclusive Economic Zone (South Korea) -- FOREIGN-flagged vessel
+- **EEZ:** Vietnamese Exclusive Economic Zone (Vietnam) -- FOREIGN-flagged vessel
 - **Authorization:** No public authorization record (check coastal state)
-- **Vessel:** 🇨🇳 `413083002`  ·  **signal:** Encounter
-- **When (UTC):** 2026-10-01T01:30:00.000Z → 2026-10-01T17:30:00.000Z
-- **Encounter:** 16.0 h with carrier `412446025` (apparent transshipment)
-- **Where:** 32.200, 124.666
+- **Vessel:** 🇼🇫 LUOI B10 402  ·  **signal:** Encounter
+- **When (UTC):** 2026-10-02T20:50:00.000Z → 2026-10-02T23:50:00.000Z
+- **Encounter:** 3.0 h with carrier `574919265` (apparent transshipment)
+- **Where:** 19.248, 105.904
 
 ## Why this was flagged
 
 _GFW Events encounters dataset (Miller et al. 2018).._
 
-- two vessels within range for 16 h
-- counterpart: MINFUDINYU05855
+- two vessels within range for 3 h
+- counterpart: TRUNG HIEU LUOI B10
 - two-vessel at-sea encounter (GFW Events)
 
 ## Could be innocent
@@ -31,7 +31,7 @@ Two vessels meeting at sea can be a legitimate transfer, bunkering, or a safety 
 
 - WDPA / WD-OECM (World Database on Protected Areas) (UNEP-WCMC and IUCN (2026), June 2026). Protected Planet Terms of Use (non-commercial, display-only).
 - Marine Regions Exclusive Economic Zones v12 (Flanders Marine Institute (2024), DOI 10.14284/632). CC BY 4.0.
-- **Integrity (SHA-256 of canonical facts):** `3a90663f66e2c6d937aa7d340ef88adfc779cc30f813f877cb570084b161b573`
+- **Integrity (SHA-256 of canonical facts):** `7283134b4a1f7667674a3dc9ef1737726b8c3776ef55bb5b54d67cae57dbb3a8`
 - **Evidence schema:** seavigil-evidence-1.0
 
 _Apparent activity and an inspection lead, not proof of illegality. AIS and SAR evidence have known coverage gaps and spoofing risks; verify against authoritative sources before any enforcement action._
