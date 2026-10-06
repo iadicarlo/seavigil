@@ -1,19 +1,19 @@
-# Incident `live_ais__3d1fe6d009555e`
+# Incident `live_ais__3b2f83b25e0668`
 
 - **MPA:** AIS disabling (going dark)
 - **Severity:** HIGH (foreign vessel, no authorization on record)
-- **EEZ:** Papua New Guinean Exclusive Economic Zone (Papua New Guinea) -- FOREIGN-flagged vessel
+- **EEZ:** Mauritian Exclusive Economic Zone (Republic of Mauritius) -- FOREIGN-flagged vessel
 - **Authorization:** No public authorization record (check coastal state)
-- **Vessel:** 🇰🇷 SAJO CONCORDIA  ·  **signal:** AIS gap
-- **When (UTC):** 2026-09-25T19:39:47.000Z → 2026-10-01T04:18:09.000Z
-- **Gap:** 128.6 h dark, 105.0 nm offshore
-- **Where:** -4.534, 157.862
+- **Vessel:** 🇬🇷 SHENHUI06-10  ·  **signal:** AIS gap
+- **When (UTC):** 2026-09-12T18:40:38.000Z → 2026-10-02T21:20:28.000Z
+- **Gap:** 482.7 h dark, 428.0 nm offshore
+- **Where:** -18.658, 63.443
 
 ## Why this was flagged
 
 _GFW Events gaps dataset (satellite AIS).._
 
-- went dark 105 nm offshore for 129 h
+- went dark 428 nm offshore for 483 h
 - satellite-confirmed AIS gap (GFW Events)
 
 ## Could be innocent
@@ -31,7 +31,7 @@ Going dark is frequently benign: in open water, where gaps are commonly protecti
 - NOAA Marine Cadastre AIS (marinecadastre.gov/ais (vessel positions)). US public domain.
 - WDPA / WD-OECM (World Database on Protected Areas) (UNEP-WCMC and IUCN (2026), June 2026). Protected Planet Terms of Use (non-commercial, display-only).
 - Marine Regions Exclusive Economic Zones v12 (Flanders Marine Institute (2024), DOI 10.14284/632). CC BY 4.0.
-- **Integrity (SHA-256 of canonical facts):** `04b084ca7747ffc23a221277972ecb2ae10ff5335fe8413a930e7944a3cb34c8`
+- **Integrity (SHA-256 of canonical facts):** `8a2b1327a1d8635edf231692c828b2102c92dd26626cc42267758755cc8872e5`
 - **Evidence schema:** seavigil-evidence-1.0
 
 _Apparent activity and an inspection lead, not proof of illegality. AIS and SAR evidence have known coverage gaps and spoofing risks; verify against authoritative sources before any enforcement action._
