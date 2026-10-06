@@ -1,9 +1,9 @@
 # Incident `live_ais__e77de0e18ed17a`
 
 - **MPA:** AIS disabling (going dark)
-- **Severity:** HIGH (foreign vessel, no authorization on record)
+- **Severity:** HIGH (foreign vessel, authorization lapsed)
 - **EEZ:** Overlapping claim Western Sahara: Western Sahara / Morocco (Western Sahara) -- FOREIGN-flagged vessel
-- **Authorization:** No public authorization record (check coastal state)
+- **Authorization:** Authorization lapsed before this date: ICCAT  ·  IMO 9882009
 - **Vessel:** 🇪🇸 MONTERAIOLA  ·  **signal:** AIS gap
 - **When (UTC):** 2026-09-30T06:18:07.000Z → 2026-09-30T18:55:23.000Z
 - **Gap:** 12.6 h dark, 151.0 nm offshore

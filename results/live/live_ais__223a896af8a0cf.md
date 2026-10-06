@@ -3,7 +3,7 @@
 - **MPA:** AIS disabling (going dark)
 - **Severity:** HIGH (foreign vessel, no authorization on record)
 - **EEZ:** Indonesian Exclusive Economic Zone (Indonesia) -- FOREIGN-flagged vessel
-- **Authorization:** No public authorization record (check coastal state)
+- **Authorization:** No public authorization record (check coastal state)  ·  IMO 9703978
 - **Vessel:** 🇵🇦 CHINA STEEL VISION  ·  **signal:** AIS gap
 - **When (UTC):** 2026-09-30T13:01:37.000Z → 2026-10-01T03:41:15.000Z
 - **Gap:** 14.7 h dark, 199.0 nm offshore

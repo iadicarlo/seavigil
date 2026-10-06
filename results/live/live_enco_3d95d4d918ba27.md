@@ -3,7 +3,7 @@
 - **MPA:** At-sea encounter (transshipment)
 - **Severity:** HIGH (foreign vessel, no authorization on record)
 - **EEZ:** Congolese (Republic of) Exclusive Economic Zone (Republic of the Congo) -- FOREIGN-flagged vessel
-- **Authorization:** No public authorization record (check coastal state)
+- **Authorization:** No public authorization record (check coastal state)  ·  IMO 8548096
 - **Vessel:** 🇨🇳 LU HUANG YUAN YU185  ·  **signal:** Encounter
 - **When (UTC):** 2026-10-02T08:40:00.000Z → 2026-10-02T23:20:00.000Z
 - **Encounter:** 14.7 h with carrier `412331187` (apparent transshipment)
