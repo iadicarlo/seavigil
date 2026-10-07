@@ -1,6 +1,32 @@
 {
-"generated_at": "2026-10-07T16:31:45Z",
+"generated_at": "2026-10-07T22:00:14Z",
 "alerts": [
+{
+"id": "live_enco_1dffedbd50697a",
+"first_seen": "2026-10-07T22:00:14Z",
+"type": "encounter",
+"when": "2026-10-03T12:50:00.000Z",
+"eez": "Chinese Exclusive Economic Zone",
+"flag": "SHN",
+"authorization": "no_record",
+"severity_reason": "foreign vessel, no authorization on record",
+"lat": 35.2262,
+"lon": 121.1864,
+"ship_name": "777777"
+},
+{
+"id": "live_enco_70842185898c93",
+"first_seen": "2026-10-07T22:00:14Z",
+"type": "encounter",
+"when": "2026-10-03T14:00:00.000Z",
+"eez": "New Zealand Exclusive Economic Zone",
+"flag": "FRO",
+"authorization": "no_record",
+"severity_reason": "foreign vessel, no authorization on record",
+"lat": -40.0191,
+"lon": 171.9069,
+"ship_name": ""
+},
 {
 "id": "live_ais__f35ce3ee262964",
 "first_seen": "2026-10-07T16:31:45Z",
@@ -2574,32 +2600,6 @@
 "lat": 23.2594,
 "lon": 121.5465,
 "ship_name": "CT3-4412-16 80%"
-},
-{
-"id": "live_enco_cfa577018bb9c3",
-"first_seen": "2026-10-04T00:40:36Z",
-"type": "encounter",
-"when": "2026-09-30T14:20:00.000Z",
-"eez": "Joint regime area: South Korea / Japan",
-"flag": "CHN",
-"authorization": "no_record",
-"severity_reason": "foreign vessel, no authorization on record",
-"lat": 31.5988,
-"lon": 127.1878,
-"ship_name": "ZHE PU YU 68893"
-},
-{
-"id": "live_enco_193bbb8c5617f4",
-"first_seen": "2026-10-04T00:40:36Z",
-"type": "encounter",
-"when": "2026-09-30T13:20:00.000Z",
-"eez": "Chinese Exclusive Economic Zone",
-"flag": "SMR",
-"authorization": "no_record",
-"severity_reason": "foreign vessel, no authorization on record",
-"lat": 23.3649,
-"lon": 117.8172,
-"ship_name": "DONGKANGKANGA20766"
 }
 ]
 }

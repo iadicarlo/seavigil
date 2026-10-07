@@ -3,7 +3,7 @@
 - **MPA:** AIS disabling (going dark)
 - **Severity:** HIGH (foreign vessel, no authorization on record)
 - **EEZ:** Mauritian Exclusive Economic Zone (Chagos Archipelago) (Republic of Mauritius) -- FOREIGN-flagged vessel
-- **Authorization:** No public authorization record (check coastal state)  ·  IMO 9315472
+- **Authorization:** No public authorization record (check coastal state)
 - **Vessel:** 🇵🇦 EVER SUPERIOR  ·  **signal:** AIS gap
 - **When (UTC):** 2026-09-29T02:23:13.000Z → 2026-10-03T08:35:23.000Z
 - **Gap:** 102.2 h dark, 278.0 nm offshore
