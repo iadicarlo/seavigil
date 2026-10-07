@@ -1,13 +1,13 @@
-# Incident `live_enco_60a94d761fc566`
+# Incident `live_enco_f4a4cab3325f21`
 
 - **MPA:** At-sea encounter (transshipment)
 - **Severity:** HIGH (foreign vessel, no authorization on record)
 - **EEZ:** Chinese Exclusive Economic Zone (China) -- FOREIGN-flagged vessel
 - **Authorization:** No public authorization record (check coastal state)
-- **Vessel:** 🇬🇷 297  ·  **signal:** Encounter
+- **Vessel:** 🇮🇸 966  ·  **signal:** Encounter
 - **When (UTC):** 2026-10-03T17:30:00.000Z → 2026-10-03T21:30:00.000Z
 - **Encounter:** 4.0 h with carrier `412464077` (apparent transshipment)
-- **Where:** 22.166, 116.261
+- **Where:** 22.165, 116.260
 
 ## Why this was flagged
 
@@ -31,7 +31,7 @@ Two vessels meeting at sea can be a legitimate transfer, bunkering, or a safety 
 
 - WDPA / WD-OECM (World Database on Protected Areas) (UNEP-WCMC and IUCN (2026), June 2026). Protected Planet Terms of Use (non-commercial, display-only).
 - Marine Regions Exclusive Economic Zones v12 (Flanders Marine Institute (2024), DOI 10.14284/632). CC BY 4.0.
-- **Integrity (SHA-256 of canonical facts):** `8744f86e41cdca8f2ad4686fbc9fe9d8127f4dfa4c6891a79020c80fc66f0283`
+- **Integrity (SHA-256 of canonical facts):** `2281b1064403257afe5c5965835fd9cbb502888b3414275619082d4dc6d605cb`
 - **Evidence schema:** seavigil-evidence-1.0
 
 _Apparent activity and an inspection lead, not proof of illegality. AIS and SAR evidence have known coverage gaps and spoofing risks; verify against authoritative sources before any enforcement action._
