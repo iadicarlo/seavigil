@@ -1,6 +1,32 @@
 {
-"generated_at": "2026-10-07T01:34:12Z",
+"generated_at": "2026-10-07T08:42:26Z",
 "alerts": [
+{
+"id": "live_enco_9490ef7c29f83f",
+"first_seen": "2026-10-07T08:42:26Z",
+"type": "encounter",
+"when": "2026-10-03T18:00:00.000Z",
+"eez": "Vietnamese Exclusive Economic Zone",
+"flag": "ISL",
+"authorization": "no_record",
+"severity_reason": "foreign vessel, no authorization on record",
+"lat": 10.231,
+"lon": 110.3454,
+"ship_name": "TI_99144_LXN-99%"
+},
+{
+"id": "live_enco_60a94d761fc566",
+"first_seen": "2026-10-07T08:42:26Z",
+"type": "encounter",
+"when": "2026-10-03T17:30:00.000Z",
+"eez": "Chinese Exclusive Economic Zone",
+"flag": "GRC",
+"authorization": "no_record",
+"severity_reason": "foreign vessel, no authorization on record",
+"lat": 22.1662,
+"lon": 116.2608,
+"ship_name": "297"
+},
 {
 "id": "live_enco_9e31dbeaf1ec96",
 "first_seen": "2026-10-07T01:34:12Z",
@@ -2574,32 +2600,6 @@
 "lat": 8.6002,
 "lon": 107.5952,
 "ship_name": "MAI-LOI-BAN2S027"
-},
-{
-"id": "live_enco_b0ca11825e72fb",
-"first_seen": "2026-10-04T00:40:36Z",
-"type": "encounter",
-"when": "2026-09-30T02:40:00.000Z",
-"eez": "Overlapping claim Taiwan: Taiwan / China",
-"flag": "CHN",
-"authorization": "no_record",
-"severity_reason": "foreign vessel, no authorization on record",
-"lat": 25.3953,
-"lon": 120.7165,
-"ship_name": "78"
-},
-{
-"id": "live_ais__a77be67439f4b7",
-"first_seen": "2026-10-04T00:40:36Z",
-"type": "ais_disabling",
-"when": "2026-09-28T00:52:19.000Z",
-"eez": "Kiribati Exclusive Economic Zone (Line Group)",
-"flag": "MAR",
-"authorization": "no_record",
-"severity_reason": "foreign vessel, no authorization on record",
-"lat": -8.5315,
-"lon": -151.2824,
-"ship_name": ""
 }
 ]
 }
