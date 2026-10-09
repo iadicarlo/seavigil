@@ -1,6 +1,19 @@
 {
-"generated_at": "2026-10-09T16:15:12Z",
+"generated_at": "2026-10-09T20:59:04Z",
 "alerts": [
+{
+"id": "live_enco_9b30facbd3ab39",
+"first_seen": "2026-10-09T20:59:04Z",
+"type": "encounter",
+"when": "2026-10-05T01:00:00.000Z",
+"eez": "South Korean Exclusive Economic Zone",
+"flag": "CHN",
+"authorization": "no_record",
+"severity_reason": "foreign vessel, no authorization on record",
+"lat": 33.4249,
+"lon": 123.4526,
+"ship_name": "ZHELINGYUYUN20006"
+},
 {
 "id": "live_ais__0828d99a6f5f4c",
 "first_seen": "2026-10-09T16:15:12Z",
@@ -2587,19 +2600,6 @@
 "lat": 10.5337,
 "lon": 109.1189,
 "ship_name": "97 A7"
-},
-{
-"id": "live_enco_5f9cb6fb74cbd8",
-"first_seen": "2026-10-06T03:00:43Z",
-"type": "encounter",
-"when": "2026-10-02T15:10:00.000Z",
-"eez": "Indonesian Exclusive Economic Zone",
-"flag": "CHN",
-"authorization": "no_record",
-"severity_reason": "foreign vessel, no authorization on record",
-"lat": 2.6415,
-"lon": 105.0034,
-"ship_name": "FU YUAN YU8592"
 }
 ]
 }
