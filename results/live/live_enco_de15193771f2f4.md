@@ -1,20 +1,20 @@
-# Incident `live_enco_8fbdb3f65c3d61`
+# Incident `live_enco_de15193771f2f4`
 
 - **MPA:** At-sea encounter (transshipment)
 - **Severity:** HIGH (foreign vessel, no authorization on record)
-- **EEZ:** Omani Exclusive Economic Zone (Oman) -- FOREIGN-flagged vessel
+- **EEZ:** South Korean Exclusive Economic Zone (South Korea) -- FOREIGN-flagged vessel
 - **Authorization:** No public authorization record (check coastal state)
-- **Vessel:** 🇹🇷 YUSUF REIS BLKCLK A  ·  **signal:** Encounter
-- **When (UTC):** 2026-10-04T14:20:00.000Z → 2026-10-04T20:40:00.000Z
-- **Encounter:** 6.3 h with carrier `271073640` (apparent transshipment)
-- **Where:** 19.480, 57.729
+- **Vessel:** 🇨🇳 LUJIAOYUYUN60637  ·  **signal:** Encounter
+- **When (UTC):** 2026-10-05T13:30:00.000Z → 2026-10-05T20:50:00.000Z
+- **Encounter:** 7.3 h with carrier `412348791` (apparent transshipment)
+- **Where:** 33.563, 123.430
 
 ## Why this was flagged
 
 _GFW Events encounters dataset (Miller et al. 2018).._
 
-- two vessels within range for 6 h
-- counterpart: AKGUN VEDAT
+- two vessels within range for 7 h
+- counterpart: LUJIAOYUYUN60637
 - two-vessel at-sea encounter (GFW Events)
 
 ## Could be innocent
@@ -31,7 +31,7 @@ Two vessels meeting at sea can be a legitimate transfer, bunkering, or a safety 
 
 - WDPA / WD-OECM (World Database on Protected Areas) (UNEP-WCMC and IUCN (2026), June 2026). Protected Planet Terms of Use (non-commercial, display-only).
 - Marine Regions Exclusive Economic Zones v12 (Flanders Marine Institute (2024), DOI 10.14284/632). CC BY 4.0.
-- **Integrity (SHA-256 of canonical facts):** `d4314c71aa1c86ddc7524cbcfdd28436045816836b623974bbf46114869d6881`
+- **Integrity (SHA-256 of canonical facts):** `80480333ca044020e244bb05dfee1fe9ba42a7f7dd0bc433734620a5c08f16da`
 - **Evidence schema:** seavigil-evidence-1.0
 
 _Apparent activity and an inspection lead, not proof of illegality. AIS and SAR evidence have known coverage gaps and spoofing risks; verify against authoritative sources before any enforcement action._

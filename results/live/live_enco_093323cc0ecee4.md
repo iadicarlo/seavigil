@@ -1,20 +1,20 @@
-# Incident `live_enco_ff611d992771ae`
+# Incident `live_enco_093323cc0ecee4`
 
 - **MPA:** At-sea encounter (transshipment)
-- **Severity:** HIGH (foreign vessel, authorization lapsed)
-- **EEZ:** Omani Exclusive Economic Zone (Oman) -- FOREIGN-flagged vessel
-- **Authorization:** Authorization lapsed before this date: GFCM  ·  IMO 9956496
-- **Vessel:** 🇹🇷 AKGUN VEDAT  ·  **signal:** Encounter
-- **When (UTC):** 2026-10-04T13:00:00.000Z → 2026-10-04T23:50:00.000Z
-- **Encounter:** 10.8 h with carrier `271072796` (apparent transshipment)
-- **Where:** 19.479, 57.728
+- **Severity:** HIGH (foreign vessel, no authorization on record)
+- **EEZ:** Chinese Exclusive Economic Zone (China) -- FOREIGN-flagged vessel
+- **Authorization:** No public authorization record (check coastal state)
+- **Vessel:** 🇳🇿 13109  ·  **signal:** Encounter
+- **When (UTC):** 2026-10-04T00:30:00.000Z → 2026-10-05T23:50:00.000Z
+- **Encounter:** 47.3 h with carrier `900013109` (apparent transshipment)
+- **Where:** 29.190, 123.828
 
 ## Why this was flagged
 
 _GFW Events encounters dataset (Miller et al. 2018).._
 
-- two vessels within range for 11 h
-- counterpart: TIRYAKILER
+- two vessels within range for 47 h
+- counterpart: 13109
 - two-vessel at-sea encounter (GFW Events)
 
 ## Could be innocent
@@ -31,7 +31,7 @@ Two vessels meeting at sea can be a legitimate transfer, bunkering, or a safety 
 
 - WDPA / WD-OECM (World Database on Protected Areas) (UNEP-WCMC and IUCN (2026), June 2026). Protected Planet Terms of Use (non-commercial, display-only).
 - Marine Regions Exclusive Economic Zones v12 (Flanders Marine Institute (2024), DOI 10.14284/632). CC BY 4.0.
-- **Integrity (SHA-256 of canonical facts):** `e0005dad4e156680ac9bbbb843ecbd119b72ea49479c8e2dbc865a27b3fe0600`
+- **Integrity (SHA-256 of canonical facts):** `31c766ed34b97a05806a860c738d34729a88cfd816a0a7b8b06491a6411e65b0`
 - **Evidence schema:** seavigil-evidence-1.0
 
 _Apparent activity and an inspection lead, not proof of illegality. AIS and SAR evidence have known coverage gaps and spoofing risks; verify against authoritative sources before any enforcement action._

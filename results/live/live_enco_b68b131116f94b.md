@@ -1,20 +1,20 @@
-# Incident `live_enco_7cc5d415af9d35`
+# Incident `live_enco_b68b131116f94b`
 
 - **MPA:** At-sea encounter (transshipment)
 - **Severity:** HIGH (foreign vessel, no authorization on record)
-- **EEZ:** Canadian Exclusive Economic Zone (Canada) -- FOREIGN-flagged vessel
+- **EEZ:** Overlapping claim Senkaku Islands: Taiwan / Japan / China (Taiwan) -- FOREIGN-flagged vessel
 - **Authorization:** No public authorization record (check coastal state)
-- **Vessel:** 🇩🇰 EASTERN RAEYA  [86%]  ·  **signal:** Encounter
-- **When (UTC):** 2026-10-04T15:50:00.000Z → 2026-10-04T23:50:00.000Z
-- **Encounter:** 8.0 h with carrier `220500241` (apparent transshipment)
-- **Where:** 48.772, -51.724
+- **Vessel:** 🇨🇳 `412812312`  ·  **signal:** Encounter
+- **When (UTC):** 2026-10-05T01:50:00.000Z → 2026-10-05T23:40:00.000Z
+- **Encounter:** 21.8 h with carrier `412451798` (apparent transshipment)
+- **Where:** 26.648, 122.919
 
 ## Why this was flagged
 
 _GFW Events encounters dataset (Miller et al. 2018).._
 
-- two vessels within range for 8 h
-- counterpart: EASTERN RAEYA  [87%]
+- two vessels within range for 22 h
+- counterpart: MIN SHI YU 07279
 - two-vessel at-sea encounter (GFW Events)
 
 ## Could be innocent
@@ -31,7 +31,7 @@ Two vessels meeting at sea can be a legitimate transfer, bunkering, or a safety 
 
 - WDPA / WD-OECM (World Database on Protected Areas) (UNEP-WCMC and IUCN (2026), June 2026). Protected Planet Terms of Use (non-commercial, display-only).
 - Marine Regions Exclusive Economic Zones v12 (Flanders Marine Institute (2024), DOI 10.14284/632). CC BY 4.0.
-- **Integrity (SHA-256 of canonical facts):** `0fbb4c6cea1cd910698058b0af4b34d3ef6d78ab824e0a52047e2656064dd3d9`
+- **Integrity (SHA-256 of canonical facts):** `e56d3481b62bfe7587c999271dccc67e82eb810fbdc96040b8f2a4c0f4d1caf5`
 - **Evidence schema:** seavigil-evidence-1.0
 
 _Apparent activity and an inspection lead, not proof of illegality. AIS and SAR evidence have known coverage gaps and spoofing risks; verify against authoritative sources before any enforcement action._

@@ -1,0 +1,37 @@
+# Incident `live_enco_ca33446dabc3c8`
+
+- **MPA:** At-sea encounter (transshipment)
+- **Severity:** HIGH (foreign vessel, authorization lapsed)
+- **EEZ:** Kiribati Exclusive Economic Zone (Line Group) (Kiribati) -- FOREIGN-flagged vessel
+- **Authorization:** Authorization lapsed before this date: FFA, IATTC, WCPFC  ·  IMO 1016642
+- **Vessel:** 🇨🇳 GUANGYUANYU333  ·  **signal:** Encounter
+- **When (UTC):** 2026-10-05T13:00:00.000Z → 2026-10-05T23:50:00.000Z
+- **Encounter:** 10.8 h with carrier `107000230` (apparent transshipment)
+- **Where:** -5.220, -155.371
+
+## Why this was flagged
+
+_GFW Events encounters dataset (Miller et al. 2018).._
+
+- two vessels within range for 11 h
+- counterpart: 107000230
+- two-vessel at-sea encounter (GFW Events)
+
+## Could be innocent
+
+Two vessels meeting at sea can be a legitimate transfer, bunkering, or a safety stop; transshipment is a possibility to verify, not a certainty.
+
+## Caveats
+
+- Co-location can be legitimate (joint operations, safety, shelter).
+- Apparent transshipment is inferred from proximity and low speed, not observed.
+- An inspection lead from GFW Events, not proof of illegal activity.
+
+## Provenance & integrity
+
+- WDPA / WD-OECM (World Database on Protected Areas) (UNEP-WCMC and IUCN (2026), June 2026). Protected Planet Terms of Use (non-commercial, display-only).
+- Marine Regions Exclusive Economic Zones v12 (Flanders Marine Institute (2024), DOI 10.14284/632). CC BY 4.0.
+- **Integrity (SHA-256 of canonical facts):** `d148f708ad71b727f331de8f3ed2486bef87ba3f1873c343526f892594c56a75`
+- **Evidence schema:** seavigil-evidence-1.0
+
+_Apparent activity and an inspection lead, not proof of illegality. AIS and SAR evidence have known coverage gaps and spoofing risks; verify against authoritative sources before any enforcement action._
