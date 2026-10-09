@@ -1,9 +1,9 @@
 # Incident `live_enco_265ae02d21152b`
 
 - **MPA:** At-sea encounter (transshipment)
-- **Severity:** HIGH (foreign vessel, no authorization on record)
+- **Severity:** HIGH (foreign vessel, authorization lapsed)
 - **EEZ:** Samoan Exclusive Economic Zone (Samoa) -- FOREIGN-flagged vessel
-- **Authorization:** No public authorization record (check coastal state)
+- **Authorization:** Authorization lapsed before this date: FFA, IATTC, WCPFC  ·  IMO 9961257
 - **Vessel:** 🇹🇼 CHUAN FA SHIAN 288  ·  **signal:** Encounter
 - **When (UTC):** 2026-10-05T00:40:00.000Z → 2026-10-05T21:40:00.000Z
 - **Encounter:** 21.0 h with carrier `416003105` (apparent transshipment)
