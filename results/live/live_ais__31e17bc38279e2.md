@@ -3,7 +3,7 @@
 - **MPA:** AIS disabling (going dark)
 - **Severity:** HIGH (foreign vessel, no authorization on record)
 - **EEZ:** Brazilian Exclusive Economic Zone (Brazil) -- FOREIGN-flagged vessel
-- **Authorization:** No public authorization record (check coastal state)  ·  IMO 9412737
+- **Authorization:** No public authorization record (check coastal state)
 - **Vessel:** 🇳🇴 BOW COMPASS  ·  **signal:** AIS gap
 - **When (UTC):** 2026-09-30T13:12:46.000Z → 2026-10-05T16:30:57.000Z
 - **Gap:** 123.3 h dark, 172.0 nm offshore
