@@ -1,9 +1,9 @@
 # Incident `live_ais__02744eb5f2d92b`
 
 - **MPA:** AIS disabling (going dark)
-- **Severity:** HIGH (foreign vessel, authorization lapsed)
+- **Severity:** HIGH (foreign vessel, no authorization on record)
 - **EEZ:** Overlapping claim Western Sahara: Western Sahara / Morocco (Western Sahara) -- FOREIGN-flagged vessel
-- **Authorization:** Authorization lapsed before this date: ICCAT  ·  IMO 7409176
+- **Authorization:** No public authorization record (check coastal state)
 - **Vessel:** 🇸🇻 MONTEFRISA NUEVE  ·  **signal:** AIS gap
 - **When (UTC):** 2026-10-05T05:44:30.000Z → 2026-10-05T19:28:32.000Z
 - **Gap:** 13.7 h dark, 152.0 nm offshore

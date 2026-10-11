@@ -3,7 +3,7 @@
 - **MPA:** AIS disabling (going dark)
 - **Severity:** HIGH (foreign vessel, no authorization on record)
 - **EEZ:** Brazilian Exclusive Economic Zone (Brazil) -- FOREIGN-flagged vessel
-- **Authorization:** No public authorization record (check coastal state)  ·  IMO 9765158
+- **Authorization:** No public authorization record (check coastal state)  ·  IMO 9518127
 - **Vessel:** 🇲🇹 LISBOA  ·  **signal:** AIS gap
 - **When (UTC):** 2026-10-04T22:11:22.000Z → 2026-10-05T20:29:44.000Z
 - **Gap:** 22.3 h dark, 144.0 nm offshore

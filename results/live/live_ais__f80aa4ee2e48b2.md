@@ -3,7 +3,7 @@
 - **MPA:** AIS disabling (going dark)
 - **Severity:** HIGH (foreign vessel, no authorization on record)
 - **EEZ:** Brazilian Exclusive Economic Zone (Brazil) -- FOREIGN-flagged vessel
-- **Authorization:** No public authorization record (check coastal state)  ·  IMO 9816323
+- **Authorization:** No public authorization record (check coastal state)
 - **Vessel:** 🇱🇷 ALMI ATLAS  ·  **signal:** AIS gap
 - **When (UTC):** 2026-10-05T09:16:00.000Z → 2026-10-05T21:31:00.000Z
 - **Gap:** 12.2 h dark, 102.0 nm offshore

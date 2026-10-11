@@ -1,9 +1,9 @@
 # Incident `live_ais__dbfa7e93de57aa`
 
 - **MPA:** AIS disabling (going dark)
-- **Severity:** HIGH (foreign vessel, authorization lapsed)
+- **Severity:** HIGH (foreign vessel, no authorization on record)
 - **EEZ:** Kiribati Exclusive Economic Zone (Gilbert Islands) (Kiribati) -- FOREIGN-flagged vessel
-- **Authorization:** Authorization lapsed before this date: FFA, WCPFC  ·  IMO 9784489
+- **Authorization:** No public authorization record (check coastal state)
 - **Vessel:** 🇲🇭 UNAAK  ·  **signal:** AIS gap
 - **When (UTC):** 2026-10-05T14:32:05.000Z → 2026-10-06T21:13:32.000Z
 - **Gap:** 30.7 h dark, 197.0 nm offshore
