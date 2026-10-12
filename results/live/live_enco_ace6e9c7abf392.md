@@ -1,20 +1,20 @@
-# Incident `live_enco_9df4287dd2319c`
+# Incident `live_enco_ace6e9c7abf392`
 
 - **MPA:** At-sea encounter (transshipment)
 - **Severity:** HIGH (foreign vessel, no authorization on record)
-- **EEZ:** Joint regime area: South Korea / Japan (South Korea) -- FOREIGN-flagged vessel
+- **EEZ:** South Korean Exclusive Economic Zone (South Korea) -- FOREIGN-flagged vessel
 - **Authorization:** No public authorization record (check coastal state)
-- **Vessel:** 🇨🇳 MINSHIYU07055  ·  **signal:** Encounter
-- **When (UTC):** 2026-10-07T09:30:00.000Z → 2026-10-07T19:10:00.000Z
-- **Encounter:** 9.7 h with carrier `200012129` (apparent transshipment)
-- **Where:** 32.085, 127.229
+- **Vessel:** 🇨🇳 ZHEFENGYU12007  ·  **signal:** Encounter
+- **When (UTC):** 2026-10-08T07:30:00.000Z → 2026-10-08T22:10:00.000Z
+- **Encounter:** 14.7 h with carrier `412439174` (apparent transshipment)
+- **Where:** 32.338, 124.967
 
 ## Why this was flagged
 
 _GFW Events encounters dataset (Miller et al. 2018).._
 
-- two vessels within range for 10 h
-- counterpart: 200012129
+- two vessels within range for 15 h
+- counterpart: ZHEFENGYU12008
 - two-vessel at-sea encounter (GFW Events)
 
 ## Could be innocent
@@ -31,7 +31,7 @@ Two vessels meeting at sea can be a legitimate transfer, bunkering, or a safety 
 
 - WDPA / WD-OECM (World Database on Protected Areas) (UNEP-WCMC and IUCN (2026), June 2026). Protected Planet Terms of Use (non-commercial, display-only).
 - Marine Regions Exclusive Economic Zones v12 (Flanders Marine Institute (2024), DOI 10.14284/632). CC BY 4.0.
-- **Integrity (SHA-256 of canonical facts):** `e0987faa31d5738b7d605b2885927dd0d073305cb97be4d908b419a2006401e4`
+- **Integrity (SHA-256 of canonical facts):** `fd26585d88c35378cf9a12c52474a6ff24134e0af7d1ddb0799b49529bfbe7ec`
 - **Evidence schema:** seavigil-evidence-1.0
 
 _Apparent activity and an inspection lead, not proof of illegality. AIS and SAR evidence have known coverage gaps and spoofing risks; verify against authoritative sources before any enforcement action._

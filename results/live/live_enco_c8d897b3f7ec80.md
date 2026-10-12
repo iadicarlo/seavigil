@@ -1,20 +1,20 @@
-# Incident `live_enco_6cec88b37e74d2`
+# Incident `live_enco_c8d897b3f7ec80`
 
 - **MPA:** At-sea encounter (transshipment)
 - **Severity:** HIGH (foreign vessel, no authorization on record)
-- **EEZ:** Joint regime area: South Korea / Japan (South Korea) -- FOREIGN-flagged vessel
+- **EEZ:** Chinese Exclusive Economic Zone (China) -- FOREIGN-flagged vessel
 - **Authorization:** No public authorization record (check coastal state)
-- **Vessel:** 🇨🇳 MINSHIYU07669  ·  **signal:** Encounter
-- **When (UTC):** 2026-10-07T10:00:00.000Z → 2026-10-07T19:40:00.000Z
-- **Encounter:** 9.7 h with carrier `412452945` (apparent transshipment)
-- **Where:** 31.990, 127.100
+- **Vessel:** 🇰🇿 ZHEXIANGYU44003  ·  **signal:** Encounter
+- **When (UTC):** 2026-10-08T19:50:00.000Z → 2026-10-08T23:50:00.000Z
+- **Encounter:** 4.0 h with carrier `412436064` (apparent transshipment)
+- **Where:** 31.950, 123.034
 
 ## Why this was flagged
 
 _GFW Events encounters dataset (Miller et al. 2018).._
 
-- two vessels within range for 10 h
-- counterpart: 412452945
+- two vessels within range for 4 h
+- counterpart: ZHEXIANGYU44003
 - two-vessel at-sea encounter (GFW Events)
 
 ## Could be innocent
@@ -31,7 +31,7 @@ Two vessels meeting at sea can be a legitimate transfer, bunkering, or a safety 
 
 - WDPA / WD-OECM (World Database on Protected Areas) (UNEP-WCMC and IUCN (2026), June 2026). Protected Planet Terms of Use (non-commercial, display-only).
 - Marine Regions Exclusive Economic Zones v12 (Flanders Marine Institute (2024), DOI 10.14284/632). CC BY 4.0.
-- **Integrity (SHA-256 of canonical facts):** `b46c80252aebcd948218e286c1c19c3d5b7bea2ed60cc335f5bd0116bd659d23`
+- **Integrity (SHA-256 of canonical facts):** `1881b4f7047f6dbdb932c7027b2b766d2ebd3050d3b63ee29352644d07bbdef9`
 - **Evidence schema:** seavigil-evidence-1.0
 
 _Apparent activity and an inspection lead, not proof of illegality. AIS and SAR evidence have known coverage gaps and spoofing risks; verify against authoritative sources before any enforcement action._
