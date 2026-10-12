@@ -1,19 +1,19 @@
-# Incident `live_ais__dbfa7e93de57aa`
+# Incident `live_ais__d50cceb929079d`
 
 - **MPA:** AIS disabling (going dark)
-- **Severity:** HIGH (foreign vessel, no authorization on record)
-- **EEZ:** Kiribati Exclusive Economic Zone (Gilbert Islands) (Kiribati) -- FOREIGN-flagged vessel
-- **Authorization:** No public authorization record (check coastal state)
-- **Vessel:** 🇲🇭 UNAAK  ·  **signal:** AIS gap
-- **When (UTC):** 2026-10-05T14:32:05.000Z → 2026-10-06T21:13:32.000Z
-- **Gap:** 30.7 h dark, 197.0 nm offshore
-- **Where:** -2.025, 178.826
+- **Severity:** HIGH (foreign vessel, authorization lapsed)
+- **EEZ:** Mauritanian Exclusive Economic Zone (Mauritania) -- FOREIGN-flagged vessel
+- **Authorization:** Authorization lapsed before this date: ICCAT  ·  IMO 9882009
+- **Vessel:** 🇪🇸 MONTERAIOLA  ·  **signal:** AIS gap
+- **When (UTC):** 2026-10-08T06:43:39.000Z → 2026-10-08T19:26:19.000Z
+- **Gap:** 12.7 h dark, 51.0 nm offshore
+- **Where:** 20.162, -18.014
 
 ## Why this was flagged
 
 _GFW Events gaps dataset (satellite AIS).._
 
-- went dark 197 nm offshore for 31 h
+- went dark 51 nm offshore for 13 h
 - satellite-confirmed AIS gap (GFW Events)
 
 ## Could be innocent
@@ -31,7 +31,7 @@ Going dark is frequently benign: in open water, where gaps are commonly protecti
 - NOAA Marine Cadastre AIS (marinecadastre.gov/ais (vessel positions)). US public domain.
 - WDPA / WD-OECM (World Database on Protected Areas) (UNEP-WCMC and IUCN (2026), June 2026). Protected Planet Terms of Use (non-commercial, display-only).
 - Marine Regions Exclusive Economic Zones v12 (Flanders Marine Institute (2024), DOI 10.14284/632). CC BY 4.0.
-- **Integrity (SHA-256 of canonical facts):** `716b8309521d46b7be629b1d4875c59c03147aef9e0a92a0172a80da5913f8f3`
+- **Integrity (SHA-256 of canonical facts):** `94a28eea4f13e33c30b9f2fecbc205f29594ff5b4d932874124077d3e89e8365`
 - **Evidence schema:** seavigil-evidence-1.0
 
 _Apparent activity and an inspection lead, not proof of illegality. AIS and SAR evidence have known coverage gaps and spoofing risks; verify against authoritative sources before any enforcement action._
