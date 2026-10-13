@@ -3,7 +3,7 @@
 - **MPA:** At-sea encounter (transshipment)
 - **Severity:** HIGH (foreign vessel, no authorization on record)
 - **EEZ:** Overlapping claim Kuril Islands: Japan / Russia (Japan) -- FOREIGN-flagged vessel
-- **Authorization:** No public authorization record (check coastal state)  ·  IMO 9053323
+- **Authorization:** No public authorization record (check coastal state)
 - **Vessel:** 🇷🇺 MYS DOKUCHAEVA  ·  **signal:** Encounter
 - **When (UTC):** 2026-10-09T18:00:00.000Z → 2026-10-09T23:20:00.000Z
 - **Encounter:** 5.3 h with carrier `273453980` (apparent transshipment)
