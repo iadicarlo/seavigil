@@ -1,6 +1,32 @@
 {
-"generated_at": "2026-10-13T00:43:20Z",
+"generated_at": "2026-10-13T07:44:50Z",
 "alerts": [
+{
+"id": "live_enco_9623fbf8c78a42",
+"first_seen": "2026-10-13T07:44:50Z",
+"type": "encounter",
+"when": "2026-10-09T14:10:00.000Z",
+"eez": "Japanese Exclusive Economic Zone",
+"flag": "TWN",
+"authorization": "no_record",
+"severity_reason": "foreign vessel, no authorization on record",
+"lat": 26.7281,
+"lon": 125.4946,
+"ship_name": "SHIN DER YIH NO.168"
+},
+{
+"id": "live_enco_c13c8f611ef843",
+"first_seen": "2026-10-13T07:44:50Z",
+"type": "encounter",
+"when": "2026-10-09T03:20:00.000Z",
+"eez": "Vietnamese Exclusive Economic Zone",
+"flag": "TUV",
+"authorization": "no_record",
+"severity_reason": "foreign vessel, no authorization on record",
+"lat": 20.1245,
+"lon": 107.7261,
+"ship_name": "MEC SI    E8     G64"
+},
 {
 "id": "live_enco_411c940797b98d",
 "first_seen": "2026-10-13T00:43:20Z",
@@ -2574,32 +2600,6 @@
 "lat": 19.4802,
 "lon": 57.7289,
 "ship_name": "CAN KUL 1"
-},
-{
-"id": "live_enco_983f9d0e837f06",
-"first_seen": "2026-10-09T02:12:06Z",
-"type": "encounter",
-"when": "2026-10-05T08:10:00.000Z",
-"eez": "Vietnamese Exclusive Economic Zone",
-"flag": "LBN",
-"authorization": "no_record",
-"severity_reason": "foreign vessel, no authorization on record",
-"lat": 20.1244,
-"lon": 107.7256,
-"ship_name": "HUNG VAN   01    C12"
-},
-{
-"id": "live_enco_ca33446dabc3c8",
-"first_seen": "2026-10-09T02:12:06Z",
-"type": "encounter",
-"when": "2026-10-05T13:00:00.000Z",
-"eez": "Kiribati Exclusive Economic Zone (Line Group)",
-"flag": "CHN",
-"authorization": "authorization_lapsed",
-"severity_reason": "foreign vessel, authorization lapsed",
-"lat": -5.2196,
-"lon": -155.3712,
-"ship_name": "GUANGYUANYU333"
 }
 ]
 }
