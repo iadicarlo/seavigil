@@ -3,8 +3,8 @@
 - **MPA:** At-sea encounter (transshipment)
 - **Severity:** HIGH (foreign vessel, no authorization on record)
 - **EEZ:** Overlapping claim Kuril Islands: Japan / Russia (Japan) -- FOREIGN-flagged vessel
-- **Authorization:** No public authorization record (check coastal state)
-- **Vessel:** 🇷🇺 MYS LEVENORNA  ·  **signal:** Encounter
+- **Authorization:** No public authorization record (check coastal state)  ·  IMO 9053270
+- **Vessel:** 🇨🇾 MYS LEVENORNA  ·  **signal:** Encounter
 - **When (UTC):** 2026-10-09T07:30:00.000Z → 2026-10-10T23:50:00.000Z
 - **Encounter:** 40.3 h with carrier `273453980` (apparent transshipment)
 - **Where:** 43.766, 145.999
@@ -31,7 +31,7 @@ Two vessels meeting at sea can be a legitimate transfer, bunkering, or a safety 
 
 - WDPA / WD-OECM (World Database on Protected Areas) (UNEP-WCMC and IUCN (2026), June 2026). Protected Planet Terms of Use (non-commercial, display-only).
 - Marine Regions Exclusive Economic Zones v12 (Flanders Marine Institute (2024), DOI 10.14284/632). CC BY 4.0.
-- **Integrity (SHA-256 of canonical facts):** `ab1d32fd86ac3c81c01585d89d7e4c6092aece0e070ba3a43c166fd71cb3c8cc`
+- **Integrity (SHA-256 of canonical facts):** `131690bd46402a301db758a90a3867c979e8a8dd2f485dd47fc1a93e5e276ad4`
 - **Evidence schema:** seavigil-evidence-1.0
 
 _Apparent activity and an inspection lead, not proof of illegality. AIS and SAR evidence have known coverage gaps and spoofing risks; verify against authoritative sources before any enforcement action._

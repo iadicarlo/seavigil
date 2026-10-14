@@ -1,19 +1,19 @@
-# Incident `live_ais__53ea3b686206ac`
+# Incident `live_ais__2557565ddaa642`
 
 - **MPA:** AIS disabling (going dark)
 - **Severity:** HIGH (foreign vessel, no authorization on record)
-- **EEZ:** Angolan Exclusive Economic Zone (Angola) -- FOREIGN-flagged vessel
-- **Authorization:** No public authorization record (check coastal state)
-- **Vessel:** 🇻🇨 MAMOLINO 2001  ·  **signal:** AIS gap
-- **When (UTC):** 2026-10-07T20:29:13.000Z → 2026-10-09T09:48:16.000Z
-- **Gap:** 37.3 h dark, 72.0 nm offshore
-- **Where:** -7.562, 11.634
+- **EEZ:** Sierra Leonean Exclusive Economic Zone (Sierra Leone) -- FOREIGN-flagged vessel
+- **Authorization:** No public authorization record (check coastal state)  ·  IMO 9869007
+- **Vessel:** 🇬🇳 MAMOU  ·  **signal:** AIS gap
+- **When (UTC):** 2026-10-04T21:47:38.000Z → 2026-10-10T16:19:19.000Z
+- **Gap:** 138.5 h dark, 50.0 nm offshore
+- **Where:** 8.710, -13.937
 
 ## Why this was flagged
 
 _GFW Events gaps dataset (satellite AIS).._
 
-- went dark 72 nm offshore for 37 h
+- went dark 50 nm offshore for 139 h
 - satellite-confirmed AIS gap (GFW Events)
 
 ## Could be innocent
@@ -31,7 +31,7 @@ Going dark is frequently benign: in open water, where gaps are commonly protecti
 - NOAA Marine Cadastre AIS (marinecadastre.gov/ais (vessel positions)). US public domain.
 - WDPA / WD-OECM (World Database on Protected Areas) (UNEP-WCMC and IUCN (2026), June 2026). Protected Planet Terms of Use (non-commercial, display-only).
 - Marine Regions Exclusive Economic Zones v12 (Flanders Marine Institute (2024), DOI 10.14284/632). CC BY 4.0.
-- **Integrity (SHA-256 of canonical facts):** `10f02c956713be31a8a602318ecdffdb9e388f7357d78b5d945dbe1e0455da75`
+- **Integrity (SHA-256 of canonical facts):** `527fb47ef9870e7f743cc8b93585b47f2cad7adc8c951b5f28141004331c2d0b`
 - **Evidence schema:** seavigil-evidence-1.0
 
 _Apparent activity and an inspection lead, not proof of illegality. AIS and SAR evidence have known coverage gaps and spoofing risks; verify against authoritative sources before any enforcement action._
