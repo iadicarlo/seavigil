@@ -5,15 +5,15 @@
 - **EEZ:** Overlapping claim Kuril Islands: Japan / Russia (Japan) -- FOREIGN-flagged vessel
 - **Authorization:** No public authorization record (check coastal state)
 - **Vessel:** 🇷🇺 MYS LEVENORNA  ·  **signal:** Encounter
-- **When (UTC):** 2026-10-09T07:30:00.000Z → 2026-10-09T23:20:00.000Z
-- **Encounter:** 15.8 h with carrier `273453980` (apparent transshipment)
-- **Where:** 43.764, 145.971
+- **When (UTC):** 2026-10-09T07:30:00.000Z → 2026-10-10T23:50:00.000Z
+- **Encounter:** 40.3 h with carrier `273453980` (apparent transshipment)
+- **Where:** 43.766, 145.999
 
 ## Why this was flagged
 
 _GFW Events encounters dataset (Miller et al. 2018).._
 
-- two vessels within range for 16 h
+- two vessels within range for 40 h
 - counterpart: ZALIV PROSTOR
 - two-vessel at-sea encounter (GFW Events)
 
@@ -31,7 +31,7 @@ Two vessels meeting at sea can be a legitimate transfer, bunkering, or a safety 
 
 - WDPA / WD-OECM (World Database on Protected Areas) (UNEP-WCMC and IUCN (2026), June 2026). Protected Planet Terms of Use (non-commercial, display-only).
 - Marine Regions Exclusive Economic Zones v12 (Flanders Marine Institute (2024), DOI 10.14284/632). CC BY 4.0.
-- **Integrity (SHA-256 of canonical facts):** `3f40127b2b5c79d88cd63048047c618de16c4d0ae0aacdfd4dc4ab05643850fa`
+- **Integrity (SHA-256 of canonical facts):** `ab1d32fd86ac3c81c01585d89d7e4c6092aece0e070ba3a43c166fd71cb3c8cc`
 - **Evidence schema:** seavigil-evidence-1.0
 
 _Apparent activity and an inspection lead, not proof of illegality. AIS and SAR evidence have known coverage gaps and spoofing risks; verify against authoritative sources before any enforcement action._

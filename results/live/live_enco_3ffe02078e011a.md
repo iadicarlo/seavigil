@@ -5,15 +5,15 @@
 - **EEZ:** Omani Exclusive Economic Zone (Oman) -- FOREIGN-flagged vessel
 - **Authorization:** No public authorization record (check coastal state)
 - **Vessel:** 🇹🇷 CAN KUL 1  ·  **signal:** Encounter
-- **When (UTC):** 2026-10-09T03:00:00.000Z → 2026-10-09T23:50:00.000Z
-- **Encounter:** 20.8 h with carrier `461000291` (apparent transshipment)
+- **When (UTC):** 2026-10-09T03:00:00.000Z → 2026-10-10T23:50:00.000Z
+- **Encounter:** 44.8 h with carrier `461000291` (apparent transshipment)
 - **Where:** 19.477, 57.728
 
 ## Why this was flagged
 
 _GFW Events encounters dataset (Miller et al. 2018).._
 
-- two vessels within range for 21 h
+- two vessels within range for 45 h
 - counterpart: AL MALAH
 - two-vessel at-sea encounter (GFW Events)
 
@@ -31,7 +31,7 @@ Two vessels meeting at sea can be a legitimate transfer, bunkering, or a safety 
 
 - WDPA / WD-OECM (World Database on Protected Areas) (UNEP-WCMC and IUCN (2026), June 2026). Protected Planet Terms of Use (non-commercial, display-only).
 - Marine Regions Exclusive Economic Zones v12 (Flanders Marine Institute (2024), DOI 10.14284/632). CC BY 4.0.
-- **Integrity (SHA-256 of canonical facts):** `b7e042951a63a115bbe42ff81157c8bb66ec611e5278bcd7571746899ed25540`
+- **Integrity (SHA-256 of canonical facts):** `cdc479e247cfc93c9d90f5b7fd4e2a0d2bacbecec148cf1935b9787211c92931`
 - **Evidence schema:** seavigil-evidence-1.0
 
 _Apparent activity and an inspection lead, not proof of illegality. AIS and SAR evidence have known coverage gaps and spoofing risks; verify against authoritative sources before any enforcement action._
