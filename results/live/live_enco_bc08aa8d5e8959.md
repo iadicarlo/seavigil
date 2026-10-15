@@ -5,15 +5,15 @@
 - **EEZ:** Overlapping claim Kuril Islands: Japan / Russia (Japan) -- FOREIGN-flagged vessel
 - **Authorization:** No public authorization record (check coastal state)
 - **Vessel:** 🇷🇺 MEKHANIK SIZOV  ·  **signal:** Encounter
-- **When (UTC):** 2026-10-10T11:00:00.000Z → 2026-10-10T23:50:00.000Z
-- **Encounter:** 12.8 h with carrier `273257520` (apparent transshipment)
-- **Where:** 44.599, 148.320
+- **When (UTC):** 2026-10-10T11:00:00.000Z → 2026-10-11T23:50:00.000Z
+- **Encounter:** 36.8 h with carrier `273257520` (apparent transshipment)
+- **Where:** 44.562, 148.200
 
 ## Why this was flagged
 
 _GFW Events encounters dataset (Miller et al. 2018).._
 
-- two vessels within range for 13 h
+- two vessels within range for 37 h
 - counterpart: CRYSTAL ANIVA
 - two-vessel at-sea encounter (GFW Events)
 
@@ -31,7 +31,7 @@ Two vessels meeting at sea can be a legitimate transfer, bunkering, or a safety 
 
 - WDPA / WD-OECM (World Database on Protected Areas) (UNEP-WCMC and IUCN (2026), June 2026). Protected Planet Terms of Use (non-commercial, display-only).
 - Marine Regions Exclusive Economic Zones v12 (Flanders Marine Institute (2024), DOI 10.14284/632). CC BY 4.0.
-- **Integrity (SHA-256 of canonical facts):** `c7e3416c97ab7b1b6600375aab2e06ee95fde7dfe7ca014823162f2b05ae8f40`
+- **Integrity (SHA-256 of canonical facts):** `78c5fa2bfc531ab13a3073cb4248364af7947eeb482bd604b70076802f074ce9`
 - **Evidence schema:** seavigil-evidence-1.0
 
 _Apparent activity and an inspection lead, not proof of illegality. AIS and SAR evidence have known coverage gaps and spoofing risks; verify against authoritative sources before any enforcement action._

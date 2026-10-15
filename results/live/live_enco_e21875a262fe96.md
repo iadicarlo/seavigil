@@ -1,20 +1,20 @@
-# Incident `live_enco_69a2e2526b7be8`
+# Incident `live_enco_e21875a262fe96`
 
 - **MPA:** At-sea encounter (transshipment)
 - **Severity:** HIGH (foreign vessel, no authorization on record)
-- **EEZ:** South Korean Exclusive Economic Zone (South Korea) -- FOREIGN-flagged vessel
+- **EEZ:** Overlapping claim Senkaku Islands: Taiwan / Japan / China (Taiwan) -- FOREIGN-flagged vessel
 - **Authorization:** No public authorization record (check coastal state)
-- **Vessel:** 🇫🇴 ZHEXIANGYU12067+6-  ·  **signal:** Encounter
-- **When (UTC):** 2026-10-10T05:40:00.000Z → 2026-10-10T19:20:00.000Z
-- **Encounter:** 13.7 h with carrier `412439502` (apparent transshipment)
-- **Where:** 34.606, 123.856
+- **Vessel:** 🇨🇳 `412812312`  ·  **signal:** Encounter
+- **When (UTC):** 2026-10-11T05:10:00.000Z → 2026-10-11T20:30:00.000Z
+- **Encounter:** 15.3 h with carrier `412451798` (apparent transshipment)
+- **Where:** 26.646, 122.922
 
 ## Why this was flagged
 
 _GFW Events encounters dataset (Miller et al. 2018).._
 
-- two vessels within range for 14 h
-- counterpart: ZHEXIANGYU49388
+- two vessels within range for 15 h
+- counterpart: MIN SHI YU 07279
 - two-vessel at-sea encounter (GFW Events)
 
 ## Could be innocent
@@ -31,7 +31,7 @@ Two vessels meeting at sea can be a legitimate transfer, bunkering, or a safety 
 
 - WDPA / WD-OECM (World Database on Protected Areas) (UNEP-WCMC and IUCN (2026), June 2026). Protected Planet Terms of Use (non-commercial, display-only).
 - Marine Regions Exclusive Economic Zones v12 (Flanders Marine Institute (2024), DOI 10.14284/632). CC BY 4.0.
-- **Integrity (SHA-256 of canonical facts):** `f50eb42bdbf87dc22f98e9850acadc2c3f632dd69b440f03481f5c1b904ec37f`
+- **Integrity (SHA-256 of canonical facts):** `7d12732e66200443c510125e206877333fcd2c3d5e9049456036e0da63737a8c`
 - **Evidence schema:** seavigil-evidence-1.0
 
 _Apparent activity and an inspection lead, not proof of illegality. AIS and SAR evidence have known coverage gaps and spoofing risks; verify against authoritative sources before any enforcement action._
