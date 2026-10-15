@@ -1,6 +1,6 @@
 # In-MPA records
 
-40 record(s): 40 AIS fishing incident(s), 0 dark-vessel SAR detection(s).
+38 record(s): 38 AIS fishing incident(s), 0 dark-vessel SAR detection(s).
 
 | id | type | MPA | start (UTC) | score / mean p |
 |---|---|---|---|---:|
@@ -13,12 +13,10 @@
 | [live_enco_bc08aa8d5e8959](live_enco_bc08aa8d5e8959.md) | AIS fishing | At-sea encounter (transshipment) | 2026-10-10T11:00:00.000Z | - |
 | [live_enco_48967febdd9d23](live_enco_48967febdd9d23.md) | AIS fishing | At-sea encounter (transshipment) | 2026-10-11T08:20:00.000Z | - |
 | [live_enco_411c1ed376bda8](live_enco_411c1ed376bda8.md) | AIS fishing | At-sea encounter (transshipment) | 2026-10-11T12:40:00.000Z | - |
+| [live_enco_4669abb7acb435](live_enco_4669abb7acb435.md) | AIS fishing | At-sea encounter (transshipment) | 2026-10-11T14:50:00.000Z | - |
 | [live_enco_c73fa540583f9f](live_enco_c73fa540583f9f.md) | AIS fishing | At-sea encounter (transshipment) | 2026-10-11T06:50:00.000Z | - |
-| [live_enco_4e075a64831c47](live_enco_4e075a64831c47.md) | AIS fishing | At-sea encounter (transshipment) | 2026-10-11T09:20:00.000Z | - |
 | [live_enco_e21875a262fe96](live_enco_e21875a262fe96.md) | AIS fishing | At-sea encounter (transshipment) | 2026-10-11T05:10:00.000Z | - |
 | [live_enco_460d29763ac936](live_enco_460d29763ac936.md) | AIS fishing | At-sea encounter (transshipment) | 2026-10-11T06:30:00.000Z | - |
-| [live_enco_afcbae4cf35fbc](live_enco_afcbae4cf35fbc.md) | AIS fishing | At-sea encounter (transshipment) | 2026-10-11T13:40:00.000Z | - |
-| [live_enco_fb411e61b9dfec](live_enco_fb411e61b9dfec.md) | AIS fishing | At-sea encounter (transshipment) | 2026-10-11T13:40:00.000Z | - |
 | [live_enco_61caecde7e2fcd](live_enco_61caecde7e2fcd.md) | AIS fishing | At-sea encounter (transshipment) | 2026-10-11T13:50:00.000Z | - |
 | [live_ais__27939bd6d433c0](live_ais__27939bd6d433c0.md) | AIS fishing | AIS disabling (going dark) | 2026-10-10T11:17:34.000Z | - |
 | [live_ais__6116d17ecd59e3](live_ais__6116d17ecd59e3.md) | AIS fishing | AIS disabling (going dark) | 2026-10-04T21:39:48.000Z | - |

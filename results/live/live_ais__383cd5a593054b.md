@@ -1,9 +1,9 @@
 # Incident `live_ais__383cd5a593054b`
 
 - **MPA:** AIS disabling (going dark)
-- **Severity:** HIGH (foreign vessel, no authorization on record)
+- **Severity:** HIGH (foreign vessel, authorization lapsed)
 - **EEZ:** Micronesian Exclusive Economic Zone (Micronesia) -- FOREIGN-flagged vessel
-- **Authorization:** No public authorization record (check coastal state)
+- **Authorization:** Authorization lapsed before this date: FFA, WCPFC  ·  IMO 9690315
 - **Vessel:** 🇯🇵 HAKKO MARU NO.35  ·  **signal:** AIS gap
 - **When (UTC):** 2026-09-22T20:44:17.000Z → 2026-10-10T14:01:19.000Z
 - **Gap:** 425.3 h dark, 63.0 nm offshore

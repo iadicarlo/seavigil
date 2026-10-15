@@ -3,7 +3,7 @@
 - **MPA:** AIS disabling (going dark)
 - **Severity:** HIGH (foreign vessel, no authorization on record)
 - **EEZ:** Seychellois Exclusive Economic Zone (Seychelles) -- FOREIGN-flagged vessel
-- **Authorization:** No public authorization record (check coastal state)
+- **Authorization:** No public authorization record (check coastal state)  ·  IMO 9320403
 - **Vessel:** 🇵🇦 MSC LORENA  ·  **signal:** AIS gap
 - **When (UTC):** 2026-10-07T04:19:14.000Z → 2026-10-10T19:54:09.000Z
 - **Gap:** 87.6 h dark, 179.0 nm offshore

@@ -1,6 +1,19 @@
 {
-"generated_at": "2026-10-15T04:43:11Z",
+"generated_at": "2026-10-15T09:57:42Z",
 "alerts": [
+{
+"id": "live_enco_4669abb7acb435",
+"first_seen": "2026-10-15T09:57:42Z",
+"type": "encounter",
+"when": "2026-10-11T14:50:00.000Z",
+"eez": "Chinese Exclusive Economic Zone",
+"flag": "MCO",
+"authorization": "no_record",
+"severity_reason": "foreign vessel, no authorization on record",
+"lat": 38.3695,
+"lon": 120.5597,
+"ship_name": "61999"
+},
 {
 "id": "live_enco_4a3fe6f746e744",
 "first_seen": "2026-10-15T04:43:11Z",
@@ -2587,19 +2600,6 @@
 "lat": 48.7346,
 "lon": -51.881,
 "ship_name": "EASTERN RAEYA  [95%]"
-},
-{
-"id": "live_enco_a27cb00071959a",
-"first_seen": "2026-10-10T00:54:03Z",
-"type": "encounter",
-"when": "2026-10-06T15:30:00.000Z",
-"eez": "South Korean Exclusive Economic Zone",
-"flag": "CHN",
-"authorization": "no_record",
-"severity_reason": "foreign vessel, no authorization on record",
-"lat": 36.1063,
-"lon": 124.3277,
-"ship_name": "LIAODAZHONGYU15289"
 }
 ]
 }

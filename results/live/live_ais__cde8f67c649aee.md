@@ -3,7 +3,7 @@
 - **MPA:** AIS disabling (going dark)
 - **Severity:** HIGH (foreign vessel, no authorization on record)
 - **EEZ:** Yemeni Exclusive Economic Zone (Yemen) -- FOREIGN-flagged vessel
-- **Authorization:** No public authorization record (check coastal state)  ·  IMO 9348924
+- **Authorization:** No public authorization record (check coastal state)  ·  IMO 9348912
 - **Vessel:** 🇸🇬 X-PRESS KARAKORAM  ·  **signal:** AIS gap
 - **When (UTC):** 2026-10-09T12:58:03.000Z → 2026-10-10T01:06:15.000Z
 - **Gap:** 12.1 h dark, 63.0 nm offshore
