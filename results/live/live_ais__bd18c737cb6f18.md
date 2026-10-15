@@ -1,19 +1,19 @@
-# Incident `live_ais__b513d964387a84`
+# Incident `live_ais__bd18c737cb6f18`
 
 - **MPA:** AIS disabling (going dark)
 - **Severity:** HIGH (foreign vessel, no authorization on record)
-- **EEZ:** New Zealand Exclusive Economic Zone (Cook Islands) (New Zealand) -- FOREIGN-flagged vessel
+- **EEZ:** Kiribati Exclusive Economic Zone (Phoenix Group) (Kiribati) -- FOREIGN-flagged vessel
 - **Authorization:** No public authorization record (check coastal state)
-- **Vessel:** 🇫🇷 TALULAH  ·  **signal:** AIS gap
-- **When (UTC):** 2026-10-09T10:58:39.000Z → 2026-10-10T00:11:24.000Z
-- **Gap:** 13.2 h dark, 221.0 nm offshore
-- **Where:** -17.459, -164.237
+- **Vessel:** 🇨🇳 YHG10  100%  ·  **signal:** AIS gap
+- **When (UTC):** 2026-10-06T08:40:32.000Z → 2026-10-11T23:42:19.000Z
+- **Gap:** 135.0 h dark, 325.0 nm offshore
+- **Where:** -4.891, -172.001
 
 ## Why this was flagged
 
 _GFW Events gaps dataset (satellite AIS).._
 
-- went dark 221 nm offshore for 13 h
+- went dark 325 nm offshore for 135 h
 - satellite-confirmed AIS gap (GFW Events)
 
 ## Could be innocent
@@ -31,7 +31,7 @@ Going dark is frequently benign: in open water, where gaps are commonly protecti
 - NOAA Marine Cadastre AIS (marinecadastre.gov/ais (vessel positions)). US public domain.
 - WDPA / WD-OECM (World Database on Protected Areas) (UNEP-WCMC and IUCN (2026), June 2026). Protected Planet Terms of Use (non-commercial, display-only).
 - Marine Regions Exclusive Economic Zones v12 (Flanders Marine Institute (2024), DOI 10.14284/632). CC BY 4.0.
-- **Integrity (SHA-256 of canonical facts):** `65eb512c9c13a6a6fd3f575316b0fe1ceabf748f57b273eb1aa64bc2298196cd`
+- **Integrity (SHA-256 of canonical facts):** `99d95e11834ae9b80e293ebdc31714a425801faa2c1eb7a6c2d42572f3b731aa`
 - **Evidence schema:** seavigil-evidence-1.0
 
 _Apparent activity and an inspection lead, not proof of illegality. AIS and SAR evidence have known coverage gaps and spoofing risks; verify against authoritative sources before any enforcement action._
