@@ -1,20 +1,20 @@
-# Incident `live_enco_07f93d5fce5d86`
+# Incident `live_enco_1e5cc1e5edabe0`
 
 - **MPA:** At-sea encounter (transshipment)
 - **Severity:** HIGH (foreign vessel, no authorization on record)
-- **EEZ:** Russian Exclusive Economic Zone (Russia) -- FOREIGN-flagged vessel
-- **Authorization:** No public authorization record (check coastal state)  ·  IMO 7377452
-- **Vessel:** 🇰🇷 NAMBUKHO  ·  **signal:** Encounter
-- **When (UTC):** 2026-10-12T04:30:00.000Z → 2026-10-12T23:50:00.000Z
-- **Encounter:** 19.3 h with carrier `273353060` (apparent transshipment)
-- **Where:** 62.019, 176.185
+- **EEZ:** Overlapping claim Senkaku Islands: Taiwan / Japan / China (Taiwan) -- FOREIGN-flagged vessel
+- **Authorization:** No public authorization record (check coastal state)
+- **Vessel:** 🇨🇳 MIN SHI YU 07279  ·  **signal:** Encounter
+- **When (UTC):** 2026-10-13T13:00:00.000Z → 2026-10-13T23:50:00.000Z
+- **Encounter:** 10.8 h with carrier `412812312` (apparent transshipment)
+- **Where:** 26.647, 122.920
 
 ## Why this was flagged
 
 _GFW Events encounters dataset (Miller et al. 2018).._
 
-- two vessels within range for 19 h
-- counterpart: CAROLINA 77
+- two vessels within range for 11 h
+- counterpart: 412812312
 - two-vessel at-sea encounter (GFW Events)
 
 ## Could be innocent
@@ -31,7 +31,7 @@ Two vessels meeting at sea can be a legitimate transfer, bunkering, or a safety 
 
 - WDPA / WD-OECM (World Database on Protected Areas) (UNEP-WCMC and IUCN (2026), June 2026). Protected Planet Terms of Use (non-commercial, display-only).
 - Marine Regions Exclusive Economic Zones v12 (Flanders Marine Institute (2024), DOI 10.14284/632). CC BY 4.0.
-- **Integrity (SHA-256 of canonical facts):** `a2f2cf583610d695d096bd920124db83e9214d397cdf307cf3afb98bd0fdb3db`
+- **Integrity (SHA-256 of canonical facts):** `8c23cb292b3863335042e4052053cb36bf715eb6e71d92835666cdaede15caf8`
 - **Evidence schema:** seavigil-evidence-1.0
 
 _Apparent activity and an inspection lead, not proof of illegality. AIS and SAR evidence have known coverage gaps and spoofing risks; verify against authoritative sources before any enforcement action._
