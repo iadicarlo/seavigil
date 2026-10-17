@@ -1,6 +1,19 @@
 {
-"generated_at": "2026-10-17T04:30:38Z",
+"generated_at": "2026-10-17T09:24:17Z",
 "alerts": [
+{
+"id": "live_enco_6772a6dcd863b3",
+"first_seen": "2026-10-17T09:24:17Z",
+"type": "encounter",
+"when": "2026-10-13T18:10:00.000Z",
+"eez": "Chinese Exclusive Economic Zone",
+"flag": "GRC",
+"authorization": "no_record",
+"severity_reason": "foreign vessel, no authorization on record",
+"lat": 22.1063,
+"lon": 116.8078,
+"ship_name": "297"
+},
 {
 "id": "live_enco_4881a39810506d",
 "first_seen": "2026-10-17T04:30:38Z",
@@ -2587,19 +2600,6 @@
 "lat": -11.3398,
 "lon": 112.043,
 "ship_name": "YUAN SHI HAI"
-},
-{
-"id": "live_ais__0f5cd0f338fa20",
-"first_seen": "2026-10-11T15:43:40Z",
-"type": "ais_disabling",
-"when": "2026-10-07T01:51:57.000Z",
-"eez": "Papua New Guinean Exclusive Economic Zone",
-"flag": "CHN",
-"authorization": "no_record",
-"severity_reason": "foreign vessel, no authorization on record",
-"lat": -10.1684,
-"lon": 155.0008,
-"ship_name": "LUYUAN23"
 }
 ]
 }
