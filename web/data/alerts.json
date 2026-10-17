@@ -1,6 +1,32 @@
 {
-"generated_at": "2026-10-17T13:44:41Z",
+"generated_at": "2026-10-17T17:12:59Z",
 "alerts": [
+{
+"id": "live_enco_d9d9f1c1bc300a",
+"first_seen": "2026-10-17T17:12:59Z",
+"type": "encounter",
+"when": "2026-10-13T11:10:00.000Z",
+"eez": "Overlapping claim Senkaku Islands: Taiwan / Japan / China",
+"flag": "CHN",
+"authorization": "no_record",
+"severity_reason": "foreign vessel, no authorization on record",
+"lat": 26.6359,
+"lon": 122.8459,
+"ship_name": "MINLIANYU62799"
+},
+{
+"id": "live_enco_28595c779a90cc",
+"first_seen": "2026-10-17T17:12:59Z",
+"type": "encounter",
+"when": "2026-10-13T18:30:00.000Z",
+"eez": "Chinese Exclusive Economic Zone",
+"flag": "TWN",
+"authorization": "no_record",
+"severity_reason": "foreign vessel, no authorization on record",
+"lat": 26.5826,
+"lon": 121.16,
+"ship_name": "YUAN YU"
+},
 {
 "id": "live_ais__d126d31f87468f",
 "first_seen": "2026-10-17T13:44:41Z",
@@ -2573,32 +2599,6 @@
 "severity_reason": "foreign vessel, no authorization on record",
 "lat": 31.9503,
 "lon": 123.0337,
-"ship_name": "ZHEXIANGYU44003"
-},
-{
-"id": "live_enco_7fb4ed23d56d2a",
-"first_seen": "2026-10-12T00:34:36Z",
-"type": "encounter",
-"when": "2026-10-08T09:20:00.000Z",
-"eez": "South Korean Exclusive Economic Zone",
-"flag": "CHN",
-"authorization": "no_record",
-"severity_reason": "foreign vessel, no authorization on record",
-"lat": 32.3757,
-"lon": 124.5641,
-"ship_name": "GUIFANGYU01836"
-},
-{
-"id": "live_enco_7a0a90cafd0fce",
-"first_seen": "2026-10-12T00:34:36Z",
-"type": "encounter",
-"when": "2026-10-08T19:50:00.000Z",
-"eez": "Chinese Exclusive Economic Zone",
-"flag": "KAZ",
-"authorization": "no_record",
-"severity_reason": "foreign vessel, no authorization on record",
-"lat": 31.9418,
-"lon": 123.0363,
 "ship_name": "ZHEXIANGYU44003"
 }
 ]
