@@ -1,9 +1,13 @@
 # In-MPA records
 
-1116 record(s): 0 AIS fishing incident(s), 1116 dark-vessel SAR detection(s).
+1120 record(s): 0 AIS fishing incident(s), 1120 dark-vessel SAR detection(s).
 
 | id | type | MPA | start (UTC) | score / mean p |
 |---|---|---|---|---:|
+| [s1sar__20261016_0012](s1sar__20261016_0012.md) | dark SAR | Sentinel-1 SAR detection | 2026-10-16T23:33:17Z | 0.00 |
+| [s1sar__20261016_0088](s1sar__20261016_0088.md) | dark SAR | Sentinel-1 SAR detection | 2026-10-16T23:33:17Z | 0.02 |
+| [s1sar__20261016_0093](s1sar__20261016_0093.md) | dark SAR | Sentinel-1 SAR detection | 2026-10-16T23:33:17Z | 0.40 |
+| [s1sar__20261016_0112](s1sar__20261016_0112.md) | dark SAR | Sentinel-1 SAR detection | 2026-10-16T23:33:17Z | 0.00 |
 | [s1sar__20261015_0000](s1sar__20261015_0000.md) | dark SAR | Sentinel-1 SAR detection | 2026-10-15T21:55:30Z | 0.83 |
 | [s1sar__20261015_0001](s1sar__20261015_0001.md) | dark SAR | Sentinel-1 SAR detection | 2026-10-15T21:55:30Z | 0.79 |
 | [s1sar__20261015_0002](s1sar__20261015_0002.md) | dark SAR | Sentinel-1 SAR detection | 2026-10-15T21:55:30Z | 0.04 |
