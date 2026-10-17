@@ -1,19 +1,19 @@
-# Incident `live_ais__19054e04728e26`
+# Incident `live_ais__bfa7768b0614e0`
 
 - **MPA:** AIS disabling (going dark)
 - **Severity:** HIGH (foreign vessel, no authorization on record)
-- **EEZ:** Papua New Guinean Exclusive Economic Zone (Papua New Guinea) -- FOREIGN-flagged vessel
-- **Authorization:** No public authorization record (check coastal state)
-- **Vessel:** 🇳🇷 KAILE 888  ·  **signal:** AIS gap
-- **When (UTC):** 2026-09-26T19:46:56.000Z → 2026-10-11T19:42:28.000Z
-- **Gap:** 359.9 h dark, 58.0 nm offshore
-- **Where:** -3.774, 149.900
+- **EEZ:** Spanish Exclusive Economic Zone (Spain) -- FOREIGN-flagged vessel
+- **Authorization:** No public authorization record (check coastal state)  ·  IMO 9312327
+- **Vessel:** 🇵🇦 WATER LILY  ·  **signal:** AIS gap
+- **When (UTC):** 2026-10-10T11:26:01.000Z → 2026-10-13T12:26:13.000Z
+- **Gap:** 73.0 h dark, 208.0 nm offshore
+- **Where:** 41.872, -11.761
 
 ## Why this was flagged
 
 _GFW Events gaps dataset (satellite AIS).._
 
-- went dark 58 nm offshore for 360 h
+- went dark 208 nm offshore for 73 h
 - satellite-confirmed AIS gap (GFW Events)
 
 ## Could be innocent
@@ -31,7 +31,7 @@ Going dark is frequently benign: in open water, where gaps are commonly protecti
 - NOAA Marine Cadastre AIS (marinecadastre.gov/ais (vessel positions)). US public domain.
 - WDPA / WD-OECM (World Database on Protected Areas) (UNEP-WCMC and IUCN (2026), June 2026). Protected Planet Terms of Use (non-commercial, display-only).
 - Marine Regions Exclusive Economic Zones v12 (Flanders Marine Institute (2024), DOI 10.14284/632). CC BY 4.0.
-- **Integrity (SHA-256 of canonical facts):** `44d681fad82bf3e633e3766ad0e7a4e914aa734fbcb68e9836788779108f5832`
+- **Integrity (SHA-256 of canonical facts):** `6049c4f562702a19daa16dbe698652b6a0d39bfae9737d63d95bfe8cc363a605`
 - **Evidence schema:** seavigil-evidence-1.0
 
 _Apparent activity and an inspection lead, not proof of illegality. AIS and SAR evidence have known coverage gaps and spoofing risks; verify against authoritative sources before any enforcement action._
