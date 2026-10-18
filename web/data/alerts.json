@@ -1,6 +1,32 @@
 {
-"generated_at": "2026-10-17T22:21:32Z",
+"generated_at": "2026-10-18T01:05:00Z",
 "alerts": [
+{
+"id": "live_enco_7fb29e45f8893a",
+"first_seen": "2026-10-18T01:05:00Z",
+"type": "encounter",
+"when": "2026-10-14T12:40:00.000Z",
+"eez": "Chinese Exclusive Economic Zone",
+"flag": "MLI",
+"authorization": "no_record",
+"severity_reason": "foreign vessel, no authorization on record",
+"lat": 35.8963,
+"lon": 121.6255,
+"ship_name": "64978"
+},
+{
+"id": "live_enco_761a71238414d7",
+"first_seen": "2026-10-18T01:05:00Z",
+"type": "encounter",
+"when": "2026-10-14T08:40:00.000Z",
+"eez": "Overlapping claim Taiwan: Taiwan / China",
+"flag": "ARG",
+"authorization": "no_record",
+"severity_reason": "foreign vessel, no authorization on record",
+"lat": 25.1213,
+"lon": 122.0233,
+"ship_name": ""
+},
 {
 "id": "live_enco_d9d9f1c1bc300a",
 "first_seen": "2026-10-17T17:12:59Z",
@@ -2574,32 +2600,6 @@
 "lat": 31.2986,
 "lon": 126.0072,
 "ship_name": "GUIFANGYU01878"
-},
-{
-"id": "live_enco_4bac33b2cdd7ca",
-"first_seen": "2026-10-12T00:34:36Z",
-"type": "encounter",
-"when": "2026-10-07T21:50:00.000Z",
-"eez": "Overlapping claim Kuril Islands: Japan / Russia",
-"flag": "RUS",
-"authorization": "no_record",
-"severity_reason": "foreign vessel, no authorization on record",
-"lat": 43.749,
-"lon": 145.9803,
-"ship_name": "MYS DATTA"
-},
-{
-"id": "live_enco_c8d897b3f7ec80",
-"first_seen": "2026-10-12T00:34:36Z",
-"type": "encounter",
-"when": "2026-10-08T19:50:00.000Z",
-"eez": "Chinese Exclusive Economic Zone",
-"flag": "KAZ",
-"authorization": "no_record",
-"severity_reason": "foreign vessel, no authorization on record",
-"lat": 31.9503,
-"lon": 123.0337,
-"ship_name": "ZHEXIANGYU44003"
 }
 ]
 }
