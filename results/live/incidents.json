@@ -108,37 +108,37 @@
     "evidence_hash": "54e6e464521b732f21765c217fe08985170f55776fff95cbd4f82896574e1b13"
   },
   {
-    "incident_id": "live_enco_617c7d5c7168c0",
+    "incident_id": "live_enco_761a71238414d7",
     "type": "encounter",
-    "centroid_lon": 124.08,
-    "centroid_lat": 34.2793,
-    "time_start_utc": "2026-10-14T01:40:00.000Z",
+    "centroid_lon": 122.0233,
+    "centroid_lat": 25.1213,
+    "time_start_utc": "2026-10-14T08:40:00.000Z",
     "time_end_utc": "2026-10-14T23:50:00.000Z",
-    "vessel_id": "412438185",
-    "ship_name": "ZHEXIANGYU12001",
+    "vessel_id": "701000168",
+    "ship_name": "",
     "ship_type": "Fishing",
-    "flag": "CHN",
-    "flag_emoji": "\ud83c\udde8\ud83c\uddf3",
+    "flag": "ARG",
+    "flag_emoji": "\ud83c\udde6\ud83c\uddf7",
     "gear": "Encounter",
     "n_positions": 0,
     "n_fishing_positions": 0,
     "mean_fishing_proba": null,
     "max_fishing_proba": null,
     "_rfmo": [
-      "ACAP",
       "WCPFC",
+      "APFIC",
       "IWC",
-      "PICES"
+      "ACAP"
     ],
     "_no_take": false,
     "mpa_name": "At-sea encounter (transshipment)",
-    "duration_hours": 22.2,
-    "carrier_mmsi": "998512001",
+    "duration_hours": 15.2,
+    "carrier_mmsi": "416001457",
     "explanation": {
       "method": "GFW Events encounters dataset (Miller et al. 2018).",
       "drivers": [
-        "two vessels within range for 22 h",
-        "counterpart: ZHEXIANGYU12001",
+        "two vessels within range for 15 h",
+        "counterpart: SIN MAN MAN NO26",
         "two-vessel at-sea encounter (GFW Events)"
       ]
     },
@@ -147,9 +147,9 @@
       "Apparent transshipment is inferred from proximity and low speed, not observed.",
       "An inspection lead from GFW Events, not proof of illegal activity."
     ],
-    "eez_name": "South Korean Exclusive Economic Zone",
-    "eez_sovereign": "South Korea",
-    "eez_iso_sov": "KOR",
+    "eez_name": "Overlapping claim Taiwan: Taiwan / China",
+    "eez_sovereign": "Taiwan",
+    "eez_iso_sov": "TWN",
     "eez_foreign": true,
     "authorization_status": "no_record",
     "authorization_authorities": [],
@@ -159,7 +159,7 @@
     "severity": "high",
     "severity_reason": "foreign vessel, no authorization on record",
     "evidence_schema": "seavigil-evidence-1.0",
-    "evidence_hash": "bb55c7d85a8d51f46f1bacad2f65ec61409ddbaf2dab2bf0b79ae9621d0e762c"
+    "evidence_hash": "8760d1266f43c40163e85323d7873a31fbd7b9cb5bd16fe71addba093500519d"
   },
   {
     "incident_id": "live_ais__c110563c122a1a",
