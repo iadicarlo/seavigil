@@ -1,19 +1,19 @@
-# Incident `live_ais__eb16e827692568`
+# Incident `live_ais__d5f6ad8c31d372`
 
 - **MPA:** AIS disabling (going dark)
 - **Severity:** HIGH (foreign vessel, no authorization on record)
-- **EEZ:** French Exclusive Economic Zone (Clipperton Island) (France) -- FOREIGN-flagged vessel
-- **Authorization:** No public authorization record (check coastal state)  ·  IMO 9713179
-- **Vessel:** 🇮🇲 BERGE DAISETSU  ·  **signal:** AIS gap
-- **When (UTC):** 2026-10-12T01:33:43.000Z → 2026-10-12T15:21:02.000Z
-- **Gap:** 13.8 h dark, 202.0 nm offshore
-- **Where:** 12.507, -109.575
+- **EEZ:** Brazilian Exclusive Economic Zone (Brazil) -- FOREIGN-flagged vessel
+- **Authorization:** No public authorization record (check coastal state)  ·  IMO 9316115
+- **Vessel:** 🇳🇴 WINDSOR KNUTSEN  ·  **signal:** AIS gap
+- **When (UTC):** 2026-10-14T07:22:30.000Z → 2026-10-14T21:56:49.000Z
+- **Gap:** 14.6 h dark, 70.0 nm offshore
+- **Where:** -25.253, -46.146
 
 ## Why this was flagged
 
 _GFW Events gaps dataset (satellite AIS).._
 
-- went dark 202 nm offshore for 14 h
+- went dark 70 nm offshore for 15 h
 - satellite-confirmed AIS gap (GFW Events)
 
 ## Could be innocent
@@ -31,7 +31,7 @@ Going dark is frequently benign: in open water, where gaps are commonly protecti
 - NOAA Marine Cadastre AIS (marinecadastre.gov/ais (vessel positions)). US public domain.
 - WDPA / WD-OECM (World Database on Protected Areas) (UNEP-WCMC and IUCN (2026), June 2026). Protected Planet Terms of Use (non-commercial, display-only).
 - Marine Regions Exclusive Economic Zones v12 (Flanders Marine Institute (2024), DOI 10.14284/632). CC BY 4.0.
-- **Integrity (SHA-256 of canonical facts):** `8a767627faad0318b28fd4760dfd3906bd79edda7fdd7f96f67eb01c984e9049`
+- **Integrity (SHA-256 of canonical facts):** `ce12b6d1a076d96df90f52b8ebb433590eeb6c24435916df6836869106113ac9`
 - **Evidence schema:** seavigil-evidence-1.0
 
 _Apparent activity and an inspection lead, not proof of illegality. AIS and SAR evidence have known coverage gaps and spoofing risks; verify against authoritative sources before any enforcement action._
