@@ -1,6 +1,19 @@
 {
-"generated_at": "2026-10-18T18:08:03Z",
+"generated_at": "2026-10-18T20:46:59Z",
 "alerts": [
+{
+"id": "live_enco_617c7d5c7168c0",
+"first_seen": "2026-10-18T20:46:59Z",
+"type": "encounter",
+"when": "2026-10-14T01:40:00.000Z",
+"eez": "South Korean Exclusive Economic Zone",
+"flag": "CHN",
+"authorization": "no_record",
+"severity_reason": "foreign vessel, no authorization on record",
+"lat": 34.2793,
+"lon": 124.08,
+"ship_name": "ZHEXIANGYU12001"
+},
 {
 "id": "live_ais__c110563c122a1a",
 "first_seen": "2026-10-18T14:36:24Z",
@@ -2587,19 +2600,6 @@
 "lat": -28.1335,
 "lon": -72.3216,
 "ship_name": "CECILIA"
-},
-{
-"id": "live_ais__b9ef31e05ededa",
-"first_seen": "2026-10-12T17:57:45Z",
-"type": "ais_disabling",
-"when": "2026-10-07T16:46:39.000Z",
-"eez": "Brazilian Exclusive Economic Zone",
-"flag": "SGP",
-"authorization": "no_record",
-"severity_reason": "foreign vessel, no authorization on record",
-"lat": -25.5987,
-"lon": -42.8211,
-"ship_name": "EAGLE CAMBE"
 }
 ]
 }
