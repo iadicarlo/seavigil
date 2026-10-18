@@ -3,7 +3,7 @@
 - **MPA:** AIS disabling (going dark)
 - **Severity:** HIGH (foreign vessel, no authorization on record)
 - **EEZ:** Yemeni Exclusive Economic Zone (Yemen) -- FOREIGN-flagged vessel
-- **Authorization:** No public authorization record (check coastal state)
+- **Authorization:** No public authorization record (check coastal state)  ·  IMO 1011721
 - **Vessel:** 🇮🇳 INDIAN NAVY SAILSHIP  ·  **signal:** AIS gap
 - **When (UTC):** 2026-10-08T16:57:26.000Z → 2026-10-13T19:01:43.000Z
 - **Gap:** 122.1 h dark, 64.0 nm offshore

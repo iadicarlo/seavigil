@@ -3,7 +3,7 @@
 - **MPA:** AIS disabling (going dark)
 - **Severity:** HIGH (foreign vessel, no authorization on record)
 - **EEZ:** Spanish Exclusive Economic Zone (Spain) -- FOREIGN-flagged vessel
-- **Authorization:** No public authorization record (check coastal state)  ·  IMO 9312327
+- **Authorization:** No public authorization record (check coastal state)  ·  IMO 9608221
 - **Vessel:** 🇵🇦 WATER LILY  ·  **signal:** AIS gap
 - **When (UTC):** 2026-10-10T11:26:01.000Z → 2026-10-13T12:26:13.000Z
 - **Gap:** 73.0 h dark, 208.0 nm offshore
