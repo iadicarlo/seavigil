@@ -8,12 +8,12 @@
 | [live_enco_8f894c8d38281a](live_enco_8f894c8d38281a.md) | AIS fishing | At-sea encounter (transshipment) | 2026-10-15T03:40:00.000Z | - |
 | [live_enco_956f580fad162e](live_enco_956f580fad162e.md) | AIS fishing | At-sea encounter (transshipment) | 2026-10-15T04:20:00.000Z | - |
 | [live_enco_14811358e6d4ec](live_enco_14811358e6d4ec.md) | AIS fishing | At-sea encounter (transshipment) | 2026-10-15T07:50:00.000Z | - |
-| [live_enco_70c508add83495](live_enco_70c508add83495.md) | AIS fishing | At-sea encounter (transshipment) | 2026-10-15T20:40:00.000Z | - |
-| [live_enco_32c1d7ecb77ce4](live_enco_32c1d7ecb77ce4.md) | AIS fishing | At-sea encounter (transshipment) | 2026-10-15T20:50:00.000Z | - |
 | [live_enco_f8cf750c161634](live_enco_f8cf750c161634.md) | AIS fishing | At-sea encounter (transshipment) | 2026-10-15T03:00:00.000Z | - |
+| [live_enco_d522ce6fed443c](live_enco_d522ce6fed443c.md) | AIS fishing | At-sea encounter (transshipment) | 2026-10-15T00:30:00.000Z | - |
+| [live_enco_83c60da64e62e6](live_enco_83c60da64e62e6.md) | AIS fishing | At-sea encounter (transshipment) | 2026-10-15T09:20:00.000Z | - |
 | [live_enco_6b8a3cc0c95ec9](live_enco_6b8a3cc0c95ec9.md) | AIS fishing | At-sea encounter (transshipment) | 2026-10-15T00:10:00.000Z | - |
-| [live_enco_15518b01a28010](live_enco_15518b01a28010.md) | AIS fishing | At-sea encounter (transshipment) | 2026-10-15T02:20:00.000Z | - |
 | [live_enco_45de9f50d5af4a](live_enco_45de9f50d5af4a.md) | AIS fishing | At-sea encounter (transshipment) | 2026-10-14T21:30:00.000Z | - |
+| [live_enco_15518b01a28010](live_enco_15518b01a28010.md) | AIS fishing | At-sea encounter (transshipment) | 2026-10-15T02:20:00.000Z | - |
 | [live_ais__ea81098a0a1311](live_ais__ea81098a0a1311.md) | AIS fishing | AIS disabling (going dark) | 2026-10-15T02:00:25.000Z | - |
 | [live_ais__c704831073657e](live_ais__c704831073657e.md) | AIS fishing | AIS disabling (going dark) | 2026-10-14T22:11:30.000Z | - |
 | [live_ais__eed86a345666ed](live_ais__eed86a345666ed.md) | AIS fishing | AIS disabling (going dark) | 2026-10-15T02:06:34.000Z | - |

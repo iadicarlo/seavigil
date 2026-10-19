@@ -1,6 +1,32 @@
 {
-"generated_at": "2026-10-19T15:39:04Z",
+"generated_at": "2026-10-19T21:05:18Z",
 "alerts": [
+{
+"id": "live_enco_d522ce6fed443c",
+"first_seen": "2026-10-19T21:05:18Z",
+"type": "encounter",
+"when": "2026-10-15T00:30:00.000Z",
+"eez": "Chinese Exclusive Economic Zone",
+"flag": "ZMB",
+"authorization": "no_record",
+"severity_reason": "foreign vessel, no authorization on record",
+"lat": 38.0207,
+"lon": 122.0789,
+"ship_name": ""
+},
+{
+"id": "live_enco_83c60da64e62e6",
+"first_seen": "2026-10-19T21:05:18Z",
+"type": "encounter",
+"when": "2026-10-15T09:20:00.000Z",
+"eez": "Chinese Exclusive Economic Zone",
+"flag": "MLI",
+"authorization": "no_record",
+"severity_reason": "foreign vessel, no authorization on record",
+"lat": 35.8957,
+"lon": 121.7291,
+"ship_name": "64978"
+},
 {
 "id": "live_ais__ea81098a0a1311",
 "first_seen": "2026-10-19T15:39:04Z",
@@ -2574,32 +2600,6 @@
 "lat": -19.0132,
 "lon": 172.4367,
 "ship_name": "ZHONGSHUI727"
-},
-{
-"id": "live_ais__53ea3b686206ac",
-"first_seen": "2026-10-13T16:01:32Z",
-"type": "ais_disabling",
-"when": "2026-10-07T20:29:13.000Z",
-"eez": "Angolan Exclusive Economic Zone",
-"flag": "VCT",
-"authorization": "no_record",
-"severity_reason": "foreign vessel, no authorization on record",
-"lat": -7.5623,
-"lon": 11.6343,
-"ship_name": "MAMOLINO 2001"
-},
-{
-"id": "live_ais__2b7a103e8184e5",
-"first_seen": "2026-10-13T16:01:32Z",
-"type": "ais_disabling",
-"when": "2026-10-08T18:52:04.000Z",
-"eez": "Vanuatuan Exclusive Economic Zone",
-"flag": "DEU",
-"authorization": "no_record",
-"severity_reason": "foreign vessel, no authorization on record",
-"lat": -20.8449,
-"lon": 171.3602,
-"ship_name": "SINDBAD"
 }
 ]
 }
