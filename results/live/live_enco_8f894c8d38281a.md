@@ -1,20 +1,20 @@
-# Incident `live_enco_b63aaaa561a8fb`
+# Incident `live_enco_8f894c8d38281a`
 
 - **MPA:** At-sea encounter (transshipment)
 - **Severity:** HIGH (foreign vessel, no authorization on record)
-- **EEZ:** South Korean Exclusive Economic Zone (South Korea) -- FOREIGN-flagged vessel
-- **Authorization:** No public authorization record (check coastal state)
-- **Vessel:** 🇨🇳 ZHE LIN YU 21559  ·  **signal:** Encounter
-- **When (UTC):** 2026-10-13T07:00:00.000Z → 2026-10-14T23:50:00.000Z
-- **Encounter:** 40.8 h with carrier `600951902` (apparent transshipment)
-- **Where:** 32.639, 125.113
+- **EEZ:** Russian Exclusive Economic Zone (Russia) -- FOREIGN-flagged vessel
+- **Authorization:** No public authorization record (check coastal state)  ·  IMO 7237250
+- **Vessel:** 🇰🇷 JOON SUNG HO  ·  **signal:** Encounter
+- **When (UTC):** 2026-10-15T03:40:00.000Z → 2026-10-15T23:50:00.000Z
+- **Encounter:** 20.2 h with carrier `273296490` (apparent transshipment)
+- **Where:** 62.054, 176.346
 
 ## Why this was flagged
 
 _GFW Events encounters dataset (Miller et al. 2018).._
 
-- two vessels within range for 41 h
-- counterpart: 1
+- two vessels within range for 20 h
+- counterpart: FRIO POSEIDON
 - two-vessel at-sea encounter (GFW Events)
 
 ## Could be innocent
@@ -31,7 +31,7 @@ Two vessels meeting at sea can be a legitimate transfer, bunkering, or a safety 
 
 - WDPA / WD-OECM (World Database on Protected Areas) (UNEP-WCMC and IUCN (2026), June 2026). Protected Planet Terms of Use (non-commercial, display-only).
 - Marine Regions Exclusive Economic Zones v12 (Flanders Marine Institute (2024), DOI 10.14284/632). CC BY 4.0.
-- **Integrity (SHA-256 of canonical facts):** `54e6e464521b732f21765c217fe08985170f55776fff95cbd4f82896574e1b13`
+- **Integrity (SHA-256 of canonical facts):** `6c94420780ccdeb6000deb2e4271628b73c840fc78289375078607282ca1ab94`
 - **Evidence schema:** seavigil-evidence-1.0
 
 _Apparent activity and an inspection lead, not proof of illegality. AIS and SAR evidence have known coverage gaps and spoofing risks; verify against authoritative sources before any enforcement action._
