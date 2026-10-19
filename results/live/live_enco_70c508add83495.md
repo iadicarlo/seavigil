@@ -3,7 +3,7 @@
 - **MPA:** At-sea encounter (transshipment)
 - **Severity:** HIGH (foreign vessel, no authorization on record)
 - **EEZ:** Russian Exclusive Economic Zone (Russia) -- FOREIGN-flagged vessel
-- **Authorization:** No public authorization record (check coastal state)  ·  IMO 7237250
+- **Authorization:** No public authorization record (check coastal state)
 - **Vessel:** 🇰🇷 JOON SUNG HO  ·  **signal:** Encounter
 - **When (UTC):** 2026-10-15T20:40:00.000Z → 2026-10-15T23:50:00.000Z
 - **Encounter:** 3.2 h with carrier `273442270` (apparent transshipment)
