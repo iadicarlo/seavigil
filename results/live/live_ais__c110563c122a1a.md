@@ -3,7 +3,7 @@
 - **MPA:** AIS disabling (going dark)
 - **Severity:** HIGH (foreign vessel, no authorization on record)
 - **EEZ:** United States Exclusive Economic Zone (Alaska) (United States) -- FOREIGN-flagged vessel
-- **Authorization:** No public authorization record (check coastal state)  ·  IMO 9241281
+- **Authorization:** No public authorization record (check coastal state)
 - **Vessel:** 🇬🇧 EVER ELITE  ·  **signal:** AIS gap
 - **When (UTC):** 2026-10-14T06:15:01.000Z → 2026-10-14T22:10:36.000Z
 - **Gap:** 15.9 h dark, 100.0 nm offshore

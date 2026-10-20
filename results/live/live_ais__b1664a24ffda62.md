@@ -1,9 +1,9 @@
 # Incident `live_ais__b1664a24ffda62`
 
 - **MPA:** AIS disabling (going dark)
-- **Severity:** HIGH (foreign vessel, no authorization on record)
+- **Severity:** HIGH (foreign vessel, authorization lapsed)
 - **EEZ:** Ghanaian Exclusive Economic Zone (Ghana) -- FOREIGN-flagged vessel
-- **Authorization:** No public authorization record (check coastal state)
+- **Authorization:** Authorization lapsed before this date: ICCAT, IOTC, WCPFC  ·  IMO 9225548
 - **Vessel:** 🇫🇷 F/V STERENN  ·  **signal:** AIS gap
 - **When (UTC):** 2026-09-27T05:18:19.000Z → 2026-10-15T13:47:03.000Z
 - **Gap:** 440.5 h dark, 56.0 nm offshore

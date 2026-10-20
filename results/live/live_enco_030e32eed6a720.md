@@ -1,20 +1,20 @@
-# Incident `live_enco_7df6d70ff0d86f`
+# Incident `live_enco_030e32eed6a720`
 
 - **MPA:** At-sea encounter (transshipment)
 - **Severity:** HIGH (foreign vessel, no authorization on record)
-- **EEZ:** South Korean Exclusive Economic Zone (South Korea) -- FOREIGN-flagged vessel
+- **EEZ:** Joint regime area: South Korea / Japan (South Korea) -- FOREIGN-flagged vessel
 - **Authorization:** No public authorization record (check coastal state)
-- **Vessel:** 🇬🇧 ZHEXIANGYU49388+12-  ·  **signal:** Encounter
-- **When (UTC):** 2026-10-16T16:00:00.000Z → 2026-10-16T20:40:00.000Z
-- **Encounter:** 4.7 h with carrier `412439502` (apparent transshipment)
-- **Where:** 34.116, 123.946
+- **Vessel:** 🇨🇳 ZHELINGYULENG80087  ·  **signal:** Encounter
+- **When (UTC):** 2026-10-16T03:30:00.000Z → 2026-10-16T12:10:00.000Z
+- **Encounter:** 8.7 h with carrier `412417964` (apparent transshipment)
+- **Where:** 32.626, 127.362
 
 ## Why this was flagged
 
 _GFW Events encounters dataset (Miller et al. 2018).._
 
-- two vessels within range for 5 h
-- counterpart: ZHEXIANGYU49388
+- two vessels within range for 9 h
+- counterpart: ZHELINGYULENG80087
 - two-vessel at-sea encounter (GFW Events)
 
 ## Could be innocent
@@ -31,7 +31,7 @@ Two vessels meeting at sea can be a legitimate transfer, bunkering, or a safety 
 
 - WDPA / WD-OECM (World Database on Protected Areas) (UNEP-WCMC and IUCN (2026), June 2026). Protected Planet Terms of Use (non-commercial, display-only).
 - Marine Regions Exclusive Economic Zones v12 (Flanders Marine Institute (2024), DOI 10.14284/632). CC BY 4.0.
-- **Integrity (SHA-256 of canonical facts):** `f602ebade208638117602823fa64f6f6f0c5763f9eb33159e66a0acbe8f6d57c`
+- **Integrity (SHA-256 of canonical facts):** `92ea81805c46963172084d319525ffe37fa8b6c22ef5fbd57033dd48010ca58a`
 - **Evidence schema:** seavigil-evidence-1.0
 
 _Apparent activity and an inspection lead, not proof of illegality. AIS and SAR evidence have known coverage gaps and spoofing risks; verify against authoritative sources before any enforcement action._
