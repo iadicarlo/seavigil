@@ -1,6 +1,32 @@
 {
-"generated_at": "2026-10-21T04:52:20Z",
+"generated_at": "2026-10-21T10:12:12Z",
 "alerts": [
+{
+"id": "live_enco_66090cfb5e64b7",
+"first_seen": "2026-10-21T10:12:12Z",
+"type": "encounter",
+"when": "2026-10-17T08:10:00.000Z",
+"eez": "Overlapping claim Senkaku Islands: Taiwan / Japan / China",
+"flag": "CHN",
+"authorization": "no_record",
+"severity_reason": "foreign vessel, no authorization on record",
+"lat": 27.4225,
+"lon": 124.883,
+"ship_name": "MINSHIYU05165"
+},
+{
+"id": "live_enco_34b80f0e912465",
+"first_seen": "2026-10-21T10:12:12Z",
+"type": "encounter",
+"when": "2026-10-17T08:00:00.000Z",
+"eez": "Overlapping claim Senkaku Islands: Taiwan / Japan / China",
+"flag": "CHN",
+"authorization": "no_record",
+"severity_reason": "foreign vessel, no authorization on record",
+"lat": 27.4202,
+"lon": 124.9504,
+"ship_name": "01458"
+},
 {
 "id": "live_enco_0adf30bcfd1202",
 "first_seen": "2026-10-21T04:52:20Z",
@@ -2574,32 +2600,6 @@
 "lat": -18.4695,
 "lon": 172.6487,
 "ship_name": "ZHONGSHUI727"
-},
-{
-"id": "live_ais__c06174e228bf5a",
-"first_seen": "2026-10-16T12:27:41Z",
-"type": "ais_disabling",
-"when": "2026-10-11T04:34:47.000Z",
-"eez": "Brazilian Exclusive Economic Zone",
-"flag": "LBR",
-"authorization": "no_record",
-"severity_reason": "foreign vessel, no authorization on record",
-"lat": -18.0464,
-"lon": -35.4035,
-"ship_name": "ADRE"
-},
-{
-"id": "live_ais__de545e4c23b3ac",
-"first_seen": "2026-10-16T12:27:41Z",
-"type": "ais_disabling",
-"when": "2026-10-11T22:39:35.000Z",
-"eez": "Guyanese Exclusive Economic Zone",
-"flag": "LUX",
-"authorization": "no_record",
-"severity_reason": "foreign vessel, no authorization on record",
-"lat": 7.9047,
-"lon": -56.7431,
-"ship_name": "BOURBON RUBY"
 }
 ]
 }
