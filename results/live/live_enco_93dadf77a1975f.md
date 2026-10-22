@@ -1,20 +1,20 @@
-# Incident `live_enco_98c76db465b359`
+# Incident `live_enco_93dadf77a1975f`
 
 - **MPA:** At-sea encounter (transshipment)
 - **Severity:** HIGH (foreign vessel, no authorization on record)
-- **EEZ:** Chinese Exclusive Economic Zone (China) -- FOREIGN-flagged vessel
+- **EEZ:** Overlapping claim Senkaku Islands: Taiwan / Japan / China (Taiwan) -- FOREIGN-flagged vessel
 - **Authorization:** No public authorization record (check coastal state)
-- **Vessel:** 🇹🇼 JIN XING NO28  ·  **signal:** Encounter
-- **When (UTC):** 2026-10-16T00:40:00.000Z → 2026-10-17T05:50:00.000Z
-- **Encounter:** 29.2 h with carrier `416075694` (apparent transshipment)
-- **Where:** 26.003, 121.031
+- **Vessel:** 🇨🇳 MIN HUI YU 00262  ·  **signal:** Encounter
+- **When (UTC):** 2026-10-18T09:00:00.000Z → 2026-10-18T20:00:00.000Z
+- **Encounter:** 11.0 h with carrier `290000045` (apparent transshipment)
+- **Where:** 27.427, 123.729
 
 ## Why this was flagged
 
 _GFW Events encounters dataset (Miller et al. 2018).._
 
-- two vessels within range for 29 h
-- counterpart: 123
+- two vessels within range for 11 h
+- counterpart: YONG FENG 2
 - two-vessel at-sea encounter (GFW Events)
 
 ## Could be innocent
@@ -31,7 +31,7 @@ Two vessels meeting at sea can be a legitimate transfer, bunkering, or a safety 
 
 - WDPA / WD-OECM (World Database on Protected Areas) (UNEP-WCMC and IUCN (2026), June 2026). Protected Planet Terms of Use (non-commercial, display-only).
 - Marine Regions Exclusive Economic Zones v12 (Flanders Marine Institute (2024), DOI 10.14284/632). CC BY 4.0.
-- **Integrity (SHA-256 of canonical facts):** `6f0214a6fbde21b3b0d5e6d2de7b5a29ae3412b45886e5d72a18cb693bbfa4ca`
+- **Integrity (SHA-256 of canonical facts):** `a2440db346f1f2fb45ea21e486a5e4bf7db921179fe99c7aff63c6a7d13f3476`
 - **Evidence schema:** seavigil-evidence-1.0
 
 _Apparent activity and an inspection lead, not proof of illegality. AIS and SAR evidence have known coverage gaps and spoofing risks; verify against authoritative sources before any enforcement action._
