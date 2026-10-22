@@ -1,6 +1,19 @@
 {
-"generated_at": "2026-10-22T20:08:51Z",
+"generated_at": "2026-10-22T23:24:31Z",
 "alerts": [
+{
+"id": "live_enco_653d05ae4be3cb",
+"first_seen": "2026-10-22T23:24:31Z",
+"type": "encounter",
+"when": "2026-10-18T18:10:00.000Z",
+"eez": "Vietnamese Exclusive Economic Zone",
+"flag": "PAN",
+"authorization": "no_record",
+"severity_reason": "foreign vessel, no authorization on record",
+"lat": 8.5718,
+"lon": 106.9099,
+"ship_name": "MAI-LOI-BAN2S027"
+},
 {
 "id": "live_enco_e4dd701a80dc1d",
 "first_seen": "2026-10-22T15:19:54Z",
@@ -2587,19 +2600,6 @@
 "lat": 27.4125,
 "lon": 125.9858,
 "ship_name": "MINFUDINGYU09105"
-},
-{
-"id": "live_enco_1f828232dd7cea",
-"first_seen": "2026-10-20T06:03:11Z",
-"type": "encounter",
-"when": "2026-10-16T06:30:00.000Z",
-"eez": "Japanese Exclusive Economic Zone",
-"flag": "CHN",
-"authorization": "no_record",
-"severity_reason": "foreign vessel, no authorization on record",
-"lat": 27.4149,
-"lon": 125.9847,
-"ship_name": "MINXIAYU09136"
 }
 ]
 }

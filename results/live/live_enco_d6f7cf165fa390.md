@@ -4,9 +4,9 @@
 - **Severity:** HIGH (foreign vessel, no authorization on record)
 - **EEZ:** Vietnamese Exclusive Economic Zone (Vietnam) -- FOREIGN-flagged vessel
 - **Authorization:** No public authorization record (check coastal state)
-- **Vessel:** 🇨🇳 GUIBEIYU89189  ·  **signal:** Encounter
+- **Vessel:** 🇨🇳 GUIHEYU81098  ·  **signal:** Encounter
 - **When (UTC):** 2026-10-18T12:10:00.000Z → 2026-10-18T21:50:00.000Z
-- **Encounter:** 9.7 h with carrier `412500904` (apparent transshipment)
+- **Encounter:** 9.7 h with carrier `412500958` (apparent transshipment)
 - **Where:** 13.411, 111.472
 
 ## Why this was flagged
@@ -14,7 +14,7 @@
 _GFW Events encounters dataset (Miller et al. 2018).._
 
 - two vessels within range for 10 h
-- counterpart: GUIHEYU81098
+- counterpart: GUIBEIYU89189
 - two-vessel at-sea encounter (GFW Events)
 
 ## Could be innocent
@@ -31,7 +31,7 @@ Two vessels meeting at sea can be a legitimate transfer, bunkering, or a safety 
 
 - WDPA / WD-OECM (World Database on Protected Areas) (UNEP-WCMC and IUCN (2026), June 2026). Protected Planet Terms of Use (non-commercial, display-only).
 - Marine Regions Exclusive Economic Zones v12 (Flanders Marine Institute (2024), DOI 10.14284/632). CC BY 4.0.
-- **Integrity (SHA-256 of canonical facts):** `4f19ba66c439131e663b3fd1ff9d1b2b27b07cad718289cdd05e0aa7920454f7`
+- **Integrity (SHA-256 of canonical facts):** `b5ec9911bf34ab7736a5857097c3a4d2def6bb859ce7f874d1f53cbb76ab1f69`
 - **Evidence schema:** seavigil-evidence-1.0
 
 _Apparent activity and an inspection lead, not proof of illegality. AIS and SAR evidence have known coverage gaps and spoofing risks; verify against authoritative sources before any enforcement action._
