@@ -1,9 +1,9 @@
 # Incident `live_ais__7aadb40e4c973a`
 
 - **MPA:** AIS disabling (going dark)
-- **Severity:** HIGH (foreign vessel, no authorization on record)
+- **Severity:** HIGH (foreign vessel, authorization lapsed)
 - **EEZ:** Papua New Guinean Exclusive Economic Zone (Papua New Guinea) -- FOREIGN-flagged vessel
-- **Authorization:** No public authorization record (check coastal state)
+- **Authorization:** Authorization lapsed before this date: FFA, IATTC, WCPFC  ·  IMO 9674737
 - **Vessel:** 🇨🇳 LUYUAN23  ·  **signal:** AIS gap
 - **When (UTC):** 2026-10-16T14:45:57.000Z → 2026-10-17T18:25:53.000Z
 - **Gap:** 27.7 h dark, 104.0 nm offshore

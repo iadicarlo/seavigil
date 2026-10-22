@@ -1,9 +1,9 @@
 # Incident `live_ais__0c4bdf5cc91c8d`
 
 - **MPA:** AIS disabling (going dark)
-- **Severity:** HIGH (foreign vessel, authorization lapsed)
+- **Severity:** HIGH (foreign vessel, no authorization on record)
 - **EEZ:** Japanese Exclusive Economic Zone (Japan) -- FOREIGN-flagged vessel
-- **Authorization:** Authorization lapsed before this date: NPFC, SPRFMO  ·  IMO 9741853
+- **Authorization:** No public authorization record (check coastal state)
 - **Vessel:** 🇹🇼 WIN FAR HUI 6  ·  **signal:** AIS gap
 - **When (UTC):** 2026-10-18T05:19:21.000Z → 2026-10-18T20:29:07.000Z
 - **Gap:** 15.2 h dark, 255.0 nm offshore

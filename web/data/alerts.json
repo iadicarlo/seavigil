@@ -1,6 +1,19 @@
 {
-"generated_at": "2026-10-22T10:14:01Z",
+"generated_at": "2026-10-22T15:19:54Z",
 "alerts": [
+{
+"id": "live_enco_e4dd701a80dc1d",
+"first_seen": "2026-10-22T15:19:54Z",
+"type": "encounter",
+"when": "2026-10-17T14:30:00.000Z",
+"eez": "Vietnamese Exclusive Economic Zone",
+"flag": "VUT",
+"authorization": "no_record",
+"severity_reason": "foreign vessel, no authorization on record",
+"lat": 9.8331,
+"lon": 107.4305,
+"ship_name": "66B39 TV90709"
+},
 {
 "id": "live_ais__20dac79a480ecf",
 "first_seen": "2026-10-22T10:14:01Z",
@@ -2587,19 +2600,6 @@
 "lat": 27.4149,
 "lon": 125.9847,
 "ship_name": "MINXIAYU09136"
-},
-{
-"id": "live_enco_fec60195c44722",
-"first_seen": "2026-10-20T06:03:11Z",
-"type": "encounter",
-"when": "2026-10-16T06:00:00.000Z",
-"eez": "Japanese Exclusive Economic Zone",
-"flag": "CHN",
-"authorization": "no_record",
-"severity_reason": "foreign vessel, no authorization on record",
-"lat": 27.4183,
-"lon": 125.9896,
-"ship_name": "ZHELINGYU23102"
 }
 ]
 }
