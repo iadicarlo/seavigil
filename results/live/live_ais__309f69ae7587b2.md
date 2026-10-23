@@ -1,9 +1,9 @@
 # Incident `live_ais__309f69ae7587b2`
 
 - **MPA:** AIS disabling (going dark)
-- **Severity:** HIGH (foreign vessel, authorization lapsed)
+- **Severity:** HIGH (foreign vessel, no authorization on record)
 - **EEZ:** Togolese Exclusive Economic Zone (Togo) -- FOREIGN-flagged vessel
-- **Authorization:** Authorization lapsed before this date: FFA, WCPFC  ·  IMO 8996281
+- **Authorization:** No public authorization record (check coastal state)  ·  IMO 8996281
 - **Vessel:** 🇳🇷 OCEAN ENCOUNTER  ·  **signal:** AIS gap
 - **When (UTC):** 2026-09-29T21:10:00.000Z → 2026-10-19T00:29:11.000Z
 - **Gap:** 459.3 h dark, 361.0 nm offshore

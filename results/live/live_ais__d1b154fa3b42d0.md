@@ -1,9 +1,9 @@
 # Incident `live_ais__d1b154fa3b42d0`
 
 - **MPA:** AIS disabling (going dark)
-- **Severity:** HIGH (foreign vessel, authorization lapsed)
+- **Severity:** HIGH (foreign vessel, no authorization on record)
 - **EEZ:** Marshallese Exclusive Economic Zone (Marshall Islands) -- FOREIGN-flagged vessel
-- **Authorization:** Authorization lapsed before this date: FFA, WCPFC  ·  IMO 9814442
+- **Authorization:** No public authorization record (check coastal state)
 - **Vessel:** 🇨🇳 HNY NAN YU 762  ·  **signal:** AIS gap
 - **When (UTC):** 2026-10-11T19:25:56.000Z → 2026-10-19T21:55:54.000Z
 - **Gap:** 194.5 h dark, 133.0 nm offshore

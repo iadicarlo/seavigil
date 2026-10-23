@@ -1,9 +1,9 @@
 # Incident `live_ais__3ee19e883c4571`
 
 - **MPA:** AIS disabling (going dark)
-- **Severity:** HIGH (foreign vessel, no authorization on record)
+- **Severity:** HIGH (foreign vessel, authorization lapsed)
 - **EEZ:** Equatorial Guinean Exclusive Economic Zone (Equatorial Guinea) -- FOREIGN-flagged vessel
-- **Authorization:** No public authorization record (check coastal state)
+- **Authorization:** Authorization lapsed before this date: ICCAT  ·  IMO 8716825
 - **Vessel:** 🇵🇦 ALBACORA CARIBE  ·  **signal:** AIS gap
 - **When (UTC):** 2026-10-05T09:05:22.000Z → 2026-10-19T13:37:17.000Z
 - **Gap:** 340.5 h dark, 220.0 nm offshore

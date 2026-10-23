@@ -3,7 +3,7 @@
 - **MPA:** AIS disabling (going dark)
 - **Severity:** HIGH (foreign vessel, no authorization on record)
 - **EEZ:** Sudanese Exclusive Economic Zone (Sudan) -- FOREIGN-flagged vessel
-- **Authorization:** No public authorization record (check coastal state)  ·  IMO 9422512
+- **Authorization:** No public authorization record (check coastal state)
 - **Vessel:** 🇱🇷 CLEAN MOXIE  ·  **signal:** AIS gap
 - **When (UTC):** 2026-10-18T08:42:20.000Z → 2026-10-18T22:21:39.000Z
 - **Gap:** 13.7 h dark, 51.0 nm offshore

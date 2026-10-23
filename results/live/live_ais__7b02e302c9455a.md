@@ -3,7 +3,7 @@
 - **MPA:** AIS disabling (going dark)
 - **Severity:** HIGH (foreign vessel, no authorization on record)
 - **EEZ:** Mexican Exclusive Economic Zone (Mexico) -- FOREIGN-flagged vessel
-- **Authorization:** No public authorization record (check coastal state)
+- **Authorization:** No public authorization record (check coastal state)  ·  IMO 8982266
 - **Vessel:** 🇺🇸 WATERS  ·  **signal:** AIS gap
 - **When (UTC):** 2026-10-17T12:42:35.000Z → 2026-10-19T03:35:51.000Z
 - **Gap:** 38.9 h dark, 133.0 nm offshore
