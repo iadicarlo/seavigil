@@ -1,6 +1,19 @@
 {
-"generated_at": "2026-10-23T04:53:59Z",
+"generated_at": "2026-10-23T10:06:46Z",
 "alerts": [
+{
+"id": "live_enco_f29103c5cacca0",
+"first_seen": "2026-10-23T10:06:46Z",
+"type": "encounter",
+"when": "2026-10-19T12:30:00.000Z",
+"eez": "Bruneian Exclusive Economic Zone",
+"flag": "CHN",
+"authorization": "no_record",
+"severity_reason": "foreign vessel, no authorization on record",
+"lat": 6.6287,
+"lon": 112.6549,
+"ship_name": "QIONG LE YU 11226"
+},
 {
 "id": "live_enco_14cf15f2c54200",
 "first_seen": "2026-10-23T04:53:59Z",
@@ -2587,19 +2600,6 @@
 "lat": -7.2411,
 "lon": 11.2894,
 "ship_name": "SEAVIOLET"
-},
-{
-"id": "live_ais__81eeda6d9d654a",
-"first_seen": "2026-10-20T17:10:50Z",
-"type": "ais_disabling",
-"when": "2026-10-11T01:35:43.000Z",
-"eez": "New Zealand Exclusive Economic Zone",
-"flag": "IRL",
-"authorization": "no_record",
-"severity_reason": "foreign vessel, no authorization on record",
-"lat": -49.2481,
-"lon": 171.7752,
-"ship_name": "250400393"
 }
 ]
 }
