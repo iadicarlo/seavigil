@@ -1,19 +1,19 @@
-# Incident `live_ais__45b285d11aafeb`
+# Incident `live_ais__dc76bdf4811058`
 
 - **MPA:** AIS disabling (going dark)
 - **Severity:** HIGH (foreign vessel, no authorization on record)
-- **EEZ:** Kiribati Exclusive Economic Zone (Line Group) (Kiribati) -- FOREIGN-flagged vessel
-- **Authorization:** No public authorization record (check coastal state)
-- **Vessel:** 🇮🇪 XSJ158-9-95%  ·  **signal:** AIS gap
-- **When (UTC):** 2026-10-17T16:46:42.000Z → 2026-10-18T12:18:03.000Z
-- **Gap:** 19.5 h dark, 158.0 nm offshore
-- **Where:** -6.956, -155.050
+- **EEZ:** Bissau-Guinean Exclusive Economic Zone (Guinea-Bissau) -- FOREIGN-flagged vessel
+- **Authorization:** No public authorization record (check coastal state)  ·  IMO 8733744
+- **Vessel:** 🇪🇸 PEIX.MAR.25  ·  **signal:** AIS gap
+- **When (UTC):** 2026-10-15T19:30:32.000Z → 2026-10-19T15:58:52.000Z
+- **Gap:** 92.5 h dark, 93.0 nm offshore
+- **Where:** 9.793, -17.104
 
 ## Why this was flagged
 
 _GFW Events gaps dataset (satellite AIS).._
 
-- went dark 158 nm offshore for 20 h
+- went dark 93 nm offshore for 92 h
 - satellite-confirmed AIS gap (GFW Events)
 
 ## Could be innocent
@@ -31,7 +31,7 @@ Going dark is frequently benign: in open water, where gaps are commonly protecti
 - NOAA Marine Cadastre AIS (marinecadastre.gov/ais (vessel positions)). US public domain.
 - WDPA / WD-OECM (World Database on Protected Areas) (UNEP-WCMC and IUCN (2026), June 2026). Protected Planet Terms of Use (non-commercial, display-only).
 - Marine Regions Exclusive Economic Zones v12 (Flanders Marine Institute (2024), DOI 10.14284/632). CC BY 4.0.
-- **Integrity (SHA-256 of canonical facts):** `b4723d4beb6c264dfe332b6b480e8b995e992dcae0d88eae039e80a578ea0c90`
+- **Integrity (SHA-256 of canonical facts):** `6ccba1986ba6dbf1e718177fe7e6d8ccd5d41357dd453fbdbbf499ac78eea774`
 - **Evidence schema:** seavigil-evidence-1.0
 
 _Apparent activity and an inspection lead, not proof of illegality. AIS and SAR evidence have known coverage gaps and spoofing risks; verify against authoritative sources before any enforcement action._
