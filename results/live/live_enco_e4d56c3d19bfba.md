@@ -1,20 +1,20 @@
-# Incident `live_enco_116f5b982b4871`
+# Incident `live_enco_e4d56c3d19bfba`
 
 - **MPA:** At-sea encounter (transshipment)
 - **Severity:** HIGH (foreign vessel, no authorization on record)
-- **EEZ:** Chinese Exclusive Economic Zone (China) -- FOREIGN-flagged vessel
+- **EEZ:** South Korean Exclusive Economic Zone (South Korea) -- FOREIGN-flagged vessel
 - **Authorization:** No public authorization record (check coastal state)
-- **Vessel:** 🇦🇹 338  ·  **signal:** Encounter
-- **When (UTC):** 2026-10-18T00:00:00.000Z → 2026-10-18T23:50:00.000Z
-- **Encounter:** 23.8 h with carrier `412463116` (apparent transshipment)
-- **Where:** 21.164, 111.290
+- **Vessel:** 🇨🇳 SUQIYU02669  ·  **signal:** Encounter
+- **When (UTC):** 2026-10-19T02:10:00.000Z → 2026-10-19T14:40:00.000Z
+- **Encounter:** 12.5 h with carrier `412521935` (apparent transshipment)
+- **Where:** 32.772, 124.655
 
 ## Why this was flagged
 
 _GFW Events encounters dataset (Miller et al. 2018).._
 
-- two vessels within range for 24 h
-- counterpart: YUEMAOBINYU47338
+- two vessels within range for 12 h
+- counterpart: 21935
 - two-vessel at-sea encounter (GFW Events)
 
 ## Could be innocent
@@ -31,7 +31,7 @@ Two vessels meeting at sea can be a legitimate transfer, bunkering, or a safety 
 
 - WDPA / WD-OECM (World Database on Protected Areas) (UNEP-WCMC and IUCN (2026), June 2026). Protected Planet Terms of Use (non-commercial, display-only).
 - Marine Regions Exclusive Economic Zones v12 (Flanders Marine Institute (2024), DOI 10.14284/632). CC BY 4.0.
-- **Integrity (SHA-256 of canonical facts):** `b8cec5e7763b6bfd7131fae6be30eafd15b99ac6d1df9cffd914e8b818e73841`
+- **Integrity (SHA-256 of canonical facts):** `a3118e0e76255e244d4f5bc2a50c5cb81ac6e9f03fc83d0760e375b5cd70df1f`
 - **Evidence schema:** seavigil-evidence-1.0
 
 _Apparent activity and an inspection lead, not proof of illegality. AIS and SAR evidence have known coverage gaps and spoofing risks; verify against authoritative sources before any enforcement action._
