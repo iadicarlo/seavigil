@@ -1,6 +1,45 @@
 {
-"generated_at": "2026-10-23T19:16:17Z",
+"generated_at": "2026-10-23T22:19:59Z",
 "alerts": [
+{
+"id": "live_enco_5acb27bc16c62e",
+"first_seen": "2026-10-23T22:19:59Z",
+"type": "encounter",
+"when": "2026-10-19T04:20:00.000Z",
+"eez": "Chinese Exclusive Economic Zone",
+"flag": "SHN",
+"authorization": "no_record",
+"severity_reason": "foreign vessel, no authorization on record",
+"lat": 27.6037,
+"lon": 123.3522,
+"ship_name": "MIN.SHI.YU.5319"
+},
+{
+"id": "live_enco_24c0c47429c9ef",
+"first_seen": "2026-10-23T22:19:59Z",
+"type": "encounter",
+"when": "2026-10-19T11:30:00.000Z",
+"eez": "Chinese Exclusive Economic Zone",
+"flag": "GBR",
+"authorization": "no_record",
+"severity_reason": "foreign vessel, no authorization on record",
+"lat": 21.9822,
+"lon": 116.7967,
+"ship_name": "ZHU WAN 3416"
+},
+{
+"id": "live_enco_0906411620a4c1",
+"first_seen": "2026-10-23T22:19:59Z",
+"type": "encounter",
+"when": "2026-10-19T13:00:00.000Z",
+"eez": "Chinese Exclusive Economic Zone",
+"flag": "GBR",
+"authorization": "no_record",
+"severity_reason": "foreign vessel, no authorization on record",
+"lat": 36.6009,
+"lon": 122.9632,
+"ship_name": "70249"
+},
 {
 "id": "live_ais__82d67ccb68026a",
 "first_seen": "2026-10-23T15:06:33Z",
@@ -2561,45 +2600,6 @@
 "lat": 32.6426,
 "lon": 124.3938,
 "ship_name": "ZHEFENGYU15010"
-},
-{
-"id": "live_enco_ffec4a623b6d5b",
-"first_seen": "2026-10-21T04:52:20Z",
-"type": "encounter",
-"when": "2026-10-17T01:20:00.000Z",
-"eez": "South Korean Exclusive Economic Zone",
-"flag": "CHN",
-"authorization": "no_record",
-"severity_reason": "foreign vessel, no authorization on record",
-"lat": 32.6635,
-"lon": 124.4174,
-"ship_name": "ZHEFENGYU21098"
-},
-{
-"id": "live_enco_98c76db465b359",
-"first_seen": "2026-10-21T04:52:20Z",
-"type": "encounter",
-"when": "2026-10-16T00:40:00.000Z",
-"eez": "Chinese Exclusive Economic Zone",
-"flag": "TWN",
-"authorization": "no_record",
-"severity_reason": "foreign vessel, no authorization on record",
-"lat": 26.0032,
-"lon": 121.0311,
-"ship_name": "JIN XING NO28"
-},
-{
-"id": "live_enco_4fbe85e9c7a81b",
-"first_seen": "2026-10-21T04:52:20Z",
-"type": "encounter",
-"when": "2026-10-16T21:30:00.000Z",
-"eez": "Angolan Exclusive Economic Zone",
-"flag": "CHN",
-"authorization": "no_record",
-"severity_reason": "foreign vessel, no authorization on record",
-"lat": -8.6751,
-"lon": 13.0656,
-"ship_name": "FU YUAN YU 963"
 }
 ]
 }
