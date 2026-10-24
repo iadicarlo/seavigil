@@ -1,19 +1,18 @@
-# Incident `live_ais__8cbe264eb1ce89`
+# Incident `live_ais__88c12f9cdc923e`
 
 - **MPA:** AIS disabling (going dark)
-- **Severity:** HIGH (foreign vessel, no authorization on record)
-- **EEZ:** Kiribati Exclusive Economic Zone (Line Group) (Kiribati) -- FOREIGN-flagged vessel
-- **Authorization:** No public authorization record (check coastal state)
-- **Vessel:** 🇲🇦 XSJ158-11-96%  ·  **signal:** AIS gap
-- **When (UTC):** 2026-10-18T00:04:04.000Z → 2026-10-18T14:15:55.000Z
-- **Gap:** 14.2 h dark, 117.0 nm offshore
-- **Where:** -6.427, -155.037
+- **Severity:** HIGH (inside a no-take reserve)
+- **Authorization:** Authorization lapsed before this date: IATTC, ICCAT, IOTC  ·  IMO 9329215
+- **Vessel:** 🇪🇸 MARBELO  ·  **signal:** AIS gap
+- **When (UTC):** 2026-10-18T17:00:29.000Z → 2026-10-20T12:43:13.000Z
+- **Gap:** 43.7 h dark, 341.0 nm offshore
+- **Where:** 43.725, -22.826
 
 ## Why this was flagged
 
 _GFW Events gaps dataset (satellite AIS).._
 
-- went dark 117 nm offshore for 14 h
+- went dark 341 nm offshore for 44 h
 - satellite-confirmed AIS gap (GFW Events)
 
 ## Could be innocent
@@ -31,7 +30,7 @@ Going dark is frequently benign: in open water, where gaps are commonly protecti
 - NOAA Marine Cadastre AIS (marinecadastre.gov/ais (vessel positions)). US public domain.
 - WDPA / WD-OECM (World Database on Protected Areas) (UNEP-WCMC and IUCN (2026), June 2026). Protected Planet Terms of Use (non-commercial, display-only).
 - Marine Regions Exclusive Economic Zones v12 (Flanders Marine Institute (2024), DOI 10.14284/632). CC BY 4.0.
-- **Integrity (SHA-256 of canonical facts):** `6890ada8eea9ec66970f07ed9ca725b25611816e4728dddb60a6215bffab33e1`
+- **Integrity (SHA-256 of canonical facts):** `5e6d9928b948aff1682734dc04eec07c3f02997688c2861e390d29d5b5a27a08`
 - **Evidence schema:** seavigil-evidence-1.0
 
 _Apparent activity and an inspection lead, not proof of illegality. AIS and SAR evidence have known coverage gaps and spoofing risks; verify against authoritative sources before any enforcement action._

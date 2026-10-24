@@ -3,7 +3,7 @@
 - **MPA:** AIS disabling (going dark)
 - **Severity:** HIGH (foreign vessel, no authorization on record)
 - **EEZ:** Overlapping claim: Egypt / Libya (Egypt) -- FOREIGN-flagged vessel
-- **Authorization:** No public authorization record (check coastal state)
+- **Authorization:** No public authorization record (check coastal state)  ·  IMO 9644536
 - **Vessel:** 🇵🇦 MUHSINE K  ·  **signal:** AIS gap
 - **When (UTC):** 2026-10-19T02:32:10.000Z → 2026-10-19T14:44:08.000Z
 - **Gap:** 12.2 h dark, 86.0 nm offshore

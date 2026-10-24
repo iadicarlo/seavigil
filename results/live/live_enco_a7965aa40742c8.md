@@ -1,9 +1,9 @@
 # Incident `live_enco_a7965aa40742c8`
 
 - **MPA:** At-sea encounter (transshipment)
-- **Severity:** HIGH (foreign vessel, no authorization on record)
+- **Severity:** HIGH (foreign vessel, authorization lapsed)
 - **EEZ:** Moroccan Exclusive Economic Zone (Morocco) -- FOREIGN-flagged vessel
-- **Authorization:** No public authorization record (check coastal state)
+- **Authorization:** Authorization lapsed before this date: ICCAT, NEAFC  ·  IMO 8721064
 - **Vessel:** 🇷🇺 STARYY ARBAT  ·  **signal:** Encounter
 - **When (UTC):** 2026-10-20T17:20:00.000Z → 2026-10-20T23:50:00.000Z
 - **Encounter:** 6.5 h with carrier `242445400` (apparent transshipment)

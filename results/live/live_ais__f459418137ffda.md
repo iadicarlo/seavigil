@@ -1,19 +1,19 @@
-# Incident `live_ais__96f62513c36a0c`
+# Incident `live_ais__f459418137ffda`
 
 - **MPA:** AIS disabling (going dark)
 - **Severity:** HIGH (foreign vessel, no authorization on record)
-- **EEZ:** Guyanese Exclusive Economic Zone (Guyana) -- FOREIGN-flagged vessel
-- **Authorization:** No public authorization record (check coastal state)
-- **Vessel:** 🇱🇷 AQUABLISS  ·  **signal:** AIS gap
-- **When (UTC):** 2026-10-17T11:56:04.000Z → 2026-10-18T13:42:51.000Z
-- **Gap:** 25.8 h dark, 60.0 nm offshore
-- **Where:** 7.497, -57.227
+- **EEZ:** Brazilian Exclusive Economic Zone (Brazil) -- FOREIGN-flagged vessel
+- **Authorization:** No public authorization record (check coastal state)  ·  IMO 9765158
+- **Vessel:** 🇲🇹 LISBOA  ·  **signal:** AIS gap
+- **When (UTC):** 2026-10-19T15:40:41.000Z → 2026-10-20T12:56:24.000Z
+- **Gap:** 21.3 h dark, 137.0 nm offshore
+- **Where:** -25.324, -42.691
 
 ## Why this was flagged
 
 _GFW Events gaps dataset (satellite AIS).._
 
-- went dark 60 nm offshore for 26 h
+- went dark 137 nm offshore for 21 h
 - satellite-confirmed AIS gap (GFW Events)
 
 ## Could be innocent
@@ -31,7 +31,7 @@ Going dark is frequently benign: in open water, where gaps are commonly protecti
 - NOAA Marine Cadastre AIS (marinecadastre.gov/ais (vessel positions)). US public domain.
 - WDPA / WD-OECM (World Database on Protected Areas) (UNEP-WCMC and IUCN (2026), June 2026). Protected Planet Terms of Use (non-commercial, display-only).
 - Marine Regions Exclusive Economic Zones v12 (Flanders Marine Institute (2024), DOI 10.14284/632). CC BY 4.0.
-- **Integrity (SHA-256 of canonical facts):** `8ad1fb9c2ce353ae758f4b11854f30fc74f8413731c48b6adfa414be27f51cd2`
+- **Integrity (SHA-256 of canonical facts):** `1c36bd82192946fd175308da554727215577502198324859facc2186c0985d68`
 - **Evidence schema:** seavigil-evidence-1.0
 
 _Apparent activity and an inspection lead, not proof of illegality. AIS and SAR evidence have known coverage gaps and spoofing risks; verify against authoritative sources before any enforcement action._
