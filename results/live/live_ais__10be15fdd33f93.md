@@ -1,18 +1,19 @@
-# Incident `live_ais__88c12f9cdc923e`
+# Incident `live_ais__10be15fdd33f93`
 
 - **MPA:** AIS disabling (going dark)
-- **Severity:** HIGH (inside a no-take reserve)
-- **Authorization:** Authorization lapsed before this date: IATTC, ICCAT, IOTC  ·  IMO 9329215
-- **Vessel:** 🇪🇸 MARBELO  ·  **signal:** AIS gap
-- **When (UTC):** 2026-10-18T17:00:29.000Z → 2026-10-20T12:43:13.000Z
-- **Gap:** 43.7 h dark, 341.0 nm offshore
-- **Where:** 43.725, -22.826
+- **Severity:** HIGH (foreign vessel, authorization lapsed)
+- **EEZ:** Vanuatuan Exclusive Economic Zone (Vanuatu) -- FOREIGN-flagged vessel
+- **Authorization:** Authorization lapsed before this date: FFA, WCPFC  ·  IMO 9686091
+- **Vessel:** 🇨🇳 ZHONGSHUI727  ·  **signal:** AIS gap
+- **When (UTC):** 2026-10-20T18:43:45.000Z → 2026-10-21T09:04:14.000Z
+- **Gap:** 14.3 h dark, 147.0 nm offshore
+- **Where:** -18.430, 172.507
 
 ## Why this was flagged
 
 _GFW Events gaps dataset (satellite AIS).._
 
-- went dark 341 nm offshore for 44 h
+- went dark 147 nm offshore for 14 h
 - satellite-confirmed AIS gap (GFW Events)
 
 ## Could be innocent
@@ -30,7 +31,7 @@ Going dark is frequently benign: in open water, where gaps are commonly protecti
 - NOAA Marine Cadastre AIS (marinecadastre.gov/ais (vessel positions)). US public domain.
 - WDPA / WD-OECM (World Database on Protected Areas) (UNEP-WCMC and IUCN (2026), June 2026). Protected Planet Terms of Use (non-commercial, display-only).
 - Marine Regions Exclusive Economic Zones v12 (Flanders Marine Institute (2024), DOI 10.14284/632). CC BY 4.0.
-- **Integrity (SHA-256 of canonical facts):** `5e6d9928b948aff1682734dc04eec07c3f02997688c2861e390d29d5b5a27a08`
+- **Integrity (SHA-256 of canonical facts):** `f6352346708a8ab507d707f4e93e9f2b730cb79501c2fd71923eee6942c73e5e`
 - **Evidence schema:** seavigil-evidence-1.0
 
 _Apparent activity and an inspection lead, not proof of illegality. AIS and SAR evidence have known coverage gaps and spoofing risks; verify against authoritative sources before any enforcement action._
