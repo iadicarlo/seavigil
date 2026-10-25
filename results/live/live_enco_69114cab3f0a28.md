@@ -1,20 +1,20 @@
-# Incident `live_enco_654968651f24d5`
+# Incident `live_enco_69114cab3f0a28`
 
 - **MPA:** At-sea encounter (transshipment)
-- **Severity:** HIGH (foreign vessel, authorization lapsed)
-- **EEZ:** Papua New Guinean Exclusive Economic Zone (Papua New Guinea) -- FOREIGN-flagged vessel
-- **Authorization:** Authorization lapsed before this date: FFA, NPFC, SPRFMO, WCPFC  ·  IMO 9184031
-- **Vessel:** 🇵🇦 ULTRA ENERGY  ·  **signal:** Encounter
-- **When (UTC):** 2026-10-19T21:10:00.000Z → 2026-10-20T03:30:00.000Z
-- **Encounter:** 6.3 h with carrier `548003100` (apparent transshipment)
-- **Where:** -7.041, 153.928
+- **Severity:** HIGH (foreign vessel, no authorization on record)
+- **EEZ:** South Korean Exclusive Economic Zone (South Korea) -- FOREIGN-flagged vessel
+- **Authorization:** No public authorization record (check coastal state)
+- **Vessel:** 🇨🇳 LIAOWAYU15125  ·  **signal:** Encounter
+- **When (UTC):** 2026-10-21T06:40:00.000Z → 2026-10-21T20:00:00.000Z
+- **Encounter:** 13.3 h with carrier `412206862` (apparent transshipment)
+- **Where:** 37.261, 123.951
 
 ## Why this was flagged
 
 _GFW Events encounters dataset (Miller et al. 2018).._
 
-- two vessels within range for 6 h
-- counterpart: MARIA ERLINDA
+- two vessels within range for 13 h
+- counterpart: LIAOWAYU15126
 - two-vessel at-sea encounter (GFW Events)
 
 ## Could be innocent
@@ -31,7 +31,7 @@ Two vessels meeting at sea can be a legitimate transfer, bunkering, or a safety 
 
 - WDPA / WD-OECM (World Database on Protected Areas) (UNEP-WCMC and IUCN (2026), June 2026). Protected Planet Terms of Use (non-commercial, display-only).
 - Marine Regions Exclusive Economic Zones v12 (Flanders Marine Institute (2024), DOI 10.14284/632). CC BY 4.0.
-- **Integrity (SHA-256 of canonical facts):** `8958ee06f65f7cfcfd61e7c50e841e8a043175ac5b010a8e5b03185ca02d88a6`
+- **Integrity (SHA-256 of canonical facts):** `9190605e7a0976a421a14fd9674c3c3a27d9f7d58b1e997f32d6bba4e1c61e04`
 - **Evidence schema:** seavigil-evidence-1.0
 
 _Apparent activity and an inspection lead, not proof of illegality. AIS and SAR evidence have known coverage gaps and spoofing risks; verify against authoritative sources before any enforcement action._
