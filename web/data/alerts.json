@@ -1,6 +1,19 @@
 {
-"generated_at": "2026-10-25T11:34:46Z",
+"generated_at": "2026-10-25T16:25:12Z",
 "alerts": [
+{
+"id": "live_enco_ca932faab5e883",
+"first_seen": "2026-10-25T16:25:12Z",
+"type": "encounter",
+"when": "2026-10-21T07:20:00.000Z",
+"eez": "South Korean Exclusive Economic Zone",
+"flag": "CHN",
+"authorization": "no_record",
+"severity_reason": "foreign vessel, no authorization on record",
+"lat": 33.5717,
+"lon": 123.5834,
+"ship_name": "GUIFANGYU01833"
+},
 {
 "id": "live_ais__ad98076156a527",
 "first_seen": "2026-10-25T11:34:46Z",
@@ -2587,19 +2600,6 @@
 "lat": -33.4135,
 "lon": 28.5557,
 "ship_name": "AZUL HARMONY"
-},
-{
-"id": "live_ais__df6372f86dd317",
-"first_seen": "2026-10-22T10:14:01Z",
-"type": "ais_disabling",
-"when": "2026-10-17T14:28:14.000Z",
-"eez": "Libyan Exclusive Economic Zone",
-"flag": "PAN",
-"authorization": "no_record",
-"severity_reason": "foreign vessel, no authorization on record",
-"lat": 33.0249,
-"lon": 24.1421,
-"ship_name": "EAST WIND I"
 }
 ]
 }

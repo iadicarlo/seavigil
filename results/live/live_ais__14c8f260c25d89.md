@@ -1,9 +1,9 @@
 # Incident `live_ais__14c8f260c25d89`
 
 - **MPA:** AIS disabling (going dark)
-- **Severity:** HIGH (foreign vessel, no authorization on record)
+- **Severity:** HIGH (foreign vessel, authorization lapsed)
 - **EEZ:** Cape Verdean Exclusive Economic Zone (Cape Verde) -- FOREIGN-flagged vessel
-- **Authorization:** No public authorization record (check coastal state)
+- **Authorization:** Authorization lapsed before this date: CCSBT, ICCAT  ·  IMO 8649802
 - **Vessel:** 🇹🇼 YEUN HORNG NO.2  ·  **signal:** AIS gap
 - **When (UTC):** 2026-10-21T09:56:54.000Z → 2026-10-21T22:50:21.000Z
 - **Gap:** 12.9 h dark, 91.0 nm offshore

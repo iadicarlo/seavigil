@@ -3,7 +3,7 @@
 - **MPA:** AIS disabling (going dark)
 - **Severity:** HIGH (foreign vessel, no authorization on record)
 - **EEZ:** Brazilian Exclusive Economic Zone (Brazil) -- FOREIGN-flagged vessel
-- **Authorization:** No public authorization record (check coastal state)
+- **Authorization:** No public authorization record (check coastal state)  ·  IMO 9135729
 - **Vessel:** 🇳🇴 ANNA KNUTSEN  ·  **signal:** AIS gap
 - **When (UTC):** 2026-10-19T20:11:50.000Z → 2026-10-20T16:54:48.000Z
 - **Gap:** 20.7 h dark, 97.0 nm offshore
