@@ -1572,8 +1572,8 @@
     "centroid_lat": 19.4858,
     "time_start_utc": "2026-10-22T09:50:00.000Z",
     "time_end_utc": "2026-10-22T14:20:00.000Z",
-    "vessel_id": "412440508",
-    "ship_name": "FU YUAN YU815",
+    "vessel_id": "412440509",
+    "ship_name": "FU YUAN YU 816",
     "ship_type": "Fishing",
     "flag": "CHN",
     "flag_emoji": "\ud83c\udde8\ud83c\uddf3",
@@ -1586,12 +1586,12 @@
     "_no_take": false,
     "mpa_name": "At-sea encounter (transshipment)",
     "duration_hours": 4.5,
-    "carrier_mmsi": "412440509",
+    "carrier_mmsi": "412440508",
     "explanation": {
       "method": "GFW Events encounters dataset (Miller et al. 2018).",
       "drivers": [
         "two vessels within range for 4 h",
-        "counterpart: FU YUAN YU 816",
+        "counterpart: FU YUAN YU815",
         "two-vessel at-sea encounter (GFW Events)"
       ]
     },
@@ -1612,7 +1612,7 @@
     "severity": "high",
     "severity_reason": "foreign vessel, no authorization on record",
     "evidence_schema": "seavigil-evidence-1.0",
-    "evidence_hash": "64e6b3e9be6ad2374797c83df601c521a572892970e56a8f6ad1e148f13995fa"
+    "evidence_hash": "b465e629965b1cf1ba46c2109df789aa95fdf2f7b6829ed54c09afe2df88c508"
   },
   {
     "incident_id": "live_enco_eb428f92e9532c",
@@ -3890,63 +3890,6 @@
     "evidence_hash": "f4e3cba514f6dc0f31e141ec58622067571975e654784468749535638c31799a"
   },
   {
-    "incident_id": "live_ais__a7f2585ae142ad",
-    "type": "ais_disabling",
-    "centroid_lon": 151.6454,
-    "centroid_lat": -35.3632,
-    "time_start_utc": "2026-10-18T10:55:05.000Z",
-    "time_end_utc": "2026-10-20T20:56:44.000Z",
-    "vessel_id": "263404295",
-    "ship_name": "STRIKEFORCE 05-99%",
-    "ship_type": "Inactive",
-    "flag": "PRT",
-    "flag_emoji": "\ud83c\uddf5\ud83c\uddf9",
-    "gear": "AIS gap",
-    "n_positions": 0,
-    "n_fishing_positions": 0,
-    "mean_fishing_proba": null,
-    "max_fishing_proba": null,
-    "_rfmo": [
-      "FFA",
-      "ACAP",
-      "WCPFC",
-      "CCSBT-Primary-Area",
-      "IWC",
-      "CCSBT"
-    ],
-    "_no_take": false,
-    "mpa_name": "AIS disabling (going dark)",
-    "gap_hours": 58.0,
-    "duration_hours": 58.0,
-    "off_distance_nm": 73.0,
-    "displacement_nm": null,
-    "explanation": {
-      "method": "GFW Events gaps dataset (satellite AIS).",
-      "drivers": [
-        "went dark 73 nm offshore for 58 h",
-        "satellite-confirmed AIS gap (GFW Events)"
-      ]
-    },
-    "caveats": [
-      "AIS gaps can be reception loss, not always intentional disabling.",
-      "The position is where AIS dropped; the path while dark is unknown.",
-      "An inspection lead from GFW Events, not proof of illegal activity."
-    ],
-    "eez_name": "Australian Exclusive Economic Zone",
-    "eez_sovereign": "Australia",
-    "eez_iso_sov": "AUS",
-    "eez_foreign": true,
-    "authorization_status": "no_record",
-    "authorization_authorities": [],
-    "registry_iuu_tag": false,
-    "registry_flag": "",
-    "registry_imo": "",
-    "severity": "high",
-    "severity_reason": "foreign vessel, no authorization on record",
-    "evidence_schema": "seavigil-evidence-1.0",
-    "evidence_hash": "e77c050d4be423052e48893389f50421bca7f1d2f02f89401d1c968903213c15"
-  },
-  {
     "incident_id": "live_ais__f855035039f242",
     "type": "ais_disabling",
     "centroid_lon": 151.6196,
@@ -4002,6 +3945,63 @@
     "severity_reason": "foreign vessel, no authorization on record",
     "evidence_schema": "seavigil-evidence-1.0",
     "evidence_hash": "6f549eeb40c515665a586b7af8dc0ddfef1e0f08462eee17ea6a11bada2ed883"
+  },
+  {
+    "incident_id": "live_ais__a7f2585ae142ad",
+    "type": "ais_disabling",
+    "centroid_lon": 151.6454,
+    "centroid_lat": -35.3632,
+    "time_start_utc": "2026-10-18T10:55:05.000Z",
+    "time_end_utc": "2026-10-20T20:56:44.000Z",
+    "vessel_id": "263404295",
+    "ship_name": "STRIKEFORCE 05-99%",
+    "ship_type": "Inactive",
+    "flag": "PRT",
+    "flag_emoji": "\ud83c\uddf5\ud83c\uddf9",
+    "gear": "AIS gap",
+    "n_positions": 0,
+    "n_fishing_positions": 0,
+    "mean_fishing_proba": null,
+    "max_fishing_proba": null,
+    "_rfmo": [
+      "FFA",
+      "ACAP",
+      "WCPFC",
+      "CCSBT-Primary-Area",
+      "IWC",
+      "CCSBT"
+    ],
+    "_no_take": false,
+    "mpa_name": "AIS disabling (going dark)",
+    "gap_hours": 58.0,
+    "duration_hours": 58.0,
+    "off_distance_nm": 73.0,
+    "displacement_nm": null,
+    "explanation": {
+      "method": "GFW Events gaps dataset (satellite AIS).",
+      "drivers": [
+        "went dark 73 nm offshore for 58 h",
+        "satellite-confirmed AIS gap (GFW Events)"
+      ]
+    },
+    "caveats": [
+      "AIS gaps can be reception loss, not always intentional disabling.",
+      "The position is where AIS dropped; the path while dark is unknown.",
+      "An inspection lead from GFW Events, not proof of illegal activity."
+    ],
+    "eez_name": "Australian Exclusive Economic Zone",
+    "eez_sovereign": "Australia",
+    "eez_iso_sov": "AUS",
+    "eez_foreign": true,
+    "authorization_status": "no_record",
+    "authorization_authorities": [],
+    "registry_iuu_tag": false,
+    "registry_flag": "",
+    "registry_imo": "",
+    "severity": "high",
+    "severity_reason": "foreign vessel, no authorization on record",
+    "evidence_schema": "seavigil-evidence-1.0",
+    "evidence_hash": "e77c050d4be423052e48893389f50421bca7f1d2f02f89401d1c968903213c15"
   },
   {
     "incident_id": "live_ais__41ca29820c5302",
