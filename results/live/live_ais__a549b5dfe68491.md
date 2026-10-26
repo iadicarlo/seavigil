@@ -3,7 +3,7 @@
 - **MPA:** AIS disabling (going dark)
 - **Severity:** HIGH (foreign vessel, no authorization on record)
 - **EEZ:** Namibian Exclusive Economic Zone (Namibia) -- FOREIGN-flagged vessel
-- **Authorization:** No public authorization record (check coastal state)  ·  IMO 9469546
+- **Authorization:** No public authorization record (check coastal state)
 - **Vessel:** 🇱🇷 NEW ASSIMINA  ·  **signal:** AIS gap
 - **When (UTC):** 2026-10-07T12:00:46.000Z → 2026-10-22T22:04:28.000Z
 - **Gap:** 370.1 h dark, 409.0 nm offshore

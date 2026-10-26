@@ -3,7 +3,7 @@
 - **MPA:** AIS disabling (going dark)
 - **Severity:** HIGH (foreign vessel, no authorization on record)
 - **EEZ:** Brazilian Exclusive Economic Zone (Brazil) -- FOREIGN-flagged vessel
-- **Authorization:** No public authorization record (check coastal state)  ·  IMO 9623867
+- **Authorization:** No public authorization record (check coastal state)
 - **Vessel:** 🇬🇷 RIO 2016  ·  **signal:** AIS gap
 - **When (UTC):** 2026-10-21T12:31:16.000Z → 2026-10-22T09:25:48.000Z
 - **Gap:** 20.9 h dark, 57.0 nm offshore

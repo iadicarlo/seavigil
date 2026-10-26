@@ -1,6 +1,32 @@
 {
-"generated_at": "2026-10-26T14:18:06Z",
+"generated_at": "2026-10-26T20:30:21Z",
 "alerts": [
+{
+"id": "live_enco_f999984f691175",
+"first_seen": "2026-10-26T20:30:21Z",
+"type": "encounter",
+"when": "2026-10-22T17:50:00.000Z",
+"eez": "Vietnamese Exclusive Economic Zone",
+"flag": "TGO",
+"authorization": "no_record",
+"severity_reason": "foreign vessel, no authorization on record",
+"lat": 19.6995,
+"lon": 107.2448,
+"ship_name": "DANH CHOC"
+},
+{
+"id": "live_enco_ac27a945266f84",
+"first_seen": "2026-10-26T20:30:21Z",
+"type": "encounter",
+"when": "2026-10-22T03:40:00.000Z",
+"eez": "South Korean Exclusive Economic Zone",
+"flag": "CHN",
+"authorization": "no_record",
+"severity_reason": "foreign vessel, no authorization on record",
+"lat": 33.1063,
+"lon": 124.252,
+"ship_name": "MINFUDINGYU08668"
+},
 {
 "id": "live_ais__5fbfd1f9058646",
 "first_seen": "2026-10-26T14:18:06Z",
@@ -2574,32 +2600,6 @@
 "lat": -9.3224,
 "lon": -154.1866,
 "ship_name": "EE-2-97%"
-},
-{
-"id": "live_ais__1ef563e893dd87",
-"first_seen": "2026-10-23T15:06:33Z",
-"type": "ais_disabling",
-"when": "2026-10-19T05:21:52.000Z",
-"eez": "Fijian Exclusive Economic Zone",
-"flag": "FRO",
-"authorization": "no_record",
-"severity_reason": "foreign vessel, no authorization on record",
-"lat": -20.09,
-"lon": 175.6014,
-"ship_name": "-99%"
-},
-{
-"id": "live_ais__82005a3ac91991",
-"first_seen": "2026-10-23T15:06:33Z",
-"type": "ais_disabling",
-"when": "2026-10-19T05:42:44.000Z",
-"eez": "Mauritanian Exclusive Economic Zone",
-"flag": "SLV",
-"authorization": "authorization_lapsed",
-"severity_reason": "foreign vessel, authorization lapsed",
-"lat": 19.9413,
-"lon": -18.7961,
-"ship_name": "MONTEFRISA NUEVE"
 }
 ]
 }

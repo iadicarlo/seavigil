@@ -1,9 +1,9 @@
 # Incident `live_enco_a02d1cbedb609c`
 
 - **MPA:** At-sea encounter (transshipment)
-- **Severity:** HIGH (foreign vessel, authorization lapsed)
+- **Severity:** HIGH (foreign vessel, no authorization on record)
 - **EEZ:** Norwegian Exclusive Economic Zone (Norway) -- FOREIGN-flagged vessel
-- **Authorization:** Authorization lapsed before this date: NEAFC  ·  IMO 8607232
+- **Authorization:** No public authorization record (check coastal state)
 - **Vessel:** 🇷🇺 YANTARNYY  ·  **signal:** Encounter
 - **When (UTC):** 2026-10-21T07:20:00.000Z → 2026-10-22T23:50:00.000Z
 - **Encounter:** 40.5 h with carrier `257962000` (apparent transshipment)
