@@ -3,7 +3,7 @@
 - **MPA:** At-sea encounter (transshipment)
 - **Severity:** HIGH (foreign vessel, no authorization on record)
 - **EEZ:** Angolan Exclusive Economic Zone (Angola) -- FOREIGN-flagged vessel
-- **Authorization:** No public authorization record (check coastal state)  ·  IMO 8772946
+- **Authorization:** No public authorization record (check coastal state)
 - **Vessel:** 🇨🇳 FU YUAN YU 963  ·  **signal:** Encounter
 - **When (UTC):** 2026-10-23T17:50:00.000Z → 2026-10-23T23:50:00.000Z
 - **Encounter:** 6.0 h with carrier `412440069` (apparent transshipment)

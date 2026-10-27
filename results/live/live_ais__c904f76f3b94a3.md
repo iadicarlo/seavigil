@@ -3,7 +3,7 @@
 - **MPA:** AIS disabling (going dark)
 - **Severity:** HIGH (foreign vessel, no authorization on record)
 - **EEZ:** São Toméan Exclusive Economic Zone (Sao Tome and Principe) -- FOREIGN-flagged vessel
-- **Authorization:** No public authorization record (check coastal state)  ·  IMO 9766281
+- **Authorization:** No public authorization record (check coastal state)
 - **Vessel:** 🇲🇭 LAETITIA V  ·  **signal:** AIS gap
 - **When (UTC):** 2026-10-21T08:33:21.000Z → 2026-10-23T04:45:51.000Z
 - **Gap:** 44.2 h dark, 72.0 nm offshore
