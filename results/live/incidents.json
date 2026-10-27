@@ -276,8 +276,8 @@
     "centroid_lat": -8.6768,
     "time_start_utc": "2026-10-23T17:50:00.000Z",
     "time_end_utc": "2026-10-23T23:50:00.000Z",
-    "vessel_id": "412440069",
-    "ship_name": "FU YUAN YU 964",
+    "vessel_id": "412440068",
+    "ship_name": "FU YUAN YU 963",
     "ship_type": "Fishing",
     "flag": "CHN",
     "flag_emoji": "\ud83c\udde8\ud83c\uddf3",
@@ -287,19 +287,19 @@
     "mean_fishing_proba": null,
     "max_fishing_proba": null,
     "_rfmo": [
+      "ACAP",
       "ICCAT",
-      "IWC",
-      "ACAP"
+      "IWC"
     ],
     "_no_take": false,
     "mpa_name": "At-sea encounter (transshipment)",
     "duration_hours": 6.0,
-    "carrier_mmsi": "412440068",
+    "carrier_mmsi": "412440069",
     "explanation": {
       "method": "GFW Events encounters dataset (Miller et al. 2018).",
       "drivers": [
         "two vessels within range for 6 h",
-        "counterpart: FU YUAN YU 963",
+        "counterpart: FU YUAN YU 964",
         "two-vessel at-sea encounter (GFW Events)"
       ]
     },
@@ -315,12 +315,12 @@
     "authorization_status": "no_record",
     "authorization_authorities": [],
     "registry_iuu_tag": false,
-    "registry_flag": "",
-    "registry_imo": "",
+    "registry_flag": "CHN",
+    "registry_imo": "8772946",
     "severity": "high",
     "severity_reason": "foreign vessel, no authorization on record",
     "evidence_schema": "seavigil-evidence-1.0",
-    "evidence_hash": "aea6af0ab9d88f2c4bd97db001201aef83263a91d99ceaab5109c4c80280f0a8"
+    "evidence_hash": "9e86967eb4fe214eb89bd9391334a525f7b6d6a4810394bab11cb6a486b32641"
   },
   {
     "incident_id": "live_enco_e52c4e4ac6b1ea",
