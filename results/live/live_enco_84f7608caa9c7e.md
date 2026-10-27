@@ -5,15 +5,15 @@
 - **EEZ:** Omani Exclusive Economic Zone (Oman) -- FOREIGN-flagged vessel
 - **Authorization:** Authorization lapsed before this date: NPFC  ·  IMO 8555453
 - **Vessel:** 🇨🇳 FU YUAN YU815  ·  **signal:** Encounter
-- **When (UTC):** 2026-10-22T19:10:00.000Z → 2026-10-22T23:50:00.000Z
-- **Encounter:** 4.7 h with carrier `412440509` (apparent transshipment)
+- **When (UTC):** 2026-10-22T19:10:00.000Z → 2026-10-23T20:00:00.000Z
+- **Encounter:** 24.8 h with carrier `412440509` (apparent transshipment)
 - **Where:** 19.470, 57.734
 
 ## Why this was flagged
 
 _GFW Events encounters dataset (Miller et al. 2018).._
 
-- two vessels within range for 5 h
+- two vessels within range for 25 h
 - counterpart: FU YUAN YU 816
 - two-vessel at-sea encounter (GFW Events)
 
@@ -31,7 +31,7 @@ Two vessels meeting at sea can be a legitimate transfer, bunkering, or a safety 
 
 - WDPA / WD-OECM (World Database on Protected Areas) (UNEP-WCMC and IUCN (2026), June 2026). Protected Planet Terms of Use (non-commercial, display-only).
 - Marine Regions Exclusive Economic Zones v12 (Flanders Marine Institute (2024), DOI 10.14284/632). CC BY 4.0.
-- **Integrity (SHA-256 of canonical facts):** `d8d03ab2d21293d3dae91deeb84da86e4b482b37f236d9cc69cfbb32e0c1c2f2`
+- **Integrity (SHA-256 of canonical facts):** `9ae82eda74350921b32c08877d8f04265ecb3dcda4695cab1a476e944d96398c`
 - **Evidence schema:** seavigil-evidence-1.0
 
 _Apparent activity and an inspection lead, not proof of illegality. AIS and SAR evidence have known coverage gaps and spoofing risks; verify against authoritative sources before any enforcement action._
