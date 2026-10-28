@@ -2956,8 +2956,8 @@
     "centroid_lat": 37.5041,
     "time_start_utc": "2026-10-24T08:50:00.000Z",
     "time_end_utc": "2026-10-24T12:10:00.000Z",
-    "vessel_id": "412206861",
-    "ship_name": "LIAOWAYU15125",
+    "vessel_id": "412206862",
+    "ship_name": "LIAOWAYU15126",
     "ship_type": "Fishing",
     "flag": "CHN",
     "flag_emoji": "\ud83c\udde8\ud83c\uddf3",
@@ -2969,18 +2969,18 @@
     "_rfmo": [
       "IWC",
       "WCPFC",
-      "ACAP",
-      "PICES"
+      "PICES",
+      "ACAP"
     ],
     "_no_take": false,
     "mpa_name": "At-sea encounter (transshipment)",
     "duration_hours": 3.3,
-    "carrier_mmsi": "412206862",
+    "carrier_mmsi": "412206861",
     "explanation": {
       "method": "GFW Events encounters dataset (Miller et al. 2018).",
       "drivers": [
         "two vessels within range for 3 h",
-        "counterpart: LIAOWAYU15126",
+        "counterpart: LIAOWAYU15125",
         "two-vessel at-sea encounter (GFW Events)"
       ]
     },
@@ -3001,7 +3001,7 @@
     "severity": "high",
     "severity_reason": "foreign vessel, no authorization on record",
     "evidence_schema": "seavigil-evidence-1.0",
-    "evidence_hash": "895d9868f7c0888e42668f57b5da4da091d93e87e79024098af1834bc051ca71"
+    "evidence_hash": "2b4428596ca34f83bb05fb1e01fad9766e5c735e4e3a7fd11a61ae252e05b24e"
   },
   {
     "incident_id": "live_ais__57c75a2ed62458",
