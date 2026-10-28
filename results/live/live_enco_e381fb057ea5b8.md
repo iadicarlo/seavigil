@@ -1,20 +1,20 @@
-# Incident `live_enco_08502a89aff5ed`
+# Incident `live_enco_e381fb057ea5b8`
 
 - **MPA:** At-sea encounter (transshipment)
 - **Severity:** HIGH (foreign vessel, no authorization on record)
-- **EEZ:** South Korean Exclusive Economic Zone (South Korea) -- FOREIGN-flagged vessel
+- **EEZ:** Vietnamese Exclusive Economic Zone (Vietnam) -- FOREIGN-flagged vessel
 - **Authorization:** No public authorization record (check coastal state)
-- **Vessel:** 🇨🇳 QIONGLINYU68009  ·  **signal:** Encounter
-- **When (UTC):** 2026-10-23T05:00:00.000Z → 2026-10-24T09:30:00.000Z
-- **Encounter:** 28.5 h with carrier `222200000` (apparent transshipment)
-- **Where:** 33.063, 124.371
+- **Vessel:** 🇲🇽 `345393904`  ·  **signal:** Encounter
+- **When (UTC):** 2026-10-23T12:00:00.000Z → 2026-10-23T15:30:00.000Z
+- **Encounter:** 3.5 h with carrier `574560227` (apparent transshipment)
+- **Where:** 9.972, 107.231
 
 ## Why this was flagged
 
 _GFW Events encounters dataset (Miller et al. 2018).._
 
-- two vessels within range for 28 h
-- counterpart: 222200000
+- two vessels within range for 4 h
+- counterpart: RAP XEP 2LITC29 C34
 - two-vessel at-sea encounter (GFW Events)
 
 ## Could be innocent
@@ -31,7 +31,7 @@ Two vessels meeting at sea can be a legitimate transfer, bunkering, or a safety 
 
 - WDPA / WD-OECM (World Database on Protected Areas) (UNEP-WCMC and IUCN (2026), June 2026). Protected Planet Terms of Use (non-commercial, display-only).
 - Marine Regions Exclusive Economic Zones v12 (Flanders Marine Institute (2024), DOI 10.14284/632). CC BY 4.0.
-- **Integrity (SHA-256 of canonical facts):** `edc5d52e8afab720bb111f93a82f45f78dcab00ba9454457ca208cb3ae040e22`
+- **Integrity (SHA-256 of canonical facts):** `9e6d90a22fc8d04f075e6d05abb89e1ca152feea8572de5ad2308d73fb332363`
 - **Evidence schema:** seavigil-evidence-1.0
 
 _Apparent activity and an inspection lead, not proof of illegality. AIS and SAR evidence have known coverage gaps and spoofing risks; verify against authoritative sources before any enforcement action._

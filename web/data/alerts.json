@@ -1,6 +1,19 @@
 {
-"generated_at": "2026-10-28T02:18:03Z",
+"generated_at": "2026-10-28T09:42:54Z",
 "alerts": [
+{
+"id": "live_enco_e381fb057ea5b8",
+"first_seen": "2026-10-28T09:42:54Z",
+"type": "encounter",
+"when": "2026-10-23T12:00:00.000Z",
+"eez": "Vietnamese Exclusive Economic Zone",
+"flag": "MEX",
+"authorization": "no_record",
+"severity_reason": "foreign vessel, no authorization on record",
+"lat": 9.9716,
+"lon": 107.2312,
+"ship_name": ""
+},
 {
 "id": "live_enco_9040bf7d891c1c",
 "first_seen": "2026-10-28T02:18:03Z",
@@ -2587,19 +2600,6 @@
 "lat": 35.29,
 "lon": 124.2972,
 "ship_name": "ZHELINYU12855"
-},
-{
-"id": "live_enco_f9a2877298dfc8",
-"first_seen": "2026-10-26T01:13:08Z",
-"type": "encounter",
-"when": "2026-10-22T08:30:00.000Z",
-"eez": "Omani Exclusive Economic Zone",
-"flag": "TUR",
-"authorization": "no_record",
-"severity_reason": "foreign vessel, no authorization on record",
-"lat": 19.4807,
-"lon": 57.7299,
-"ship_name": "CAN KUL 1"
 }
 ]
 }
