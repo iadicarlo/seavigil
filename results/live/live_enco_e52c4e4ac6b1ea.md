@@ -5,15 +5,15 @@
 - **EEZ:** South Korean Exclusive Economic Zone (South Korea) -- FOREIGN-flagged vessel
 - **Authorization:** No public authorization record (check coastal state)
 - **Vessel:** 🇨🇳 LIAOYINGYU26118  ·  **signal:** Encounter
-- **When (UTC):** 2026-10-23T06:40:00.000Z → 2026-10-23T23:40:00.000Z
-- **Encounter:** 17.0 h with carrier `412213479` (apparent transshipment)
-- **Where:** 35.378, 124.130
+- **When (UTC):** 2026-10-23T06:40:00.000Z → 2026-10-24T23:40:00.000Z
+- **Encounter:** 41.0 h with carrier `412226198` (apparent transshipment)
+- **Where:** 36.106, 124.036
 
 ## Why this was flagged
 
 _GFW Events encounters dataset (Miller et al. 2018).._
 
-- two vessels within range for 17 h
+- two vessels within range for 41 h
 - counterpart: LIAOYINGYU26118
 - two-vessel at-sea encounter (GFW Events)
 
@@ -31,7 +31,7 @@ Two vessels meeting at sea can be a legitimate transfer, bunkering, or a safety 
 
 - WDPA / WD-OECM (World Database on Protected Areas) (UNEP-WCMC and IUCN (2026), June 2026). Protected Planet Terms of Use (non-commercial, display-only).
 - Marine Regions Exclusive Economic Zones v12 (Flanders Marine Institute (2024), DOI 10.14284/632). CC BY 4.0.
-- **Integrity (SHA-256 of canonical facts):** `f398d9807e85dab0bdb84ecaf9fa26bfcaa55c1e03927013a34df8bc040fa422`
+- **Integrity (SHA-256 of canonical facts):** `b2ff73cdf5267e53e4c57e789006e21b1a5f2dc9ab2e4e070fc7d3f64eae495f`
 - **Evidence schema:** seavigil-evidence-1.0
 
 _Apparent activity and an inspection lead, not proof of illegality. AIS and SAR evidence have known coverage gaps and spoofing risks; verify against authoritative sources before any enforcement action._
