@@ -3,7 +3,7 @@
 - **MPA:** AIS disabling (going dark)
 - **Severity:** HIGH (foreign vessel, no authorization on record)
 - **EEZ:** Brazilian Exclusive Economic Zone (Brazil) -- FOREIGN-flagged vessel
-- **Authorization:** No public authorization record (check coastal state)  ·  IMO 9434632
+- **Authorization:** No public authorization record (check coastal state)
 - **Vessel:** 🇱🇷 NEW SUCCESS  ·  **signal:** AIS gap
 - **When (UTC):** 2026-10-24T01:42:01.000Z → 2026-10-24T21:55:15.000Z
 - **Gap:** 20.2 h dark, 69.0 nm offshore
