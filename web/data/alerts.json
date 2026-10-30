@@ -1,6 +1,19 @@
 {
-"generated_at": "2026-10-30T14:12:26Z",
+"generated_at": "2026-10-30T23:49:56Z",
 "alerts": [
+{
+"id": "live_enco_e7ab85a512d05f",
+"first_seen": "2026-10-30T23:49:56Z",
+"type": "encounter",
+"when": "2026-10-23T17:00:00.000Z",
+"eez": "South Korean Exclusive Economic Zone",
+"flag": "CHN",
+"authorization": "no_record",
+"severity_reason": "foreign vessel, no authorization on record",
+"lat": 33.4719,
+"lon": 124.0713,
+"ship_name": "12277"
+},
 {
 "id": "live_ais__b6bdaccc99f702",
 "first_seen": "2026-10-30T14:12:26Z",
@@ -2587,19 +2600,6 @@
 "lat": -43.1434,
 "lon": 174.6986,
 "ship_name": "250800046"
-},
-{
-"id": "live_ais__8dbdc6071e4c78",
-"first_seen": "2026-10-27T13:14:13Z",
-"type": "ais_disabling",
-"when": "2026-10-17T11:29:56.000Z",
-"eez": "Australian Exclusive Economic Zone",
-"flag": "",
-"authorization": "flag_unknown",
-"severity_reason": "inside a no-take reserve",
-"lat": -30.9872,
-"lon": 156.444,
-"ship_name": "PAPANUI4"
 }
 ]
 }
