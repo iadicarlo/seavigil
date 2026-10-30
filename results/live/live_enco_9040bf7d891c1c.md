@@ -1,9 +1,9 @@
 # Incident `live_enco_9040bf7d891c1c`
 
 - **MPA:** At-sea encounter (transshipment)
-- **Severity:** HIGH (foreign vessel, no authorization on record)
+- **Severity:** HIGH (foreign vessel, authorization lapsed)
 - **EEZ:** Norwegian Exclusive Economic Zone (Norway) -- FOREIGN-flagged vessel
-- **Authorization:** No public authorization record (check coastal state)
+- **Authorization:** Authorization lapsed before this date: NEAFC  ·  IMO 8908131
 - **Vessel:** 🇷🇺 KARELIA  ·  **signal:** Encounter
 - **When (UTC):** 2026-10-24T07:00:00.000Z → 2026-10-26T06:40:00.000Z
 - **Encounter:** 47.7 h with carrier `257962000` (apparent transshipment)
