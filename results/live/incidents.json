@@ -1031,8 +1031,8 @@
     "authorization_status": "no_record",
     "authorization_authorities": [],
     "registry_iuu_tag": false,
-    "registry_flag": "BHS",
-    "registry_imo": "9492050",
+    "registry_flag": "",
+    "registry_imo": "",
     "severity": "high",
     "severity_reason": "foreign vessel, no authorization on record",
     "evidence_schema": "seavigil-evidence-1.0",
@@ -1291,15 +1291,13 @@
     "eez_sovereign": "Oman",
     "eez_iso_sov": "OMN",
     "eez_foreign": true,
-    "authorization_status": "authorization_lapsed",
-    "authorization_authorities": [
-      "GFCM"
-    ],
+    "authorization_status": "no_record",
+    "authorization_authorities": [],
     "registry_iuu_tag": false,
-    "registry_flag": "TUR",
-    "registry_imo": "8547676",
+    "registry_flag": "",
+    "registry_imo": "",
     "severity": "high",
-    "severity_reason": "foreign vessel, authorization lapsed",
+    "severity_reason": "foreign vessel, no authorization on record",
     "evidence_schema": "seavigil-evidence-1.0",
     "evidence_hash": "be57b774668d1f97845d698406f0f9e3d28f0969982d4a91924b6eda948be31c"
   },
@@ -2482,7 +2480,7 @@
     "centroid_lat": 34.759,
     "time_start_utc": "2026-10-27T03:30:00.000Z",
     "time_end_utc": "2026-10-27T07:20:00.000Z",
-    "vessel_id": "412348791",
+    "vessel_id": "412488888",
     "ship_name": "LUJIAOYUYUN60637",
     "ship_type": "Fishing",
     "flag": "CHN",
@@ -2493,15 +2491,15 @@
     "mean_fishing_proba": null,
     "max_fishing_proba": null,
     "_rfmo": [
-      "WCPFC",
-      "ACAP",
       "PICES",
-      "IWC"
+      "IWC",
+      "WCPFC",
+      "ACAP"
     ],
     "_no_take": false,
     "mpa_name": "At-sea encounter (transshipment)",
     "duration_hours": 3.8,
-    "carrier_mmsi": "412488888",
+    "carrier_mmsi": "412348791",
     "explanation": {
       "method": "GFW Events encounters dataset (Miller et al. 2018).",
       "drivers": [
@@ -2527,7 +2525,7 @@
     "severity": "high",
     "severity_reason": "foreign vessel, no authorization on record",
     "evidence_schema": "seavigil-evidence-1.0",
-    "evidence_hash": "cb5e5f75339ae96de068e99b8127e042be9c7ff6c192f8f41f334e28161ff54a"
+    "evidence_hash": "4b12673aa60798a099adb048e4543f595edd27ed9244ed981ca144232493d499"
   },
   {
     "incident_id": "live_ais__c55ba27da7ae5e",
@@ -4092,60 +4090,6 @@
     "evidence_hash": "cbb0ab066c6a3237a88f96071b05df25e3bb18dc432e145252077fece76942a3"
   },
   {
-    "incident_id": "live_enco_53b297a001a134",
-    "type": "encounter",
-    "centroid_lon": 57.7624,
-    "centroid_lat": 19.5041,
-    "time_start_utc": "2026-10-25T00:00:00.000Z",
-    "time_end_utc": "2026-10-26T21:00:00.000Z",
-    "vessel_id": "412440718",
-    "ship_name": "FU YUAN YU9996",
-    "ship_type": "Fishing",
-    "flag": "CHN",
-    "flag_emoji": "\ud83c\udde8\ud83c\uddf3",
-    "gear": "Encounter",
-    "n_positions": 0,
-    "n_fishing_positions": 0,
-    "mean_fishing_proba": null,
-    "max_fishing_proba": null,
-    "_rfmo": [
-      "IOTC",
-      "ACAP",
-      "IWC",
-      "RECOFI"
-    ],
-    "_no_take": false,
-    "mpa_name": "At-sea encounter (transshipment)",
-    "duration_hours": 45.0,
-    "carrier_mmsi": "412440509",
-    "explanation": {
-      "method": "GFW Events encounters dataset (Miller et al. 2018).",
-      "drivers": [
-        "two vessels within range for 45 h",
-        "counterpart: FU YUAN YU 816",
-        "two-vessel at-sea encounter (GFW Events)"
-      ]
-    },
-    "caveats": [
-      "Co-location can be legitimate (joint operations, safety, shelter).",
-      "Apparent transshipment is inferred from proximity and low speed, not observed.",
-      "An inspection lead from GFW Events, not proof of illegal activity."
-    ],
-    "eez_name": "Omani Exclusive Economic Zone",
-    "eez_sovereign": "Oman",
-    "eez_iso_sov": "OMN",
-    "eez_foreign": true,
-    "authorization_status": "no_record",
-    "authorization_authorities": [],
-    "registry_iuu_tag": false,
-    "registry_flag": "",
-    "registry_imo": "",
-    "severity": "high",
-    "severity_reason": "foreign vessel, no authorization on record",
-    "evidence_schema": "seavigil-evidence-1.0",
-    "evidence_hash": "34e8b76e10bea622cf9c039d5a2a8c3db4f804e211ee1c8cd18b127b50d0a271"
-  },
-  {
     "incident_id": "live_enco_7c879c41f57036",
     "type": "encounter",
     "centroid_lon": 121.6066,
@@ -4198,6 +4142,62 @@
     "severity_reason": "foreign vessel, no authorization on record",
     "evidence_schema": "seavigil-evidence-1.0",
     "evidence_hash": "59577bfb8b2879862fbf973f8152caccd13af276f65b188b17db363a202fe62f"
+  },
+  {
+    "incident_id": "live_enco_53b297a001a134",
+    "type": "encounter",
+    "centroid_lon": 57.7624,
+    "centroid_lat": 19.5041,
+    "time_start_utc": "2026-10-25T00:00:00.000Z",
+    "time_end_utc": "2026-10-26T21:00:00.000Z",
+    "vessel_id": "412440509",
+    "ship_name": "FU YUAN YU 816",
+    "ship_type": "Fishing",
+    "flag": "CHN",
+    "flag_emoji": "\ud83c\udde8\ud83c\uddf3",
+    "gear": "Encounter",
+    "n_positions": 0,
+    "n_fishing_positions": 0,
+    "mean_fishing_proba": null,
+    "max_fishing_proba": null,
+    "_rfmo": [
+      "RECOFI",
+      "ACAP",
+      "IOTC",
+      "IWC"
+    ],
+    "_no_take": false,
+    "mpa_name": "At-sea encounter (transshipment)",
+    "duration_hours": 45.0,
+    "carrier_mmsi": "412440718",
+    "explanation": {
+      "method": "GFW Events encounters dataset (Miller et al. 2018).",
+      "drivers": [
+        "two vessels within range for 45 h",
+        "counterpart: FU YUAN YU9996",
+        "two-vessel at-sea encounter (GFW Events)"
+      ]
+    },
+    "caveats": [
+      "Co-location can be legitimate (joint operations, safety, shelter).",
+      "Apparent transshipment is inferred from proximity and low speed, not observed.",
+      "An inspection lead from GFW Events, not proof of illegal activity."
+    ],
+    "eez_name": "Omani Exclusive Economic Zone",
+    "eez_sovereign": "Oman",
+    "eez_iso_sov": "OMN",
+    "eez_foreign": true,
+    "authorization_status": "authorization_lapsed",
+    "authorization_authorities": [
+      "NPFC"
+    ],
+    "registry_iuu_tag": false,
+    "registry_flag": "CHN",
+    "registry_imo": "8555465",
+    "severity": "high",
+    "severity_reason": "foreign vessel, authorization lapsed",
+    "evidence_schema": "seavigil-evidence-1.0",
+    "evidence_hash": "c64abce65038ae9d41dfdb418ee60df5c79ab12f76342b4ef83265208f091897"
   },
   {
     "incident_id": "live_ais__23a3a48068db38",
