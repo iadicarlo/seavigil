@@ -1,6 +1,19 @@
 {
-"generated_at": "2026-10-31T17:45:50Z",
+"generated_at": "2026-10-31T21:37:56Z",
 "alerts": [
+{
+"id": "live_enco_8d90ad3ab577ac",
+"first_seen": "2026-10-31T21:37:56Z",
+"type": "encounter",
+"when": "2026-10-27T02:10:00.000Z",
+"eez": "Moroccan Exclusive Economic Zone",
+"flag": "RUS",
+"authorization": "no_record",
+"severity_reason": "foreign vessel, no authorization on record",
+"lat": 27.9425,
+"lon": -12.9352,
+"ship_name": "STARYY ARBAT"
+},
 {
 "id": "live_ais__dbf283f9144afd",
 "first_seen": "2026-10-31T12:36:38Z",
@@ -2587,19 +2600,6 @@
 "lat": 33.292,
 "lon": 123.8505,
 "ship_name": "MINFUDINGYU05562"
-},
-{
-"id": "live_enco_528290b3fea2de",
-"first_seen": "2026-10-28T02:18:03Z",
-"type": "encounter",
-"when": "2026-10-23T18:20:00.000Z",
-"eez": "Chinese Exclusive Economic Zone",
-"flag": "FRA",
-"authorization": "no_record",
-"severity_reason": "foreign vessel, no authorization on record",
-"lat": 21.6459,
-"lon": 114.4047,
-"ship_name": ""
 }
 ]
 }
