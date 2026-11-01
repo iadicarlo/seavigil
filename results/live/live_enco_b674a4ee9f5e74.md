@@ -6,7 +6,7 @@
 - **Authorization:** No public authorization record (check coastal state)
 - **Vessel:** 🇨🇳 LURONGYU56215  ·  **signal:** Encounter
 - **When (UTC):** 2026-10-27T00:20:00.000Z → 2026-10-27T19:10:00.000Z
-- **Encounter:** 18.8 h with carrier `412437719` (apparent transshipment)
+- **Encounter:** 18.8 h with carrier `412327719` (apparent transshipment)
 - **Where:** 33.067, 124.197
 
 ## Why this was flagged
@@ -31,7 +31,7 @@ Two vessels meeting at sea can be a legitimate transfer, bunkering, or a safety 
 
 - WDPA / WD-OECM (World Database on Protected Areas) (UNEP-WCMC and IUCN (2026), June 2026). Protected Planet Terms of Use (non-commercial, display-only).
 - Marine Regions Exclusive Economic Zones v12 (Flanders Marine Institute (2024), DOI 10.14284/632). CC BY 4.0.
-- **Integrity (SHA-256 of canonical facts):** `9bb86b819fa7519953a0a1969488bec81ecc00cdd5709bfb4112589ef1d4db8b`
+- **Integrity (SHA-256 of canonical facts):** `98b889760a9b771304f0ff97e1ea456a3ebdecddfc9acb8759d3f352d51b2eb9`
 - **Evidence schema:** seavigil-evidence-1.0
 
 _Apparent activity and an inspection lead, not proof of illegality. AIS and SAR evidence have known coverage gaps and spoofing risks; verify against authoritative sources before any enforcement action._
