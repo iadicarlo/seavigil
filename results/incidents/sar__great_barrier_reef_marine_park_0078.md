@@ -6,7 +6,7 @@
 - **Vessel:** (dark -- no AIS identity)  ·  **source:** SAR (dark)
 - **When (UTC):** 2024-01-01T08:29:59Z
 - **Length:** n/a  ·  **broadcasting AIS:** no (dark)  ·  **GFW fishing-score:** n/a (Portal-only)
-- **Where:** -23.840, 151.310
+- **Where:** -18.910, 147.220
 
 ## Why this was flagged
 
@@ -14,7 +14,7 @@ _SAR detection attributes (no AIS track or identity; not SHAP-explainable)._
 
 - inside MPA: Great Barrier Reef Marine Park
 - not broadcasting AIS (dark vessel)
-- satellite detections in window: 2
+- satellite detections in window: 1
 
 ## Could be innocent
 
@@ -33,7 +33,7 @@ A radar contact with no AIS may be a vessel not required to broadcast, sea clutt
 - Global Fishing Watch Sentinel-1 SAR vessel detections (Paolo et al., Nature 2024). CC BY-NC 4.0 (non-commercial).
 - WDPA / WD-OECM (World Database on Protected Areas) (UNEP-WCMC and IUCN (2026), June 2026). Protected Planet Terms of Use (non-commercial, display-only).
 - Marine Regions Exclusive Economic Zones v12 (Flanders Marine Institute (2024), DOI 10.14284/632). CC BY 4.0.
-- **Integrity (SHA-256 of canonical facts):** `a39d99e7ea63e4f94d57bfc03c3ce19ecb1e358d0cc30f342a3e8b61d937b2f1`
+- **Integrity (SHA-256 of canonical facts):** `80d2e3030abc8bba87880ba3277a4620a2e7b28144faaf1530f44adfafd2b441`
 - **Evidence schema:** seavigil-evidence-1.0
 
 _Apparent activity and an inspection lead, not proof of illegality. AIS and SAR evidence have known coverage gaps and spoofing risks; verify against authoritative sources before any enforcement action._

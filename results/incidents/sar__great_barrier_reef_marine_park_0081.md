@@ -2,11 +2,11 @@
 
 - **MPA:** Great Barrier Reef Marine Park
 - **Severity:** LOW (multi-use protected area)  ·  boundary sample-approx-2024
-- **EEZ:** Australian Exclusive Economic Zone (Australia)
+- **EEZ:** Papua New Guinean Exclusive Economic Zone (Papua New Guinea)
 - **Vessel:** (dark -- no AIS identity)  ·  **source:** SAR (dark)
 - **When (UTC):** 2024-01-01T08:29:59Z
 - **Length:** n/a  ·  **broadcasting AIS:** no (dark)  ·  **GFW fishing-score:** n/a (Portal-only)
-- **Where:** -22.010, 149.620
+- **Where:** -10.870, 148.660
 
 ## Why this was flagged
 
@@ -14,7 +14,7 @@ _SAR detection attributes (no AIS track or identity; not SHAP-explainable)._
 
 - inside MPA: Great Barrier Reef Marine Park
 - not broadcasting AIS (dark vessel)
-- satellite detections in window: 2
+- satellite detections in window: 1
 
 ## Could be innocent
 
@@ -33,7 +33,7 @@ A radar contact with no AIS may be a vessel not required to broadcast, sea clutt
 - Global Fishing Watch Sentinel-1 SAR vessel detections (Paolo et al., Nature 2024). CC BY-NC 4.0 (non-commercial).
 - WDPA / WD-OECM (World Database on Protected Areas) (UNEP-WCMC and IUCN (2026), June 2026). Protected Planet Terms of Use (non-commercial, display-only).
 - Marine Regions Exclusive Economic Zones v12 (Flanders Marine Institute (2024), DOI 10.14284/632). CC BY 4.0.
-- **Integrity (SHA-256 of canonical facts):** `92b407b57a1465aa7bcc5b508f7aa149b1a41b44a1bd082c4de9091524a8baf9`
+- **Integrity (SHA-256 of canonical facts):** `c0e739a95c93e1445af1d889db57ff2cfebe4f7d2ef4662f68df81bf10fd463d`
 - **Evidence schema:** seavigil-evidence-1.0
 
 _Apparent activity and an inspection lead, not proof of illegality. AIS and SAR evidence have known coverage gaps and spoofing risks; verify against authoritative sources before any enforcement action._

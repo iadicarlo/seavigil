@@ -4,9 +4,9 @@
 - **Severity:** LOW (multi-use protected area)  ·  boundary sample-approx-2024
 - **EEZ:** Australian Exclusive Economic Zone (Australia)
 - **Vessel:** (dark -- no AIS identity)  ·  **source:** SAR (dark)
-- **When (UTC):** 2024-02-06T19:21:47Z
+- **When (UTC):** 2024-01-01T08:29:59Z
 - **Length:** n/a  ·  **broadcasting AIS:** no (dark)  ·  **GFW fishing-score:** n/a (Portal-only)
-- **Where:** -23.850, 151.460
+- **Where:** -15.440, 145.330
 
 ## Why this was flagged
 
@@ -14,7 +14,7 @@ _SAR detection attributes (no AIS track or identity; not SHAP-explainable)._
 
 - inside MPA: Great Barrier Reef Marine Park
 - not broadcasting AIS (dark vessel)
-- satellite detections in window: 2
+- satellite detections in window: 1
 
 ## Could be innocent
 
@@ -33,7 +33,7 @@ A radar contact with no AIS may be a vessel not required to broadcast, sea clutt
 - Global Fishing Watch Sentinel-1 SAR vessel detections (Paolo et al., Nature 2024). CC BY-NC 4.0 (non-commercial).
 - WDPA / WD-OECM (World Database on Protected Areas) (UNEP-WCMC and IUCN (2026), June 2026). Protected Planet Terms of Use (non-commercial, display-only).
 - Marine Regions Exclusive Economic Zones v12 (Flanders Marine Institute (2024), DOI 10.14284/632). CC BY 4.0.
-- **Integrity (SHA-256 of canonical facts):** `b2f107096e6562c023c50d3054c35643027e0ebeff652a1e908375ffd1e094e7`
+- **Integrity (SHA-256 of canonical facts):** `b7e06b71c2216907cb21d392110e559f0ae477d9b5e040c83753afc1aa1f8abd`
 - **Evidence schema:** seavigil-evidence-1.0
 
 _Apparent activity and an inspection lead, not proof of illegality. AIS and SAR evidence have known coverage gaps and spoofing risks; verify against authoritative sources before any enforcement action._
