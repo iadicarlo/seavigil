@@ -1,6 +1,19 @@
 {
-"generated_at": "2026-11-01T01:12:57Z",
+"generated_at": "2026-11-01T07:35:52Z",
 "alerts": [
+{
+"id": "live_enco_b36ef6b2e4000b",
+"first_seen": "2026-11-01T07:35:52Z",
+"type": "encounter",
+"when": "2026-10-28T05:20:00.000Z",
+"eez": "Vietnamese Exclusive Economic Zone",
+"flag": "VUT",
+"authorization": "no_record",
+"severity_reason": "foreign vessel, no authorization on record",
+"lat": 8.1214,
+"lon": 107.2952,
+"ship_name": "39 BAN  1:SO>26"
+},
 {
 "id": "live_enco_d353e3b9258d0b",
 "first_seen": "2026-11-01T01:12:57Z",
@@ -2587,19 +2600,6 @@
 "lat": -18.8499,
 "lon": 175.2028,
 "ship_name": "WANGBIAO-9507  100%"
-},
-{
-"id": "live_ais__2196abc40e89fc",
-"first_seen": "2026-10-28T16:39:31Z",
-"type": "ais_disabling",
-"when": "2026-10-24T01:42:01.000Z",
-"eez": "Brazilian Exclusive Economic Zone",
-"flag": "LBR",
-"authorization": "no_record",
-"severity_reason": "foreign vessel, no authorization on record",
-"lat": -25.2623,
-"lon": -46.0797,
-"ship_name": "NEW SUCCESS"
 }
 ]
 }
