@@ -4,9 +4,9 @@
 - **Severity:** HIGH (foreign vessel, no authorization on record)
 - **EEZ:** Overlapping claim: South China Sea (China) -- FOREIGN-flagged vessel
 - **Authorization:** No public authorization record (check coastal state)
-- **Vessel:** 🇻🇳 BOOM BOAT 03377-99%  ·  **signal:** Encounter
+- **Vessel:** 🇻🇳 77777287  ·  **signal:** Encounter
 - **When (UTC):** 2026-10-28T08:50:00.000Z → 2026-10-28T16:00:00.000Z
-- **Encounter:** 7.2 h with carrier `574996690` (apparent transshipment)
+- **Encounter:** 7.2 h with carrier `574323456` (apparent transshipment)
 - **Where:** 11.908, 113.739
 
 ## Why this was flagged
@@ -14,7 +14,7 @@
 _GFW Events encounters dataset (Miller et al. 2018).._
 
 - two vessels within range for 7 h
-- counterpart: 77777287
+- counterpart: BOOM BOAT 03377-99%
 - two-vessel at-sea encounter (GFW Events)
 
 ## Could be innocent
@@ -31,7 +31,7 @@ Two vessels meeting at sea can be a legitimate transfer, bunkering, or a safety 
 
 - WDPA / WD-OECM (World Database on Protected Areas) (UNEP-WCMC and IUCN (2026), June 2026). Protected Planet Terms of Use (non-commercial, display-only).
 - Marine Regions Exclusive Economic Zones v12 (Flanders Marine Institute (2024), DOI 10.14284/632). CC BY 4.0.
-- **Integrity (SHA-256 of canonical facts):** `5ba89beae69923fd06c3133ddc7e8eaa74912e3ff2a4737568e4121df83156aa`
+- **Integrity (SHA-256 of canonical facts):** `d6d66c5a826838b551b78b9ffda2f0c9cb40c771f5792dc2c9587f258574622f`
 - **Evidence schema:** seavigil-evidence-1.0
 
 _Apparent activity and an inspection lead, not proof of illegality. AIS and SAR evidence have known coverage gaps and spoofing risks; verify against authoritative sources before any enforcement action._
