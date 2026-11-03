@@ -1,6 +1,32 @@
 {
-"generated_at": "2026-11-03T06:51:23Z",
+"generated_at": "2026-11-03T15:11:52Z",
 "alerts": [
+{
+"id": "live_enco_1bc4ca9e18900f",
+"first_seen": "2026-11-03T15:11:52Z",
+"type": "encounter",
+"when": "2026-10-30T04:00:00.000Z",
+"eez": "Overlapping claim Senkaku Islands: Taiwan / Japan / China",
+"flag": "CHN",
+"authorization": "no_record",
+"severity_reason": "foreign vessel, no authorization on record",
+"lat": 27.0791,
+"lon": 123.5628,
+"ship_name": "MINSHIYU08682"
+},
+{
+"id": "live_enco_6bc76086e95b58",
+"first_seen": "2026-11-03T15:11:52Z",
+"type": "encounter",
+"when": "2026-10-30T07:00:00.000Z",
+"eez": "Overlapping claim Taiwan: Taiwan / China",
+"flag": "NZL",
+"authorization": "no_record",
+"severity_reason": "foreign vessel, no authorization on record",
+"lat": 22.7117,
+"lon": 121.1329,
+"ship_name": "DE SHENG - 168"
+},
 {
 "id": "live_enco_ae8a5ccaa7571b",
 "first_seen": "2026-11-03T06:51:23Z",
@@ -2574,32 +2600,6 @@
 "lat": -20.5186,
 "lon": 174.41,
 "ship_name": "SYY33-2024-02-99%"
-},
-{
-"id": "live_ais__045128d938ac90",
-"first_seen": "2026-10-31T12:36:38Z",
-"type": "ais_disabling",
-"when": "2026-10-23T13:26:15.000Z",
-"eez": "Fijian Exclusive Economic Zone",
-"flag": "CHN",
-"authorization": "no_record",
-"severity_reason": "foreign vessel, no authorization on record",
-"lat": -21.0602,
-"lon": 174.2725,
-"ship_name": "SYY2024-15-99%"
-},
-{
-"id": "live_ais__86d570215bbe77",
-"first_seen": "2026-10-31T12:36:38Z",
-"type": "ais_disabling",
-"when": "2026-10-23T14:27:56.000Z",
-"eez": "Fijian Exclusive Economic Zone",
-"flag": "CHN",
-"authorization": "no_record",
-"severity_reason": "foreign vessel, no authorization on record",
-"lat": -21.0952,
-"lon": 174.2626,
-"ship_name": ""
 }
 ]
 }
