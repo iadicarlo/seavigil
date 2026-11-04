@@ -1,9 +1,9 @@
 # Incident `live_ais__8990d9ad4a02b4`
 
 - **MPA:** AIS disabling (going dark)
-- **Severity:** HIGH (foreign vessel, authorization lapsed)
+- **Severity:** HIGH (foreign vessel, no authorization on record)
 - **EEZ:** Japanese Exclusive Economic Zone (Japan) -- FOREIGN-flagged vessel
-- **Authorization:** Authorization lapsed before this date: NPFC, SPRFMO  ·  IMO 8684993
+- **Authorization:** No public authorization record (check coastal state)
 - **Vessel:** 🇹🇼 HSIN DAN MING NO.6  ·  **signal:** AIS gap
 - **When (UTC):** 2026-10-28T11:30:44.000Z → 2026-10-29T03:01:17.000Z
 - **Gap:** 15.5 h dark, 76.0 nm offshore

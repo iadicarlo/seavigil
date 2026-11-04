@@ -3,7 +3,7 @@
 - **MPA:** AIS disabling (going dark)
 - **Severity:** HIGH (foreign vessel, no authorization on record)
 - **EEZ:** Mexican Exclusive Economic Zone (Mexico) -- FOREIGN-flagged vessel
-- **Authorization:** No public authorization record (check coastal state)
+- **Authorization:** No public authorization record (check coastal state)  ·  IMO 9378151
 - **Vessel:** 🇳🇴 CLIPPER HERMES  ·  **signal:** AIS gap
 - **When (UTC):** 2026-10-28T13:22:37.000Z → 2026-10-29T04:41:25.000Z
 - **Gap:** 15.3 h dark, 205.0 nm offshore

@@ -3,7 +3,7 @@
 - **MPA:** AIS disabling (going dark)
 - **Severity:** HIGH (foreign vessel, no authorization on record)
 - **EEZ:** Micronesian Exclusive Economic Zone (Micronesia) -- FOREIGN-flagged vessel
-- **Authorization:** No public authorization record (check coastal state)
+- **Authorization:** No public authorization record (check coastal state)  ·  IMO 9607136
 - **Vessel:** 🇸🇬 RTM DHAMBUL  ·  **signal:** AIS gap
 - **When (UTC):** 2026-10-28T11:38:20.000Z → 2026-10-29T23:53:28.000Z
 - **Gap:** 36.3 h dark, 73.0 nm offshore
