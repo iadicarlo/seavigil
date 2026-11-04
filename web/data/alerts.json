@@ -1,6 +1,45 @@
 {
-"generated_at": "2026-11-04T17:21:32Z",
+"generated_at": "2026-11-04T23:41:46Z",
 "alerts": [
+{
+"id": "live_enco_fea67cf213fcba",
+"first_seen": "2026-11-04T23:41:46Z",
+"type": "encounter",
+"when": "2026-10-30T03:20:00.000Z",
+"eez": "South African Exclusive Economic Zone",
+"flag": "NAM",
+"authorization": "no_record",
+"severity_reason": "foreign vessel, no authorization on record",
+"lat": -34.1955,
+"lon": 18.6848,
+"ship_name": "RUBI"
+},
+{
+"id": "live_enco_ee433e3b05812e",
+"first_seen": "2026-11-04T23:41:46Z",
+"type": "encounter",
+"when": "2026-10-30T05:10:00.000Z",
+"eez": "Chinese Exclusive Economic Zone",
+"flag": "NZL",
+"authorization": "no_record",
+"severity_reason": "foreign vessel, no authorization on record",
+"lat": 35.1772,
+"lon": 122.1632,
+"ship_name": "6980"
+},
+{
+"id": "live_enco_aa70bd169a70aa",
+"first_seen": "2026-11-04T23:41:46Z",
+"type": "encounter",
+"when": "2026-10-30T06:50:00.000Z",
+"eez": "Chinese Exclusive Economic Zone",
+"flag": "SOM",
+"authorization": "no_record",
+"severity_reason": "foreign vessel, no authorization on record",
+"lat": 32.9182,
+"lon": 123.1603,
+"ship_name": "SUGANYU02729"
+},
 {
 "id": "live_enco_23bd7d89f34ed6",
 "first_seen": "2026-11-04T09:17:12Z",
@@ -2561,45 +2600,6 @@
 "lat": -18.6678,
 "lon": 172.3976,
 "ship_name": "HSD-NET-99%"
-},
-{
-"id": "live_ais__a0983df354f8cf",
-"first_seen": "2026-10-31T12:36:38Z",
-"type": "ais_disabling",
-"when": "2026-10-22T06:58:50.000Z",
-"eez": "Fijian Exclusive Economic Zone",
-"flag": "CHN",
-"authorization": "no_record",
-"severity_reason": "foreign vessel, no authorization on record",
-"lat": -20.2321,
-"lon": 173.4679,
-"ship_name": "GYY338-02"
-},
-{
-"id": "live_ais__e00647d00c3b6a",
-"first_seen": "2026-10-31T12:36:38Z",
-"type": "ais_disabling",
-"when": "2026-10-22T00:23:26.000Z",
-"eez": "Papua New Guinean Exclusive Economic Zone",
-"flag": "PHL",
-"authorization": "authorization_lapsed",
-"severity_reason": "foreign vessel, authorization lapsed",
-"lat": -3.9887,
-"lon": 149.8903,
-"ship_name": "JASMIN 888"
-},
-{
-"id": "live_ais__3de395b4a50c15",
-"first_seen": "2026-10-31T12:36:38Z",
-"type": "ais_disabling",
-"when": "2026-10-26T17:50:47.000Z",
-"eez": "Kiribati Exclusive Economic Zone (Phoenix Group)",
-"flag": "CHN",
-"authorization": "no_record",
-"severity_reason": "foreign vessel, no authorization on record",
-"lat": -4.1248,
-"lon": -169.006,
-"ship_name": "SYY31-2023-01"
 }
 ]
 }
