@@ -1,6 +1,19 @@
 {
-"generated_at": "2026-11-04T01:24:40Z",
+"generated_at": "2026-11-04T09:17:12Z",
 "alerts": [
+{
+"id": "live_enco_23bd7d89f34ed6",
+"first_seen": "2026-11-04T09:17:12Z",
+"type": "encounter",
+"when": "2026-10-30T05:20:00.000Z",
+"eez": "Chinese Exclusive Economic Zone",
+"flag": "IND",
+"authorization": "no_record",
+"severity_reason": "foreign vessel, no authorization on record",
+"lat": 29.3415,
+"lon": 122.5995,
+"ship_name": "12099"
+},
 {
 "id": "live_enco_1b767926650344",
 "first_seen": "2026-11-04T01:24:40Z",
@@ -2587,19 +2600,6 @@
 "lat": -4.1248,
 "lon": -169.006,
 "ship_name": "SYY31-2023-01"
-},
-{
-"id": "live_ais__889fd00baa2826",
-"first_seen": "2026-10-31T12:36:38Z",
-"type": "ais_disabling",
-"when": "2026-10-27T03:25:51.000Z",
-"eez": "Brazilian Exclusive Economic Zone",
-"flag": "BHS",
-"authorization": "no_record",
-"severity_reason": "foreign vessel, no authorization on record",
-"lat": -25.2225,
-"lon": -42.5695,
-"ship_name": "MADRE DE DEUS"
 }
 ]
 }
