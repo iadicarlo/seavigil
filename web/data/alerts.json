@@ -1,6 +1,32 @@
 {
-"generated_at": "2026-11-03T15:11:52Z",
+"generated_at": "2026-11-04T01:24:40Z",
 "alerts": [
+{
+"id": "live_enco_1b767926650344",
+"first_seen": "2026-11-04T01:24:40Z",
+"type": "encounter",
+"when": "2026-10-30T01:30:00.000Z",
+"eez": "Chinese Exclusive Economic Zone",
+"flag": "BLZ",
+"authorization": "no_record",
+"severity_reason": "foreign vessel, no authorization on record",
+"lat": 27.5357,
+"lon": 122.1221,
+"ship_name": "09608"
+},
+{
+"id": "live_enco_62daed2699910f",
+"first_seen": "2026-11-04T01:24:40Z",
+"type": "encounter",
+"when": "2026-10-30T00:00:00.000Z",
+"eez": "Overlapping claim Senkaku Islands: Taiwan / Japan / China",
+"flag": "CHN",
+"authorization": "no_record",
+"severity_reason": "foreign vessel, no authorization on record",
+"lat": 27.3436,
+"lon": 123.4247,
+"ship_name": "MIN HUI YU 00262"
+},
 {
 "id": "live_enco_1bc4ca9e18900f",
 "first_seen": "2026-11-03T15:11:52Z",
@@ -2574,32 +2600,6 @@
 "lat": -25.2225,
 "lon": -42.5695,
 "ship_name": "MADRE DE DEUS"
-},
-{
-"id": "live_ais__26a2c86eb7aa0a",
-"first_seen": "2026-10-31T12:36:38Z",
-"type": "ais_disabling",
-"when": "2026-10-26T20:46:24.000Z",
-"eez": "Guyanese Exclusive Economic Zone",
-"flag": "LBR",
-"authorization": "no_record",
-"severity_reason": "foreign vessel, no authorization on record",
-"lat": 8.0135,
-"lon": -56.9237,
-"ship_name": "GREENWAY"
-},
-{
-"id": "live_ais__f6d486251da129",
-"first_seen": "2026-10-31T12:36:38Z",
-"type": "ais_disabling",
-"when": "2026-10-23T17:29:27.000Z",
-"eez": "Fijian Exclusive Economic Zone",
-"flag": "CHN",
-"authorization": "no_record",
-"severity_reason": "foreign vessel, no authorization on record",
-"lat": -20.5186,
-"lon": 174.41,
-"ship_name": "SYY33-2024-02-99%"
 }
 ]
 }

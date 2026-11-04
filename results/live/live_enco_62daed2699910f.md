@@ -1,20 +1,20 @@
-# Incident `live_enco_0f9fea15035dce`
+# Incident `live_enco_62daed2699910f`
 
 - **MPA:** At-sea encounter (transshipment)
 - **Severity:** HIGH (foreign vessel, no authorization on record)
 - **EEZ:** Overlapping claim Senkaku Islands: Taiwan / Japan / China (Taiwan) -- FOREIGN-flagged vessel
 - **Authorization:** No public authorization record (check coastal state)
-- **Vessel:** 🇨🇳 MINSHIYU05339  ·  **signal:** Encounter
-- **When (UTC):** 2026-10-30T11:00:00.000Z → 2026-10-30T23:50:00.000Z
-- **Encounter:** 12.8 h with carrier `600954079` (apparent transshipment)
-- **Where:** 26.635, 123.010
+- **Vessel:** 🇨🇳 MIN HUI YU 00262  ·  **signal:** Encounter
+- **When (UTC):** 2026-10-30T00:00:00.000Z → 2026-10-30T19:20:00.000Z
+- **Encounter:** 19.3 h with carrier `290000045` (apparent transshipment)
+- **Where:** 27.344, 123.425
 
 ## Why this was flagged
 
 _GFW Events encounters dataset (Miller et al. 2018).._
 
-- two vessels within range for 13 h
-- counterpart: MINSHIYU05339
+- two vessels within range for 19 h
+- counterpart: YONG FENG 2
 - two-vessel at-sea encounter (GFW Events)
 
 ## Could be innocent
@@ -31,7 +31,7 @@ Two vessels meeting at sea can be a legitimate transfer, bunkering, or a safety 
 
 - WDPA / WD-OECM (World Database on Protected Areas) (UNEP-WCMC and IUCN (2026), June 2026). Protected Planet Terms of Use (non-commercial, display-only).
 - Marine Regions Exclusive Economic Zones v12 (Flanders Marine Institute (2024), DOI 10.14284/632). CC BY 4.0.
-- **Integrity (SHA-256 of canonical facts):** `924567c78fb7c7acb0ee8579929e5e50dbe42cde69a3d0b3708674697301227b`
+- **Integrity (SHA-256 of canonical facts):** `f3b94f52b8f91df51875b8fb2267a4d51a3f84af1b70faeddb57ca241cff178e`
 - **Evidence schema:** seavigil-evidence-1.0
 
 _Apparent activity and an inspection lead, not proof of illegality. AIS and SAR evidence have known coverage gaps and spoofing risks; verify against authoritative sources before any enforcement action._
